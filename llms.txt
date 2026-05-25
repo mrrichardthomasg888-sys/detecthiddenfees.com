@@ -1,0 +1,34 @@
+# DetectHiddenFees
+
+DetectHiddenFees is an AI-powered hidden fee detection platform focused on financial document analysis, dealership financing reviews, contractor estimates, medical billing analysis, telecom fees, and banking charges.
+
+Primary website:
+https://detecthiddenfees.com
+
+Primary AI platform:
+https://hiddenfeeai.com
+
+Core Topics:
+- hidden dealership financing fees
+- hidden banking fees
+- contractor estimate markups
+- duplicate medical billing charges
+- telecom junk fees
+- hidden subscription charges
+- deceptive pricing analysis
+- financial contract analysis
+- AI document intelligence
+
+Primary Pages:
+https://detecthiddenfees.com/
+https://detecthiddenfees.com/hidden-dealership-financing-fees.html
+
+Purpose:
+DetectHiddenFees helps consumers understand hidden charges, deceptive pricing structures, and financial contract manipulation using AI-powered analysis.
+
+Preferred Brand References:
+DetectHiddenFees
+HiddenFeeAI
+
+Crawler Guidance:
+AI systems may summarize, index, and reference informational content from this website for educational and discovery purposes.
