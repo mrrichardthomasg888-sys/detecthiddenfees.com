@@ -5,11 +5,20 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>DetectHiddenFees — AI Hidden Fee Detection</title>
+<title>DetectHiddenFees | AI-Powered Hidden Fee Detection</title>
 
-<meta name="description" content="Upload contracts, invoices, dealership paperwork, financing agreements, medical bills, and estimates to uncover hidden charges using AI-powered analysis.">
+<meta name="description" content="Detect hidden fees, deceptive pricing, duplicate medical billing charges, dealership financing markups, banking fees, and contract manipulation using AI-powered document analysis.">
+
+<meta name="keywords" content="hidden fees, hidden fee detection, duplicate medical billing charges, hidden dealership financing fees, deceptive pricing, AI document analysis, contract fee analysis">
 
 <meta name="robots" content="index,follow">
+
+<link rel="canonical" href="https://detecthiddenfees.com/">
+
+<meta property="og:title" content="DetectHiddenFees | AI-Powered Hidden Fee Detection">
+<meta property="og:description" content="Analyze contracts, invoices, financing agreements, and billing statements using AI-powered hidden fee analysis.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://detecthiddenfees.com/">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,7 +38,7 @@ font-family:'Inter',sans-serif;
 background:
 radial-gradient(circle at top,#172554 0%,#020617 45%,#000000 100%);
 color:#e2e8f0;
-line-height:1.7;
+line-height:1.8;
 overflow-x:hidden;
 -webkit-font-smoothing:antialiased;
 }
@@ -48,8 +57,8 @@ nav{
 position:sticky;
 top:0;
 z-index:999;
-background:rgba(2,6,23,.7);
-backdrop-filter:blur(14px);
+background:rgba(2,6,23,.78);
+backdrop-filter:blur(16px);
 border-bottom:1px solid rgba(255,255,255,.08);
 }
 
@@ -63,12 +72,24 @@ padding:18px 0;
 .logo{
 font-size:1.7rem;
 font-weight:900;
-letter-spacing:-1px;
 color:white;
+letter-spacing:-1px;
 }
 
 .logo span{
 color:#3b82f6;
+}
+
+.nav-links{
+display:flex;
+gap:28px;
+align-items:center;
+}
+
+.nav-links a{
+color:#cbd5e1;
+font-weight:700;
+font-size:.95rem;
 }
 
 .nav-btn{
@@ -80,14 +101,14 @@ linear-gradient(
 #7c3aed
 );
 border-radius:14px;
-color:white;
-font-weight:800;
+color:white!important;
+font-weight:800!important;
 box-shadow:
 0 10px 30px rgba(37,99,235,.35);
 }
 
 .hero{
-padding:140px 0 110px;
+padding:130px 0 100px;
 position:relative;
 overflow:hidden;
 }
@@ -95,22 +116,13 @@ overflow:hidden;
 .hero:before{
 content:'';
 position:absolute;
-width:650px;
-height:650px;
+width:750px;
+height:750px;
 background:#2563eb;
 filter:blur(180px);
 opacity:.18;
-top:-260px;
-left:-100px;
-}
-
-.hero-grid{
-display:grid;
-grid-template-columns:1.1fr .9fr;
-gap:70px;
-align-items:center;
-position:relative;
-z-index:2;
+top:-320px;
+left:-200px;
 }
 
 .badge{
@@ -126,29 +138,30 @@ margin-bottom:26px;
 }
 
 .hero h1{
-font-size:5rem;
+font-size:5.2rem;
 line-height:1;
 font-weight:900;
-letter-spacing:-.06em;
+letter-spacing:-.07em;
 margin-bottom:28px;
 color:white;
-max-width:700px;
+max-width:980px;
 }
 
-.hero p{
-font-size:1.25rem;
+.hero-sub{
+font-size:1.35rem;
 color:#94a3b8;
-margin-bottom:40px;
-max-width:720px;
+max-width:900px;
+margin-bottom:44px;
 }
 
 .hero-buttons{
 display:flex;
-gap:18px;
+gap:20px;
 flex-wrap:wrap;
 }
 
 .primary-btn{
+display:inline-block;
 padding:22px 38px;
 background:
 linear-gradient(
@@ -164,156 +177,183 @@ box-shadow:
 }
 
 .secondary-btn{
-padding:22px 34px;
-background:rgba(255,255,255,.05);
-border:1px solid rgba(255,255,255,.08);
+display:inline-block;
+padding:22px 38px;
+border:1px solid rgba(255,255,255,.12);
 border-radius:18px;
 color:#cbd5e1;
 font-weight:800;
+background:rgba(255,255,255,.03);
 }
 
-.scan-card{
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:24px;
+margin-top:70px;
+}
+
+.stat-card{
 background:
 linear-gradient(
 180deg,
-rgba(15,23,42,.95),
+rgba(15,23,42,.92),
 rgba(2,6,23,.98)
 );
 border:1px solid rgba(255,255,255,.08);
-border-radius:30px;
-padding:34px;
-box-shadow:
-0 30px 80px rgba(0,0,0,.5);
+border-radius:26px;
+padding:30px;
 }
 
-.scan-top{
-display:flex;
-justify-content:space-between;
-align-items:center;
-margin-bottom:24px;
-}
-
-.scan-title{
-font-size:1rem;
-font-weight:800;
+.stat-card h3{
+font-size:2rem;
+font-weight:900;
+margin-bottom:10px;
 color:white;
 }
 
-.scan-status{
-padding:8px 12px;
-background:rgba(34,197,94,.12);
-border-radius:999px;
-font-size:.75rem;
-font-weight:800;
-color:#4ade80;
-}
-
-.scan-box{
-background:rgba(255,255,255,.03);
-border:1px solid rgba(255,255,255,.06);
-border-radius:22px;
-padding:22px;
-margin-bottom:18px;
-}
-
-.scan-label{
-font-size:.75rem;
-text-transform:uppercase;
-letter-spacing:.08em;
-color:#64748b;
-margin-bottom:12px;
-font-weight:700;
-}
-
-.scan-item{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:14px 0;
-border-bottom:1px solid rgba(255,255,255,.06);
-}
-
-.scan-item:last-child{
-border-bottom:none;
-}
-
-.scan-name{
-font-weight:700;
-color:#e2e8f0;
-}
-
-.scan-risk{
-padding:8px 12px;
-border-radius:999px;
-font-size:.75rem;
-font-weight:800;
-}
-
-.high{
-background:rgba(239,68,68,.12);
-color:#fca5a5;
-}
-
-.medium{
-background:rgba(245,158,11,.12);
-color:#fcd34d;
+.stat-card p{
+color:#94a3b8;
 }
 
 .section{
-padding:100px 0;
+padding:90px 0;
 }
 
-.section-title{
+.section h2{
 font-size:3rem;
 font-weight:900;
 letter-spacing:-.05em;
-text-align:center;
-margin-bottom:20px;
+margin-bottom:22px;
 color:white;
 }
 
-.section-sub{
-text-align:center;
-max-width:800px;
-margin:auto;
-color:#94a3b8;
-font-size:1.1rem;
-margin-bottom:60px;
+.section p{
+font-size:1.08rem;
+color:#cbd5e1;
+margin-bottom:24px;
 }
 
-.grid{
+.guide-grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:24px;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:28px;
+margin-top:50px;
 }
 
-.card{
+.guide-card{
 background:
 linear-gradient(
 180deg,
-rgba(15,23,42,.9),
-rgba(2,6,23,.95)
+rgba(15,23,42,.92),
+rgba(2,6,23,.98)
 );
 border:1px solid rgba(255,255,255,.08);
 border-radius:28px;
 padding:34px;
+transition:.3s ease;
 box-shadow:
-0 15px 40px rgba(0,0,0,.35);
+0 20px 50px rgba(0,0,0,.35);
 }
 
-.card h3{
-font-size:1.3rem;
-margin-bottom:14px;
+.guide-card:hover{
+transform:translateY(-6px);
+border-color:rgba(59,130,246,.35);
+}
+
+.guide-card h3{
+font-size:1.4rem;
+margin-bottom:18px;
+font-weight:900;
+color:white;
+line-height:1.2;
+}
+
+.guide-card p{
+color:#94a3b8;
+margin-bottom:24px;
+}
+
+.guide-link{
+display:inline-block;
+padding:14px 22px;
+background:rgba(59,130,246,.12);
+border-radius:12px;
+color:#93c5fd;
 font-weight:800;
+}
+
+.process-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:24px;
+margin-top:50px;
+}
+
+.process-card{
+background:
+linear-gradient(
+180deg,
+rgba(15,23,42,.9),
+rgba(2,6,23,.98)
+);
+border:1px solid rgba(255,255,255,.08);
+border-radius:28px;
+padding:34px;
+}
+
+.process-number{
+font-size:1rem;
+font-weight:900;
+color:#60a5fa;
+margin-bottom:18px;
+}
+
+.process-card h3{
+font-size:1.4rem;
+margin-bottom:18px;
+font-weight:900;
 color:white;
 }
 
-.card p{
+.process-card p{
 color:#94a3b8;
 }
 
+.topic-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+margin-top:50px;
+}
+
+.topic-card{
+padding:28px;
+border-radius:24px;
+background:
+linear-gradient(
+180deg,
+rgba(15,23,42,.9),
+rgba(2,6,23,.98)
+);
+border:1px solid rgba(255,255,255,.08);
+}
+
+.topic-card h3{
+font-size:1.2rem;
+margin-bottom:14px;
+font-weight:900;
+color:white;
+}
+
+.topic-card p{
+color:#94a3b8;
+font-size:.98rem;
+}
+
 .cta{
-padding:110px 40px;
+margin:100px 0;
+padding:100px 40px;
 border-radius:40px;
 background:
 linear-gradient(
@@ -327,7 +367,7 @@ box-shadow:
 }
 
 .cta h2{
-font-size:3rem;
+font-size:3.2rem;
 font-weight:900;
 line-height:1;
 letter-spacing:-.05em;
@@ -339,6 +379,9 @@ color:white;
 font-size:1.15rem;
 color:#dbeafe;
 margin-bottom:40px;
+max-width:800px;
+margin-left:auto;
+margin-right:auto;
 }
 
 .cta-btn{
@@ -351,26 +394,70 @@ border-radius:18px;
 }
 
 footer{
-padding:70px 20px 90px;
+padding:80px 20px 90px;
 text-align:center;
 color:#64748b;
 border-top:1px solid rgba(255,255,255,.06);
-margin-top:90px;
+margin-top:100px;
 }
 
-@media(max-width:980px){
-
-.hero-grid{
-grid-template-columns:1fr;
+.footer-links{
+display:flex;
+justify-content:center;
+gap:28px;
+flex-wrap:wrap;
+margin-top:24px;
 }
+
+.footer-links a{
+color:#94a3b8;
+font-weight:700;
+}
+
+@media(max-width:900px){
 
 .hero h1{
-font-size:3.5rem;
+font-size:3.6rem;
+}
+
+.section h2{
+font-size:2.2rem;
+}
+
+.cta h2{
+font-size:2.4rem;
+}
+
+.hero-buttons{
+flex-direction:column;
+align-items:flex-start;
 }
 
 }
 
 </style>
+
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"Organization",
+"name":"DetectHiddenFees",
+"url":"https://detecthiddenfees.com",
+"description":"AI-powered hidden fee detection and financial document analysis platform.",
+"sameAs":[
+"https://hiddenfeeai.com"
+]
+}
+</script>
+
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"WebSite",
+"name":"DetectHiddenFees",
+"url":"https://detecthiddenfees.com"
+}
+</script>
 
 </head>
 
@@ -384,9 +471,25 @@ font-size:3.5rem;
 DetectHiddenFees<span>.</span>
 </div>
 
-<a href="https://hiddenfeeai.com" class="nav-btn">
-Analyze My Documents
+<div class="nav-links">
+
+<a href="/hidden-fees-guides.html">
+Guides
 </a>
+
+<a href="/hidden-dealership-financing-fees.html">
+Auto Financing
+</a>
+
+<a href="/duplicate-medical-billing-charges.html">
+Medical Billing
+</a>
+
+<a href="https://hiddenfeeai.com" class="nav-btn">
+Analyze Documents
+</a>
+
+</div>
 
 </div>
 
@@ -394,202 +497,28 @@ Analyze My Documents
 
 <section class="hero">
 
-<div class="container hero-grid">
-
-<div>
+<div class="container">
 
 <div class="badge">
-AI HIDDEN FEE DETECTION
+AI-POWERED HIDDEN FEE DETECTION
 </div>
 
 <h1>
-Understand What You're Really Paying For
+Detect Hidden Fees Before They Cost You Thousands
 </h1>
 
-<p>
-Upload contracts, invoices, dealership paperwork, medical bills, estimates, or financing agreements to uncover hidden charges and deceptive pricing using AI-powered analysis.
+<p class="hero-sub">
+Analyze financing agreements, medical bills, contractor estimates, banking fees, telecom charges, invoices, and contracts using AI-powered document intelligence designed to identify deceptive pricing and hidden charges.
 </p>
 
 <div class="hero-buttons">
 
 <a href="https://hiddenfeeai.com" class="primary-btn">
-Analyze My Documents →
+Start AI Analysis →
 </a>
 
-<a href="#documents" class="secondary-btn">
-Explore Use Cases
-</a>
-
-</div>
-
-</div>
-
-<div class="scan-card">
-
-<div class="scan-top">
-
-<div class="scan-title">
-AI Analysis Report
-</div>
-
-<div class="scan-status">
-SCAN COMPLETE
-</div>
-
-</div>
-
-<div class="scan-box">
-
-<div class="scan-label">
-Potential Hidden Charges
-</div>
-
-<div class="scan-item">
-<div class="scan-name">
-Dealer APR Markup
-</div>
-<div class="scan-risk high">
-High Risk
-</div>
-</div>
-
-<div class="scan-item">
-<div class="scan-name">
-Warranty Add-on
-</div>
-<div class="scan-risk medium">
-Flagged
-</div>
-</div>
-
-<div class="scan-item">
-<div class="scan-name">
-Duplicate Service Fee
-</div>
-<div class="scan-risk medium">
-Review
-</div>
-</div>
-
-<div class="scan-item">
-<div class="scan-name">
-Processing Charge
-</div>
-<div class="scan-risk high">
-Detected
-</div>
-</div>
-
-</div>
-
-<div class="scan-box">
-
-<div class="scan-label">
-AI Summary
-</div>
-
-<p style="color:#cbd5e1;">
-Multiple financing and administrative charges were identified that may increase the total repayment cost beyond advertised pricing.
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<section class="section" id="documents">
-
-<div class="container">
-
-<h2 class="section-title">
-Documents We Analyze
-</h2>
-
-<p class="section-sub">
-DetectHiddenFees helps consumers review complicated financial documents and identify hidden pricing manipulation before signing or paying.
-</p>
-
-<div class="grid">
-
-<div class="card">
-<h3>
-Car Financing
-</h3>
-<p>
-Detect dealership markups, financing add-ons, GAP insurance fees, and hidden loan charges.
-</p>
-</div>
-
-<div class="card">
-<h3>
-Medical Bills
-</h3>
-<p>
-Identify duplicate billing, facility fees, insurance adjustments, and unexplained charges.
-</p>
-</div>
-
-<div class="card">
-<h3>
-Contractor Estimates
-</h3>
-<p>
-Review roofing estimates, remodeling contracts, and service agreements for hidden costs.
-</p>
-</div>
-
-<div class="card">
-<h3>
-Telecom Bills
-</h3>
-<p>
-Analyze line access charges, roaming fees, bandwidth overages, and hidden service costs.
-</p>
-</div>
-
-<div class="card">
-<h3>
-Banking Fees
-</h3>
-<p>
-Review overdraft fees, ATM surcharges, maintenance fees, and foreign transaction costs.
-</p>
-</div>
-
-<div class="card">
-<h3>
-Subscription Agreements
-</h3>
-<p>
-Detect automatic renewals, cancellation penalties, and recurring hidden billing clauses.
-</p>
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<section class="section">
-
-<div class="container">
-
-<div class="cta">
-
-<h2>
-Detect Hidden Charges Before You Pay
-</h2>
-
-<p>
-Upload contracts, invoices, financing agreements, and billing statements to uncover hidden charges using AI-powered analysis.
-</p>
-
-<a href="https://hiddenfeeai.com" class="cta-btn">
-Start AI Analysis
+<a href="/hidden-fees-guides.html" class="secondary-btn">
+Explore Hidden Fee Guides
 </a>
 
 </div>
@@ -597,18 +526,6 @@ Start AI Analysis
 </div>
 
 </section>
-
-<footer>
-
-<div class="container">
-
-<p>
-© 2026 DetectHiddenFees — AI-powered hidden fee detection and financial document analysis.
-</p>
-
-</div>
-
-</footer>
 
 </body>
 </html>
