@@ -2,14 +2,12 @@
 <html lang="en">
 <head>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
 <title>Hidden Home Renovation Fees | DetectHiddenFees</title>
 
-<meta name="description" content="Detect hidden home renovation fees, contractor markups, inflated labor costs, and remodeling pricing scams using AI forensic analysis.">
-
-<link rel="canonical" href="https://detecthiddenfees.com/hidden-home-renovation-fees.html">
+<meta name="description" content="Detect hidden contractor fees, inflated renovation pricing, contractor markup scams, labor inflation, and dangerous change-order clauses using AI forensic analysis.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -20,46 +18,57 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
+-webkit-tap-highlight-color:transparent;
+}
+
+html{
+width:100%;
+overflow-x:hidden;
+scroll-behavior:smooth;
 }
 
 body{
 font-family:'Inter',sans-serif;
 background:#07111f;
-color:white;
+color:#fff;
+width:100%;
+max-width:100vw;
 overflow-x:hidden;
+position:relative;
 }
-
-/* BACKGROUND */
 
 .bg{
 position:fixed;
 inset:0;
-z-index:-2;
+z-index:-10;
 background:
-radial-gradient(circle at top,#2563eb22,transparent 35%),
+radial-gradient(circle at top,#2563eb25,transparent 30%),
 radial-gradient(circle at bottom right,#7c3aed22,transparent 35%),
-linear-gradient(180deg,#07111f,#091325,#0d1730);
+linear-gradient(180deg,#050b16,#08111f,#0b1730);
 }
 
-/* NAVBAR */
-
 nav{
+width:100%;
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:30px 7%;
+padding:24px 6%;
 position:sticky;
 top:0;
-backdrop-filter:blur(18px);
-background:rgba(5,10,20,0.7);
-border-bottom:1px solid rgba(255,255,255,0.05);
 z-index:999;
+backdrop-filter:blur(18px);
+background:rgba(5,10,20,0.72);
+border-bottom:1px solid rgba(255,255,255,0.05);
+overflow:hidden;
 }
 
 .logo{
-font-size:48px;
+font-size:clamp(38px,8vw,60px);
 font-weight:900;
-letter-spacing:-2px;
+letter-spacing:-3px;
+line-height:0.95;
+max-width:100%;
+word-break:break-word;
 }
 
 .logo span{
@@ -67,114 +76,119 @@ color:#4da3ff;
 }
 
 .nav-btn{
+display:flex;
+align-items:center;
+justify-content:center;
 text-decoration:none;
 color:white;
 background:linear-gradient(135deg,#2563eb,#7c3aed);
 padding:18px 28px;
-border-radius:22px;
-font-size:18px;
-font-weight:700;
-box-shadow:0 0 40px #2563eb55;
+border-radius:24px;
+font-size:20px;
+font-weight:800;
+box-shadow:0 0 45px rgba(79,70,229,0.45);
 transition:0.3s;
+white-space:nowrap;
 }
-
-.nav-btn:hover{
-transform:translateY(-4px);
-}
-
-/* HERO */
 
 .hero{
-padding:110px 7% 100px;
+width:100%;
+padding:90px 6% 80px;
 display:grid;
-grid-template-columns:1.1fr 0.9fr;
-gap:70px;
-align-items:center;
+grid-template-columns:1fr;
+gap:55px;
+overflow:hidden;
 }
 
 .hero-tag{
-display:inline-block;
-padding:14px 24px;
-border-radius:40px;
+display:inline-flex;
+align-items:center;
+padding:16px 26px;
+border-radius:50px;
 border:1px solid #2f6fff;
 background:#10203a;
-font-size:15px;
+font-size:14px;
 letter-spacing:1px;
-margin-bottom:35px;
 color:#8ec8ff;
+margin-bottom:34px;
+max-width:100%;
+overflow:hidden;
 }
 
 .hero h1{
-font-size:92px;
-line-height:0.92;
+font-size:clamp(52px,11vw,98px);
+line-height:0.9;
 font-weight:900;
 letter-spacing:-4px;
-margin-bottom:35px;
-max-width:850px;
+margin-bottom:36px;
+max-width:100%;
+word-break:break-word;
+overflow-wrap:anywhere;
 }
 
 .hero p{
-font-size:28px;
+font-size:clamp(22px,4vw,30px);
 line-height:1.7;
-color:#afbdd0;
-margin-bottom:45px;
-max-width:800px;
+color:#b4c2d4;
+margin-bottom:46px;
+max-width:100%;
 }
 
 .hero-buttons{
 display:flex;
-gap:20px;
 flex-wrap:wrap;
+gap:20px;
+width:100%;
+}
+
+.primary-btn,
+.secondary-btn{
+display:flex;
+align-items:center;
+justify-content:center;
+text-decoration:none;
+padding:24px 34px;
+border-radius:28px;
+font-size:22px;
+font-weight:800;
+transition:0.3s;
+width:100%;
+max-width:420px;
+text-align:center;
 }
 
 .primary-btn{
 background:linear-gradient(135deg,#2563eb,#7c3aed);
-padding:24px 42px;
-border-radius:24px;
-text-decoration:none;
 color:white;
-font-size:22px;
-font-weight:800;
-box-shadow:0 0 60px #4f46e555;
-transition:0.3s;
-}
-
-.primary-btn:hover{
-transform:translateY(-5px);
+box-shadow:0 0 60px rgba(79,70,229,0.45);
 }
 
 .secondary-btn{
 background:#101d31;
 border:1px solid #28476d;
-padding:24px 42px;
-border-radius:24px;
-text-decoration:none;
 color:white;
-font-size:22px;
-font-weight:700;
 }
-
-/* SIDE PANEL */
 
 .side-panel{
 background:linear-gradient(180deg,#0f1a2d,#091221);
-border:1px solid rgba(255,255,255,0.07);
-border-radius:36px;
-padding:45px;
+border:1px solid rgba(255,255,255,0.06);
+border-radius:38px;
+padding:34px;
+overflow:hidden;
 box-shadow:
-0 0 80px rgba(0,0,0,0.45),
-0 0 60px rgba(37,99,235,0.12);
+0 0 90px rgba(0,0,0,0.4),
+0 0 60px rgba(37,99,235,0.1);
 }
 
 .panel-label{
-font-size:15px;
+font-size:14px;
 letter-spacing:2px;
 color:#8dc7ff;
 margin-bottom:24px;
 }
 
 .panel-amount{
-font-size:86px;
+font-size:clamp(54px,10vw,92px);
 font-weight:900;
 margin-bottom:24px;
 background:linear-gradient(135deg,#ffffff,#60a5fa);
@@ -186,219 +200,99 @@ background:linear-gradient(135deg,#ffffff,#60a5fa);
 font-size:24px;
 line-height:1.7;
 color:#b4c2d4;
-margin-bottom:35px;
+margin-bottom:38px;
 }
 
-.metric{
-margin-bottom:24px;
-}
-
-.metric span{
-display:block;
-margin-bottom:10px;
-font-size:17px;
-color:#dbe7f5;
-}
-
-.bar{
-height:14px;
-background:#14243b;
-border-radius:30px;
+.section{
+padding:0 6% 90px;
+width:100%;
 overflow:hidden;
 }
 
-.fill{
-height:100%;
-border-radius:30px;
-}
-
-.fill1{
-width:84%;
-background:linear-gradient(90deg,#ff7a18,#ff3d71);
-}
-
-.fill2{
-width:69%;
-background:linear-gradient(90deg,#f59e0b,#ef4444);
-}
-
-.fill3{
-width:92%;
-background:linear-gradient(90deg,#7c3aed,#2563eb);
-}
-
-/* CONTENT */
-
-.section{
-padding:0 7% 90px;
-}
-
 .section-title{
-font-size:72px;
+font-size:clamp(44px,8vw,76px);
 font-weight:900;
 line-height:1;
-margin-bottom:30px;
 letter-spacing:-3px;
+margin-bottom:30px;
+word-break:break-word;
 }
 
 .section-sub{
-font-size:26px;
+font-size:clamp(22px,4vw,28px);
 line-height:1.8;
 color:#aebdd1;
-max-width:950px;
 margin-bottom:70px;
+max-width:100%;
 }
-
-/* CARDS */
 
 .cards{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-gap:30px;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:28px;
+width:100%;
 }
 
 .card{
 background:linear-gradient(180deg,#0c1729,#091220);
-border:1px solid rgba(255,255,255,0.06);
-border-radius:32px;
-padding:38px;
-transition:0.3s;
-}
-
-.card:hover{
-transform:translateY(-5px);
-border-color:#4da3ff;
-}
-
-.card-tag{
-display:inline-block;
-padding:10px 18px;
-border-radius:14px;
-background:#13233c;
-border:1px solid #2f5eff;
-font-size:14px;
-margin-bottom:22px;
-color:#8ec8ff;
+border:1px solid rgba(255,255,255,0.05);
+border-radius:34px;
+padding:36px;
+overflow:hidden;
 }
 
 .card h3{
 font-size:34px;
+line-height:1.15;
 margin-bottom:24px;
 }
 
 .card p{
 font-size:22px;
-line-height:1.7;
+line-height:1.75;
 color:#b4c2d4;
 }
 
-/* WARNING */
-
-.warning-box{
-background:linear-gradient(180deg,#1a0d16,#120d16);
-border:1px solid rgba(255,80,120,0.18);
-padding:50px;
-border-radius:36px;
-margin-top:60px;
-}
-
-.warning-box h2{
-font-size:52px;
-margin-bottom:26px;
-color:#ff7092;
-}
-
-.warning-box p{
-font-size:26px;
-line-height:1.8;
-color:#ffd7e1;
-}
-
-/* CTA */
-
 .final-cta{
-padding:120px 7%;
+padding:120px 6%;
 text-align:center;
+overflow:hidden;
 }
 
 .final-cta h2{
-font-size:82px;
-line-height:1;
+font-size:clamp(54px,10vw,88px);
+line-height:0.95;
 font-weight:900;
-margin-bottom:28px;
 letter-spacing:-4px;
+margin-bottom:30px;
 }
 
 .final-cta p{
-font-size:28px;
+font-size:clamp(22px,4vw,28px);
 line-height:1.8;
-max-width:900px;
-margin:0 auto 45px;
 color:#b3c1d4;
+max-width:950px;
+margin:0 auto 50px;
 }
-
-/* RELATED */
-
-.related{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-gap:24px;
-margin-top:60px;
-}
-
-.related a{
-text-decoration:none;
-color:white;
-padding:28px;
-border-radius:24px;
-background:#101b2f;
-border:1px solid rgba(255,255,255,0.06);
-font-size:22px;
-font-weight:700;
-transition:0.3s;
-}
-
-.related a:hover{
-transform:translateY(-5px);
-border-color:#4da3ff;
-}
-
-/* FOOTER */
 
 footer{
-padding:70px 7%;
+padding:70px 6%;
 text-align:center;
 border-top:1px solid rgba(255,255,255,0.05);
 font-size:18px;
 color:#8ea0b5;
 }
 
-/* MOBILE */
-
 @media(max-width:980px){
 
 nav{
 flex-direction:column;
-gap:22px;
 align-items:flex-start;
-}
-
-.logo{
-font-size:40px;
+gap:22px;
 }
 
 .hero{
-grid-template-columns:1fr;
 padding-top:70px;
-}
-
-.hero h1{
-font-size:62px;
-line-height:0.96;
-}
-
-.hero p{
-font-size:23px;
 }
 
 .hero-buttons{
@@ -409,23 +303,16 @@ flex-direction:column;
 .secondary-btn,
 .nav-btn{
 width:100%;
-text-align:center;
+max-width:100%;
 }
 
-.section-title{
-font-size:54px;
+.panel-text,
+.card p{
+font-size:21px;
 }
 
-.section-sub{
-font-size:23px;
-}
-
-.final-cta h2{
-font-size:56px;
-}
-
-.final-cta p{
-font-size:24px;
+.card h3{
+font-size:30px;
 }
 
 }
@@ -463,7 +350,7 @@ Hidden Home Renovation Fees Contractors Use To Inflate Project Costs
 </h1>
 
 <p>
-Contractor estimates frequently hide labor inflation, vague material charges, administrative surcharges, bundled material markups, and dangerous change-order loopholes capable of increasing renovation costs thousands of dollars beyond the original quote.
+Contractor estimates frequently contain buried labor inflation, vague material charges, administrative surcharges, bundled material markups, and dangerous change-order loopholes capable of increasing renovation costs thousands of dollars beyond the original quote.
 </p>
 
 <div class="hero-buttons">
@@ -491,28 +378,7 @@ AI FORENSIC DETECTION MATRIX
 </div>
 
 <div class="panel-text">
-Potential renovation overcharge exposure identified from contractor markup escalation, hidden labor padding, and bundled material inflation.
-</div>
-
-<div class="metric">
-<span>Material Markup Inflation</span>
-<div class="bar">
-<div class="fill fill1"></div>
-</div>
-</div>
-
-<div class="metric">
-<span>Administrative Fee Exposure</span>
-<div class="bar">
-<div class="fill fill2"></div>
-</div>
-</div>
-
-<div class="metric">
-<span>Change Order Manipulation Risk</span>
-<div class="bar">
-<div class="fill fill3"></div>
-</div>
+Potential contractor overcharge exposure identified from labor padding, material inflation, and pricing escalation hidden inside renovation agreements.
 </div>
 
 </div>
@@ -526,70 +392,31 @@ Common Hidden Contractor Charges
 </h2>
 
 <p class="section-sub">
-Many remodeling contracts contain intentionally vague pricing structures designed to conceal profit padding and post-project cost escalation.
+Many remodeling contracts intentionally use vague billing structures designed to conceal markup padding and post-project price escalation.
 </p>
 
 <div class="cards">
 
 <div class="card">
-
-<div class="card-tag">
-ADMIN SURCHARGE
-</div>
-
-<h3>
-Administrative Coordination Fees
-</h3>
-
+<h3>Administrative Coordination Fees</h3>
 <p>
-Many contractors charge flat office coordination fees even though scheduling, paperwork, and communication costs are already embedded inside hourly labor pricing.
+Many contractors charge flat office coordination fees even though scheduling, communication, and paperwork overhead is already embedded inside hourly labor pricing.
 </p>
-
 </div>
 
 <div class="card">
-
-<div class="card-tag">
-MATERIAL INFLATION
-</div>
-
-<h3>
-Hidden Material Markups
-</h3>
-
+<h3>Hidden Material Markups</h3>
 <p>
-Contractors frequently apply inflated markup percentages to retail materials while disguising costs using bundled supply terminology.
+Contractors frequently inflate retail material pricing while disguising profit padding through vague supply terminology and bundled inventory categories.
 </p>
-
 </div>
 
 <div class="card">
-
-<div class="card-tag">
-CHANGE ORDER RISK
-</div>
-
-<h3>
-Dangerous Contract Loopholes
-</h3>
-
+<h3>Dangerous Contract Loopholes</h3>
 <p>
-Vague change-order language can allow project pricing to escalate after construction begins without proper homeowner approval protections.
+Poorly written change-order clauses can allow contractors to escalate project pricing after work begins without meaningful homeowner protection.
 </p>
-
 </div>
-
-</div>
-
-<div class="warning-box">
-
-<h2>
-Warning Signs Of Renovation Estimate Manipulation
-</h2>
-
-<p>
-Be cautious when contractor agreements contain vague categories like “project coordination,” “market adjustment,” or “material fluctuation fees.”
-</p>
 
 </div>
 
@@ -605,36 +432,16 @@ Run An AI Renovation Fee Audit
 Upload contractor estimates, invoices, remodeling agreements, renovation quotes, or pricing documents to detect hidden charges and dangerous contract clauses before signing.
 </p>
 
+<div style="display:flex;justify-content:center;">
 <a href="/" class="primary-btn">
 Start Hidden Fee Scan
 </a>
-
-<div class="related">
-
-<a href="/hidden-dealership-financing-fees.html">
-Hidden Dealership Financing Fees
-</a>
-
-<a href="/duplicate-medical-billing-charges.html">
-Duplicate Medical Billing Charges
-</a>
-
-<a href="/hidden-bank-overdraft-fees.html">
-Hidden Bank Overdraft Fees
-</a>
-
-<a href="/hidden-fees-guides.html">
-Hidden Fee Ultimate Guides
-</a>
-
 </div>
 
 </section>
 
 <footer>
-
 DetectHiddenFees.com © 2026 — AI Forensic Fee Intelligence Platform
-
 </footer>
 
 </body>
