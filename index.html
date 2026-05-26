@@ -5,18 +5,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>DetectHiddenFees | AI-Powered Hidden Fee Detection</title>
+<title>DetectHiddenFees | AI-Powered Hidden Fee Detection & Financial Forensics</title>
 
-<meta name="description" content="Detect hidden fees, deceptive pricing, duplicate medical billing charges, dealership financing markups, banking fees, and contract manipulation using AI-powered document analysis.">
+<meta name="description" content="Detect hidden fees, deceptive pricing, HVAC contractor markups, renovation pricing manipulation, duplicate medical billing charges, dealership financing fees, banking overdraft traps, and contract manipulation using AI-powered forensic document analysis.">
 
-<meta name="keywords" content="hidden fees, hidden fee detection, duplicate medical billing charges, hidden dealership financing fees, deceptive pricing, AI document analysis, contract fee analysis">
+<meta name="keywords" content="hidden fees, AI hidden fee detection, HVAC contractor fees, renovation contractor pricing, duplicate medical billing charges, hidden dealership financing fees, deceptive pricing, AI document analysis, contract fee analysis">
 
 <meta name="robots" content="index,follow">
 
 <link rel="canonical" href="https://detecthiddenfees.com/">
 
 <meta property="og:title" content="DetectHiddenFees | AI-Powered Hidden Fee Detection">
-<meta property="og:description" content="Analyze contracts, invoices, financing agreements, and billing statements using AI-powered hidden fee analysis.">
+<meta property="og:description" content="Analyze contracts, invoices, financing agreements, HVAC proposals, renovation estimates, and billing statements using AI-powered hidden fee analysis.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://detecthiddenfees.com/">
 
@@ -33,13 +33,16 @@ padding:0;
 box-sizing:border-box;
 }
 
+html,body{
+overflow-x:hidden;
+}
+
 body{
 font-family:'Inter',sans-serif;
 background:
 radial-gradient(circle at top,#172554 0%,#020617 45%,#000000 100%);
 color:#e2e8f0;
 line-height:1.8;
-overflow-x:hidden;
 -webkit-font-smoothing:antialiased;
 }
 
@@ -57,7 +60,7 @@ nav{
 position:sticky;
 top:0;
 z-index:999;
-background:rgba(2,6,23,.78);
+background:rgba(2,6,23,.82);
 backdrop-filter:blur(16px);
 border-bottom:1px solid rgba(255,255,255,.08);
 }
@@ -66,6 +69,7 @@ border-bottom:1px solid rgba(255,255,255,.08);
 display:flex;
 justify-content:space-between;
 align-items:center;
+gap:16px;
 padding:18px 0;
 }
 
@@ -74,6 +78,7 @@ font-size:1.7rem;
 font-weight:900;
 color:white;
 letter-spacing:-1px;
+white-space:nowrap;
 }
 
 .logo span{
@@ -82,8 +87,10 @@ color:#3b82f6;
 
 .nav-links{
 display:flex;
-gap:28px;
+gap:18px;
 align-items:center;
+flex-wrap:wrap;
+justify-content:flex-end;
 }
 
 .nav-links a{
@@ -93,7 +100,7 @@ font-size:.95rem;
 }
 
 .nav-btn{
-padding:14px 24px;
+padding:14px 22px;
 background:
 linear-gradient(
 135deg,
@@ -105,10 +112,11 @@ color:white!important;
 font-weight:800!important;
 box-shadow:
 0 10px 30px rgba(37,99,235,.35);
+white-space:nowrap;
 }
 
 .hero{
-padding:130px 0 100px;
+padding:120px 0 100px;
 position:relative;
 overflow:hidden;
 }
@@ -135,11 +143,12 @@ font-size:.8rem;
 font-weight:800;
 color:#93c5fd;
 margin-bottom:26px;
+letter-spacing:.12em;
 }
 
 .hero h1{
-font-size:5.2rem;
-line-height:1;
+font-size:clamp(56px,8vw,92px);
+line-height:.95;
 font-weight:900;
 letter-spacing:-.07em;
 margin-bottom:28px;
@@ -148,10 +157,11 @@ max-width:980px;
 }
 
 .hero-sub{
-font-size:1.35rem;
+font-size:1.3rem;
 color:#94a3b8;
-max-width:900px;
+max-width:920px;
 margin-bottom:44px;
+line-height:1.9;
 }
 
 .hero-buttons{
@@ -201,8 +211,8 @@ rgba(15,23,42,.92),
 rgba(2,6,23,.98)
 );
 border:1px solid rgba(255,255,255,.08);
-border-radius:26px;
-padding:30px;
+border-radius:28px;
+padding:32px;
 }
 
 .stat-card h3{
@@ -226,12 +236,14 @@ font-weight:900;
 letter-spacing:-.05em;
 margin-bottom:22px;
 color:white;
+line-height:1;
 }
 
 .section p{
 font-size:1.08rem;
 color:#cbd5e1;
 margin-bottom:24px;
+line-height:1.95;
 }
 
 .guide-grid{
@@ -249,8 +261,8 @@ rgba(15,23,42,.92),
 rgba(2,6,23,.98)
 );
 border:1px solid rgba(255,255,255,.08);
-border-radius:28px;
-padding:34px;
+border-radius:30px;
+padding:36px;
 transition:.3s ease;
 box-shadow:
 0 20px 50px rgba(0,0,0,.35);
@@ -416,48 +428,50 @@ font-weight:700;
 
 @media(max-width:900px){
 
+.nav-wrap{
+flex-direction:column;
+align-items:flex-start;
+}
+
+.nav-links{
+width:100%;
+gap:12px;
+justify-content:flex-start;
+}
+
+.hero{
+padding:90px 0 70px;
+}
+
 .hero h1{
-font-size:3.6rem;
+font-size:3.7rem;
+line-height:.98;
 }
 
 .section h2{
-font-size:2.2rem;
+font-size:2.4rem;
 }
 
 .cta h2{
-font-size:2.4rem;
+font-size:2.5rem;
 }
 
 .hero-buttons{
 flex-direction:column;
 align-items:flex-start;
+width:100%;
+}
+
+.primary-btn,
+.secondary-btn,
+.nav-btn{
+width:100%;
+text-align:center;
 }
 
 }
 
 </style>
-
-<script type="application/ld+json">
-{
-"@context":"https://schema.org",
-"@type":"Organization",
-"name":"DetectHiddenFees",
-"url":"https://detecthiddenfees.com",
-"description":"AI-powered hidden fee detection and financial document analysis platform.",
-"sameAs":[
-"https://hiddenfeeai.com"
-]
-}
-</script>
-
-<script type="application/ld+json">
-{
-"@context":"https://schema.org",
-"@type":"WebSite",
-"name":"DetectHiddenFees",
-"url":"https://detecthiddenfees.com"
-}
-</script>
 
 </head>
 
@@ -475,6 +489,14 @@ DetectHiddenFees<span>.</span>
 
 <a href="/hidden-fees-guides.html">
 Guides
+</a>
+
+<a href="/hidden-hvac-contractor-fees.html">
+HVAC Fees
+</a>
+
+<a href="/hidden-home-renovation-fees.html">
+Renovation Fees
 </a>
 
 <a href="/hidden-dealership-financing-fees.html">
@@ -508,7 +530,7 @@ Detect Hidden Fees Before They Cost You Thousands
 </h1>
 
 <p class="hero-sub">
-Analyze financing agreements, medical bills, contractor estimates, banking fees, telecom charges, invoices, and contracts using AI-powered document intelligence designed to identify deceptive pricing and hidden charges.
+Analyze financing agreements, contractor estimates, HVAC proposals, renovation invoices, banking fees, dealership contracts, medical bills, telecom invoices, and consumer agreements using advanced AI-powered forensic pricing intelligence.
 </p>
 
 <div class="hero-buttons">
@@ -523,9 +545,206 @@ Explore Hidden Fee Guides
 
 </div>
 
+<div class="stats">
+
+<div class="stat-card">
+<h3>AI Contract Analysis</h3>
+<p>
+Analyze hidden pricing structures buried inside invoices, contracts, and financing agreements.
+</p>
+</div>
+
+<div class="stat-card">
+<h3>Forensic Fee Detection</h3>
+<p>
+Identify inflated contractor pricing, duplicate charges, financing manipulation, and deceptive billing.
+</p>
+</div>
+
+<div class="stat-card">
+<h3>Consumer Protection</h3>
+<p>
+Protect yourself from hidden fees before signing agreements or approving invoices.
+</p>
+</div>
+
+</div>
+
 </div>
 
 </section>
+
+<section class="section">
+
+<div class="container">
+
+<h2>
+Popular Hidden Fee Investigations
+</h2>
+
+<p>
+DetectHiddenFees investigates deceptive pricing systems used across HVAC installation contracts, home renovation projects, dealership financing agreements, medical billing statements, banking fee structures, and consumer financing systems.
+</p>
+
+<div class="guide-grid">
+
+<a class="guide-card" href="/hidden-hvac-contractor-fees.html">
+<h3>
+Hidden HVAC Contractor Fees
+</h3>
+<p>
+Learn how HVAC contractors inflate emergency service pricing, refrigerant charges, installation labor, permit fees, financing structures, and equipment pricing.
+</p>
+<div class="guide-link">
+Read Investigation →
+</div>
+</a>
+
+<a class="guide-card" href="/hidden-home-renovation-fees.html">
+<h3>
+Hidden Home Renovation Fees
+</h3>
+<p>
+Discover how contractors manipulate change orders, material billing, demolition costs, permit charges, subcontractor fees, and renovation pricing estimates.
+</p>
+<div class="guide-link">
+Read Investigation →
+</div>
+</a>
+
+<a class="guide-card" href="/hidden-dealership-financing-fees.html">
+<h3>
+Hidden Dealership Financing Fees
+</h3>
+<p>
+Analyze dealership financing manipulation involving hidden interest structures, document fees, GAP insurance inflation, and loan packing tactics.
+</p>
+<div class="guide-link">
+Read Investigation →
+</div>
+</a>
+
+<a class="guide-card" href="/duplicate-medical-billing-charges.html">
+<h3>
+Duplicate Medical Billing Charges
+</h3>
+<p>
+Investigate duplicate healthcare billing, coding manipulation, inflated medical charges, and insurance billing inconsistencies.
+</p>
+<div class="guide-link">
+Read Investigation →
+</div>
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="container">
+
+<h2>
+How DetectHiddenFees AI Works
+</h2>
+
+<div class="process-grid">
+
+<div class="process-card">
+<div class="process-number">
+STEP 01
+</div>
+<h3>
+Upload Your Documents
+</h3>
+<p>
+Upload financing contracts, HVAC proposals, renovation estimates, dealership agreements, invoices, medical bills, or banking documents.
+</p>
+</div>
+
+<div class="process-card">
+<div class="process-number">
+STEP 02
+</div>
+<h3>
+AI Pricing Investigation
+</h3>
+<p>
+The AI engine analyzes pricing structures, financing language, hidden fee indicators, duplicate charges, markup patterns, and suspicious billing systems.
+</p>
+</div>
+
+<div class="process-card">
+<div class="process-number">
+STEP 03
+</div>
+<h3>
+Receive Forensic Analysis
+</h3>
+<p>
+Receive detailed hidden fee intelligence exposing suspicious pricing structures and deceptive contract language.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="cta">
+
+<div class="container">
+
+<h2>
+Stop Hidden Fees Before They Drain Your Money
+</h2>
+
+<p>
+Upload financing contracts, renovation estimates, HVAC proposals, dealership documents, invoices, bank statements, and medical bills for advanced AI-powered hidden fee analysis.
+</p>
+
+<a href="https://hiddenfeeai.com" class="cta-btn">
+Analyze Documents With AI →
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<div class="container">
+
+<p>
+© 2026 DetectHiddenFees.com — AI-Powered Hidden Fee Intelligence Platform
+</p>
+
+<div class="footer-links">
+
+<a href="/hidden-fees-guides.html">
+Guides
+</a>
+
+<a href="/hidden-hvac-contractor-fees.html">
+HVAC Fees
+</a>
+
+<a href="/hidden-home-renovation-fees.html">
+Renovation Fees
+</a>
+
+<a href="/hidden-dealership-financing-fees.html">
+Auto Financing
+</a>
+
+</div>
+
+</div>
+
+</footer>
 
 </body>
 </html>
