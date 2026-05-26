@@ -2,71 +2,17 @@
 <html lang="en">
 <head>
 
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Hidden Home Renovation Fees & Contractor Markups | DetectHiddenFees</title>
+<title>Hidden Home Renovation Fees | DetectHiddenFees</title>
 
-<meta name="description" content="Learn how contractors hide renovation fees, inflate remodeling estimates, manipulate change orders, and bury markup charges inside construction contracts.">
+<meta name="description" content="Detect hidden home renovation fees, contractor markups, inflated labor costs, and remodeling pricing scams using AI forensic analysis.">
 
-<meta name="keywords" content="hidden renovation fees, contractor markup scams, remodeling estimate overcharges, hidden contractor costs, renovation pricing scams">
+<link rel="canonical" href="https://detecthiddenfees.com/hidden-home-renovation-fees.html">
 
-<link rel="canonical" href="https://detecthiddenfees.com/hidden-home-renovation-fees.html" />
-
-<meta property="og:title" content="Hidden Home Renovation Fees & Contractor Overcharges">
-<meta property="og:description" content="Detect hidden contractor fees, inflated labor costs, and suspicious renovation estimate markups before signing.">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://detecthiddenfees.com/hidden-home-renovation-fees.html">
-
-<script type="application/ld+json">
-{
-"@context":"https://schema.org",
-"@type":"Article",
-"headline":"Hidden Home Renovation Fees & Contractor Markups",
-"description":"Guide explaining contractor estimate inflation, hidden renovation costs, and remodeling fee manipulation.",
-"author":{
-"@type":"Organization",
-"name":"DetectHiddenFees"
-},
-"publisher":{
-"@type":"Organization",
-"name":"DetectHiddenFees"
-}
-}
-</script>
-
-<script type="application/ld+json">
-{
-"@context":"https://schema.org",
-"@type":"FAQPage",
-"mainEntity":[
-{
-"@type":"Question",
-"name":"What hidden fees do contractors add to renovation estimates?",
-"acceptedAnswer":{
-"@type":"Answer",
-"text":"Common hidden contractor fees include administrative surcharges, material markups, change order inflation, delivery fees, disposal charges, and vague project management costs."
-}
-},
-{
-"@type":"Question",
-"name":"How do contractors inflate remodeling costs?",
-"acceptedAnswer":{
-"@type":"Answer",
-"text":"Contractors may inflate labor hours, add unnecessary material charges, use vague pricing language, or insert change-order clauses allowing post-contract price increases."
-}
-},
-{
-"@type":"Question",
-"name":"Can AI detect renovation estimate overcharges?",
-"acceptedAnswer":{
-"@type":"Answer",
-"text":"AI document analysis systems can identify suspicious pricing discrepancies, duplicated charges, abnormal markups, and risky contract clauses inside renovation estimates."
-}
-}
-]
-}
-</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
 <style>
 
@@ -77,28 +23,41 @@ box-sizing:border-box;
 }
 
 body{
-font-family:Arial, sans-serif;
+font-family:'Inter',sans-serif;
 background:#07111f;
 color:white;
 overflow-x:hidden;
 }
 
-.hero{
-padding:140px 8%;
+/* BACKGROUND */
+
+.bg{
+position:fixed;
+inset:0;
+z-index:-2;
 background:
-radial-gradient(circle at top,#2146ff33,transparent 45%),
-linear-gradient(180deg,#07111f,#0d1b2e);
+radial-gradient(circle at top,#2563eb22,transparent 35%),
+radial-gradient(circle at bottom right,#7c3aed22,transparent 35%),
+linear-gradient(180deg,#07111f,#091325,#0d1730);
 }
 
-.topbar{
+/* NAVBAR */
+
+nav{
 display:flex;
 justify-content:space-between;
 align-items:center;
-margin-bottom:80px;
+padding:30px 7%;
+position:sticky;
+top:0;
+backdrop-filter:blur(18px);
+background:rgba(5,10,20,0.7);
+border-bottom:1px solid rgba(255,255,255,0.05);
+z-index:999;
 }
 
 .logo{
-font-size:54px;
+font-size:48px;
 font-weight:900;
 letter-spacing:-2px;
 }
@@ -107,174 +66,366 @@ letter-spacing:-2px;
 color:#4da3ff;
 }
 
-.audit-btn{
-background:linear-gradient(135deg,#3b82f6,#7c3aed);
-padding:24px 34px;
-border-radius:28px;
-font-size:24px;
-font-weight:700;
+.nav-btn{
 text-decoration:none;
 color:white;
-box-shadow:0 0 40px #3b82f666;
+background:linear-gradient(135deg,#2563eb,#7c3aed);
+padding:18px 28px;
+border-radius:22px;
+font-size:18px;
+font-weight:700;
+box-shadow:0 0 40px #2563eb55;
+transition:0.3s;
 }
 
-.badge{
+.nav-btn:hover{
+transform:translateY(-4px);
+}
+
+/* HERO */
+
+.hero{
+padding:110px 7% 100px;
+display:grid;
+grid-template-columns:1.1fr 0.9fr;
+gap:70px;
+align-items:center;
+}
+
+.hero-tag{
 display:inline-block;
-padding:16px 28px;
-border:1px solid #2f6fff;
+padding:14px 24px;
 border-radius:40px;
-margin-bottom:40px;
-font-size:20px;
-color:#7ec8ff;
-background:#0f2037;
+border:1px solid #2f6fff;
+background:#10203a;
+font-size:15px;
+letter-spacing:1px;
+margin-bottom:35px;
+color:#8ec8ff;
 }
 
 .hero h1{
-font-size:96px;
-line-height:0.9;
-max-width:900px;
+font-size:92px;
+line-height:0.92;
 font-weight:900;
-margin-bottom:40px;
+letter-spacing:-4px;
+margin-bottom:35px;
+max-width:850px;
 }
 
 .hero p{
-font-size:32px;
-line-height:1.6;
-max-width:900px;
-color:#a9bbd1;
-}
-
-.section{
-padding:100px 8%;
-}
-
-.card{
-background:#0b1727;
-border:1px solid #173052;
-border-radius:40px;
-padding:50px;
-margin-bottom:40px;
-box-shadow:0 0 50px #00000055;
-}
-
-.card h2{
-font-size:54px;
-margin-bottom:30px;
-}
-
-.card p{
 font-size:28px;
-line-height:1.8;
-color:#b6c5d7;
+line-height:1.7;
+color:#afbdd0;
+margin-bottom:45px;
+max-width:800px;
 }
 
-.risk-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-gap:30px;
-margin-top:40px;
+.hero-buttons{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
 }
 
-.risk-box{
-background:#101d31;
-border:1px solid #294d83;
-border-radius:30px;
-padding:35px;
-}
-
-.risk-box h3{
-font-size:34px;
-margin-bottom:20px;
-}
-
-.risk-box p{
-font-size:24px;
-line-height:1.6;
-color:#b7c6d8;
-}
-
-.warning{
-color:#ff5c7a;
-font-weight:800;
-}
-
-.success{
-color:#38ffb3;
-font-weight:800;
-}
-
-.cta{
-margin-top:80px;
-text-align:center;
-}
-
-.cta a{
-display:inline-block;
-padding:30px 60px;
-font-size:30px;
-font-weight:800;
-border-radius:30px;
+.primary-btn{
 background:linear-gradient(135deg,#2563eb,#7c3aed);
-color:white;
-text-decoration:none;
-box-shadow:0 0 60px #4f46e588;
-}
-
-.links{
-margin-top:80px;
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-gap:25px;
-}
-
-.links a{
-background:#101c2f;
-padding:28px;
+padding:24px 42px;
 border-radius:24px;
 text-decoration:none;
 color:white;
 font-size:22px;
-border:1px solid #233f63;
+font-weight:800;
+box-shadow:0 0 60px #4f46e555;
 transition:0.3s;
 }
 
-.links a:hover{
-transform:translateY(-6px);
+.primary-btn:hover{
+transform:translateY(-5px);
+}
+
+.secondary-btn{
+background:#101d31;
+border:1px solid #28476d;
+padding:24px 42px;
+border-radius:24px;
+text-decoration:none;
+color:white;
+font-size:22px;
+font-weight:700;
+}
+
+/* SIDE PANEL */
+
+.side-panel{
+background:linear-gradient(180deg,#0f1a2d,#091221);
+border:1px solid rgba(255,255,255,0.07);
+border-radius:36px;
+padding:45px;
+box-shadow:
+0 0 80px rgba(0,0,0,0.45),
+0 0 60px rgba(37,99,235,0.12);
+}
+
+.panel-label{
+font-size:15px;
+letter-spacing:2px;
+color:#8dc7ff;
+margin-bottom:24px;
+}
+
+.panel-amount{
+font-size:86px;
+font-weight:900;
+margin-bottom:24px;
+background:linear-gradient(135deg,#ffffff,#60a5fa);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.panel-text{
+font-size:24px;
+line-height:1.7;
+color:#b4c2d4;
+margin-bottom:35px;
+}
+
+.metric{
+margin-bottom:24px;
+}
+
+.metric span{
+display:block;
+margin-bottom:10px;
+font-size:17px;
+color:#dbe7f5;
+}
+
+.bar{
+height:14px;
+background:#14243b;
+border-radius:30px;
+overflow:hidden;
+}
+
+.fill{
+height:100%;
+border-radius:30px;
+}
+
+.fill1{
+width:84%;
+background:linear-gradient(90deg,#ff7a18,#ff3d71);
+}
+
+.fill2{
+width:69%;
+background:linear-gradient(90deg,#f59e0b,#ef4444);
+}
+
+.fill3{
+width:92%;
+background:linear-gradient(90deg,#7c3aed,#2563eb);
+}
+
+/* CONTENT */
+
+.section{
+padding:0 7% 90px;
+}
+
+.section-title{
+font-size:72px;
+font-weight:900;
+line-height:1;
+margin-bottom:30px;
+letter-spacing:-3px;
+}
+
+.section-sub{
+font-size:26px;
+line-height:1.8;
+color:#aebdd1;
+max-width:950px;
+margin-bottom:70px;
+}
+
+/* CARDS */
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:30px;
+}
+
+.card{
+background:linear-gradient(180deg,#0c1729,#091220);
+border:1px solid rgba(255,255,255,0.06);
+border-radius:32px;
+padding:38px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
 border-color:#4da3ff;
 }
 
-footer{
-padding:80px 8%;
-border-top:1px solid #20344f;
-color:#8aa0b8;
-font-size:20px;
+.card-tag{
+display:inline-block;
+padding:10px 18px;
+border-radius:14px;
+background:#13233c;
+border:1px solid #2f5eff;
+font-size:14px;
+margin-bottom:22px;
+color:#8ec8ff;
 }
 
-@media(max-width:900px){
-
-.hero h1{
-font-size:64px;
-}
-
-.hero p{
-font-size:24px;
-}
-
-.logo{
-font-size:42px;
-}
-
-.audit-btn{
-font-size:20px;
-padding:20px 28px;
-}
-
-.card h2{
-font-size:40px;
+.card h3{
+font-size:34px;
+margin-bottom:24px;
 }
 
 .card p{
+font-size:22px;
+line-height:1.7;
+color:#b4c2d4;
+}
+
+/* WARNING */
+
+.warning-box{
+background:linear-gradient(180deg,#1a0d16,#120d16);
+border:1px solid rgba(255,80,120,0.18);
+padding:50px;
+border-radius:36px;
+margin-top:60px;
+}
+
+.warning-box h2{
+font-size:52px;
+margin-bottom:26px;
+color:#ff7092;
+}
+
+.warning-box p{
+font-size:26px;
+line-height:1.8;
+color:#ffd7e1;
+}
+
+/* CTA */
+
+.final-cta{
+padding:120px 7%;
+text-align:center;
+}
+
+.final-cta h2{
+font-size:82px;
+line-height:1;
+font-weight:900;
+margin-bottom:28px;
+letter-spacing:-4px;
+}
+
+.final-cta p{
+font-size:28px;
+line-height:1.8;
+max-width:900px;
+margin:0 auto 45px;
+color:#b3c1d4;
+}
+
+/* RELATED */
+
+.related{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:24px;
+margin-top:60px;
+}
+
+.related a{
+text-decoration:none;
+color:white;
+padding:28px;
+border-radius:24px;
+background:#101b2f;
+border:1px solid rgba(255,255,255,0.06);
+font-size:22px;
+font-weight:700;
+transition:0.3s;
+}
+
+.related a:hover{
+transform:translateY(-5px);
+border-color:#4da3ff;
+}
+
+/* FOOTER */
+
+footer{
+padding:70px 7%;
+text-align:center;
+border-top:1px solid rgba(255,255,255,0.05);
+font-size:18px;
+color:#8ea0b5;
+}
+
+/* MOBILE */
+
+@media(max-width:980px){
+
+nav{
+flex-direction:column;
+gap:22px;
+align-items:flex-start;
+}
+
+.logo{
+font-size:40px;
+}
+
+.hero{
+grid-template-columns:1fr;
+padding-top:70px;
+}
+
+.hero h1{
+font-size:62px;
+line-height:0.96;
+}
+
+.hero p{
 font-size:23px;
+}
+
+.hero-buttons{
+flex-direction:column;
+}
+
+.primary-btn,
+.secondary-btn,
+.nav-btn{
+width:100%;
+text-align:center;
+}
+
+.section-title{
+font-size:54px;
+}
+
+.section-sub{
+font-size:23px;
+}
+
+.final-cta h2{
+font-size:56px;
+}
+
+.final-cta p{
+font-size:24px;
 }
 
 }
@@ -285,147 +436,180 @@ font-size:23px;
 
 <body>
 
-<section class="hero">
+<div class="bg"></div>
 
-<div class="topbar">
+<nav>
 
 <div class="logo">
 DetectHiddenFees<span>.</span>
 </div>
 
-<a class="audit-btn" href="/">
+<a href="/" class="nav-btn">
 Analyze My Documents
 </a>
 
-</div>
+</nav>
 
-<div class="badge">
+<section class="hero">
+
+<div>
+
+<div class="hero-tag">
 HOME RENOVATION FORENSIC ANALYSIS
 </div>
 
 <h1>
-Hidden Home Renovation Fees Contractors Hope You Never Notice
+Hidden Home Renovation Fees Contractors Use To Inflate Project Costs
 </h1>
 
 <p>
-Contractor estimates frequently contain buried labor inflation, vague material charges, change-order traps, administrative surcharges, and pricing loopholes capable of increasing renovation costs thousands of dollars beyond the original quote.
+Contractor estimates frequently hide labor inflation, vague material charges, administrative surcharges, bundled material markups, and dangerous change-order loopholes capable of increasing renovation costs thousands of dollars beyond the original quote.
 </p>
+
+<div class="hero-buttons">
+
+<a href="/" class="primary-btn">
+Scan Renovation Estimate
+</a>
+
+<a href="/hidden-fees-guides.html" class="secondary-btn">
+Explore Hidden Fee Guides
+</a>
+
+</div>
+
+</div>
+
+<div class="side-panel">
+
+<div class="panel-label">
+AI FORENSIC DETECTION MATRIX
+</div>
+
+<div class="panel-amount">
++$4,850
+</div>
+
+<div class="panel-text">
+Potential renovation overcharge exposure identified from contractor markup escalation, hidden labor padding, and bundled material inflation.
+</div>
+
+<div class="metric">
+<span>Material Markup Inflation</span>
+<div class="bar">
+<div class="fill fill1"></div>
+</div>
+</div>
+
+<div class="metric">
+<span>Administrative Fee Exposure</span>
+<div class="bar">
+<div class="fill fill2"></div>
+</div>
+</div>
+
+<div class="metric">
+<span>Change Order Manipulation Risk</span>
+<div class="bar">
+<div class="fill fill3"></div>
+</div>
+</div>
+
+</div>
 
 </section>
 
 <section class="section">
 
-<div class="card">
-
-<h2>
-How Hidden Renovation Fees Work
+<h2 class="section-title">
+Common Hidden Contractor Charges
 </h2>
 
-<p>
-Many remodeling estimates intentionally use generalized pricing structures designed to conceal profit padding. Homeowners often focus only on the total project price while overlooking line-item ambiguities buried deep inside contractor agreements and material schedules.
+<p class="section-sub">
+Many remodeling contracts contain intentionally vague pricing structures designed to conceal profit padding and post-project cost escalation.
 </p>
 
+<div class="cards">
+
+<div class="card">
+
+<div class="card-tag">
+ADMIN SURCHARGE
 </div>
-
-<div class="risk-grid">
-
-<div class="risk-box">
 
 <h3>
 Administrative Coordination Fees
 </h3>
 
 <p>
-Flat contractor office fees frequently duplicate labor overhead already embedded inside hourly service rates.
+Many contractors charge flat office coordination fees even though scheduling, paperwork, and communication costs are already embedded inside hourly labor pricing.
 </p>
 
 </div>
-
-<div class="risk-box">
-
-<h3>
-Material Markup Inflation
-</h3>
-
-<p>
-Contractors may apply excessive markup percentages to retail materials while disguising pricing under bundled supply terminology.
-</p>
-
-</div>
-
-<div class="risk-box">
-
-<h3>
-Change Order Loopholes
-</h3>
-
-<p>
-Vague contract language can allow project pricing to escalate mid-renovation without clear approval requirements.
-</p>
-
-</div>
-
-</div>
-
-</section>
-
-<section class="section">
 
 <div class="card">
 
+<div class="card-tag">
+MATERIAL INFLATION
+</div>
+
+<h3>
+Hidden Material Markups
+</h3>
+
+<p>
+Contractors frequently apply inflated markup percentages to retail materials while disguising costs using bundled supply terminology.
+</p>
+
+</div>
+
+<div class="card">
+
+<div class="card-tag">
+CHANGE ORDER RISK
+</div>
+
+<h3>
+Dangerous Contract Loopholes
+</h3>
+
+<p>
+Vague change-order language can allow project pricing to escalate after construction begins without proper homeowner approval protections.
+</p>
+
+</div>
+
+</div>
+
+<div class="warning-box">
+
 <h2>
-Common Contractor Pricing Red Flags
+Warning Signs Of Renovation Estimate Manipulation
 </h2>
 
 <p>
-<span class="warning">WARNING:</span>
-Be cautious when renovation estimates contain broad descriptions such as “miscellaneous recovery,” “environmental processing,” “coordination,” “project administration,” or “market fluctuation adjustment.”
-</p>
-
-<br><br>
-
-<p>
-<span class="success">SMART NEGOTIATION:</span>
-Request fully itemized material invoices, labor hour breakdowns, supplier receipts, and written approval requirements for all change orders before signing any construction agreement.
+Be cautious when contractor agreements contain vague categories like “project coordination,” “market adjustment,” or “material fluctuation fees.”
 </p>
 
 </div>
 
 </section>
 
-<section class="section">
-
-<div class="card">
+<section class="final-cta">
 
 <h2>
-AI Renovation Estimate Analysis
+Run An AI Renovation Fee Audit
 </h2>
 
 <p>
-Modern AI forensic document analysis systems can identify abnormal contractor pricing behavior, markup inconsistencies, suspicious clauses, duplicated line items, and hidden fee structures across renovation estimates and remodeling contracts.
+Upload contractor estimates, invoices, remodeling agreements, renovation quotes, or pricing documents to detect hidden charges and dangerous contract clauses before signing.
 </p>
 
-<div class="cta">
-
-<a href="/">
-Run Hidden Fee Scan
+<a href="/" class="primary-btn">
+Start Hidden Fee Scan
 </a>
 
-</div>
-
-</div>
-
-</section>
-
-<section class="section">
-
-<div class="card">
-
-<h2>
-Related Hidden Fee Guides
-</h2>
-
-<div class="links">
+<div class="related">
 
 <a href="/hidden-dealership-financing-fees.html">
 Hidden Dealership Financing Fees
@@ -440,10 +624,8 @@ Hidden Bank Overdraft Fees
 </a>
 
 <a href="/hidden-fees-guides.html">
-Hidden Fees Ultimate Guides
+Hidden Fee Ultimate Guides
 </a>
-
-</div>
 
 </div>
 
@@ -451,7 +633,7 @@ Hidden Fees Ultimate Guides
 
 <footer>
 
-DetectHiddenFees.com © 2026 — AI Hidden Fee Detection & Forensic Pricing Intelligence
+DetectHiddenFees.com © 2026 — AI Forensic Fee Intelligence Platform
 
 </footer>
 
