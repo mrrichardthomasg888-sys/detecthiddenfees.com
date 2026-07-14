@@ -1,4 +1,74 @@
+# Allow all search engines and AI crawlers
 User-agent: *
 Allow: /
 
+# OpenAI / ChatGPT
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic Claude
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Google AI
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+# Microsoft AI / Copilot
+User-agent: Bingbot
+Allow: /
+
+User-agent: BingPreview
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Amazon AI
+User-agent: Amazonbot
+Allow: /
+
+# Meta AI
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# Apple AI
+User-agent: Applebot-Extended
+Allow: /
+
+# ByteDance / TikTok AI
+User-agent: Bytespider
+Allow: /
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+
+# Common Crawl (used for AI datasets)
+User-agent: CCBot
+Allow: /
+
+# You.com AI
+User-agent: YouBot
+Allow: /
+
+# Diffbot AI
+User-agent: Diffbot
+Allow: /
+
+# Mistral AI
+User-agent: MistralAI-User
+Allow: /
+
+# Include sitemap
 Sitemap: https://detecthiddenfees.com/sitemap.xml
