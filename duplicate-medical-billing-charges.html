@@ -195,12 +195,12 @@ border-bottom:1px solid rgba(255,255,255,.08);
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:14px 0;
-gap:12px;
+padding:12px 0;
+gap:10px;
 }
 
 .logo{
-font-size:1.6rem;
+font-size:1.5rem;
 font-weight:900;
 color:white;
 letter-spacing:-1px;
@@ -214,7 +214,7 @@ color:#38bdf8;
 
 .nav-links{
 display:flex;
-gap:8px;
+gap:6px;
 align-items:center;
 flex-wrap:wrap;
 justify-content:flex-end;
@@ -223,8 +223,8 @@ justify-content:flex-end;
 .nav-links a{
 color:#cbd5e1;
 font-weight:600;
-font-size:.85rem;
-padding:4px 6px;
+font-size:.82rem;
+padding:4px 5px;
 white-space:nowrap;
 transition:color 0.2s;
 }
@@ -234,18 +234,18 @@ color:#ffffff;
 }
 
 .nav-btn{
-padding:10px 18px;
+padding:8px 16px;
 background:linear-gradient(135deg,#0ea5e9,#2563eb);
-border-radius:14px;
+border-radius:12px;
 color:white !important;
 font-weight:700 !important;
-font-size:.82rem !important;
-box-shadow:0 10px 30px rgba(14,165,233,.35);
+font-size:.78rem !important;
+box-shadow:0 8px 24px rgba(14,165,233,.3);
 white-space:nowrap;
 }
 
 .hero{
-padding:100px 0 80px;
+padding:32px 0 60px;
 position:relative;
 overflow:hidden;
 }
@@ -264,68 +264,69 @@ left:-120px;
 
 .badge{
 display:inline-block;
-padding:10px 18px;
+padding:8px 16px;
 background:rgba(14,165,233,.12);
 border:1px solid rgba(14,165,233,.22);
 border-radius:999px;
-font-size:.8rem;
+font-size:.75rem;
 font-weight:800;
 color:#7dd3fc;
-margin-bottom:26px;
+margin-bottom:18px;
 letter-spacing:.05em;
+text-transform:uppercase;
 }
 
 .hero h1{
-font-size:clamp(3.2rem, 6vw, 4.6rem);
+font-size:clamp(2.8rem, 5.5vw, 4.2rem);
 line-height:1.05;
 font-weight:900;
 letter-spacing:-.04em;
-margin-bottom:22px;
+margin-bottom:18px;
 color:white;
 max-width:900px;
 }
 
 .hero-sub{
-font-size:1.25rem;
+font-size:1.15rem;
 color:#cbd5e1;
 max-width:850px;
-margin-bottom:28px;
+margin-bottom:22px;
 line-height:1.9;
 }
 
 .primary-btn{
 display:inline-block;
-padding:20px 36px;
+padding:18px 32px;
 background:linear-gradient(135deg,#0ea5e9,#2563eb);
-border-radius:18px;
+border-radius:16px;
 color:white;
 font-weight:800;
-font-size:1.05rem;
-box-shadow:0 20px 60px rgba(14,165,233,.35);
+font-size:1rem;
+box-shadow:0 16px 50px rgba(14,165,233,.35);
 transition:transform 0.25s, box-shadow 0.3s;
 }
 
 .primary-btn:hover{
 transform:translateY(-3px);
-box-shadow:0 30px 80px rgba(14,165,233,.5);
+box-shadow:0 24px 70px rgba(14,165,233,.5);
 }
 
 .trust-bar{
 display:flex;
 flex-wrap:wrap;
-gap:12px 28px;
-margin:20px 0 30px 0;
-padding:14px 20px;
+gap:8px 20px;
+margin:16px 0 24px 0;
+padding:12px 18px;
 background:rgba(255,255,255,.04);
-border-radius:16px;
+border-radius:14px;
 border:1px solid rgba(255,255,255,.06);
 }
 
 .trust-bar span{
 display:flex;
 align-items:center;
-gap:8px;
-font-size:.9rem;
+gap:6px;
+font-size:.85rem;
 font-weight:500;
 color:#94a3b8;
 }
@@ -344,44 +345,50 @@ rgba(15,23,42,.92),
 rgba(2,6,23,.98)
 );
 border:1px solid rgba(255,255,255,.08);
-border-radius:28px;
-padding:36px;
-margin-top:40px;
+border-radius:24px;
+padding:28px 32px;
+margin-top:28px;
 box-shadow:
 0 20px 60px rgba(0,0,0,.4);
 }
 
 .quick-answer h2{
-font-size:1.5rem;
-margin-bottom:18px;
+font-size:1.4rem;
+margin-bottom:14px;
 font-weight:900;
 color:white;
 }
 
+.quick-answer p{
+font-size:1.05rem;
+color:#cbd5e1;
+line-height:1.9;
+}
+
 .section{
-padding:60px 0;
+padding:50px 0;
 }
 
 .section h2{
-font-size:clamp(2.2rem, 5vw, 3.2rem);
+font-size:clamp(2rem, 4.5vw, 2.8rem);
 font-weight:900;
 letter-spacing:-.04em;
-margin-bottom:20px;
+margin-bottom:18px;
 color:white;
 }
 
 .section p{
-margin-bottom:24px;
-font-size:1.08rem;
+margin-bottom:20px;
+font-size:1.05rem;
 color:#cbd5e1;
 line-height:2;
 }
 
 .card-grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:24px;
-margin-top:40px;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:20px;
+margin-top:32px;
 }
 
 .card{
@@ -392,8 +399,8 @@ rgba(15,23,42,.9),
 rgba(2,6,23,.95)
 );
 border:1px solid rgba(255,255,255,.08);
-border-radius:24px;
-padding:30px;
+border-radius:22px;
+padding:26px 28px;
 transition:transform 0.3s, border-color 0.3s;
 }
 
@@ -403,15 +410,15 @@ border-color:rgba(14,165,233,.3);
 }
 
 .card h3{
-margin-bottom:14px;
-font-size:1.2rem;
+margin-bottom:12px;
+font-size:1.15rem;
 font-weight:800;
 color:white;
 }
 
 .card p{
 color:#94a3b8;
-font-size:1rem;
+font-size:.95rem;
 line-height:1.8;
 }
 
@@ -419,20 +426,20 @@ line-height:1.8;
 background:rgba(239,68,68,.08);
 border:1px solid rgba(239,68,68,.25);
 border-left:5px solid #ef4444;
-padding:30px;
-border-radius:20px;
-margin:40px 0;
+padding:24px 28px;
+border-radius:18px;
+margin:32px 0;
 }
 
 .warning-box h3{
 color:#fca5a5;
-margin-bottom:14px;
-font-size:1.3rem;
+margin-bottom:12px;
+font-size:1.2rem;
 }
 
 .warning-box p{
 color:#cbd5e1;
-font-size:1.05rem;
+font-size:1rem;
 }
 
 .scan-panel{
@@ -443,17 +450,17 @@ rgba(15,23,42,.95),
 rgba(2,6,23,.98)
 );
 border:1px solid rgba(255,255,255,.08);
-border-radius:28px;
-padding:36px;
-margin:60px 0;
+border-radius:24px;
+padding:30px 32px;
+margin:48px 0;
 box-shadow:
 0 30px 80px rgba(0,0,0,.45);
 }
 
 .scan-title{
-font-size:1.3rem;
+font-size:1.2rem;
 font-weight:900;
-margin-bottom:26px;
+margin-bottom:20px;
 color:white;
 }
 
@@ -461,7 +468,7 @@ color:white;
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:18px 0;
+padding:14px 0;
 border-bottom:1px solid rgba(255,255,255,.06);
 }
 
@@ -472,12 +479,13 @@ border-bottom:none;
 .scan-name{
 font-weight:700;
 color:#e2e8f0;
+font-size:1rem;
 }
 
 .scan-risk{
-padding:8px 12px;
+padding:6px 12px;
 border-radius:999px;
-font-size:.75rem;
+font-size:.7rem;
 font-weight:800;
 }
 
@@ -498,65 +506,65 @@ color:#6ee7b7;
 
 /* Negotiation Leverage Section */
 .leverage-section{
-margin:50px 0 30px 0;
-padding:40px 36px;
-border-radius:28px;
+margin:40px 0 24px 0;
+padding:32px 32px;
+border-radius:24px;
 background:linear-gradient(135deg, rgba(14,165,233,0.12), rgba(37,99,235,0.12));
 border:1px solid rgba(255,255,255,.08);
 }
 
 .leverage-section h2{
-font-size:clamp(2rem, 4.5vw, 2.8rem);
+font-size:clamp(1.8rem, 4vw, 2.5rem);
 font-weight:900;
 color:white;
-margin-bottom:16px;
+margin-bottom:14px;
 letter-spacing:-.02em;
 }
 
 .leverage-section p{
 color:#cbd5e1;
-font-size:1.08rem;
+font-size:1.05rem;
 line-height:2;
 max-width:800px;
-margin-bottom:20px;
+margin-bottom:16px;
 }
 
 .leverage-grid{
 display:grid;
 grid-template-columns:1fr 1fr;
-gap:12px 28px;
-margin:20px 0 24px 0;
+gap:10px 24px;
+margin:16px 0 20px 0;
 }
 
 .leverage-grid span{
 display:flex;
 align-items:center;
-gap:10px;
-font-size:1rem;
+gap:8px;
+font-size:.95rem;
 color:#cbd5e1;
 }
 
 .leverage-grid span::before{
 content:"❓";
-font-size:1.1rem;
+font-size:1rem;
 }
 
 /* Privacy Section */
 .privacy-section{
-margin:40px 0 20px 0;
-padding:28px 32px;
-border-radius:24px;
+margin:32px 0 16px 0;
+padding:24px 28px;
+border-radius:20px;
 background:rgba(255,255,255,.03);
 border:1px solid rgba(255,255,255,.06);
 display:flex;
 flex-wrap:wrap;
 align-items:center;
 justify-content:space-between;
-gap:16px;
+gap:14px;
 }
 
 .privacy-section h4{
-font-size:1.1rem;
+font-size:1.05rem;
 font-weight:700;
 color:white;
 display:flex;
@@ -567,11 +575,11 @@ gap:10px;
 .privacy-bullets{
 display:flex;
 flex-wrap:wrap;
-gap:8px 24px;
+gap:6px 20px;
 }
 
 .privacy-bullets span{
-font-size:.9rem;
+font-size:.85rem;
 color:#94a3b8;
 display:flex;
 align-items:center;
@@ -586,45 +594,45 @@ font-weight:900;
 
 /* Checklist */
 .checklist-section{
-margin:40px 0 20px 0;
-padding:36px 32px;
-border-radius:28px;
+margin:32px 0 16px 0;
+padding:28px 28px;
+border-radius:24px;
 background:rgba(255,255,255,.03);
 border:1px solid rgba(255,255,255,.06);
 }
 
 .checklist-section h3{
-font-size:1.6rem;
+font-size:1.4rem;
 font-weight:800;
 color:white;
-margin-bottom:18px;
+margin-bottom:14px;
 letter-spacing:-.02em;
 }
 
 .checklist-grid{
 display:grid;
 grid-template-columns:1fr 1fr;
-gap:10px 32px;
+gap:8px 28px;
 }
 
 .checklist-grid span{
 display:flex;
 align-items:center;
 gap:10px;
-font-size:1rem;
+font-size:.95rem;
 color:#cbd5e1;
-padding:6px 0;
+padding:5px 0;
 }
 
 .checklist-grid span::before{
 content:"✓";
 color:#38bdf8;
 font-weight:900;
-font-size:1.1rem;
+font-size:1.05rem;
 }
 
 .faq{
-margin-top:60px;
+margin-top:48px;
 }
 
 .faq-item{
@@ -635,9 +643,9 @@ rgba(15,23,42,.9),
 rgba(2,6,23,.95)
 );
 border:1px solid rgba(255,255,255,.08);
-padding:28px;
-border-radius:22px;
-margin-bottom:20px;
+padding:24px 28px;
+border-radius:20px;
+margin-bottom:16px;
 transition:border-color 0.3s;
 }
 
@@ -646,38 +654,38 @@ border-color:rgba(14,165,233,.3);
 }
 
 .faq-item h3{
-margin-bottom:14px;
-font-size:1.15rem;
+margin-bottom:10px;
+font-size:1.1rem;
 color:white;
 font-weight:700;
 }
 
 .faq-item p{
 color:#94a3b8;
-font-size:1rem;
+font-size:.95rem;
 line-height:1.9;
 }
 
 .related-links{
-margin-top:60px;
-padding:30px;
+margin-top:48px;
+padding:28px 28px;
 background:rgba(255,255,255,.03);
 border:1px solid rgba(255,255,255,.06);
-border-radius:24px;
+border-radius:20px;
 }
 
 .related-links h2{
-font-size:1.5rem;
-margin-bottom:20px;
+font-size:1.3rem;
+margin-bottom:16px;
 font-weight:800;
 color:white;
 }
 
 .related-links a{
 display:block;
-margin-bottom:14px;
+margin-bottom:12px;
 color:#7dd3fc;
-font-weight:700;
+font-weight:600;
 transition:color 0.2s;
 }
 
@@ -687,51 +695,51 @@ color:white;
 
 /* Mid CTA */
 .mid-cta{
-margin:50px 0;
-padding:40px 32px;
-border-radius:28px;
+margin:40px 0;
+padding:32px 28px;
+border-radius:24px;
 background:rgba(255,255,255,.04);
 border:1px solid rgba(255,255,255,.08);
 text-align:center;
 }
 
 .mid-cta h3{
-font-size:1.6rem;
+font-size:1.4rem;
 font-weight:800;
 color:white;
-margin-bottom:10px;
+margin-bottom:8px;
 letter-spacing:-.02em;
 }
 
 .mid-cta p{
 color:#cbd5e1;
-font-size:1.05rem;
+font-size:1rem;
 max-width:700px;
-margin:0 auto 20px;
+margin:0 auto 16px;
 }
 
 .cta{
-margin:90px 0;
-padding:90px 40px;
-border-radius:38px;
+margin:70px 0;
+padding:70px 40px;
+border-radius:34px;
 background:linear-gradient(135deg,#0ea5e9,#2563eb);
 text-align:center;
 box-shadow:0 30px 100px rgba(14,165,233,.3);
 }
 
 .cta h2{
-font-size:clamp(2.4rem, 5vw, 3.5rem);
+font-size:clamp(2.2rem, 4.5vw, 3.2rem);
 font-weight:900;
 line-height:1.05;
 letter-spacing:-.04em;
-margin-bottom:20px;
+margin-bottom:16px;
 color:white;
 }
 
 .cta p{
-font-size:1.15rem;
+font-size:1.1rem;
 color:#dbeafe;
-margin-bottom:36px;
+margin-bottom:30px;
 max-width:800px;
 margin-left:auto;
 margin-right:auto;
@@ -739,12 +747,12 @@ margin-right:auto;
 
 .cta-btn{
 display:inline-block;
-padding:22px 48px;
+padding:20px 42px;
 background:white;
 color:#0f172a;
 font-weight:900;
-border-radius:18px;
-font-size:1.05rem;
+border-radius:16px;
+font-size:1rem;
 transition:transform 0.25s, box-shadow 0.3s;
 }
 
@@ -754,43 +762,43 @@ box-shadow:0 10px 30px rgba(0,0,0,.2);
 }
 
 .cta-reassurance{
-margin-top:16px;
-font-size:.9rem;
+margin-top:14px;
+font-size:.85rem;
 color:rgba(255,255,255,.7);
 }
 
 /* Disclaimer */
 .disclaimer{
-font-size:.9rem;
+font-size:.85rem;
 color:#64748b;
 line-height:1.8;
-margin-top:28px;
-padding:16px 22px;
-border-radius:16px;
+margin-top:24px;
+padding:14px 20px;
+border-radius:14px;
 background:rgba(255,255,255,.02);
 border:1px solid rgba(255,255,255,.04);
 }
 
 footer{
-padding:60px 20px 70px;
+padding:50px 20px 60px;
 text-align:center;
 color:#64748b;
 border-top:1px solid rgba(255,255,255,.06);
-margin-top:60px;
+margin-top:50px;
 }
 
 .footer-links{
 display:flex;
 justify-content:center;
-gap:16px;
+gap:14px;
 flex-wrap:wrap;
-margin-bottom:16px;
+margin-bottom:14px;
 }
 
 .footer-links a{
 color:#94a3b8;
 font-weight:600;
-font-size:.9rem;
+font-size:.85rem;
 transition:color 0.2s;
 }
 
@@ -800,49 +808,55 @@ color:white;
 
 @media(max-width:900px){
 
+.hero{
+padding:24px 0 40px;
+}
+
 .hero h1{
-font-size:2.8rem;
+font-size:2.4rem;
 }
 
 .hero-sub{
-font-size:1.05rem;
+font-size:1rem;
 }
 
 .section h2{
-font-size:2rem;
+font-size:1.8rem;
 }
 
 .cta h2{
-font-size:2rem;
+font-size:1.8rem;
 }
 
 .nav-wrap{
 flex-direction:column;
 align-items:flex-start;
+padding:10px 0;
 }
 
 .nav-links{
 width:100%;
 justify-content:flex-start;
-gap:4px 8px;
+gap:3px 6px;
 }
 
 .nav-links a{
-font-size:.8rem;
-padding:3px 4px;
+font-size:.75rem;
+padding:2px 4px;
 }
 
 .nav-btn{
 width:100%;
 text-align:center;
-font-size:.75rem !important;
-padding:8px 14px;
+font-size:.7rem !important;
+padding:6px 12px;
 }
 
 .trust-bar{
 flex-direction:column;
-gap:4px;
-padding:12px 16px;
+gap:3px;
+padding:10px 14px;
+font-size:.8rem;
 }
 
 .checklist-grid{
@@ -856,28 +870,35 @@ grid-template-columns:1fr;
 .privacy-section{
 flex-direction:column;
 align-items:flex-start;
-padding:20px 16px;
+padding:18px 16px;
 }
 
 .privacy-bullets{
 flex-direction:column;
-gap:4px;
+gap:3px;
 }
 
 .scan-panel{
-padding:24px 18px;
+padding:20px 16px;
+margin:32px 0;
 }
 
 .cta{
-padding:50px 20px;
+padding:40px 20px;
+margin:50px 0;
 }
 
 .mid-cta{
-padding:24px 18px;
+padding:20px 16px;
+margin:28px 0;
 }
 
-.related-links{
-padding:20px 16px;
+.quick-answer{
+padding:20px 18px;
+}
+
+.quick-answer h2{
+font-size:1.2rem;
 }
 
 .card-grid{
@@ -885,13 +906,50 @@ grid-template-columns:1fr 1fr;
 }
 
 .faq-item{
-padding:20px 18px;
+padding:18px 18px;
+}
+
+.related-links{
+padding:20px 16px;
+}
+
+.leverage-section{
+padding:24px 18px;
+}
+
+.checklist-section{
+padding:20px 16px;
+}
+
+.warning-box{
+padding:18px 18px;
+}
+
+.hero:before{
+width:400px;
+height:400px;
+top:-150px;
+left:-100px;
 }
 }
 
 @media(max-width:600px){
 .card-grid{
 grid-template-columns:1fr;
+}
+
+.hero h1{
+font-size:2rem;
+}
+
+.badge{
+font-size:.65rem;
+padding:6px 12px;
+}
+
+.primary-btn{
+padding:14px 24px;
+font-size:.9rem;
 }
 }
 </style>
@@ -954,7 +1012,7 @@ grid-template-columns:1fr;
             <p>
                 Duplicate medical billing charges occur when hospitals, clinics, or healthcare providers bill patients multiple times for the same treatment, medication, procedure, or healthcare service. This can happen accidentally through coding errors or intentionally through billing system manipulation. Patients often don't notice these errors because medical bills are complex and difficult to read.
             </p>
-            <p style="margin-top:14px;">
+            <p style="margin-top:12px;">
                 Common examples include being billed twice for the same lab test, duplicate charges for operating room time, or repeated facility fees for the same hospital stay. These errors can add thousands of dollars to a patient's bill without any additional services actually being provided.
             </p>
         </div>
@@ -1024,7 +1082,7 @@ grid-template-columns:1fr;
 </section>
 
 <!-- ===== SECTION: How to Detect ===== -->
-<section class="section" style="padding-top:20px;">
+<section class="section" style="padding-top:10px;">
     <div class="container">
         <h2>How to Detect Medical Billing Errors</h2>
 
@@ -1032,15 +1090,15 @@ grid-template-columns:1fr;
             Patients should request itemized medical bills and compare charges against insurance explanations of benefits (EOBs). Hidden hospital fees and duplicate charges become easier to identify during detailed line-by-line reviews. Here are the steps you can take to audit your medical bills effectively.
         </p>
 
-        <div style="background:rgba(255,255,255,.03); border-radius:20px; padding:30px; margin:30px 0; border:1px solid rgba(255,255,255,.06);">
-            <h3 style="color:white; font-weight:800; margin-bottom:16px; font-size:1.3rem;">Step-by-Step Medical Bill Audit</h3>
-            <ul style="color:#cbd5e1; font-size:1.05rem; line-height:2.2; list-style:none; padding:0;">
-                <li style="padding:8px 0; border-bottom:1px solid rgba(255,255,255,.04);"><strong style="color:white;">1.</strong> Request a fully itemized bill from the hospital or provider</li>
-                <li style="padding:8px 0; border-bottom:1px solid rgba(255,255,255,.04);"><strong style="color:white;">2.</strong> Compare each charge against your insurance Explanation of Benefits (EOB)</li>
-                <li style="padding:8px 0; border-bottom:1px solid rgba(255,255,255,.04);"><strong style="color:white;">3.</strong> Look for duplicate dates, services, or procedure codes</li>
-                <li style="padding:8px 0; border-bottom:1px solid rgba(255,255,255,.04);"><strong style="color:white;">4.</strong> Verify that all services were actually received</li>
-                <li style="padding:8px 0; border-bottom:1px solid rgba(255,255,255,.04);"><strong style="color:white;">5.</strong> Check for vague line items like "miscellaneous" or "supplies"</li>
-                <li style="padding:8px 0;"><strong style="color:white;">6.</strong> Use AI-powered analysis to scan hundreds of line items quickly</li>
+        <div style="background:rgba(255,255,255,.03); border-radius:18px; padding:26px 28px; margin:24px 0; border:1px solid rgba(255,255,255,.06);">
+            <h3 style="color:white; font-weight:800; margin-bottom:14px; font-size:1.2rem;">Step-by-Step Medical Bill Audit</h3>
+            <ul style="color:#cbd5e1; font-size:1rem; line-height:2.2; list-style:none; padding:0;">
+                <li style="padding:6px 0; border-bottom:1px solid rgba(255,255,255,.04);"><strong style="color:white;">1.</strong> Request a fully itemized bill from the hospital or provider</li>
+                <li style="padding:6px 0; border-bottom:1px solid rgba(255,255,255,.04);"><strong style="color:white;">2.</strong> Compare each charge against your insurance Explanation of Benefits (EOB)</li>
+                <li style="padding:6px 0; border-bottom:1px solid rgba(255,255,255,.04);"><strong style="color:white;">3.</strong> Look for duplicate dates, services, or procedure codes</li>
+                <li style="padding:6px 0; border-bottom:1px solid rgba(255,255,255,.04);"><strong style="color:white;">4.</strong> Verify that all services were actually received</li>
+                <li style="padding:6px 0; border-bottom:1px solid rgba(255,255,255,.04);"><strong style="color:white;">5.</strong> Check for vague line items like "miscellaneous" or "supplies"</li>
+                <li style="padding:6px 0;"><strong style="color:white;">6.</strong> Use AI-powered analysis to scan hundreds of line items quickly</li>
             </ul>
         </div>
 
@@ -1129,11 +1187,11 @@ grid-template-columns:1fr;
                 <span>Request clarification for coding errors</span>
                 <span>Negotiate payment reductions for errors</span>
             </div>
-            <p style="font-size:.9rem; color:#94a3b8; margin-top:8px;">
+            <p style="font-size:.85rem; color:#94a3b8; margin-top:6px;">
                 AI analysis helps you identify which charges deserve closer scrutiny, giving you confidence when negotiating with billing departments.
             </p>
-            <div style="margin-top:20px;">
-                <a href="https://hiddenfeeai.com" class="primary-btn" style="padding:16px 32px; font-size:1rem;">
+            <div style="margin-top:16px;">
+                <a href="https://hiddenfeeai.com" class="primary-btn" style="padding:14px 28px; font-size:.95rem;">
                     Get My Medical Bill Analysis — $15
                 </a>
             </div>
@@ -1142,7 +1200,7 @@ grid-template-columns:1fr;
 </section>
 
 <!-- ===== SECTION: Real-World Examples ===== -->
-<section class="section" style="padding-top:20px;">
+<section class="section" style="padding-top:10px;">
     <div class="container">
 
         <h2>Real-World Examples of Duplicate Medical Billing</h2>
@@ -1151,7 +1209,7 @@ grid-template-columns:1fr;
             Consider a hypothetical scenario where a patient receives a hospital bill for $12,000. Upon detailed review, they discover:
         </p>
 
-        <ul style="color:#cbd5e1; font-size:1.05rem; line-height:2.2; margin-bottom:30px; padding-left:28px;">
+        <ul style="color:#cbd5e1; font-size:1rem; line-height:2.2; margin-bottom:24px; padding-left:26px;">
             <li>A duplicate charge for an MRI that was only performed once — $2,400</li>
             <li>An unexpected facility fee of $1,800 that was not explained</li>
             <li>A medication charge of $800 for a drug that was never administered</li>
@@ -1170,7 +1228,7 @@ grid-template-columns:1fr;
         <div class="mid-cta">
             <h3>Have a Medical Bill You're Not Sure About?</h3>
             <p>Upload your hospital bill, insurance statement, or medical invoice. AI analyzes the charges, identifies duplicate fees, hidden costs, and potential errors.</p>
-            <a href="https://hiddenfeeai.com" class="primary-btn" style="padding:16px 32px; font-size:1rem;">
+            <a href="https://hiddenfeeai.com" class="primary-btn" style="padding:14px 28px; font-size:.95rem;">
                 Upload My Medical Bill — $15
             </a>
         </div>
@@ -1287,7 +1345,7 @@ grid-template-columns:1fr;
         <p>
             © 2026 DetectHiddenFees.com — AI Hidden Fee Intelligence Platform
         </p>
-        <p style="font-size:.8rem; margin-top:8px; color:#64748b;">
+        <p style="font-size:.75rem; margin-top:6px; color:#64748b;">
             Reviewed and updated for healthcare billing accuracy and hidden fee analysis.
         </p>
     </div>
