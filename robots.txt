@@ -1,74 +1,326 @@
-# Allow all search engines and AI crawlers
+# ============================================================
+# robots.txt for DetectHiddenFees.com
+# Optimized for AI crawlers, search engines, and content indexing
+# Last Updated: July 2026
+# ============================================================
+
+# ============================================================
+# GLOBAL RULES — Allow all by default
+# ============================================================
 User-agent: *
 Allow: /
 
-# OpenAI / ChatGPT
+# Prevent crawling of admin or sensitive directories
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /logs/
+
+# ============================================================
+# OPENAI / CHATGPT
+# ============================================================
 User-agent: GPTBot
 Allow: /
 
 User-agent: ChatGPT-User
 Allow: /
 
-# Anthropic Claude
+User-agent: Omgilibot
+Allow: /
+
+# ============================================================
+# ANTHROPIC / CLAUDE
+# ============================================================
 User-agent: ClaudeBot
 Allow: /
 
 User-agent: Claude-Web
 Allow: /
 
-# Google AI
+# ============================================================
+# GOOGLE (Search & AI)
+# ============================================================
+User-agent: Googlebot
+Allow: /
+
 User-agent: Google-Extended
 Allow: /
 
 User-agent: GoogleOther
 Allow: /
 
-# Microsoft AI / Copilot
+User-agent: Google-Cloud-Platform
+Allow: /
+
+# ============================================================
+# MICROSOFT / BING / COPILOT
+# ============================================================
 User-agent: Bingbot
 Allow: /
 
 User-agent: BingPreview
 Allow: /
 
-# Perplexity AI
+User-agent: msnbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# ============================================================
+# PERPLEXITY AI
+# ============================================================
 User-agent: PerplexityBot
 Allow: /
 
-# Amazon AI
+# ============================================================
+# AMAZON AI
+# ============================================================
 User-agent: Amazonbot
 Allow: /
 
-# Meta AI
+# ============================================================
+# META AI (Facebook, Instagram, Threads)
+# ============================================================
 User-agent: Meta-ExternalAgent
 Allow: /
 
-# Apple AI
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+# ============================================================
+# APPLE AI (Siri, Spotlight, Apple Intelligence)
+# ============================================================
+User-agent: Applebot
+Allow: /
+
 User-agent: Applebot-Extended
 Allow: /
 
-# ByteDance / TikTok AI
+# ============================================================
+# BYTEDANCE / TIKTOK AI
+# ============================================================
 User-agent: Bytespider
 Allow: /
 
-# Cohere AI
+# ============================================================
+# COHERE AI
+# ============================================================
 User-agent: cohere-ai
 Allow: /
 
-# Common Crawl (used for AI datasets)
+# ============================================================
+# COMMON CRAWL (Used for AI training datasets)
+# ============================================================
 User-agent: CCBot
 Allow: /
 
-# You.com AI
+# ============================================================
+# YOU.COM AI
+# ============================================================
 User-agent: YouBot
 Allow: /
 
-# Diffbot AI
+# ============================================================
+# DIFFBOT AI (Knowledge Graph)
+# ============================================================
 User-agent: Diffbot
 Allow: /
 
-# Mistral AI
+# ============================================================
+# MISTRAL AI
+# ============================================================
 User-agent: MistralAI-User
 Allow: /
 
-# Include sitemap
+# ============================================================
+# DUCKDUCKGO AI
+# ============================================================
+User-agent: DuckDuckBot
+Allow: /
+
+# ============================================================
+# YANDEX AI
+# ============================================================
+User-agent: YandexBot
+Allow: /
+
+# ============================================================
+# BAIDU AI
+# ============================================================
+User-agent: Baiduspider
+Allow: /
+
+# ============================================================
+# ABILITY AI
+# ============================================================
+User-agent: AbilityBot
+Allow: /
+
+# ============================================================
+# CRAWL-DELAY (Politeness for search engines)
+# ============================================================
+User-agent: Googlebot
+Crawl-delay: 1
+
+User-agent: Bingbot
+Crawl-delay: 1
+
+User-agent: YandexBot
+Crawl-delay: 1
+
+# ============================================================
+# HOST DIRECTIVE (Helps with canonical URL)
+# ============================================================
+Host: https://detecthiddenfees.com
+
+# ============================================================
+# SITEMAP — Tell crawlers where to find your content map
+# ============================================================
 Sitemap: https://detecthiddenfees.com/sitemap.xml
+
+# ============================================================
+# ADDITIONAL AI CRAWLERS — Emerging and future-proofing
+# ============================================================
+User-agent: AI2Bot
+Allow: /
+
+User-agent: AITerminator
+Allow: /
+
+User-agent: AndiBot
+Allow: /
+
+User-agent: Anthropic-Web
+Allow: /
+
+User-agent: Anthropic-Research
+Allow: /
+
+User-agent: ApifyBot
+Allow: /
+
+User-agent: BraveBot
+Allow: /
+
+User-agent: BrightBot
+Allow: /
+
+User-agent: ByteDance-AIAgent
+Allow: /
+
+User-agent: CatchBot
+Allow: /
+
+User-agent: Cloudflare-LLM
+Allow: /
+
+User-agent: CNETBot
+Allow: /
+
+User-agent: DataForSeoBot
+Allow: /
+
+User-agent: DeepSeekBot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: Evercrawl
+Allow: /
+
+User-agent: ExaBot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Google-Site-Verification
+Allow: /
+
+User-agent: GPT-WebCrawler
+Allow: /
+
+User-agent: LinkBot
+Allow: /
+
+User-agent: LLM Spider
+Allow: /
+
+User-agent: Meltwater
+Allow: /
+
+User-agent: MosaicBot
+Allow: /
+
+User-agent: OpenAICrawler
+Allow: /
+
+User-agent: PetalBot
+Allow: /
+
+User-agent: PinterestBot
+Allow: /
+
+User-agent: Qwantify
+Allow: /
+
+User-agent: Raven
+Allow: /
+
+User-agent: SeekrBot
+Allow: /
+
+User-agent: SemrushBot
+Allow: /
+
+User-agent: SentiBot
+Allow: /
+
+User-agent: Scrapy
+Allow: /
+
+User-agent: SimilarWeb
+Allow: /
+
+User-agent: SiteAuditBot
+Allow: /
+
+User-agent: SnapchatBot
+Allow: /
+
+User-agent: Summify
+Allow: /
+
+User-agent: TikTokBot
+Allow: /
+
+User-agent: TrelloBot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: UpworkBot
+Allow: /
+
+User-agent: VercelBot
+Allow: /
+
+User-agent: WalmartBot
+Allow: /
+
+User-agent: Wget
+Allow: /
+
+User-agent: XBot
+Allow: /
+
+User-agent: Zyborg
+Allow: /
+
+# ============================================================
+# END robots.txt
+# ============================================================
