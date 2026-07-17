@@ -150,16 +150,17 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 18px 0;
-            gap: 18px;
+            padding: 14px 0;
+            gap: 12px;
         }
 
         .logo {
-            font-size: 2rem;
+            font-size: 1.6rem;
             font-weight: 900;
             letter-spacing: -2px;
             color: white;
             white-space: nowrap;
+            flex-shrink: 0;
         }
 
         .logo span {
@@ -168,7 +169,7 @@
 
         .nav-links {
             display: flex;
-            gap: 14px;
+            gap: 6px;
             align-items: center;
             flex-wrap: wrap;
             justify-content: flex-end;
@@ -176,18 +177,32 @@
 
         .nav-links a {
             color: #cbd5e1;
-            font-weight: 700;
-            font-size: .92rem;
+            font-weight: 600;
+            font-size: .8rem;
+            padding: 4px 6px;
+            white-space: nowrap;
+            transition: color 0.2s;
+        }
+
+        .nav-links a:hover {
+            color: #ffffff;
         }
 
         .nav-btn {
-            padding: 16px 24px;
-            border-radius: 18px;
+            padding: 10px 16px;
+            border-radius: 14px;
             background: linear-gradient(135deg, #2563eb, #9333ea);
             color: white !important;
-            font-weight: 900 !important;
-            box-shadow: 0 20px 50px rgba(59, 130, 246, .35);
+            font-weight: 700 !important;
+            font-size: .78rem !important;
+            box-shadow: 0 10px 30px rgba(59, 130, 246, .3);
             white-space: nowrap;
+            transition: transform 0.2s, box-shadow 0.3s;
+        }
+
+        .nav-btn:hover {
+            transform: scale(1.04);
+            box-shadow: 0 15px 40px rgba(59, 130, 246, .45);
         }
 
         .hero {
@@ -537,16 +552,25 @@
             .nav-wrap {
                 flex-direction: column;
                 align-items: flex-start;
+                padding: 12px 0;
             }
 
             .nav-links {
                 width: 100%;
                 justify-content: flex-start;
+                gap: 4px 8px;
+            }
+
+            .nav-links a {
+                font-size: .78rem;
+                padding: 3px 4px;
             }
 
             .nav-btn {
                 width: 100%;
                 text-align: center;
+                font-size: .75rem !important;
+                padding: 8px 14px;
             }
 
             .hero {
@@ -600,12 +624,26 @@
                 gap: 4px;
             }
         }
+
+        @media(max-width:600px) {
+            .logo {
+                font-size: 1.3rem;
+            }
+            .nav-links a {
+                font-size: .7rem;
+                padding: 2px 3px;
+            }
+            .nav-btn {
+                font-size: .65rem !important;
+                padding: 6px 10px;
+            }
+        }
     </style>
 </head>
 
 <body>
 
-    <!-- ===== NAVIGATION (UPDATED WITH CONTRACT REVIEW LINK + AI CONTRACT TOOL) ===== -->
+    <!-- ===== NAVIGATION ===== -->
     <nav>
         <div class="container nav-wrap">
             <div class="logo">
@@ -774,7 +812,6 @@
                     </div>
                 </a>
 
-                <!-- NEW: AI Construction Contract Review card in grid -->
                 <a href="/ai-construction-contract-review.html" class="card" style="border-color: rgba(59,130,246,0.2);">
                     <h3>AI Construction Contract Review</h3>
                     <p>
@@ -785,7 +822,6 @@
                     </div>
                 </a>
 
-                <!-- NEW: AI Contract Review Tool card in grid -->
                 <a href="/ai-contract-review-tool.html" class="card" style="border-color: rgba(59,130,246,0.2);">
                     <h3>AI Contract Review Tool</h3>
                     <p>
