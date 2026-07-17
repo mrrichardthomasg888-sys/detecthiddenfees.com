@@ -1216,9 +1216,10 @@
             padding: 12px 20px;
             border-top: 1px solid rgba(255, 255, 255, 0.08);
             align-items: center;
-            justify-content: space-between;
             gap: 16px;
             box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.6);
+            /* NEW: changed justify-content to flex-start to move button left */
+            justify-content: flex-start;
         }
         .sticky-cta-bar .sticky-text {
             font-weight: 700;
@@ -1228,6 +1229,7 @@
             display: flex;
             align-items: center;
             gap: 12px;
+            flex-shrink: 0;
         }
         .sticky-cta-bar .sticky-text .price {
             color: #3b82f6;
@@ -1254,6 +1256,9 @@
             cursor: pointer;
             transition: transform 0.2s;
             letter-spacing: 0.01em;
+            flex-shrink: 0;
+            /* NEW: add a small left margin so it's not right against the text */
+            margin-left: 20px;
         }
         .sticky-cta-bar .sticky-btn:hover {
             transform: scale(1.02);
@@ -1400,6 +1405,14 @@
             }
             .sticky-cta-bar {
                 display: flex;
+                padding: 12px 16px;
+                justify-content: flex-start;
+                gap: 10px;
+            }
+            .sticky-cta-bar .sticky-btn {
+                margin-left: 0;
+                flex: 1;
+                min-width: 0;
             }
             .cta {
                 padding: 40px 20px;
@@ -1422,7 +1435,7 @@
 </head>
 <body>
 
-    <!-- ===== NAVIGATION ===== -->
+    <!-- ===== NAVIGATION (UPDATED with "Contract Review" link) ===== -->
     <nav>
         <div class="container nav-wrap">
             <div class="logo">DetectHiddenFees<span>.</span></div>
@@ -1433,6 +1446,8 @@
                 <a href="/hidden-bank-overdraft-fees.html">Bank Fees</a>
                 <a href="/hidden-dealership-financing-fees.html">Auto Financing</a>
                 <a href="/duplicate-medical-billing-charges.html">Medical Billing</a>
+                <!-- ✅ NEW: Contract Review link -->
+                <a href="/ai-construction-contract-review.html">Contract Review</a>
                 <a href="https://hiddenfeeai.com" class="nav-btn">Analyze My Documents</a>
             </div>
         </div>
@@ -1888,7 +1903,7 @@
         </div>
     </footer>
 
-    <!-- ===== STICKY CTA (Desktop & Mobile) ===== -->
+    <!-- ===== STICKY CTA (Desktop & Mobile) — moved left ===== -->
     <div class="sticky-cta-bar">
         <div class="sticky-text">
             <span>🔍 Scan Your Contract</span>
