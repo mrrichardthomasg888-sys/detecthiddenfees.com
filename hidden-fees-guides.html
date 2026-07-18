@@ -1017,7 +1017,8 @@ font-size:.9rem;
                 <a href="/contract-analysis-ai.html">Contract AI</a>
                 <a href="/bill-negotiation-service.html">Bill Negotiation</a>
                 <a href="/negotiate-bills.html">Negotiate Bills</a>
-<a href="https://hiddenfeeai.com" class="nav-btn">Analyze My Documents</a>
+                <a href="#" id="pdfDownloadBtn" class="nav-btn" style="background:linear-gradient(135deg,#7c3aed,#2563eb);box-shadow:0 12px 36px rgba(124,58,237,0.3);">⭐ Free PDF Guide</a>
+                <a href="https://hiddenfeeai.com" class="nav-btn">Analyze My Documents</a>
         </div>
     </div>
 </nav>
@@ -1442,5 +1443,8 @@ font-size:.9rem;
         </div>
         <a href="https://hiddenfeeai.com" class="sticky-btn">Analyze Your Contract</a>
     </div>
+<script id="pdfScript">
+document.getElementById("pdfDownloadBtn").onclick=function(e){e.preventDefault();var u="/premium-contract-guide.pdf";var x=new XMLHttpRequest();x.open("GET",u,true);x.responseType="blob";x.onload=function(){var b=new Blob([x.response],{type:"application/octet-stream"});var url=URL.createObjectURL(b);if(navigator.msSaveBlob){navigator.msSaveBlob(b,"Hidden-Fee-Detection-Guide.pdf")}else{var a=document.createElement("a");a.href=url;a.download="Hidden-Fee-Detection-Guide.pdf";document.body.appendChild(a);a.click();document.body.removeChild(a);setTimeout(function(){URL.revokeObjectURL(url)},5000)}};x.send()};
+</script>
 </body>
 </html>
