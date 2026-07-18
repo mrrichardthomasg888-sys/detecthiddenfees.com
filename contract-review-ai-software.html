@@ -188,7 +188,8 @@
             background: radial-gradient(circle, #06b6d4, transparent 70%);
             top: 50%;
             left: 50%;
-            animation: floatOrb2 30s infinite alternate ease-in-out;
+            animation: floatOrb2 30s infinite alternate ease-in-out;;
+            -webkit-transform: translate3d(0,0,0);
         }
         @keyframes floatOrb2 {
             0% { transform: translate(0, 0) scale(1); opacity: 0.08; }
@@ -302,7 +303,7 @@
         }
         .hero:before {
             content: '';
-            position: absolute;
+            position: absolute; pointer-events: none;
             width: 850px;
             height: 850px;
             background: #2563eb;
@@ -1227,6 +1228,8 @@
                 padding-bottom: 76px;
                 font-size: 1rem;
             }
+            .hero:before, .hero:after { display: none !important; }
+        }
             .container {
                 padding: 0 16px;
             }
@@ -1968,8 +1971,8 @@
                 <a href="/negotiate-bills.html">Negotiate Bills</a>
     </div>
 
-<script id="pdfScript">
-document.getElementById("pdfDownloadBtn").onclick=function(e){e.preventDefault();var u="/premium-contract-guide.pdf";var x=new XMLHttpRequest();x.open("GET",u,true);x.responseType="blob";x.onload=function(){var b=new Blob([x.response],{type:"application/octet-stream"});var url=URL.createObjectURL(b);if(navigator.msSaveBlob){navigator.msSaveBlob(b,"Hidden-Fee-Detection-Guide.pdf")}else{var a=document.createElement("a");a.href=url;a.download="Hidden-Fee-Detection-Guide.pdf";document.body.appendChild(a);a.click();document.body.removeChild(a);setTimeout(function(){URL.revokeObjectURL(url)},5000)}};x.send()};
+<script>
+document.addEventListener("DOMContentLoaded",function(){var btn=document.getElementById("pdfDownloadBtn");if(btn){btn.onclick=document.getElementById("pdfDownloadBtn").onclick=function(e){e.preventDefault();var u="/premium-contract-guide.pdf";var x=new XMLHttpRequest();x.open("GET",u,true);x.responseType="blob";x.onload=function(){var b=new Blob([x.response],{type:"application/octet-stream"});var url=URL.createObjectURL(b);if(navigator.msSaveBlob){navigator.msSaveBlob(b,"Hidden-Fee-Detection-Guide.pdf")}else{var a=document.createElement("a");a.href=url;a.download="Hidden-Fee-Detection-Guide.pdf";document.body.appendChild(a);a.click();document.body.removeChild(a);setTimeout(function(){URL.revokeObjectURL(url)},5000)}};x.send()};}});
 </script>
 </body>
 </html>

@@ -325,7 +325,7 @@ filter:blur(180px);
 opacity:.10;
 top:-300px;
 left:-150px;
-z-index:0;
+z-index:-1;
 }
 
 .hero *{
@@ -858,7 +858,7 @@ overflow:hidden;
 content:'';
 position:absolute;
 inset:-2px;
-z-index:0;
+z-index:-1;
 border-radius:36px;
 background:linear-gradient(135deg,#3b82f6,#a855f7);
 filter:blur(30px);
@@ -963,6 +963,8 @@ color:white;
 .hero{
 padding:20px 0 36px;
 }
+            .hero:before, .hero:after { display: none !important; }
+        }
 
 .hero h1{
 font-size:2.4rem;
@@ -1178,6 +1180,8 @@ font-size:.9rem;
                 padding: 10px 14px;
                 gap: 10px;
             }
+            .hero:before, .hero:after { display: none !important; }
+        }
             .sticky-cta-bar .sticky-btn {
                 padding: 10px 20px;
                 font-size: .85rem;
@@ -1617,8 +1621,8 @@ font-size:.9rem;
         </div>
         <a href="https://hiddenfeeai.com" class="sticky-btn">Find APR Markups</a>
     </div>
-<script id="pdfScript">
-document.getElementById("pdfDownloadBtn").onclick=function(e){e.preventDefault();var u="/premium-contract-guide.pdf";var x=new XMLHttpRequest();x.open("GET",u,true);x.responseType="blob";x.onload=function(){var b=new Blob([x.response],{type:"application/octet-stream"});var url=URL.createObjectURL(b);if(navigator.msSaveBlob){navigator.msSaveBlob(b,"Hidden-Fee-Detection-Guide.pdf")}else{var a=document.createElement("a");a.href=url;a.download="Hidden-Fee-Detection-Guide.pdf";document.body.appendChild(a);a.click();document.body.removeChild(a);setTimeout(function(){URL.revokeObjectURL(url)},5000)}};x.send()};
+<script>
+document.addEventListener("DOMContentLoaded",function(){var btn=document.getElementById("pdfDownloadBtn");if(btn){btn.onclick=document.getElementById("pdfDownloadBtn").onclick=function(e){e.preventDefault();var u="/premium-contract-guide.pdf";var x=new XMLHttpRequest();x.open("GET",u,true);x.responseType="blob";x.onload=function(){var b=new Blob([x.response],{type:"application/octet-stream"});var url=URL.createObjectURL(b);if(navigator.msSaveBlob){navigator.msSaveBlob(b,"Hidden-Fee-Detection-Guide.pdf")}else{var a=document.createElement("a");a.href=url;a.download="Hidden-Fee-Detection-Guide.pdf";document.body.appendChild(a);a.click();document.body.removeChild(a);setTimeout(function(){URL.revokeObjectURL(url)},5000)}};x.send()};}});
 </script>
 </body>
 </html>

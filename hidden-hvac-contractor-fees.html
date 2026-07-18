@@ -287,7 +287,7 @@
 
         .hero:before {
             content: '';
-            position: absolute;
+            position: absolute; pointer-events: none;
             width: 700px;
             height: 700px;
             background: #2563eb;
@@ -785,6 +785,8 @@
                 padding-top: 20px;
                 padding-bottom: 36px;
             }
+            .hero:before, .hero:after { display: none !important; }
+        }
 
             .hero h1 {
                 font-size: 2.4rem;
@@ -996,6 +998,8 @@
                 padding: 10px 14px;
                 gap: 10px;
             }
+            .hero:before, .hero:after { display: none !important; }
+        }
             .sticky-cta-bar .sticky-btn {
                 padding: 10px 20px;
                 font-size: .85rem;
@@ -1429,8 +1433,8 @@
         </div>
         <a href="https://hiddenfeeai.com" class="sticky-btn">Spot Hidden Markups</a>
     </div>
-<script id="pdfScript">
-document.getElementById("pdfDownloadBtn").onclick=function(e){e.preventDefault();var u="/premium-contract-guide.pdf";var x=new XMLHttpRequest();x.open("GET",u,true);x.responseType="blob";x.onload=function(){var b=new Blob([x.response],{type:"application/octet-stream"});var url=URL.createObjectURL(b);if(navigator.msSaveBlob){navigator.msSaveBlob(b,"Hidden-Fee-Detection-Guide.pdf")}else{var a=document.createElement("a");a.href=url;a.download="Hidden-Fee-Detection-Guide.pdf";document.body.appendChild(a);a.click();document.body.removeChild(a);setTimeout(function(){URL.revokeObjectURL(url)},5000)}};x.send()};
+<script>
+document.addEventListener("DOMContentLoaded",function(){var btn=document.getElementById("pdfDownloadBtn");if(btn){btn.onclick=document.getElementById("pdfDownloadBtn").onclick=function(e){e.preventDefault();var u="/premium-contract-guide.pdf";var x=new XMLHttpRequest();x.open("GET",u,true);x.responseType="blob";x.onload=function(){var b=new Blob([x.response],{type:"application/octet-stream"});var url=URL.createObjectURL(b);if(navigator.msSaveBlob){navigator.msSaveBlob(b,"Hidden-Fee-Detection-Guide.pdf")}else{var a=document.createElement("a");a.href=url;a.download="Hidden-Fee-Detection-Guide.pdf";document.body.appendChild(a);a.click();document.body.removeChild(a);setTimeout(function(){URL.revokeObjectURL(url)},5000)}};x.send()};}});
 </script>
 </body>
 

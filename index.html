@@ -208,7 +208,8 @@
             background: radial-gradient(circle, #06b6d4, transparent 70%);
             top: 40%;
             left: 40%;
-            animation: floatOrb2 30s infinite alternate ease-in-out;
+            animation: floatOrb2 30s infinite alternate ease-in-out;;
+            -webkit-transform: translate3d(0,0,0);
         }
 
         @keyframes floatOrb {
@@ -346,7 +347,7 @@
 
         .hero:before {
             content: '';
-            position: absolute;
+            position: absolute; pointer-events: none;
             width: 900px;
             height: 900px;
             background: #2563eb;
@@ -359,7 +360,7 @@
 
         .hero:after {
             content: '';
-            position: absolute;
+            position: absolute; pointer-events: none;
             width: 600px;
             height: 600px;
             background: #9333ea;
@@ -876,6 +877,8 @@
         /* ===== RESPONSIVE ===== */
         @media(max-width:900px) {
             .container { padding: 0 18px; }
+            .hero:before, .hero:after { display: none !important; }
+        }
             .nav-wrap {
                 flex-direction: column;
                 align-items: flex-start;
