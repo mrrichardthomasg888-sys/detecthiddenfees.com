@@ -1,4 +1,4 @@
-// /nav.js — Complete navigation + footer system (FIXED: larger button, left-aligned)
+// /nav.js — FINAL VERSION: Forces left-aligned nav + big button + footer
 (function() {
 
     // ---- CENTRAL PAGE LIST ----
@@ -24,7 +24,6 @@
             const isActive = (currentPath === page.href) ? ' active' : '';
             html += `<a href="${page.href}" class="${isActive}">${page.text}</a>`;
         });
-        // BUTTON – now bigger, matches original size
         html += `<a href="https://hiddenfeeai.com" class="top-button">🚀 Analyze My Documents</a>`;
         container.innerHTML = html;
     }
@@ -40,29 +39,32 @@
         container.innerHTML = html;
     }
 
-    // ---- INJECT CSS (FIXED: left-aligned, bigger button, full styles) ----
+    // ---- INJECT ULTRA-AGGRESSIVE CSS (overrides everything) ----
     function injectStyles() {
         if (document.getElementById('nav-system-styles')) return;
 
         const style = document.createElement('style');
         style.id = 'nav-system-styles';
         style.textContent = `
-            /* === NAV CONTAINER – LEFT ALIGNED === */
+            /* === NAV CONTAINER – LEFT ALIGNED, OVERRIDE ALL === */
             .nav {
                 display: flex !important;
-                justify-content: flex-start !important;  /* LEFT */
+                justify-content: flex-start !important;
                 align-items: center !important;
                 padding: 12px 0 !important;
                 gap: 10px !important;
                 flex-wrap: wrap !important;
+                flex-direction: row !important;
             }
             .nav-links {
                 display: flex !important;
                 gap: 6px !important;
                 align-items: center !important;
                 flex-wrap: wrap !important;
-                justify-content: flex-start !important; /* LEFT */
+                justify-content: flex-start !important;
                 min-height: 36px !important;
+                width: auto !important;
+                flex: 1 1 auto !important;
             }
             .nav-links a {
                 color: #cbd5e1 !important;
@@ -72,6 +74,10 @@
                 white-space: nowrap !important;
                 transition: color 0.2s !important;
                 text-decoration: none !important;
+                background: none !important;
+                border: none !important;
+                margin: 0 !important;
+                line-height: 1.4 !important;
             }
             .nav-links a:hover {
                 color: #ffffff !important;
@@ -81,13 +87,13 @@
                 text-shadow: 0 0 20px rgba(59,130,246,0.3) !important;
             }
 
-            /* === BUTTON – BIGGER, MATCHES ORIGINAL === */
+            /* === BUTTON – BIG, BOLD, VISIBLE === */
             .top-button {
                 display: inline-block !important;
-                padding: 10px 22px !important;          /* BIGGER */
+                padding: 10px 22px !important;
                 border-radius: 12px !important;
                 background: linear-gradient(135deg, #2563eb, #9333ea) !important;
-                font-size: 0.9rem !important;           /* BIGGER */
+                font-size: 0.9rem !important;
                 font-weight: 700 !important;
                 color: #ffffff !important;
                 text-decoration: none !important;
@@ -97,6 +103,9 @@
                 border: none !important;
                 cursor: pointer !important;
                 line-height: 1.4 !important;
+                margin: 0 !important;
+                letter-spacing: normal !important;
+                text-transform: none !important;
             }
             .top-button:hover {
                 transform: scale(1.04) !important;
@@ -134,6 +143,7 @@
                     width: 100% !important;
                     justify-content: flex-start !important;
                     gap: 4px 8px !important;
+                    flex: 0 1 auto !important;
                 }
                 .nav-links a {
                     font-size: 0.78rem !important;
