@@ -115,6 +115,7 @@
     </script>
 
     <style>
+        /* ===== ALL YOUR EXISTING STYLES (unchanged) ===== */
         * {
             margin: 0;
             padding: 0;
@@ -907,51 +908,19 @@
         }
     </style>
 
-    <!--
-    ============================================================
-    PROJECT MEMORY — PAGES WE'VE DISCUSSED IN PREVIOUS CONVERSATIONS
-    ============================================================
-    This navigation includes all the hidden-fee investigation
-    pages we've built together for the DetectHiddenFees project:
-
-    1. Hidden Fees Guides (index / landing)
-    2. Hidden HVAC Contractor Fees (this page)
-    3. Hidden Home Renovation Fees
-    4. Hidden Bank Overdraft Fees
-    5. Hidden Dealership Financing Fees
-    6. Duplicate Medical Billing Charges
-    7. AI Construction Contract Review
-    8. AI Contract Review Tool
-
-    All pages are linked from the nav below. The active state
-    is set on the current page (HVAC Fees).
-    ============================================================
-    -->
-
 </head>
 
 <body>
 
-    <!-- ===== NAVIGATION (FULL PROJECT MEMORY) ===== -->
+    <!-- ===== NAVIGATION (DYNAMIC – populated by nav.js) ===== -->
     <header class="topbar">
         <div class="container">
             <div class="nav">
                 <a href="https://detecthiddenfees.com" class="logo">
                     DetectHiddenFees<span>.</span>
                 </a>
-                <div class="nav-links">
-                    <a href="/hidden-fees-guides.html">Guides</a>
-                    <a href="/hidden-hvac-contractor-fees.html" class="active">HVAC Fees</a>
-                    <a href="/hidden-home-renovation-fees.html">Renovation Fees</a>
-                    <a href="/hidden-bank-overdraft-fees.html">Bank Fees</a>
-                    <a href="/hidden-dealership-financing-fees.html">Auto Financing</a>
-                    <a href="/duplicate-medical-billing-charges.html">Medical Billing</a>
-                    <a href="/ai-construction-contract-review.html">Contract Review</a>
-                    <a href="/ai-contract-review-tool.html">AI Contract Tool</a>
-                    <a href="https://hiddenfeeai.com" class="top-button">
-                        Analyze My Documents
-                    </a>
-                </div>
+                <!-- This container will be filled by nav.js -->
+                <div class="nav-links" id="navLinks"></div>
             </div>
         </div>
     </header>
@@ -1320,6 +1289,7 @@
                 <a href="/hidden-fees-guides.html">Guides</a>
                 <a href="/ai-construction-contract-review.html">Contract Review</a>
                 <a href="/ai-contract-review-tool.html">AI Contract Tool</a>
+                <!-- footer also needs the new link, update manually or let nav.js handle it -->
             </div>
             <p>
                 © 2026 DetectHiddenFees.com — Advanced HVAC Pricing Intelligence Platform
@@ -1329,6 +1299,16 @@
             </p>
         </div>
     </footer>
+
+    <!-- ===== SCRIPT TO LOAD nav.js ===== -->
+    <script>
+        // Force reload of nav.js on every page load (cache-busting)
+        (function() {
+            const script = document.createElement('script');
+            script.src = '/nav.js?v=' + Date.now();
+            document.head.appendChild(script);
+        })();
+    </script>
 
 </body>
 
