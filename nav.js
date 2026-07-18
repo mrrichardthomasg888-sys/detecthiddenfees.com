@@ -1,38 +1,891 @@
-// /nav.js
-(function() {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    // ---- CENTRAL LIST OF ALL PAGES ----
-    // Add or remove pages here. This updates every page on your site instantly.
-    const pages = [
-        { text: 'Guides', href: '/hidden-fees-guides.html' },
-        { text: 'HVAC Fees', href: '/hidden-hvac-contractor-fees.html' },
-        { text: 'Renovation Fees', href: '/hidden-home-renovation-fees.html' },
-        { text: 'Bank Fees', href: '/hidden-bank-overdraft-fees.html' },
-        { text: 'Auto Financing', href: '/hidden-dealership-financing-fees.html' },
-        { text: 'Medical Billing', href: '/duplicate-medical-billing-charges.html' },
-        { text: 'Contract Review', href: '/ai-construction-contract-review.html' },
-        { text: 'AI Contract Tool', href: '/ai-contract-review-tool.html' },
-        { text: 'Contract AI Software', href: '/contract-review-ai-software.html' } // NEW PAGE
-    ];
+    <title>DetectHiddenFees | AI-Powered Hidden Fee Detection & Contract Review</title>
 
-    // ---- FIND THE CONTAINER ----
-    const container = document.querySelector('.nav-links');
-    if (!container) return; // Exit if container doesn't exist
+    <meta name="description" content="Detect hidden fees in contracts, HVAC proposals, renovation agreements, dealership financing, medical bills, and bank statements using AI-powered forensic analysis. Find hidden costs before you sign." />
 
-    // ---- BUILD THE NAV HTML ----
-    const currentPath = window.location.pathname;
-    let html = '';
+    <meta name="keywords" content="hidden fees, AI construction contract review, hidden HVAC contractor fees, home renovation fees, hidden dealership financing fees, duplicate medical billing charges, bank overdraft fees, AI hidden fee detection" />
 
-    pages.forEach(page => {
-        // Check if this link matches the current page URL
-        const isActive = (currentPath === page.href) ? ' active' : '';
-        html += `<a href="${page.href}" class="${isActive}">${page.text}</a>`;
-    });
+    <meta name="robots" content="index,follow" />
 
-    // Append the "Analyze My Documents" button with rocket emoji
-    html += `<a href="https://hiddenfeeai.com" class="top-button">🚀 Analyze My Documents</a>`;
+    <link rel="canonical" href="https://detecthiddenfees.com/" />
 
-    // ---- INJECT INTO THE PAGE ----
-    container.innerHTML = html;
+    <!-- Open Graph -->
+    <meta property="og:title" content="DetectHiddenFees | AI-Powered Hidden Fee Detection & Contract Review" />
+    <meta property="og:description" content="Detect hidden fees in contracts, HVAC proposals, renovation agreements, dealership financing, medical bills, and bank statements using AI-powered forensic analysis." />
+    <meta property="og:url" content="https://detecthiddenfees.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://detecthiddenfees.com/og-image.jpg" />
 
-})();
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="DetectHiddenFees | AI-Powered Hidden Fee Detection & Contract Review" />
+    <meta name="twitter:description" content="Detect hidden fees in contracts, HVAC proposals, renovation agreements, dealership financing, medical bills, and bank statements using AI-powered forensic analysis." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <style>
+        /* ===== RESET & BASE ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background:
+                radial-gradient(circle at top, #1e3a8a 0%, #020617 48%, #000000 100%);
+            color: #e2e8f0;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .container {
+            max-width: 1240px;
+            margin: auto;
+            padding: 0 20px;
+        }
+
+        /* ===== NAVIGATION (supports dynamic nav.js) ===== */
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 999;
+            background: rgba(2, 6, 23, .88);
+            backdrop-filter: blur(14px);
+            border-bottom: 1px solid rgba(255, 255, 255, .06);
+        }
+
+        .nav-wrap {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 14px 0;
+            gap: 12px;
+        }
+
+        .logo {
+            font-size: 1.6rem;
+            font-weight: 900;
+            letter-spacing: -2px;
+            color: white;
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+
+        .logo span {
+            color: #3b82f6;
+        }
+
+        /* Container filled by nav.js */
+        .nav-links {
+            display: flex;
+            gap: 6px;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            min-height: 36px;
+        }
+
+        .nav-links a {
+            color: #cbd5e1;
+            font-weight: 600;
+            font-size: .8rem;
+            padding: 4px 6px;
+            white-space: nowrap;
+            transition: color 0.2s;
+        }
+
+        .nav-links a:hover {
+            color: #ffffff;
+        }
+
+        .nav-links a.active {
+            color: #ffffff;
+            text-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+        }
+
+        /* ===== THE BUTTON (must match .top-button) ===== */
+        .top-button {
+            display: inline-block;
+            padding: 8px 18px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, #2563eb, #9333ea);
+            font-size: .78rem;
+            font-weight: 700;
+            color: #ffffff !important;
+            text-decoration: none;
+            white-space: nowrap;
+            box-shadow: 0 8px 24px rgba(37, 99, 235, .3);
+            transition: transform 0.25s, box-shadow 0.3s;
+            border: none;
+            cursor: pointer;
+            line-height: 1.4;
+        }
+
+        .top-button:hover {
+            transform: scale(1.04);
+            box-shadow: 0 12px 36px rgba(37, 99, 235, .5);
+            color: #ffffff !important;
+        }
+
+        /* ===== HERO & REST OF PAGE (unchanged from original) ===== */
+        .hero {
+            padding: 60px 0 70px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero:before {
+            content: '';
+            position: absolute;
+            width: 900px;
+            height: 900px;
+            background: #2563eb;
+            filter: blur(180px);
+            opacity: .16;
+            top: -520px;
+            left: -320px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 14px 22px;
+            border-radius: 999px;
+            border: 2px solid rgba(59, 130, 246, .7);
+            background: rgba(37, 99, 235, .08);
+            font-size: .82rem;
+            font-weight: 800;
+            letter-spacing: .22em;
+            color: #bfdbfe;
+            margin-bottom: 30px;
+        }
+
+        .hero h1 {
+            font-size: clamp(58px, 8vw, 108px);
+            line-height: .92;
+            font-weight: 900;
+            letter-spacing: -.08em;
+            color: white;
+            max-width: 1050px;
+            margin-bottom: 28px;
+        }
+
+        .hero-sub {
+            font-size: 1.24rem;
+            line-height: 2;
+            color: #cbd5e1;
+            max-width: 960px;
+            margin-bottom: 24px;
+        }
+
+        .hero-trust {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px 32px;
+            margin-bottom: 36px;
+            padding: 14px 0;
+            font-size: 0.9rem;
+            color: #94a3b8;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 16px 0;
+        }
+        .hero-trust span {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .hero-trust span::before {
+            content: "✓";
+            color: #3b82f6;
+            font-weight: 900;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 18px;
+            flex-wrap: wrap;
+            margin-bottom: 16px;
+        }
+
+        .primary-btn {
+            display: inline-block;
+            padding: 22px 36px;
+            border-radius: 20px;
+            background: linear-gradient(135deg, #2563eb, #9333ea);
+            color: white;
+            font-weight: 900;
+            box-shadow: 0 25px 60px rgba(59, 130, 246, .35);
+            transition: transform 0.25s, box-shadow 0.3s;
+        }
+        .primary-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 35px 80px rgba(59, 130, 246, .50);
+        }
+
+        .secondary-btn {
+            display: inline-block;
+            padding: 22px 36px;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, .12);
+            background: rgba(255, 255, 255, .03);
+            color: #cbd5e1;
+            font-weight: 800;
+            transition: background 0.2s;
+        }
+        .secondary-btn:hover {
+            background: rgba(255, 255, 255, .08);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 28px;
+        }
+
+        .card {
+            padding: 36px;
+            border-radius: 32px;
+            background: linear-gradient(180deg, rgba(15, 23, 42, .92), rgba(2, 6, 23, .98));
+            border: 1px solid rgba(255, 255, 255, .08);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, .35);
+            transition: .3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+            border-color: rgba(59, 130, 246, .35);
+        }
+
+        .card h3 {
+            font-size: 1.5rem;
+            line-height: 1.2;
+            font-weight: 900;
+            margin-bottom: 18px;
+            color: white;
+        }
+
+        .card p {
+            font-size: 1rem;
+            line-height: 1.9;
+            color: #94a3b8;
+            margin-bottom: 24px;
+        }
+
+        .card-link {
+            display: inline-block;
+            padding: 14px 20px;
+            border-radius: 14px;
+            background: rgba(59, 130, 246, .12);
+            color: #93c5fd;
+            font-weight: 800;
+            transition: background 0.2s;
+        }
+        .card-link:hover {
+            background: rgba(59, 130, 246, .22);
+        }
+
+        .card .feature-list {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 16px 0;
+        }
+        .card .feature-list li {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.9rem;
+            color: #94a3b8;
+            padding: 4px 0;
+            line-height: 1.6;
+        }
+        .card .feature-list li::before {
+            content: "✓";
+            color: #3b82f6;
+            font-weight: 900;
+        }
+
+        .section {
+            padding: 100px 0;
+        }
+
+        .section h2 {
+            font-size: clamp(42px, 6vw, 72px);
+            line-height: 1;
+            letter-spacing: -.06em;
+            font-weight: 900;
+            color: white;
+            margin-bottom: 24px;
+        }
+
+        .section-intro {
+            max-width: 980px;
+            font-size: 1.08rem;
+            line-height: 2;
+            color: #cbd5e1;
+            margin-bottom: 56px;
+        }
+
+        .long-content {
+            max-width: 1000px;
+        }
+
+        .long-content p {
+            font-size: 1.06rem;
+            line-height: 2.1;
+            margin-bottom: 28px;
+            color: #cbd5e1;
+        }
+
+        .leverage-section {
+            margin: 40px 0 20px 0;
+            padding: 48px 40px;
+            border-radius: 32px;
+            background: linear-gradient(135deg, rgba(37, 99, 235, 0.10), rgba(147, 51, 234, 0.10));
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .leverage-section h3 {
+            font-size: 2rem;
+            font-weight: 800;
+            color: white;
+            margin-bottom: 12px;
+            letter-spacing: -0.02em;
+        }
+        .leverage-section p {
+            color: #cbd5e1;
+            font-size: 1.05rem;
+            line-height: 1.9;
+            max-width: 780px;
+        }
+        .leverage-section .leverage-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px 28px;
+            margin: 20px 0 16px 0;
+        }
+        .leverage-section .leverage-grid span {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.95rem;
+            color: #cbd5e1;
+        }
+        .leverage-section .leverage-grid span::before {
+            content: "❓";
+            font-size: 1.1rem;
+        }
+
+        .trust-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px 24px;
+            margin: 24px 0 10px 0;
+            padding: 16px 20px;
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        .trust-badges span {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.85rem;
+            color: #94a3b8;
+            font-weight: 500;
+        }
+        .trust-badges span::before {
+            content: "✓";
+            color: #3b82f6;
+            font-weight: 900;
+        }
+
+        .cta {
+            margin-top: 80px;
+            padding: 100px 40px;
+            border-radius: 42px;
+            text-align: center;
+            background: linear-gradient(135deg, #2563eb, #7c3aed);
+            box-shadow: 0 40px 120px rgba(37, 99, 235, .32);
+        }
+
+        .cta h2 {
+            font-size: clamp(40px, 6vw, 72px);
+            line-height: 1;
+            font-weight: 900;
+            letter-spacing: -.06em;
+            margin-bottom: 24px;
+            color: white;
+        }
+
+        .cta p {
+            max-width: 860px;
+            margin: auto;
+            margin-bottom: 36px;
+            font-size: 1.12rem;
+            line-height: 2;
+            color: #dbeafe;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            padding: 24px 48px;
+            border-radius: 20px;
+            background: white;
+            color: #020617;
+            font-weight: 900;
+            transition: transform 0.25s, box-shadow 0.3s;
+        }
+        .cta-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 16px 50px rgba(0, 0, 0, 0.25);
+        }
+
+        .cta-reassurance {
+            margin-top: 18px;
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        footer {
+            padding: 90px 0;
+            margin-top: 120px;
+            border-top: 1px solid rgba(255, 255, 255, .08);
+            text-align: center;
+            color: #64748b;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 18px;
+            flex-wrap: wrap;
+            margin-top: 24px;
+        }
+
+        .footer-links a {
+            color: #94a3b8;
+            font-weight: 700;
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media(max-width:900px) {
+
+            .container {
+                padding: 0 18px;
+            }
+
+            .nav-wrap {
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 12px 0;
+            }
+
+            .nav-links {
+                width: 100%;
+                justify-content: flex-start;
+                gap: 4px 8px;
+            }
+
+            .nav-links a {
+                font-size: .78rem;
+                padding: 3px 4px;
+            }
+
+            .top-button {
+                width: 100%;
+                text-align: center;
+                font-size: .75rem !important;
+                padding: 8px 14px;
+            }
+
+            .hero {
+                padding: 42px 0 50px;
+            }
+
+            .hero h1 {
+                font-size: 4.1rem;
+                line-height: .95;
+            }
+
+            .hero-sub {
+                font-size: 1.03rem;
+                line-height: 1.9;
+            }
+
+            .hero-buttons {
+                flex-direction: column;
+            }
+
+            .hero-trust {
+                flex-direction: column;
+                gap: 6px;
+                padding: 12px 0;
+            }
+
+            .primary-btn,
+            .secondary-btn {
+                width: 100%;
+                text-align: center;
+            }
+
+            .section {
+                padding: 80px 0;
+            }
+
+            .card {
+                padding: 30px;
+            }
+
+            .leverage-section {
+                padding: 28px 20px;
+            }
+            .leverage-section .leverage-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .trust-badges {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 4px;
+            }
+        }
+
+        @media(max-width:600px) {
+            .logo {
+                font-size: 1.3rem;
+            }
+            .nav-links a {
+                font-size: .7rem;
+                padding: 2px 3px;
+            }
+            .top-button {
+                font-size: .65rem !important;
+                padding: 6px 10px;
+            }
+        }
+    </style>
+
+    <!-- Load nav.js (cache-busted) -->
+    <script>
+        (function() {
+            const script = document.createElement('script');
+            script.src = '/nav.js?v=' + Date.now();
+            document.head.appendChild(script);
+        })();
+    </script>
+</head>
+
+<body>
+
+    <!-- ===== NAVIGATION (DYNAMIC) ===== -->
+    <nav>
+        <div class="container nav-wrap">
+            <div class="logo">
+                DetectHiddenFees<span>.</span>
+            </div>
+            <!-- This container will be filled by nav.js -->
+            <div class="nav-links" id="navLinks"></div>
+        </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+        <div class="container">
+            <div class="badge">
+                AI FORENSIC PRICING INTELLIGENCE
+            </div>
+
+            <h1>
+                Detect Hidden Fees Before They Cost You Thousands
+            </h1>
+
+            <p class="hero-sub">
+                DetectHiddenFees is an AI-powered financial protection platform that finds hidden fees in contracts, invoices, estimates, bills, and financing documents before you lose money. Upload any document and get AI-driven risk analysis and negotiation leverage.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="https://hiddenfeeai.com" class="primary-btn">
+                    Analyze My Document With AI →
+                </a>
+                <a href="/hidden-fees-guides.html" class="secondary-btn">
+                    Explore Hidden Fee Guides
+                </a>
+            </div>
+
+            <div class="hero-trust">
+                <span>Upload contracts, invoices, estimates</span>
+                <span>AI risk &amp; hidden fee analysis</span>
+                <span>$15 one-time analysis</span>
+                <span>No subscription</span>
+                <span>Documents not used for AI training</span>
+            </div>
+
+            <!-- ===== TOP CARDS ===== -->
+            <div class="grid">
+                <div class="card">
+                    <h3>HVAC Contractor Fees</h3>
+                    <p>
+                        Investigate emergency service markups, refrigerant overpricing, labor inflation, permit padding, and deceptive HVAC financing systems.
+                    </p>
+                    <a href="/hidden-hvac-contractor-fees.html" class="card-link">HVAC Pricing Intelligence</a>
+                </div>
+
+                <div class="card">
+                    <h3>Home Renovation Fees</h3>
+                    <p>
+                        Analyze contractor change-order manipulation, vague material billing, subcontractor layering, administrative surcharges, and project financing markups.
+                    </p>
+                    <a href="/hidden-home-renovation-fees.html" class="card-link">Renovation Pricing Intelligence</a>
+                </div>
+
+                <div class="card">
+                    <h3>Bank Overdraft Fees</h3>
+                    <p>
+                        Expose transaction reordering, overdraft sequencing manipulation, recurring account maintenance fees, ATM surcharge systems, and hidden banking charges.
+                    </p>
+                    <a href="/hidden-bank-overdraft-fees.html" class="card-link">Banking Fee Intelligence</a>
+                </div>
+
+                <!-- NEW CARD: AI Construction Contract Review -->
+                <div class="card" style="border-color: rgba(59,130,246,0.25);">
+                    <h3>AI Construction Contract Review</h3>
+                    <p>
+                        Before signing a contractor agreement, use AI to identify hidden fees, unclear clauses, pricing risks, and negotiation opportunities.
+                    </p>
+                    <ul class="feature-list">
+                        <li>Change order risks &amp; markup issues</li>
+                        <li>Contractor pricing &amp; payment schedule problems</li>
+                        <li>Material allowance overages</li>
+                        <li>Negotiation leverage &amp; questions to ask</li>
+                    </ul>
+                    <a href="/ai-construction-contract-review.html" class="card-link" style="background:rgba(59,130,246,0.2); color:#93c5fd; font-weight:900;">
+                        Review My Contract →
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== POPULAR INVESTIGATIONS ===== -->
+    <section class="section">
+        <div class="container">
+            <h2>Popular Hidden Fee Investigations</h2>
+            <p class="section-intro">
+                These long-form authority investigations help consumers understand how deceptive pricing systems work across HVAC contracting, home renovation, banking, auto financing, and medical billing industries while strengthening topical SEO authority for search engines.
+            </p>
+
+            <div class="grid">
+                <a href="/hidden-hvac-contractor-fees.html" class="card">
+                    <h3>Hidden HVAC Contractor Fees</h3>
+                    <p>
+                        Long-form forensic HVAC pricing investigation covering labor inflation, refrigerant markups, emergency service manipulation, hidden financing fees, installation padding, and deceptive contractor pricing systems.
+                    </p>
+                    <div class="card-link">
+                        Read HVAC Investigation →
+                    </div>
+                </a>
+
+                <a href="/hidden-home-renovation-fees.html" class="card">
+                    <h3>Hidden Home Renovation Fees</h3>
+                    <p>
+                        Advanced renovation pricing investigation covering change-order abuse, contractor fee layering, demolition inflation, permit manipulation, subcontractor pricing structures, and deceptive renovation contracts.
+                    </p>
+                    <div class="card-link">
+                        Read Renovation Investigation →
+                    </div>
+                </a>
+
+                <a href="/hidden-bank-overdraft-fees.html" class="card">
+                    <h3>Hidden Bank Overdraft Fees</h3>
+                    <p>
+                        Comprehensive banking fee investigation covering overdraft manipulation, hidden service charges, transaction sequencing systems, recurring account fees, and deceptive banking pricing structures.
+                    </p>
+                    <div class="card-link">
+                        Read Banking Investigation →
+                    </div>
+                </a>
+
+                <a href="/hidden-dealership-financing-fees.html" class="card">
+                    <h3>Hidden Dealership Financing Fees</h3>
+                    <p>
+                        Dealership financing investigation covering backend product markups, GAP insurance inflation, loan packing, APR manipulation, extended warranty overpricing, and deceptive dealership pricing systems.
+                    </p>
+                    <div class="card-link">
+                        Read Financing Investigation →
+                    </div>
+                </a>
+
+                <a href="/duplicate-medical-billing-charges.html" class="card">
+                    <h3>Duplicate Medical Billing Charges</h3>
+                    <p>
+                        Medical billing investigation covering duplicate charges, coding inconsistencies, inflated hospital pricing, administrative healthcare fees, and insurance billing manipulation systems.
+                    </p>
+                    <div class="card-link">
+                        Read Medical Investigation →
+                    </div>
+                </a>
+
+                <a href="/hidden-fees-guides.html" class="card">
+                    <h3>Hidden Fee Consumer Guides</h3>
+                    <p>
+                        Educational hidden fee guides explaining deceptive pricing structures, financial manipulation systems, contractor markup strategies, and consumer pricing transparency methods.
+                    </p>
+                    <div class="card-link">
+                        Explore Guides →
+                    </div>
+                </a>
+
+                <a href="/ai-construction-contract-review.html" class="card" style="border-color: rgba(59,130,246,0.2);">
+                    <h3>AI Construction Contract Review</h3>
+                    <p>
+                        Before signing a contractor agreement, use AI to identify hidden fees, unclear clauses, pricing risks, and negotiation opportunities. Get the questions to ask before you commit.
+                    </p>
+                    <div class="card-link" style="background:rgba(59,130,246,0.2); font-weight:900;">
+                        Review My Contract →
+                    </div>
+                </a>
+
+                <a href="/ai-contract-review-tool.html" class="card" style="border-color: rgba(59,130,246,0.2);">
+                    <h3>AI Contract Review Tool</h3>
+                    <p>
+                        Upload any contract, agreement, or proposal. Our AI tool scans for hidden fees, pricing risks, unclear clauses, and negotiation opportunities before you sign.
+                    </p>
+                    <div class="card-link" style="background:rgba(59,130,246,0.2); font-weight:900;">
+                        Try the AI Tool →
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== NEGOTIATION LEVERAGE ===== -->
+    <section class="section" style="padding-top:20px;">
+        <div class="container">
+            <div class="leverage-section">
+                <h3>HiddenFeeAI does more than find fees — it gives you negotiation leverage.</h3>
+                <p>
+                    When you upload a document, you don't just get a list of potential risks. You get specific questions to ask, pricing concerns to discuss, and unclear contract terms to challenge before signing.
+                </p>
+                <div class="leverage-grid">
+                    <span>Ask better questions before signing</span>
+                    <span>Challenge unclear pricing terms</span>
+                    <span>Identify potential cost risks early</span>
+                    <span>Enter negotiations with confidence</span>
+                </div>
+                <a href="https://hiddenfeeai.com" class="primary-btn" style="padding:18px 36px; font-size:1rem;">
+                    Get Your Negotiation Leverage — $15
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== LONG CONTENT ===== -->
+    <section class="section">
+        <div class="container long-content">
+            <h2>Why AI Hidden Fee Detection Matters</h2>
+
+            <p>
+                Modern pricing systems have become significantly more complex than most consumers realize. Hidden fees are no longer isolated line items quietly inserted into invoices. Entire industries now depend on layered pricing systems intentionally designed to obscure the real cost structure behind products and services.
+            </p>
+
+            <p>
+                HVAC contractors frequently rely on emergency labor pricing models, inflated refrigerant charges, vague equipment upgrade recommendations, and financing systems that dramatically increase the final project cost. Home renovation contractors often use change-order manipulation, subcontractor layering, permit fee inflation, demolition overpricing, and administrative surcharge structures that consumers struggle to identify during large projects.
+            </p>
+
+            <p>
+                Dealership financing departments use backend products, loan packing systems, warranty markups, GAP insurance manipulation, and APR structuring techniques designed to maximize profitability while making monthly payments appear manageable. Medical billing systems frequently contain duplicate charges, coding inconsistencies, inflated procedure pricing, and administrative billing structures that patients rarely notice.
+            </p>
+
+            <p>
+                Banking institutions have also developed sophisticated fee systems that rely heavily on overdraft sequencing strategies, recurring maintenance charges, account service layering, ATM surcharge structures, and transaction manipulation. These systems generate billions in annual revenue while remaining difficult for average consumers to fully understand.
+            </p>
+
+            <p>
+                DetectHiddenFees was built to investigate these pricing systems using AI-powered forensic document analysis. The platform analyzes invoices, financing agreements, estimates, contracts, service agreements, billing statements, and pricing structures to identify hidden costs, deceptive language, unusual fee patterns, markup systems, and financial manipulation tactics.
+            </p>
+
+            <p>
+                The goal is not simply to scan for keywords. The goal is to understand how pricing systems function structurally. This allows the platform to identify patterns associated with hidden contractor markups, dealership financing manipulation, medical billing duplication, and banking fee inflation.
+            </p>
+
+            <p>
+                These authority pages also support SEO performance by creating strong topical relationships between investigations. Internal linking architecture helps search engines understand the relationship between HVAC pricing manipulation, renovation contractor pricing systems, banking fee structures, and medical billing investigations.
+            </p>
+
+            <p>
+                Long-form content also improves user trust, increases session duration, expands topical authority, and supports broader semantic ranking coverage for hidden fee related search terms.
+            </p>
+        </div>
+
+        <div class="container">
+            <div class="trust-badges">
+                <span>Your documents are analyzed securely</span>
+                <span>Your information is not sold</span>
+                <span>No subscription required</span>
+                <span>AI analysis helps identify risks and questions — not legal advice</span>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="cta">
+                <h2>Upload Documents &amp; Detect Hidden Fees With AI</h2>
+                <p>
+                    Analyze contracts, HVAC proposals, renovation agreements, financing contracts, medical bills, and banking statements using AI-powered forensic pricing intelligence.
+                </p>
+                <a href="https://hiddenfeeai.com" class="cta-btn">
+                    Find Hidden Fees Before You Sign →
+                </a>
+                <div class="cta-reassurance">$15 one-time analysis · No subscription · Secure processing</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <p>
+                © 2026 DetectHiddenFees.com — AI Hidden Fee Intelligence Platform
+            </p>
+            <div class="footer-links">
+                <a href="/hidden-hvac-contractor-fees.html">HVAC Fees</a>
+                <a href="/hidden-home-renovation-fees.html">Renovation Fees</a>
+                <a href="/hidden-bank-overdraft-fees.html">Bank Fees</a>
+                <a href="/hidden-dealership-financing-fees.html">Auto Financing</a>
+                <a href="/duplicate-medical-billing-charges.html">Medical Billing</a>
+                <a href="/hidden-fees-guides.html">Guides</a>
+                <a href="/ai-construction-contract-review.html">Contract Review</a>
+                <a href="/ai-contract-review-tool.html">AI Contract Tool</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Badges -->
+    <a href="https://buildlist.io" target="_blank" rel="noopener">
+        <img src="https://buildlist.io/badge.svg" alt="Featured on Buildlist" style="height:40px;width:auto;">
+    </a>
+    <a href="https://www.listbulb.com/tools/detecthiddenfees" target="_blank" rel="noopener">
+        <img src="https://www.listbulb.com/featured-on-listbulb-dark.svg" alt="Featured on ListBulb" height="240" />
+    </a>
+    <a href="https://www.stork.ai/" rel="nofollow" title="Stork Verified — stork.ai AI tools directory">
+        <img src="https://www.stork.ai/badge/verified-dark.svg" alt="Stork Verified — stork.ai AI tools directory" width="216" height="44" />
+    </a>
+</body>
+</html>
