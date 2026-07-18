@@ -127,7 +127,7 @@
             color: #f3f4f6;
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
-            padding-bottom: 140px; /* Space for sticky bottom bar */
+            padding-bottom: 160px; /* Enhanced space for sticky bottom bar layout survival */
             overflow-x: hidden;
         }
 
@@ -669,7 +669,7 @@
             margin-top: 28px;
         }
 
-        /* ===== PREMIUM FIXED BOTTOM CTA BAR (Ultra-Luxury Compact Layout) ===== */
+        /* ===== PREMIUM FIXED BOTTOM CTA BAR ===== */
         .sticky-cta-bar {
             position: fixed;
             bottom: 24px;
@@ -687,7 +687,7 @@
             justify-content: space-between;
             gap: 20px;
             width: calc(100% - 40px);
-            max-width: 320px; /* Reduced box width for elite single-focus mobile viewing */
+            max-width: 320px;
             box-shadow: 0 30px 60px rgba(0,0,0,0.65);
         }
         .sticky-cta-bar .sticky-text {
@@ -754,13 +754,15 @@
                 font-weight: 800;
             }
             
-            /* Tightened layout spacing above AI badge to optimize viewpoint fold */
-            .hero { padding: 32px 0 30px; } 
+            /* Defensive bottom spacing to prevent the floating sticky bar from clipping components */
+            .hero { padding: 32px 0 110px; } 
             .badge { margin-bottom: 24px; }
             
             .hero h1 { font-size: 2.5rem; letter-spacing: -0.04em; }
             .hero-sub { font-size: 1.05rem; line-height: 1.6; margin-bottom: 28px; }
-            .hero-buttons { flex-direction: column; gap: 12px; }
+            
+            /* Keeps hero buttons cleanly stacked above the viewport's bottom layout */
+            .hero-buttons { flex-direction: column; gap: 12px; margin-bottom: 40px; }
             .primary-btn, .secondary-btn { width: 100%; text-align: center; padding: 16px; }
             
             .leverage-section { padding: 36px 24px; border-radius: 24px; }
@@ -772,7 +774,6 @@
             .footer-bottom { flex-direction: column; gap: 16px; }
             .footer-badges { justify-content: center; }
             
-            /* Responsive layout configurations for the floating dynamic checkout bar */
             .sticky-cta-bar { 
                 bottom: 20px; 
                 width: calc(100% - 32px);
@@ -798,7 +799,7 @@
                 DetectHiddenFees<span>.</span>
             </div>
             
-            <!-- Desktop Layout Links -->
+            <!-- Desktop Links -->
             <div class="nav-links">
                 <a class="active" href="/">Home</a>
                 <a href="/hidden-fees-guides.html">Guides</a>
@@ -808,7 +809,7 @@
                 <a href="https://hiddenfeeai.com" class="nav-btn nav-btn-primary">Analyze My Documents</a>
             </div>
             
-            <!-- Mobile Conversion Layout (Focused Single CTA Alignment) -->
+            <!-- Mobile Conversion Layout Header -->
             <div class="mobile-actions">
                 <a href="https://hiddenfeeai.com" class="mobile-action-btn primary">Analyze &rarr;</a>
             </div>
@@ -1076,7 +1077,7 @@
 
             <div class="footer-bottom">
                 <p>&copy; 2026 DetectHiddenFees.com — Consumer Protection & Pricing Intelligence Platform.</p>
-                <p>Built securely using AI systems.</p>
+                
             </div>
         </div>
     </footer>
