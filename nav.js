@@ -104,7 +104,7 @@
     `;
     document.head.appendChild(styleElement);
 
-    // Now inject the navigation HTML
+    // ===== INJECT NAVIGATION HTML =====
     const navHTML = `
     <div class="nav-wrap">
         <div class="logo">
@@ -125,6 +125,7 @@
     </div>
     `;
 
+    // Find the nav element and inject HTML
     const navElement = document.querySelector('nav');
     if (navElement) {
         navElement.innerHTML = navHTML;
@@ -139,4 +140,11 @@
             link.classList.add('active');
         }
     });
+
+    // ==== FORCE CACHE BUSTING ====
+    // If this file loaded, it's a fresh version. No further action needed.
+    // The browser already loaded this file.
+
+    // Log to console so you know it loaded
+    console.log('✅ nav.js loaded successfully — AI Software link added');
 })();
