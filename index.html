@@ -38,7 +38,6 @@
     <link rel="apple-touch-icon" href="/favicon.svg" />
     <meta name="theme-color" content="#2563eb" />
 
-
     <!-- Schema: Organization -->
     <script type="application/ld+json">
         {
@@ -943,20 +942,6 @@
                 DetectHiddenFees<span>.</span>
             </div>
             <div class="nav-links">
-                <a href="/hidden-fees-guides.html">Guides</a>
-                <a href="/hidden-hvac-contractor-fees.html">HVAC Fees</a>
-                <a href="/hidden-home-renovation-fees.html">Renovation Fees</a>
-                <a href="/hidden-bank-overdraft-fees.html">Bank Fees</a>
-                <a href="/hidden-dealership-financing-fees.html">Auto Financing</a>
-                <a href="/duplicate-medical-billing-charges.html">Medical Billing</a>
-                <a href="/ai-construction-contract-review.html">Contract Review</a>
-                <a href="/ai-contract-review-tool.html">AI Contract Tool</a>
-                <a href="/contract-review-ai-software.html">Contract AI Software</a>
-                <a href="/ai-contract-review.html">AI Review</a>
-                <a href="/ai-contract-analysis.html">AI Analysis</a>
-                <a href="/contract-analysis-ai.html">Contract AI</a>
-                <a href="/bill-negotiation-service.html">Bill Negotiation</a>
-                <a href="/negotiate-bills.html">Negotiate Bills</a>
                 <a href="/premium-contract-guide.pdf" download class="nav-btn" style="background:linear-gradient(135deg,#7c3aed,#2563eb);box-shadow:0 12px 36px rgba(124,58,237,0.3);">⭐ Free PDF Guide</a>
                 <a href="https://hiddenfeeai.com" class="nav-btn">Analyze My Documents</a>
             </div>
@@ -1309,11 +1294,7 @@
         .eva-pulse.sh{opacity:1}
     </style>
 
-    <div class="eva-pulse" id="ePulse"></div>
-
-    <div id="evaW">
-        <div class="shine"></div>
-        <button class="cl" onclick="document.getElementById('evaW').classList.remove('sh');document.getElementById('ePulse').classList.remove('sh')">X</button>
+    <button class="cl" onclick="document.getElementById('evaW').classList.remove('sh');document.getElementById('ePulse').classList.remove('sh')">X</button>
         <div class="top">
             <div class="av-wrap">
                 <div class="hair-back"></div>
@@ -1339,11 +1320,6 @@
         </div>
         <div class="ft">Free · No spam · Unsubscribe anytime</div>
     </div>
-
-    <script>
-        setTimeout(function(){document.getElementById('evaW').classList.add('sh')},2500);
-        function sE(){var e=document.getElementById('eE').value.trim(),b=document.getElementById('eB'),f=document.getElementById('eF'),s=document.getElementById('eS'),t=document.getElementById('eT');if(!e||e.indexOf('@')===-1){t.innerHTML='Please enter a valid email address.';return}b.disabled=true;b.textContent='Sending...';fetch('https://api.brevo.com/v3/contacts',{method:'POST',headers:{'content-type':'application/json','api-key':'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'},body:JSON.stringify({email:e,listIds:[2],updateEnabled:true,attributes:{SOURCE:'Eva Guide','GUIDE':'Contract Decoder'}})}).then(function(r){if(r.ok||r.status==201||r.status==204){f.style.display='none';s.classList.add('shw');t.innerHTML='Check your inbox for your free guide!'}else{return r.json().then(function(d){if(d.message&&d.message.indexOf('already')>-1){f.style.display='none';s.classList.add('shw')}else throw Error()})}}).catch(function(){b.disabled=false;b.textContent='Send My Free Guide';t.innerHTML='Please try again.'})}
-    </script>
 
 </body>
 </html>
