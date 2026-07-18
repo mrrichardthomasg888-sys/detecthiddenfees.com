@@ -1,13 +1,57 @@
-// /nav.js
+// /nav.js — Complete navigation + footer system
 (function() {
 
-    // ---- Inject button CSS directly into the page ----
-    function injectButtonStyles() {
-        if (document.getElementById('nav-button-styles')) return;
+    // ---- CENTRAL PAGE LIST ----
+    // Add or remove pages here. This updates EVERY page's nav AND footer instantly.
+    const pages = [
+        { text: 'Guides', href: '/hidden-fees-guides.html' },
+        { text: 'HVAC Fees', href: '/hidden-hvac-contractor-fees.html' },
+        { text: 'Renovation Fees', href: '/hidden-home-renovation-fees.html' },
+        { text: 'Bank Fees', href: '/hidden-bank-overdraft-fees.html' },
+        { text: 'Auto Financing', href: '/hidden-dealership-financing-fees.html' },
+        { text: 'Medical Billing', href: '/duplicate-medical-billing-charges.html' },
+        { text: 'Contract Review', href: '/ai-construction-contract-review.html' },
+        { text: 'AI Contract Tool', href: '/ai-contract-review-tool.html' },
+        { text: 'Contract AI Software', href: '/contract-review-ai-software.html' }
+    ];
+
+    // ---- INJECT NAVIGATION ----
+    function buildNav() {
+        const container = document.querySelector('.nav-links');
+        if (!container) return;
+
+        const currentPath = window.location.pathname;
+        let html = '';
+
+        pages.forEach(page => {
+            const isActive = (currentPath === page.href) ? ' active' : '';
+            html += `<a href="${page.href}" class="${isActive}">${page.text}</a>`;
+        });
+
+        html += `<a href="https://hiddenfeeai.com" class="top-button">🚀 Analyze My Documents</a>`;
+        container.innerHTML = html;
+    }
+
+    // ---- INJECT FOOTER ----
+    function buildFooter() {
+        const container = document.querySelector('.footer-links');
+        if (!container) return;
+
+        let html = '';
+        pages.forEach(page => {
+            html += `<a href="${page.href}">${page.text}</a>`;
+        });
+        container.innerHTML = html;
+    }
+
+    // ---- INJECT BUTTON CSS (for pages missing it) ----
+    function injectStyles() {
+        if (document.getElementById('nav-system-styles')) return;
+
         const style = document.createElement('style');
-        style.id = 'nav-button-styles';
+        style.id = 'nav-system-styles';
         style.textContent = `
-            /* === BUTTON STYLES (injected by nav.js) === */
+            /* === BUTTON STYLES === */
             .top-button {
                 display: inline-block !important;
                 padding: 8px 18px !important;
@@ -34,7 +78,7 @@
                 gap: 6px !important;
                 align-items: center !important;
                 flex-wrap: wrap !important;
-                justify-content: flex-end !important;
+                justify-content: flex-start !important;
                 min-height: 36px !important;
             }
             .nav-links a {
@@ -52,6 +96,23 @@
             .nav-links a.active {
                 color: #ffffff !important;
                 text-shadow: 0 0 20px rgba(59, 130, 246, 0.3) !important;
+            }
+            .footer-links {
+                display: flex !important;
+                justify-content: center !important;
+                gap: 14px !important;
+                flex-wrap: wrap !important;
+                margin-bottom: 14px !important;
+            }
+            .footer-links a {
+                color: #94a3b8 !important;
+                font-weight: 600 !important;
+                font-size: .85rem !important;
+                transition: color 0.2s !important;
+                text-decoration: none !important;
+            }
+            .footer-links a:hover {
+                color: white !important;
             }
             @media(max-width:900px) {
                 .nav-links {
@@ -79,51 +140,25 @@
                     font-size: .65rem !important;
                     padding: 6px 10px !important;
                 }
+                .footer-links a {
+                    font-size: .75rem !important;
+                }
             }
         `;
         document.head.appendChild(style);
     }
 
-    // ---- Build and inject the nav ----
-    function buildNav() {
-        const container = document.querySelector('.nav-links');
-        if (!container) return;
-
-        // Inject button CSS (safe to call multiple times)
-        injectButtonStyles();
-
-        // ---- CENTRAL LIST OF ALL PAGES ----
-        const pages = [
-            { text: 'Guides', href: '/hidden-fees-guides.html' },
-            { text: 'HVAC Fees', href: '/hidden-hvac-contractor-fees.html' },
-            { text: 'Renovation Fees', href: '/hidden-home-renovation-fees.html' },
-            { text: 'Bank Fees', href: '/hidden-bank-overdraft-fees.html' },
-            { text: 'Auto Financing', href: '/hidden-dealership-financing-fees.html' },
-            { text: 'Medical Billing', href: '/duplicate-medical-billing-charges.html' },
-            { text: 'Contract Review', href: '/ai-construction-contract-review.html' },
-            { text: 'AI Contract Tool', href: '/ai-contract-review-tool.html' },
-            { text: 'Contract AI Software', href: '/contract-review-ai-software.html' }
-        ];
-
-        const currentPath = window.location.pathname;
-        let html = '';
-
-        pages.forEach(page => {
-            const isActive = (currentPath === page.href) ? ' active' : '';
-            html += `<a href="${page.href}" class="${isActive}">${page.text}</a>`;
-        });
-
-        // Button with proper class
-        html += `<a href="https://hiddenfeeai.com" class="top-button">🚀 Analyze My Documents</a>`;
-
-        container.innerHTML = html;
+    // ---- RUN WHEN DOM IS READY ----
+    function init() {
+        injectStyles();
+        buildNav();
+        buildFooter();
     }
 
-    // ---- Run when DOM is ready ----
     if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', buildNav);
+        document.addEventListener('DOMContentLoaded', init);
     } else {
-        buildNav();
+        init();
     }
 
 })();
