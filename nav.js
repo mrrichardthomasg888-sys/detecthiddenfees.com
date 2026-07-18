@@ -119,6 +119,7 @@
             <a href="/duplicate-medical-billing-charges.html">Medical Billing</a>
             <a href="/ai-construction-contract-review.html">Contract Review</a>
             <a href="/ai-contract-review-tool.html">AI Contract Tool</a>
+            <a href="/contract-review-ai-software.html">AI Software</a>
             <a href="https://hiddenfeeai.com" class="nav-btn">Analyze My Documents</a>
         </div>
     </div>
