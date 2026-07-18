@@ -127,7 +127,7 @@
             color: #f3f4f6;
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
-            padding-bottom: 160px; /* Enhanced space for sticky bottom bar layout survival */
+            padding-bottom: 120px;
             overflow-x: hidden;
         }
 
@@ -168,7 +168,7 @@
         .orb-accent {
             position: fixed;
             pointer-events: none;
-            z-index: -1;
+            z-15px: -1;
             border-radius: 50%;
             filter: blur(160px);
             opacity: 0.15;
@@ -754,16 +754,16 @@
                 font-weight: 800;
             }
             
-            /* Defensive bottom spacing to prevent the floating sticky bar from clipping components */
-            .hero { padding: 32px 0 110px; } 
+            /* Aggressive structural padding on hero container to ensure elements don't bunch into viewport bottom layout */
+            .hero { padding: 32px 0 220px; } 
             .badge { margin-bottom: 24px; }
             
             .hero h1 { font-size: 2.5rem; letter-spacing: -0.04em; }
             .hero-sub { font-size: 1.05rem; line-height: 1.6; margin-bottom: 28px; }
             
-            /* Keeps hero buttons cleanly stacked above the viewport's bottom layout */
-            .hero-buttons { flex-direction: column; gap: 12px; margin-bottom: 40px; }
-            .primary-btn, .secondary-btn { width: 100%; text-align: center; padding: 16px; }
+            /* Generous padding below hero buttons creates separation from elements further down */
+            .hero-buttons { flex-direction: column; gap: 14px; margin-bottom: 64px; }
+            .primary-btn, .secondary-btn { width: 100%; text-align: center; padding: 18px; }
             
             .leverage-section { padding: 36px 24px; border-radius: 24px; }
             .leverage-section .leverage-grid { grid-template-columns: 1fr; gap: 14px; margin-bottom: 32px; }
@@ -1077,7 +1077,6 @@
 
             <div class="footer-bottom">
                 <p>&copy; 2026 DetectHiddenFees.com — Consumer Protection & Pricing Intelligence Platform.</p>
-                
             </div>
         </div>
     </footer>
