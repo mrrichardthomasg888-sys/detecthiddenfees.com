@@ -116,8 +116,8 @@
             box-sizing: border-box;
         }
 
-        html, body {
-            overflow-x: hidden;
+        /* Standard native scrolling guaranteed */
+        html {
             scroll-behavior: smooth;
         }
 
@@ -127,7 +127,7 @@
             color: #f3f4f6;
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
-            padding-bottom: 90px;
+            padding-bottom: 120px; /* Space for sticky bottom bar */
         }
 
         a { text-decoration: none; }
@@ -148,8 +148,6 @@
             border-radius: 50%;
             filter: blur(140px);
             opacity: 0.28;
-            -webkit-transform: translate3d(0,0,0);
-            transform: translate3d(0,0,0);
         }
         body::before {
             width: 700px;
@@ -180,7 +178,6 @@
             left: 35%;
         }
 
-        /* ===== PREMIUM AMBIENT EFFECTS ===== */
         @keyframes glowPulse {
             0%, 100% { box-shadow: 0 0 30px rgba(37,99,235,0.2), 0 0 60px rgba(37,99,235,0.05); }
             50% { box-shadow: 0 0 45px rgba(37,99,235,0.4), 0 0 90px rgba(37,99,235,0.15); }
@@ -191,9 +188,9 @@
             position: sticky;
             top: 0;
             z-index: 999;
-            background: rgba(2, 4, 10, 0.75);
-            backdrop-filter: blur(24px) saturate(1.8);
-            -webkit-backdrop-filter: blur(24px) saturate(1.8);
+            background: rgba(2, 4, 10, 0.85);
+            backdrop-filter: blur(24px);
+            -webkit-backdrop-filter: blur(24px);
             border-bottom: 1px solid rgba(255, 255, 255, 0.05);
         }
 
@@ -244,14 +241,13 @@
             font-size: .9rem;
             font-weight: 700;
             color: #ffffff !important;
-            transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+            transition: all 0.2s ease;
             cursor: pointer;
         }
 
         .nav-btn:hover {
             background: rgba(255, 255, 255, 0.12);
             border-color: rgba(255, 255, 255, 0.2);
-            transform: translateY(-1px);
         }
 
         .nav-btn-primary {
@@ -261,20 +257,32 @@
         }
         .nav-btn-primary:hover {
             background: linear-gradient(135deg, #3b82f6, #2563eb);
-            box-shadow: 0 6px 24px rgba(37, 99, 235, 0.35);
         }
 
-        /* Mobile specific inline action button to resolve layout gap */
-        .mobile-action-btn {
+        /* Mobile specific layout containers */
+        .mobile-actions {
             display: none;
+            gap: 8px;
+            align-items: center;
+        }
+
+        .mobile-action-btn {
             padding: 8px 14px;
             border-radius: 10px;
-            background: rgba(37, 99, 235, 0.1);
-            border: 1px solid rgba(37, 99, 235, 0.25);
             font-size: 0.85rem;
             font-weight: 700;
-            color: #60a5fa;
             backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+        .mobile-action-btn.primary {
+            background: rgba(37, 99, 235, 0.1);
+            border: 1px solid rgba(37, 99, 235, 0.25);
+            color: #60a5fa;
+        }
+        .mobile-action-btn.secondary {
+            background: transparent;
+            border: 1px solid rgba(255,255,255,0.1);
+            color: #9ca3af;
         }
 
         /* ===== EXPENSIVE HERO SECTION ===== */
@@ -328,7 +336,6 @@
             margin-bottom: 54px;
         }
 
-        /* Luxury Gloss Primary Button */
         .primary-btn {
             display: inline-block;
             padding: 18px 38px;
@@ -337,14 +344,12 @@
             color: #02040a;
             font-weight: 700;
             font-size: 1rem;
-            box-shadow: 0 15px 35px rgba(255,255,255,0.08), 0 5px 15px rgba(0,0,0,0.3);
-            transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
-            border: 1px solid transparent;
+            box-shadow: 0 15px 35px rgba(255,255,255,0.08);
+            transition: all 0.2s ease;
         }
         .primary-btn:hover {
             transform: translateY(-2px);
             background: #f9fafb;
-            box-shadow: 0 20px 45px rgba(59, 130, 246, 0.3), 0 5px 15px rgba(0,0,0,0.2);
         }
 
         .secondary-btn {
@@ -358,11 +363,10 @@
             color: #f3f4f6;
             font-weight: 600;
             font-size: 1rem;
-            transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+            transition: all 0.2s ease;
         }
         .secondary-btn:hover {
             background: rgba(255, 255, 255, .08);
-            border-color: rgba(255, 255, 255, .25);
             transform: translateY(-1px);
         }
 
@@ -390,7 +394,7 @@
             font-weight: 900;
         }
 
-        /* ===== HIGH-END CARDS & GRID ===== */
+        /* ===== CARDS GRID ===== */
         .grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -405,7 +409,7 @@
             border: 1px solid rgba(255, 255, 255, .05);
             backdrop-filter: blur(16px);
             -webkit-backdrop-filter: blur(16px);
-            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            transition: all 0.3s ease;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -413,9 +417,7 @@
 
         .card:hover {
             transform: translateY(-5px);
-            background: linear-gradient(145deg, rgba(17, 24, 39, 0.65), rgba(3, 7, 18, 0.65));
             border-color: rgba(59, 130, 246, .35);
-            box-shadow: 0 40px 80px rgba(0, 0, 0, .5), inset 0 1px 0 rgba(255,255,255,0.05);
         }
 
         .card h3 {
@@ -423,7 +425,6 @@
             font-weight: 700;
             margin-bottom: 16px;
             color: #ffffff;
-            letter-spacing: -0.3px;
         }
 
         .card p {
@@ -441,10 +442,6 @@
             display: inline-flex;
             align-items: center;
             gap: 6px;
-            transition: color 0.2s ease;
-        }
-        .card-link:hover {
-            color: #93c5fd;
         }
 
         .card .feature-list {
@@ -463,7 +460,6 @@
         .card .feature-list li::before {
             content: "→";
             color: #3b82f6;
-            font-weight: 700;
         }
 
         /* ===== PRODUCTION SECTIONS ===== */
@@ -500,7 +496,6 @@
             color: #9ca3af;
         }
 
-        /* Luxury Glass Leverage Module */
         .leverage-section {
             padding: 64px;
             border-radius: 32px;
@@ -508,14 +503,12 @@
             border: 1px solid rgba(255, 255, 255, 0.05);
             backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(20px);
-            box-shadow: inset 0 1px 1px rgba(255,255,255,0.05);
         }
         .leverage-section h3 {
             font-size: 2rem;
             font-weight: 800;
             color: #ffffff;
             margin-bottom: 18px;
-            letter-spacing: -0.5px;
         }
         .leverage-section p {
             color: #9ca3af;
@@ -536,7 +529,6 @@
             gap: 12px;
             font-size: 1rem;
             color: #e5e7eb;
-            font-weight: 500;
         }
         .leverage-section .leverage-grid span::before {
             content: "✦";
@@ -560,7 +552,6 @@
             gap: 8px;
             font-size: 0.85rem;
             color: #6b7280;
-            font-weight: 500;
         }
         .trust-badges span::before {
             content: "✓";
@@ -574,15 +565,12 @@
             text-align: center;
             background: radial-gradient(circle at top, rgba(37, 99, 235, 0.18), transparent 65%), #050914;
             border: 1px solid rgba(255, 255, 255, 0.05);
-            box-shadow: 0 50px 100px rgba(0,0,0,0.7), inset 0 1px 0 rgba(255,255,255,0.02);
             position: relative;
-            overflow: hidden;
         }
 
         .cta h2 {
             font-size: clamp(34px, 5.5vw, 58px);
             font-weight: 900;
-            letter-spacing: -.04em;
             margin-bottom: 20px;
             color: #ffffff;
         }
@@ -603,28 +591,24 @@
             color: #02040a;
             font-weight: 700;
             font-size: 1.05rem;
-            transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
-            box-shadow: 0 15px 35px rgba(255,255,255,0.1);
+            transition: all 0.2s ease;
         }
         .cta-btn:hover {
             transform: translateY(-2px);
             background: #f9fafb;
-            box-shadow: 0 20px 45px rgba(59,130,246,0.3);
         }
 
         .cta-reassurance {
             margin-top: 20px;
             font-size: 0.85rem;
             color: #4b5563;
-            font-weight: 500;
         }
 
-        /* ===== EXPENSIVE MEGA FOOTER ===== */
+        /* ===== FOOTER ===== */
         footer {
             padding: 90px 0 44px 0;
             margin-top: 100px;
             border-top: 1px solid rgba(255, 255, 255, .05);
-            background: #02040a;
         }
 
         .footer-grid {
@@ -655,7 +639,6 @@
         .footer-column ul {
             list-style: none;
             padding: 0;
-            margin: 0;
         }
 
         .footer-column ul li {
@@ -665,7 +648,6 @@
         .footer-column ul li a {
             color: #6b7280;
             font-size: 0.9rem;
-            font-weight: 500;
             transition: color 0.2s ease;
         }
         .footer-column ul li a:hover {
@@ -688,17 +670,16 @@
             align-items: center;
             flex-wrap: wrap;
             margin-top: 28px;
-            justify-content: flex-start;
         }
 
-        /* ===== HIGH-END BOTTOM STICKY BAR ===== */
+        /* ===== PREMIUM HIGH-TICKET FLOATING BAR ===== */
         .sticky-cta-bar {
             position: fixed;
             bottom: 24px;
             left: 50%;
-            transform: translateX(-50%) translateY(0);
+            transform: translateX(-50%);
             z-index: 1000;
-            background: rgba(10, 15, 30, 0.7);
+            background: rgba(10, 15, 30, 0.75);
             backdrop-filter: blur(24px) saturate(1.8);
             -webkit-backdrop-filter: blur(24px) saturate(1.8);
             padding: 12px 14px 12px 28px;
@@ -710,7 +691,7 @@
             gap: 32px;
             width: calc(100% - 40px);
             max-width: 520px;
-            box-shadow: 0 30px 60px rgba(0,0,0,0.6), inset 0 1px 0 rgba(255,255,255,0.1);
+            box-shadow: 0 30px 60px rgba(0,0,0,0.6);
         }
         .sticky-cta-bar .sticky-text {
             font-weight: 700;
@@ -719,7 +700,6 @@
             display: flex;
             align-items: center;
             gap: 12px;
-            letter-spacing: -0.2px;
         }
         .sticky-cta-bar .sticky-text .price {
             color: #60a5fa;
@@ -741,37 +721,32 @@
             border: none;
             cursor: pointer;
             transition: all 0.2s ease;
-            box-shadow: 0 4px 12px rgba(255,255,255,0.1);
         }
         .sticky-cta-bar .sticky-btn:hover {
             transform: translateY(-1px);
             background: #f9fafb;
-            box-shadow: 0 8px 20px rgba(59,130,246,0.3);
         }
 
-        /* ===== ULTIMATE RESPONSIVE REFINEMENTS ===== */
+        /* ===== RESPONSIVE MEDIA QUERIES ===== */
         @media(max-width:900px) {
-            .container { padding: 0 24px; }
-            body::before, body::after { filter: blur(100px); opacity: 0.22; }
-            .nav-wrap { padding: 14px 0; }
             .nav-links { display: none; }
-            
-            /* Displays beautiful clean mobile action button to anchor layout */
-            .mobile-action-btn { display: inline-block; }
+            .mobile-actions { display: flex; }
             
             .hero { padding: 70px 0 50px; }
-            .hero h1 { font-size: 2.85rem; tracking: -0.8px; }
+            .hero h1 { font-size: 2.85rem; }
             .hero-sub { font-size: 1.1rem; line-height: 1.65; margin-bottom: 32px; }
             .hero-buttons { flex-direction: column; gap: 12px; }
             .primary-btn, .secondary-btn { width: 100%; text-align: center; padding: 16px; }
+            
             .leverage-section { padding: 36px 24px; border-radius: 24px; }
             .leverage-section .leverage-grid { grid-template-columns: 1fr; gap: 14px; margin-bottom: 32px; }
+            
             .footer-grid { grid-template-columns: 1fr; gap: 36px; }
-            .footer-brand { text-align: center; }
+            .footer-brand, .footer-column, .footer-bottom { text-align: center; }
             .footer-brand .footer-desc { margin: 14px auto 0 auto; }
-            .footer-column { text-align: center; }
-            .footer-bottom { flex-direction: column; gap: 16px; text-align: center; }
+            .footer-bottom { flex-direction: column; gap: 16px; }
             .footer-badges { justify-content: center; }
+            
             .sticky-cta-bar { bottom: 16px; width: calc(100% - 32px); padding: 10px 10px 10px 20px; gap: 16px; }
             .sticky-cta-bar .sticky-text { font-size: 0.9rem; }
             .sticky-cta-bar .sticky-btn { padding: 12px 20px; font-size: 0.85rem; border-radius: 12px; }
@@ -789,15 +764,20 @@
             <div class="logo">
                 DetectHiddenFees<span>.</span>
             </div>
-            <!-- Desktop Layout -->
+            
+            <!-- Desktop Layout Links -->
             <div class="nav-links">
                 <a class="active" href="/">Home</a>
                 <a href="/hidden-fees-guides.html">Guides</a>
                 <a href="#" id="pdfDownloadBtn" class="nav-btn">⭐ Free PDF Guide</a>
                 <a href="https://hiddenfeeai.com" class="nav-btn nav-btn-primary">Analyze My Documents</a>
             </div>
-            <!-- Premium Mobile Dynamic Fix -->
-            <a href="https://hiddenfeeai.com" class="mobile-action-btn">Analyze →</a>
+            
+            <!-- Safe Mobile Actions Container (With PDF Button Restored!) -->
+            <div class="mobile-actions">
+                <a href="#" id="pdfDownloadBtnMobile" class="mobile-action-btn secondary">⭐ PDF</a>
+                <a href="https://hiddenfeeai.com" class="mobile-action-btn primary">Analyze →</a>
+            </div>
         </div>
     </nav>
 
@@ -833,7 +813,7 @@
                 <span>Documents not used for AI training</span>
             </div>
 
-            <!-- ===== TOP CARDS GRID ===== -->
+            <!-- ===== CARDS GRID ===== -->
             <div class="grid">
                 <div class="card">
                     <div>
@@ -865,7 +845,7 @@
                     <a href="/hidden-bank-overdraft-fees.html" class="card-link">Banking Fee Intelligence &rarr;</a>
                 </div>
 
-                <div class="card" style="border-color: rgba(59,130,246,0.3); background: rgba(37,99,235,0.02); box-shadow: inset 0 1px 0 rgba(255,255,255,0.02);">
+                <div class="card" style="border-color: rgba(59,130,246,0.3); background: rgba(37,99,235,0.02);">
                     <div>
                         <h3>AI Construction Contract Review</h3>
                         <p>
@@ -946,7 +926,7 @@
         </div>
     </section>
 
-    <!-- ===== NEGOTIATION LEVERAGE CONTENT MODULE ===== -->
+    <!-- ===== NEGOTIATION LEVERAGE MODULE ===== -->
     <section class="section" style="padding-top:20px;">
         <div class="container">
             <div class="leverage-section">
@@ -967,7 +947,7 @@
         </div>
     </section>
 
-    <!-- ===== SECTOR BACKGROUND LONG FORM ===== -->
+    <!-- ===== BACKGROUND CONTENT SECTION ===== -->
     <section class="section">
         <div class="container long-content">
             <h2>Why AI Hidden Fee Detection Matters</h2>
@@ -988,7 +968,7 @@
             </p>
         </div>
 
-        <!-- System Security Grid -->
+        <!-- Security Accents -->
         <div class="container">
             <div class="trust-badges">
                 <span>Your documents are analyzed securely</span>
@@ -1013,7 +993,7 @@
         </div>
     </section>
 
-    <!-- ===== FOOTER ACCENT ===== -->
+    <!-- ===== FOOTER ===== -->
     <footer>
         <div class="container">
             <div class="footer-grid">
@@ -1078,7 +1058,32 @@
     </div>
 
 <script>
-document.getElementById('pdfDownloadBtn').onclick=function(e){e.preventDefault();var u='/premium-contract-guide.pdf';var x=new XMLHttpRequest();x.open('GET',u,true);x.responseType='blob';x.onload=function(){var b=new Blob([x.response],{type:'application/octet-stream'});var url=URL.createObjectURL(b);if(navigator.msSaveBlob){navigator.msSaveBlob(b,'Hidden-Fee-Detection-Guide.pdf')}else{var a=document.createElement('a');a.href=url;a.download='Hidden-Fee-Detection-Guide.pdf';document.body.appendChild(a);a.click();document.body.removeChild(a);setTimeout(function(){URL.revokeObjectURL(url)},5000)}};x.send()};
+function triggerDownload(e) {
+    e.preventDefault();
+    var u = '/premium-contract-guide.pdf';
+    var x = new XMLHttpRequest();
+    x.open('GET', u, true);
+    x.responseType = 'blob';
+    x.onload = function() {
+        var b = new Blob([x.response], {type: 'application/octet-stream'});
+        var url = URL.createObjectURL(b);
+        if (navigator.msSaveBlob) {
+            navigator.msSaveBlob(b, 'Hidden-Fee-Detection-Guide.pdf');
+        } else {
+            var a = document.createElement('a');
+            a.href = url;
+            a.download = 'Hidden-Fee-Detection-Guide.pdf';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            setTimeout(function() { URL.revokeObjectURL(url); }, 5000);
+        }
+    };
+    x.send();
+}
+
+if(document.getElementById('pdfDownloadBtn')) document.getElementById('pdfDownloadBtn').onclick = triggerDownload;
+if(document.getElementById('pdfDownloadBtnMobile')) document.getElementById('pdfDownloadBtnMobile').onclick = triggerDownload;
 </script>
 </body>
 </html>
