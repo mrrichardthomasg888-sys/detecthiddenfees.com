@@ -162,14 +162,50 @@ padding:0;
 box-sizing:border-box;
 }
 
-body{
-font-family:'Inter',sans-serif;
-background:
-radial-gradient(circle at top,#1e293b 0%,#020617 45%,#000000 100%);
-color:#e2e8f0;
-line-height:1.8;
+html,body{
 overflow-x:hidden;
+background:#020817;
+font-family:'Inter',sans-serif;
+color:white;
+}
+
+body{
+line-height:1.8;
 -webkit-font-smoothing:antialiased;
+padding-bottom:80px;
+}
+
+/* Animated Glow Orbs - MATCHES OTHER PAGES (blue/purple) */
+body::before,
+body::after {
+    content: '';
+    position: fixed;
+    pointer-events: none;
+    z-index: -1;
+    border-radius: 50%;
+    filter: blur(120px);
+    opacity: 0.25;
+    animation: floatGlow 18s infinite alternate ease-in-out;
+}
+body::before {
+    width: 700px;
+    height: 700px;
+    background: radial-gradient(circle, #2563eb, transparent 70%);
+    top: -100px;
+    left: -200px;
+}
+body::after {
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, #7c3aed, transparent 70%);
+    bottom: -100px;
+    right: -150px;
+    animation-delay: -6s;
+}
+
+@keyframes floatGlow {
+    0% { transform: translate(0, 0) scale(1); }
+    100% { transform: translate(80px, 40px) scale(1.2); }
 }
 
 a{
@@ -183,16 +219,17 @@ padding:0 24px;
 }
 
 /* ===== NAVIGATION ===== */
-nav{
+.topbar{
 position:sticky;
 top:0;
 z-index:999;
-background:rgba(2,6,23,.75);
-backdrop-filter:blur(14px);
-border-bottom:1px solid rgba(255,255,255,.08);
+background:rgba(2,8,23,.85);
+backdrop-filter:blur(18px) saturate(1.2);
+border-bottom:1px solid rgba(255,255,255,.06);
+box-shadow:0 4px 40px rgba(0,0,0,0.5);
 }
 
-.nav-wrap{
+.nav{
 display:flex;
 justify-content:space-between;
 align-items:center;
@@ -207,18 +244,21 @@ color:white;
 letter-spacing:-1px;
 white-space:nowrap;
 flex-shrink:0;
+text-shadow:0 0 30px rgba(37,99,235,0.2);
 }
 
 .logo span{
-color:#38bdf8;
+color:#3b82f6;
 }
 
+/* Container for dynamic nav - hardcoded fallback + overwritten by nav.js */
 .nav-links{
 display:flex;
 gap:6px;
 align-items:center;
 flex-wrap:wrap;
 justify-content:flex-end;
+min-height:36px;
 }
 
 .nav-links a{
@@ -227,111 +267,133 @@ font-weight:600;
 font-size:.82rem;
 padding:4px 5px;
 white-space:nowrap;
-transition:color 0.2s;
+transition:color 0.2s, text-shadow 0.3s;
 }
 
 .nav-links a:hover{
 color:#ffffff;
+text-shadow:0 0 20px rgba(37,99,235,0.3);
 }
 
 .nav-links a.active{
 color:#ffffff;
-text-shadow:0 0 20px rgba(14,165,233,0.4);
+text-shadow:0 0 20px rgba(37,99,235,0.4);
 }
 
+/* Button styles - supports both .nav-btn (hardcoded) and .top-button (nav.js) */
+.top-button,
 .nav-btn{
 padding:8px 16px;
-background:linear-gradient(135deg,#0ea5e9,#2563eb);
 border-radius:12px;
+background:linear-gradient(135deg,#2563eb,#9333ea);
+font-size:.78rem;
+font-weight:700;
 color:white !important;
-font-weight:700 !important;
-font-size:.78rem !important;
-box-shadow:0 8px 24px rgba(14,165,233,.3);
+text-decoration:none;
 white-space:nowrap;
+box-shadow:0 8px 24px rgba(37,99,235,.3);
+transition:transform 0.25s, box-shadow 0.3s;
+border:none;
+cursor:pointer;
+line-height:1.4;
 }
 
+.top-button:hover,
 .nav-btn:hover{
 transform:scale(1.04);
-box-shadow:0 12px 36px rgba(14,165,233,.5);
+box-shadow:0 12px 36px rgba(37,99,235,.5);
+color:white !important;
 }
 
 /* ===== HERO ===== */
 .hero{
-padding:32px 0 60px;
+padding:28px 0 50px;
 position:relative;
 overflow:hidden;
+background:
+radial-gradient(circle at 30% 20%, #17357d 0%, #020817 72%);
 }
 
 .hero:before{
 content:'';
 position:absolute;
-width:650px;
-height:650px;
-background:#0ea5e9;
+width:700px;
+height:700px;
+background:#2563eb;
 filter:blur(180px);
-opacity:.16;
-top:-260px;
-left:-120px;
+opacity:.10;
+top:-300px;
+left:-150px;
+z-index:0;
+}
+
+.hero *{
+position:relative;
+z-index:1;
 }
 
 .badge{
 display:inline-block;
 padding:8px 16px;
-background:rgba(14,165,233,.12);
-border:1px solid rgba(14,165,233,.22);
+border:2px solid #2563eb;
 border-radius:999px;
 font-size:.75rem;
 font-weight:800;
-color:#7dd3fc;
-margin-bottom:18px;
-letter-spacing:.05em;
+color:#93c5fd;
+margin-bottom:16px;
+letter-spacing:.06em;
 text-transform:uppercase;
+box-shadow:0 0 30px rgba(37,99,235,0.1);
 }
 
 .hero h1{
-font-size:clamp(2.8rem, 5.5vw, 4.2rem);
+font-size:clamp(2.6rem, 5.5vw, 4.2rem);
 line-height:1.05;
 font-weight:900;
 letter-spacing:-.04em;
-margin-bottom:18px;
+margin-bottom:16px;
 color:white;
 max-width:900px;
+text-shadow:0 0 40px rgba(37,99,235,0.12);
 }
 
 .hero-sub{
 font-size:1.15rem;
 color:#cbd5e1;
 max-width:850px;
-margin-bottom:22px;
+margin-bottom:20px;
 line-height:1.9;
 }
 
-.primary-btn{
+.cta-button{
 display:inline-block;
 padding:18px 32px;
-background:linear-gradient(135deg,#0ea5e9,#2563eb);
-border-radius:16px;
-color:white;
-font-weight:800;
+border-radius:18px;
+background:linear-gradient(90deg,#2563eb,#9333ea);
 font-size:1rem;
-box-shadow:0 16px 50px rgba(14,165,233,.35);
+font-weight:800;
+color:white;
+text-decoration:none;
+box-shadow:0 16px 50px rgba(37,99,235,.4);
 transition:transform 0.25s, box-shadow 0.3s;
+text-shadow:0 2px 8px rgba(0,0,0,0.2);
 }
 
-.primary-btn:hover{
+.cta-button:hover{
 transform:translateY(-3px);
-box-shadow:0 24px 70px rgba(14,165,233,.5);
+box-shadow:0 24px 70px rgba(37,99,235,.55);
 }
 
 .trust-bar{
 display:flex;
 flex-wrap:wrap;
 gap:8px 20px;
-margin:16px 0 24px 0;
+margin:16px 0 22px 0;
 padding:12px 18px;
 background:rgba(255,255,255,.04);
 border-radius:14px;
 border:1px solid rgba(255,255,255,.06);
+backdrop-filter:blur(4px);
 }
 
 .trust-bar span{
@@ -345,23 +407,25 @@ color:#94a3b8;
 
 .trust-bar span::before{
 content:"✓";
-color:#38bdf8;
+color:#3b82f6;
 font-weight:900;
+text-shadow:0 0 16px rgba(37,99,235,0.3);
 }
 
 .quick-answer{
-background:
-linear-gradient(
-180deg,
-rgba(15,23,42,.92),
-rgba(2,6,23,.98)
-);
-border:1px solid rgba(255,255,255,.08);
+background:rgba(7,19,39,.8);
+border:1px solid rgba(255,255,255,.06);
 border-radius:24px;
 padding:28px 32px;
-margin-top:28px;
-box-shadow:
-0 20px 60px rgba(0,0,0,.4);
+margin-top:24px;
+box-shadow:0 20px 60px rgba(0,0,0,.4);
+backdrop-filter:blur(4px);
+transition:border-color 0.3s, box-shadow 0.3s;
+}
+
+.quick-answer:hover{
+border-color:rgba(37,99,235,.3);
+box-shadow:0 8px 40px rgba(0,0,0,.3);
 }
 
 .quick-answer h2{
@@ -379,6 +443,7 @@ line-height:1.9;
 
 .section{
 padding:50px 0;
+border-top:1px solid rgba(255,255,255,.05);
 }
 
 .section h2{
@@ -387,12 +452,13 @@ font-weight:900;
 letter-spacing:-.04em;
 margin-bottom:18px;
 color:white;
+text-shadow:0 0 30px rgba(37,99,235,0.08);
 }
 
 .section p{
-margin-bottom:20px;
 font-size:1.05rem;
 color:#cbd5e1;
+margin-bottom:20px;
 line-height:2;
 }
 
@@ -404,26 +470,22 @@ margin-top:32px;
 }
 
 .card{
-background:
-linear-gradient(
-180deg,
-rgba(15,23,42,.9),
-rgba(2,6,23,.95)
-);
-border:1px solid rgba(255,255,255,.08);
+background:rgba(7,19,39,.8);
+border:1px solid rgba(255,255,255,.06);
 border-radius:22px;
 padding:26px 28px;
-transition:transform 0.3s, border-color 0.3s;
+transition:transform 0.3s, border-color 0.3s, box-shadow 0.3s;
 }
 
 .card:hover{
 transform:translateY(-4px);
-border-color:rgba(14,165,233,.3);
+border-color:rgba(37,99,235,.3);
+box-shadow:0 12px 40px rgba(0,0,0,.4);
 }
 
 .card h3{
-margin-bottom:12px;
 font-size:1.15rem;
+margin-bottom:12px;
 font-weight:800;
 color:white;
 }
@@ -441,6 +503,7 @@ border-left:5px solid #ef4444;
 padding:24px 28px;
 border-radius:18px;
 margin:32px 0;
+backdrop-filter:blur(4px);
 }
 
 .warning-box h3{
@@ -455,18 +518,18 @@ font-size:1rem;
 }
 
 .scan-panel{
-background:
-linear-gradient(
-180deg,
-rgba(15,23,42,.95),
-rgba(2,6,23,.98)
-);
-border:1px solid rgba(255,255,255,.08);
+background:rgba(7,19,39,.8);
+border:1px solid rgba(255,255,255,.06);
 border-radius:24px;
 padding:30px 32px;
 margin:48px 0;
-box-shadow:
-0 30px 80px rgba(0,0,0,.45);
+box-shadow:0 30px 80px rgba(0,0,0,.45);
+backdrop-filter:blur(4px);
+transition:border-color 0.3s;
+}
+
+.scan-panel:hover{
+border-color:rgba(37,99,235,.3);
 }
 
 .scan-title{
@@ -474,6 +537,7 @@ font-size:1.2rem;
 font-weight:900;
 margin-bottom:20px;
 color:white;
+text-shadow:0 0 20px rgba(37,99,235,0.1);
 }
 
 .scan-item{
@@ -521,8 +585,9 @@ color:#6ee7b7;
 margin:40px 0 24px 0;
 padding:32px 32px;
 border-radius:24px;
-background:linear-gradient(135deg, rgba(14,165,233,0.12), rgba(37,99,235,0.12));
+background:linear-gradient(135deg, rgba(37,99,235,0.12), rgba(124,58,237,0.12));
 border:1px solid rgba(255,255,255,.08);
+backdrop-filter:blur(4px);
 }
 
 .leverage-section h2{
@@ -531,6 +596,7 @@ font-weight:900;
 color:white;
 margin-bottom:14px;
 letter-spacing:-.02em;
+text-shadow:0 0 30px rgba(37,99,235,0.1);
 }
 
 .leverage-section p{
@@ -573,6 +639,7 @@ flex-wrap:wrap;
 align-items:center;
 justify-content:space-between;
 gap:14px;
+backdrop-filter:blur(4px);
 }
 
 .privacy-section h4{
@@ -600,8 +667,9 @@ gap:6px;
 
 .privacy-bullets span::before{
 content:"✓";
-color:#38bdf8;
+color:#3b82f6;
 font-weight:900;
+text-shadow:0 0 16px rgba(37,99,235,0.3);
 }
 
 /* Checklist */
@@ -611,6 +679,7 @@ padding:28px 28px;
 border-radius:24px;
 background:rgba(255,255,255,.03);
 border:1px solid rgba(255,255,255,.06);
+backdrop-filter:blur(4px);
 }
 
 .checklist-section h3{
@@ -638,9 +707,10 @@ padding:5px 0;
 
 .checklist-grid span::before{
 content:"✓";
-color:#38bdf8;
+color:#3b82f6;
 font-weight:900;
 font-size:1.05rem;
+text-shadow:0 0 16px rgba(37,99,235,0.3);
 }
 
 .faq{
@@ -648,21 +718,17 @@ margin-top:48px;
 }
 
 .faq-item{
-background:
-linear-gradient(
-180deg,
-rgba(15,23,42,.9),
-rgba(2,6,23,.95)
-);
+background:rgba(7,19,39,.9);
 border:1px solid rgba(255,255,255,.08);
 padding:24px 28px;
 border-radius:20px;
 margin-bottom:16px;
-transition:border-color 0.3s;
+transition:border-color 0.3s, box-shadow 0.3s;
 }
 
 .faq-item:hover{
-border-color:rgba(14,165,233,.3);
+border-color:rgba(37,99,235,.3);
+box-shadow:0 8px 30px rgba(0,0,0,.2);
 }
 
 .faq-item h3{
@@ -684,6 +750,7 @@ padding:28px 28px;
 background:rgba(255,255,255,.03);
 border:1px solid rgba(255,255,255,.06);
 border-radius:20px;
+backdrop-filter:blur(4px);
 }
 
 .related-links h2{
@@ -696,7 +763,7 @@ color:white;
 .related-links a{
 display:block;
 margin-bottom:12px;
-color:#7dd3fc;
+color:#93c5fd;
 font-weight:600;
 transition:color 0.2s;
 }
@@ -713,6 +780,7 @@ border-radius:24px;
 background:rgba(255,255,255,.04);
 border:1px solid rgba(255,255,255,.08);
 text-align:center;
+backdrop-filter:blur(4px);
 }
 
 .mid-cta h3{
@@ -734,9 +802,33 @@ margin:0 auto 16px;
 margin:70px 0;
 padding:70px 40px;
 border-radius:34px;
-background:linear-gradient(135deg,#0ea5e9,#2563eb);
+background:linear-gradient(135deg,#2563eb,#7c3aed);
 text-align:center;
-box-shadow:0 30px 100px rgba(14,165,233,.3);
+box-shadow:0 30px 100px rgba(37,99,235,.3);
+position:relative;
+overflow:hidden;
+}
+
+.cta::before{
+content:'';
+position:absolute;
+inset:-2px;
+z-index:0;
+border-radius:36px;
+background:linear-gradient(135deg,#3b82f6,#a855f7);
+filter:blur(30px);
+opacity:0.2;
+animation:pulseGlow 4s infinite alternate;
+}
+
+@keyframes pulseGlow{
+0%{opacity:0.15;transform:scale(1);}
+100%{opacity:0.4;transform:scale(1.05);}
+}
+
+.cta>*{
+position:relative;
+z-index:1;
 }
 
 .cta h2{
@@ -746,6 +838,7 @@ line-height:1.05;
 letter-spacing:-.04em;
 margin-bottom:16px;
 color:white;
+text-shadow:0 0 40px rgba(255,255,255,0.05);
 }
 
 .cta p{
@@ -766,11 +859,12 @@ font-weight:900;
 border-radius:16px;
 font-size:1rem;
 transition:transform 0.25s, box-shadow 0.3s;
+box-shadow:0 8px 30px rgba(0,0,0,0.15);
 }
 
 .cta-btn:hover{
 transform:translateY(-3px);
-box-shadow:0 10px 30px rgba(0,0,0,.2);
+box-shadow:0 16px 40px rgba(0,0,0,0.25);
 }
 
 .cta-reassurance{
@@ -821,7 +915,7 @@ color:white;
 @media(max-width:900px){
 
 .hero{
-padding:24px 0 40px;
+padding:20px 0 36px;
 }
 
 .hero h1{
@@ -840,7 +934,7 @@ font-size:1.8rem;
 font-size:1.8rem;
 }
 
-.nav-wrap{
+.nav{
 flex-direction:column;
 align-items:flex-start;
 padding:10px 0;
@@ -857,6 +951,7 @@ font-size:.75rem;
 padding:2px 4px;
 }
 
+.top-button,
 .nav-btn{
 width:100%;
 text-align:center;
@@ -959,38 +1054,54 @@ font-size:.65rem;
 padding:6px 12px;
 }
 
-.primary-btn{
+.cta-button{
 padding:14px 24px;
 font-size:.9rem;
 }
 }
 </style>
 
+<!-- Load nav.js (cache-busted) -->
+<script>
+    (function() {
+        const script = document.createElement('script');
+        script.src = '/nav.js?v=' + Date.now();
+        document.head.appendChild(script);
+    })();
+</script>
+
 </head>
 
 <body>
 
-<!-- ===== NAVIGATION (UPDATED WITH AI CONTRACT TOOL) ===== -->
-<nav>
-    <div class="container nav-wrap">
-        <div class="logo">
-            DetectHiddenFees<span>.</span>
-        </div>
-        <div class="nav-links">
-            <a href="/hidden-fees-guides.html">Guides</a>
-            <a href="/hidden-hvac-contractor-fees.html">HVAC Fees</a>
-            <a href="/hidden-home-renovation-fees.html">Renovation Fees</a>
-            <a href="/hidden-bank-overdraft-fees.html">Bank Fees</a>
-            <a href="/hidden-dealership-financing-fees.html">Auto Financing</a>
-            <a href="/duplicate-medical-billing-charges.html" class="active">Medical Billing</a>
-            <a href="/ai-construction-contract-review.html">Contract Review</a>
-            <a href="/ai-contract-review-tool.html">AI Contract Tool</a>
-            <a href="https://hiddenfeeai.com" class="nav-btn">
-                Analyze My Documents
+<!-- ===== NAVIGATION (HARDCODED FALLBACK + DYNAMIC SUPPORT) ===== -->
+<header class="topbar">
+    <div class="container">
+        <div class="nav">
+            <a href="https://detecthiddenfees.com" class="logo">
+                DetectHiddenFees<span>.</span>
             </a>
+            <!--
+                This container has hardcoded links (fallback) AND will be overwritten by nav.js.
+                nav.js uses the same container ID to inject dynamic links.
+            -->
+            <div class="nav-links" id="navLinks">
+                <a href="/hidden-fees-guides.html">Guides</a>
+                <a href="/hidden-hvac-contractor-fees.html">HVAC Fees</a>
+                <a href="/hidden-home-renovation-fees.html">Renovation Fees</a>
+                <a href="/hidden-bank-overdraft-fees.html">Bank Fees</a>
+                <a href="/hidden-dealership-financing-fees.html">Auto Financing</a>
+                <a href="/duplicate-medical-billing-charges.html" class="active">Medical Billing</a>
+                <a href="/ai-construction-contract-review.html">Contract Review</a>
+                <a href="/ai-contract-review-tool.html">AI Contract Tool</a>
+                <a href="/contract-review-ai-software.html">Contract AI Software</a>
+                <a href="https://hiddenfeeai.com" class="nav-btn">
+                    🚀 Analyze My Documents
+                </a>
+            </div>
         </div>
     </div>
-</nav>
+</header>
 
 <!-- ===== HERO ===== -->
 <section class="hero">
@@ -1007,7 +1118,7 @@ font-size:.9rem;
             Hospital billing systems frequently contain duplicate charges, hidden facility fees, insurance billing discrepancies, and repeated medical costs that patients often overlook. Understanding how to detect these errors can save you thousands on healthcare expenses.
         </p>
 
-        <a href="https://hiddenfeeai.com" class="primary-btn">
+        <a href="https://hiddenfeeai.com" class="cta-button">
             Analyze Medical Bills →
         </a>
 
@@ -1204,7 +1315,7 @@ font-size:.9rem;
                 AI analysis helps you identify which charges deserve closer scrutiny, giving you confidence when negotiating with billing departments.
             </p>
             <div style="margin-top:16px;">
-                <a href="https://hiddenfeeai.com" class="primary-btn" style="padding:14px 28px; font-size:.95rem;">
+                <a href="https://hiddenfeeai.com" class="cta-button" style="padding:14px 28px; font-size:.95rem;">
                     Get My Medical Bill Analysis — $15
                 </a>
             </div>
@@ -1241,7 +1352,7 @@ font-size:.9rem;
         <div class="mid-cta">
             <h3>Have a Medical Bill You're Not Sure About?</h3>
             <p>Upload your hospital bill, insurance statement, or medical invoice. AI analyzes the charges, identifies duplicate fees, hidden costs, and potential errors.</p>
-            <a href="https://hiddenfeeai.com" class="primary-btn" style="padding:14px 28px; font-size:.95rem;">
+            <a href="https://hiddenfeeai.com" class="cta-button" style="padding:14px 28px; font-size:.95rem;">
                 Upload My Medical Bill — $15
             </a>
         </div>
@@ -1356,6 +1467,7 @@ font-size:.9rem;
             <a href="/hidden-fees-guides.html">Guides</a>
             <a href="/ai-construction-contract-review.html">Contract Review</a>
             <a href="/ai-contract-review-tool.html">AI Contract Tool</a>
+            <a href="/contract-review-ai-software.html">Contract AI Software</a>
         </div>
         <p>
             © 2026 DetectHiddenFees.com — AI Hidden Fee Intelligence Platform
