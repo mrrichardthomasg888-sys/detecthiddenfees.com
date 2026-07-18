@@ -5,9 +5,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Hidden Bank Overdraft Fees: How to Detect & Avoid Banking Charges | DetectHiddenFees</title>
+<title>Bank Fees Exposed: The $35 Billion Industry Built on Fine Print | DetectHiddenFees</title>
 
-<meta name="description" content="Learn how to detect hidden bank overdraft fees, ATM surcharges, maintenance charges, and deceptive banking practices. Upload your statements for AI-powered analysis.">
+<meta name="description" content="Banks made over $35 billion in overdraft fees last year alone. Transaction reordering, hidden maintenance charges, ATM surcharges—here’s how they work and how to opt out.">
 
 <meta name="keywords" content="hidden bank overdraft fees, surprise bank fees, overdraft charges, hidden checking account fees, banking fees, ATM surcharge fees, bank fee detection, overdraft protection fees, banking statement analysis, hidden banking charges">
 
@@ -23,8 +23,8 @@
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Hidden Bank Overdraft Fees: How to Detect & Avoid Banking Charges">
-<meta name="twitter:description" content="Learn how to detect hidden bank overdraft fees, ATM surcharges, maintenance charges, and deceptive banking practices. Upload your statements for AI-powered analysis.">
+<meta name="twitter:title" content="Bank Fees Exposed: The $35 Billion Industry Built on Fine Print | DetectHiddenFees">
+<meta name="twitter:description" content="Banks made over $35 billion in overdraft fees last year alone. Transaction reordering, hidden maintenance charges, ATM surcharges—here’s how they work and how to opt out.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -219,83 +219,87 @@ padding:0 24px;
 }
 
 /* ===== NAVIGATION ===== */
-.topbar{
-position:sticky;
-top:0;
-z-index:999;
-background:rgba(2,8,23,.85);
-backdrop-filter:blur(18px) saturate(1.2);
-border-bottom:1px solid rgba(255,255,255,.06);
-box-shadow:0 4px 40px rgba(0,0,0,0.5);
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background: rgba(2, 6, 23, .75);
+    backdrop-filter: blur(18px) saturate(1.2);
+    border-bottom: 1px solid rgba(255, 255, 255, .08);
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.6);
 }
 
-.nav{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:12px 0;
-gap:10px;
+.nav-wrap {
+    display: flex;
+    align-items: center;
+    padding: 14px 0;
+    gap: 18px;
+    flex-wrap: wrap;
 }
 
-.logo{
-font-size:1.5rem;
-font-weight:900;
-color:white;
-letter-spacing:-1px;
-white-space:nowrap;
-flex-shrink:0;
-text-shadow:0 0 30px rgba(37,99,235,0.2);
+.logo {
+    font-size: 1.7rem;
+    font-weight: 900;
+    letter-spacing: -2px;
+    color: white;
+    white-space: nowrap;
+    flex-shrink: 0;
+    text-shadow: 0 0 30px rgba(37,99,235,0.2);
 }
 
-.logo span{
-color:#3b82f6;
+.logo span {
+    color: #3b82f6;
 }
 
-/* Container for dynamic nav - populated by nav.js */
-.nav-links{
-display:flex;
-gap:6px;
-align-items:center;
-flex-wrap:wrap;
-justify-content:flex-end;
-min-height:36px;
+.nav-links {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.nav-links a{
-color:#cbd5e1;
-font-weight:600;
-font-size:.82rem;
-padding:4px 5px;
-white-space:nowrap;
-transition:color 0.2s, text-shadow 0.3s;
+.nav-links a {
+    color: #cbd5e1;
+    font-weight: 600;
+    font-size: .95rem;
+    padding: 8px 14px;
+    white-space: nowrap;
+    transition: color 0.2s, text-shadow 0.3s;
+    border-radius: 8px;
 }
 
-.nav-links a:hover{
-color:#ffffff;
-text-shadow:0 0 20px rgba(37,99,235,0.3);
+.nav-links a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 20px rgba(37,99,235,0.3);
 }
 
-.nav-links a.active{
-color:#ffffff;
-text-shadow:0 0 20px rgba(37,99,235,0.4);
+.nav-links a.active {
+    color: #ffffff;
+    text-shadow: 0 0 20px rgba(37,99,235,0.4);
 }
 
-.top-button{
-padding:8px 16px;
-border-radius:12px;
-background:linear-gradient(135deg,#2563eb,#9333ea);
-font-size:.78rem;
-font-weight:700;
-color:white !important;
-text-decoration:none;
-white-space:nowrap;
-box-shadow:0 8px 24px rgba(37,99,235,.3);
-transition:transform 0.25s, box-shadow 0.3s;
+.nav-btn {
+    display: inline-block;
+    padding: 14px 30px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #2563eb, #9333ea);
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #ffffff !important;
+    text-decoration: none;
+    white-space: nowrap;
+    box-shadow: 0 12px 36px rgba(37, 99, 235, .4);
+    transition: transform 0.25s, box-shadow 0.3s;
+    border: none;
+    cursor: pointer;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
 }
 
-.top-button:hover{
-transform:scale(1.04);
-box-shadow:0 12px 36px rgba(37,99,235,.5);
+.nav-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 16px 48px rgba(37, 99, 235, .6);
+    color: #ffffff !important;
 }
 
 /* ===== HERO ===== */
@@ -345,9 +349,17 @@ line-height:1.05;
 font-weight:900;
 letter-spacing:-.04em;
 margin-bottom:16px;
-color:white;
+
 max-width:900px;
 text-shadow:0 0 40px rgba(37,99,235,0.12);
+
+background: linear-gradient(135deg, #ffffff 0%, #93c5fd 40%, #c084fc 70%, #ffffff 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+background-size: 200% 200%;
+animation: gradientShift 10s ease infinite;
+filter: drop-shadow(0 0 30px rgba(37,99,235,0.2));
 }
 
 .hero-sub{
@@ -395,7 +407,7 @@ align-items:center;
 gap:6px;
 font-size:.85rem;
 font-weight:500;
-color:#94a3b8;
+color:#cbd5e1;
 }
 
 .trust-bar span::before{
@@ -484,7 +496,7 @@ color:white;
 }
 
 .card p{
-color:#94a3b8;
+color:#cbd5e1;
 font-size:.95rem;
 line-height:1.8;
 }
@@ -688,7 +700,7 @@ gap:6px 20px;
 
 .privacy-bullets span{
 font-size:.85rem;
-color:#94a3b8;
+color:#cbd5e1;
 display:flex;
 align-items:center;
 gap:6px;
@@ -769,7 +781,7 @@ font-weight:700;
 }
 
 .faq-item p{
-color:#94a3b8;
+color:#cbd5e1;
 font-size:.95rem;
 line-height:1.9;
 }
@@ -853,6 +865,7 @@ opacity:0.2;
 animation:pulseGlow 4s infinite alternate;
 }
 
+@keyframes gradientShift{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
 @keyframes pulseGlow{
 0%{opacity:0.15;transform:scale(1);}
 100%{opacity:0.4;transform:scale(1.05);}
@@ -935,7 +948,7 @@ margin-bottom:14px;
 }
 
 .footer-links a{
-color:#94a3b8;
+color:#cbd5e1;
 font-weight:600;
 font-size:.85rem;
 transition:color 0.2s;
@@ -968,28 +981,28 @@ font-size:1.8rem;
 font-size:1.8rem;
 }
 
-.nav{
+.nav-wrap{
 flex-direction:column;
 align-items:flex-start;
-padding:10px 0;
+padding:12px 0;
 }
 
 .nav-links{
 width:100%;
 justify-content:flex-start;
-gap:3px 6px;
+gap:4px 8px;
 }
 
 .nav-links a{
-font-size:.75rem;
-padding:2px 4px;
+font-size:.85rem;
+padding:6px 8px;
 }
 
-.top-button{
+.nav-btn{
 width:100%;
 text-align:center;
-font-size:.7rem !important;
-padding:6px 12px;
+font-size:.95rem;
+padding:12px 20px;
 }
 
 .trust-bar{
@@ -1096,33 +1109,146 @@ padding:14px 24px;
 font-size:.9rem;
 }
 }
-</style>
 
-<!-- Load nav.js (cache-busted) -->
-<script>
-    (function() {
-        const script = document.createElement('script');
-        script.src = '/nav.js?v=' + Date.now();
-        document.head.appendChild(script);
-    })();
-</script>
+/* ===== STICKY CTA BAR - PREMIUM ===== */
+.sticky-cta-bar {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: rgba(2,8,23,.92);
+    backdrop-filter: blur(24px) saturate(1.4);
+    padding: 10px 24px;
+    border-top: 1px solid rgba(255,255,255,.10);
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    box-shadow: 0 -8px 50px rgba(0,0,0,0.7), inset 0 1px 0 rgba(255,255,255,.06);
+}
+.sticky-cta-bar .sticky-text {
+    font-weight: 700;
+    font-size: .95rem;
+    color: #e2e8f0;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    letter-spacing: .02em;
+}
+.sticky-cta-bar .sticky-text .icon {
+    font-size: 1.1rem;
+    filter: drop-shadow(0 0 8px rgba(59,130,246,0.3));
+}
+.sticky-cta-bar .sticky-text .price {
+    color: #60a5fa;
+    background: linear-gradient(135deg, rgba(59,130,246,.15), rgba(147,51,234,.10));
+    padding: 3px 14px;
+    border-radius: 100px;
+    font-size: .8rem;
+    font-weight: 800;
+    border: 1px solid rgba(59,130,246,.15);
+    box-shadow: 0 0 20px rgba(59,130,246,0.1);
+}
+.sticky-cta-bar .sticky-btn {
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 16px;
+    background: linear-gradient(135deg,#2563eb,#7c3aed);
+    color: white;
+    font-weight: 800;
+    font-size: .9rem;
+    box-shadow: 0 8px 35px rgba(59,130,246,.4), 0 0 60px rgba(59,130,246,0.08);
+    text-align: center;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    letter-spacing: .02em;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+}
+.sticky-cta-bar .sticky-btn::before {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    z-index: -1;
+    border-radius: 18px;
+    background: linear-gradient(135deg,#3b82f6,#a855f7);
+    filter: blur(20px);
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+.sticky-cta-bar .sticky-btn:hover {
+    transform: scale(1.04) translateY(-1px);
+    box-shadow: 0 12px 50px rgba(59,130,246,.55), 0 0 80px rgba(59,130,246,0.12);
+    color: #ffffff;
+}
+.sticky-cta-bar .sticky-btn:hover::before {
+    opacity: 1;
+}
+@media(min-width:901px) {
+    .sticky-cta-bar {
+        display: flex;
+    }
+    body {
+        padding-bottom: 70px;
+    }
+}
+@media(max-width:900px) {
+    .sticky-cta-bar {
+        display: flex;
+        padding: 8px 12px;
+        gap: 6px;
+    }
+    .sticky-cta-bar .sticky-btn {
+        padding: 10px 18px;
+        font-size: .8rem;
+        flex: 1;
+        min-height: 42px;
+    }
+    .sticky-cta-bar .sticky-text {
+        font-size: .75rem;
+        gap: 4px;
+    }
+    .sticky-cta-bar .sticky-text .price {
+        padding: 2px 10px;
+        font-size: .7rem;
+    }
+}
+</style>
 
 </head>
 
 <body>
+    <!-- Floating accent orb -->
+    <div class="orb-accent"></div>
 
-<!-- ===== NAVIGATION (DYNAMIC – populated by nav.js) ===== -->
-<header class="topbar">
-    <div class="container">
-        <div class="nav">
-            <a href="https://detecthiddenfees.com" class="logo">
-                DetectHiddenFees<span>.</span>
-            </a>
-            <!-- This container will be filled by nav.js -->
-            <div class="nav-links" id="navLinks"></div>
+<!-- ===== NAVIGATION ===== -->
+<nav>
+    <div class="container nav-wrap">
+        <div class="logo">
+            DetectHiddenFees<span>.</span>
+        </div>
+        <div class="nav-links">
+            <a href="/hidden-fees-guides.html">Guides</a>
+            <a href="/hidden-hvac-contractor-fees.html">HVAC Fees</a>
+            <a href="/hidden-home-renovation-fees.html">Renovation Fees</a>
+            <a href="/hidden-bank-overdraft-fees.html" class="active">Bank Fees</a>
+            <a href="/hidden-dealership-financing-fees.html">Auto Financing</a>
+            <a href="/duplicate-medical-billing-charges.html">Medical Billing</a>
+            <a href="/ai-construction-contract-review.html">Contract Review</a>
+            <a href="/ai-contract-review-tool.html">AI Contract Tool</a>
+            <a href="/contract-review-ai-software.html">Contract AI Software</a>
+            <a href="https://hiddenfeeai.com" class="nav-btn">Analyze My Documents</a>
         </div>
     </div>
-</header>
+</nav>
 
 <!-- ===== HERO ===== -->
 <section class="hero">
@@ -1334,7 +1460,7 @@ font-size:.9rem;
                 <span>Challenge transaction reordering practices</span>
                 <span>Ask for ATM fee reimbursements</span>
             </div>
-            <p style="font-size:.85rem; color:#94a3b8; margin-top:6px;">
+            <p style="font-size:.85rem; color:#cbd5e1; margin-top:6px;">
                 AI analysis helps you identify which charges deserve closer scrutiny, giving you confidence when negotiating with your bank.
             </p>
             <div style="margin-top:16px;">
@@ -1491,6 +1617,7 @@ font-size:.9rem;
             <a href="/hidden-fees-guides.html">Guides</a>
             <a href="/ai-construction-contract-review.html">Contract Review</a>
             <a href="/ai-contract-review-tool.html">AI Contract Tool</a>
+            <a href="/contract-review-ai-software.html">Contract AI Software</a>
         </div>
         <p>
             © 2026 DetectHiddenFees.com — AI Hidden Fee Intelligence Platform
@@ -1501,5 +1628,14 @@ font-size:.9rem;
     </div>
 </footer>
 
+    <!-- ===== STICKY CTA BAR ===== -->
+    <div class="sticky-cta-bar">
+        <div class="sticky-text">
+            <span class="icon">🔍</span>
+            <span>Scan Your Statements</span>
+            <span class="price">$15</span>
+        </div>
+        <a href="https://hiddenfeeai.com" class="sticky-btn">Catch Hidden Charges →</a>
+    </div>
 </body>
 </html>

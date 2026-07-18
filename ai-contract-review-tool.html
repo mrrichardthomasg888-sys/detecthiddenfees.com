@@ -6,9 +6,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>AI Contract Review Tool | Upload & Analyze Contracts for Hidden Fees — $15</title>
+<title>AI Contract Review Tool: Scan Any Document for Hidden Fees Instantly | DetectHiddenFees</title>
 
-<meta name="description" content="Use our AI contract review tool to detect hidden fees, pricing risks, unclear clauses, and negotiation opportunities. Upload your contract and get a $15 risk analysis report.">
+<meta name="description" content="Upload any contract, invoice, or proposal. Our AI scans for hidden fees, pricing risks, unclear clauses, and negotiation opportunities. Get answers in minutes, not hours.">
 
 <meta name="keywords" content="AI contract review tool, best AI contract review tool, AI contract review tool for consumers, online AI contract review tool, AI contract review tool for small business, AI contract review tool for homeowners">
 
@@ -24,8 +24,8 @@
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="AI Contract Review Tool | Upload & Analyze Contracts for Hidden Fees — $15">
-<meta name="twitter:description" content="Upload your contract for AI-powered hidden fee detection, pricing risk analysis, and negotiation leverage. $15 one-time analysis.">
+<meta name="twitter:title" content="AI Contract Review Tool: Scan Any Document for Hidden Fees Instantly | DetectHiddenFees">
+<meta name="twitter:description" content="Upload any contract, invoice, or proposal. Our AI scans for hidden fees, pricing risks, unclear clauses, and negotiation opportunities. Get answers in minutes, not hours.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -219,7 +219,7 @@ padding-left:22px;
 padding-right:22px;
 }
 
-/* ===== NAVIGATION (FIXED) ===== */
+/* ===== NAVIGATION ===== */
 nav {
     position: sticky;
     top: 0;
@@ -232,14 +232,14 @@ nav {
 
 .nav-wrap {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 12px 0;
-    gap: 10px;
+    padding: 14px 0;
+    gap: 18px;
+    flex-wrap: wrap;
 }
 
 .logo {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 900;
     letter-spacing: -1px;
     color: white;
@@ -254,19 +254,19 @@ nav {
 
 .nav-links {
     display: flex;
-    gap: 6px;
+    gap: 4px;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: flex-end;
 }
 
 .nav-links a {
     color: #cbd5e1;
     font-weight: 600;
-    font-size: .82rem;
-    padding: 4px 5px;
+    font-size: .95rem;
+    padding: 8px 14px;
     white-space: nowrap;
     transition: color 0.2s, text-shadow 0.3s;
+    border-radius: 8px;
 }
 
 .nav-links a:hover {
@@ -276,24 +276,31 @@ nav {
 
 .nav-links a.active {
     color: #ffffff;
-    text-shadow: 0 0 20px rgba(37, 99, 235, 0.3);
+    text-shadow: 0 0 20px rgba(37, 99, 235, 0.4);
 }
 
 .nav-btn {
-    padding: 8px 16px;
-    border-radius: 12px;
+    display: inline-block;
+    padding: 14px 30px;
+    border-radius: 14px;
     background: linear-gradient(135deg, #2563eb, #9333ea);
-    color: white !important;
-    font-weight: 700 !important;
-    font-size: .78rem !important;
-    box-shadow: 0 8px 24px rgba(37, 99, 235, .3);
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #ffffff !important;
+    text-decoration: none;
     white-space: nowrap;
+    box-shadow: 0 12px 36px rgba(37, 99, 235, .4);
     transition: transform 0.25s, box-shadow 0.3s;
+    border: none;
+    cursor: pointer;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
 }
 
 .nav-btn:hover {
-    transform: scale(1.04);
-    box-shadow: 0 12px 36px rgba(37, 99, 235, .5);
+    transform: scale(1.05);
+    box-shadow: 0 16px 48px rgba(37, 99, 235, .6);
+    color: #ffffff !important;
 }
 
 /* ===== HERO ===== */
@@ -346,6 +353,14 @@ letter-spacing:-.04em;
 max-width:760px;
 margin-bottom:16px;
 text-shadow:0 0 40px rgba(37,99,235,0.12);
+
+background: linear-gradient(135deg, #ffffff 0%, #93c5fd 40%, #c084fc 70%, #ffffff 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+background-size: 200% 200%;
+animation: gradientShift 10s ease infinite;
+filter: drop-shadow(0 0 30px rgba(37,99,235,0.2));
 }
 
 .hero p{
@@ -375,7 +390,7 @@ align-items:center;
 gap:6px;
 font-size:.85rem;
 font-weight:500;
-color:#94a3b8;
+color:#cbd5e1;
 }
 
 .trust-bar span::before{
@@ -498,7 +513,7 @@ text-shadow:0 0 20px rgba(234,179,8,0.2);
 
 .report-preview .header .score span{
 font-size:.95rem;
-color:#94a3b8;
+color:#cbd5e1;
 font-weight:500;
 }
 
@@ -697,7 +712,7 @@ gap:6px 20px;
 
 .privacy-bullets span{
 font-size:.85rem;
-color:#94a3b8;
+color:#cbd5e1;
 display:flex;
 align-items:center;
 gap:6px;
@@ -737,7 +752,7 @@ font-weight:700;
 }
 
 .faq-item p{
-color:#94a3b8;
+color:#cbd5e1;
 font-size:.95rem;
 line-height:1.9;
 margin-bottom:0;
@@ -823,6 +838,7 @@ opacity:0.2;
 animation:pulseGlow 4s infinite alternate;
 }
 
+@keyframes gradientShift{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
 @keyframes pulseGlow{
 0%{opacity:0.15;transform:scale(1);}
 100%{opacity:0.4;transform:scale(1.05);}
@@ -967,7 +983,7 @@ margin-bottom:14px;
 }
 
 .footer-links a{
-color:#94a3b8;
+color:#cbd5e1;
 font-weight:600;
 font-size:.85rem;
 transition:color 0.2s;
@@ -1180,8 +1196,10 @@ padding-bottom:80px;
 </head>
 
 <body>
+    <!-- Floating accent orb -->
+    <div class="orb-accent"></div>
 
-<!-- ===== NAVIGATION (AUTO-LOADED FROM NAV.JS) ===== -->
+<!-- ===== NAVIGATION ===== -->
 <nav>
     <div class="nav-wrap">
         <a href="/" class="logo">
@@ -1196,7 +1214,8 @@ padding-bottom:80px;
             <a href="/duplicate-medical-billing-charges.html">Medical Billing</a>
             <a href="/ai-construction-contract-review.html">Contract Review</a>
             <a href="/ai-contract-review-tool.html" class="active">AI Contract Tool</a>
-            <a href="https://hiddenfeeai.com" class="nav-btn">Analyze My Documents</a>
+            <a href="/contract-review-ai-software.html">Contract AI Software</a>
+                <a href="https://hiddenfeeai.com" class="nav-btn">Analyze My Documents</a>
         </div>
     </div>
 </nav>
@@ -1277,17 +1296,17 @@ padding-bottom:80px;
             <div style="background:rgba(255,255,255,.03); border:1px solid rgba(255,255,255,.06); border-radius:20px; padding:24px 20px; text-align:center;">
                 <span style="font-size:2.4rem; font-weight:900; color:#3b82f6; opacity:0.5; display:block; margin-bottom:8px; line-height:1;">1</span>
                 <h4 style="font-size:1.1rem; font-weight:700; color:white; margin-bottom:6px;">Upload Your Contract</h4>
-                <p style="font-size:.9rem; color:#94a3b8; line-height:1.6;">Upload your contract, agreement, estimate, or proposal in PDF or document format.</p>
+                <p style="font-size:.9rem; color:#cbd5e1; line-height:1.6;">Upload your contract, agreement, estimate, or proposal in PDF or document format.</p>
             </div>
             <div style="background:rgba(255,255,255,.03); border:1px solid rgba(255,255,255,.06); border-radius:20px; padding:24px 20px; text-align:center;">
                 <span style="font-size:2.4rem; font-weight:900; color:#3b82f6; opacity:0.5; display:block; margin-bottom:8px; line-height:1;">2</span>
                 <h4 style="font-size:1.1rem; font-weight:700; color:white; margin-bottom:6px;">AI Analyzes Fees &amp; Risks</h4>
-                <p style="font-size:.9rem; color:#94a3b8; line-height:1.6;">The AI scans for hidden fees, pricing risks, unclear clauses, and negotiation opportunities.</p>
+                <p style="font-size:.9rem; color:#cbd5e1; line-height:1.6;">The AI scans for hidden fees, pricing risks, unclear clauses, and negotiation opportunities.</p>
             </div>
             <div style="background:rgba(255,255,255,.03); border:1px solid rgba(255,255,255,.06); border-radius:20px; padding:24px 20px; text-align:center;">
                 <span style="font-size:2.4rem; font-weight:900; color:#3b82f6; opacity:0.5; display:block; margin-bottom:8px; line-height:1;">3</span>
                 <h4 style="font-size:1.1rem; font-weight:700; color:white; margin-bottom:6px;">Receive Your Analysis Report</h4>
-                <p style="font-size:.9rem; color:#94a3b8; line-height:1.6;">Get a clear breakdown of potential cost risks and questions to ask before signing.</p>
+                <p style="font-size:.9rem; color:#cbd5e1; line-height:1.6;">Get a clear breakdown of potential cost risks and questions to ask before signing.</p>
             </div>
         </div>
 
@@ -1358,27 +1377,27 @@ padding-bottom:80px;
         <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:20px 0 10px 0;">
             <div style="background:rgba(255,255,255,.03); padding:18px 20px; border-radius:16px; border:1px solid rgba(255,255,255,.05);">
                 <div style="font-weight:700; color:white; font-size:1rem;">Hidden Fees</div>
-                <div style="font-size:.85rem; color:#94a3b8; line-height:1.5; margin-top:2px;">Administrative charges, service fees, processing fees, markups, and duplicate entries</div>
+                <div style="font-size:.85rem; color:#cbd5e1; line-height:1.5; margin-top:2px;">Administrative charges, service fees, processing fees, markups, and duplicate entries</div>
             </div>
             <div style="background:rgba(255,255,255,.03); padding:18px 20px; border-radius:16px; border:1px solid rgba(255,255,255,.05);">
                 <div style="font-weight:700; color:white; font-size:1rem;">Pricing Risks</div>
-                <div style="font-size:.85rem; color:#94a3b8; line-height:1.5; margin-top:2px;">Unusual markups, inflated costs, and pricing structures that favor the other party</div>
+                <div style="font-size:.85rem; color:#cbd5e1; line-height:1.5; margin-top:2px;">Unusual markups, inflated costs, and pricing structures that favor the other party</div>
             </div>
             <div style="background:rgba(255,255,255,.03); padding:18px 20px; border-radius:16px; border:1px solid rgba(255,255,255,.05);">
                 <div style="font-weight:700; color:white; font-size:1rem;">Unclear Clauses</div>
-                <div style="font-size:.85rem; color:#94a3b8; line-height:1.5; margin-top:2px;">Ambiguous language, undefined terms, vague obligations, and missing definitions</div>
+                <div style="font-size:.85rem; color:#cbd5e1; line-height:1.5; margin-top:2px;">Ambiguous language, undefined terms, vague obligations, and missing definitions</div>
             </div>
             <div style="background:rgba(255,255,255,.03); padding:18px 20px; border-radius:16px; border:1px solid rgba(255,255,255,.05);">
                 <div style="font-weight:700; color:white; font-size:1rem;">Change Order Risks</div>
-                <div style="font-size:.85rem; color:#94a3b8; line-height:1.5; margin-top:2px;">Unclear markup percentages, scope creep triggers, approval process gaps, and administrative fees</div>
+                <div style="font-size:.85rem; color:#cbd5e1; line-height:1.5; margin-top:2px;">Unclear markup percentages, scope creep triggers, approval process gaps, and administrative fees</div>
             </div>
             <div style="background:rgba(255,255,255,.03); padding:18px 20px; border-radius:16px; border:1px solid rgba(255,255,255,.05);">
                 <div style="font-weight:700; color:white; font-size:1rem;">Payment Schedule Issues</div>
-                <div style="font-size:.85rem; color:#94a3b8; line-height:1.5; margin-top:2px;">Front-loaded payments, excessive deposits, weak milestone protections, and unfair draw schedules</div>
+                <div style="font-size:.85rem; color:#cbd5e1; line-height:1.5; margin-top:2px;">Front-loaded payments, excessive deposits, weak milestone protections, and unfair draw schedules</div>
             </div>
             <div style="background:rgba(255,255,255,.03); padding:18px 20px; border-radius:16px; border:1px solid rgba(255,255,255,.05);">
                 <div style="font-weight:700; color:white; font-size:1rem;">Negotiation Opportunities</div>
-                <div style="font-size:.85rem; color:#94a3b8; line-height:1.5; margin-top:2px;">Specific questions to ask, terms that can be improved, and areas to challenge</div>
+                <div style="font-size:.85rem; color:#cbd5e1; line-height:1.5; margin-top:2px;">Specific questions to ask, terms that can be improved, and areas to challenge</div>
             </div>
         </div>
 
@@ -1599,14 +1618,15 @@ padding-bottom:80px;
 <footer class="footer">
     <div class="container">
         <div class="footer-links">
+            <a href="/hidden-fees-guides.html">Guides</a>
             <a href="/hidden-hvac-contractor-fees.html">HVAC Fees</a>
             <a href="/hidden-home-renovation-fees.html">Renovation Fees</a>
             <a href="/hidden-bank-overdraft-fees.html">Bank Fees</a>
             <a href="/hidden-dealership-financing-fees.html">Auto Financing</a>
             <a href="/duplicate-medical-billing-charges.html">Medical Billing</a>
-            <a href="/hidden-fees-guides.html">Guides</a>
             <a href="/ai-construction-contract-review.html">Contract Review</a>
             <a href="/ai-contract-review-tool.html">AI Contract Tool</a>
+            <a href="/contract-review-ai-software.html">Contract AI Software</a>
         </div>
         <p>
             © 2026 DetectHiddenFees.com — AI Contract Review Tool &amp; Hidden Fee Detection Platform
@@ -1625,9 +1645,6 @@ padding-bottom:80px;
     </div>
     <a href="https://hiddenfeeai.com" class="sticky-btn">Analyze My Contract Now</a>
 </div>
-
-<!-- ===== SCRIPTS ===== -->
-<script src="/nav.js"></script>
 
 </body>
 </html>

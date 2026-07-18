@@ -5,25 +5,26 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Hidden Fees Guides: Master Deceptive Pricing & Billing Practices | DetectHiddenFees</title>
+<title>Hidden Fees Decoded: The Complete Guide to Not Getting Ripped Off | DetectHiddenFees</title>
 
-<meta name="description" content="Explore expert hidden fees guides covering dealership financing fees, duplicate medical billing charges, banking fees, telecom charges, contractor estimate markups, and subscription billing traps. Learn how AI uncovers hidden costs.">
+<meta name="description" content="Real talk about hidden fees—where they hide, who uses them, and how to fight back. From dealership financing tricks to medical billing errors, contractor markups to bank fees. Expert breakdowns that actually help you save money.">
 
-<meta name="keywords" content="hidden fees guides, hidden dealership financing fees, duplicate medical billing charges, hidden banking fees, telecom hidden charges, contractor estimate fees, hidden subscription fees, AI hidden fee detection, consumer finance guides">
+<meta name="keywords" content="hidden fees guides, how to avoid hidden fees, dealership financing tricks, medical billing errors, hidden banking fees, contractor markup guide, subscription billing traps, find hidden costs, consumer finance protection, AI fee detection">
 
 <meta name="robots" content="index,follow">
 
 <link rel="canonical" href="https://detecthiddenfees.com/hidden-fees-guides.html">
 
-<meta property="og:title" content="Hidden Fees Guides: Master Deceptive Pricing & Billing Practices">
-<meta property="og:description" content="Explore expert hidden fees guides covering dealership financing fees, duplicate medical billing charges, banking fees, and more. Learn how AI uncovers hidden costs.">
+<meta property="og:title" content="Hidden Fees Decoded: The Complete Guide to Not Getting Ripped Off">
+<meta property="og:description" content="Real talk about hidden fees—where they hide, who uses them, and how to fight back. From dealership financing tricks to medical billing errors, contractor markups to bank fees.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://detecthiddenfees.com/hidden-fees-guides.html">
+<meta property="og:site_name" content="DetectHiddenFees">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Hidden Fees Guides: Master Deceptive Pricing & Billing Practices">
-<meta name="twitter:description" content="Explore expert hidden fees guides covering dealership financing fees, duplicate medical billing charges, banking fees, and more. Learn how AI uncovers hidden costs.">
+<meta name="twitter:title" content="Hidden Fees Decoded: The Complete Guide to Not Getting Ripped Off">
+<meta name="twitter:description" content="Real talk about hidden fees—where they hide, who uses them, and how to fight back. From dealership financing tricks to medical billing errors, contractor markups to bank fees.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -156,6 +157,11 @@ body::after {
     0% { transform: translate(0, 0) scale(1); }
     100% { transform: translate(80px, 40px) scale(1.2); }
 }
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
 
 a{
 text-decoration:none;
@@ -179,14 +185,14 @@ box-shadow:0 4px 40px rgba(0,0,0,0.6);
 
 .nav-wrap{
 display:flex;
-justify-content:space-between;
 align-items:center;
-padding:12px 0;
-gap:10px;
+padding:14px 0;
+gap:18px;
+flex-wrap:wrap;
 }
 
 .logo{
-font-size:1.5rem;
+font-size:1.7rem;
 font-weight:900;
 color:white;
 letter-spacing:-1px;
@@ -201,19 +207,19 @@ color:#3b82f6;
 
 .nav-links{
 display:flex;
-gap:6px;
+gap:4px;
 align-items:center;
 flex-wrap:wrap;
-justify-content:flex-end;
 }
 
 .nav-links a{
 color:#cbd5e1;
 font-weight:600;
-font-size:.82rem;
-padding:4px 5px;
+font-size:.95rem;
+padding:8px 14px;
 white-space:nowrap;
 transition:color 0.2s, text-shadow 0.3s;
+border-radius:8px;
 }
 
 .nav-links a:hover{
@@ -227,20 +233,27 @@ text-shadow:0 0 20px rgba(37,99,235,0.4);
 }
 
 .nav-btn{
-padding:8px 16px;
-background:linear-gradient(135deg,#2563eb,#7c3aed);
-border-radius:12px;
-color:white !important;
-font-weight:700 !important;
-font-size:.78rem !important;
-box-shadow:0 8px 24px rgba(37,99,235,.3);
+display:inline-block;
+padding:14px 30px;
+border-radius:14px;
+background:linear-gradient(135deg,#2563eb,#9333ea);
+font-size:1.05rem;
+font-weight:700;
+color:#ffffff !important;
+text-decoration:none;
 white-space:nowrap;
+box-shadow:0 12px 36px rgba(37,99,235,.4);
 transition:transform 0.25s, box-shadow 0.3s;
+border:none;
+cursor:pointer;
+line-height:1.4;
+letter-spacing:0.02em;
 }
 
 .nav-btn:hover{
-transform:scale(1.04);
-box-shadow:0 12px 36px rgba(37,99,235,.5);
+transform:scale(1.05);
+box-shadow:0 16px 48px rgba(37,99,235,.6);
+color:#ffffff !important;
 }
 
 .hero{
@@ -285,11 +298,16 @@ line-height:1.05;
 font-weight:900;
 letter-spacing:-.04em;
 margin-bottom:16px;
-color:white;
 max-width:900px;
 position:relative;
 z-index:2;
-text-shadow:0 0 40px rgba(37,99,235,0.15);
+background: linear-gradient(135deg, #ffffff 0%, #93c5fd 40%, #c084fc 70%, #ffffff 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+background-size: 200% 200%;
+animation: gradientShift 10s ease infinite;
+filter: drop-shadow(0 0 30px rgba(37,99,235,0.2));
 }
 
 .hero-sub{
@@ -885,20 +903,93 @@ padding:14px 24px;
 font-size:.9rem;
 }
 }
+
+/* ===== STICKY CTA BAR ===== */
+.sticky-cta-bar {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: rgba(2,8,23,.95);
+    backdrop-filter: blur(18px);
+    padding: 12px 20px;
+    border-top: 1px solid rgba(255,255,255,.08);
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    box-shadow: 0 -10px 40px rgba(0,0,0,0.6);
+}
+.sticky-cta-bar .sticky-text {
+    font-weight: 700;
+    font-size: .95rem;
+    color: #e2e8f0;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.sticky-cta-bar .sticky-text .price {
+    color: #3b82f6;
+    background: rgba(59,130,246,.12);
+    padding: 2px 12px;
+    border-radius: 100px;
+    font-size: .85rem;
+}
+.sticky-cta-bar .sticky-btn {
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 14px;
+    background: linear-gradient(135deg,#2563eb,#9333ea);
+    color: white;
+    font-weight: 800;
+    font-size: .95rem;
+    box-shadow: 0 8px 30px rgba(59,130,246,.35);
+    text-align: center;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+    letter-spacing: .01em;
+    flex-shrink: 0;
+}
+.sticky-cta-bar .sticky-btn:hover {
+    transform: scale(1.03);
+}
+@media(min-width:901px) {
+    .sticky-cta-bar {
+        display: flex;
+    }
+    body {
+        padding-bottom: 80px;
+    }
+}
+@media(max-width:900px) {
+    .sticky-cta-bar {
+        display: flex;
+        padding: 10px 14px;
+        gap: 10px;
+    }
+    .sticky-cta-bar .sticky-btn {
+        padding: 10px 20px;
+        font-size: .85rem;
+        flex: 1;
+    }
+    .sticky-cta-bar .sticky-text {
+        font-size: .8rem;
+        gap: 6px;
+    }
+}
 </style>
 
 </head>
-<script>
-    // Force reload of nav.js on every page load
-    (function() {
-        const script = document.createElement('script');
-        script.src = '/nav.js?v=' + Date.now();
-        document.head.appendChild(script);
-    })();
-</script>
 <body>
 
-<!-- ===== NAVIGATION (UPDATED WITH AI CONTRACT TOOL) ===== -->
+<!-- ===== NAVIGATION ===== -->
 <nav>
     <div class="container nav-wrap">
         <div class="logo">
@@ -913,9 +1004,8 @@ font-size:.9rem;
             <a href="/duplicate-medical-billing-charges.html">Medical Billing</a>
             <a href="/ai-construction-contract-review.html">Contract Review</a>
             <a href="/ai-contract-review-tool.html">AI Contract Tool</a>
-            <a href="https://hiddenfeeai.com" class="nav-btn">
-                Analyze My Documents
-            </a>
+            <a href="/contract-review-ai-software.html">Contract AI Software</a>
+                <a href="https://hiddenfeeai.com" class="nav-btn">Analyze My Documents</a>
         </div>
     </div>
 </nav>
@@ -1308,14 +1398,15 @@ font-size:.9rem;
 <footer>
     <div class="container">
         <div class="footer-links">
+            <a href="/hidden-fees-guides.html">Guides</a>
             <a href="/hidden-hvac-contractor-fees.html">HVAC Fees</a>
             <a href="/hidden-home-renovation-fees.html">Renovation Fees</a>
             <a href="/hidden-bank-overdraft-fees.html">Bank Fees</a>
             <a href="/hidden-dealership-financing-fees.html">Auto Financing</a>
             <a href="/duplicate-medical-billing-charges.html">Medical Billing</a>
-            <a href="/hidden-fees-guides.html">Guides</a>
             <a href="/ai-construction-contract-review.html">Contract Review</a>
             <a href="/ai-contract-review-tool.html">AI Contract Tool</a>
+            <a href="/contract-review-ai-software.html">Contract AI Software</a>
         </div>
         <p>
             © 2026 DetectHiddenFees.com — AI Hidden Fee Intelligence Platform
@@ -1326,5 +1417,13 @@ font-size:.9rem;
     </div>
 </footer>
 
+    <!-- ===== STICKY CTA BAR ===== -->
+    <div class="sticky-cta-bar">
+        <div class="sticky-text">
+            <span>📚 Browse Our Guides</span>
+            <span class="price">$15</span>
+        </div>
+        <a href="https://hiddenfeeai.com" class="sticky-btn">Analyze Your Contract</a>
+    </div>
 </body>
 </html>

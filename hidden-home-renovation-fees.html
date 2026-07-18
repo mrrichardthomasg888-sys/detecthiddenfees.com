@@ -6,9 +6,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Hidden Home Renovation Fees: How Contractors Inflate Project Costs | DetectHiddenFees</title>
+<title>Home Renovation Fee Secrets: How Contractors Inflate Your Bill | DetectHiddenFees</title>
 
-<meta name="description" content="Advanced home renovation pricing investigation exposing hidden contractor fees, labor inflation, change-order manipulation, financing markups, permit fee padding, and deceptive renovation billing practices. Upload your estimate for AI analysis.">
+<meta name="description" content="That kitchen remodel costs more than you think. Home renovation contractors use change-order manipulation, material overages, and subcontractor layering to jack up prices. Here’s how to spot it.">
 
 <meta name="keywords" content="hidden home renovation fees, contractor estimate markups, renovation cost overruns, change order manipulation, contractor pricing analysis, home renovation contract review, renovation pricing investigation">
 
@@ -24,8 +24,8 @@
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Hidden Home Renovation Fees: How Contractors Inflate Project Costs">
-<meta name="twitter:description" content="Advanced home renovation pricing investigation exposing hidden contractor fees, labor inflation, change-order manipulation, and deceptive billing practices.">
+<meta name="twitter:title" content="Home Renovation Fee Secrets: How Contractors Inflate Your Bill | DetectHiddenFees">
+<meta name="twitter:description" content="That kitchen remodel costs more than you think. Home renovation contractors use change-order manipulation, material overages, and subcontractor layering to jack up prices. Here’s how to spot it.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -177,61 +177,87 @@ padding-right:22px;
 }
 
 /* ===== NAVIGATION ===== */
-.topbar{
-position:sticky;
-top:0;
-z-index:999;
-background:rgba(2,8,23,.85);
-backdrop-filter:blur(18px) saturate(1.2);
-border-bottom:1px solid rgba(255,255,255,.06);
-box-shadow:0 4px 40px rgba(0,0,0,0.5);
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background: rgba(2, 6, 23, .75);
+    backdrop-filter: blur(18px) saturate(1.2);
+    border-bottom: 1px solid rgba(255, 255, 255, .08);
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.6);
 }
 
-.nav{
-display:flex;
-justify-content:space-between;
-align-items:center;
-gap:10px;
-padding:12px 0;
+.nav-wrap {
+    display: flex;
+    align-items: center;
+    padding: 14px 0;
+    gap: 18px;
+    flex-wrap: wrap;
 }
 
-.logo{
-font-size:1.5rem;
-font-weight:900;
-letter-spacing:-1px;
-color:white;
-text-decoration:none;
-flex-shrink:0;
-text-shadow:0 0 30px rgba(37,99,235,0.2);
+.logo {
+    font-size: 1.7rem;
+    font-weight: 900;
+    letter-spacing: -2px;
+    color: white;
+    white-space: nowrap;
+    flex-shrink: 0;
+    text-shadow: 0 0 30px rgba(37,99,235,0.2);
 }
 
-/* container for dynamic nav – populated by nav.js */
-.nav-links{
-display:flex;
-gap:6px;
-align-items:center;
-flex-wrap:wrap;
-justify-content:flex-end;
-min-height:36px; /* prevents collapse while loading */
+.logo span {
+    color: #3b82f6;
 }
 
-.nav-links a{
-color:#cbd5e1;
-font-weight:600;
-font-size:.82rem;
-padding:4px 5px;
-white-space:nowrap;
-transition:color 0.2s, text-shadow 0.3s;
+.nav-links {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.nav-links a:hover{
-color:#ffffff;
-text-shadow:0 0 20px rgba(37,99,235,0.3);
+.nav-links a {
+    color: #cbd5e1;
+    font-weight: 600;
+    font-size: .95rem;
+    padding: 8px 14px;
+    white-space: nowrap;
+    transition: color 0.2s, text-shadow 0.3s;
+    border-radius: 8px;
 }
 
-.nav-links a.active{
-color:#ffffff;
-text-shadow:0 0 20px rgba(37,99,235,0.4);
+.nav-links a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 20px rgba(37,99,235,0.3);
+}
+
+.nav-links a.active {
+    color: #ffffff;
+    text-shadow: 0 0 20px rgba(37,99,235,0.4);
+}
+
+.nav-btn {
+    display: inline-block;
+    padding: 14px 30px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #2563eb, #9333ea);
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #ffffff !important;
+    text-decoration: none;
+    white-space: nowrap;
+    box-shadow: 0 12px 36px rgba(37, 99, 235, .4);
+    transition: transform 0.25s, box-shadow 0.3s;
+    border: none;
+    cursor: pointer;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+}
+
+.nav-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 16px 48px rgba(37, 99, 235, .6);
+    color: #ffffff !important;
 }
 
 .top-button{
@@ -302,6 +328,14 @@ letter-spacing:-.04em;
 max-width:760px;
 margin-bottom:16px;
 text-shadow:0 0 40px rgba(37,99,235,0.12);
+
+background: linear-gradient(135deg, #ffffff 0%, #93c5fd 40%, #c084fc 70%, #ffffff 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+background-size: 200% 200%;
+animation: gradientShift 10s ease infinite;
+filter: drop-shadow(0 0 30px rgba(37,99,235,0.2));
 }
 
 .hero p{
@@ -331,7 +365,7 @@ align-items:center;
 gap:6px;
 font-size:.85rem;
 font-weight:500;
-color:#94a3b8;
+color:#cbd5e1;
 }
 
 .trust-bar span::before{
@@ -530,7 +564,7 @@ gap:6px 20px;
 
 .privacy-bullets span{
 font-size:.85rem;
-color:#94a3b8;
+color:#cbd5e1;
 display:flex;
 align-items:center;
 gap:6px;
@@ -570,7 +604,7 @@ font-weight:700;
 }
 
 .faq-item p{
-color:#94a3b8;
+color:#cbd5e1;
 font-size:.95rem;
 line-height:1.9;
 margin-bottom:0;
@@ -656,6 +690,7 @@ opacity:0.2;
 animation:pulseGlow 4s infinite alternate;
 }
 
+@keyframes gradientShift{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
 @keyframes pulseGlow{
 0%{opacity:0.15;transform:scale(1);}
 100%{opacity:0.4;transform:scale(1.05);}
@@ -739,7 +774,7 @@ margin-bottom:14px;
 }
 
 .footer-links a{
-color:#94a3b8;
+color:#cbd5e1;
 font-weight:600;
 font-size:.85rem;
 transition:color 0.2s;
@@ -769,28 +804,28 @@ font-size:1rem;
 font-size:1.8rem;
 }
 
-.nav{
+.nav-wrap{
 flex-direction:column;
 align-items:flex-start;
-padding:10px 0;
+padding:12px 0;
 }
 
 .nav-links{
 width:100%;
 justify-content:flex-start;
-gap:3px 6px;
+gap:4px 8px;
 }
 
 .nav-links a{
-font-size:.75rem;
-padding:2px 4px;
+font-size:.85rem;
+padding:6px 8px;
 }
 
-.top-button{
+.nav-btn{
 width:100%;
 text-align:center;
-font-size:.7rem !important;
-padding:6px 12px;
+font-size:.95rem;
+padding:12px 20px;
 }
 
 .trust-bar{
@@ -890,33 +925,115 @@ padding:18px 16px;
 font-size:1.8rem;
 }
 }
-</style>
 
-<!-- Load nav.js (cache-busted) -->
-<script>
-    (function() {
-        const script = document.createElement('script');
-        script.src = '/nav.js?v=' + Date.now();
-        document.head.appendChild(script);
-    })();
-</script>
+/* ===== STICKY CTA BAR ===== */
+        .sticky-cta-bar {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(2,8,23,.95);
+            backdrop-filter: blur(18px);
+            padding: 12px 20px;
+            border-top: 1px solid rgba(255,255,255,.08);
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            box-shadow: 0 -10px 40px rgba(0,0,0,0.6);
+        }
+        .sticky-cta-bar .sticky-text {
+            font-weight: 700;
+            font-size: .95rem;
+            color: #e2e8f0;
+            white-space: nowrap;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .sticky-cta-bar .sticky-text .price {
+            color: #3b82f6;
+            background: rgba(59,130,246,.12);
+            padding: 2px 12px;
+            border-radius: 100px;
+            font-size: .85rem;
+        }
+        .sticky-cta-bar .sticky-btn {
+            display: inline-block;
+            padding: 12px 28px;
+            border-radius: 14px;
+            background: linear-gradient(135deg,#2563eb,#9333ea);
+            color: white;
+            font-weight: 800;
+            font-size: .95rem;
+            box-shadow: 0 8px 30px rgba(59,130,246,.35);
+            text-align: center;
+            min-height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: none;
+            cursor: pointer;
+            transition: transform 0.2s;
+            letter-spacing: .01em;
+            flex-shrink: 0;
+        }
+        .sticky-cta-bar .sticky-btn:hover {
+            transform: scale(1.03);
+        }
+        @media(min-width:901px) {
+            .sticky-cta-bar {
+                display: flex;
+            }
+            body {
+                padding-bottom: 80px;
+            }
+        }
+        @media(max-width:900px) {
+            .sticky-cta-bar {
+                display: flex;
+                padding: 10px 14px;
+                gap: 10px;
+            }
+            .sticky-cta-bar .sticky-btn {
+                padding: 10px 20px;
+                font-size: .85rem;
+                flex: 1;
+            }
+            .sticky-cta-bar .sticky-text {
+                font-size: .8rem;
+                gap: 6px;
+            }
+        }
+    </style>
 
 </head>
 
 <body>
+    <!-- Floating accent orb -->
+    <div class="orb-accent"></div>
 
-<!-- ===== NAVIGATION (DYNAMIC – populated by nav.js) ===== -->
-<header class="topbar">
-    <div class="container">
-        <div class="nav">
-            <a href="https://detecthiddenfees.com" class="logo">
-                DetectHiddenFees<span style="color:#3b82f6;">.</span>
-            </a>
-            <!-- This container will be filled by nav.js -->
-            <div class="nav-links" id="navLinks"></div>
+<!-- ===== NAVIGATION ===== -->
+<nav>
+    <div class="container nav-wrap">
+        <div class="logo">
+            DetectHiddenFees<span>.</span>
+        </div>
+        <div class="nav-links">
+            <a href="/hidden-fees-guides.html">Guides</a>
+            <a href="/hidden-hvac-contractor-fees.html">HVAC Fees</a>
+            <a href="/hidden-home-renovation-fees.html" class="active">Renovation Fees</a>
+            <a href="/hidden-bank-overdraft-fees.html">Bank Fees</a>
+            <a href="/hidden-dealership-financing-fees.html">Auto Financing</a>
+            <a href="/duplicate-medical-billing-charges.html">Medical Billing</a>
+            <a href="/ai-construction-contract-review.html">Contract Review</a>
+            <a href="/ai-contract-review-tool.html">AI Contract Tool</a>
+            <a href="/contract-review-ai-software.html">Contract AI Software</a>
+            <a href="https://hiddenfeeai.com" class="nav-btn">Analyze My Documents</a>
         </div>
     </div>
-</header>
+</nav>
 
 <!-- ===== HERO ===== -->
 <section class="hero">
@@ -1275,6 +1392,7 @@ font-size:1.8rem;
             <a href="/hidden-fees-guides.html">Guides</a>
             <a href="/ai-construction-contract-review.html">Contract Review</a>
             <a href="/ai-contract-review-tool.html">AI Contract Tool</a>
+            <a href="/contract-review-ai-software.html">Contract AI Software</a>
         </div>
         <p>
             © 2026 DetectHiddenFees.com — Advanced Home Renovation Pricing Intelligence Platform
@@ -1285,5 +1403,13 @@ font-size:1.8rem;
     </div>
 </footer>
 
+    <!-- ===== STICKY CTA BAR ===== -->
+    <div class="sticky-cta-bar">
+        <div class="sticky-text">
+            <span>🔍 Look Over Your Contract</span>
+            <span class="price">$15</span>
+        </div>
+        <a href="https://hiddenfeeai.com" class="sticky-btn">Uncover Costly Fees</a>
+    </div>
 </body>
 </html>
