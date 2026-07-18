@@ -162,18 +162,20 @@ padding:0;
 box-sizing:border-box;
 }
 
-body{
+html,body{
+overflow-x:hidden;
+background:#020817;
 font-family:'Inter',sans-serif;
-background:
-radial-gradient(circle at 30% 20%, #0a3d1a 0%, #020617 45%, #000000 100%);
-color:#e2e8f0;
+color:white;
+}
+
+body{
 line-height:1.8;
 -webkit-font-smoothing:antialiased;
-overflow-x:hidden;
 padding-bottom:80px;
 }
 
-/* Animated Glow Orbs */
+/* Animated Glow Orbs - STANDARD BLUE/PURPLE */
 body::before,
 body::after {
     content: '';
@@ -182,20 +184,20 @@ body::after {
     z-index: -1;
     border-radius: 50%;
     filter: blur(120px);
-    opacity: 0.3;
+    opacity: 0.25;
     animation: floatGlow 18s infinite alternate ease-in-out;
 }
 body::before {
     width: 700px;
     height: 700px;
-    background: radial-gradient(circle, #22c55e, transparent 70%);
+    background: radial-gradient(circle, #2563eb, transparent 70%);
     top: -100px;
     left: -200px;
 }
 body::after {
     width: 600px;
     height: 600px;
-    background: radial-gradient(circle, #16a34a, transparent 70%);
+    background: radial-gradient(circle, #7c3aed, transparent 70%);
     bottom: -100px;
     right: -150px;
     animation-delay: -6s;
@@ -216,17 +218,18 @@ margin:auto;
 padding:0 24px;
 }
 
-nav{
+/* ===== NAVIGATION ===== */
+.topbar{
 position:sticky;
 top:0;
 z-index:999;
-background:rgba(2,6,23,.75);
+background:rgba(2,8,23,.85);
 backdrop-filter:blur(18px) saturate(1.2);
-border-bottom:1px solid rgba(255,255,255,.08);
-box-shadow:0 4px 40px rgba(0,0,0,0.6);
+border-bottom:1px solid rgba(255,255,255,.06);
+box-shadow:0 4px 40px rgba(0,0,0,0.5);
 }
 
-.nav-wrap{
+.nav{
 display:flex;
 justify-content:space-between;
 align-items:center;
@@ -241,19 +244,21 @@ color:white;
 letter-spacing:-1px;
 white-space:nowrap;
 flex-shrink:0;
-text-shadow:0 0 30px rgba(34,197,94,0.2);
+text-shadow:0 0 30px rgba(37,99,235,0.2);
 }
 
 .logo span{
-color:#22c55e;
+color:#3b82f6;
 }
 
+/* Container for dynamic nav - populated by nav.js */
 .nav-links{
 display:flex;
 gap:6px;
 align-items:center;
 flex-wrap:wrap;
 justify-content:flex-end;
+min-height:36px;
 }
 
 .nav-links a{
@@ -267,35 +272,39 @@ transition:color 0.2s, text-shadow 0.3s;
 
 .nav-links a:hover{
 color:#ffffff;
-text-shadow:0 0 20px rgba(34,197,94,0.3);
+text-shadow:0 0 20px rgba(37,99,235,0.3);
 }
 
 .nav-links a.active{
 color:#ffffff;
-text-shadow:0 0 20px rgba(34,197,94,0.4);
+text-shadow:0 0 20px rgba(37,99,235,0.4);
 }
 
-.nav-btn{
+.top-button{
 padding:8px 16px;
-background:linear-gradient(135deg,#16a34a,#22c55e);
 border-radius:12px;
+background:linear-gradient(135deg,#2563eb,#9333ea);
+font-size:.78rem;
+font-weight:700;
 color:white !important;
-font-weight:700 !important;
-font-size:.78rem !important;
-box-shadow:0 8px 24px rgba(34,197,94,.3);
+text-decoration:none;
 white-space:nowrap;
+box-shadow:0 8px 24px rgba(37,99,235,.3);
 transition:transform 0.25s, box-shadow 0.3s;
 }
 
-.nav-btn:hover{
+.top-button:hover{
 transform:scale(1.04);
-box-shadow:0 12px 36px rgba(34,197,94,.5);
+box-shadow:0 12px 36px rgba(37,99,235,.5);
 }
 
+/* ===== HERO ===== */
 .hero{
 padding:28px 0 50px;
 position:relative;
 overflow:hidden;
+background:
+radial-gradient(circle at 30% 20%, #17357d 0%, #020817 72%);
 }
 
 .hero:before{
@@ -303,29 +312,31 @@ content:'';
 position:absolute;
 width:700px;
 height:700px;
-background:#22c55e;
+background:#2563eb;
 filter:blur(180px);
-opacity:.12;
+opacity:.10;
 top:-300px;
 left:-150px;
 z-index:0;
 }
 
+.hero *{
+position:relative;
+z-index:1;
+}
+
 .badge{
 display:inline-block;
 padding:8px 16px;
-background:rgba(34,197,94,.12);
-border:1px solid rgba(34,197,94,.25);
+border:2px solid #2563eb;
 border-radius:999px;
 font-size:.75rem;
 font-weight:800;
-color:#86efac;
+color:#93c5fd;
 margin-bottom:16px;
 letter-spacing:.06em;
 text-transform:uppercase;
-position:relative;
-z-index:2;
-box-shadow:0 0 30px rgba(34,197,94,0.1);
+box-shadow:0 0 30px rgba(37,99,235,0.1);
 }
 
 .hero h1{
@@ -336,9 +347,7 @@ letter-spacing:-.04em;
 margin-bottom:16px;
 color:white;
 max-width:900px;
-position:relative;
-z-index:2;
-text-shadow:0 0 40px rgba(34,197,94,0.15);
+text-shadow:0 0 40px rgba(37,99,235,0.12);
 }
 
 .hero-sub{
@@ -347,28 +356,25 @@ color:#cbd5e1;
 max-width:850px;
 margin-bottom:20px;
 line-height:1.9;
-position:relative;
-z-index:2;
 }
 
-.primary-btn{
+.cta-button{
 display:inline-block;
 padding:18px 32px;
-background:linear-gradient(135deg,#16a34a,#22c55e);
-border-radius:16px;
-color:white;
-font-weight:800;
+border-radius:18px;
+background:linear-gradient(90deg,#2563eb,#9333ea);
 font-size:1rem;
-box-shadow:0 16px 50px rgba(34,197,94,.35);
+font-weight:800;
+color:white;
+text-decoration:none;
+box-shadow:0 16px 50px rgba(37,99,235,.4);
 transition:transform 0.25s, box-shadow 0.3s;
-position:relative;
-z-index:2;
 text-shadow:0 2px 8px rgba(0,0,0,0.2);
 }
 
-.primary-btn:hover{
+.cta-button:hover{
 transform:translateY(-3px);
-box-shadow:0 24px 70px rgba(34,197,94,.5);
+box-shadow:0 24px 70px rgba(37,99,235,.55);
 }
 
 .trust-bar{
@@ -380,8 +386,6 @@ padding:12px 18px;
 background:rgba(255,255,255,.04);
 border-radius:14px;
 border:1px solid rgba(255,255,255,.06);
-position:relative;
-z-index:2;
 backdrop-filter:blur(4px);
 }
 
@@ -396,21 +400,25 @@ color:#94a3b8;
 
 .trust-bar span::before{
 content:"✓";
-color:#22c55e;
+color:#3b82f6;
 font-weight:900;
-text-shadow:0 0 16px rgba(34,197,94,0.3);
+text-shadow:0 0 16px rgba(37,99,235,0.3);
 }
 
 .quick-answer{
-background:linear-gradient(180deg,rgba(15,23,42,.92),rgba(2,6,23,.98));
-border:1px solid rgba(255,255,255,.08);
+background:rgba(7,19,39,.8);
+border:1px solid rgba(255,255,255,.06);
 border-radius:24px;
 padding:28px 32px;
 margin-top:24px;
 box-shadow:0 20px 60px rgba(0,0,0,.4);
-position:relative;
-z-index:2;
 backdrop-filter:blur(4px);
+transition:border-color 0.3s, box-shadow 0.3s;
+}
+
+.quick-answer:hover{
+border-color:rgba(37,99,235,.3);
+box-shadow:0 8px 40px rgba(0,0,0,.3);
 }
 
 .quick-answer h2{
@@ -428,6 +436,7 @@ line-height:1.9;
 
 .section{
 padding:50px 0;
+border-top:1px solid rgba(255,255,255,.05);
 }
 
 .section h2{
@@ -436,7 +445,7 @@ font-weight:900;
 letter-spacing:-.04em;
 margin-bottom:18px;
 color:white;
-text-shadow:0 0 30px rgba(34,197,94,0.1);
+text-shadow:0 0 30px rgba(37,99,235,0.08);
 }
 
 .section p{
@@ -454,37 +463,16 @@ margin-top:32px;
 }
 
 .card{
-background:linear-gradient(180deg,rgba(15,23,42,.9),rgba(2,6,23,.95));
-border:1px solid rgba(255,255,255,.08);
+background:rgba(7,19,39,.8);
+border:1px solid rgba(255,255,255,.06);
 border-radius:22px;
 padding:26px 28px;
 transition:transform 0.3s, border-color 0.3s, box-shadow 0.3s;
-position:relative;
-overflow:hidden;
-}
-
-.card::before{
-content:'';
-position:absolute;
-inset:0;
-border-radius:22px;
-padding:1px;
-background:linear-gradient(135deg,rgba(34,197,94,0.2),transparent 60%,rgba(22,163,74,0.2));
--webkit-mask:linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
--webkit-mask-composite:xor;
-mask-composite:exclude;
-pointer-events:none;
-opacity:0;
-transition:opacity 0.4s;
-}
-
-.card:hover::before{
-opacity:1;
 }
 
 .card:hover{
 transform:translateY(-4px);
-border-color:rgba(34,197,94,.3);
+border-color:rgba(37,99,235,.3);
 box-shadow:0 12px 40px rgba(0,0,0,.4);
 }
 
@@ -523,13 +511,18 @@ font-size:1rem;
 }
 
 .scan-panel{
-background:linear-gradient(180deg,rgba(15,23,42,.95),rgba(2,6,23,.99));
-border:1px solid rgba(255,255,255,.08);
+background:rgba(7,19,39,.8);
+border:1px solid rgba(255,255,255,.06);
 border-radius:24px;
 padding:30px 32px;
 margin:48px 0;
 box-shadow:0 30px 80px rgba(0,0,0,.45);
 backdrop-filter:blur(4px);
+transition:border-color 0.3s;
+}
+
+.scan-panel:hover{
+border-color:rgba(37,99,235,.3);
 }
 
 .scan-title{
@@ -537,7 +530,7 @@ font-size:1.2rem;
 font-weight:900;
 margin-bottom:20px;
 color:white;
-text-shadow:0 0 20px rgba(34,197,94,0.1);
+text-shadow:0 0 20px rgba(37,99,235,0.1);
 }
 
 .scan-item{
@@ -616,12 +609,12 @@ border-bottom:none;
 color:white;
 }
 
-/* Negotiation Leverage Section */
+/* ===== NEGOTIATION LEVERAGE ===== */
 .leverage-section{
 margin:40px 0 24px 0;
 padding:32px 32px;
 border-radius:24px;
-background:linear-gradient(135deg, rgba(34,197,94,0.12), rgba(22,163,74,0.12));
+background:linear-gradient(135deg, rgba(37,99,235,0.12), rgba(124,58,237,0.12));
 border:1px solid rgba(255,255,255,.08);
 backdrop-filter:blur(4px);
 }
@@ -632,7 +625,7 @@ font-weight:900;
 color:white;
 margin-bottom:14px;
 letter-spacing:-.02em;
-text-shadow:0 0 30px rgba(34,197,94,0.1);
+text-shadow:0 0 30px rgba(37,99,235,0.1);
 }
 
 .leverage-section p{
@@ -663,7 +656,7 @@ content:"❓";
 font-size:1rem;
 }
 
-/* Privacy Section */
+/* ===== PRIVACY ===== */
 .privacy-section{
 margin:32px 0 16px 0;
 padding:24px 28px;
@@ -703,12 +696,12 @@ gap:6px;
 
 .privacy-bullets span::before{
 content:"✓";
-color:#22c55e;
+color:#3b82f6;
 font-weight:900;
-text-shadow:0 0 16px rgba(34,197,94,0.3);
+text-shadow:0 0 16px rgba(37,99,235,0.3);
 }
 
-/* Checklist */
+/* ===== CHECKLIST ===== */
 .checklist-section{
 margin:32px 0 16px 0;
 padding:28px 28px;
@@ -743,18 +736,19 @@ padding:5px 0;
 
 .checklist-grid span::before{
 content:"✓";
-color:#22c55e;
+color:#3b82f6;
 font-weight:900;
 font-size:1.05rem;
-text-shadow:0 0 16px rgba(34,197,94,0.3);
+text-shadow:0 0 16px rgba(37,99,235,0.3);
 }
 
+/* ===== FAQ ===== */
 .faq{
 margin-top:48px;
 }
 
 .faq-item{
-background:linear-gradient(180deg,rgba(15,23,42,.9),rgba(2,6,23,.95));
+background:rgba(7,19,39,.9);
 border:1px solid rgba(255,255,255,.08);
 padding:24px 28px;
 border-radius:20px;
@@ -763,7 +757,7 @@ transition:border-color 0.3s, box-shadow 0.3s;
 }
 
 .faq-item:hover{
-border-color:rgba(34,197,94,.3);
+border-color:rgba(37,99,235,.3);
 box-shadow:0 8px 30px rgba(0,0,0,.2);
 }
 
@@ -780,6 +774,7 @@ font-size:.95rem;
 line-height:1.9;
 }
 
+/* ===== RELATED LINKS ===== */
 .related-links{
 margin-top:48px;
 padding:28px 28px;
@@ -799,7 +794,7 @@ color:white;
 .related-links a{
 display:block;
 margin-bottom:12px;
-color:#86efac;
+color:#93c5fd;
 font-weight:600;
 transition:color 0.2s;
 }
@@ -808,7 +803,7 @@ transition:color 0.2s;
 color:white;
 }
 
-/* Mid CTA */
+/* ===== MID CTA ===== */
 .mid-cta{
 margin:40px 0;
 padding:32px 28px;
@@ -834,13 +829,14 @@ max-width:700px;
 margin:0 auto 16px;
 }
 
+/* ===== FINAL CTA ===== */
 .cta{
 margin:70px 0;
 padding:70px 40px;
 border-radius:34px;
-background:linear-gradient(135deg,#16a34a,#22c55e);
+background:linear-gradient(135deg,#2563eb,#7c3aed);
 text-align:center;
-box-shadow:0 30px 100px rgba(34,197,94,.3);
+box-shadow:0 30px 100px rgba(37,99,235,.3);
 position:relative;
 overflow:hidden;
 }
@@ -851,7 +847,7 @@ position:absolute;
 inset:-2px;
 z-index:0;
 border-radius:36px;
-background:linear-gradient(135deg,#22c55e,#15803d);
+background:linear-gradient(135deg,#3b82f6,#a855f7);
 filter:blur(30px);
 opacity:0.2;
 animation:pulseGlow 4s infinite alternate;
@@ -879,7 +875,7 @@ text-shadow:0 0 40px rgba(255,255,255,0.05);
 
 .cta p{
 font-size:1.1rem;
-color:#dcfce7;
+color:#dbeafe;
 margin-bottom:30px;
 max-width:800px;
 margin-left:auto;
@@ -890,7 +886,7 @@ margin-right:auto;
 display:inline-block;
 padding:20px 42px;
 background:white;
-color:#052e16;
+color:#0f172a;
 font-weight:900;
 border-radius:16px;
 font-size:1rem;
@@ -909,7 +905,7 @@ font-size:.85rem;
 color:rgba(255,255,255,.7);
 }
 
-/* Disclaimer */
+/* ===== DISCLAIMER ===== */
 .disclaimer{
 font-size:.85rem;
 color:#64748b;
@@ -921,6 +917,7 @@ background:rgba(255,255,255,.02);
 border:1px solid rgba(255,255,255,.04);
 }
 
+/* ===== FOOTER ===== */
 footer{
 padding:50px 20px 60px;
 text-align:center;
@@ -948,6 +945,7 @@ transition:color 0.2s;
 color:white;
 }
 
+/* ===== RESPONSIVE ===== */
 @media(max-width:900px){
 
 .hero{
@@ -970,7 +968,7 @@ font-size:1.8rem;
 font-size:1.8rem;
 }
 
-.nav-wrap{
+.nav{
 flex-direction:column;
 align-items:flex-start;
 padding:10px 0;
@@ -987,7 +985,7 @@ font-size:.75rem;
 padding:2px 4px;
 }
 
-.nav-btn{
+.top-button{
 width:100%;
 text-align:center;
 font-size:.7rem !important;
@@ -1093,38 +1091,38 @@ font-size:.65rem;
 padding:6px 12px;
 }
 
-.primary-btn{
+.cta-button{
 padding:14px 24px;
 font-size:.9rem;
 }
 }
 </style>
 
+<!-- Load nav.js (cache-busted) -->
+<script>
+    (function() {
+        const script = document.createElement('script');
+        script.src = '/nav.js?v=' + Date.now();
+        document.head.appendChild(script);
+    })();
+</script>
+
 </head>
 
 <body>
 
-<!-- ===== NAVIGATION (UPDATED WITH AI CONTRACT TOOL) ===== -->
-<nav>
-    <div class="container nav-wrap">
-        <div class="logo">
-            DetectHiddenFees<span>.</span>
-        </div>
-        <div class="nav-links">
-            <a href="/hidden-fees-guides.html">Guides</a>
-            <a href="/hidden-hvac-contractor-fees.html">HVAC Fees</a>
-            <a href="/hidden-home-renovation-fees.html">Renovation Fees</a>
-            <a href="/hidden-bank-overdraft-fees.html" class="active">Bank Fees</a>
-            <a href="/hidden-dealership-financing-fees.html">Auto Financing</a>
-            <a href="/duplicate-medical-billing-charges.html">Medical Billing</a>
-            <a href="/ai-construction-contract-review.html">Contract Review</a>
-            <a href="/ai-contract-review-tool.html">AI Contract Tool</a>
-            <a href="https://hiddenfeeai.com" class="nav-btn">
-                Analyze My Documents
+<!-- ===== NAVIGATION (DYNAMIC – populated by nav.js) ===== -->
+<header class="topbar">
+    <div class="container">
+        <div class="nav">
+            <a href="https://detecthiddenfees.com" class="logo">
+                DetectHiddenFees<span>.</span>
             </a>
+            <!-- This container will be filled by nav.js -->
+            <div class="nav-links" id="navLinks"></div>
         </div>
     </div>
-</nav>
+</header>
 
 <!-- ===== HERO ===== -->
 <section class="hero">
@@ -1141,7 +1139,7 @@ font-size:.9rem;
             Banks frequently generate revenue through overdraft penalties, hidden checking account fees, ATM surcharges, maintenance charges, and deceptive transaction processing practices that consumers often overlook. Understanding these fees is the first step to protecting your money.
         </p>
 
-        <a href="https://hiddenfeeai.com" class="primary-btn">
+        <a href="https://hiddenfeeai.com" class="cta-button">
             Analyze Banking Statements →
         </a>
 
@@ -1340,7 +1338,7 @@ font-size:.9rem;
                 AI analysis helps you identify which charges deserve closer scrutiny, giving you confidence when negotiating with your bank.
             </p>
             <div style="margin-top:16px;">
-                <a href="https://hiddenfeeai.com" class="primary-btn" style="padding:14px 28px; font-size:.95rem;">
+                <a href="https://hiddenfeeai.com" class="cta-button" style="padding:14px 28px; font-size:.95rem;">
                     Get My Banking Fee Analysis — $15
                 </a>
             </div>
@@ -1378,7 +1376,7 @@ font-size:.9rem;
         <div class="mid-cta">
             <h3>Have a Bank Statement You're Not Sure About?</h3>
             <p>Upload your bank statement, transaction history, or account agreement. AI analyzes the charges, identifies hidden fees, overdraft patterns, and potential savings opportunities.</p>
-            <a href="https://hiddenfeeai.com" class="primary-btn" style="padding:14px 28px; font-size:.95rem;">
+            <a href="https://hiddenfeeai.com" class="cta-button" style="padding:14px 28px; font-size:.95rem;">
                 Upload My Bank Statement — $15
             </a>
         </div>
