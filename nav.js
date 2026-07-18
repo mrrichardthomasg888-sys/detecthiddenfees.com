@@ -1,4 +1,4 @@
-// /nav.js — FINAL VERSION: Forces left-aligned nav + big button + footer
+// /nav.js — FINAL: Hardcoded fallback preserved + dynamic updates + left-aligned + big button
 (function() {
 
     // ---- CENTRAL PAGE LIST ----
@@ -14,7 +14,7 @@
         { text: 'Contract AI Software', href: '/contract-review-ai-software.html' }
     ];
 
-    // ---- BUILD TOP NAV ----
+    // ---- BUILD TOP NAV (overwrites hardcoded fallback) ----
     function buildNav() {
         const container = document.querySelector('.nav-links');
         if (!container) return;
@@ -39,14 +39,14 @@
         container.innerHTML = html;
     }
 
-    // ---- INJECT ULTRA-AGGRESSIVE CSS (overrides everything) ----
+    // ---- INJECT CSS (left-aligned + big button) ----
     function injectStyles() {
         if (document.getElementById('nav-system-styles')) return;
 
         const style = document.createElement('style');
         style.id = 'nav-system-styles';
         style.textContent = `
-            /* === NAV CONTAINER – LEFT ALIGNED, OVERRIDE ALL === */
+            /* === NAV – LEFT ALIGNED === */
             .nav {
                 display: flex !important;
                 justify-content: flex-start !important;
@@ -64,7 +64,6 @@
                 justify-content: flex-start !important;
                 min-height: 36px !important;
                 width: auto !important;
-                flex: 1 1 auto !important;
             }
             .nav-links a {
                 color: #cbd5e1 !important;
@@ -77,7 +76,6 @@
                 background: none !important;
                 border: none !important;
                 margin: 0 !important;
-                line-height: 1.4 !important;
             }
             .nav-links a:hover {
                 color: #ffffff !important;
@@ -87,7 +85,7 @@
                 text-shadow: 0 0 20px rgba(59,130,246,0.3) !important;
             }
 
-            /* === BUTTON – BIG, BOLD, VISIBLE === */
+            /* === BIG BUTTON === */
             .top-button {
                 display: inline-block !important;
                 padding: 10px 22px !important;
@@ -103,9 +101,6 @@
                 border: none !important;
                 cursor: pointer !important;
                 line-height: 1.4 !important;
-                margin: 0 !important;
-                letter-spacing: normal !important;
-                text-transform: none !important;
             }
             .top-button:hover {
                 transform: scale(1.04) !important;
@@ -143,7 +138,6 @@
                     width: 100% !important;
                     justify-content: flex-start !important;
                     gap: 4px 8px !important;
-                    flex: 0 1 auto !important;
                 }
                 .nav-links a {
                     font-size: 0.78rem !important;
@@ -183,6 +177,7 @@
         buildFooter();
     }
 
+    // Wait for DOM ready before overriding nav
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', init);
     } else {
