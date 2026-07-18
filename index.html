@@ -264,10 +264,19 @@
             background: linear-gradient(135deg, #3b82f6, #2563eb);
         }
 
+        /* Mobile Action Wrapper Container */
         .mobile-actions {
             display: none;
-            gap: 8px;
+            gap: 10px;
             align-items: center;
+        }
+
+        /* Upfront Pricing Label Next To Mobile CTA Button */
+        .mobile-price-tag {
+            color: #9ca3af;
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: -0.2px;
         }
 
         .mobile-action-btn {
@@ -744,6 +753,7 @@
             }
             .nav-links { display: none; }
             
+            /* Displays pricing metrics elegantly inline alongside mobile cta button to remove layout voids */
             .mobile-actions { 
                 display: flex; 
             }
@@ -754,14 +764,12 @@
                 font-weight: 800;
             }
             
-            /* Structural padding on hero container to ensure elements don't bunch into viewport bottom layout */
             .hero { padding: 32px 0 220px; } 
             .badge { margin-bottom: 24px; }
             
             .hero h1 { font-size: 2.5rem; letter-spacing: -0.04em; }
             .hero-sub { font-size: 1.05rem; line-height: 1.6; margin-bottom: 28px; }
             
-            /* Generous padding below hero buttons creates separation from elements further down */
             .hero-buttons { flex-direction: column; gap: 14px; margin-bottom: 64px; }
             .primary-btn, .secondary-btn { width: 100%; text-align: center; padding: 18px; }
             
@@ -803,14 +811,16 @@
             <div class="nav-links">
                 <a class="active" href="/">Home</a>
                 <a href="/hidden-fees-guides.html">Guides</a>
-                <a href="#" id="pdfDownloadBtn" class="nav-btn">
+                <!-- Clicking this immediately downloads or triggers document review natively -->
+                <a href="/premium-contract-guide.pdf" download="Hidden-Fee-Detection-Guide.pdf" class="nav-btn">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 6px; vertical-align: -2px;"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="12" y1="18" x2="12" y2="12"></line><polyline points="9 15 12 12 15 15"></polyline></svg>Free Guide
                 </a>
                 <a href="https://hiddenfeeai.com" class="nav-btn nav-btn-primary">Analyze My Documents</a>
             </div>
             
-            <!-- Mobile Conversion Layout Header -->
+            <!-- Balanced Mobile Conversion Layout Header -->
             <div class="mobile-actions">
+                <span class="mobile-price-tag">$15</span>
                 <a href="https://hiddenfeeai.com" class="mobile-action-btn primary">Analyze &rarr;</a>
             </div>
         </div>
@@ -1088,33 +1098,5 @@
         </div>
         <a href="https://hiddenfeeai.com" class="sticky-btn">Find Hidden Fees &rarr;</a>
     </div>
-
-<script>
-function triggerDownload(e) {
-    e.preventDefault();
-    var u = '/premium-contract-guide.pdf';
-    var x = new XMLHttpRequest();
-    x.open('GET', u, true);
-    x.responseType = 'blob';
-    x.onload = function() {
-        var b = new Blob([x.response], {type: 'application/octet-stream'});
-        var url = URL.createObjectURL(b);
-        if (navigator.msSaveBlob) {
-            navigator.msSaveBlob(b, 'Hidden-Fee-Detection-Guide.pdf');
-        } else {
-            var a = document.createElement('a');
-            a.href = url;
-            a.download = 'Hidden-Fee-Detection-Guide.pdf';
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
-            setTimeout(function() { URL.revokeObjectURL(url); }, 5000);
-        }
-    };
-    x.send();
-}
-
-if(document.getElementById('pdfDownloadBtn')) document.getElementById('pdfDownloadBtn').onclick = triggerDownload;
-</script>
 </body>
 </html>
