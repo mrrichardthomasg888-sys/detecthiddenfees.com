@@ -205,12 +205,14 @@ flex-shrink:0;
 text-shadow:0 0 30px rgba(37,99,235,0.2);
 }
 
+/* container for dynamic nav – populated by nav.js */
 .nav-links{
 display:flex;
 gap:6px;
 align-items:center;
 flex-wrap:wrap;
 justify-content:flex-end;
+min-height:36px; /* prevents collapse while loading */
 }
 
 .nav-links a{
@@ -890,30 +892,28 @@ font-size:1.8rem;
 }
 </style>
 
+<!-- Load nav.js (cache-busted) -->
+<script>
+    (function() {
+        const script = document.createElement('script');
+        script.src = '/nav.js?v=' + Date.now();
+        document.head.appendChild(script);
+    })();
+</script>
+
 </head>
 
 <body>
 
-<!-- ===== NAVIGATION (UPDATED WITH AI CONTRACT TOOL) ===== -->
+<!-- ===== NAVIGATION (DYNAMIC – populated by nav.js) ===== -->
 <header class="topbar">
     <div class="container">
         <div class="nav">
             <a href="https://detecthiddenfees.com" class="logo">
                 DetectHiddenFees<span style="color:#3b82f6;">.</span>
             </a>
-            <div class="nav-links">
-                <a href="/hidden-fees-guides.html">Guides</a>
-                <a href="/hidden-hvac-contractor-fees.html">HVAC Fees</a>
-                <a href="/hidden-home-renovation-fees.html" class="active">Renovation Fees</a>
-                <a href="/hidden-bank-overdraft-fees.html">Bank Fees</a>
-                <a href="/hidden-dealership-financing-fees.html">Auto Financing</a>
-                <a href="/duplicate-medical-billing-charges.html">Medical Billing</a>
-                <a href="/ai-construction-contract-review.html">Contract Review</a>
-                <a href="/ai-contract-review-tool.html">AI Contract Tool</a>
-                <a href="https://hiddenfeeai.com" class="top-button">
-                    Analyze My Documents
-                </a>
-            </div>
+            <!-- This container will be filled by nav.js -->
+            <div class="nav-links" id="navLinks"></div>
         </div>
     </div>
 </header>
