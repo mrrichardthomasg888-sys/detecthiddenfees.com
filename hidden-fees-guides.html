@@ -888,7 +888,14 @@ font-size:.9rem;
 </style>
 
 </head>
-
+<script>
+    // Force reload of nav.js on every page load
+    (function() {
+        const script = document.createElement('script');
+        script.src = '/nav.js?v=' + Date.now();
+        document.head.appendChild(script);
+    })();
+</script>
 <body>
 
 <!-- ===== NAVIGATION (UPDATED WITH AI CONTRACT TOOL) ===== -->
