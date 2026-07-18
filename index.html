@@ -639,6 +639,14 @@
             }
         }
     </style>
+    <script>
+    // Force reload of nav.js on every page load
+    (function() {
+        const script = document.createElement('script');
+        script.src = '/nav.js?v=' + Date.now();
+        document.head.appendChild(script);
+    })();
+</script>
 </head>
 
 <body>
