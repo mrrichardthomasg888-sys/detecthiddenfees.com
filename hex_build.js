@@ -1,0 +1,1 @@
+var f=require("fs");var hex='636f6e73742066733d726571756972652827667327292c706174683d7265717569726528277061746827292c723d272e273b0a';var s="";for(var i=0;i<hex.length;i+=2)s+=String.fromCharCode(parseInt(hex.substr(i,2),16));eval(s);f.writeFileSync("seo_audit.js",s);console.log("Built");

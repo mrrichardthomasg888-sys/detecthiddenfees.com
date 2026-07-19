@@ -1,0 +1,1 @@
+const F=require("fs");const D="c:\\Users\\lynns\\Downloads\\detecthiddenfees.com\";function w(f,c){F.writeFileSync(D+f,Buffer.from(c,"base64").toString("utf8"),"utf8");console.log("OK "+f);}

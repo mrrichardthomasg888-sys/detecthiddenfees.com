@@ -1,0 +1,139 @@
+================================================================================
+SEO CONTENT AUDIT REPORT: detecthiddenfees.com - Contract Pages Cluster
+================================================================================
+Audited: July 2026
+Pages: 10
+
+================================================================================
+SECTION 1: PAGE INVENTORY - TITLES, H1s, BADGES, PRIMARY KEYWORDS
+================================================================================
+
+ 1. ai-contract-review.html
+    Title: Artificial Intelligence Contract Review: Find Hidden Fees Before You Sign
+    H1: AI Contract Review: Find Every Hidden Fee Before You Sign
+    Badge: ARTIFICIAL INTELLIGENCE CONTRACT REVIEW
+    Keyword: AI contract review
+
+ 2. ai-contract-analysis.html
+    Title: Artificial Intelligence Contract Analysis: Deep Document Review Powered by AI
+    H1: AI Contract Analysis That Actually Understands Your Documents
+    Badge: ARTIFICIAL INTELLIGENCE CONTRACT ANALYSIS
+    Keyword: AI contract analysis
+================================================================================
+SEO CONTENT AUDIT REPORT: detecthiddenfees.com - Contract Pages Cluster
+================================================================================
+Audited: July 2026
+Pages: 10
+
+================================================================================
+SECTION 2: H2 STRUCTURE - DUPLICATE CONTENT IDENTIFICATION
+================================================================================
+
+2a. IDENTICAL H2 STRUCTURE (COPY-PASTE PATTERN) - 4 PAGES
+    Pages: ai-contract-review.html, ai-contract-review-software.html,
+           ai-contract-resource-center.html, contract-risk-analysis.html
+
+    Identical H2 Sequence:
+    1. What Is Artificial Intelligence Contract Review?
+    2. How AI Contract Review Works: A Step-by-Step Breakdown
+    3. What Artificial Intelligence Contract Review Catches
+    4. Real Examples of AI Contract Review Findings
+    5. Why Human Review Alone Isnt Enough
+    6. AI Contract Review for Different Industries
+    7. How to Get Started With AI Contract Review
+    8. Frequently Asked Questions About AI Contract Review
+    SEVERITY: CRITICAL - 100% duplicate body content across 4 URLs.
+
+2b. PARTIAL OVERLAP - Thin Risk Score Pages
+    contract-risk-score.html - only 2 H2 sections, minimal body text
+    ai-contract-risk-score.html - only 2 H2 sections, minimal body text
+
+2c. UNIQUELY DIFFERENTIATED PAGES
+    ai-contract-analysis.html - Eight Dimensions, Technology Behind, Real Results
+    contract-analysis-ai.html - Unique but short content
+    ai-contract-review-tool.html - Tool-focused, sample report preview - BEST
+    contract-review-ai-software.html - Enterprise angle content
+
+================================================================================
+SECTION 3: KEYWORD CANNIBALIZATION ANALYSIS
+================================================================================
+
+GROUP 1: [AI contract review] - Pages 1, 5, 7
+  Pages: ai-contract-review.html, ai-contract-review-software.html,
+         ai-contract-resource-center.html
+  VERDICT: FULL CANNIBALIZATION - All target same keywords with identical body.
+  Page 5 claims buyer guide but is a copy. Page 7 claims hub but is a copy.
+
+GROUP 2: [Contract analysis] - Pages 2, 3
+  VERDICT: PARTIAL CANNIBALIZATION
+
+GROUP 3: [Contract risk] - Pages 8, 9, 10
+  VERDICT: FULL CANNIBALIZATION - Page 8 dupes review body. Pages 9-10 thin.
+
+GROUP 4: [Contract software] - Pages 5, 6
+  VERDICT: FULL CANNIBALIZATION - Only Page 6 has unique enterprise content.
+
+================================================================================
+SECTION 4: FOCUS DIFFERENTIATION PLAN
+================================================================================
+
+GROUP 1: AI Contract Review (1,5,7)
+  ai-contract-review.html - KEEP as flagship.
+  ai-contract-review-software.html - REPURPOSE as buyer guide. [NEEDS PURPOSE]
+  ai-contract-resource-center.html - REPURPOSE as hub. [NEEDS PURPOSE]
+
+GROUP 2: Contract Analysis (2,3)
+  ai-contract-analysis.html - KEEP.
+  contract-analysis-ai.html - EXPAND or 301. [NEEDS PURPOSE]
+
+GROUP 3: Contract Risk (8,9,10)
+  contract-risk-analysis.html - REPURPOSE as methodology. [NEEDS PURPOSE]
+  contract-risk-score.html - KEEP. Expand content.
+  ai-contract-risk-score.html - MERGE or 301. [NEEDS PURPOSE]
+
+GROUP 4: Software (5,6)
+  ai-contract-review-software.html - REPURPOSE as guide. [NEEDS PURPOSE]
+  contract-review-ai-software.html - KEEP. Enterprise focus.
+
+GROUP 5: Tool (4)
+  ai-contract-review-tool.html - KEEP. Best differentiated.
+
+================================================================================
+SECTION 5: PAGES NEEDING UNIQUE PURPOSE
+================================================================================
+
+[CRITICAL] ai-contract-review-software.html - Duplicate. Rewrite as buyer guide.
+[CRITICAL] ai-contract-resource-center.html - Duplicate. Rewrite as hub.
+[HIGH] contract-analysis-ai.html - Thin. Expand or 301.
+[HIGH] contract-risk-analysis.html - Duplicate. Rewrite as risk methodology.
+[HIGH] ai-contract-risk-score.html - Near-identical to risk-score. Merge or 301.
+
+================================================================================
+SECTION 6: FIRST 2 PARAGRAPHS - PATTERNS
+================================================================================
+
+ai-contract-review.html opens: P1 about ML/NLP scanning; P2 about evolution.
+ai-contract-review-software.html - IDENTICAL
+ai-contract-resource-center.html - IDENTICAL
+contract-risk-analysis.html - IDENTICAL
+ai-contract-analysis.html - UNIQUE (Eight Dimensions)
+contract-analysis-ai.html - UNIQUE but short
+ai-contract-review-tool.html - UNIQUE (tool-focused)
+contract-review-ai-software.html - UNIQUE (enterprise)
+contract-risk-score.html - THIN
+ai-contract-risk-score.html - UNIQUE
+
+================================================================================
+SECTION 7: FINDINGS SUMMARY
+================================================================================
+
+1. CANNIBALIZATION: 9 of 10 pages compete with at least one other.
+2. DUPLICATE CONTENT: 4 pages share 100% identical body text.
+3. THIN CONTENT: 2 pages lack depth.
+4. URL MISMATCH: ai-contract-review-software.html named software but is article.
+5. STRONGEST PAGE: ai-contract-review-tool.html - fully unique.
+6. RECOMMENDED: Keep 5, Repurpose 3, Merge/301 2.
+
+================================================================================
+END OF AUDIT REPORT
+================================================================================

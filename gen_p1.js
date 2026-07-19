@@ -1,0 +1,1 @@
+const f=require("fs");const p="c:/Users/lynns/Downloads/detecthiddenfees.com/";f.writeFileSync(p+"test.txt","OK");console.log("WRITE OK");

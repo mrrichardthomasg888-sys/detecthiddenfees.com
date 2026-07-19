@@ -1,0 +1,27 @@
+{
+  "totalUrls": 127,
+  "newUrls": [
+    "/ai-document-intelligence-center.html",
+    "/before-signing-contract-checklist.html",
+    "/hidden-fee-dictionary.html",
+    "/hidden-fee-intelligence-engine.html"
+  ],
+  "alreadyPresent": [
+    "/hidden-fee-statistics.html",
+    "/consumer-fee-trends-report.html",
+    "/types-of-hidden-fees.html",
+    "/ai-transparency-report.html",
+    "/security-overview.html",
+    "/our-evaluation-process.html",
+    "/hidden-fee-knowledge-center.html",
+    "/ai-analysis-hub.html"
+  ],
+  "missingFromFilesystem": [
+    "/",
+    "/before-signing-contract-checklist.html"
+  ],
+  "missingFromSitemap": [
+    "/header.html",
+    "/indexnow-submit.html"
+  ]
+}

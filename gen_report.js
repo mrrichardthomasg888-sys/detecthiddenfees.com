@@ -1,0 +1,1 @@
+const f=require("fs"); const os=require("os"); const E=os.EOL; const l=[]; function a(s){l.push(s);} function w(){f.writeFileSync("audit_contract_pages.txt",l.join(E),"utf8");console.log("OK "+l.length);}

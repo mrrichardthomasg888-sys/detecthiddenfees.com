@@ -1,0 +1,1 @@
+const F2=require("fs");const D="c:\\Users\\lynns\\Downloads\\detecthiddenfees.com\";let H="";function A(s){H+=s;}function W(f){F2.writeFileSync(D+f,H,"utf8");console.log("WROTE "+f+" ("+H.length+"b)");}

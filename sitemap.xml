@@ -1,7 +1,11 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap-style.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://detecthiddenfees.com/</loc><priority>1.0</priority></url>
   <url><loc>https://detecthiddenfees.com/about-detect-hidden-fees.html</loc><priority>0.6</priority></url>
+  <url><loc>https://detecthiddenfees.com/ai-accuracy-and-limitations.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/ai-analysis-hub.html</loc><priority>0.9</priority></url>
   <url><loc>https://detecthiddenfees.com/ai-analysis-methodology.html</loc><priority>0.6</priority></url>
+  <url><loc>https://detecthiddenfees.com/ai-bill-analysis-vs-manual-review.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/ai-bill-analyzer.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/ai-bill-negotiation.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/ai-construction-contract-review.html</loc><priority>0.8</priority></url>
@@ -9,10 +13,14 @@
   <url><loc>https://detecthiddenfees.com/ai-contract-resource-center.html</loc><priority>0.9</priority></url>
   <url><loc>https://detecthiddenfees.com/ai-contract-review-software.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/ai-contract-review-tool.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/ai-contract-review-vs-chatgpt.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/ai-contract-review-vs-lawyer-review.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/ai-contract-review-vs-manual-review.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/ai-contract-review.html</loc><priority>0.9</priority></url>
   <url><loc>https://detecthiddenfees.com/ai-contract-risk-score.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/ai-document-analysis-benefits.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/ai-document-analysis-tools.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/ai-document-intelligence-center.html</loc><priority>0.9</priority></url>
   <url><loc>https://detecthiddenfees.com/ai-estimate-review.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/ai-invoice-analyzer.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/ai-lease-review.html</loc><priority>0.8</priority></url>
@@ -20,32 +28,64 @@
   <url><loc>https://detecthiddenfees.com/ai-quote-review.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/ai-receipt-analyzer.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/ai-service-contract-review.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/ai-transparency-report.html</loc><priority>0.6</priority></url>
+  <url><loc>https://detecthiddenfees.com/analyze-my-bill.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/analyze-my-contract.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/analyze-my-estimate.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/analyze-my-invoice.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/before-signing-contract-checklist.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/best-ai-bill-analyzer-tools.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/best-ai-contract-analysis-tools.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/bill-negotiation-letter.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/bill-negotiation-resource-center.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/bill-negotiation-service.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/bill-negotiation-templates.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/bill-savings-calculator.html</loc><priority>0.6</priority></url>
+  <url><loc>https://detecthiddenfees.com/business-contract-review.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/change-order-fees.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/check-my-fees.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/consumer-fee-trends-report.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/consumer-financial-intelligence-center.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/consumer-negotiation-academy.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/consumer-negotiation-resource-center.html</loc><priority>0.9</priority></url>
   <url><loc>https://detecthiddenfees.com/contract-analysis-ai.html</loc><priority>0.9</priority></url>
   <url><loc>https://detecthiddenfees.com/contract-fee-analysis.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/contract-negotiation-assistant.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/contract-red-flags.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/contract-review-ai-software.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/contract-review-checklist.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/contract-risk-analysis.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/contract-risk-assessment-guide.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/contract-risk-score.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/contract-terms-glossary.html</loc><priority>0.6</priority></url>
+  <url><loc>https://detecthiddenfees.com/data-handling-policy.html</loc><priority>0.6</priority></url>
   <url><loc>https://detecthiddenfees.com/duplicate-medical-billing-charges.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/editorial-methodology.html</loc><priority>0.6</priority></url>
   <url><loc>https://detecthiddenfees.com/editorial-policy.html</loc><priority>0.6</priority></url>
+  <url><loc>https://detecthiddenfees.com/estimate-vs-quote.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/fee-negotiation-checklist.html</loc><priority>0.6</priority></url>
+  <url><loc>https://detecthiddenfees.com/fee-removal-request-template.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/free-ai-contract-review-vs-paid-review.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/free-vs-paid-contract-review.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/hidden-bank-overdraft-fees.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/hidden-billing-fees.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/hidden-contract-fees.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/hidden-credit-card-fees.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/hidden-dealership-financing-fees.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/hidden-electrician-fees.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/hidden-fee-calculator.html</loc><priority>0.6</priority></url>
   <url><loc>https://detecthiddenfees.com/hidden-fee-database.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/hidden-fee-dictionary.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/hidden-fee-examples.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/hidden-fee-glossary.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/hidden-fee-index.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/hidden-fee-intelligence-center.html</loc><priority>0.9</priority></url>
+  <url><loc>https://detecthiddenfees.com/hidden-fee-intelligence-engine.html</loc><priority>0.9</priority></url>
+  <url><loc>https://detecthiddenfees.com/hidden-fee-knowledge-center.html</loc><priority>0.9</priority></url>
+  <url><loc>https://detecthiddenfees.com/hidden-fee-prevention-guide.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/hidden-fee-reports.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/hidden-fee-risk-score.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/hidden-fee-statistics.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/hidden-fees-guides.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/hidden-fees-resource-center.html</loc><priority>0.9</priority></url>
   <url><loc>https://detecthiddenfees.com/hidden-home-renovation-fees.html</loc><priority>0.8</priority></url>
@@ -62,20 +102,29 @@
   <url><loc>https://detecthiddenfees.com/hidden-streaming-fees.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/hidden-subscription-fees.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/hiddenfeeai-vs-bill-negotiation-services.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/hiddenfeeai-vs-traditional-negotiation.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/hospital-bill-negotiation-guide.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/how-detect-hidden-fees-works.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/how-to-negotiate-medical-bills.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/how-to-read-an-invoice.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/how-to-reduce-medical-bills.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/how-to-review-a-contract.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/how-we-analyze-contracts.html</loc><priority>0.8</priority></url>
-  <url><loc>https://detecthiddenfees.com/</loc><priority>1.0</priority></url>
   <url><loc>https://detecthiddenfees.com/index.html</loc><priority>0.9</priority></url>
+  <url><loc>https://detecthiddenfees.com/invoice-red-flags.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/medical-bill-audit.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/medical-bill-error-checklist.html</loc><priority>0.6</priority></url>
+  <url><loc>https://detecthiddenfees.com/medical-bill-negotiation-template.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/medical-debt-negotiation.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/medical-debt-relief-options.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/negotiate-bills.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/negotiate-hospital-bill.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/negotiation-scripts.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/our-evaluation-process.html</loc><priority>0.6</priority></url>
+  <url><loc>https://detecthiddenfees.com/privacy-and-ai-security.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/reduce-monthly-bills.html</loc><priority>0.8</priority></url>
   <url><loc>https://detecthiddenfees.com/research-methodology.html</loc><priority>0.6</priority></url>
-  <url><loc>https://detecthiddenfees.com/hidden-fee-intelligence-center.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/consumer-negotiation-academy.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/hidden-fee-glossary.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/hidden-fee-risk-score.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/hidden-fee-reports.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/hidden-fee-examples.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/hidden-fee-prevention-guide.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/contract-red-flags.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/hidden-contract-fees.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/contract-review-checklist.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/contract-risk-assessment-guide.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/business-contract-review.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/bill-negotiation-templates.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/negotiation-scripts.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/fee-removal-request-template.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/medical-bill-negotiation-template.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/how-to-read-an-invoice.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/invoice-red-flags.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/estimate-vs-quote.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/service-agreement-red-flags.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/change-order-fees.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/ai-accuracy-and-limitations.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/ai-bill-analysis-vs-manual-review.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/ai-contract-review-vs-chatgpt.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/ai-document-analysis-benefits.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/data-handling-policy.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/free-ai-contract-review-vs-paid-review.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/hiddenfeeai-vs-traditional-negotiation.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/privacy-and-ai-security.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/consumer-financial-intelligence-center.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/analyze-my-contract.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/analyze-my-bill.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/analyze-my-invoice.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/analyze-my-estimate.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/check-my-fees.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/hidden-fee-index.html</loc><priority>0.8</priority></url>\n  <url><loc>https://detecthiddenfees.com/ai-document-analysis-tools.html</loc><priority>0.8</priority></url>\n</urlset>
+  <url><loc>https://detecthiddenfees.com/security-overview.html</loc><priority>0.6</priority></url>
+  <url><loc>https://detecthiddenfees.com/service-agreement-red-flags.html</loc><priority>0.8</priority></url>
+  <url><loc>https://detecthiddenfees.com/types-of-hidden-fees.html</loc><priority>0.9</priority></url>
+</urlset>

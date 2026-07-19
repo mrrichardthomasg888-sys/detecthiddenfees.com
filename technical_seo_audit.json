@@ -1,0 +1,670 @@
+{
+  "totalPages": 138,
+  "missingCanonical": [
+    "/alphabet-links",
+    "/final",
+    "/hdr",
+    "/header",
+    "/headpart",
+    "/hidden-fee-dictionary",
+    "/indexnow-submit",
+    "/out0",
+    "/out1",
+    "/part1",
+    "/term-items",
+    "/test_mini",
+    "/test_out"
+  ],
+  "duplicateTitles": [],
+  "duplicateDescriptions": [],
+  "missingOG": [
+    {
+      "url": "/about-detect-hidden-fees",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/ai-accuracy-and-limitations",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/ai-analysis-methodology",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/ai-bill-analysis-vs-manual-review",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/ai-bill-analyzer",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/ai-bill-negotiation",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/ai-contract-analysis",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/ai-contract-review-vs-chatgpt",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/ai-contract-review-vs-lawyer-review",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/ai-contract-risk-score",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/ai-document-analysis-benefits",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/ai-document-analysis-tools",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/ai-estimate-review",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/ai-invoice-analyzer",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/ai-quote-review",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/ai-receipt-analyzer",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/alphabet-links",
+      "missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:type"
+      ]
+    },
+    {
+      "url": "/analyze-my-bill",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/analyze-my-contract",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/analyze-my-estimate",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/analyze-my-invoice",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/best-ai-bill-analyzer-tools",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/bill-negotiation-letter",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/bill-negotiation-resource-center",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/bill-negotiation-service",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/bill-negotiation-templates",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/bill-savings-calculator",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/business-contract-review",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/change-order-fees",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/check-my-fees",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/consumer-financial-intelligence-center",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/consumer-negotiation-academy",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/consumer-negotiation-resource-center",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/contract-analysis-ai",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/contract-red-flags",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/contract-review-checklist",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/contract-risk-assessment-guide",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/contract-risk-score",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/data-handling-policy",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/editorial-policy",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/estimate-vs-quote",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/fee-negotiation-checklist",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/fee-removal-request-template",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/final",
+      "missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:type"
+      ]
+    },
+    {
+      "url": "/free-ai-contract-review-vs-paid-review",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/free-vs-paid-contract-review",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/hdr",
+      "missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:type"
+      ]
+    },
+    {
+      "url": "/header",
+      "missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:type"
+      ]
+    },
+    {
+      "url": "/headpart",
+      "missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:type"
+      ]
+    },
+    {
+      "url": "/hidden-billing-fees",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/hidden-contract-fees",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/hidden-credit-card-fees",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/hidden-electrician-fees",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/hidden-fee-calculator",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/hidden-fee-database",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/hidden-fee-dictionary",
+      "missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:type"
+      ]
+    },
+    {
+      "url": "/hidden-fee-examples",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/hidden-fee-glossary",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/hidden-fee-index",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/hidden-fee-intelligence-center",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/hidden-fee-prevention-guide",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/hidden-fee-reports",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/hidden-fee-risk-score",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/hidden-fees-resource-center",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/hidden-internet-fees",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/hidden-investment-fees",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/hidden-landscaping-fees",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/hidden-loan-fees",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/hidden-mortgage-fees",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/hidden-moving-company-fees",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/hidden-phone-bill-fees",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/hidden-plumbing-fees",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/hidden-roofing-contractor-fees",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/hidden-streaming-fees",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/hidden-subscription-fees",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/hiddenfeeai-vs-bill-negotiation-services",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/hiddenfeeai-vs-traditional-negotiation",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/hospital-bill-negotiation-guide",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/how-detect-hidden-fees-works",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/how-to-negotiate-medical-bills",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/how-to-read-an-invoice",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/indexnow-submit",
+      "missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:type"
+      ]
+    },
+    {
+      "url": "/invoice-red-flags",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/medical-bill-audit",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/medical-bill-error-checklist",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/medical-bill-negotiation-template",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/medical-debt-relief-options",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/negotiate-bills",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/negotiation-scripts",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/out0",
+      "missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:type"
+      ]
+    },
+    {
+      "url": "/out1",
+      "missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:type"
+      ]
+    },
+    {
+      "url": "/part1",
+      "missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:type"
+      ]
+    },
+    {
+      "url": "/privacy-and-ai-security",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/reduce-monthly-bills",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/research-methodology",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/service-agreement-red-flags",
+      "missing": [
+        "og:url"
+      ]
+    },
+    {
+      "url": "/term-items",
+      "missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:type"
+      ]
+    },
+    {
+      "url": "/test_mini",
+      "missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:type"
+      ]
+    },
+    {
+      "url": "/test_out",
+      "missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:type"
+      ]
+    }
+  ],
+  "missingH1": [
+    "/alphabet-links",
+    "/final",
+    "/hdr",
+    "/header",
+    "/headpart",
+    "/hidden-fee-dictionary",
+    "/out0",
+    "/out1",
+    "/term-items"
+  ],
+  "duplicateH1": [],
+  "pagesWithIssues": 99,
+  "robotsValid": true,
+  "imagesWithoutAlt": []
+}

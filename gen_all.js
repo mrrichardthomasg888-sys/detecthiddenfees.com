@@ -1,0 +1,1 @@
+const fs2=require("fs");const base="c:/Users/lynns/Downloads/detecthiddenfees.com/";console.log("SCRIPT READY");

@@ -1,0 +1,1 @@
+var f=require("fs"),p=require("path"),r=".",h=[];function w(d){try{var e=f.readdirSync(d,{withFileTypes:1});for(var v of e){var n=p.join(d,v.name);if(v.isDirectory()){if(v.name!="node_modules")w(n)}else if(v.isFile()&&v.name.endsWith(".html"))h.push(n)}}catch(z){}}w(r);console.log(h.length);
