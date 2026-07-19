@@ -1,0 +1,1 @@
+const fs=require('fs');const tmpl=fs.readFileSync('hidden-contract-fees.html','utf8');const s=tmpl.indexOf('<style>');const e=tmpl.indexOf('</style>');const style=tmpl.substring(s+7,e);fs.writeFileSync('_style.txt',style);console.log('Style extracted: '+style.length);

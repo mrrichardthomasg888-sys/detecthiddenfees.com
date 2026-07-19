@@ -1,0 +1,1 @@
+const fs=require("fs");\nconst OG=fs.readFileSync("hidden-contract-fees.html","utf8");\n

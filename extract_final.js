@@ -1,0 +1,1 @@
+const fs=require('fs');const t=fs.readFileSync('hidden-contract-fees.html','utf8');const idx=t.lastIndexOf('<script>');const i2=t.indexOf('</script>',idx)+9;const scr=t.substring(idx,i2);fs.writeFileSync('_script.txt',scr);const hEnd=t.indexOf('</head>');const head=t.substring(0,hEnd);fs.writeFileSync('_head.txt',head);console.log('Script length: '+scr.length);
