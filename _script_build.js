@@ -1,0 +1,1 @@
+require("./build_pages_script.js");

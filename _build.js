@@ -1,1 +1,1 @@
-const fs=require("fs");const b="c:\\Users\\lynns\\Downloads\\detecthiddenfees.com\";let h="";function a(s){h+=s;}function w(f){fs.writeFileSync(b+f,h,"utf8");console.log("WROTE "+f+" ("+h.length+"b)");}
+const fs=require("fs");const D=JSON.parse(fs.readFileSync("_fulldata2.json","utf8"));const{fc,nav,footer,sb,pdf}=D;console.log("Data loaded. FC:"+fc.length);

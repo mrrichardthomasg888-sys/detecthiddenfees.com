@@ -1,0 +1,1 @@
+var f=require("fs"),V=JSON.parse(f.readFileSync("_fulldata2.json","utf8")),a1=f.readFileSync("_p1_full_article.txt","utf8"),a2=f.readFileSync("_p2_full_article.txt","utf8"),a3=f.readFileSync("_p3_full_article.txt","utf8");var W=function(n,c){f.writeFileSync(n,c);console.log(n+" "+c.length);};

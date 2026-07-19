@@ -1,1 +1,1 @@
-const f=require("fs");const p="c:/Users/lynns/Downloads/detecthiddenfees.com/";f.writeFileSync(p+"test.txt","OK");console.log("WRITE OK");
+const fs=require("fs");\nconst D=JSON.parse(fs.readFileSync("_fulldata.json","utf8"));\nconst{fc}=D;\nconsole.log("Loaded, FC:"+fc.length);\nconst schema1={"@context":"https://schema.org","@type":"Article","headline":"AI Bill Analyzer vs ChatGPT"};\nconsole.log("ready");

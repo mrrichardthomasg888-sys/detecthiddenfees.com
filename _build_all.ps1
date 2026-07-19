@@ -1,0 +1,1 @@
+# Build all 3 pages`nfunction wp($n,$c){[System.IO.File]::WriteAllText((Join-Path (Get-Location) $n),$c,[System.Text.UTF8Encoding]::new($false));Write-Host ("$n -> "+$c.Length)}`nWrite-Host `Building page 1...``r`n

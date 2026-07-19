@@ -1,0 +1,1 @@
+var f=require("fs"),p=require("path");var d="c:\\Users\\lynns\\Downloads\\detecthiddenfees.com";function w(n,x){f.writeFileSync(p.join(d,n),x,"utf8");console.log(n+" - "+x.length+" chars");}

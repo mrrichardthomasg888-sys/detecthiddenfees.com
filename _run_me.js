@@ -1,0 +1,1 @@
+const f=require("fs"),p=require("path"),d=process.cwd();const D=f.readFileSync(p.join(d,"_fulldata2.json"),"utf8");const V=JSON.parse(D);const a1=f.readFileSync(p.join(d,"_p1_full_article.txt"),"utf8");const a2=f.readFileSync(p.join(d,"_p2_full_article.txt"),"utf8");const a3=f.readFileSync(p.join(d,"_p3_full_article.txt"),"utf8");

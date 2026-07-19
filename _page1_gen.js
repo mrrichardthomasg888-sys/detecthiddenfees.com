@@ -1,0 +1,1 @@
+var f=require("fs"),p=require("path");var d="c:\\Users\\lynns\\Downloads\\detecthiddenfees.com";var css=f.readFileSync(p.join(d,"_css_complete.txt"),"utf8");var comp=JSON.parse(f.readFileSync(p.join(d,"_components.json"),"utf8"));

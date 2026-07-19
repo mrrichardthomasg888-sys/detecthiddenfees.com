@@ -1,1 +1,1 @@
-const fs=require("fs");const p=__dirname;function w(f,c){fs.writeFileSync(p+"/"+f,c,"utf8");console.log("OK "+f);}
+const fs=require('fs'),path=require('path'); const baseDir='c:\\Users\\lynns\\Downloads\\detecthiddenfees.com'; console.log('base ok');

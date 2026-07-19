@@ -1,0 +1,12 @@
+const f=require("fs"),p=require("path"),d=process.cwd();
+const css=f.readFileSync(p.join(d,"_css_complete.txt"),"utf8");
+const ref=f.readFileSync(p.join(d,"hidden-fee-examples.html"),"utf8");
+const nav=ref.match(/<nav[\\s\\S]*?<\\/nav>/)[0];
+const foot=ref.match(/<footer[\\s\\S]*?<\\/footer>/)[0];
+const sticky=ref.match(/<div class="sticky-cta-bar"[\\s\\S]*?<\\/div>/)[0];
+const scripts=ref.match(/<script>[\\s\\S]*?<\\/script>/g);
+const pdfScr=scripts[scripts.length-1];
+const a1=f.readFileSync(p.join(d,"_p1_full_article.txt"),"utf8");
+const a2=f.readFileSync(p.join(d,"_p2_full_article.txt"),"utf8");
+const a3=f.readFileSync(p.join(d,"_p3_full_article.txt"),"utf8");
+console.log("Loaded: css="+css.length+" nav="+nav.length);

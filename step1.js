@@ -1,0 +1,1 @@
+const comps=JSON.parse(fs.readFileSync("_comps.json","utf8"));const{css,nav,footer,sticky,pdf}=comps;console.log("Loaded components");
