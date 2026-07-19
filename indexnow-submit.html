@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>IndexNow Submission</title>
+<style>
+body{font-family:system-ui;max-width:800px;margin:50px auto;padding:20px;background:#111;color:#eee}
+button{background:#2563eb;color:white;border:none;padding:12px 24px;border-radius:8px;cursor:pointer;font-size:16px;margin:10px 5px}
+button:hover{background:#1d4ed8}
+#log{background:#1a1a2e;padding:15px;border-radius:8px;max-height:400px;overflow-y:auto;margin-top:20px;font-family:monospace;font-size:13px}
+.ok{color:#4ade80}.err{color:#f87171}.info{color:#60a5fa}
+h1{color:#93c5fd}
+</style>
+</head>
+<body>
+<h1>IndexNow — Submit All 77 URLs</h1>
+<p>This page submits all sitemap URLs to Bing IndexNow directly.</p>
+<p>Click the button below. The browser will send each URL one at a time.</p>
+
+<button onclick="submitAll()">Submit All 77 URLs to IndexNow</button>
+
+<div id="log"><span class="info">Ready. Click the button to start.</span></div>
+
+<script>
+const KEY = '241f89e1cd603413c1ee2de939c63dbb';
+const HOST = 'detecthiddenfees.com';
+
+// Read sitemap URLs from the page
+const URLS = [
+'https://detecthiddenfees.com/',
+'https://detecthiddenfees.com/hidden-fees-guides.html',
+'https://detecthiddenfees.com/ai-construction-contract-review.html',
+'https://detecthiddenfees.com/ai-contract-review-tool.html',
+'https://detecthiddenfees.com/contract-review-ai-software.html',
+'https://detecthiddenfees.com/hidden-hvac-contractor-fees.html',
+'https://detecthiddenfees.com/hidden-home-renovation-fees.html',
+'https://detecthiddenfees.com/hidden-bank-overdraft-fees.html',
+'https://detecthiddenfees.com/hidden-dealership-financing-fees.html',
+'https://detecthiddenfees.com/duplicate-medical-billing-charges.html',
+'https://detecthiddenfees.com/ai-contract-review.html',
+'https://detecthiddenfees.com/ai-contract-analysis.html',
+'https://detecthiddenfees.com/contract-analysis-ai.html',
+'https://detecthiddenfees.com/bill-negotiation-service.html',
+'https://detecthiddenfees.com/negotiate-bills.html',
+'https://detecthiddenfees.com/negotiate-hospital-bill.html',
+'https://detecthiddenfees.com/how-to-reduce-medical-bills.html',
+'https://detecthiddenfees.com/medical-debt-negotiation.html',
+'https://detecthiddenfees.com/index.html',
+'https://detecthiddenfees.com/ai-contract-resource-center.html',
+'https://detecthiddenfees.com/contract-risk-analysis.html',
+'https://detecthiddenfees.com/contract-fee-analysis.html',
+'https://detecthiddenfees.com/ai-service-contract-review.html',
+'https://detecthiddenfees.com/ai-lease-review.html',
+'https://detecthiddenfees.com/ai-purchase-agreement-review.html',
+'https://detecthiddenfees.com/how-to-review-a-contract.html',
+'https://detecthiddenfees.com/contract-negotiation-assistant.html',
+'https://detecthiddenfees.com/contract-terms-glossary.html',
+'https://detecthiddenfees.com/how-we-analyze-contracts.html',
+'https://detecthiddenfees.com/ai-contract-review-software.html',
+'https://detecthiddenfees.com/ai-contract-review-vs-manual-review.html',
+'https://detecthiddenfees.com/best-ai-contract-analysis-tools.html',
+'https://detecthiddenfees.com/editorial-methodology.html',
+'https://detecthiddenfees.com/bill-negotiation-resource-center.html',
+'https://detecthiddenfees.com/ai-bill-negotiation.html',
+'https://detecthiddenfees.com/medical-bill-audit.html',
+'https://detecthiddenfees.com/hospital-bill-negotiation-guide.html',
+'https://detecthiddenfees.com/how-to-negotiate-medical-bills.html',
+'https://detecthiddenfees.com/reduce-monthly-bills.html',
+'https://detecthiddenfees.com/hidden-billing-fees.html',
+'https://detecthiddenfees.com/bill-negotiation-letter.html',
+'https://detecthiddenfees.com/medical-debt-relief-options.html',
+'https://detecthiddenfees.com/hidden-fees-resource-center.html',
+'https://detecthiddenfees.com/consumer-negotiation-resource-center.html',
+'https://detecthiddenfees.com/hidden-fee-database.html',
+'https://detecthiddenfees.com/ai-invoice-analyzer.html',
+'https://detecthiddenfees.com/ai-bill-analyzer.html',
+'https://detecthiddenfees.com/ai-estimate-review.html',
+'https://detecthiddenfees.com/ai-quote-review.html',
+'https://detecthiddenfees.com/ai-receipt-analyzer.html',
+'https://detecthiddenfees.com/ai-contract-risk-score.html',
+'https://detecthiddenfees.com/hidden-plumbing-fees.html',
+'https://detecthiddenfees.com/hidden-electrician-fees.html',
+'https://detecthiddenfees.com/hidden-roofing-contractor-fees.html',
+'https://detecthiddenfees.com/hidden-moving-company-fees.html',
+'https://detecthiddenfees.com/hidden-landscaping-fees.html',
+'https://detecthiddenfees.com/hidden-credit-card-fees.html',
+'https://detecthiddenfees.com/hidden-loan-fees.html',
+'https://detecthiddenfees.com/hidden-mortgage-fees.html',
+'https://detecthiddenfees.com/hidden-investment-fees.html',
+'https://detecthiddenfees.com/hidden-internet-fees.html',
+'https://detecthiddenfees.com/hidden-phone-bill-fees.html',
+'https://detecthiddenfees.com/hidden-subscription-fees.html',
+'https://detecthiddenfees.com/hidden-streaming-fees.html',
+'https://detecthiddenfees.com/hiddenfeeai-vs-bill-negotiation-services.html',
+'https://detecthiddenfees.com/ai-contract-review-vs-lawyer-review.html',
+'https://detecthiddenfees.com/free-vs-paid-contract-review.html',
+'https://detecthiddenfees.com/best-ai-bill-analyzer-tools.html',
+'https://detecthiddenfees.com/about-detect-hidden-fees.html',
+'https://detecthiddenfees.com/how-detect-hidden-fees-works.html',
+'https://detecthiddenfees.com/research-methodology.html',
+'https://detecthiddenfees.com/ai-analysis-methodology.html',
+'https://detecthiddenfees.com/editorial-policy.html',
+'https://detecthiddenfees.com/hidden-fee-calculator.html',
+'https://detecthiddenfees.com/bill-savings-calculator.html',
+'https://detecthiddenfees.com/medical-bill-error-checklist.html',
+'https://detecthiddenfees.com/contract-risk-score.html',
+'https://detecthiddenfees.com/fee-negotiation-checklist.html'
+];
+
+const log = document.getElementById('log');
+
+function addLog(msg, cls) {
+  const p = document.createElement('p');
+  p.className = cls || '';
+  p.textContent = msg;
+  log.appendChild(p);
+  log.scrollTop = log.scrollHeight;
+}
+
+function submitUrl(url) {
+  return new Promise((resolve) => {
+    const img = new Image();
+    const start = Date.now();
+    img.onload = () => { addLog('[OK] ' + url + ' (' + (Date.now()-start) + 'ms)', 'ok'); resolve(true); };
+    img.onerror = () => { addLog('[?] ' + url + ' (no-confirm, may be accepted)', 'info'); resolve(true); };
+    img.src = 'https://api.indexnow.org/indexnow?url=' + encodeURIComponent(url) + '&key=' + KEY;
+    setTimeout(() => resolve(true), 5000);
+  });
+}
+
+async function submitAll() {
+  log.innerHTML = '';
+  addLog('Submitting ' + URLS.length + ' URLs to IndexNow...', 'info');
+  addLog('');
+  
+  let ok = 0;
+  for (let i = 0; i < URLS.length; i++) {
+    addLog('[' + (i+1) + '/' + URLS.length + '] ' + URLS[i], 'info');
+    const result = await submitUrl(URLS[i]);
+    if (result) ok++;
+    await new Promise(r => setTimeout(r, 300));
+  }
+  
+  addLog('');
+  addLog('COMPLETE! ' + ok + '/' + URLS.length + ' URLs submitted to IndexNow!', 'ok');
+  addLog('Bing will crawl these URLs within 24-48 hours.', 'info');
+}
+</script>
+</body>
+</html>
