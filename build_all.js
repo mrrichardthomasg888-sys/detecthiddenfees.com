@@ -1,1 +1,14 @@
-var f=require("fs");
+const fs = require('fs');
+const style = fs.readFileSync('_style.txt','utf8');
+const nav = fs.readFileSync('_nav.txt','utf8');
+const hero = fs.readFileSync('_hero.txt','utf8');
+const lev1 = fs.readFileSync('_lev1.txt','utf8');
+const lev2 = fs.readFileSync('_lev2.txt','utf8');
+const cta = fs.readFileSync('_cta.txt','utf8');
+const footer = fs.readFileSync('_footer.txt','utf8');
+const sticky = fs.readFileSync('_sticky.txt','utf8');
+const orb = fs.readFileSync('_orb.txt','utf8');
+const scr = fs.readFileSync('_script.txt','utf8');
+const head = fs.readFileSync('_head.txt','utf8');
+console.log('All template parts loaded - ' + style.length + ' style chars');
+console.log('Ready to build 6 files');

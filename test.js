@@ -1,1 +1,1 @@
-﻿console.log('hello');
+const fs=require('fs');const o=fs.readFileSync('hidden-contract-fees.html','utf8');console.log('OK len='+o.length);
