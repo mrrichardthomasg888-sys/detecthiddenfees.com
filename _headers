@@ -1,4 +1,12 @@
-https://detecthiddenfees.com/indexnow-key.txt
+/indexnow-key.txt
   Access-Control-Allow-Origin: *
   Cache-Control: public, max-age=0, must-revalidate
   Content-Type: text/plain; charset=utf-8
+
+/sitemap.xml
+  Access-Control-Allow-Origin: *
+  Content-Type: application/xml
+
+/robots.txt
+  Access-Control-Allow-Origin: *
+  Content-Type: text/plain
