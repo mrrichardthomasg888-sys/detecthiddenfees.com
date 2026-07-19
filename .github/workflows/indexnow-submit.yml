@@ -1,0 +1,59 @@
+name: IndexNow URL Submission
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'sitemap.xml'
+      - '*.html'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Submission mode'
+        required: true
+        default: 'incremental'
+        type: choice
+        options:
+          - incremental
+          - all
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install https
+
+      - name: Check for new/modified files
+        id: changed
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.mode }}" = "all" ]; then
+            echo "mode=all" >> $GITHUB_OUTPUT
+          else
+            echo "mode=incremental" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Submit URLs to IndexNow
+        run: |
+          if [ "${{ steps.changed.outputs.mode }}" = "all" ]; then
+            node scripts/indexnow.js --all
+          else
+            node scripts/indexnow.js
+          fi
+
+      - name: Upload IndexNow log as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: indexnow-log
+          path: indexnow-log.json
+          retention-days: 7
