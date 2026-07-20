@@ -226,13 +226,26 @@
         }
 
         /* ===== ENTRANCE ANIMATIONS ===== */
-        @keyframes fadeUp {
+            @keyframes fadeUp {
             0% { opacity: 0; transform: translateY(40px); }
             100% { opacity: 1; transform: translateY(0); }
         }
         @keyframes fadeIn {
             0% { opacity: 0; }
             100% { opacity: 1; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
+            }
+            .badge, .hero h1, .hero-sub, .hero-trust, .hero-buttons, .card {
+                opacity: 1 !important;
+                transform: none !important;
+            }
         }
         @keyframes glowPulse {
             0%, 100% { box-shadow: 0 0 20px rgba(37,99,235,0.3), 0 0 40px rgba(37,99,235,0.1); }
@@ -396,8 +409,9 @@
             letter-spacing: -.08em;
             color: white;
             max-width: 1050px;
-            margin-bottom: 12px; 
-            animation: fadeUp 1s ease 0.15s both, gradientShift 8s ease infinite;
+            margin-bottom: 12px;
+            opacity: 1;
+            animation: fadeUp 1s ease 0.15s forwards;
             text-shadow:
                 0 0 40px rgba(37,99,235,0.4),
                 0 0 80px rgba(37,99,235,0.2),
@@ -407,6 +421,7 @@
             -webkit-text-fill-color: transparent;
             background-clip: text;
             background-size: 200% 200%;
+            animation: fadeUp 1s ease 0.15s forwards, gradientShift 8s ease infinite;
         }
 
         .hero-sub {
@@ -415,7 +430,8 @@
             color: #e2e8f0;
             max-width: 960px;
             margin-bottom: 24px;
-            animation: fadeUp 1s ease 0.3s both;
+            opacity: 1;
+            animation: fadeUp 1s ease 0.3s forwards;
             text-shadow: 0 0 30px rgba(37,99,235,0.08);
         }
 
@@ -429,7 +445,8 @@
             border-top: 1px solid rgba(255, 255, 255, 0.05);
             border-bottom: 1px solid rgba(255, 255, 255, 0.05);
             padding: 16px 0;
-            animation: fadeUp 1s ease 0.45s both;
+            opacity: 1;
+            animation: fadeUp 1s ease 0.45s forwards;
         }
         .hero-trust span {
             display: flex;
@@ -448,7 +465,8 @@
             gap: 18px;
             flex-wrap: wrap;
             margin-bottom: 16px;
-            animation: fadeUp 1s ease 0.55s both;
+            opacity: 1;
+            animation: fadeUp 1s ease 0.55s forwards;
         }
 
         .primary-btn {
@@ -519,7 +537,8 @@
             transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1), border-color 0.3s, box-shadow 0.4s;
             position: relative;
             overflow: hidden;
-            animation: fadeUp 0.8s ease both;
+            opacity: 1;
+            animation: fadeUp 0.8s ease forwards;
         }
 
         .card:nth-child(1) { animation-delay: 0.1s; }
