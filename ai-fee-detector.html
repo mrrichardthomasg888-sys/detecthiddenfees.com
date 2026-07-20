@@ -3,186 +3,143 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI Fee Detector — Scan Any Bill or Contract for Hidden Fees Instantly</title>
+<title>AI Fee Detector — Scan Any Bill or Contract for Hidden Fees Instantly | DetectHiddenFees</title>
 <meta name="description" content="Upload your bill, invoice, or contract. Our AI instantly detects hidden fees, markups, and questionable charges. Free scan with detailed report.">
+<meta name="keywords" content="AI fee detection, hidden fees, bill analysis, contract review, invoice scanner, detect hidden charges">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://detecthiddenfees.com/ai-fee-detector.html">
 <meta property="og:title" content="AI Fee Detector — Find Hidden Fees Instantly">
 <meta property="og:description" content="Upload any document. AI detects hidden fees, markups, and questionable charges in seconds.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://detecthiddenfees.com/ai-fee-detector.html">
+<meta property="og:site_name" content="DetectHiddenFees">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="AI Fee Detector — Find Hidden Fees Instantly">
-<meta name="twitter:description" content="Upload any document. AI detects hidden fees instantly.">
+<meta name="twitter:description" content="Upload any document. AI detects hidden fees, markups, and questionable charges in seconds.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="alternate icon" href="/favicon.svg" />
+<link rel="apple-touch-icon" href="/favicon.svg" />
+<meta name="theme-color" content="#2563eb" />
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"AI Fee Detector","applicationCategory":"UtilityApplication","operatingSystem":"Web","description":"AI-powered tool that detects hidden fees in bills, invoices, and contracts instantly.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What types of fees can the AI detect?","acceptedAnswer":{"@type":"Answer","text":"Our AI detects fee patterns across banking, healthcare, telecom, insurance, automotive, real estate, subscriptions, utilities, and more."}},{"@type":"Question","name":"Is my document data secure?","acceptedAnswer":{"@type":"Answer","text":"Yes. All uploads are encrypted with TLS 1.3 and documents automatically deleted after analysis."}},{"@type":"Question","name":"How accurate is the fee detection?","acceptedAnswer":{"@type":"Answer","text":"Our AI achieves over 95% accuracy in detecting known hidden fee patterns."}}]}</script>
 <style>
 *{margin:0;padding:0;box-sizing:border-box;}
-body{font-family:'Inter',sans-serif;background:#0b0f1a;color:#e2e8f0;line-height:1.7;}
-.container{max-width:1200px;margin:0 auto;padding:0 24px;}
-.nav{display:flex;align-items:center;justify-content:space-between;padding:16px 0;border-bottom:1px solid #1e293b;}
-.nav a{color:#94a3b8;text-decoration:none;font-size:14px;margin-left:24px;transition:color .3s;}
-.nav a:hover{color:#38bdf8;}
-.logo{font-size:20px;font-weight:700;color:#38bdf8;text-decoration:none;}
-h1{font-size:2.8rem;font-weight:800;line-height:1.2;margin-bottom:20px;background:linear-gradient(135deg,#f8fafc,#38bdf8);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
-h2{font-size:1.8rem;font-weight:700;margin-bottom:16px;color:#f1f5f9;}
-h3{font-size:1.3rem;font-weight:600;margin-bottom:12px;color:#e2e8f0;}
+body{font-family:'Inter',sans-serif;background:radial-gradient(circle at 30% 20%, #1e3a8a 0%, #020617 45%, #000000 100%);color:#e2e8f0;line-height:1.8;overflow-x:hidden;-webkit-font-smoothing:antialiased;padding-bottom:80px;}
+body::before,body::after{content:'';position:fixed;pointer-events:none;z-index:-1;border-radius:50%;filter:blur(120px);opacity:0.3;animation:floatGlow 18s infinite alternate ease-in-out;}
+body::before{width:700px;height:700px;background:radial-gradient(circle,#2563eb,transparent 70%);top:-100px;left:-200px;}
+body::after{width:600px;height:600px;background:radial-gradient(circle,#7c3aed,transparent 70%);bottom:-100px;right:-150px;animation-delay:-6s;}
+@keyframes floatGlow{0%{transform:translate(0,0) scale(1);}100%{transform:translate(80px,40px) scale(1.2);}}
+a{text-decoration:none;}
+.container{max-width:1200px;margin:auto;padding:0 24px;}
+nav{position:sticky;top:0;z-index:999;background:rgba(2,6,23,.75);backdrop-filter:blur(18px) saturate(1.2);border-bottom:1px solid rgba(255,255,255,.08);box-shadow:0 4px 40px rgba(0,0,0,0.6);}
+.nav-wrap{display:flex;align-items:center;padding:14px 0;gap:18px;flex-wrap:wrap;}
+.logo{font-size:1.7rem;font-weight:900;color:white;letter-spacing:-1px;white-space:nowrap;flex-shrink:0;text-shadow:0 0 30px rgba(37,99,235,0.2);}
+.logo span{color:#3b82f6;}
+.nav-links{display:flex;gap:4px;align-items:center;flex-wrap:wrap;}
+.nav-links a{color:#cbd5e1;font-weight:600;font-size:.95rem;padding:8px 14px;white-space:nowrap;transition:color 0.2s, text-shadow 0.3s;border-radius:8px;}
+.nav-links a:hover{color:#fff;text-shadow:0 0 20px rgba(37,99,235,0.3);}
+.nav-btn{display:inline-block;padding:14px 30px;border-radius:14px;background:linear-gradient(135deg,#2563eb,#9333ea);font-size:1.05rem;font-weight:700;color:#fff!important;white-space:nowrap;box-shadow:0 12px 36px rgba(37,99,235,.4);transition:transform 0.25s, box-shadow 0.3s;border:none;cursor:pointer;line-height:1.4;letter-spacing:0.02em;}
+.nav-btn:hover{transform:scale(1.05);box-shadow:0 16px 48px rgba(37,99,235,.6);color:#fff!important;}
 .hero{padding:60px 0 40px;text-align:center;}
-.hero p{font-size:1.2rem;color:#94a3b8;max-width:700px;margin:0 auto 32px;}
-.cta-btn{display:inline-block;padding:16px 40px;background:linear-gradient(135deg,#38bdf8,#0ea5e9);color:#0b0f1a;font-weight:700;font-size:1.1rem;border-radius:12px;text-decoration:none;transition:transform .3s,box-shadow .3s;}
-.cta-btn:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(56,189,248,.3);}
-.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;padding:60px 0;}
-.feature-card{background:#1e293b;border-radius:16px;padding:32px;border:1px solid #334155;transition:border-color .3s;}
-.feature-card:hover{border-color:#38bdf8;}
-.feature-card .icon{font-size:2rem;margin-bottom:12px;}
-.how-it-works{padding:60px 0;}
-.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:32px;margin-top:32px;}
-.step{text-align:center;padding:24px;}
-.step .num{width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,#38bdf8,#0ea5e9);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1.2rem;margin:0 auto 16px;color:#0b0f1a;}
-.faq{padding:60px 0;}
-.faq-item{background:#1e293b;border-radius:12px;padding:24px;margin-bottom:16px;border:1px solid #334155;}
-.faq-item h3{cursor:pointer;display:flex;justify-content:space-between;align-items:center;}
-.faq-item p{margin-top:12px;color:#94a3b8;}
-.schema-hidden{display:none;}
-@media(max-width:768px){h1{font-size:1.8rem;}.hero p{font-size:1rem;}}
+.hero h1{font-size:clamp(2.2rem,4.5vw,3.5rem);line-height:1.05;font-weight:900;letter-spacing:-.04em;margin-bottom:16px;max-width:900px;margin-left:auto;margin-right:auto;background:linear-gradient(135deg,#fff 0%,#93c5fd 40%,#c084fc 70%,#fff 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;background-size:200% 200%;animation:gradientShift 10s ease infinite;filter:drop-shadow(0 0 30px rgba(37,99,235,0.2));}
+.hero p{font-size:1.15rem;color:#cbd5e1;max-width:750px;margin:0 auto 28px;line-height:1.9;}
+.primary-btn{display:inline-block;padding:18px 32px;background:linear-gradient(135deg,#2563eb,#7c3aed);border-radius:16px;color:#fff;font-weight:800;font-size:1rem;box-shadow:0 16px 50px rgba(37,99,235,.35);transition:transform 0.25s, box-shadow 0.3s;}
+.primary-btn:hover{transform:translateY(-3px);box-shadow:0 24px 70px rgba(37,99,235,.5);}
+.features-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;padding:40px 0;}
+.feature-card{background:linear-gradient(180deg,rgba(15,23,42,.9),rgba(2,6,23,.95));border:1px solid rgba(255,255,255,.08);border-radius:24px;padding:30px 28px;transition:transform 0.3s, border-color 0.3s;}
+.feature-card:hover{transform:translateY(-4px);border-color:rgba(37,99,235,.3);}
+.feature-card h3{font-size:1.2rem;margin-bottom:10px;color:#fff;font-weight:700;}
+.feature-card p{color:#94a3b8;font-size:.95rem;line-height:1.8;}
+.section{padding:50px 0;}
+.section h2{font-size:clamp(1.8rem,3.5vw,2.4rem);font-weight:900;letter-spacing:-.04em;margin-bottom:16px;color:#fff;text-align:center;}
+.section p{font-size:1.05rem;color:#94a3b8;text-align:center;max-width:700px;margin:0 auto 30px;}
+.benefits-list{max-width:700px;margin:0 auto;list-style:none;}
+.benefits-list li{padding:14px 0;border-bottom:1px solid rgba(255,255,255,.06);color:#cbd5e1;font-size:1rem;}
+.benefits-list li:before{content:"✓ ";color:#3b82f6;font-weight:700;}
+.cta-section{padding:60px 0;text-align:center;background:linear-gradient(135deg,#2563eb,#7c3aed);border-radius:34px;margin:40px 0;box-shadow:0 30px 100px rgba(37,99,235,.3);}
+.cta-section h2{font-size:clamp(1.8rem,3vw,2.4rem);font-weight:900;color:#fff;margin-bottom:12px;}
+.cta-section p{color:#dbeafe;font-size:1.05rem;margin-bottom:24px;}
+.cta-btn-white{display:inline-block;padding:18px 36px;background:#fff;color:#0f172a;font-weight:900;border-radius:16px;font-size:1rem;transition:transform 0.25s, box-shadow 0.3s;}
+.cta-btn-white:hover{transform:translateY(-3px);box-shadow:0 16px 40px rgba(0,0,0,0.2);}
+footer{padding:50px 20px 60px;text-align:center;color:#64748b;border-top:1px solid rgba(255,255,255,.06);margin-top:50px;}
+.footer-links{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-bottom:14px;}
+.footer-links a{color:#94a3b8;font-weight:600;font-size:.85rem;transition:color 0.2s;}
+.footer-links a:hover{color:#fff;}
+.sticky-cta-bar{display:none;position:fixed;bottom:0;left:0;right:0;z-index:1000;background:rgba(2,8,23,.95);backdrop-filter:blur(18px);padding:12px 20px;border-top:1px solid rgba(255,255,255,.08);align-items:center;justify-content:space-between;gap:16px;box-shadow:0 -10px 40px rgba(0,0,0,0.6);}
+.sticky-cta-bar .sticky-text{font-weight:700;font-size:.95rem;color:#e2e8f0;white-space:nowrap;display:flex;align-items:center;gap:12px;}
+.sticky-cta-bar .sticky-text .price{color:#3b82f6;background:rgba(59,130,246,.12);padding:2px 12px;border-radius:100px;font-size:.85rem;}
+.sticky-cta-bar .sticky-btn{display:inline-block;padding:12px 28px;border-radius:14px;background:linear-gradient(135deg,#2563eb,#9333ea);color:#fff;font-weight:800;font-size:.95rem;box-shadow:0 8px 30px rgba(59,130,246,.35);text-align:center;min-height:48px;display:flex;align-items:center;justify-content:center;border:none;cursor:pointer;transition:transform 0.2s;letter-spacing:.01em;flex-shrink:0;}
+.sticky-cta-bar .sticky-btn:hover{transform:scale(1.03);}
+@media(min-width:901px){.sticky-cta-bar{display:flex;}body{padding-bottom:80px;}}
+@media(max-width:900px){.sticky-cta-bar{display:flex;padding:10px 14px;gap:10px;}.sticky-cta-bar .sticky-btn{padding:10px 20px;font-size:.85rem;flex:1;}.sticky-cta-bar .sticky-text{font-size:.8rem;gap:6px;}.hero h1{font-size:1.8rem;}.hero p{font-size:1rem;}}
 </style>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "AI Fee Detector",
-  "applicationCategory": "UtilityApplication",
-  "operatingSystem": "Web",
-  "description": "AI-powered tool that detects hidden fees in bills, invoices, and contracts instantly.",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  }
-}
-</script>
 </head>
 <body>
-<div class="nav">
-<div class="container" style="display:flex;align-items:center;justify-content:space-between;width:100%;">
-<a href="/" class="logo">DetectHiddenFees</a>
-<div>
-<a href="/how-detect-hidden-fees-works.html">How It Works</a>
-<a href="/ai-bill-analyzer.html">AI Bill Analyzer</a>
-<a href="/ai-contract-review.html">AI Contract Review</a>
-<a href="/hidden-fees-guides.html">Guides</a>
-<a href="/analyze-my-bill.html" style="color:#38bdf8;font-weight:600;">Analyze Now</a>
-</div>
-</div>
+
+<!-- ===== NAVIGATION ===== -->
+<nav>
+    <div class="container nav-wrap">
+        <div class="logo">DetectHiddenFees<span>.</span></div>
+        <div class="nav-links">
+            <a href="#" id="pdfDownloadBtn" class="nav-btn" style="background:linear-gradient(135deg,#7c3aed,#2563eb);box-shadow:0 12px 36px rgba(124,58,237,0.3);">⭐ Free PDF Guide</a>
+            <a href="https://hiddenfeeai.com" class="nav-btn">Analyze My Documents</a>
+        </div>
+    </div>
+</nav>
+
+<section class="hero"><div class="container"><h1>AI Fee Detector</h1><p>Upload any bill, invoice, or contract. Our artificial intelligence scans every line item, identifies hidden fees, markups, and questionable charges — in seconds.</p><a href="/analyze-my-bill.html" class="primary-btn">Scan Your Document Now →</a></div></section>
+
+<div class="features-grid container">
+<div class="feature-card"><h3>🔍 Instant Fee Detection</h3><p>AI scans documents line by line, flagging suspicious charges, hidden markups, and unexpected fees.</p></div>
+<div class="feature-card"><h3>📊 Detailed Reports</h3><p>Get a comprehensive breakdown of every fee found, with explanations of what it is and why it's questionable.</p></div>
+<div class="feature-card"><h3>💡 Savings Recommendations</h3><p>Receive actionable advice on which fees to dispute and how to negotiate them off your bill.</p></div>
+<div class="feature-card"><h3>🔒 Private & Secure</h3><p>Your documents are encrypted in transit and at rest. We never share your data with third parties.</p></div>
+<div class="feature-card"><h3>📱 Works Anywhere</h3><p>Upload from your phone, tablet, or computer. PDFs, images, and text files all supported.</p></div>
+<div class="feature-card"><h3>⚡ Results in Seconds</h3><p>Most scans complete in under 30 seconds, giving you instant insights into your documents.</p></div>
 </div>
 
-<div class="hero">
+<div style="background:#1e293b;padding:50px 0;"><div class="container"><h2 style="text-align:center;font-size:2rem;font-weight:900;color:#fff;margin-bottom:16px;">How It Works</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:32px;margin-top:32px;">
+<div style="text-align:center;padding:24px;"><div style="width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,#38bdf8,#0ea5e9);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1.2rem;margin:0 auto 16px;color:#0b0f1a;">1</div><h3 style="color:#fff;margin-bottom:10px;">Upload Your Document</h3><p style="color:#94a3b8;">Upload any bill, invoice, or contract. We accept PDF, PNG, JPG, and text files.</p></div>
+<div style="text-align:center;padding:24px;"><div style="width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,#38bdf8,#0ea5e9);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1.2rem;margin:0 auto 16px;color:#0b0f1a;">2</div><h3 style="color:#fff;margin-bottom:10px;">AI Analysis</h3><p style="color:#94a3b8;">Our AI processes every line item, comparing charges against known hidden fee patterns and industry benchmarks.</p></div>
+<div style="text-align:center;padding:24px;"><div style="width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,#38bdf8,#0ea5e9);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1.2rem;margin:0 auto 16px;color:#0b0f1a;">3</div><h3 style="color:#fff;margin-bottom:10px;">Get Your Report</h3><p style="color:#94a3b8;">Receive a detailed report with flagged fees, explanations, and negotiation scripts to fight back.</p></div>
+</div></div></div>
+
+<div class="faq container"><h2 style="text-align:center;font-size:2rem;font-weight:900;color:#fff;margin-bottom:32px;">Frequently Asked Questions</h2>
+<div class="faq-item"><h3>What types of fees can the AI detect?</h3><p>Our AI is trained on thousands of fee patterns across industries — banking, healthcare, telecom, insurance, automotive, real estate, subscriptions, utilities, and more.</p></div>
+<div class="faq-item"><h3>Is my document data secure?</h3><p>Yes. All uploads are encrypted with TLS 1.3, and documents are automatically deleted after analysis. We never store or share your personal information.</p></div>
+<div class="faq-item"><h3>How accurate is the fee detection?</h3><p>Our AI achieves over 95% accuracy in detecting known hidden fee patterns. However, we always recommend reviewing results before taking action.</p></div>
+<div class="faq-item"><h3>Can I scan any document type?</h3><p>Yes. We support PDF, PNG, JPG, and text files. Most scans complete in under 30 seconds.</p></div>
+</div>
+
+<footer>
 <div class="container">
-<h1>AI Fee Detector</h1>
-<p>Upload any bill, invoice, or contract. Our artificial intelligence scans every line item, identifies hidden fees, markups, and questionable charges — in seconds.</p>
-<a href="/analyze-my-bill.html" class="cta-btn">Scan Your Document Now →</a>
+<div class="footer-links" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;text-align:left;">
+<div style="min-width:180px;"><strong style="color:#94a3b8;display:block;margin-bottom:8px;font-size:1.05rem;">HIDDEN FEES</strong><a href="/hidden-fees-guides.html">Hidden Fees Guides</a><a href="/hidden-fee-examples.html">Hidden Fee Examples</a><a href="/hidden-fee-dictionary.html">Hidden Fee Dictionary</a><a href="/hidden-fee-database.html">Hidden Fee Database</a><a href="/hidden-fee-statistics.html">Hidden Fee Statistics</a><a href="/hidden-fee-prevention-guide.html">Hidden Fee Prevention Guide</a><a href="/hidden-fees-resource-center.html">Hidden Fees Resource Center</a></div>
+<div style="min-width:180px;"><strong style="color:#94a3b8;display:block;margin-bottom:8px;font-size:1.05rem;">AI ANALYSIS TOOLS</strong><a href="/ai-bill-analyzer.html">AI Bill Analyzer</a><a href="/ai-invoice-analyzer.html">AI Invoice Analyzer</a><a href="/ai-contract-review.html">AI Contract Review</a><a href="/ai-document-analysis-tools.html">AI Document Analysis</a><a href="/ai-estimate-review.html">AI Estimate Review</a><a href="/ai-receipt-analyzer.html">AI Receipt Analyzer</a><a href="/ai-fee-detector.html">AI Fee Detector</a></div>
+<div style="min-width:180px;"><strong style="color:#94a3b8;display:block;margin-bottom:8px;font-size:1.05rem;">NEGOTIATION</strong><a href="/bill-negotiation-resource-center.html">Bill Negotiation Center</a><a href="/negotiation-scripts.html">Negotiation Scripts</a><a href="/bill-negotiation-templates.html">Negotiation Templates</a><a href="/hospital-bill-negotiation-guide.html">Hospital Bill Guide</a><a href="/fee-removal-request-template.html">Fee Removal Template</a><a href="/negotiate-bills.html">How to Negotiate Bills</a></div>
+<div style="min-width:180px;"><strong style="color:#94a3b8;display:block;margin-bottom:8px;font-size:1.05rem;">CONSUMER PROTECTION</strong><a href="/consumer-financial-intelligence-center.html">Financial Intelligence Center</a><a href="/contract-red-flags.html">Contract Red Flags</a><a href="/before-signing-contract-checklist.html">Contract Checklist</a><a href="/how-to-read-an-invoice.html">How to Read an Invoice</a><a href="/invoice-red-flags.html">Invoice Red Flags</a><a href="/service-agreement-red-flags.html">Service Agreement Red Flags</a></div>
+<div style="min-width:180px;"><strong style="color:#94a3b8;display:block;margin-bottom:8px;font-size:1.05rem;">COMPANY</strong><a href="/about-detect-hidden-fees.html">About Us</a><a href="/how-detect-hidden-fees-works.html">How It Works</a><a href="/editorial-policy.html">Editorial Policy</a><a href="/research-methodology.html">Research Methodology</a><a href="/ai-accuracy-and-limitations.html">AI Accuracy & Limitations</a><a href="/privacy-and-ai-security.html">Privacy & AI Security</a></div>
+<div style="min-width:180px;"><strong style="color:#94a3b8;display:block;margin-bottom:8px;font-size:1.05rem;">ANALYZE NOW</strong><a href="/analyze-my-bill.html" style="font-weight:bold;color:#38bdf8;">Analyze My Bill</a><a href="/analyze-my-contract.html" style="font-weight:bold;color:#38bdf8;">Analyze My Contract</a><a href="/analyze-my-invoice.html" style="font-weight:bold;color:#38bdf8;">Analyze My Invoice</a><a href="/check-my-fees.html" style="font-weight:bold;color:#38bdf8;">Check My Fees</a><a href="/free-hidden-fee-scanner.html" style="font-weight:bold;color:#38bdf8;">Free Fee Scanner</a></div>
 </div>
+<p style="margin-top:24px;color:#64748b;">&copy; 2026 DetectHiddenFees.com &mdash; AI Hidden Fee Intelligence Platform</p>
 </div>
+</footer>
 
-<div class="features container">
-<div class="feature-card">
-<div class="icon">🔍</div>
-<h3>Instant Fee Detection</h3>
-<p>AI scans documents line by line, flagging suspicious charges, hidden markups, and unexpected fees.</p>
+<!-- ===== STICKY CTA BAR ===== -->
+<div class="sticky-cta-bar">
+    <div class="sticky-text">
+        <span>📚 Browse Our Guides</span>
+        <span class="price">$15</span>
+    </div>
+    <a href="https://hiddenfeeai.com" class="sticky-btn">Analyze Your Document</a>
 </div>
-<div class="feature-card">
-<div class="icon">📊</div>
-<h3>Detailed Reports</h3>
-<p>Get a comprehensive breakdown of every fee found, with explanations of what it is and why it's questionable.</p>
-</div>
-<div class="feature-card">
-<div class="icon">💡</div>
-<h3>Savings Recommendations</h3>
-<p>Receive actionable advice on which fees to dispute and how to negotiate them off your bill.</p>
-</div>
-<div class="feature-card">
-<div class="icon">🔒</div>
-<h3>Private & Secure</h3>
-<p>Your documents are encrypted in transit and at rest. We never share your data with third parties.</p>
-</div>
-<div class="feature-card">
-<div class="icon">📱</div>
-<h3>Works Anywhere</h3>
-<p>Upload from your phone, tablet, or computer. PDFs, images, and text files all supported.</p>
-</div>
-<div class="feature-card">
-<div class="icon">⚡</div>
-<h3>Results in Seconds</h3>
-<p>Most scans complete in under 30 seconds, giving you instant insights into your documents.</p>
-</div>
-</div>
-
-<div class="how-it-works" style="background:#1e293b;">
-<div class="container">
-<h2 style="text-align:center;">How It Works</h2>
-<div class="steps">
-<div class="step">
-<div class="num">1</div>
-<h3>Upload Your Document</h3>
-<p>Upload any bill, invoice, or contract. We accept PDF, PNG, JPG, and text files.</p>
-</div>
-<div class="step">
-<div class="num">2</div>
-<h3>AI Analysis</h3>
-<p>Our AI processes every line item, comparing charges against known hidden fee patterns and industry benchmarks.</p>
-</div>
-<div class="step">
-<div class="num">3</div>
-<h3>Get Your Report</h3>
-<p>Receive a detailed report with flagged fees, explanations, and negotiation scripts to fight back.</p>
-</div>
-</div>
-</div>
-</div>
-
-<div class="faq container">
-<h2 style="text-align:center;margin-bottom:32px;">Frequently Asked Questions</h2>
-<div class="faq-item">
-<h3>What types of fees can the AI detect?</h3>
-<p>Our AI is trained on thousands of fee patterns across industries — banking, healthcare, telecom, insurance, automotive, real estate, subscriptions, utilities, and more.</p>
-</div>
-<div class="faq-item">
-<h3>Is my document data secure?</h3>
-<p>Yes. All uploads are encrypted with TLS 1.3, and documents are automatically deleted after analysis. We never store or share your personal information.</p>
-</div>
-<div class="faq-item">
-<h3>How accurate is the fee detection?</h3>
-<p>Our AI achieves over 95% accuracy in detecting known hidden fee patterns. However, we always recommend reviewing results before taking action.</p>
-</div>
-<div class="faq-item">
-<h3>Can I scan any document type?</h3>
-<p>Yes. We support PDF, PNG, JPG, and text files. Most scans complete in under 30 seconds.</p>
-</div>
-</div>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of fees can the AI detect?",
-      "acceptedAnswer": {"@type": "Answer", "text": "Our AI detects fee patterns across banking, healthcare, telecom, insurance, automotive, real estate, subscriptions, utilities, and more."}
-    },
-    {
-      "@type": "Question", 
-      "name": "Is my document data secure?",
-      "acceptedAnswer": {"@type": "Answer", "text": "Yes. All uploads are encrypted with TLS 1.3 and documents are automatically deleted after analysis."}
-    },
-    {
-      "@type": "Question",
-      "name": "How accurate is the fee detection?",
-      "acceptedAnswer": {"@type": "Answer", "text": "Our AI achieves over 95% accuracy in detecting known hidden fee patterns."}
-    }
-  ]
-}
+<script>
+document.addEventListener("DOMContentLoaded",function(){var btn=document.getElementById("pdfDownloadBtn");if(btn){btn.onclick=function(e){e.preventDefault();var u="/premium-contract-guide.pdf";var x=new XMLHttpRequest();x.open("GET",u,true);x.responseType="blob";x.onload=function(){var b=new Blob([x.response],{type:"application/octet-stream"});var url=URL.createObjectURL(b);if(navigator.msSaveBlob){navigator.msSaveBlob(b,"Hidden-Fee-Detection-Guide.pdf")}else{var a=document.createElement("a");a.href=url;a.download="Hidden-Fee-Detection-Guide.pdf";document.body.appendChild(a);a.click();document.body.removeChild(a);setTimeout(function(){URL.revokeObjectURL(url)},5000)}};x.send()}}});
 </script>
+
 </body>
 </html>
