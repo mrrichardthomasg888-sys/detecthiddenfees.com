@@ -168,7 +168,7 @@
         .cta-button { display: inline-block; padding: 18px 32px; border-radius: 18px; background: linear-gradient(90deg, #2563eb, #9333ea); font-size: 1rem; font-weight: 800; color: white; text-decoration: none; box-shadow: 0 16px 50px rgba(37,99,235,.4); transition: transform 0.25s, box-shadow 0.3s; text-shadow: 0 2px 8px rgba(0,0,0,0.2); }
         .cta-button:hover { transform: translateY(-3px); box-shadow: 0 24px 70px rgba(37,99,235,.55); }
         .section { padding-top: 60px; padding-bottom: 60px; border-top: 1px solid rgba(255,255,255,.05); }
-        .section h2 { font-size: clamp(2rem, 4.5vw, 2.8rem); line-height: 1.08; margin-bottom: 18px; font-weight: 900; letter-spacing: -.04em; max-width: 760px; text-shadow: 0 0 30px rgba(37,99,235,0.08); }
+        .section h2 { font-size: clamp(2rem, 4.5vw, 2.8rem); line-height: 1.08; margin-bottom: 18px; font-weight: 900; letter-spacing: -.04em; max-width: 760px; background: linear-gradient(135deg, #ffffff 0%, #93c5fd 40%, #c084fc 70%, #ffffff 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; background-size: 200% 200%; animation: gradientShift 10s ease infinite; text-shadow: none; filter: drop-shadow(0 0 30px rgba(37,99,235,0.15)); }
         .section p { font-size: 1.05rem; line-height: 2; color: #cbd5e1; margin-bottom: 22px; }
         .card { margin-top: 28px; background: rgba(7,19,39,.8); padding: 32px 34px; border-radius: 24px; border: 1px solid rgba(255,255,255,.06); backdrop-filter: blur(4px); transition: border-color 0.3s, box-shadow 0.3s; }
         .card:hover { border-color: rgba(37,99,235,.3); box-shadow: 0 8px 40px rgba(0,0,0,.3); }
@@ -190,6 +190,11 @@
         .privacy-bullets { display: flex; flex-wrap: wrap; gap: 6px 20px; }
         .privacy-bullets span { font-size: .85rem; color: #94a3b8; display: flex; align-items: center; gap: 6px; }
         .privacy-bullets span::before { content: "✓"; color: #3b82f6; font-weight: 900; text-shadow: 0 0 16px rgba(37,99,235,0.3); }
+        
+        /* ===== RESPONSIVE TABLES ===== */
+        .table-responsive { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 0 0 1px 0; }
+        .table-responsive table { min-width: 500px; }
+        @media(max-width:600px) { .table-responsive table { font-size: .8rem; } .table-responsive td, .table-responsive th { padding: 8px 4px !important; } }
         .faq { margin-top: 48px; }
         .faq-item { background: rgba(7,19,39,.9); border: 1px solid rgba(255,255,255,.08); padding: 24px 28px; border-radius: 20px; margin-bottom: 16px; transition: border-color 0.3s, box-shadow 0.3s; }
         .faq-item:hover { border-color: rgba(37,99,235,.3); box-shadow: 0 8px 30px rgba(0,0,0,.2); }
@@ -399,7 +404,7 @@
                     <span>Clarify ambiguous contract terms</span>
                 </div>
                 <div style="margin-top:16px;">
-                    <a href="https://hiddenfeeai.com" class="cta-button" style="padding:14px 28px; font-size:.95rem;">Get Your Document Analysis — $15</a>
+                    <a href="https://hiddenfeeai.com" class="cta-button" style="padding:14px 28px; font-size:.95rem;">Analyze My Documents With AI — $15</a>
                 </div>
             </div>
         </div>
@@ -473,6 +478,7 @@
 
             <div class="card">
                 <h3>Tool Comparison Matrix</h3>
+                <div class="table-responsive">
                 <table style="width:100%;border-collapse:collapse;margin-top:16px;font-size:.95rem;">
                     <thead>
                         <tr style="border-bottom:1px solid rgba(255,255,255,0.1);">
@@ -522,11 +528,12 @@
                     </tbody>
                 </table>
             </div>
+            </div>
 
             <div class="mid-cta">
                 <h3>Ready to See What an AI Financial Assistant Can Find in Your Documents?</h3>
                 <p>Upload any contract, invoice, estimate, or billing statement. AI analyzes the document for hidden fees, pricing risks, and negotiation opportunities — all for a one-time $15 fee.</p>
-                <a href="https://hiddenfeeai.com" class="cta-button" style="padding:14px 28px; font-size:.95rem;">Analyze My Documents Now — $15</a>
+                <a href="https://hiddenfeeai.com" class="cta-button" style="padding:14px 28px; font-size:.95rem;">Find Hidden Fees Before You Sign →</a>
             </div>
         </div>
     </section>
@@ -622,7 +629,7 @@
             <div class="cta">
                 <h2>Stop Hidden Fees Before They Cost You Thousands</h2>
                 <p>Upload any contract, invoice, estimate, or financial document. HiddenFeeAI scans for hidden fees, pricing risks, and deceptive charges — giving you the information you need to make smarter financial decisions.</p>
-                <a href="https://hiddenfeeai.com" class="cta-btn">Analyze My Documents Now — $15</a>
+                <a href="https://hiddenfeeai.com" class="cta-btn">Find Hidden Fees Before You Sign →</a>
                 <div class="cta-reassurance">No subscription. No long-term commitment. Secure analysis.</div>
             </div>
         </div>
