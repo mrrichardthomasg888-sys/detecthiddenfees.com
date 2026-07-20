@@ -157,6 +157,7 @@ nav{position:sticky;top:0;z-index:999;background:rgba(2,6,23,.75);backdrop-filte
 footer{padding:50px 0 60px;text-align:center;color:#64748b;border-top:1px solid rgba(255,255,255,.06);margin-top:50px;font-size:.9rem}.footer-links{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-bottom:14px}.footer-links a{color:#94a3b8;font-weight:600;font-size:.85rem;transition:color 0.2s}.footer-links a:hover{color:white}
 .sticky-cta-bar{display:none;position:fixed;bottom:0;left:0;right:0;z-index:1000;background:rgba(2,8,23,.95);backdrop-filter:blur(18px);padding:12px 20px;border-top:1px solid rgba(255,255,255,.08);align-items:center;justify-content:space-between;gap:16px;box-shadow:0 -10px 40px rgba(0,0,0,0.6)}.sticky-cta-bar .sticky-text{font-weight:700;font-size:.95rem;color:#e2e8f0;white-space:nowrap;display:flex;align-items:center;gap:12px}.sticky-cta-bar .sticky-text .price{color:#3b82f6;background:rgba(59,130,246,.12);padding:2px 12px;border-radius:100px;font-size:.85rem}.sticky-cta-bar .sticky-btn{display:inline-block;padding:8px 18px;border-radius:10px;background:linear-gradient(135deg,#2563eb,#9333ea);color:white;font-weight:700;font-size:.85rem;box-shadow:0 8px 30px rgba(59,130,246,.35);text-align:center;min-height:34px;display:flex;align-items:center;justify-content:center;border:none;cursor:pointer;transition:transform 0.2s}.sticky-cta-bar .sticky-btn:hover{transform:scale(1.03)}@media(min-width:901px){.sticky-cta-bar{display:flex}}@media(max-width:900px){.sticky-cta-bar{display:flex}.hero:before,.hero:after{display:none!important}.nav-wrap{flex-direction:column;align-items:flex-start;padding:12px 0}.nav-links{width:100%;justify-content:flex-start;gap:4px 8px}.nav-links a{font-size:.85rem;padding:6px 8px}.nav-btn{width:100%;text-align:center;font-size:.95rem;padding:12px 20px}.checklist-grid{grid-template-columns:1fr}.leverage-grid{grid-template-columns:1fr}.hero h1{font-size:2.4rem}.cta{padding:40px 20px}}@media(max-width:600px){.hero h1{font-size:2rem}.section h2{font-size:1.8rem}}
 @media(max-width:600px){.sticky-cta-bar{padding:8px 12px!important;gap:8px!important}.sticky-cta-bar .sticky-text{font-size:.75rem!important;gap:6px!important;white-space:normal!important}.sticky-cta-bar .sticky-text .price{font-size:.7rem!important;padding:1px 8px!important}.sticky-cta-bar .sticky-btn{padding:6px 12px!important;font-size:.75rem!important;min-height:28px!important;border-radius:8px!important;white-space:nowrap!important}}
+.footer-column{min-width:200px;}.footer-column a{display:block;padding:5px 0;color:#94a3b8;font-weight:600;font-size:.85rem;transition:color 0.2s;}.footer-column a:hover{color:#fff;}.footer-column strong{color:#94a3b8;display:block;margin-bottom:14px;font-size:1.05rem;letter-spacing:0.5px;}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"DetectHiddenFees","url":"https://detecthiddenfees.com"}</script>
 </head>
@@ -309,10 +310,10 @@ footer{padding:50px 0 60px;text-align:center;color:#64748b;border-top:1px solid 
 <!-- FOOTER -->
 <footer>
 <div class="container">
-<div class="footer-links" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;text-align:left;">
+<div class="footer-links" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:28px;text-align:left;">
 
-<div style="min-width:180px;">
-<strong style="color:#94a3b8;display:block;margin-bottom:8px;font-size:1.05rem;">HIDDEN FEES</strong>
+<div class="footer-column">
+<strong>HIDDEN FEES</strong>
 <a href="/hidden-fees-guides.html">Hidden Fees Guides</a>
 <a href="/hidden-fee-examples.html">Hidden Fee Examples</a>
 <a href="/hidden-fee-dictionary.html">Hidden Fee Dictionary</a>
@@ -322,8 +323,8 @@ footer{padding:50px 0 60px;text-align:center;color:#64748b;border-top:1px solid 
 <a href="/hidden-fees-resource-center.html">Hidden Fees Resource Center</a>
 </div>
 
-<div style="min-width:180px;">
-<strong style="color:#94a3b8;display:block;margin-bottom:8px;font-size:1.05rem;">AI ANALYSIS TOOLS</strong>
+<div class="footer-column">
+<strong>AI ANALYSIS TOOLS</strong>
 <a href="/ai-bill-analyzer.html">AI Bill Analyzer</a>
 <a href="/ai-invoice-analyzer.html">AI Invoice Analyzer</a>
 <a href="/ai-contract-review.html">AI Contract Review</a>
@@ -333,8 +334,8 @@ footer{padding:50px 0 60px;text-align:center;color:#64748b;border-top:1px solid 
 <a href="/ai-fee-detector.html">AI Fee Detector</a>
 </div>
 
-<div style="min-width:180px;">
-<strong style="color:#94a3b8;display:block;margin-bottom:8px;font-size:1.05rem;">NEGOTIATION</strong>
+<div class="footer-column">
+<strong>NEGOTIATION</strong>
 <a href="/bill-negotiation-resource-center.html">Bill Negotiation Center</a>
 <a href="/negotiation-scripts.html">Negotiation Scripts</a>
 <a href="/bill-negotiation-templates.html">Negotiation Templates</a>
@@ -343,8 +344,8 @@ footer{padding:50px 0 60px;text-align:center;color:#64748b;border-top:1px solid 
 <a href="/negotiate-bills.html">How to Negotiate Bills</a>
 </div>
 
-<div style="min-width:180px;">
-<strong style="color:#94a3b8;display:block;margin-bottom:8px;font-size:1.05rem;">CONSUMER PROTECTION</strong>
+<div class="footer-column">
+<strong>CONSUMER PROTECTION</strong>
 <a href="/consumer-financial-intelligence-center.html">Financial Intelligence Center</a>
 <a href="/contract-red-flags.html">Contract Red Flags</a>
 <a href="/before-signing-contract-checklist.html">Contract Checklist</a>
@@ -353,8 +354,8 @@ footer{padding:50px 0 60px;text-align:center;color:#64748b;border-top:1px solid 
 <a href="/service-agreement-red-flags.html">Service Agreement Red Flags</a>
 </div>
 
-<div style="min-width:180px;">
-<strong style="color:#94a3b8;display:block;margin-bottom:8px;font-size:1.05rem;">COMPANY</strong>
+<div class="footer-column">
+<strong>COMPANY</strong>
 <a href="/about-detect-hidden-fees.html">About Us</a>
 <a href="/how-detect-hidden-fees-works.html">How It Works</a>
 <a href="/editorial-policy.html">Editorial Policy</a>
@@ -363,8 +364,8 @@ footer{padding:50px 0 60px;text-align:center;color:#64748b;border-top:1px solid 
 <a href="/privacy-and-ai-security.html">Privacy & AI Security</a>
 </div>
 
-<div style="min-width:180px;">
-<strong style="color:#94a3b8;display:block;margin-bottom:8px;font-size:1.05rem;">ANALYZE NOW</strong>
+<div class="footer-column">
+<strong>ANALYZE NOW</strong>
 <a href="/analyze-my-bill.html" style="font-weight:bold;color:#38bdf8;">Analyze My Bill</a>
 <a href="/analyze-my-contract.html" style="font-weight:bold;color:#38bdf8;">Analyze My Contract</a>
 <a href="/analyze-my-invoice.html" style="font-weight:bold;color:#38bdf8;">Analyze My Invoice</a>
