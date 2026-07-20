@@ -15,15 +15,15 @@
 <div class="toc"><strong>Table of Contents</strong><a href="#encryption">Encryption Standards</a><a href="#processing">Data Processing</a><a href="#retention">Document Retention</a><a href="#access">Access Controls</a><a href="#third-party">Third-Party Services</a><a href="#incident">Incident Response</a><a href="#compliance">Standards Alignment</a><a href="#faq">FAQ</a></div>
 
 <div class="security-badge-row">
-<div class="security-badge"><div class="icon">🔒</div><div class="label">TLS 1.3 Encryption</div><div class="desc">All data in transit</div></div>
+<div class="security-badge"><div class="icon">🔒</div><div class="label">TLS 1.2+ Encryption</div><div class="desc">All data in transit</div></div>
 <div class="security-badge"><div class="icon">🗑️</div><div class="label">Auto-Delete</div><div class="desc">Documents deleted after analysis</div></div>
 <div class="security-badge"><div class="icon">🔐</div><div class="label">AES-256 at Rest</div><div class="desc">Industry-standard encryption</div></div>
 <div class="security-badge"><div class="icon">🚫</div><div class="label">No AI Training</div><div class="desc">Your data stays yours</div></div>
 </div>
 
 <h2 id="encryption">Encryption Standards</h2>
-<p>All data transmitted to and from our platform is encrypted using TLS 1.3, the latest version of the Transport Layer Security protocol. This is the same encryption standard used by financial institutions and major technology companies to protect sensitive data in transit.</p>
-<p>Data at rest is encrypted using AES-256 encryption. Encryption keys are managed securely and rotated on a regular schedule. Document encryption occurs before any processing begins, and raw document data is never stored in unencrypted form at any point in the processing pipeline.</p>
+<p>All data transmitted to and from our platform is encrypted using TLS 1.2 or higher, the industry-standard Transport Layer Security protocol. This is the same encryption standard used by financial institutions and major technology companies to protect sensitive data in transit.</p>
+<p>Data at rest is encrypted using AES-256 encryption. Encryption keys are managed securely and rotated on a regular schedule. Raw document data is never stored in unencrypted form at any point in the processing pipeline. For more details on how your data is handled, see our <a href="/data-handling-policy.html">Data Handling Policy</a>.</p>
 
 <h2 id="processing">Data Processing</h2>
 <p>When you upload a document for analysis, it is processed using our AI analysis engine. Documents are uploaded through a secure endpoint, analyzed in a controlled processing environment, and then automatically deleted. The analysis process is designed to minimize data exposure at every stage.</p>
@@ -34,12 +34,13 @@
 <h2 id="retention">Document Retention</h2>
 <p>Uploaded documents follow a strict deletion policy:</p>
 <ul>
-<li><strong>During analysis:</strong> Document is held in encrypted memory only</li>
-<li><strong>After analysis:</strong> Original document is permanently deleted immediately</li>
-<li><strong>Analysis results:</strong> Retained for up to 30 days, then permanently deleted</li>
+<li><strong>During analysis:</strong> Document is held in memory and processed in a controlled environment</li>
+<li><strong>After analysis:</strong> Original document is scheduled for permanent deletion from active systems</li>
+<li><strong>Analysis results:</strong> Retained for up to 30 days, then scheduled for deletion</li>
 <li><strong>Backups:</strong> No document data is included in system backups</li>
 </ul>
-<p>This means that after your analysis is complete, your original document no longer exists on our systems. The analysis report is available for 30 days for your convenience, after which it is also permanently removed.</p>
+<p>This means that after your analysis is complete, your original document is scheduled for removal from active systems on a regular basis. The analysis report is available for 30 days for your convenience, after which it is also scheduled for permanent deletion.</p>
+<p>For the complete document lifecycle and data handling procedures, please refer to our <a href="/data-handling-policy.html">Data Handling Policy</a>.</p>
 
 <h2 id="access">Access Controls</h2>
 <p>DetectHiddenFees operates on a strict least-privilege access model. No employee or contractor has direct access to user-uploaded documents or analysis results. System administrators have access only to operational metrics and infrastructure-level data that contains no user document content. All access to production systems requires multi-factor authentication and is logged and audited.</p>
@@ -48,7 +49,7 @@
 <p>DetectHiddenFees does not share uploaded documents with third parties. Your document data is not sold, licensed, or provided to advertisers, data brokers, or any external service. The AI analysis is performed using our own infrastructure. See our <a href="/data-handling-policy.html">Data Handling Policy</a> and <a href="/privacy-and-ai-security.html">Privacy Policy</a> for complete details.</p>
 
 <h2 id="incident">Incident Response</h2>
-<p>We maintain a documented incident response plan. In the event of a security incident affecting user data, we will notify affected users within 72 hours of confirmation. Because our architecture automatically deletes documents after analysis, the potential impact of any security incident is significantly limited.</p>
+<p>We maintain a documented incident response plan. In the event of a confirmed security incident affecting user data, we will make reasonable efforts to notify affected users in a timely manner. The specific notification timeline will depend on the nature and scope of the incident, as described in our <a href="/terms-of-service.html">Terms of Service</a>. Because our architecture automatically deletes documents after analysis, the potential impact of any security incident is significantly limited.</p>
 
 <h2 id="compliance">Standards Alignment</h2>
 <p>While DetectHiddenFees is not a regulated entity under HIPAA or PCI DSS, we voluntarily align our security practices with recognized frameworks including the NIST Cybersecurity Framework and OWASP security best practices. These alignments are voluntary and for informational purposes only — they do not represent formal certification.</p>
@@ -56,7 +57,7 @@
 <h2 id="faq">Frequently Asked Questions</h2>
 <p><strong>Are my documents safe during AI analysis?</strong><br/>Documents are encrypted in transit and at rest, processed in controlled environments, and automatically deleted after analysis. No document content is used for AI training.</p>
 <p><strong>Who has access to my uploaded documents?</strong><br/>No one. Document access is restricted to the automated analysis pipeline. No employee or third party can view uploaded documents.</p>
-<p><strong>How long are documents retained?</strong><br/>Documents are deleted immediately after analysis. Analysis results are retained for up to 30 days, then permanently deleted.</p>
+<p><strong>How long are documents retained?</strong><br/>Documents are scheduled for deletion from active systems after analysis completes. Analysis results are retained for up to 30 days, then scheduled for deletion. See our <a href="/data-handling-policy.html">Data Handling Policy</a> for complete details.</p>
 <p><strong>Is my data shared with third parties?</strong><br/>No. Document data is never shared with third parties. See the <a href="/data-handling-policy.html">Data Handling Policy</a> for details.</p>
 
 <h2>Security Is Built Into Our Design</h2>
