@@ -1,8 +1,3 @@
-/indexnow-key.txt
-  Access-Control-Allow-Origin: *
-  Cache-Control: public, max-age=0, must-revalidate
-  Content-Type: text/plain; charset=utf-8
-
 /sitemap.xml
   Access-Control-Allow-Origin: *
   Content-Type: application/xml
@@ -10,3 +5,19 @@
 /robots.txt
   Access-Control-Allow-Origin: *
   Content-Type: text/plain
+
+# 301 Redirects - Cannibalization Fix
+/free-vs-paid-contract-review.html  /free-ai-contract-review-vs-paid-review.html  301
+/scan-my-invoice.html  /analyze-my-invoice.html  301
+/contract-risk-score.html  /ai-contract-risk-score.html  301
+/contract-risk-analysis.html  /contract-risk-assessment-guide.html  301
+/negotiate-bills.html  /bill-negotiation-resource-center.html  301
+/hidden-fee-intelligence-center.html  /hidden-fees-guides.html  301
+/hidden-fee-intelligence-engine.html  /hidden-fees-guides.html  301
+/hidden-fee-knowledge-center.html  /hidden-fees-guides.html  301
+/hidden-fees-resource-center.html  /hidden-fees-guides.html  301
+/hidden-fee-glossary.html  /hidden-fee-dictionary.html  301
+/editorial-methodology.html  /editorial-policy.html  301
+/consumer-negotiation-academy.html  /consumer-negotiation-resource-center.html  301
+/consumer-financial-intelligence-center.html  /hidden-fees-guides.html  301
+/ai-document-intelligence-center.html  /ai-analysis-hub.html  301
