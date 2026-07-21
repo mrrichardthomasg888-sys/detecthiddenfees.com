@@ -1,0 +1,319 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-07-21",
+  "description": "Internal linking map for 6 flagship AEO/GEO authority hubs. Defines hub pages, supporting pages, entity relationships, and navigation paths for DetectHiddenFees.com.",
+  "hubs": {
+    "aiFinancialAdvisor": {
+      "id": "hub-001",
+      "name": "AI Financial Advisor",
+      "entity": "aiFinancialAdvisor",
+      "hubPage": "ai-financial-advisor.html",
+      "implementationOrder": 6,
+      "priority": "P0",
+      "supportingPages": [
+        "ai-financial-assistant.html",
+        "ai-fee-detector.html",
+        "bill-savings-calculator.html",
+        "ai-pricing-analysis.html",
+        "ai-bill-negotiation.html",
+        "consumer-negotiation-resource-center.html"
+      ],
+      "relatedHubs": ["aiFinancialAnalysis", "hiddenFees"],
+      "primaryEntity": "AI Financial Advisor",
+      "secondaryEntities": ["AI Financial Analysis", "Hidden Fees", "Consumer Financial Transparency"],
+      "schemaTypes": ["Organization", "WebPage", "BreadcrumbList", "Article", "FAQPage", "SoftwareApplication"],
+      "navigationPaths": {
+        "breadcrumb": ["Home", "AI Financial Advisor"],
+        "primaryLinks": [
+          {"from": "ai-financial-advisor.html", "to": "ai-financial-assistant.html", "anchor": "Explore specific AI assistant capabilities", "placement": "body"},
+          {"from": "ai-financial-advisor.html", "to": "ai-fee-detector.html", "anchor": "How AI detects hidden fees in your accounts", "placement": "body"},
+          {"from": "ai-financial-advisor.html", "to": "bill-savings-calculator.html", "anchor": "Calculate your potential savings", "placement": "body"},
+          {"from": "ai-financial-advisor.html", "to": "ai-pricing-analysis.html", "anchor": "Understand pricing transparency", "placement": "body"},
+          {"from": "ai-financial-advisor.html", "to": "ai-bill-negotiation.html", "anchor": "Let AI help you negotiate lower bills", "placement": "body"},
+          {"from": "ai-financial-advisor.html", "to": "ai-financial-analysis.html", "anchor": "Related: AI financial document analysis", "placement": "related"}
+        ],
+        "inboundLinks": [
+          {"from": "ai-financial-assistant.html", "to": "ai-financial-advisor.html", "anchor": "Back to AI Financial Advisor overview"},
+          {"from": "ai-fee-detector.html", "to": "ai-financial-advisor.html", "anchor": "Part of AI Financial Advisor suite"},
+          {"from": "ai-pricing-analysis.html", "to": "ai-financial-advisor.html", "anchor": "How AI financial guidance works"}
+        ],
+        "ctaPlacement": [
+          {"position": "hero", "text": "Analyze Your Finances", "target": "analyze-my-bill.html"},
+          {"position": "mid-page", "text": "Calculate Your Savings", "target": "bill-savings-calculator.html"},
+          {"position": "end-of-page", "text": "Get Personalized Financial Guidance", "target": "ai-financial-assistant.html"}
+        ]
+      }
+    },
+    "aiFinancialAnalysis": {
+      "id": "hub-002",
+      "name": "AI Financial Analysis",
+      "entity": "aiFinancialAnalysis",
+      "hubPage": "ai-financial-analysis.html",
+      "implementationOrder": 4,
+      "priority": "P0",
+      "supportingPages": [
+        "ai-bill-analyzer.html",
+        "ai-invoice-analyzer.html",
+        "ai-statement-analyzer.html",
+        "ai-receipt-analyzer.html",
+        "ai-estimate-checker.html",
+        "ai-quote-analyzer.html",
+        "ai-bill-checker.html",
+        "ai-bill-analysis-vs-manual-review.html",
+        "best-ai-bill-analyzer-tools.html"
+      ],
+      "relatedHubs": ["aiFinancialAdvisor", "hiddenFees"],
+      "primaryEntity": "AI Financial Analysis",
+      "secondaryEntities": ["Hidden Fees", "Document Intelligence", "AI Financial Advisor"],
+      "schemaTypes": ["Organization", "WebPage", "BreadcrumbList", "Article", "FAQPage", "SoftwareApplication"],
+      "navigationPaths": {
+        "breadcrumb": ["Home", "AI Financial Analysis"],
+        "primaryLinks": [
+          {"from": "ai-financial-analysis.html", "to": "ai-bill-analyzer.html", "anchor": "Try our AI bill analyzer", "placement": "body"},
+          {"from": "ai-financial-analysis.html", "to": "ai-invoice-analyzer.html", "anchor": "Try our AI invoice analyzer", "placement": "body"},
+          {"from": "ai-financial-analysis.html", "to": "ai-statement-analyzer.html", "anchor": "Analyze your bank statements", "placement": "body"},
+          {"from": "ai-financial-analysis.html", "to": "ai-estimate-checker.html", "anchor": "Check your estimates for hidden fees", "placement": "body"},
+          {"from": "ai-financial-analysis.html", "to": "ai-quote-analyzer.html", "anchor": "Compare quotes with AI analysis", "placement": "body"},
+          {"from": "ai-financial-analysis.html", "to": "ai-bill-analysis-vs-manual-review.html", "anchor": "AI vs manual: Which is better?", "placement": "body"}
+        ],
+        "inboundLinks": [
+          {"from": "ai-bill-analyzer.html", "to": "ai-financial-analysis.html", "anchor": "How AI financial analysis works"},
+          {"from": "ai-invoice-analyzer.html", "to": "ai-financial-analysis.html", "anchor": "Part of AI financial analysis suite"},
+          {"from": "ai-statement-analyzer.html", "to": "ai-financial-analysis.html", "anchor": "Part of AI financial analysis suite"},
+          {"from": "ai-estimate-checker.html", "to": "ai-financial-analysis.html", "anchor": "How AI estimates analysis works"},
+          {"from": "ai-financial-advisor.html", "to": "ai-financial-analysis.html", "anchor": "Related financial analysis capabilities"}
+        ],
+        "ctaPlacement": [
+          {"position": "hero", "text": "Analyze Your First Document", "target": "analyze-my-bill.html"},
+          {"position": "mid-page", "text": "See What AI Can Find", "target": "ai-bill-analyzer.html"},
+          {"position": "end-of-page", "text": "Start Saving Today", "target": "analyze-my-document.html"}
+        ]
+      }
+    },
+    "aiContractReview": {
+      "id": "hub-003",
+      "name": "AI Contract Review",
+      "entity": "aiContractAnalysis",
+      "hubPage": "ai-contract-review.html",
+      "implementationOrder": 2,
+      "priority": "P0",
+      "supportingPages": [
+        "contract-analysis-ai.html",
+        "ai-contract-review-software.html",
+        "ai-contract-review-tool.html",
+        "analyze-my-contract.html",
+        "find-hidden-fees-in-contract.html",
+        "contract-risk-analysis.html",
+        "contract-red-flags.html",
+        "ai-contract-review-vs-lawyer-review.html",
+        "ai-contract-review-vs-chatgpt.html",
+        "before-signing-contract-checklist.html",
+        "contract-review-checklist.html",
+        "ai-contract-analysis.html",
+        "ai-contract-risk-score.html",
+        "contract-red-flag-checker.html"
+      ],
+      "relatedHubs": ["aiAgreementAnalyzer", "aiConstructionContractReview", "hiddenFees"],
+      "primaryEntity": "AI Contract Analysis",
+      "secondaryEntities": ["Contract Risk Analysis", "Hidden Fees", "Document Intelligence"],
+      "schemaTypes": ["Organization", "WebPage", "BreadcrumbList", "Article", "FAQPage", "SoftwareApplication"],
+      "navigationPaths": {
+        "breadcrumb": ["Home", "AI Contract Review"],
+        "primaryLinks": [
+          {"from": "ai-contract-review.html", "to": "contract-risk-analysis.html", "anchor": "How AI assesses contract risk", "placement": "body"},
+          {"from": "ai-contract-review.html", "to": "contract-red-flags.html", "anchor": "Common contract red flags AI detects", "placement": "body"},
+          {"from": "ai-contract-review.html", "to": "ai-contract-review-vs-lawyer-review.html", "anchor": "AI vs lawyer: Honest comparison", "placement": "body"},
+          {"from": "ai-contract-review.html", "to": "ai-contract-review-software.html", "anchor": "Features of our contract review software", "placement": "body"},
+          {"from": "ai-contract-review.html", "to": "analyze-my-contract.html", "anchor": "Upload your contract for AI analysis", "placement": "body"},
+          {"from": "ai-contract-review.html", "to": "before-signing-contract-checklist.html", "anchor": "What to check before signing", "placement": "body"},
+          {"from": "ai-contract-review.html", "to": "ai-contract-review-vs-chatgpt.html", "anchor": "AI vs ChatGPT comparison", "placement": "body"}
+        ],
+        "inboundLinks": [
+          {"from": "contract-risk-analysis.html", "to": "ai-contract-review.html", "anchor": "Back to AI contract review hub"},
+          {"from": "contract-red-flags.html", "to": "ai-contract-review.html", "anchor": "How AI detects these red flags"},
+          {"from": "analyze-my-contract.html", "to": "ai-contract-review.html", "anchor": "How AI contract review works"},
+          {"from": "ai-contract-review-software.html", "to": "ai-contract-review.html", "anchor": "Part of AI contract review suite"},
+          {"from": "before-signing-contract-checklist.html", "to": "ai-contract-review.html", "anchor": "Related: AI contract review"}
+        ],
+        "ctaPlacement": [
+          {"position": "hero", "text": "Review Your Contract Now", "target": "analyze-my-contract.html"},
+          {"position": "mid-page", "text": "Check for Red Flags", "target": "contract-red-flag-checker.html"},
+          {"position": "end-of-page", "text": "Get Your Contract Risk Score", "target": "ai-contract-risk-score.html"}
+        ]
+      }
+    },
+    "aiConstructionContractReview": {
+      "id": "hub-004",
+      "name": "AI Construction Contract Review",
+      "entity": "aiConstructionContractReview",
+      "hubPage": "ai-construction-contract-review.html",
+      "implementationOrder": 5,
+      "priority": "P0",
+      "supportingPages": [
+        "ai-contractor-agreement-review.html",
+        "change-order-fees.html",
+        "hidden-home-renovation-fees.html",
+        "hidden-hvac-contractor-fees.html",
+        "estimate-vs-quote.html",
+        "ai-estimate-review.html",
+        "ai-quote-review.html",
+        "ai-proposal-review.html",
+        "ai-purchase-agreement-review.html"
+      ],
+      "relatedHubs": ["aiContractReview", "hiddenFees"],
+      "primaryEntity": "AI Contract Analysis (Construction Contracts)",
+      "secondaryEntities": ["Hidden Fees", "Consumer Financial Transparency", "Document Intelligence"],
+      "schemaTypes": ["Organization", "WebPage", "BreadcrumbList", "Article", "FAQPage"],
+      "navigationPaths": {
+        "breadcrumb": ["Home", "AI Contract Review", "AI Construction Contract Review"],
+        "primaryLinks": [
+          {"from": "ai-construction-contract-review.html", "to": "change-order-fees.html", "anchor": "How change orders hide construction costs", "placement": "body"},
+          {"from": "ai-construction-contract-review.html", "to": "hidden-home-renovation-fees.html", "anchor": "Hidden renovation fee guide", "placement": "body"},
+          {"from": "ai-construction-contract-review.html", "to": "hidden-hvac-contractor-fees.html", "anchor": "HVAC-specific hidden fees", "placement": "body"},
+          {"from": "ai-construction-contract-review.html", "to": "estimate-vs-quote.html", "anchor": "Understanding estimates vs binding quotes", "placement": "body"},
+          {"from": "ai-construction-contract-review.html", "to": "ai-estimate-review.html", "anchor": "Review your contractor estimate", "placement": "body"},
+          {"from": "ai-construction-contract-review.html", "to": "ai-contractor-agreement-review.html", "anchor": "Analyze your contractor agreement", "placement": "body"}
+        ],
+        "inboundLinks": [
+          {"from": "change-order-fees.html", "to": "ai-construction-contract-review.html", "anchor": "Back to construction contract review"},
+          {"from": "hidden-home-renovation-fees.html", "to": "ai-construction-contract-review.html", "anchor": "AI construction contract review overview"},
+          {"from": "estimate-vs-quote.html", "to": "ai-construction-contract-review.html", "anchor": "How AI reviews construction documents"},
+          {"from": "ai-estimate-review.html", "to": "ai-construction-contract-review.html", "anchor": "Part of construction contract review suite"},
+          {"from": "hidden-hvac-contractor-fees.html", "to": "ai-construction-contract-review.html", "anchor": "Related: construction contract review"}
+        ],
+        "ctaPlacement": [
+          {"position": "hero", "text": "Analyze Your Construction Contract", "target": "analyze-my-contract.html"},
+          {"position": "mid-page", "text": "Check Your Contractor's Estimate", "target": "ai-estimate-review.html"},
+          {"position": "end-of-page", "text": "Get a Risk Assessment", "target": "ai-contract-risk-score.html"}
+        ]
+      }
+    },
+    "aiAgreementAnalyzer": {
+      "id": "hub-005",
+      "name": "AI Agreement Analyzer",
+      "entity": "aiAgreementAnalyzer",
+      "hubPage": "ai-agreement-analyzer.html",
+      "implementationOrder": 3,
+      "priority": "P0",
+      "supportingPages": [
+        "ai-agreement-checker.html",
+        "ai-lease-review.html",
+        "ai-rental-lease-analyzer.html",
+        "ai-commercial-lease-review.html",
+        "ai-service-contract-review.html",
+        "ai-purchase-agreement-review.html",
+        "ai-software-license-review.html",
+        "ai-consulting-agreement-review.html",
+        "ai-employment-contract-review.html",
+        "ai-freelance-contract-review.html",
+        "ai-vendor-contract-review.html"
+      ],
+      "relatedHubs": ["aiContractReview", "hiddenFees"],
+      "primaryEntity": "AI Agreement Analyzer",
+      "secondaryEntities": ["AI Contract Analysis", "Hidden Fees", "Document Intelligence"],
+      "schemaTypes": ["Organization", "WebPage", "BreadcrumbList", "Article", "FAQPage", "SoftwareApplication"],
+      "navigationPaths": {
+        "breadcrumb": ["Home", "AI Agreement Analyzer"],
+        "primaryLinks": [
+          {"from": "ai-agreement-analyzer.html", "to": "ai-lease-review.html", "anchor": "Analyze your lease agreement", "placement": "body"},
+          {"from": "ai-agreement-analyzer.html", "to": "ai-employment-contract-review.html", "anchor": "Review employment contracts", "placement": "body"},
+          {"from": "ai-agreement-analyzer.html", "to": "ai-service-contract-review.html", "anchor": "Check service agreements", "placement": "body"},
+          {"from": "ai-agreement-analyzer.html", "to": "ai-software-license-review.html", "anchor": "Review software license terms", "placement": "body"},
+          {"from": "ai-agreement-analyzer.html", "to": "ai-rental-lease-analyzer.html", "anchor": "Analyze rental leases", "placement": "body"},
+          {"from": "ai-agreement-analyzer.html", "to": "ai-freelance-contract-review.html", "anchor": "Review freelance contracts", "placement": "body"},
+          {"from": "ai-agreement-analyzer.html", "to": "ai-consulting-agreement-review.html", "anchor": "Analyze consulting agreements", "placement": "body"},
+          {"from": "ai-agreement-analyzer.html", "to": "ai-agreement-checker.html", "anchor": "Quick agreement checker tool", "placement": "body"}
+        ],
+        "inboundLinks": [
+          {"from": "ai-lease-review.html", "to": "ai-agreement-analyzer.html", "anchor": "Back to agreement analyzer"},
+          {"from": "ai-employment-contract-review.html", "to": "ai-agreement-analyzer.html", "anchor": "Back to agreement analyzer"},
+          {"from": "ai-service-contract-review.html", "to": "ai-agreement-analyzer.html", "anchor": "Part of agreement analyzer suite"},
+          {"from": "ai-software-license-review.html", "to": "ai-agreement-analyzer.html", "anchor": "Part of agreement analyzer suite"},
+          {"from": "ai-rental-lease-analyzer.html", "to": "ai-agreement-analyzer.html", "anchor": "Back to agreement analyzer"}
+        ],
+        "ctaPlacement": [
+          {"position": "hero", "text": "Analyze Your Agreement", "target": "ai-agreement-checker.html"},
+          {"position": "mid-page", "text": "Find Hidden Fees in Your Lease", "target": "ai-lease-review.html"},
+          {"position": "end-of-page", "text": "Upload Any Agreement for Review", "target": "analyze-my-document.html"}
+        ]
+      }
+    },
+    "hiddenFees": {
+      "id": "hub-006",
+      "name": "Hidden Fee Detection",
+      "entity": "hiddenFees",
+      "hubPage": "hidden-fees-guides.html",
+      "implementationOrder": 1,
+      "priority": "P0",
+      "supportingPages": [
+        "check-my-fees.html",
+        "free-hidden-fee-scanner.html",
+        "hidden-bank-overdraft-fees.html",
+        "hidden-dealership-financing-fees.html",
+        "hidden-home-renovation-fees.html",
+        "hidden-hvac-contractor-fees.html",
+        "duplicate-medical-billing-charges.html",
+        "early-termination-fees.html",
+        "cancellation-fee-clauses.html",
+        "automatic-renewal-clauses.html",
+        "arbitration-clauses-explained.html",
+        "fee-negotiation-checklist.html",
+        "fee-removal-request-template.html",
+        "consumer-fee-trends-report.html",
+        "change-order-fees.html"
+      ],
+      "relatedHubs": ["aiFinancialAnalysis", "aiContractReview", "aiConstructionContractReview"],
+      "primaryEntity": "Hidden Fees",
+      "secondaryEntities": ["Consumer Financial Transparency", "Pricing Transparency", "AI Financial Analysis", "AI Contract Analysis"],
+      "schemaTypes": ["Organization", "WebPage", "BreadcrumbList", "Article", "FAQPage"],
+      "navigationPaths": {
+        "breadcrumb": ["Home", "Hidden Fee Guides"],
+        "primaryLinks": [
+          {"from": "hidden-fees-guides.html", "to": "hidden-bank-overdraft-fees.html", "anchor": "Banking hidden fees guide", "placement": "body"},
+          {"from": "hidden-fees-guides.html", "to": "hidden-dealership-financing-fees.html", "anchor": "Auto financing hidden fees", "placement": "body"},
+          {"from": "hidden-fees-guides.html", "to": "hidden-hvac-contractor-fees.html", "anchor": "HVAC hidden fees guide", "placement": "body"},
+          {"from": "hidden-fees-guides.html", "to": "hidden-home-renovation-fees.html", "anchor": "Renovation hidden fees guide", "placement": "body"},
+          {"from": "hidden-fees-guides.html", "to": "duplicate-medical-billing-charges.html", "anchor": "Medical billing fee guide", "placement": "body"},
+          {"from": "hidden-fees-guides.html", "to": "early-termination-fees.html", "anchor": "Early termination fee guide", "placement": "body"},
+          {"from": "hidden-fees-guides.html", "to": "free-hidden-fee-scanner.html", "anchor": "Scan your documents for hidden fees", "placement": "body"},
+          {"from": "hidden-fees-guides.html", "to": "fee-negotiation-checklist.html", "anchor": "Fee negotiation checklist", "placement": "body"},
+          {"from": "hidden-fees-guides.html", "to": "consumer-fee-trends-report.html", "anchor": "Latest fee trend data", "placement": "body"}
+        ],
+        "inboundLinks": [
+          {"from": "hidden-bank-overdraft-fees.html", "to": "hidden-fees-guides.html", "anchor": "See all hidden fee guides"},
+          {"from": "hidden-dealership-financing-fees.html", "to": "hidden-fees-guides.html", "anchor": "Back to hidden fee guides"},
+          {"from": "early-termination-fees.html", "to": "hidden-fees-guides.html", "anchor": "More hidden fee types"},
+          {"from": "free-hidden-fee-scanner.html", "to": "hidden-fees-guides.html", "anchor": "Comprehensive hidden fee guide"},
+          {"from": "fee-negotiation-checklist.html", "to": "hidden-fees-guides.html", "anchor": "Hidden fee types explained"}
+        ],
+        "ctaPlacement": [
+          {"position": "hero", "text": "Scan for Hidden Fees", "target": "free-hidden-fee-scanner.html"},
+          {"position": "mid-page", "text": "Check Your Specific Fees", "target": "check-my-fees.html"},
+          {"position": "end-of-page", "text": "Get Your Fee Removal Template", "target": "fee-removal-request-template.html"}
+        ]
+      }
+    }
+  },
+  "crossHubConnections": [
+    {"from": "aiFinancialAdvisor", "to": "aiFinancialAnalysis", "type": "related_service", "context": "AI financial advisor uses financial analysis capabilities"},
+    {"from": "aiFinancialAdvisor", "to": "hiddenFees", "type": "related_domain", "context": "Financial advisor detects hidden fees"},
+    {"from": "aiFinancialAnalysis", "to": "hiddenFees", "type": "related_domain", "context": "Financial analysis finds hidden fees"},
+    {"from": "aiContractReview", "to": "aiAgreementAnalyzer", "type": "broader_narrower", "context": "Agreement analyzer is a broader category than contract review"},
+    {"from": "aiContractReview", "to": "aiConstructionContractReview", "type": "broader_narrower", "context": "Construction contract review is a subtype of contract review"},
+    {"from": "aiContractReview", "to": "hiddenFees", "type": "related_domain", "context": "Contract review detects hidden fees in agreements"},
+    {"from": "aiAgreementAnalyzer", "to": "aiContractReview", "type": "broader_narrower", "context": "Contract review is a subtype of agreement analysis"},
+    {"from": "aiAgreementAnalyzer", "to": "hiddenFees", "type": "related_domain", "context": "Agreement analysis detects hidden fee clauses"},
+    {"from": "aiConstructionContractReview", "to": "hiddenFees", "type": "related_domain", "context": "Construction review finds hidden building costs"},
+    {"from": "hiddenFees", "to": "aiFinancialAnalysis", "type": "detected_by", "context": "Hidden fees detected by AI financial analysis"},
+    {"from": "hiddenFees", "to": "aiContractReview", "type": "detected_by", "context": "Hidden fees detected by AI contract review"}
+  ],
+  "globalNavigation": {
+    "hubOrder": ["hiddenFees", "aiContractReview", "aiAgreementAnalyzer", "aiFinancialAnalysis", "aiConstructionContractReview", "aiFinancialAdvisor"],
+    "footerSitemap": {
+      "column1": {"title": "Hidden Fees", "links": ["hidden-fees-guides.html", "free-hidden-fee-scanner.html", "fee-negotiation-checklist.html", "consumer-fee-trends-report.html"]},
+      "column2": {"title": "AI Contract Review", "links": ["ai-contract-review.html", "contract-risk-analysis.html", "contract-red-flags.html", "analyze-my-contract.html"]},
+      "column3": {"title": "AI Agreement Analyzer", "links": ["ai-agreement-analyzer.html", "ai-lease-review.html", "ai-employment-contract-review.html", "ai-service-contract-review.html"]},
+      "column4": {"title": "AI Financial", "links": ["ai-financial-analysis.html", "ai-financial-advisor.html", "ai-bill-analyzer.html", "bill-savings-calculator.html"]}
+    }
+  }
+}

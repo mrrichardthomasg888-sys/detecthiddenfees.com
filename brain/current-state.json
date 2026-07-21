@@ -1,6 +1,6 @@
 {
   "project": "DetectHiddenFees.com",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "lastUpdated": "2026-07-21",
   "status": "active",
   "environment": "production",
@@ -24,6 +24,9 @@
     "questionsInDatabase": 30,
     "prioritizedTopics": 10,
     "improvementQueueTasks": 15,
+    "contentBriefs": 6,
+    "hubLinkingMapVersion": "1.0.0",
+    "authorityHubBuildPlan": true,
     "totalAuditFindings": {
       "criticalFindings": 3,
       "highFindings": 8,
@@ -63,6 +66,12 @@
       "name": "Cannibalization fix",
       "completedDate": "2026-07-17",
       "description": "301 redirects for duplicate/cannibalized pages"
+    },
+    {
+      "id": "MISSION-006",
+      "name": "Flagship AEO/GEO Authority Hubs — Strategy",
+      "completedDate": "2026-07-21",
+      "description": "Created authority hub build plan for 6 flagship hubs, 6 detailed content briefs, and hub linking map with cross-hub connections, internal linking strategy, and global navigation"
     }
   ],
 
@@ -106,33 +115,51 @@
       "startedDate": "2026-07-21",
       "completedDate": "2026-07-21",
       "description": "Built structured knowledge graph: entities v2.0 (8 entities with relationships), entity relationship map (37 relationships), topical authority map (9 topics), glossary (13 terms), entity content rules (5 rules), and machine-readable authority file"
+    },
+    {
+      "id": "HUBS-001",
+      "name": "Flagship AEO/GEO Authority Hubs — Strategy Phase",
+      "status": "complete",
+      "startedDate": "2026-07-21",
+      "completedDate": "2026-07-21",
+      "description": "Created authority hub build plan (tasks/authority-hub-build-plan.md), 6 detailed content briefs (knowledge/content-briefs/), and hub linking map (knowledge/hub-linking-map.json) for 6 flagship hubs: Hidden Fee Detection, AI Contract Review, AI Agreement Analyzer, AI Financial Analysis, AI Construction Contract Review, AI Financial Advisor"
+    }
+  ],
+
+  "pendingTasks": [
+    {
+      "id": "HUBS-002",
+      "name": "Flagship AEO/GEO Authority Hubs — Content Writing Phase",
+      "priority": 1,
+      "category": "Content",
+      "description": "Write the actual hub HTML pages using content briefs as guides. Implementation order: 1. Hidden Fee Detection, 2. AI Contract Review, 3. AI Agreement Analyzer, 4. AI Financial Analysis, 5. AI Construction Contract Review, 6. AI Financial Advisor"
     }
   ],
 
   "nextPriorities": [
     {
       "priority": 1,
+      "task": "HUBS-002: Write flagship authority hub HTML pages (6 hubs)",
+      "category": "Content"
+    },
+    {
+      "priority": 2,
       "task": "P0-1: Add navigation menu to all pages",
       "category": "Infrastructure"
     },
     {
-      "priority": 2,
+      "priority": 3,
       "task": "P0-2: Standardize brand name to DetectHiddenFees",
       "category": "Brand"
     },
     {
-      "priority": 3,
+      "priority": 4,
       "task": "P0-3: Remove/convert v1 legacy pages",
       "category": "Design"
     },
     {
-      "priority": 4,
-      "task": "P1-1: Consolidate AI Contract Review entity (3 pages → 1)",
-      "category": "Content"
-    },
-    {
       "priority": 5,
-      "task": "Execute priority topics rank 1-3 (Pillar consolidations)",
+      "task": "P1-1: Consolidate AI Contract Review entity (3 pages → 1)",
       "category": "Content"
     }
   ],
@@ -163,6 +190,35 @@
       "status": "growing",
       "description": "AI methodology, accuracy, comparisons"
     }
+  },
+
+  "hubSystems": {
+    "authorityHubBuildPlan": true,
+    "contentBriefs": {
+      "total": 6,
+      "hubs": [
+        {"id": "CB-001", "name": "AI Financial Advisor", "status": "draft"},
+        {"id": "CB-002", "name": "AI Financial Analysis", "status": "draft"},
+        {"id": "CB-003", "name": "AI Contract Review", "status": "draft"},
+        {"id": "CB-004", "name": "AI Construction Contract Review", "status": "draft"},
+        {"id": "CB-005", "name": "AI Agreement Analyzer", "status": "draft"},
+        {"id": "CB-006", "name": "Hidden Fee Detection", "status": "draft"}
+      ]
+    },
+    "hubLinkingMap": {
+      "version": "1.0.0",
+      "totalHubs": 6,
+      "crossHubConnections": 11,
+      "globalNavigation": true
+    },
+    "implementationOrder": [
+      {"order": 1, "hub": "Hidden Fee Detection", "hubPage": "hidden-fees-guides.html"},
+      {"order": 2, "hub": "AI Contract Review", "hubPage": "ai-contract-review.html"},
+      {"order": 3, "hub": "AI Agreement Analyzer", "hubPage": "ai-agreement-analyzer.html"},
+      {"order": 4, "hub": "AI Financial Analysis", "hubPage": "ai-financial-analysis.html"},
+      {"order": 5, "hub": "AI Construction Contract Review", "hubPage": "ai-construction-contract-review.html"},
+      {"order": 6, "hub": "AI Financial Advisor", "hubPage": "ai-financial-advisor.html"}
+    ]
   },
 
   "auditsCompleted": 4,
