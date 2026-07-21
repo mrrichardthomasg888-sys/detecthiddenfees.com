@@ -2,6 +2,10 @@
   Access-Control-Allow-Origin: *
   Content-Type: application/xml
 
+/sitemap.xsl
+  Access-Control-Allow-Origin: *
+  Content-Type: application/xml
+
 /robots.txt
   Access-Control-Allow-Origin: *
   Content-Type: text/plain
