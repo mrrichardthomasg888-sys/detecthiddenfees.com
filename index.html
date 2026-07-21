@@ -53,16 +53,18 @@
 
     <!-- Schema: Organization -->
     <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "DetectHiddenFees",
-            "url": "https://detecthiddenfees.com",
-            "logo": "https://detecthiddenfees.com/logo.png",
-            "description": "AI-powered hidden fee detection platform that analyzes contracts, invoices, and financial documents for hidden costs, pricing manipulation, and deceptive billing practices.",
-            "foundingDate": "2025",
-            "sameAs": ["https://hiddenfeeai.com"]
-        }
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "DetectHiddenFees",
+        "url": "https://detecthiddenfees.com",
+        "logo": "https://detecthiddenfees.com/logo.png",
+        "description": "AI-powered hidden fee detection platform that analyzes contracts, invoices, and financial documents for hidden costs, pricing manipulation, and deceptive billing practices.",
+        "foundingDate": "2025",
+        "knowsAbout": ["Hidden Fee Detection", "Contract Analysis", "Financial Document Intelligence", "AI Financial Analysis", "Consumer Financial Transparency"],
+        "sameAs": ["https://hiddenfeeai.com"],
+        "brand": { "@type": "Brand", "name": "DetectHiddenFees" }
+    }
     </script>
 
     <!-- Schema: WebSite -->
@@ -72,6 +74,7 @@
             "@type": "WebSite",
             "name": "DetectHiddenFees",
             "url": "https://detecthiddenfees.com",
+            "description": "AI-powered hidden fee detection and financial document analysis platform.",
             "potentialAction": {
                 "@type": "SearchAction",
                 "target": "https://detecthiddenfees.com/search?q={search_term_string}",
@@ -101,14 +104,118 @@
             "url": "https://detecthiddenfees.com/",
             "inLanguage": "en-US",
             "datePublished": "2025-06-01",
-            "dateModified": "2026-07-17"
+            "dateModified": "2026-07-21"
         }
     </script>
 
     <!-- Schema: SoftwareApplication -->
-    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "HiddenFeeAI by DetectHiddenFees",
+        "operatingSystem": "Web",
+        "applicationCategory": "FinanceApplication",
+        "description": "AI-powered financial document analysis platform that detects hidden fees, pricing risks, and deceptive billing practices across contracts, invoices, bills, and financial statements.",
+        "url": "https://hiddenfeeai.com",
+        "offers": { "@type": "Offer", "price": "15.00", "priceCurrency": "USD" },
+        "author": { "@type": "Organization", "name": "DetectHiddenFees" },
+        "applicationSubCategory": "Hidden Fee Detection",
+        "featureList": "Hidden fee detection, contract risk analysis, invoice verification, pricing benchmark comparison, savings opportunity scoring"
+    }
+    </script>
 
-    <!-- Schema: Service -->
+    <!-- Schema: Article -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Hidden Fees Exposed: AI That Catches What Contracts Don't Tell You",
+        "description": "DetectHiddenFees is an AI-powered financial protection platform that finds hidden fees in contracts, invoices, estimates, bills, and financing documents.",
+        "author": { "@type": "Organization", "name": "DetectHiddenFees Research Team", "url": "https://detecthiddenfees.com/about-detect-hidden-fees.html" },
+        "publisher": { "@type": "Organization", "name": "DetectHiddenFees", "url": "https://detecthiddenfees.com", "logo": { "@type": "ImageObject", "url": "https://detecthiddenfees.com/logo.png" } },
+        "datePublished": "2025-06-01",
+        "dateModified": "2026-07-21",
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://detecthiddenfees.com/" },
+        "image": "https://detecthiddenfees.com/og-image.png",
+        "about": { "@type": "Thing", "name": "Hidden Fee Detection", "description": "AI-powered forensic analysis to identify hidden fees, pricing manipulation, and deceptive billing in financial documents." },
+        "keywords": "hidden fees, AI fee detection, contract review, invoice analysis, pricing manipulation, consumer protection"
+    }
+    </script>
+
+    <!-- Schema: FAQPage -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "What is DetectHiddenFees?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "DetectHiddenFees is an AI-powered financial protection platform that analyzes contracts, invoices, estimates, bills, and financing documents to identify hidden fees, pricing risks, and deceptive billing practices. The platform uses proprietary pattern recognition and market benchmarking to flag charges that consumers may miss during manual review."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How does AI hidden fee detection work?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "AI hidden fee detection uses natural language processing and machine learning to scan financial documents for vague fee descriptions, above-market markups, duplicate charges, and pricing structures commonly associated with hidden costs. The AI compares each line item against a library of known fee patterns and benchmarks pricing against market data to flag potential risks."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What types of documents can I analyze?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You can analyze contracts, invoices, estimates, proposals, HVAC proposals, renovation agreements, dealership financing contracts, medical bills, bank statements, insurance policies, service agreements, and other structured financial documents."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How much does a HiddenFeeAI analysis cost?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "HiddenFeeAI offers one-time document analysis for $15 with no subscription required. There are no recurring fees, membership costs, or hidden charges for the analysis service."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What types of hidden fees can AI detect?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "AI can detect numerous hidden fee types: inflated material markups, duplicate charges, vague miscellaneous fees, undisclosed administrative fees, above-market pricing, automatic renewal charges, early termination penalties, price escalation clauses, and loan packing in financing agreements."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Is my document data secure?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Documents are processed securely through encrypted connections. Your documents are not used for AI training and are not sold to third parties. Analysis results are provided to you and not shared without your consent."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Can AI hidden fee detection replace professional advice?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "AI hidden fee detection helps identify potential pricing issues and provides negotiation talking points. It does not replace licensed attorneys, accountants, or certified financial professionals. Always consult a qualified professional for legal or financial advice regarding significant contracts or financial decisions."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How do I upload a document for analysis?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Click the \"Analyze My Document With AI\" button on this page to go to HiddenFeeAI. From there, you can upload your document in PDF, image, Word, or text format. The AI processes the document and provides analysis results with specific findings."
+            }
+        }
+        ]
+    }
+    </script>
     
 
     <style>

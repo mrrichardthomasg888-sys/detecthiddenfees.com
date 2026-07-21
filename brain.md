@@ -44,7 +44,7 @@ The website must become a trusted consumer protection resource — not just a si
 | AEO/GEO Authority Audit | ✅ Complete |
 | Content Intelligence & Priority Topics | ✅ Complete |
 | Sitemap Governance Rules | ✅ Complete |
-| Flagship Hubs: AI Financial Advisor | ✅ Complete |
+| Flagship Hubs: AI Financial Advisor | ✅ Complete — MASTER GOLD STANDARD |
 | Flagship Hubs: AI Contract Review | ✅ Complete |
 | Flagship Hubs: AI Construction Contract Review | ✅ Complete |
 
@@ -60,7 +60,59 @@ The website must become a trusted consumer protection resource — not just a si
 
 ## CONTENT AUTHORITY STANDARD
 
-**The AI Financial Advisor Guide (ai-financial-advisor.html) is the master content blueprint.**
+**The AI Financial Advisor Guide (ai-financial-advisor.html) is the master GOLD STANDARD content blueprint.**
+
+### MANDATORY DIRECTIVE - SITE-WIDE GOLD STANDARD UPGRADE
+> Every page on DetectHiddenFees.com MUST be upgraded to match or exceed the AI Financial Advisor page quality level.
+> This is a permanent, non-negotiable standard for ALL content on this domain.
+> Any page that does not meet this standard must be considered incomplete.
+
+### Upgrade Requirements for Every Page
+Every page on the site MUST include:
+1. Original DetectHiddenFees research introduction
+2. Proprietary DetectHiddenFees methodologies and frameworks
+3. AI Retrieval / LLM Quick Answer blocks (minimum 6)
+4. Knowledge graph section with internal links
+5. Original definitions and concepts (minimum 6)
+6. Extensive FAQ section (minimum 8-12 questions)
+7. Long educational sections with practical guidance
+8. E-E-A-T trust signals (research team, editorial links, disclaimers)
+9. Accuracy and limitation disclosures
+10. Strong internal linking (minimum 8 related resources)
+11. Table of contents with anchor links
+12. Proprietary scoring systems or taxonomies where applicable
+13. Conditional language - never guarantee outcomes
+14. Mobile-first formatting
+
+### Claims Audit Requirement
+Every claim on every page must be:
+- Supported by evidence OR
+- Clearly explained as methodology OR
+- Written with conditional language
+Remove: unsupported statistics, unsupported percentages, unsupported savings claims, fabricated case studies, unrealistic marketing claims, generic AI filler, thin SEO content.
+
+### Page Priority for Upgrade
+Tier 1 (CRITICAL - flagship pages): index.html, hidden-fees-guides.html, ai-contract-review.html, ai-bill-analyzer.html, ai-financial-analysis.html
+Tier 2 (HIGH - hub pages): ai-analysis-hub.html, ai-document-intelligence-center.html, bill-negotiation-resource-center.html, ai-contract-resource-center.html, consumer-financial-intelligence-center.html
+Tier 3 (MEDIUM - supporting pages): All remaining AI tool pages, contract pages, bill pages, negotiation pages
+Tier 4 (LOWER - utility pages): glossary, calculators, legal pages, contact
+Tier 5 (MINIMAL - thin pages): Redirect or merge into parent hubs
+
+### Upgrade Checklist (per page)
+- [ ] Audit claims and rewrite unsupported content
+- [ ] Add original research introduction
+- [ ] Add proprietary methodology/framework
+- [ ] Add AI Retrieval Q&A blocks (6+)
+- [ ] Add Knowledge Graph section
+- [ ] Add original definitions (6+)
+- [ ] Expand FAQ (8-12 questions)
+- [ ] Improve E-E-A-T signals
+- [ ] Improve schema (Organization, SoftwareApp, Article, Breadcrumb, FAQPage, HowTo as needed)
+- [ ] Improve internal linking
+- [ ] Add table of contents
+- [ ] Verify mobile responsiveness
+- [ ] Preserve premium design
+- [ ] Compare against ai-financial-advisor.html standard
 
 Every future SEO page must match this quality level.
 
