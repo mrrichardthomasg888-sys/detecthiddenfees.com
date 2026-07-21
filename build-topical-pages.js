@@ -46,8 +46,8 @@ function makeMeta(kw, title, desc, h1) {
   const slug = kw.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
   const url = `https://detecthiddenfees.com/${slug}.html`;
   const breadcrumb = [
-    { position: 1, name: 'Home', item: 'https://detecthiddenfees.com/' },
-    { position: 2, name: title.replace(' | DetectHiddenFees', '').substring(0, 50), item: url }
+    { "@type": "ListItem", position: 1, name: 'Home', item: 'https://detecthiddenfees.com/' },
+    { "@type": "ListItem", position: 2, name: title.replace(' | DetectHiddenFees', ''), item: url }
   ];
   const faqItems = [
     { name: 'How does AI document analysis work?', text: 'AI document analysis uses natural language processing and machine learning to scan documents for hidden fees, unfavorable terms, pricing errors, and other risks. The AI compares your document against patterns from thousands of similar documents.' },
