@@ -1,0 +1,10 @@
+# Templates Directory
+
+Reusable page templates go here.
+
+Templates should include:
+- Base HTML page template (matching design system)
+- Navigation component
+- Footer component
+- Schema.org boilerplate
+- AEO content section templates

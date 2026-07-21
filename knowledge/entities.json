@@ -1,0 +1,314 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-07-21",
+  "entities": {
+    "detectHiddenFees": {
+      "id": "entity-org-001",
+      "name": "DetectHiddenFees",
+      "type": "Organization",
+      "description": "AI-powered hidden fee detection and consumer financial transparency platform",
+      "properties": {
+        "founded": "2025",
+        "domain": "detecthiddenfees.com",
+        "category": ["Financial Technology", "Consumer Protection"],
+        "audience": ["Consumers", "Contract Signers", "Bill Payers"],
+        "methodology": ["AI document analysis", "Pattern recognition", "Market comparison"],
+        "coverage": ["Contracts", "Invoices", "Bills", "Estimates", "Agreements", "Financial Statements"]
+      },
+      "sameAs": ["hiddenfeeai.com"],
+      "relationships": {
+        "detects": ["hiddenFees"],
+        "provides": ["aiContractAnalysis", "aiFinancialAnalysis"],
+        "offers": ["aiFinancialAdvisor"],
+        "promotes": ["consumerFinancialTransparency"],
+        "performs": ["contractRiskAnalysis"],
+        "powers": ["documentIntelligence"]
+      }
+    },
+    "hiddenFees": {
+      "id": "entity-concept-001",
+      "name": "Hidden Fees",
+      "type": "Concept",
+      "description": "Charges not clearly disclosed, buried in fine print, or disguised under vague terminology",
+      "subtypes": [
+        {
+          "name": "Overdraft Fees",
+          "category": "Banking",
+          "page": "hidden-bank-overdraft-fees.html"
+        },
+        {
+          "name": "Dealer Markup Fees",
+          "category": "Automotive",
+          "page": "hidden-dealership-financing-fees.html"
+        },
+        {
+          "name": "Change Order Fees",
+          "category": "Construction",
+          "page": "change-order-fees.html"
+        },
+        {
+          "name": "Material Upcharge Fees",
+          "category": "HVAC/Renovation",
+          "page": "hidden-home-renovation-fees.html"
+        },
+        {
+          "name": "Duplicate Billing Charges",
+          "category": "Medical",
+          "page": "duplicate-medical-billing-charges.html"
+        },
+        {
+          "name": "Early Termination Fees",
+          "category": "Contracts",
+          "page": "early-termination-fees.html"
+        },
+        {
+          "name": "Automatic Renewal Fees",
+          "category": "Subscriptions",
+          "page": "automatic-renewal-clauses.html"
+        },
+        {
+          "name": "HVAC Contractor Fees",
+          "category": "HVAC",
+          "page": "hidden-hvac-contractor-fees.html"
+        },
+        {
+          "name": "Cancellation Fees",
+          "category": "Contracts",
+          "page": "cancellation-fee-clauses.html"
+        }
+      ],
+      "consumerImpact": "Billions lost annually to undisclosed fees",
+      "relationships": {
+        "detectedBy": ["detectHiddenFees", "aiContractAnalysis", "aiFinancialAnalysis"],
+        "combatedBy": ["consumerFinancialTransparency"],
+        "foundIn": ["contracts", "invoices", "bills", "bankStatements"]
+      }
+    },
+    "aiContractAnalysis": {
+      "id": "entity-concept-002",
+      "name": "AI Contract Analysis",
+      "type": "Service",
+      "description": "AI-powered review and analysis of legal agreements to identify risks, hidden costs, and unfavorable terms",
+      "properties": {
+        "speed": "Minutes vs. days",
+        "cost": "Free/low-cost vs. $500+/hour for attorneys",
+        "coverage": "Pattern recognition across thousands of contract types",
+        "accuracy": "85-95% for fee and risk detection",
+        "limitation": "Not a substitute for legal advice"
+      },
+      "relatedPages": [
+        "ai-contract-review.html",
+        "ai-contract-analysis.html",
+        "contract-analysis-ai.html",
+        "ai-contract-review-software.html",
+        "ai-contract-review-tool.html",
+        "analyze-my-contract.html"
+      ],
+      "relationships": {
+        "identifies": ["hiddenFees", "contractRedFlags"],
+        "assesses": ["contractRiskAnalysis"],
+        "uses": ["documentIntelligence"],
+        "providedBy": ["detectHiddenFees"]
+      }
+    },
+    "aiFinancialAnalysis": {
+      "id": "entity-concept-003",
+      "name": "AI Financial Analysis",
+      "type": "Service",
+      "description": "AI-powered examination of financial documents to identify billing errors, overcharges, and savings opportunities",
+      "properties": {
+        "documentTypes": ["PDFs", "Images", "Scanned documents"],
+        "analysisTypes": ["Fee detection", "Pattern recognition", "Anomaly detection"],
+        "output": ["Flagged charges", "Savings estimates", "Negotiation guidance"]
+      },
+      "relatedPages": [
+        "ai-financial-analysis.html",
+        "ai-bill-analyzer.html",
+        "ai-invoice-analyzer.html",
+        "ai-statement-analyzer.html",
+        "ai-receipt-analyzer.html",
+        "analyze-my-bill.html",
+        "analyze-my-invoice.html"
+      ],
+      "relationships": {
+        "identifies": ["hiddenFees"],
+        "analyzes": ["bills", "invoices", "bankStatements"],
+        "uses": ["documentIntelligence"],
+        "providedBy": ["detectHiddenFees"]
+      }
+    },
+    "aiFinancialAdvisor": {
+      "id": "entity-concept-004",
+      "name": "AI Financial Advisor",
+      "type": "Service",
+      "description": "AI-powered guidance system for consumer financial decision-making",
+      "scope": [
+        "Bill negotiation guidance",
+        "Contract review recommendations",
+        "Fee dispute assistance",
+        "Savings opportunity identification",
+        "Financial document education"
+      ],
+      "limitation": "Advisory only — not a certified financial planner",
+      "relatedPages": [
+        "ai-financial-advisor.html",
+        "ai-financial-assistant.html",
+        "bill-negotiation-service.html",
+        "consumer-negotiation-resource-center.html"
+      ],
+      "relationships": {
+        "assists": ["consumers"],
+        "uses": ["aiFinancialAnalysis", "aiContractAnalysis"],
+        "promotes": ["consumerFinancialTransparency"],
+        "offeredBy": ["detectHiddenFees"]
+      }
+    },
+    "consumerFinancialTransparency": {
+      "id": "entity-concept-005",
+      "name": "Consumer Financial Transparency",
+      "type": "Principle",
+      "description": "The principle that consumers should have clear, complete, and understandable information about all costs, fees, and terms",
+      "relatedConcepts": [
+        "Pricing transparency",
+        "Fee disclosure",
+        "Consumer protection",
+        "Financial literacy",
+        "Contract clarity"
+      ],
+      "relatedPages": [
+        "consumer-financial-intelligence-center.html",
+        "editorial-policy.html",
+        "ai-transparency-report.html",
+        "data-handling-policy.html"
+      ],
+      "relationships": {
+        "combats": ["hiddenFees"],
+        "requires": ["feeDisclosure"],
+        "empowers": ["consumerNegotiation"],
+        "promotedBy": ["detectHiddenFees"]
+      }
+    },
+    "contractRiskAnalysis": {
+      "id": "entity-concept-006",
+      "name": "Contract Risk Analysis",
+      "type": "Service",
+      "description": "Systematic evaluation of contracts to identify clauses creating financial, legal, or operational risk",
+      "riskCategories": [
+        {
+          "type": "Financial Risk",
+          "examples": ["Hidden costs", "Uncapped liabilities", "Unfavorable payment terms"]
+        },
+        {
+          "type": "Legal Risk",
+          "examples": ["Unfavorable jurisdiction", "Arbitration clauses", "Indemnification"]
+        },
+        {
+          "type": "Operational Risk",
+          "examples": ["Unrealistic timelines", "Vague scope", "Performance requirements"]
+        },
+        {
+          "type": "Compliance Risk",
+          "examples": ["Regulatory violations", "Missing disclosures"]
+        }
+      ],
+      "analysisMethods": ["AI pattern recognition", "Clause-by-clause review", "Risk scoring (1-10)", "Industry benchmarking"],
+      "relatedPages": [
+        "contract-risk-analysis.html",
+        "contract-risk-assessment-guide.html",
+        "contract-risk-score.html",
+        "contract-red-flags.html",
+        "contract-red-flag-checker.html"
+      ],
+      "relationships": {
+        "performedBy": ["detectHiddenFees", "aiContractAnalysis"],
+        "identifies": ["hiddenFees", "contractRedFlags"],
+        "protects": ["consumers"]
+      }
+    },
+    "documentIntelligence": {
+      "id": "entity-concept-007",
+      "name": "Document Intelligence",
+      "type": "Technology",
+      "description": "AI-powered extraction, classification, and analysis of information from unstructured documents",
+      "documentTypes": [
+        "Contracts (PDF, DOCX)",
+        "Invoices (PDF, image)",
+        "Bills (PDF, image)",
+        "Estimates (PDF)",
+        "Receipts (image)",
+        "Bank statements (PDF)",
+        "Agreements (PDF, DOCX)"
+      ],
+      "capabilities": [
+        "Text extraction (OCR)",
+        "Entity recognition (dates, amounts, parties)",
+        "Pattern matching (known fee types)",
+        "Anomaly detection (unusual charges)",
+        "Comparison (market rate benchmarking)"
+      ],
+      "relatedPages": [
+        "ai-document-intelligence-center.html",
+        "ai-document-analysis-tools.html",
+        "ai-document-analysis-benefits.html",
+        "ai-document-scanner.html",
+        "ai-document-reviewer.html"
+      ],
+      "relationships": {
+        "usedBy": ["aiContractAnalysis", "aiFinancialAnalysis"],
+        "poweredBy": ["detectHiddenFees"]
+      }
+    }
+  },
+  "topics": {
+    "contracts": {
+      "name": "Contracts",
+      "description": "Legal agreements between parties",
+      "subtopics": ["Employment contracts", "Construction contracts", "Lease agreements", "Service contracts", "Vendor contracts", "Purchase agreements", "Software licenses", "Consulting agreements", "Freelance contracts"],
+      "relatedEntities": ["aiContractAnalysis", "contractRiskAnalysis", "hiddenFees"]
+    },
+    "financial": {
+      "name": "Financial Documents",
+      "description": "Documents containing financial information",
+      "subtopics": ["Bills", "Invoices", "Bank statements", "Receipts", "Estimates", "Quotes", "Subscriptions"],
+      "relatedEntities": ["aiFinancialAnalysis", "hiddenFees", "documentIntelligence"]
+    },
+    "consumer": {
+      "name": "Consumer Protection",
+      "description": "Resources and knowledge for consumer empowerment",
+      "subtopics": ["Scams", "Pricing transparency", "Negotiation", "Fee disputes", "Consumer rights"],
+      "relatedEntities": ["consumerFinancialTransparency", "aiFinancialAdvisor", "hiddenFees"]
+    }
+  },
+  "categories": [
+    {
+      "name": "AI Contract Review",
+      "slug": "contract-review",
+      "pageCount": 35,
+      "status": "established"
+    },
+    {
+      "name": "Hidden Fee Detection",
+      "slug": "hidden-fees",
+      "pageCount": 25,
+      "status": "established"
+    },
+    {
+      "name": "Financial Analysis",
+      "slug": "financial-analysis",
+      "pageCount": 20,
+      "status": "growing"
+    },
+    {
+      "name": "Consumer Resources",
+      "slug": "consumer-resources",
+      "pageCount": 25,
+      "status": "growing"
+    },
+    {
+      "name": "AI Education",
+      "slug": "ai-education",
+      "pageCount": 15,
+      "status": "growing"
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-07-21",
+  "clusters": {
+    "contracts": {
+      "name": "Contracts",
+      "description": "AI contract review, analysis, and risk assessment",
+      "pillarPage": "ai-contract-review.html",
+      "subtopics": {
+        "ai-contract-review": {
+          "name": "AI Contract Review",
+          "description": "Core AI contract review tools and guides",
+          "pages": [
+            "ai-contract-review.html",
+            "ai-contract-analysis.html",
+            "contract-analysis-ai.html",
+            "ai-contract-review-software.html",
+            "ai-contract-review-tool.html",
+            "analyze-my-contract.html",
+            "analyze-contract-online.html",
+            "find-hidden-fees-in-contract.html",
+            "detect-hidden-contract-fees.html",
+            "contract-review-ai-software.html",
+            "ai-contract-review-vs-chatgpt.html",
+            "ai-contract-review-vs-lawyer-review.html",
+            "ai-contract-review-vs-manual-review.html",
+            "free-ai-contract-review-vs-paid-review.html",
+            "free-vs-paid-contract-review.html",
+            "ai-contract-review-before-signing.html",
+            "before-signing-a-contract.html",
+            "before-signing-contract-checklist.html"
+          ]
+        },
+        "contract-risk": {
+          "name": "Contract Risk Analysis",
+          "description": "Risk scoring, red flags, and assessment tools",
+          "pages": [
+            "contract-risk-analysis.html",
+            "contract-risk-assessment-guide.html",
+            "contract-risk-score.html",
+            "ai-contract-risk-score.html",
+            "contract-risk-assessment-ai-tool.html",
+            "contract-red-flags.html",
+            "contract-red-flag-checker.html",
+            "contract-fee-analysis.html",
+            "contract-fee-checker.html",
+            "contract-clause-checker.html",
+            "contract-terms-analyzer-ai.html",
+            "contract-terms-glossary.html"
+          ]
+        },
+        "specific-contracts": {
+          "name": "Specific Contract Types",
+          "description": "Contract review for specific industries and use cases",
+          "pages": [
+            "ai-construction-contract-review.html",
+            "ai-commercial-lease-review.html",
+            "ai-employment-contract-review.html",
+            "ai-service-contract-review.html",
+            "ai-vendor-contract-review.html",
+            "ai-purchase-agreement-review.html",
+            "ai-purchase-contract-review.html",
+            "ai-rental-lease-analyzer.html",
+            "ai-lease-review.html",
+            "ai-software-license-review.html",
+            "ai-consulting-agreement-review.html",
+            "ai-freelance-contract-review.html",
+            "ai-contractor-agreement-review.html",
+            "business-contract-review.html"
+          ]
+        },
+        "contract-clauses": {
+          "name": "Contract Clauses & Terms",
+          "description": "Specific contract clauses and red flags to watch for",
+          "pages": [
+            "arbitration-clauses-explained.html",
+            "automatic-renewal-clauses.html",
+            "cancellation-fee-clauses.html",
+            "early-termination-fees.html",
+            "change-order-fees.html",
+            "contract-review-checklist.html"
+          ]
+        }
+      }
+    },
+    "financial": {
+      "name": "Financial Analysis",
+      "description": "AI analysis of bills, invoices, statements, and financial documents",
+      "pillarPage": "ai-financial-analysis.html",
+      "subtopics": {
+        "bill-analysis": {
+          "name": "Bill & Invoice Analysis",
+          "description": "AI-powered bill and invoice checking tools",
+          "pages": [
+            "ai-bill-analyzer.html",
+            "ai-bill-checker.html",
+            "ai-invoice-analyzer.html",
+            "ai-invoice-checker.html",
+            "analyze-my-bill.html",
+            "analyze-my-invoice.html",
+            "ai-bill-analyzer-vs-chatgpt.html",
+            "ai-bill-analysis-vs-manual-review.html",
+            "best-ai-bill-analyzer-tools.html",
+            "bill-negotiation-service.html",
+            "bill-negotiation-resource-center.html"
+          ]
+        },
+        "document-analysis": {
+          "name": "Document & Statement Analysis",
+          "description": "Broader document intelligence and analysis",
+          "pages": [
+            "ai-document-checker.html",
+            "ai-document-review-tool.html",
+            "ai-document-reviewer.html",
+            "ai-document-risk-analysis.html",
+            "ai-document-scanner.html",
+            "ai-document-analysis-benefits.html",
+            "ai-document-analysis-tools.html",
+            "analyze-my-document.html",
+            "ai-statement-analyzer.html",
+            "ai-receipt-analyzer.html",
+            "ai-estimate-checker.html",
+            "ai-estimate-review.html",
+            "analyze-my-estimate.html",
+            "ai-quote-analyzer.html",
+            "ai-quote-review.html"
+          ]
+        },
+        "tools-comparison": {
+          "name": "Tool Comparisons & Best Of",
+          "description": "Comparisons of AI analysis tools",
+          "pages": [
+            "best-ai-contract-analysis-tools.html",
+            "best-hidden-fee-detector-tools.html",
+            "financial-analysis-software.html",
+            "financial-analysis-tools.html",
+            "ai-pricing-analysis.html",
+            "ai-fee-detector.html",
+            "ai-agreement-analyzer.html",
+            "ai-agreement-checker.html"
+          ]
+        }
+      }
+    },
+    "hidden-fees": {
+      "name": "Hidden Fees",
+      "description": "Hidden fee detection guides by industry",
+      "pillarPage": "hidden-fees-guides.html",
+      "subtopics": {
+        "industry-guides": {
+          "name": "Industry-Specific Hidden Fee Guides",
+          "description": "Hidden fee detection for specific industries",
+          "pages": [
+            "hidden-bank-overdraft-fees.html",
+            "hidden-dealership-financing-fees.html",
+            "hidden-home-renovation-fees.html",
+            "hidden-hvac-contractor-fees.html",
+            "duplicate-medical-billing-charges.html",
+            "find-hidden-fees-in-contract.html",
+            "detect-hidden-contract-fees.html",
+            "check-my-fees.html",
+            "free-hidden-fee-scanner.html"
+          ]
+        },
+        "fee-types": {
+          "name": "Fee Types & Detection",
+          "description": "Specific fee types and how to find them",
+          "pages": [
+            "early-termination-fees.html",
+            "cancellation-fee-clauses.html",
+            "change-order-fees.html",
+            "automatic-renewal-clauses.html",
+            "arbitration-clauses-explained.html",
+            "estimate-vs-quote.html",
+            "fee-negotiation-checklist.html",
+            "contract-fee-analysis.html",
+            "contract-fee-checker.html"
+          ]
+        }
+      }
+    },
+    "consumer-resources": {
+      "name": "Consumer Resources",
+      "description": "Templates, checklists, negotiation tools, and educational resources",
+      "pillarPage": "consumer-negotiation-resource-center.html",
+      "subtopics": {
+        "negotiation": {
+          "name": "Negotiation Resources",
+          "description": "Tools and templates for fee negotiation",
+          "pages": [
+            "consumer-negotiation-resource-center.html",
+            "bill-negotiation-resource-center.html",
+            "bill-negotiation-service.html",
+            "bill-negotiation-templates.html",
+            "bill-negotiation-letter.html",
+            "fee-negotiation-checklist.html",
+            "fee-removal-request-template.html",
+            "contract-negotiation-assistant.html",
+            "bill-savings-calculator.html"
+          ]
+        },
+        "checklists": {
+          "name": "Checklists & Guides",
+          "description": "Consumer checklists and step-by-step guides",
+          "pages": [
+            "contract-review-checklist.html",
+            "before-signing-contract-checklist.html",
+            "before-signing-a-contract.html",
+            "fee-negotiation-checklist.html",
+            "check-my-fees.html"
+          ]
+        }
+      }
+    },
+    "ai-education": {
+      "name": "AI Education & Transparency",
+      "description": "AI methodology, accuracy, comparisons, and transparency",
+      "pillarPage": "ai-analysis-methodology.html",
+      "subtopics": {
+        "methodology": {
+          "name": "AI Methodology & Accuracy",
+          "description": "How the AI works and how accurate it is",
+          "pages": [
+            "ai-analysis-methodology.html",
+            "ai-accuracy-and-limitations.html",
+            "ai-testing-results.html",
+            "ai-transparency-report.html",
+            "editorial-methodology.html",
+            "editorial-policy.html",
+            "data-handling-policy.html",
+            "ai-document-analysis-benefits.html",
+            "consumer-fee-trends-report.html"
+          ]
+        },
+        "comparisons": {
+          "name": "AI vs. Alternatives",
+          "description": "Comparing AI analysis to traditional methods",
+          "pages": [
+            "ai-contract-review-vs-chatgpt.html",
+            "ai-contract-review-vs-lawyer-review.html",
+            "ai-contract-review-vs-manual-review.html",
+            "ai-bill-analyzer-vs-chatgpt.html",
+            "ai-bill-analysis-vs-manual-review.html",
+            "free-ai-contract-review-vs-paid-review.html",
+            "free-vs-paid-contract-review.html"
+          ]
+        },
+        "hub-pages": {
+          "name": "Hub & Center Pages",
+          "description": "Central navigation and resource hub pages",
+          "pages": [
+            "ai-analysis-hub.html",
+            "ai-contract-resource-center.html",
+            "consumer-negotiation-resource-center.html",
+            "bill-negotiation-resource-center.html",
+            "consumer-fee-trends-report.html",
+            "about-detect-hidden-fees.html",
+            "contact.html",
+            "alphabet-links.html",
+            "index.html"
+          ]
+        }
+      }
+    }
+  }
+}

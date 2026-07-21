@@ -1,0 +1,9 @@
+# Config Directory
+
+Configuration files for the project go here.
+
+Possible configs:
+- SEO configuration
+- Build configuration
+- Deployment configuration
+- Entity schema configuration
