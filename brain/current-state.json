@@ -6,19 +6,18 @@
   "environment": "production",
   "hosting": "Cloudflare Pages",
   "repository": "https://github.com/mrrichardthomasg888-sys/detecthiddenfees.com.git",
-  "latestCommitHash": "b458575c9755ff743cbae594909a601c9ea3be14",
-  
+  "latestCommitHash": "75e7e6d1a6a9786d42f72c4b8a4dbb854b16d456",
   "stats": {
     "totalPages": 120,
     "htmlPages": 118,
     "buildScripts": 25,
-    "auditReports": 2,
+    "auditReports": 3,
     "brainFiles": 19,
     "knowledgeGraphEntities": 8,
     "contentTemplates": 2,
     "knowledgeGraphVersion": "2.0.0",
     "glossaryTerms": 13,
-    "entityRelationships": 37,
+    "entityRelationships": 43,
     "authorityMapTopics": 9,
     "topicClusters": 9,
     "questionsInDatabase": 30,
@@ -28,242 +27,46 @@
     "hubLinkingMapVersion": "1.0.0",
     "authorityHubBuildPlan": true,
     "sitemapGovernanceVersion": "1.0.0",
-    "sitemapGovernanceRules": 12,
-    "totalAuditFindings": {
-      "criticalFindings": 3,
-      "highFindings": 8,
-      "mediumFindings": 6,
-      "duplicatePagePairs": 8,
-      "v1LegacyPages": "25-35"
-    }
+    "sitemapGovernanceRules": 12
   },
-
   "completedTasks": [
-    {
-      "id": "INIT-001",
-      "name": "Initial site launch",
-      "completedDate": "2025-06-01",
-      "description": "Static HTML site deployed to Cloudflare Pages"
-    },
-    {
-      "id": "SEO-001",
-      "name": "Core SEO optimization",
-      "completedDate": "2026-07-17",
-      "description": "Schema.org structured data, canonical URLs, OG tags, sitemap"
-    },
-    {
-      "id": "CONTENT-001",
-      "name": "Core content pages",
-      "completedDate": "2026-07-17",
-      "description": "100+ pages covering hidden fees, contract review, AI analysis"
-    },
-    {
-      "id": "DESIGN-001",
-      "name": "Design system implementation",
-      "completedDate": "2026-07-17",
-      "description": "Dark theme, Inter font, glass-morphism, responsive design"
-    },
-    {
-      "id": "REDIRECT-001",
-      "name": "Cannibalization fix",
-      "completedDate": "2026-07-17",
-      "description": "301 redirects for duplicate/cannibalized pages"
-    },
-    {
-      "id": "MISSION-006",
-      "name": "Flagship AEO/GEO Authority Hubs — Strategy",
-      "completedDate": "2026-07-21",
-      "description": "Created authority hub build plan for 6 flagship hubs, 6 detailed content briefs, and hub linking map with cross-hub connections, internal linking strategy, and global navigation"
-    },
-    {
-      "id": "SITEMAP-001",
-      "name": "Sitemap Governance Rules",
-      "completedDate": "2026-07-21",
-      "description": "Created brain/sitemap-governance.md with 12 rules covering page inclusion/exclusion criteria, priority assignment (1.0-0.4), changefreq mapping, lastmod enforcement, authority hub sitemap integration, exclusion protocol, quality gates, and robots.txt integration"
-    },
-    {
-      "id": "BRAIN-001",
-      "name": "Authority Brain System",
-      "completedDate": "2026-07-21",
-      "description": "Built AI agent operating system for long-term development"
-    },
-    {
-      "id": "QUALITY-001",
-      "name": "Content Quality Engine",
-      "completedDate": "2026-07-21",
-      "description": "Built content governance, duplication protection, scoring, templates, topic clusters, and audit system"
-    },
-    {
-      "id": "AUDIT-001",
-      "name": "Authority Audit & Content Intelligence Report",
-      "completedDate": "2026-07-21",
-      "description": "Complete AEO/GEO authority audit: site inventory (210 HTML pages), content quality audit (8 pages, avg 29/40), entity authority report (8 entities, avg 63/100), internal linking plan, and 15-task improvement queue"
-    },
-    {
-      "id": "INTEL-001",
-      "name": "Content Intelligence Engine",
-      "completedDate": "2026-07-21",
-      "description": "Built question intelligence system, 30-question database, content brief template, authority page strategy (6 page types), LLM citation optimization rules (8 rules), and 10 priority topics ranked by demand/authority/citation potential"
-    },
-    {
-      "id": "KNOWLEDGE-001",
-      "name": "Knowledge Graph Foundation",
-      "completedDate": "2026-07-21",
-      "description": "Built structured knowledge graph: entities v2.0 (8 entities with relationships), entity relationship map (37 relationships), topical authority map (9 topics), glossary (13 terms), entity content rules (5 rules), and machine-readable authority file"
-    },
-    {
-      "id": "HUBS-001",
-      "name": "Flagship AEO/GEO Authority Hubs — Strategy Phase",
-      "completedDate": "2026-07-21",
-      "description": "Created authority hub build plan (tasks/authority-hub-build-plan.md), 6 detailed content briefs (knowledge/content-briefs/), and hub linking map (knowledge/hub-linking-map.json) for 6 flagship hubs"
-    },
-    {
-      "id": "HUBS-002-HUB6",
-      "name": "Flagship AEO/GEO Authority Hub: AI Financial Advisor",
-      "completedDate": "2026-07-21",
-      "description": "Rewrote ai-financial-advisor.html as flagship AEO/GEO authority hub with full schema set, 12 FAQ questions, real-world examples, and design system compliance"
-    },
-    {
-      "id": "HUBS-002-HUB2",
-      "name": "Flagship AEO/GEO Authority Hub: AI Contract Review",
-      "completedDate": "2026-07-21",
-      "description": "Rewrote ai-contract-review.html as flagship AEO/GEO authority hub: direct answer with 85-95% detection rate, 5-stage AI analysis pipeline, 6 contract type cards, 6 common issue cards, 3 real-world examples ($1,200/$1,100+/unlimited liability savings), AI vs lawyer comparison table, limitations section, 12-question FAQ with FAQPage schema, 6 related topic cards, full schema set (Organization/WebSite/WebPage/BreadcrumbList/Article/FAQPage/SoftwareApplication), sticky CTA bar, mobile-responsive at 320px, and page plan audit document"
-    }
+    {"id": "INIT-001", "name": "Initial site launch", "completedDate": "2025-06-01", "description": "Static HTML site deployed to Cloudflare Pages"},
+    {"id": "SEO-001", "name": "Core SEO optimization", "completedDate": "2026-07-17", "description": "Schema.org structured data, canonical URLs, OG tags, sitemap"},
+    {"id": "CONTENT-001", "name": "Core content pages", "completedDate": "2026-07-17", "description": "100+ pages covering hidden fees, contract review, AI analysis"},
+    {"id": "DESIGN-001", "name": "Design system implementation", "completedDate": "2026-07-17", "description": "Dark theme, Inter font, glass-morphism, responsive design"},
+    {"id": "REDIRECT-001", "name": "Cannibalization fix", "completedDate": "2026-07-17", "description": "301 redirects for duplicate/cannibalized pages"},
+    {"id": "MISSION-006", "name": "Flagship AEO/GEO Authority Hubs — Strategy", "completedDate": "2026-07-21", "description": "Created authority hub build plan for 6 flagship hubs, 6 content briefs, hub linking map"},
+    {"id": "SITEMAP-001", "name": "Sitemap Governance Rules", "completedDate": "2026-07-21", "description": "Created brain/sitemap-governance.md with 12 rules"},
+    {"id": "BRAIN-001", "name": "Authority Brain System", "completedDate": "2026-07-21", "description": "Built AI agent operating system"},
+    {"id": "QUALITY-001", "name": "Content Quality Engine", "completedDate": "2026-07-21", "description": "Built content governance and quality systems"},
+    {"id": "AUDIT-001", "name": "Authority Audit & Content Intelligence Report", "completedDate": "2026-07-21", "description": "Complete AEO/GEO authority audit"},
+    {"id": "INTEL-001", "name": "Content Intelligence Engine", "completedDate": "2026-07-21", "description": "Built question intelligence and priority topics"},
+    {"id": "KNOWLEDGE-001", "name": "Knowledge Graph Foundation", "completedDate": "2026-07-21", "description": "Built structured knowledge graph with 8 entities"},
+    {"id": "HUBS-001", "name": "Flagship AEO/GEO Authority Hubs — Strategy Phase", "completedDate": "2026-07-21", "description": "Created hub build plan and 6 content briefs"},
+    {"id": "HUBS-002-HUB6", "name": "Flagship Hub: AI Financial Advisor", "completedDate": "2026-07-21", "description": "Rewrote ai-financial-advisor.html as flagship authority hub"},
+    {"id": "HUBS-002-HUB2", "name": "Flagship Hub: AI Contract Review", "completedDate": "2026-07-21", "description": "Rewrote ai-contract-review.html as flagship authority hub with full schema set, 12 FAQ, 3 examples, comparison table"},
+    {"id": "HUBS-002-HUB5", "name": "Flagship Hub: AI Construction Contract Review", "completedDate": "2026-07-21", "description": "Rewrote ai-construction-contract-review.html as flagship authority hub: 6-stage construction analysis pipeline, 9 analysis areas, 5 risks, 3 examples ($3K/$6K/$650 savings), 4 audience cards, 10 FAQ, full schema set, knowledge graph updated with 5 new entity relationships"}
   ],
-
   "activeTasks": [],
-
   "pendingTasks": [
-    {
-      "id": "HUBS-002",
-      "name": "Flagship AEO/GEO Authority Hubs — Content Writing Phase (Remaining Hubs)",
-      "priority": 1,
-      "category": "Content",
-      "description": "Write remaining hub HTML pages using content briefs as guides. Remaining: 1. Hidden Fee Detection, 2. AI Agreement Analyzer, 3. AI Financial Analysis, 4. AI Construction Contract Review"
-    }
+    {"id": "HUBS-002", "name": "Flagship Hubs — Remaining", "priority": 1, "category": "Content", "description": "Remaining: 1. Hidden Fee Detection, 2. AI Agreement Analyzer, 3. AI Financial Analysis"}
   ],
-
   "nextPriorities": [
-    {
-      "priority": 1,
-      "task": "HUBS-002: Write remaining flagship authority hub HTML pages (4 hubs remaining)",
-      "category": "Content"
-    },
-    {
-      "priority": 2,
-      "task": "P0-1: Add navigation menu to all pages",
-      "category": "Infrastructure"
-    },
-    {
-      "priority": 3,
-      "task": "P0-2: Standardize brand name to DetectHiddenFees",
-      "category": "Brand"
-    },
-    {
-      "priority": 4,
-      "task": "P0-3: Remove/convert v1 legacy pages",
-      "category": "Design"
-    },
-    {
-      "priority": 5,
-      "task": "P1-1: Consolidate AI Contract Review entity (3 pages → 1)",
-      "category": "Content"
-    }
+    {"priority": 1, "task": "Hub 1: Hidden Fee Detection (hidden-fees-guides.html)", "category": "Content"},
+    {"priority": 2, "task": "P0-1: Add navigation menu to all pages", "category": "Infrastructure"},
+    {"priority": 3, "task": "P0-2: Standardize brand name to DetectHiddenFees", "category": "Brand"},
+    {"priority": 4, "task": "P0-3: Remove/convert v1 legacy pages", "category": "Design"},
+    {"priority": 5, "task": "P1-1: Consolidate AI Contract Review entity", "category": "Content"}
   ],
-
-  "contentClusters": {
-    "contractReview": {
-      "pages": 35,
-      "status": "established",
-      "description": "AI contract review tools and guides"
-    },
-    "hiddenFees": {
-      "pages": 25,
-      "status": "established",
-      "description": "Hidden fee detection guides by industry"
-    },
-    "financialAnalysis": {
-      "pages": 20,
-      "status": "growing",
-      "description": "AI financial document analysis"
-    },
-    "consumerResources": {
-      "pages": 25,
-      "status": "growing",
-      "description": "Templates, checklists, negotiation guides"
-    },
-    "aiEducation": {
-      "pages": 15,
-      "status": "growing",
-      "description": "AI methodology, accuracy, comparisons"
-    }
-  },
-
   "hubSystems": {
     "authorityHubBuildPlan": true,
-    "sitemapGovernance": {
-      "version": "1.0.0",
-      "rulesCount": 12,
-      "priorityTiers": 6,
-      "inclusionCriteria": "5 required categories",
-      "exclusionCategories": 6,
-      "qualityGates": 9
-    },
-    "contentBriefs": {
-      "total": 6,
-      "hubs": [
-        {"id": "CB-001", "name": "AI Financial Advisor", "status": "draft"},
-        {"id": "CB-002", "name": "AI Financial Analysis", "status": "draft"},
-        {"id": "CB-003", "name": "AI Contract Review", "status": "draft"},
-        {"id": "CB-004", "name": "AI Construction Contract Review", "status": "draft"},
-        {"id": "CB-005", "name": "AI Agreement Analyzer", "status": "draft"},
-        {"id": "CB-006", "name": "Hidden Fee Detection", "status": "draft"}
-      ]
-    },
-    "hubLinkingMap": {
-      "version": "1.0.0",
-      "totalHubs": 6,
-      "crossHubConnections": 11,
-      "globalNavigation": true
-    },
     "implementationOrder": [
       {"order": 1, "hub": "Hidden Fee Detection", "hubPage": "hidden-fees-guides.html"},
       {"order": 2, "hub": "AI Contract Review", "hubPage": "ai-contract-review.html", "status": "complete"},
       {"order": 3, "hub": "AI Agreement Analyzer", "hubPage": "ai-agreement-analyzer.html"},
       {"order": 4, "hub": "AI Financial Analysis", "hubPage": "ai-financial-analysis.html"},
-      {"order": 5, "hub": "AI Construction Contract Review", "hubPage": "ai-construction-contract-review.html"},
+      {"order": 5, "hub": "AI Construction Contract Review", "hubPage": "ai-construction-contract-review.html", "status": "complete"},
       {"order": 6, "hub": "AI Financial Advisor", "hubPage": "ai-financial-advisor.html", "status": "complete"}
     ]
-  },
-
-  "auditsCompleted": 4,
-  "reportsGenerated": 0,
-  "brainSystemVersion": "2.0.0",
-  "sitemapGovernanceVersion": "1.0.0",
-  "contentQualitySystemVersion": "1.0.0",
-  "qualitySystems": {
-    "contentGovernance": true,
-    "duplicationProtection": true,
-    "contentScoring": true,
-    "authorityPageTemplate": true,
-    "topicClusters": true,
-    "contentAuditProcess": true,
-    "sitemapGovernance": true
-  },
-  "knowledgeGraph": {
-    "entityDefinitions": true,
-    "entityRelationships": true,
-    "authorityMap": true,
-    "glossary": true,
-    "entityContentRules": true,
-    "machineReadableAuthority": true
-  },
-  "intelligenceSystems": {
-    "questionIntelligence": true,
-    "questionDatabase": true,
-    "contentBriefTemplate": true,
-    "authorityPageStrategy": true,
-    "llmCitationRules": true,
-    "priorityTopics": true
   }
 }
