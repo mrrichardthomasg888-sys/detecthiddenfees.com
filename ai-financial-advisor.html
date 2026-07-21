@@ -409,7 +409,8 @@
         .sticky-cta-bar .sticky-text .price { color: #3b82f6; background: rgba(59,130,246,.12); padding: 2px 12px; border-radius: 100px; font-size: .85rem; }
         .sticky-cta-bar .sticky-btn { display: inline-block; padding: 12px 28px; border-radius: 14px; background: linear-gradient(135deg,#2563eb,#9333ea); color: white; font-weight: 800; font-size: .95rem; box-shadow: 0 8px 30px rgba(59,130,246,.35); text-align: center; border: none; cursor: pointer; }
         .sticky-cta-bar .sticky-btn:hover { transform: scale(1.03); }
-        @media(min-width:901px) { .sticky-cta-bar { display: flex; } body { padding-bottom: 80px; } }
+        
+@media(max-width:768px){.research-table,.comparison-table-wrap{overflow:visible!important;display:block;width:100%}.research-table thead{display:none}.research-table tbody,.research-table tr{display:block;width:100%}.research-table tr{padding:16px;margin-bottom:12px;border-radius:12px;background:rgba(7,19,39,.8);border:1px solid rgba(255,255,255,.08)}.research-table td{display:flex;align-items:flex-start;padding:6px 0;border:none;font-size:.85rem;white-space:normal!important;word-wrap:break-word}.research-table td:before{content:attr(data-label);font-weight:700;color:#93c5fd;min-width:160px;flex-shrink:0;font-size:.8rem}.research-table tr:hover td{background:transparent}}@media(min-width:901px) { .sticky-cta-bar { display: flex; } body { padding-bottom: 80px; } }
         @media(max-width:900px) {
             .sticky-cta-bar { display: flex; padding: 8px 12px; gap: 8px; }
             .hero:before { display: none !important; }
@@ -598,11 +599,11 @@
         <table class="research-table">
             <thead><tr><th>Feature</th><th>AI Financial Advisor</th><th>Traditional Advisor</th><th>Robo-Advisor</th></tr></thead>
             <tbody>
-                <tr><td>Hidden fee detection</td><td>✓ Primary function</td><td>✗ Not typical</td><td>✗ Not available</td></tr>
-                <tr><td>Document analysis</td><td>✓ Contracts, bills, invoices</td><td>✗ Limited or none</td><td>✗ Not available</td></tr>
-                <tr><td>Investment management</td><td>✗ Not applicable</td><td>✓ Core service</td><td>✓ Core service</td></tr>
-                <tr><td>Retirement planning</td><td>✗ Not applicable</td><td>✓ Core service</td><td>✓ Limited</td></tr>
-                <tr><td>Cost</td><td>$15 per analysis</td><td>$200+ per hour</td><td>0.25-0.50% of assets</td></tr>
+                <tr class="comparison-row"><td data-label="Feature">Hidden fee detection</td><td data-label="AI Financial Advisor">✓ Primary function</td><td data-label="Traditional Advisor">✗ Not typical</td><td data-label="Robo-Advisor">✗ Not available</td></tr>
+                <tr class="comparison-row"><td data-label="Feature">Document analysis</td><td data-label="AI Financial Advisor">✓ Contracts, bills, invoices</td><td data-label="Traditional Advisor">✗ Limited or none</td><td data-label="Robo-Advisor">✗ Not available</td></tr>
+                <tr class="comparison-row"><td data-label="Feature">Investment management</td><td data-label="AI Financial Advisor">✗ Not applicable</td><td data-label="Traditional Advisor">✓ Core service</td><td data-label="Robo-Advisor">✓ Core service</td></tr>
+                <tr class="comparison-row"><td data-label="Feature">Retirement planning</td><td data-label="AI Financial Advisor">✗ Not applicable</td><td data-label="Traditional Advisor">✓ Core service</td><td data-label="Robo-Advisor">✓ Limited</td></tr>
+                <tr class="comparison-row"><td data-label="Feature">Cost</td><td data-label="AI Financial Advisor">$15 per analysis</td><td data-label="Traditional Advisor">$200+ per hour</td><td data-label="Robo-Advisor">0.25-0.50% of assets</td></tr>
             </tbody>
         </table></div></div></div></div>
         <div class="card"><h3>When to Use Each Type</h3><p>Use an AI financial advisor when reviewing contracts, invoices, bills, or other financial documents for hidden fees and pricing issues. Use a traditional financial advisor for investment planning and retirement strategy. Use a robo-advisor for automated portfolio management. The three are complementary rather than competing services, and a well-rounded financial strategy may benefit from all three.</p></div>
