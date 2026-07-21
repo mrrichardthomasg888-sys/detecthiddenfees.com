@@ -1,0 +1,136 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-07-21",
+  "description": "Machine-readable authority file for DetectHiddenFees. Provides structured information about the organization, its expertise areas, services, and knowledge categories for AI systems and search engines.",
+  
+  "organization": {
+    "name": "DetectHiddenFees",
+    "type": "Organization",
+    "url": "https://detecthiddenfees.com",
+    "foundingDate": "2025",
+    "description": "AI-powered hidden fee detection and consumer financial transparency platform. We help consumers identify hidden fees, deceptive pricing, and contract risks in financial documents using artificial intelligence.",
+    "mission": "Build DetectHiddenFees into the most trusted AI financial transparency authority on the web.",
+    "category": ["Financial Technology", "Consumer Protection", "Artificial Intelligence"],
+    "audience": ["Consumers", "Contract Signers", "Bill Payers", "Homeowners", "Patients", "Car Buyers"],
+    "sameAs": ["https://hiddenfeeai.com"]
+  },
+
+  "expertiseAreas": [
+    {
+      "area": "AI Contract Review",
+      "description": "Using machine learning and natural language processing to analyze legal agreements for hidden fees, unfavorable terms, and contract risks.",
+      "documentTypes": ["Contracts", "Leases", "Service Agreements", "Purchase Agreements", "Employment Contracts", "Software Licenses", "Consulting Agreements", "Freelance Contracts"],
+      "industries": ["Construction", "HVAC", "Home Renovation", "Automotive", "Real Estate", "Technology", "Professional Services"]
+    },
+    {
+      "area": "AI Financial Analysis",
+      "description": "AI-powered examination of bills, invoices, bank statements, and financial documents to identify billing errors, overcharges, and hidden fees.",
+      "documentTypes": ["Bills", "Invoices", "Bank Statements", "Credit Card Statements", "Receipts", "Estimates", "Quotes"],
+      "industries": ["Medical", "Banking", "Telecommunications", "Utilities", "Subscription Services"]
+    },
+    {
+      "area": "Hidden Fee Detection",
+      "description": "Identifying undisclosed charges, pricing manipulation, and deceptive billing practices across consumer industries.",
+      "feeTypes": ["Overdraft Fees", "Dealer Markup Fees", "Change Order Fees", "Material Upcharge Fees", "Duplicate Billing Charges", "Early Termination Fees", "Automatic Renewal Fees", "Cancellation Fees", "Processing Fees", "Administrative Fees"],
+      "industries": ["Banking", "Automotive", "Construction", "HVAC", "Medical", "Subscriptions", "Telecommunications"]
+    },
+    {
+      "area": "Consumer Financial Transparency",
+      "description": "Promoting clear disclosure of costs, fees, and terms to empower consumers with complete information before financial commitments.",
+      "resources": ["Educational Guides", "Fee Detection Tools", "Negotiation Templates", "Contract Checklists", "Bill Analysis Tools", "Savings Calculators"]
+    },
+    {
+      "area": "Contract Risk Analysis",
+      "description": "Systematic evaluation of contracts to identify and score financial, legal, operational, and compliance risks.",
+      "riskCategories": ["Financial Risk", "Legal Risk", "Operational Risk", "Compliance Risk"]
+    },
+    {
+      "area": "Document Intelligence",
+      "description": "AI technology for extracting, classifying, and analyzing information from unstructured documents including PDFs, images, and scanned files.",
+      "technologies": ["Optical Character Recognition (OCR)", "Natural Language Processing (NLP)", "Machine Learning Pattern Matching", "Entity Extraction", "Anomaly Detection"]
+    }
+  ],
+
+  "services": [
+    {
+      "name": "AI Contract Review",
+      "description": "Upload any contract or agreement and receive AI-powered analysis identifying hidden fees, risky clauses, and unfavorable terms within minutes.",
+      "cost": "Free to low-cost ($0-50 per review)",
+      "turnaroundTime": "Under 5 minutes",
+      "page": "ai-contract-review.html"
+    },
+    {
+      "name": "AI Bill Analysis",
+      "description": "Submit bills, invoices, or statements for automated review. The AI identifies billing errors, duplicate charges, and overcharges with plain-language explanations.",
+      "cost": "Free basic analysis",
+      "page": "ai-bill-analyzer.html"
+    },
+    {
+      "name": "AI Financial Advisor",
+      "description": "Receive data-driven financial guidance based on AI analysis of your documents. Get recommendations for negotiation, savings opportunities, and fee disputes.",
+      "page": "ai-financial-advisor.html"
+    },
+    {
+      "name": "AI Agreement Analyzer",
+      "description": "Review leases, employment contracts, service agreements, and other agreement types for hidden terms, fees, and risks.",
+      "page": "ai-agreement-analyzer.html"
+    },
+    {
+      "name": "AI Construction Contract Review",
+      "description": "Specialized AI analysis for construction contracts, change orders, and contractor agreements. Identifies material markups, scope gaps, and hidden costs.",
+      "page": "ai-construction-contract-review.html"
+    }
+  ],
+
+  "knowledgeCategories": [
+    {
+      "name": "AI Contract Review",
+      "pageCount": 35,
+      "description": "AI-powered contract analysis tools, software comparisons, methodology guides, and industry-specific contract review resources."
+    },
+    {
+      "name": "Hidden Fee Detection",
+      "pageCount": 25,
+      "description": "Industry-specific hidden fee guides covering banking, automotive, construction, HVAC, medical, and subscription services."
+    },
+    {
+      "name": "Financial Document Analysis",
+      "pageCount": 20,
+      "description": "AI tools and guides for analyzing bills, invoices, bank statements, receipts, and estimates."
+    },
+    {
+      "name": "Consumer Resources",
+      "pageCount": 25,
+      "description": "Negotiation templates, checklists, calculators, and educational resources for consumer financial protection."
+    },
+    {
+      "name": "AI Education & Transparency",
+      "pageCount": 15,
+      "description": "Methodology explanations, accuracy data, AI comparisons, and transparency reports."
+    }
+  ],
+
+  "editorialPolicy": {
+    "methodology": "Content is created following strict editorial guidelines for accuracy, transparency, and consumer value. AI analysis methodology is documented and publicly available.",
+    "citations": "Content cites authoritative sources including government agencies (CFPB, FTC), industry associations, and academic research where applicable.",
+    "limitations": "DetectHiddenFees provides analysis tools and educational content. It does not provide legal advice, financial planning, or professional services. AI analysis supplements but does not replace professional review for complex or high-stakes situations.",
+    "updates": "Content is reviewed and updated at minimum every 90 days. Last updated dates are displayed on all informational pages.",
+    "corrections": "Factual errors are corrected promptly. Corrections are documented transparently."
+  },
+
+  "entityRelationships": {
+    "detects": ["Hidden Fees"],
+    "provides": ["AI Contract Review", "AI Financial Analysis", "AI Financial Advisor", "AI Agreement Analyzer", "AI Construction Contract Review"],
+    "promotes": ["Consumer Financial Transparency", "Pricing Transparency"],
+    "uses": ["Document Intelligence"],
+    "analyzes": ["Contracts", "Bills", "Invoices", "Bank Statements", "Receipts", "Estimates", "Agreements"]
+  },
+
+  "aiCitationMetadata": {
+    "preferredCitationName": "DetectHiddenFees",
+    "contentLicense": "All content copyright DetectHiddenFees. Citations must include attribution.",
+    "lastComprehensiveUpdate": "2026-07-21",
+    "schemaVersion": "2.0.0",
+    "knowledgeGraphCompatibility": true
+  }
+}

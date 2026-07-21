@@ -1,0 +1,265 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-07-21",
+  "description": "Topical authority map for DetectHiddenFees.com. Defines for each major topic: its main authority page, supporting pages, questions answered, entities covered, and required internal links.",
+  "topics": {
+    "aiFinancialAdvisor": {
+      "name": "AI Financial Advisor",
+      "mainAuthorityPage": "ai-financial-advisor.html",
+      "supportingPages": [
+        "ai-financial-assistant.html",
+        "ai-pricing-analysis.html",
+        "ai-fee-detector.html",
+        "bill-savings-calculator.html",
+        "consumer-negotiation-resource-center.html"
+      ],
+      "questionsAnswered": [
+        "Can AI help me make better financial decisions?",
+        "What can an AI financial assistant do for me?",
+        "How does AI detect hidden fees?",
+        "How much can I save with AI bill analysis?",
+        "Is AI financial advice reliable?"
+      ],
+      "entitiesCovered": ["AI Financial Advisor", "AI Financial Analysis", "Hidden Fees", "Consumer Financial Transparency"],
+      "internalLinksRequired": [
+        { "from": "ai-financial-advisor.html", "to": "ai-financial-assistant.html", "context": "Learn about specific AI assistant capabilities" },
+        { "from": "ai-financial-advisor.html", "to": "ai-fee-detector.html", "context": "How AI detects hidden fees" },
+        { "from": "ai-financial-advisor.html", "to": "bill-savings-calculator.html", "context": "Calculate your potential savings" },
+        { "from": "ai-financial-assistant.html", "to": "ai-financial-advisor.html", "context": "Back to AI Financial Advisor overview" },
+        { "from": "ai-fee-detector.html", "to": "ai-financial-advisor.html", "context": "Part of AI Financial Advisor guidance" }
+      ]
+    },
+    "aiFinancialAnalysis": {
+      "name": "AI Financial Analysis",
+      "mainAuthorityPage": "ai-financial-analysis.html",
+      "supportingPages": [
+        "ai-bill-analyzer.html",
+        "ai-invoice-analyzer.html",
+        "ai-statement-analyzer.html",
+        "ai-receipt-analyzer.html",
+        "ai-estimate-checker.html",
+        "analyze-my-bill.html",
+        "analyze-my-invoice.html",
+        "best-ai-bill-analyzer-tools.html"
+      ],
+      "questionsAnswered": [
+        "How does AI analyze financial documents?",
+        "Can AI find errors in my bills?",
+        "What types of documents can AI analyze?",
+        "Is AI bill analysis accurate?",
+        "How much does AI bill analysis cost?"
+      ],
+      "entitiesCovered": ["AI Financial Analysis", "Hidden Fees", "Document Intelligence"],
+      "internalLinksRequired": [
+        { "from": "ai-financial-analysis.html", "to": "ai-bill-analyzer.html", "context": "Try our AI bill analyzer" },
+        { "from": "ai-financial-analysis.html", "to": "ai-invoice-analyzer.html", "context": "Try our AI invoice analyzer" },
+        { "from": "ai-financial-analysis.html", "to": "ai-statement-analyzer.html", "context": "Analyze your bank statements" },
+        { "from": "ai-bill-analyzer.html", "to": "ai-financial-analysis.html", "context": "How AI financial analysis works" },
+        { "from": "ai-invoice-analyzer.html", "to": "ai-financial-analysis.html", "context": "Part of AI financial analysis suite" }
+      ]
+    },
+    "aiContractReview": {
+      "name": "AI Contract Review",
+      "mainAuthorityPage": "ai-contract-review.html",
+      "supportingPages": [
+        "contract-analysis-ai.html",
+        "ai-contract-review-software.html",
+        "ai-contract-review-tool.html",
+        "analyze-my-contract.html",
+        "find-hidden-fees-in-contract.html",
+        "contract-risk-analysis.html",
+        "contract-red-flags.html",
+        "ai-contract-review-vs-lawyer-review.html",
+        "ai-contract-review-vs-chatgpt.html",
+        "before-signing-contract-checklist.html"
+      ],
+      "questionsAnswered": [
+        "How does AI review contracts for hidden fees?",
+        "Can AI find hidden fees in contracts?",
+        "Is AI contract review as good as a lawyer?",
+        "How accurate is AI contract analysis?",
+        "What red flags does AI look for in contracts?"
+      ],
+      "entitiesCovered": ["AI Contract Review", "Hidden Fees", "Contract Risk Analysis", "Document Intelligence"],
+      "internalLinksRequired": [
+        { "from": "ai-contract-review.html", "to": "contract-risk-analysis.html", "context": "How AI assesses contract risk" },
+        { "from": "ai-contract-review.html", "to": "contract-red-flags.html", "context": "Common contract red flags" },
+        { "from": "ai-contract-review.html", "to": "ai-contract-review-vs-lawyer-review.html", "context": "AI vs lawyer comparison" },
+        { "from": "contract-risk-analysis.html", "to": "ai-contract-review.html", "context": "Back to AI contract review" },
+        { "from": "contract-red-flags.html", "to": "ai-contract-review.html", "context": "How AI detects these red flags" }
+      ]
+    },
+    "aiConstructionContractReview": {
+      "name": "AI Construction Contract Review",
+      "mainAuthorityPage": "ai-construction-contract-review.html",
+      "supportingPages": [
+        "ai-contractor-agreement-review.html",
+        "change-order-fees.html",
+        "hidden-home-renovation-fees.html",
+        "hidden-hvac-contractor-fees.html",
+        "estimate-vs-quote.html",
+        "ai-estimate-review.html"
+      ],
+      "questionsAnswered": [
+        "How does AI review construction contracts?",
+        "What hidden fees are in construction contracts?",
+        "Can AI catch contractor overcharges?",
+        "How do change orders hide extra costs?",
+        "What should I check before signing a construction contract?"
+      ],
+      "entitiesCovered": ["AI Construction Contract Review", "Hidden Fees", "Construction Contracts"],
+      "internalLinksRequired": [
+        { "from": "ai-construction-contract-review.html", "to": "change-order-fees.html", "context": "How change orders hide costs" },
+        { "from": "ai-construction-contract-review.html", "to": "hidden-hvac-contractor-fees.html", "context": "HVAC-specific hidden fees" },
+        { "from": "ai-construction-contract-review.html", "to": "estimate-vs-quote.html", "context": "Understanding estimates vs quotes" },
+        { "from": "change-order-fees.html", "to": "ai-construction-contract-review.html", "context": "Back to construction contract review" }
+      ]
+    },
+    "aiAgreementAnalyzer": {
+      "name": "AI Agreement Analyzer",
+      "mainAuthorityPage": "ai-agreement-analyzer.html",
+      "supportingPages": [
+        "ai-agreement-checker.html",
+        "ai-lease-review.html",
+        "ai-rental-lease-analyzer.html",
+        "ai-commercial-lease-review.html",
+        "ai-service-contract-review.html",
+        "ai-purchase-agreement-review.html",
+        "ai-software-license-review.html",
+        "ai-consulting-agreement-review.html",
+        "ai-employment-contract-review.html",
+        "ai-freelance-contract-review.html"
+      ],
+      "questionsAnswered": [
+        "What types of agreements can AI analyze?",
+        "Can AI review my lease for hidden fees?",
+        "How does AI check employment contracts?",
+        "What should I look for in a service agreement?",
+        "Can AI review software license terms?"
+      ],
+      "entitiesCovered": ["AI Agreement Analyzer", "Hidden Fees", "Document Intelligence"],
+      "internalLinksRequired": [
+        { "from": "ai-agreement-analyzer.html", "to": "ai-lease-review.html", "context": "Analyze your lease agreement" },
+        { "from": "ai-agreement-analyzer.html", "to": "ai-employment-contract-review.html", "context": "Review employment contracts" },
+        { "from": "ai-agreement-analyzer.html", "to": "ai-service-contract-review.html", "context": "Check service agreements" },
+        { "from": "ai-lease-review.html", "to": "ai-agreement-analyzer.html", "context": "Back to agreement analyzer" }
+      ]
+    },
+    "aiBillAnalysis": {
+      "name": "AI Bill Analysis",
+      "mainAuthorityPage": "ai-bill-analyzer.html",
+      "supportingPages": [
+        "ai-bill-checker.html",
+        "ai-bill-negotiation.html",
+        "bill-negotiation-service.html",
+        "bill-negotiation-templates.html",
+        "bill-negotiation-letter.html",
+        "duplicate-medical-billing-charges.html",
+        "hidden-bank-overdraft-fees.html"
+      ],
+      "questionsAnswered": [
+        "How does AI analyze my bills?",
+        "Can AI find billing errors I missed?",
+        "How do I negotiate a lower bill?",
+        "What hidden fees are in medical bills?",
+        "How do banks hide overdraft fees?"
+      ],
+      "entitiesCovered": ["AI Bill Analysis", "Hidden Fees", "Invoice Analysis", "Consumer Financial Transparency"],
+      "internalLinksRequired": [
+        { "from": "ai-bill-analyzer.html", "to": "bill-negotiation-templates.html", "context": "Use templates to negotiate bills" },
+        { "from": "ai-bill-analyzer.html", "to": "duplicate-medical-billing-charges.html", "context": "Medical billing specific guide" },
+        { "from": "ai-bill-analyzer.html", "to": "hidden-bank-overdraft-fees.html", "context": "Bank fee detection guide" },
+        { "from": "bill-negotiation-templates.html", "to": "ai-bill-analyzer.html", "context": "Analyze your bills first" }
+      ]
+    },
+    "hiddenFees": {
+      "name": "Hidden Fees",
+      "mainAuthorityPage": "hidden-fees-guides.html",
+      "supportingPages": [
+        "check-my-fees.html",
+        "free-hidden-fee-scanner.html",
+        "hidden-bank-overdraft-fees.html",
+        "hidden-dealership-financing-fees.html",
+        "hidden-home-renovation-fees.html",
+        "hidden-hvac-contractor-fees.html",
+        "duplicate-medical-billing-charges.html",
+        "early-termination-fees.html",
+        "cancellation-fee-clauses.html",
+        "automatic-renewal-clauses.html",
+        "arbitration-clauses-explained.html",
+        "fee-negotiation-checklist.html",
+        "fee-removal-request-template.html"
+      ],
+      "questionsAnswered": [
+        "Where are hidden fees most common?",
+        "How do I find hidden fees in contracts?",
+        "What hidden fees do banks charge?",
+        "How do car dealers hide financing fees?",
+        "What contractor fees should I watch for?"
+      ],
+      "entitiesCovered": ["Hidden Fees", "Consumer Financial Transparency", "Pricing Transparency"],
+      "internalLinksRequired": [
+        { "from": "hidden-fees-guides.html", "to": "hidden-bank-overdraft-fees.html", "context": "Banking hidden fees guide" },
+        { "from": "hidden-fees-guides.html", "to": "hidden-dealership-financing-fees.html", "context": "Auto financing hidden fees" },
+        { "from": "hidden-fees-guides.html", "to": "hidden-hvac-contractor-fees.html", "context": "HVAC hidden fees guide" },
+        { "from": "hidden-bank-overdraft-fees.html", "to": "hidden-fees-guides.html", "context": "See all hidden fee guides" }
+      ]
+    },
+    "pricingTransparency": {
+      "name": "Pricing Transparency",
+      "mainAuthorityPage": "ai-pricing-analysis.html",
+      "supportingPages": [
+        "ai-quote-analyzer.html",
+        "ai-quote-review.html",
+        "ai-proposal-review.html",
+        "estimate-vs-quote.html",
+        "consumer-fee-trends-report.html",
+        "ai-transparency-report.html",
+        "editorial-policy.html"
+      ],
+      "questionsAnswered": [
+        "How do I know if I'm paying a fair price?",
+        "Can AI compare quotes from different contractors?",
+        "What's the difference between an estimate and a binding quote?",
+        "How do companies manipulate pricing?",
+        "What are current consumer fee trends?"
+      ],
+      "entitiesCovered": ["Pricing Transparency", "Consumer Financial Transparency", "Hidden Fees"],
+      "internalLinksRequired": [
+        { "from": "ai-pricing-analysis.html", "to": "ai-quote-analyzer.html", "context": "Analyze your quotes with AI" },
+        { "from": "ai-pricing-analysis.html", "to": "estimate-vs-quote.html", "context": "Understand estimate vs quote" },
+        { "from": "ai-pricing-analysis.html", "to": "consumer-fee-trends-report.html", "context": "Latest fee trend data" },
+        { "from": "ai-quote-analyzer.html", "to": "ai-pricing-analysis.html", "context": "How AI pricing analysis works" }
+      ]
+    },
+    "consumerFinancialProtection": {
+      "name": "Consumer Financial Protection",
+      "mainAuthorityPage": "consumer-negotiation-resource-center.html",
+      "supportingPages": [
+        "before-signing-a-contract.html",
+        "before-signing-contract-checklist.html",
+        "contract-review-checklist.html",
+        "bill-negotiation-resource-center.html",
+        "contract-negotiation-assistant.html",
+        "contract-terms-glossary.html",
+        "ai-analysis-methodology.html",
+        "ai-accuracy-and-limitations.html",
+        "data-handling-policy.html"
+      ],
+      "questionsAnswered": [
+        "What should I check before signing a contract?",
+        "How do I negotiate better terms?",
+        "What do contract legal terms mean in plain English?",
+        "How accurate is AI fee detection?",
+        "Is my data safe when using AI document analysis?"
+      ],
+      "entitiesCovered": ["Consumer Financial Transparency", "Pricing Transparency", "Document Intelligence"],
+      "internalLinksRequired": [
+        { "from": "consumer-negotiation-resource-center.html", "to": "before-signing-contract-checklist.html", "context": "Pre-signing checklist" },
+        { "from": "consumer-negotiation-resource-center.html", "to": "bill-negotiation-resource-center.html", "context": "Bill negotiation resources" },
+        { "from": "consumer-negotiation-resource-center.html", "to": "contract-terms-glossary.html", "context": "Contract terms explained" },
+        { "from": "before-signing-contract-checklist.html", "to": "consumer-negotiation-resource-center.html", "context": "More consumer resources" }
+      ]
+    }
+  }
+}

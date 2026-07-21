@@ -1,0 +1,119 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-07-21",
+  "description": "Glossary of key terms and concepts for DetectHiddenFees.com. Each definition includes a simple explanation, detailed explanation, and related concepts.",
+  "terms": {
+    "aiFinancialAdvisor": {
+      "term": "AI Financial Advisor",
+      "simpleExplanation": "An AI-powered tool that helps consumers make better financial decisions by analyzing their documents and providing data-driven recommendations.",
+      "detailedExplanation": "An AI Financial Advisor is a software system that uses machine learning, natural language processing, and pattern recognition to provide personalized financial guidance. Unlike a human financial advisor, it does not manage investments or provide certified financial planning. Instead, it analyzes bills, contracts, bank statements, and other financial documents to identify hidden fees, overcharges, billing errors, and savings opportunities. It can recommend negotiation strategies, flag risky contract terms, and help consumers understand the true cost of financial commitments.",
+      "relatedConcepts": ["AI Financial Analysis", "AI Bill Analysis", "Consumer Financial Transparency", "Document Intelligence"],
+      "relatedPages": ["ai-financial-advisor.html", "ai-financial-assistant.html"],
+      "category": "Service"
+    },
+    "aiFinancialAnalysis": {
+      "term": "AI Financial Analysis",
+      "simpleExplanation": "The use of artificial intelligence to examine financial documents like bills, invoices, and bank statements to find errors, hidden fees, and savings opportunities.",
+      "detailedExplanation": "AI Financial Analysis applies machine learning algorithms to financial documents to extract data, identify patterns, and detect anomalies. The process typically involves: (1) document ingestion via OCR or direct upload, (2) entity extraction identifying dates, amounts, merchant names, and line items, (3) pattern matching against known fee types and billing error patterns, (4) anomaly detection flagging unusual charges or deviations from market norms, and (5) report generation providing plain-language explanations of findings. The analysis covers bills, invoices, bank statements, credit card statements, receipts, and estimates across multiple industries.",
+      "relatedConcepts": ["AI Bill Analysis", "Invoice Analysis", "Document Intelligence", "AI Financial Advisor"],
+      "relatedPages": ["ai-financial-analysis.html", "ai-bill-analyzer.html", "ai-invoice-analyzer.html"],
+      "category": "Service"
+    },
+    "aiContractReview": {
+      "term": "AI Contract Review",
+      "simpleExplanation": "Using artificial intelligence to scan and analyze legal contracts for hidden fees, unfavorable terms, risky clauses, and pricing problems before you sign.",
+      "detailedExplanation": "AI Contract Review uses natural language processing and machine learning to analyze legal agreements. The AI scans for: (1) hidden fees — charges buried in fine print or described vaguely, (2) unfavorable terms — one-sided clauses that benefit the other party disproportionately, (3) risky clauses — automatic renewals, arbitration requirements, uncapped liabilities, (4) pricing issues — above-market rates, duplicate charges, missing discounts, and (5) missing protections — absent warranty terms, unclear scope of work, vague timelines. Results are typically returned in under 5 minutes with explanations in plain English. AI contract review costs $0-50 per document vs. $500-$1,000+ per hour for attorney review. It does not provide legal advice and is not a substitute for a lawyer in complex or high-stakes situations.",
+      "relatedConcepts": ["Contract Risk Analysis", "Hidden Fees", "Document Intelligence", "AI Agreement Analyzer"],
+      "relatedPages": ["ai-contract-review.html", "contract-risk-analysis.html", "analyze-my-contract.html"],
+      "category": "Service"
+    },
+    "hiddenFee": {
+      "term": "Hidden Fee",
+      "simpleExplanation": "A charge that is not clearly disclosed, is buried in fine print, or is disguised under vague or misleading terminology in a contract, invoice, or financial document.",
+      "detailedExplanation": "Hidden fees are costs that consumers pay without clear prior knowledge or understanding. They take many forms: (1) undisclosed charges — fees not mentioned at all during the sales process but appearing in the final contract, (2) vaguely described fees — charges listed under generic names like 'processing fee' or 'administrative charge' with no explanation of what they cover, (3) inflated fees — legitimate-sounding charges that are priced far above market rates, (4) duplicate charges — the same cost appearing under multiple names or line items, (5) unnecessary fees — charges for services or products the consumer didn't request or need, and (6) automatic fees — recurring charges buried in auto-renewal clauses that consumers forget or don't notice. Hidden fees cost consumers billions annually across banking, construction, automotive, medical, and subscription industries.",
+      "relatedConcepts": ["Consumer Financial Transparency", "Pricing Transparency", "Invoice Analysis", "Subscription Fees", "Contract Risk Analysis"],
+      "relatedPages": ["hidden-fees-guides.html", "check-my-fees.html", "find-hidden-fees-in-contract.html"],
+      "category": "Concept"
+    },
+    "contractRisk": {
+      "term": "Contract Risk",
+      "simpleExplanation": "The potential for financial loss, legal liability, or operational problems created by unfavorable or dangerous terms in a signed agreement.",
+      "detailedExplanation": "Contract risk encompasses four categories: (1) Financial Risk — hidden costs, uncapped liabilities, unfavorable payment terms, automatic price increases, and penalty clauses that can cost the signing party unexpected money, (2) Legal Risk — unfavorable jurisdiction clauses requiring disputes to be handled in distant courts, mandatory arbitration waiving the right to sue, broad indemnification requirements making the signer responsible for the other party's liabilities, and non-compete clauses restricting future work, (3) Operational Risk — unrealistic timelines, vague scope of work descriptions that allow the other party to claim additional charges for work that should have been included, missing performance standards, and inadequate termination rights, and (4) Compliance Risk — terms that may violate consumer protection laws, missing required disclosures, or regulatory non-compliance. AI contract review scores each risk on a 1-10 scale and provides plain-language explanations of what each clause means.",
+      "relatedConcepts": ["AI Contract Review", "Hidden Fees", "Contract Risk Analysis", "Consumer Financial Transparency"],
+      "relatedPages": ["contract-risk-analysis.html", "contract-risk-assessment-guide.html", "contract-red-flags.html"],
+      "category": "Concept"
+    },
+    "invoiceAnalysis": {
+      "term": "Invoice Analysis",
+      "simpleExplanation": "The systematic examination of invoices to verify accuracy, identify overcharges, detect duplicate billing, and compare line items against agreed-upon rates or market norms.",
+      "detailedExplanation": "Invoice analysis involves reviewing each line item on an invoice to verify: (1) the goods or services billed were actually received, (2) quantities and rates match the agreed-upon contract or estimate, (3) there are no duplicate charges for the same item, (4) taxes and fees are correctly calculated, (5) any discounts or credits promised have been applied, and (6) unit prices are consistent with market rates for the industry and region. AI-powered invoice analysis automates this process by extracting line items via OCR, matching them against contract terms and market databases, and flagging discrepancies. Common findings include duplicate billing codes, inflated hourly rates, charges for unbilled services, and discrepancies between quoted and invoiced amounts. Invoice analysis is particularly valuable for medical bills, construction invoices, and enterprise vendor payments.",
+      "relatedConcepts": ["AI Financial Analysis", "Hidden Fees", "Pricing Transparency", "AI Bill Analysis"],
+      "relatedPages": ["ai-invoice-analyzer.html", "analyze-my-invoice.html", "ai-bill-analyzer.html"],
+      "category": "Process"
+    },
+    "pricingTransparency": {
+      "term": "Pricing Transparency",
+      "simpleExplanation": "The principle that all costs, fees, and charges should be clearly disclosed and understandable to consumers before they commit to a purchase or agreement.",
+      "detailedExplanation": "Pricing transparency means that consumers receive complete, accurate, and understandable information about what they will pay. Key elements include: (1) upfront disclosure — all costs presented before the consumer commits, not buried in fine print or revealed after signing, (2) itemized breakdown — each charge listed separately with a clear description of what it covers, (3) comparable format — pricing presented in a way that allows comparison across providers or options, (4) plain language — costs described in terms consumers can understand, not industry jargon or legal terminology designed to obscure, and (5) total cost clarity — the all-in price including taxes, fees, surcharges, and recurring costs. Industries with poor pricing transparency include healthcare, construction, automotive sales, banking, and telecommunications. DetectHiddenFees promotes pricing transparency by using AI to expose hidden costs and educate consumers about fair market rates.",
+      "relatedConcepts": ["Consumer Financial Transparency", "Hidden Fees", "Invoice Analysis", "AI Financial Advisor"],
+      "relatedPages": ["ai-pricing-analysis.html", "ai-transparency-report.html", "editorial-policy.html"],
+      "category": "Principle"
+    },
+    "subscriptionFees": {
+      "term": "Subscription Fees",
+      "simpleExplanation": "Recurring charges for ongoing services or products that may include hidden costs through automatic renewals, price increases, or bundled unwanted services.",
+      "detailedExplanation": "Subscription fees are periodic payments for continued access to a product or service. Hidden costs in subscriptions commonly appear as: (1) automatic renewal at higher rates — introductory pricing that quietly jumps to a higher rate after the initial period, (2) bundled add-ons — services or features added to the subscription without clear opt-in, (3) cancellation barriers — complex cancellation processes designed to retain subscribers who would otherwise leave, (4) creeping price increases — small, frequent price hikes that accumulate significantly over time, and (5) unused subscription fees — consumers paying for subscriptions they've forgotten about or no longer use. AI analysis can identify subscription patterns across bank and credit card statements, flagging recurring charges the consumer may not recognize and comparing current rates against advertised or historical pricing.",
+      "relatedConcepts": ["Hidden Fees", "AI Financial Analysis", "Consumer Financial Transparency", "Pricing Transparency"],
+      "relatedPages": ["automatic-renewal-clauses.html", "ai-statement-analyzer.html", "check-my-fees.html"],
+      "category": "Concept"
+    },
+    "documentIntelligence": {
+      "term": "Document Intelligence",
+      "simpleExplanation": "AI technology that extracts, understands, and analyzes information from unstructured documents like PDFs, images, and scanned files.",
+      "detailedExplanation": "Document Intelligence combines several AI technologies to make unstructured documents machine-readable and analyzable: (1) Optical Character Recognition (OCR) — converts scanned images and PDFs into machine-readable text, (2) Natural Language Processing (NLP) — understands the meaning and context of extracted text, identifying entities like dates, dollar amounts, party names, and legal concepts, (3) Entity Extraction — identifies and categorizes specific pieces of information (e.g., contract dates, payment amounts, cancellation terms), (4) Pattern Matching — compares extracted information against databases of known patterns (hidden fee types, risky clause language, pricing benchmarks), and (5) Classification — categorizes documents by type (contract, invoice, bill, receipt) and routes them to the appropriate analysis pipeline. Document Intelligence is the foundational technology that powers all of DetectHiddenFees' analysis capabilities.",
+      "relatedConcepts": ["AI Contract Review", "AI Financial Analysis", "Invoice Analysis"],
+      "relatedPages": ["ai-document-analysis-tools.html", "ai-document-analysis-benefits.html", "ai-analysis-methodology.html"],
+      "category": "Technology"
+    },
+    "consumerFinancialTransparency": {
+      "term": "Consumer Financial Transparency",
+      "simpleExplanation": "The right of consumers to have clear, complete, and understandable information about all costs, fees, terms, and conditions before making financial commitments.",
+      "detailedExplanation": "Consumer Financial Transparency is a principle and movement advocating for: (1) clear disclosure — all costs presented in plain language before purchase or signing, (2) no hidden fees — elimination of charges that are not explicitly disclosed and explained, (3) comparable pricing — standardized formats that allow consumers to compare costs across providers, (4) informed consent — consumers understand what they're agreeing to before they commit, and (5) accountability — mechanisms for disputing and reversing charges that were not properly disclosed. This principle underpins DetectHiddenFees' mission. The platform advances consumer financial transparency by using AI to reveal hidden costs, educating consumers about industry pricing practices, providing negotiation tools and templates, and publishing research on consumer fee trends.",
+      "relatedConcepts": ["Pricing Transparency", "Hidden Fees", "AI Financial Advisor"],
+      "relatedPages": ["consumer-negotiation-resource-center.html", "editorial-policy.html", "ai-transparency-report.html"],
+      "category": "Principle"
+    },
+    "contractRiskAnalysis": {
+      "term": "Contract Risk Analysis",
+      "simpleExplanation": "The systematic evaluation of a contract to identify and score clauses that create financial, legal, operational, or compliance risk for the signing party.",
+      "detailedExplanation": "Contract Risk Analysis goes beyond finding hidden fees to evaluate the overall risk profile of an agreement. The process involves: (1) clause identification — locating and extracting every clause that could create liability, cost, or obligation, (2) risk categorization — classifying each clause as financial risk (costs, liabilities, penalties), legal risk (jurisdiction, arbitration, indemnification), operational risk (timelines, scope, performance), or compliance risk (regulatory issues, missing disclosures), (3) risk scoring — assigning each clause a 1-10 severity score based on potential impact, (4) benchmarking — comparing clauses against industry standards and norms, and (5) recommendations — providing plain-language explanations of each risk and suggested alternative language. This analysis helps consumers understand not just what a contract says, but what it actually means for their wallet, rights, and obligations.",
+      "relatedConcepts": ["AI Contract Review", "Hidden Fees", "Consumer Financial Transparency", "AI Agreement Analyzer"],
+      "relatedPages": ["contract-risk-assessment-guide.html", "contract-risk-score.html", "contract-red-flags.html"],
+      "category": "Process"
+    },
+    "aiAgreementAnalyzer": {
+      "term": "AI Agreement Analyzer",
+      "simpleExplanation": "AI technology that reviews various types of agreements — leases, employment contracts, service agreements, purchase contracts — to identify hidden terms, fees, and risks.",
+      "detailedExplanation": "The AI Agreement Analyzer extends AI contract review capabilities across a broader range of agreement types beyond traditional contracts. While 'contract review' typically focuses on formal legal agreements, the agreement analyzer also covers: leases (rental and commercial), employment agreements, freelance and consulting contracts, service agreements, purchase agreements, software licenses, and vendor contracts. Each agreement type has unique patterns the AI is trained to recognize — for example, lease-specific hidden fees (amenity fees, pet rent, utility markups), employment contract red flags (non-compete scope, IP assignment, at-will exceptions), and service agreement traps (auto-renewal, scope creep, termination penalties). The analyzer provides type-specific recommendations and risk assessments.",
+      "relatedConcepts": ["AI Contract Review", "Contract Risk Analysis", "Hidden Fees", "Document Intelligence"],
+      "relatedPages": ["ai-agreement-analyzer.html", "ai-agreement-checker.html", "ai-lease-review.html"],
+      "category": "Service"
+    },
+    "constructionContracts": {
+      "term": "Construction Contracts",
+      "simpleExplanation": "Legal agreements for construction, renovation, or repair work that frequently contain hidden fees through change orders, material markups, and vague scope language.",
+      "detailedExplanation": "Construction contracts are agreements between property owners and contractors for building, renovation, or repair work. They are among the highest-risk consumer contracts due to: (1) high dollar amounts — construction projects often involve tens or hundreds of thousands of dollars, making hidden fees particularly costly, (2) technical complexity — contracts use industry terminology that most consumers don't understand, creating information asymmetry, (3) change order vulnerability — contractors can submit change orders for additional work at higher rates once the project is underway, (4) material markup — contractors may charge significantly above wholesale cost for materials without disclosing the markup, (5) scope ambiguity — vague descriptions of work allow contractors to claim certain tasks were 'not included' and charge extra, and (6) payment schedule manipulation — front-loaded payment schedules that give the contractor leverage. AI construction contract review specifically targets these patterns.",
+      "relatedConcepts": ["AI Construction Contract Review", "Hidden Fees", "Contract Risk Analysis", "Pricing Transparency"],
+      "relatedPages": ["ai-construction-contract-review.html", "change-order-fees.html", "hidden-home-renovation-fees.html"],
+      "category": "Domain"
+    }
+  },
+  "categories": {
+    "Service": "A tool or capability provided by DetectHiddenFees",
+    "Concept": "A key idea or principle in consumer financial protection",
+    "Principle": "A guiding value or standard",
+    "Process": "A systematic method or workflow",
+    "Technology": "Underlying technical capability",
+    "Domain": "A specific industry or application area"
+  }
+}

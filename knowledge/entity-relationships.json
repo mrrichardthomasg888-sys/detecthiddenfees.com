@@ -1,0 +1,289 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-07-21",
+  "description": "Entity relationship map for DetectHiddenFees.com knowledge graph. Defines how entities, concepts, and topics connect.",
+  "relationships": [
+    {
+      "source": "DetectHiddenFees",
+      "target": "Hidden Fees",
+      "relationship": "detects",
+      "type": "primary_function",
+      "description": "DetectHiddenFees platform detects hidden fees in consumer financial documents using AI analysis."
+    },
+    {
+      "source": "DetectHiddenFees",
+      "target": "AI Contract Review",
+      "relationship": "provides",
+      "type": "service",
+      "description": "DetectHiddenFees provides AI-powered contract review as a core service."
+    },
+    {
+      "source": "DetectHiddenFees",
+      "target": "AI Financial Analysis",
+      "relationship": "provides",
+      "type": "service",
+      "description": "DetectHiddenFees provides AI-powered financial document analysis as a core service."
+    },
+    {
+      "source": "DetectHiddenFees",
+      "target": "AI Financial Advisor",
+      "relationship": "offers",
+      "type": "service",
+      "description": "DetectHiddenFees offers AI-powered financial advisory guidance to consumers."
+    },
+    {
+      "source": "DetectHiddenFees",
+      "target": "Consumer Financial Transparency",
+      "relationship": "promotes",
+      "type": "mission",
+      "description": "DetectHiddenFees promotes consumer financial transparency as its core mission."
+    },
+    {
+      "source": "DetectHiddenFees",
+      "target": "Contract Risk Analysis",
+      "relationship": "performs",
+      "type": "capability",
+      "description": "DetectHiddenFees performs contract risk analysis as part of its AI review capabilities."
+    },
+    {
+      "source": "DetectHiddenFees",
+      "target": "Document Intelligence",
+      "relationship": "powers",
+      "type": "technology",
+      "description": "DetectHiddenFees is powered by document intelligence technology for extracting and analyzing unstructured documents."
+    },
+    {
+      "source": "AI Contract Review",
+      "target": "Hidden Fees",
+      "relationship": "identifies",
+      "type": "capability",
+      "description": "AI contract review identifies hidden fees, overcharges, and pricing manipulation in legal agreements."
+    },
+    {
+      "source": "AI Contract Review",
+      "target": "Construction Contracts",
+      "relationship": "analyzes",
+      "type": "application",
+      "description": "AI contract review analyzes construction contracts for change order traps, material upcharges, and scope gaps."
+    },
+    {
+      "source": "AI Contract Review",
+      "target": "Contract Risk Analysis",
+      "relationship": "assesses",
+      "type": "function",
+      "description": "AI contract review includes contract risk assessment for financial, legal, and operational risks."
+    },
+    {
+      "source": "AI Contract Review",
+      "target": "Subscription Fees",
+      "relationship": "reviews",
+      "type": "application",
+      "description": "AI contract review examines subscription and service agreements for automatic renewal and hidden fee clauses."
+    },
+    {
+      "source": "AI Financial Analysis",
+      "target": "Hidden Fees",
+      "relationship": "identifies",
+      "type": "capability",
+      "description": "AI financial analysis identifies hidden fees, duplicate charges, and billing errors in financial documents."
+    },
+    {
+      "source": "AI Financial Analysis",
+      "target": "Invoice Analysis",
+      "relationship": "analyzes",
+      "type": "application",
+      "description": "AI financial analysis examines invoices for overcharges, duplicate billing, and incorrect line items."
+    },
+    {
+      "source": "AI Financial Analysis",
+      "target": "Subscription Fees",
+      "relationship": "analyzes",
+      "type": "application",
+      "description": "AI financial analysis reviews subscription bills for hidden recurring charges and fee increases."
+    },
+    {
+      "source": "AI Financial Analysis",
+      "target": "Financial Documents",
+      "relationship": "analyzes",
+      "type": "domain",
+      "description": "AI financial analysis works across bills, invoices, bank statements, receipts, and estimates."
+    },
+    {
+      "source": "AI Financial Advisor",
+      "target": "Consumer Financial Transparency",
+      "relationship": "promotes",
+      "type": "mission",
+      "description": "AI financial advisor promotes consumer financial transparency through data-driven guidance."
+    },
+    {
+      "source": "AI Financial Advisor",
+      "target": "AI Financial Analysis",
+      "relationship": "uses",
+      "type": "dependency",
+      "description": "AI financial advisor uses AI financial analysis results to provide personalized consumer guidance."
+    },
+    {
+      "source": "AI Financial Advisor",
+      "target": "AI Contract Review",
+      "relationship": "uses",
+      "type": "dependency",
+      "description": "AI financial advisor uses AI contract review findings to provide negotiation recommendations."
+    },
+    {
+      "source": "Consumer Financial Transparency",
+      "target": "Hidden Fees",
+      "relationship": "combats",
+      "type": "mission",
+      "description": "Consumer financial transparency combats hidden fees by demanding clear disclosure of all costs."
+    },
+    {
+      "source": "Consumer Financial Transparency",
+      "target": "Pricing Transparency",
+      "relationship": "enables",
+      "type": "principle",
+      "description": "Consumer financial transparency enables pricing transparency by requiring clear, upfront cost information."
+    },
+    {
+      "source": "Hidden Fees",
+      "target": "Invoice Analysis",
+      "relationship": "found_in",
+      "type": "context",
+      "description": "Hidden fees are commonly found during invoice analysis, including duplicate charges and inflated line items."
+    },
+    {
+      "source": "Hidden Fees",
+      "target": "Subscription Fees",
+      "relationship": "found_in",
+      "type": "context",
+      "description": "Hidden fees frequently appear in subscription services through automatic renewals and creeping price increases."
+    },
+    {
+      "source": "Hidden Fees",
+      "target": "Construction Contracts",
+      "relationship": "found_in",
+      "type": "context",
+      "description": "Hidden fees are prevalent in construction contracts via change orders, material markups, and vague scope language."
+    },
+    {
+      "source": "Hidden Fees",
+      "target": "Banking Fees",
+      "relationship": "found_in",
+      "type": "context",
+      "description": "Hidden fees in banking include overdraft charges, maintenance fees, and ATM surcharges."
+    },
+    {
+      "source": "Hidden Fees",
+      "target": "Medical Billing",
+      "relationship": "found_in",
+      "type": "context",
+      "description": "Hidden fees in medical billing include duplicate charges, facility fees, and upcoding practices."
+    },
+    {
+      "source": "Hidden Fees",
+      "target": "Auto Financing",
+      "relationship": "found_in",
+      "type": "context",
+      "description": "Hidden fees in auto financing include dealer markup, unnecessary add-ons, and inflated interest rates."
+    },
+    {
+      "source": "Contract Risk Analysis",
+      "target": "Hidden Fees",
+      "relationship": "identifies",
+      "type": "capability",
+      "description": "Contract risk analysis identifies hidden fees as a primary category of financial risk in agreements."
+    },
+    {
+      "source": "Document Intelligence",
+      "target": "AI Contract Review",
+      "relationship": "powers",
+      "type": "technology",
+      "description": "Document intelligence technology powers AI contract review through OCR, entity extraction, and pattern matching."
+    },
+    {
+      "source": "Document Intelligence",
+      "target": "AI Financial Analysis",
+      "relationship": "powers",
+      "type": "technology",
+      "description": "Document intelligence technology powers AI financial analysis through data extraction and anomaly detection."
+    },
+    {
+      "source": "Invoice Analysis",
+      "target": "Hidden Fees",
+      "relationship": "detects",
+      "type": "capability",
+      "description": "Invoice analysis detects hidden fees through line-item review and market rate comparison."
+    },
+    {
+      "source": "Pricing Transparency",
+      "target": "Hidden Fees",
+      "relationship": "prevents",
+      "type": "principle",
+      "description": "Pricing transparency prevents hidden fees by requiring clear disclosure of all costs upfront."
+    },
+    {
+      "source": "Pricing Transparency",
+      "target": "Consumer Financial Transparency",
+      "relationship": "supports",
+      "type": "principle",
+      "description": "Pricing transparency supports consumer financial transparency by making costs visible and comparable."
+    },
+    {
+      "source": "Construction Contracts",
+      "target": "AI Construction Contract Review",
+      "relationship": "analyzed_by",
+      "type": "application",
+      "description": "Construction contracts are analyzed by specialized AI construction contract review for industry-specific hidden fees."
+    },
+    {
+      "source": "AI Construction Contract Review",
+      "target": "Construction Contracts",
+      "relationship": "specializes_in",
+      "type": "specialization",
+      "description": "AI construction contract review specializes in construction-specific agreements, change orders, and contractor proposals."
+    },
+    {
+      "source": "AI Agreement Analyzer",
+      "target": "AI Contract Review",
+      "relationship": "related_to",
+      "type": "sibling",
+      "description": "AI agreement analyzer is related to AI contract review but covers a broader range of agreement types including leases, employment, and service agreements."
+    },
+    {
+      "source": "AI Bill Analysis",
+      "target": "AI Financial Analysis",
+      "relationship": "part_of",
+      "type": "hierarchy",
+      "description": "AI bill analysis is part of the broader AI financial analysis capability, specializing in bill-specific review."
+    },
+    {
+      "source": "AI Bill Analysis",
+      "target": "Invoice Analysis",
+      "relationship": "related_to",
+      "type": "sibling",
+      "description": "AI bill analysis and invoice analysis are closely related, with bills and invoices sharing similar fee patterns."
+    }
+  ],
+  "entityTypes": {
+    "organization": ["DetectHiddenFees"],
+    "service": ["AI Contract Review", "AI Financial Analysis", "AI Financial Advisor", "AI Bill Analysis", "AI Agreement Analyzer", "AI Construction Contract Review"],
+    "concept": ["Hidden Fees", "Consumer Financial Transparency", "Pricing Transparency", "Contract Risk Analysis"],
+    "technology": ["Document Intelligence"],
+    "domain": ["Construction Contracts", "Invoice Analysis", "Subscription Fees", "Banking Fees", "Medical Billing", "Auto Financing", "Financial Documents"]
+  },
+  "relationshipTypes": {
+    "primary_function": "The main purpose or function connecting entities",
+    "service": "A service provided by one entity to users",
+    "mission": "A mission-driven or principle-based connection",
+    "capability": "What an entity is capable of doing",
+    "technology": "Technology that powers or enables an entity",
+    "application": "A specific use case or application domain",
+    "function": "A specific function within a broader capability",
+    "dependency": "One entity depends on or uses another",
+    "principle": "A guiding principle or value connection",
+    "context": "The context or domain where something occurs",
+    "hierarchy": "Parent-child or part-of relationship",
+    "sibling": "Sibling entities at the same level",
+    "specialization": "A specialized version of a broader entity",
+    "prevents": "One entity prevents or mitigates another"
+  }
+}

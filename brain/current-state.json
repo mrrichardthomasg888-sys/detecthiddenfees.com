@@ -14,8 +14,12 @@
     "buildScripts": 25,
     "auditReports": 1,
     "brainFiles": 18,
-    "knowledgeGraphEntities": 5,
+    "knowledgeGraphEntities": 8,
     "contentTemplates": 2,
+    "knowledgeGraphVersion": "2.0.0",
+    "glossaryTerms": 13,
+    "entityRelationships": 37,
+    "authorityMapTopics": 9,
     "topicClusters": 9,
     "questionsInDatabase": 30,
     "prioritizedTopics": 10,
@@ -94,6 +98,14 @@
       "startedDate": "2026-07-21",
       "completedDate": "2026-07-21",
       "description": "Built question intelligence system, 30-question database, content brief template, authority page strategy (6 page types), LLM citation optimization rules (8 rules), and 10 priority topics ranked by demand/authority/citation potential"
+    },
+    {
+      "id": "KNOWLEDGE-001",
+      "name": "Knowledge Graph Foundation",
+      "status": "complete",
+      "startedDate": "2026-07-21",
+      "completedDate": "2026-07-21",
+      "description": "Built structured knowledge graph: entities v2.0 (8 entities with relationships), entity relationship map (37 relationships), topical authority map (9 topics), glossary (13 terms), entity content rules (5 rules), and machine-readable authority file"
     }
   ],
 
@@ -164,6 +176,14 @@
     "authorityPageTemplate": true,
     "topicClusters": true,
     "contentAuditProcess": true
+  },
+  "knowledgeGraph": {
+    "entityDefinitions": true,
+    "entityRelationships": true,
+    "authorityMap": true,
+    "glossary": true,
+    "entityContentRules": true,
+    "machineReadableAuthority": true
   },
   "intelligenceSystems": {
     "questionIntelligence": true,
