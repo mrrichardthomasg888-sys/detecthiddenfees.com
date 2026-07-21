@@ -13,7 +13,7 @@
     "htmlPages": 118,
     "buildScripts": 25,
     "auditReports": 1,
-    "brainFiles": 18,
+    "brainFiles": 19,
     "knowledgeGraphEntities": 8,
     "contentTemplates": 2,
     "knowledgeGraphVersion": "2.0.0",
@@ -27,6 +27,8 @@
     "contentBriefs": 6,
     "hubLinkingMapVersion": "1.0.0",
     "authorityHubBuildPlan": true,
+    "sitemapGovernanceVersion": "1.0.0",
+    "sitemapGovernanceRules": 12,
     "totalAuditFindings": {
       "criticalFindings": 3,
       "highFindings": 8,
@@ -72,6 +74,12 @@
       "name": "Flagship AEO/GEO Authority Hubs — Strategy",
       "completedDate": "2026-07-21",
       "description": "Created authority hub build plan for 6 flagship hubs, 6 detailed content briefs, and hub linking map with cross-hub connections, internal linking strategy, and global navigation"
+    },
+    {
+      "id": "SITEMAP-001",
+      "name": "Sitemap Governance Rules",
+      "completedDate": "2026-07-21",
+      "description": "Created brain/sitemap-governance.md with 12 rules covering page inclusion/exclusion criteria, priority assignment (1.0-0.4), changefreq mapping, lastmod enforcement, authority hub sitemap integration, exclusion protocol, quality gates, and robots.txt integration"
     }
   ],
 
@@ -194,6 +202,14 @@
 
   "hubSystems": {
     "authorityHubBuildPlan": true,
+    "sitemapGovernance": {
+      "version": "1.0.0",
+      "rulesCount": 12,
+      "priorityTiers": 6,
+      "inclusionCriteria": "5 required categories",
+      "exclusionCategories": 6,
+      "qualityGates": 9
+    },
     "contentBriefs": {
       "total": 6,
       "hubs": [
@@ -224,6 +240,7 @@
   "auditsCompleted": 4,
   "reportsGenerated": 0,
   "brainSystemVersion": "2.0.0",
+  "sitemapGovernanceVersion": "1.0.0",
   "contentQualitySystemVersion": "1.0.0",
   "qualitySystems": {
     "contentGovernance": true,
@@ -231,7 +248,8 @@
     "contentScoring": true,
     "authorityPageTemplate": true,
     "topicClusters": true,
-    "contentAuditProcess": true
+    "contentAuditProcess": true,
+    "sitemapGovernance": true
   },
   "knowledgeGraph": {
     "entityDefinitions": true,
