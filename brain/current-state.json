@@ -16,7 +16,15 @@
     "brainFiles": 15,
     "knowledgeGraphEntities": 3,
     "contentTemplates": 1,
-    "topicClusters": 9
+    "topicClusters": 9,
+    "improvementQueueTasks": 15,
+    "totalAuditFindings": {
+      "criticalFindings": 3,
+      "highFindings": 8,
+      "mediumFindings": 6,
+      "duplicatePagePairs": 8,
+      "v1LegacyPages": "25-35"
+    }
   },
 
   "completedTasks": [
@@ -68,34 +76,42 @@
       "startedDate": "2026-07-21",
       "completedDate": "2026-07-21",
       "description": "Built content governance, duplication protection, scoring, templates, topic clusters, and audit system"
+    },
+    {
+      "id": "AUDIT-001",
+      "name": "Authority Audit & Content Intelligence Report",
+      "status": "complete",
+      "startedDate": "2026-07-21",
+      "completedDate": "2026-07-21",
+      "description": "Complete AEO/GEO authority audit: site inventory (210 HTML pages), content quality audit (8 pages, avg 29/40), entity authority report (8 entities, avg 63/100), internal linking plan, and 15-task improvement queue"
     }
   ],
 
   "nextPriorities": [
     {
       "priority": 1,
-      "task": "Run content audit on top 20 pages",
-      "category": "Quality"
+      "task": "P0-1: Add navigation menu to all pages",
+      "category": "Infrastructure"
     },
     {
       "priority": 2,
-      "task": "Knowledge graph population",
-      "category": "Content"
+      "task": "P0-2: Standardize brand name to DetectHiddenFees",
+      "category": "Brand"
     },
     {
       "priority": 3,
-      "task": "AEO content optimization pass",
-      "category": "SEO"
+      "task": "P0-3: Remove/convert v1 legacy pages",
+      "category": "Design"
     },
     {
       "priority": 4,
-      "task": "Original research reports",
-      "category": "Authority"
+      "task": "P1-1: Consolidate AI Contract Review entity (3 pages → 1)",
+      "category": "Content"
     },
     {
       "priority": 5,
-      "task": "Interactive tools development",
-      "category": "Product"
+      "task": "P1-2: Add quick-answer sections to top 20 pages",
+      "category": "Content"
     }
   ],
 
@@ -127,7 +143,7 @@
     }
   },
 
-  "auditsCompleted": 0,
+  "auditsCompleted": 4,
   "reportsGenerated": 0,
   "brainSystemVersion": "2.0.0",
   "contentQualitySystemVersion": "1.0.0",
