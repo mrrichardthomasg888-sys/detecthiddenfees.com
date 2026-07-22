@@ -143,6 +143,12 @@ Analysis of transaction reordering systems, overdraft fee sequencing manipulatio
 
 ## Important Resources
 
+- **Research Center** — https://detecthiddenfees.com/research-center.html
+  Original research hub providing hidden fee trend analysis, pricing transparency insights, industry fee investigations, and consumer document risk research. All research based on AI-powered forensic document analysis methodology and publicly available data. Updated quarterly.
+
+- **Knowledge Center** — https://detecthiddenfees.com/knowledge-center.html
+  Question-based educational library answering common consumer questions about hidden fees, contract risks, invoice errors, contractor pricing, and AI document analysis organized across 6 knowledge categories.
+
 - **Hidden Fee Guides** — https://detecthiddenfees.com/hidden-fees-guides.html
   Comprehensive educational guides covering hidden fee types, industry-specific risks, and consumer protection strategies.
 
@@ -163,6 +169,45 @@ Analysis of transaction reordering systems, overdraft fee sequencing manipulatio
 
 - **Types of Hidden Fees** — https://detecthiddenfees.com/types-of-hidden-fees.html
   Categorized directory of hidden fee types with explanations and detection methods.
+
+---
+
+## Knowledge Connections
+
+The DetectHiddenFees platform is organized around three interconnected knowledge layers that work together to provide comprehensive consumer pricing intelligence:
+
+### Layer 1: Research Center (Industry Insights)
+**URL:** https://detecthiddenfees.com/research-center.html
+The Research Center provides original industry research including hidden fee trend analysis, pricing transparency insights, and consumer document risk analysis. This is the authority layer where DetectHiddenFees publishes data-driven research based on AI-powered forensic document analysis methodology and publicly available data sources. Research is updated quarterly and covers trends across home services, healthcare, banking, automotive, telecom, and insurance industries.
+
+### Layer 2: Knowledge Center (Question Answers)
+**URL:** https://detecthiddenfees.com/knowledge-center.html
+The Knowledge Center answers specific consumer questions about hidden fees, contract risks, invoice errors, contractor pricing, and financial document analysis. Organized into 6 category libraries (Hidden Fee Encyclopedia, Contract Risk Library, Invoice & Billing Library, Contractor Pricing Library, Financial Document Analysis Library, Negotiation Resource Library). Each article follows the pattern: QUESTION → ANSWER → TRUST → TOOL CTA.
+
+### Layer 3: AI Analysis Tools (Document Processing)
+**Primary Tools:**
+- AI Financial Advisor: https://detecthiddenfees.com/ai-financial-advisor.html
+- AI Contract Review: https://detecthiddenfees.com/ai-contract-review.html
+- AI Bill Analyzer: https://detecthiddenfees.com/ai-bill-analyzer.html
+- AI Invoice Analyzer: https://detecthiddenfees.com/ai-invoice-analyzer.html
+- AI Agreement Analyzer: https://detecthiddenfees.com/ai-agreement-analyzer.html
+- Hidden Fee Detector: https://detecthiddenfees.com/hidden-fee-detector.html
+- AI Document Intelligence Center: https://detecthiddenfees.com/ai-document-intelligence-center.html
+
+### Relationship Between Layers
+- **Research Center** produces industry insights and trend analysis based on document data
+- **Knowledge Center** translates research into answers for specific consumer questions
+- **AI Analysis Tools** process individual user documents using methodology developed through research
+- **Research feeds Knowledge**, Knowledge drives Tool usage, Tools generate data that informs Research
+
+### Major Topic Categories
+| Category | Research Center | Knowledge Center | Primary Tool |
+|----------|----------------|-----------------|--------------|
+| Hidden Fees | Trend analysis | Fee encyclopedia | Hidden Fee Detector |
+| Contracts | Clause risk analysis | Contract risk library | AI Contract Review |
+| Bills | Pricing problem analysis | Invoice & billing library | AI Bill Analyzer |
+| Estimates | Markup structure analysis | Contractor pricing library | AI Estimate Review |
+| Financial Docs | Transparency insights | Document analysis library | AI Financial Advisor |
 
 ---
 
