@@ -656,6 +656,63 @@ Every new page must be:
 
 ---
 
+## SEO GOVERNANCE STANDARDS (Established 2026-07-22)
+
+### Permanent Monitoring Documents
+The following files in `/seo/` are permanent project governance documents. Every AI agent MUST read relevant sections before creating or modifying pages:
+
+| Document | Purpose | Must Check Before |
+|----------|---------|-------------------|
+| `seo/site-health.md` | SEO dashboard with indexed pages, pillar quality, linking status | Creating any new page |
+| `seo/content-inventory.md` | Complete page inventory with intent, CTA, flags | Creating content that may overlap |
+| `seo/content-gap-tracker.md` | Verified content gaps with priority scores | Deciding what content to create next |
+| `seo/link-graph.md` | Internal link audit and missing backlink map | Adding internal links to any page |
+| `seo/conversion-audit.md` | CTA placement, wording, trust signals per page | Designing or modifying page CTAs |
+| `seo/geo-aeo-audit.md` | GEO/AEO readiness scores per page | Creating or upgrading any page |
+| `seo/90-day-roadmap.md` | Phased improvement plan | Planning any major work |
+
+### Mandatory Page Requirements (Updated)
+Every page on DetectHiddenFees.com MUST now also include:
+
+#### 1. CTA Requirements
+- Minimum 2 CTAs per page (hero + mid or end)
+- CTA text must include price: "[Action] With AI — $15" or close variant
+- Hero CTA must be visible above the fold
+- Trust signals (privacy, pricing, disclaimer) must appear before the first CTA
+- No page may exist without at least one functional CTA
+
+#### 2. GEO/AEO Requirements
+- Direct answer in first paragraph (no throat-clearing)
+- Quick Answer block (50-100 words, answer-block CSS class) within first 15% of content
+- FAQPage schema with minimum 5 Q&A pairs on major pages
+- Breadcrumb schema on every page
+- Conversational language throughout ("you", "your")
+- Risk indicators (High/Medium/Low) on all fee and contract pages
+- Conditional language — never guarantee outcomes
+
+#### 3. Internal Linking Requirements
+- Every page must link to at least 2 pillar pages
+- Every pillar page must receive links from 80%+ of its cluster pages
+- Knowledge articles must link to their primary pillar
+- Industry guides must link to the core pillar (`/hidden-fee-detector.html`)
+- Cross-cluster links encouraged (Contract → Billing, Contractor → Billing, etc.)
+
+#### 4. Content Governance
+- Check `seo/content-inventory.md` before creating any new page to verify no overlap
+- Check `seo/content-gap-tracker.md` to validate the question is a real gap
+- Never create a page unless it answers a verified real user question
+- Prioritize quality over quantity — no content for the sake of keywords
+- Run monthly GSC analysis once Search Console is set up
+
+#### 5. Consolidation Rule
+If multiple pages compete for the same search intent:
+- Keep the strongest page (best content, most links, best schema)
+- 301 redirect weaker pages to the strongest page
+- Update internal links to point to the canonical page
+- Log all redirects in `_headers`
+
+---
+
 ## KEY EXTERNAL DEPENDENCIES
 
 | Service | Purpose |
