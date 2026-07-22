@@ -347,7 +347,24 @@ Analysis of transaction reordering systems, overdraft fee sequencing manipulatio
 
 ### Knowledge Center (Scalable Question-based Library)
 - https://detecthiddenfees.com/knowledge-center.html
-  Central hub organizing 6 knowledge libraries: Hidden Fee Encyclopedia, Contract Risk Library, Invoice & Billing Library, Contractor Pricing Library, Financial Document Analysis Library, and Negotiation Resource Library.
+  Enhanced central hub organizing 6 knowledge libraries with full AI tool connections, internal linking to all major pillar pages, and E-E-A-T trust signals.
+  
+  **6 Knowledge Categories:**
+  - Hidden Fee Encyclopedia — Fee definitions, examples, prevention guides, industry investigations
+  - Contract Risk Library — Contract review guides, clause analysis, risk assessment, pre-signing checklists
+  - Invoice & Billing Library — Invoice analysis, duplicate billing detection, medical billing errors, statement review
+  - Contractor Pricing Library — Contractor estimate analysis, change order fees, construction contract review
+  - Financial Document Analysis Library — AI financial analysis, document intelligence, pricing analysis
+  - Negotiation Resource Library — Templates, scripts, fee removal requests, consumer strategies
+  
+  **Internal Linking to AI Tools:**
+  - AI Financial Advisor: /ai-financial-advisor.html
+  - AI Contract Review: /ai-contract-review.html
+  - AI Construction Contract Review: /ai-construction-contract-review.html
+  - AI Agreement Analyzer: /ai-agreement-analyzer.html
+  - AI Bill Analyzer: /ai-bill-analyzer.html
+  - AI Document Checker: /ai-document-checker.html
+  - Hidden Fee Detector: /hidden-fee-detector.html
 
 ### Knowledge Articles (Question-based GEO/AEO Content)
 - https://detecthiddenfees.com/can-ai-find-hidden-fees-in-a-contract.html — Can AI find hidden fees in a contract? Quick answer, what to look for, examples, and CTA.
