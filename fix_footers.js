@@ -60,6 +60,7 @@ const FOOTER_COLS = '<div class="footer-links">' +
     '<a href="/privacy-and-ai-security.html">Privacy</a>' +
     '<a href="/terms-of-service.html">Terms</a>' +
     '<a href="/contact.html">Contact</a>' +
+    '<a href="https://facebook.com/1276218502236982" target="_blank" rel="noopener noreferrer" aria-label="Follow DetectHiddenFees on Facebook"><span style="display:inline-flex;align-items:center;gap:8px;"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M24 12.0733C24 5.40541 18.6274 0 12 0C5.37258 0 0 5.40541 0 12.0733C0 18.0995 4.38823 23.0943 10.125 24V15.5633H7.07812V12.0733H10.125V9.41343C10.125 6.38755 11.9165 4.71615 14.6576 4.71615C15.9705 4.71615 17.3438 4.95195 17.3438 4.95195V7.92313H15.8306C14.34 7.92313 13.875 8.85366 13.875 9.80899V12.0733H17.2031L16.6711 15.5633H13.875V24C19.6118 23.0943 24 18.0995 24 12.0733Z" fill="#3b82f6"/></svg>Facebook</span></a>' +
   '</div>' +
 '</div>';
 
@@ -90,9 +91,9 @@ PAGES.forEach(file => {
   // Look for where the footer content ends - find the copyright line
   const footerContent = c.substring(footerStart, footerEnd + 9);
   
-  // Check if this already has the new footer format
-  if (footerContent.indexOf('Legal Artificial Intelligence') > -1 && footerContent.indexOf('Company</strong><a') > -1) {
-    console.log('ALREADY OK: ' + file);
+  // Check if this already has the new footer format with Facebook
+  if (footerContent.indexOf('facebook.com') > -1) {
+    console.log('ALREADY HAS FB: ' + file);
     return;
   }
   
