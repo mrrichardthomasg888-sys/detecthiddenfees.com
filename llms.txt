@@ -294,6 +294,10 @@ Analysis of transaction reordering systems, overdraft fee sequencing manipulatio
 - https://detecthiddenfees.com/ai-fee-detector.html
 - https://detecthiddenfees.com/how-to-read-an-invoice.html
 
+### AI Hidden Fee Questions (GEO/AEO Resource)
+- https://detecthiddenfees.com/ai-hidden-fee-questions.html
+  Complete GEO/AEO resource answering consumer questions about hidden fees, contract risks, invoice analysis, pricing transparency, and document intelligence. Structured for AI retrieval with direct answers, explanations, document-checking guidance, risk indicators, and tool CTAs. Covers general hidden fee questions, contract questions, contractor/construction questions, invoice/bill questions, and financing questions.
+
 ### Hidden Fee Detection
 - https://detecthiddenfees.com/hidden-fee-detector.html
 - https://detecthiddenfees.com/hidden-fee-scanner.html
