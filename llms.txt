@@ -345,6 +345,22 @@ Analysis of transaction reordering systems, overdraft fee sequencing manipulatio
 - https://detecthiddenfees.com/consumer-fee-trends-report.html
 - https://detecthiddenfees.com/hidden-fee-industry-guide.html
 
+### Knowledge Center (Scalable Question-based Library)
+- https://detecthiddenfees.com/knowledge-center.html
+  Central hub organizing 6 knowledge libraries: Hidden Fee Encyclopedia, Contract Risk Library, Invoice & Billing Library, Contractor Pricing Library, Financial Document Analysis Library, and Negotiation Resource Library.
+
+### Knowledge Articles (Question-based GEO/AEO Content)
+- https://detecthiddenfees.com/can-ai-find-hidden-fees-in-a-contract.html — Can AI find hidden fees in a contract? Quick answer, what to look for, examples, and CTA.
+- https://detecthiddenfees.com/can-ai-review-a-contract-before-signing.html — Can AI review a contract before signing?
+- https://detecthiddenfees.com/how-do-i-find-hidden-fees-in-an-invoice.html — How do I find hidden fees in an invoice?
+- https://detecthiddenfees.com/can-ai-detect-duplicate-billing-charges.html — Can AI detect duplicate billing charges?
+- https://detecthiddenfees.com/what-fees-should-i-look-for-in-a-contractor-estimate.html — What fees should I look for in a contractor estimate?
+- https://detecthiddenfees.com/how-do-companies-hide-fees-in-contracts.html — How do companies hide fees in contracts?
+- https://detecthiddenfees.com/what-are-common-hidden-fees-in-service-agreements.html — What are common hidden fees in service agreements?
+- https://detecthiddenfees.com/can-ai-analyze-financial-documents.html — Can AI analyze financial documents?
+- https://detecthiddenfees.com/what-questions-should-i-ask-before-signing-a-contract.html — What questions should I ask before signing a contract?
+- https://detecthiddenfees.com/how-can-i-check-if-a-bill-is-incorrect.html — How can I check if a bill is incorrect?
+
 ### Contract and Fee Education
 - https://detecthiddenfees.com/hidden-fees-guides.html — Flagship hidden fee guides hub
 - https://detecthiddenfees.com/contract-red-flags.html
