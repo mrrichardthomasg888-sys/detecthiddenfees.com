@@ -55,6 +55,7 @@ The website must become a trusted consumer protection resource — not just a si
 | GEO/AEO Resource Page: AI Hidden Fee Questions | ✅ Complete |
 | Integration Audit & Internal Linking Improvements | ✅ Complete |
 | Knowledge Center Architecture (hub + 10 articles) | ✅ Complete |
+| Question Intelligence System (database, roadmap, content rules) | ✅ Complete |
 
 ### Pending High Priority
 
@@ -63,6 +64,9 @@ The website must become a trusted consumer protection resource — not just a si
 3. **Standardize brand name** — "DetectHiddenFees" consistently everywhere
 4. **Remove/convert v1 legacy pages** — Design cleanup
 5. **Consolidate AI Contract Review entity** — Content deduplication
+6. **Create Tier 1 knowledge articles** (4 content gap articles per roadmap)
+7. **Fix Tier 2 page optimization** (5 pages needing stronger links/CTAs)
+8. **Fix cannibalization** (3 intent groups needing consolidation)
 
 ---
 
