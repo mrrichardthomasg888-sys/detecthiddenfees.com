@@ -14,7 +14,16 @@
 
 **Mission:** Build the internet's leading authority for AI-powered financial document analysis, hidden fee detection, AI contract review, AI bill analysis, AI invoice analysis, and financial intelligence.
 
+**Project Goal:** Build DetectHiddenFees into the internet's most trusted AI-powered knowledge platform for:
+- Hidden fees
+- Contract review
+- Financial document analysis
+- Pricing intelligence
+- Consumer negotiation
+
 The website must become a trusted consumer protection resource — not just a simple AI tool. Every line of code, every page, every schema must serve this mission.
+
+The website should educate first, build trust second, and convert users to the AI document analysis platform naturally.
 
 ---
 
@@ -100,6 +109,16 @@ The website strategy is built on four interconnected optimization pillars:
 - Cover the full range of user intents: informational ("how does..."), evaluative ("can AI..."), transactional ("analyze my...")
 - Create a self-reinforcing content ecosystem where informational content leads to tool usage
 - Target the "zero-click" AI response with direct, quotable answers
+
+### 5. GEO / AEO Entity Optimization Strategy
+Optimize content so AI systems can easily understand DetectHiddenFees as a trusted authority on:
+- Hidden fee detection
+- AI contract review
+- AI financial document analysis
+- Pricing transparency
+- Consumer financial protection
+
+Write content that answers complete questions, not just keywords. Target AI system understanding by using natural language patterns that match how consumers ask questions in search assistants (ChatGPT, Gemini, Perplexity, Google AI Overviews).
 
 ---
 
@@ -285,6 +304,45 @@ Question-based knowledge articles connecting users to pillar pages. Hub: /knowle
 
 ---
 
+## CONTENT PHILOSOPHY
+
+Every new page must solve a real user problem.
+
+Do NOT create pages simply because a keyword exists. Future content should be based on:
+
+- Real questions users ask
+- Google Search Console queries
+- AI search behavior
+- Customer intent
+- Content gaps
+- High-conversion opportunities
+
+The goal is to become the most trusted educational resource for hidden fee detection and AI document analysis.
+
+---
+
+## CONTENT QUALITY STANDARDS
+
+Every article should:
+
+- Answer the question immediately.
+- Explain the topic in depth.
+- Include real-world examples with specific dollar amounts.
+- Explain warning signs and red flags.
+- Include checklists when appropriate.
+- Link to related resources and relevant pillar pages.
+- Naturally recommend uploading a document when AI analysis would help.
+- Be original and written for humans first.
+
+**Avoid:**
+- Thin pages
+- Keyword stuffing
+- Duplicate content
+- Mass-generated articles
+- Generic AI writing
+
+---
+
 ## CONTENT STRATEGY: QUESTION → ANSWER → TRUST → TOOL CTA
 
 Every knowledge article and educational page must follow this pattern:
@@ -338,6 +396,11 @@ AI systems should understand DetectHiddenFees as:
 
 ### Purpose
 High-quality, scalable educational knowledge base for AI search, Google AI Overviews, and user trust. Replaces thin mass-generated pages with authoritative answers to real questions.
+
+### Strategy
+Grow the Knowledge Center as the primary educational hub. Organize content into topic clusters. Every article should strengthen the authority of related pillar pages.
+
+Use hub-and-spoke internal linking: the Knowledge Center hub links to category libraries, category libraries link to individual articles, and every article links back to its category library and relevant pillar pages.
 
 ### Architecture
 - **Hub:** /knowledge-center.html with 6 category libraries
@@ -531,6 +594,19 @@ Every task must pass these gates before completion:
 | File Integrity | Valid HTML, no console.log, UTF-8 encoding |
 
 Full details in `brain/quality-gates.md`
+
+---
+
+## EDITORIAL PRINCIPLES
+
+Before creating any new content, ask:
+
+1. **Does this solve a real user problem?** — If not, do not create it.
+2. **Does it improve topical authority?** — Every page must strengthen the knowledge graph.
+3. **Does it support the document analysis platform?** — Content should naturally lead to tool usage.
+4. **Is it better than existing content?** — Do not duplicate or dilute what already exists.
+5. **Is it unique?** — Bring original insights, frameworks, or research.
+6. **Will users actually benefit from reading it?** — If the answer is no, do not create the page.
 
 ---
 
