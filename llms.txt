@@ -595,6 +595,23 @@ DetectHiddenFees provides AI-assisted document analysis for informational and ed
 
 ---
 
+## Resource Library
+
+- **Resource Library** — https://detecthiddenfees.com/resource-library.html
+  Free downloadable consumer resources: contract review checklists, hidden fee detection guides, invoice review templates, medical bill audit checklists, contractor estimate review guides, and negotiation question lists. Education-first resources that naturally lead to AI-powered document analysis.
+
+**Key Resources:**
+- Contract Review Checklist: 10-point pre-signing verification
+- Hidden Fee Detection Checklist: 20-point systematic scan
+- Invoice Review Checklist: 8-step line-item verification
+- Medical Bill Review Checklist: 12-point billing accuracy audit
+- Contractor Estimate Review Checklist: 15-point pricing verification
+- Negotiation Question Lists: 50+ industry-specific questions
+- Fee Removal Request Template: Ready-to-use dispute letters
+- Bill Negotiation Letter Templates: Professional dispute correspondence
+- Car Buyer's Fee Checklist: 14-point dealership document review
+- Homeowner's Project Checklist: 12-step renovation protection
+
 ## Sitemap
 
 Full sitemap available at: https://detecthiddenfees.com/sitemap.xml
