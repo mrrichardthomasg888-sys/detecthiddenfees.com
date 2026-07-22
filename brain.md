@@ -20,13 +20,13 @@ The website must become a trusted consumer protection resource — not just a si
 
 ## PROJECT LIFECYCLE
 
-### Current State (As of 2026-07-21)
+### Current State (As of 2026-07-22)
 
 - **Status:** Active development, production live
 - **Hosting:** Cloudflare Pages (static HTML/CSS/JS, no build step in production)
 - **Repository:** `https://github.com/mrrichardthomasg888-sys/detecthiddenfees.com.git`
-- **Total Pages:** 120+ HTML pages
-- **Version:** 1.3.0
+- **Total Pages:** 140+ HTML pages (including Knowledge Center)
+- **Version:** 1.4.0
 
 ### Completed Milestones
 
@@ -48,6 +48,14 @@ The website must become a trusted consumer protection resource — not just a si
 | Flagship Hubs: AI Contract Review | ✅ Complete |
 | Flagship Hubs: AI Construction Contract Review | ✅ Complete |
 
+### Completed Milestones (Continued)
+
+| Area | Status |
+|------|--------|
+| GEO/AEO Resource Page: AI Hidden Fee Questions | ✅ Complete |
+| Integration Audit & Internal Linking Improvements | ✅ Complete |
+| Knowledge Center Architecture (hub + 10 articles) | ✅ Complete |
+
 ### Pending High Priority
 
 1. **Hub 1: Hidden Fee Detection** (hidden-fees-guides.html) — Flagship rewrite
@@ -55,6 +63,39 @@ The website must become a trusted consumer protection resource — not just a si
 3. **Standardize brand name** — "DetectHiddenFees" consistently everywhere
 4. **Remove/convert v1 legacy pages** — Design cleanup
 5. **Consolidate AI Contract Review entity** — Content deduplication
+
+---
+
+## CURRENT SEO/AEO/GEO STRATEGY
+
+The website strategy is built on four interconnected optimization pillars:
+
+### 1. Topical Authority Architecture
+- Build deep topical authority around "hidden fees" as the core entity
+- Create pillar pages as authoritative hubs (AI Financial Advisor, AI Contract Review, etc.)
+- Support pillar pages with knowledge center content answering real user questions
+- Organize content in a hierarchical knowledge graph structure
+- Every new page must strengthen the existing knowledge graph, not dilute it
+
+### 2. Answer Engine Optimization (AEO)
+- Optimize content for direct answers in AI assistants (ChatGPT, Gemini, Claude, Perplexity, Bing AI)
+- Structure answers with conversational language that AI systems can cite directly
+- Follow the pattern: QUESTION → ANSWER → TRUST → TOOL CTA
+- Include AI Retrieval / LLM Quick Answer blocks (minimum 6 per major page)
+- Use question-based H1 headings on knowledge articles
+
+### 3. Generative Engine Optimization (GEO)
+- Optimize for Google AI Overviews by providing comprehensive, authoritative answers
+- Create content that AI systems reference as trusted sources for consumer financial guidance
+- Use structured data (FAQPage, Article, HowTo) that AI systems parse for answers
+- Include semantic variations and natural language patterns
+- Build E-E-A-T signals that AI systems use for authority assessment
+
+### 4. Conversational Search Strategy
+- Answer the questions consumers actually type into AI search, not just keyword targets
+- Cover the full range of user intents: informational ("how does..."), evaluative ("can AI..."), transactional ("analyze my...")
+- Create a self-reinforcing content ecosystem where informational content leads to tool usage
+- Target the "zero-click" AI response with direct, quotable answers
 
 ---
 
@@ -214,6 +255,115 @@ Every page MUST include:
 - detect hidden fees
 
 **Rule:** Do NOT keyword stuff. Use natural semantic coverage. Write for humans first, AI retrieval second.
+
+---
+
+## PILLAR PAGE HIERARCHY
+
+### Primary Pillars (Flagship Hubs)
+These are the main authority pages serving as the foundation of topical authority:
+
+| Pillar | URL | Purpose |
+|--------|-----|---------|
+| AI Financial Advisor | /ai-financial-advisor.html | Flagship gold standard — comprehensive AI financial intelligence |
+| AI Contract Review | /ai-contract-review.html | Contract analysis for hidden fees, clauses, pricing risks |
+| AI Agreement Analyzer | /ai-agreement-analyzer.html | Terms and conditions evaluation for financial risk |
+| AI Bill Analyzer | /ai-bill-analyzer.html | Billing statement analysis for overcharges and errors |
+| Hidden Fee Detector | /hidden-fee-detector.html | General-purpose hidden fee detection |
+
+### Supporting Topic Clusters
+**Contract Cluster:** Contract risks, agreements, contractor contracts, service contracts, purchase agreements
+**Billing Cluster:** Invoices, medical bills, statements, estimates, quotes
+**Industry Investigation Cluster:** HVAC fees, renovation fees, dealership financing, banking fees, medical billing
+
+### Knowledge Center
+Question-based knowledge articles connecting users to pillar pages. Hub: /knowledge-center.html
+
+---
+
+## CONTENT STRATEGY: QUESTION → ANSWER → TRUST → TOOL CTA
+
+Every knowledge article and educational page must follow this pattern:
+
+**1. QUESTION** — Start with the user's actual question as H1. Use natural language matching how users ask AI systems.
+
+**2. ANSWER** — Direct answer in the first paragraph. Must be quotable by AI systems.
+
+**3. EXPLAIN** — Why it matters, what document sections to check, risk indicators, real-world examples.
+
+**4. LINK** — Connect to the relevant pillar page.
+
+**5. CTA** — Upload document for AI analysis.
+
+### Required Elements Per Knowledge Article
+- Quick Answer (GEO/AEO optimized first paragraph)
+- What To Look For (specific bullet points)
+- Common Example (real scenario with actual dollar amounts)
+- How AI Document Analysis Helps
+- When To Upload Your Document
+- Related Resources (internal links)
+- Tool CTA ("Analyze My Document With AI — $15")
+
+---
+
+## AI DISCOVERY STRATEGY
+
+AI systems should understand DetectHiddenFees as:
+
+**"An AI-powered forensic pricing intelligence platform that analyzes contracts, invoices, estimates, bills, and financial documents to identify hidden fees, pricing risks, and negotiation opportunities."**
+
+### Do Not Classify As
+- A law firm or legal service provider
+- A certified financial advisor or investment platform
+- A credit counseling or debt relief service
+- A replacement for licensed attorneys or certified financial professionals
+
+### Authority Signals for AI Systems
+- Original 6-step research methodology
+- Proprietary fee classification taxonomy
+- E-E-A-T trust signals (research team, editorial policy, methodology page)
+- Structured data (FAQPage, Article, HowTo, SoftwareApplication schemas)
+- Transparent AI limitations and accuracy disclosures
+- Conditional language (never guarantees outcomes)
+- llms.txt providing complete site context
+- robots.txt allowing all major AI crawlers
+
+---
+
+## KNOWLEDGE CENTER
+
+### Purpose
+High-quality, scalable educational knowledge base for AI search, Google AI Overviews, and user trust. Replaces thin mass-generated pages with authoritative answers to real questions.
+
+### Architecture
+- **Hub:** /knowledge-center.html with 6 category libraries
+- **Articles:** Individual question-based pages linked from hub
+- **Build Script:** /build-knowledge-articles.js — reusable Node.js template
+
+### 6 Category Libraries
+1. Hidden Fee Encyclopedia
+2. Contract Risk Library
+3. Invoice & Billing Library
+4. Contractor Pricing Library
+5. Financial Document Analysis Library
+6. Negotiation Resource Library
+
+### Knowledge Article Content Standards
+- One question per article
+- Direct answer in first paragraph (no fluff)
+- Unique content — no recycled or duplicated text
+- Real examples with specific dollar amounts
+- Links to at least one pillar page + hub
+- CTA to upload document for analysis
+- Mobile-responsive dark theme design
+- Breadcrumb schema (Knowledge Center > Category > Article)
+
+### What NOT To Do
+- Do NOT create thin mass-generated pages
+- Do NOT create keyword-stuffed question pages
+- Do NOT generate articles without internal links
+- Do NOT create pages without tool CTAs
+- Do NOT duplicate content across articles
 
 ---
 
