@@ -711,6 +711,108 @@ If multiple pages compete for the same search intent:
 - Update internal links to point to the canonical page
 - Log all redirects in `_headers`
 
+
+---
+
+## PERMANENT DEVELOPMENT PRINCIPLES
+
+> **Established:** 2026-07-22  
+> **Status:** Permanent — these rules apply to ALL future work unless explicitly overridden in a specific task.
+
+### MISSION STATEMENT
+
+DetectHiddenFees exists to become the world's most trusted AI-powered platform for identifying hidden fees, pricing risks, contract risks, and financial document issues.
+
+The website should educate first, build trust second, and convert users naturally.
+
+### CORE PRINCIPLES
+
+Before creating any content ask:
+
+1. **Does this solve a real user problem?** — If not, do not create the page.
+2. **Is this based on real search intent?** — Base content on actual user questions and search behavior, not keyword targets.
+3. **Is this genuinely useful?** — Every page must provide actionable value to consumers.
+4. **Does it strengthen topical authority?** — Every page must reinforce the existing knowledge graph, not dilute it.
+5. **Does it naturally support the document analysis platform?** — Content should lead users toward uploading documents for AI analysis.
+
+### CONTENT STANDARDS
+
+Every page should:
+
+- Answer the user's question immediately in the first paragraph
+- Explain the topic thoroughly with practical guidance
+- Include real-world examples where appropriate (without fabricated statistics or testimonials)
+- Include checklists where appropriate
+- Link to related resources and pillar pages
+- Include a natural Upload Document CTA
+- Use conditional language — never guarantee outcomes
+- Avoid generic AI wording, keyword stuffing, and duplicate content
+- Follow the QUESTION → ANSWER → TRUST → TOOL CTA pattern
+
+### SITE ARCHITECTURE
+
+Always preserve and strengthen:
+
+- **Pillar Pages** — Flagship hubs that serve as the foundation of topical authority
+- **Knowledge Center** — Educational knowledge base for AI search and user trust
+- **Research Center** — Original research and proprietary methodology
+- **Hidden Fee Encyclopedia** — Comprehensive fee type definitions and explanations
+- **Knowledge Graph** — Entity relationships connecting all site content
+- **Examples Library** — Real-world illustrative examples of hidden fees in documents
+
+Never create isolated pages. Everything must fit into the existing topic architecture and knowledge graph.
+
+### INTERNAL LINKING
+
+Every new page should:
+
+- Receive internal links from at least 2 existing pages before or upon creation
+- Link back to its hub page
+- Link to relevant pillar pages (minimum 2)
+- Link to related educational resources
+- Avoid orphan pages — every page must have inbound and outbound links
+
+### ENTITY STRATEGY
+
+Always reinforce DetectHiddenFees as:
+
+> **"An AI-powered forensic pricing intelligence platform that analyzes contracts, invoices, estimates, bills, and financial documents to identify hidden fees, pricing risks, and negotiation opportunities."**
+
+Maintain consistent terminology throughout the site. Do not create synonyms for canonical entity names defined in `/knowledge-graph.md`.
+
+### AI SEARCH STRATEGY
+
+Optimize content for:
+
+- Google Search
+- Google AI Overviews
+- ChatGPT Search
+- Gemini
+- Claude
+- Perplexity
+- Bing AI
+- Other AI retrieval systems
+
+Write content that answers complete user questions instead of targeting isolated keywords. Use natural language patterns that match how consumers ask questions in AI assistants.
+
+### CONTINUOUS IMPROVEMENT
+
+Future work should prioritize, in order:
+
+1. **Improving existing pages** — Upgrade content quality, schema, and internal linking
+2. **Filling verified content gaps** — Create pages only for real user questions identified through gap analysis
+3. **Increasing authority** — Strengthen E-E-A-T signals and original research
+4. **Strengthening internal links** — Build a denser, more connected content network
+5. **Improving user experience** — Mobile responsiveness, page speed, navigation
+6. **Improving trust** — Transparent disclaimers, privacy assurances, methodology documentation
+7. **Supporting document uploads** — Clear CTAs leading to HiddenFeeAI analysis
+
+Do not create pages simply to increase page count. Every page must serve a measurable purpose.
+
+### GOVERNANCE
+
+These principles supercede any ad-hoc development decisions. If a task conflicts with these principles, the principles take precedence unless the task explicitly overrides them. When in doubt, refer back to this section.
+
 ---
 
 ## KEY EXTERNAL DEPENDENCIES
