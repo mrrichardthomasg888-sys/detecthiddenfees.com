@@ -54,3 +54,9 @@ The site retains its direct-answer sections, FAQPage markup where present, WebPa
 3. After deployment, run a Lighthouse/PageSpeed test on the homepage and the largest hub pages from a production region. Static analysis can confirm crawlability and obvious CLS risks but cannot replace field Core Web Vitals data.
 4. Keep the sitemap limited to pages returning HTTP 200 with self-canonicals. If future redirects are added, update `scripts/normalize-seo.js` and rerun it before publishing.
 5. Review IndexNow response logs after deployment. IndexNow accelerates Bing/Yandex discovery; it does not replace Google Search Console submission.
+
+## Post-publish checks
+
+- GitHub `main` contains the new sitemap and RSS feed after commit `9caa93b`.
+- The public origin returned the existing sitemap and key successfully during the final check. The public `rss.xml` response was still served with the prior HTML content type at that moment, which indicates the hosting/CDN deployment had not fully propagated the new feed yet. Recheck after the hosting build completes.
+- IndexNow verification reached the live key successfully, but Bing returned HTTP 403 `User is unauthorized to access the site`. Configure the IndexNow/Bing site ownership verification or a Cloudflare bypass for `/indexnow-key.txt`, then rerun `node submit_indexnow.js`.
