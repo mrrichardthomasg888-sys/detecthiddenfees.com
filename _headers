@@ -15,6 +15,15 @@
   Content-Type: application/xml
   Cache-Control: public, max-age=3600
 
+/rss.xml
+  Access-Control-Allow-Origin: *
+  Content-Type: application/rss+xml; charset=utf-8
+  Cache-Control: public, max-age=3600
+
+/indexnow-key.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=3600
+
 # Fonts and SVG - immutable cache
 /favicon.svg
   Cache-Control: public, max-age=31536000, immutable
@@ -50,3 +59,6 @@
 /ai-contract-review-tool.html  /ai-contract-review.html  301
 /contract-analysis-ai.html  /ai-contract-analysis.html  301
 /contract-fee-analysis.html  /ai-contract-analysis.html  301
+/ai-testing-results.html  /hidden-fees-guides.html  301
+/how-ai-detects-fees.html  /hidden-fees-guides.html  301
+/sample-analysis-report.html  /hidden-fees-guides.html  301
