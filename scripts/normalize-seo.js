@@ -44,7 +44,7 @@ for (const file of files) {
   const pageTitle = trimWords(currentTitle.split('|')[0] || h1 || titleFromFile(file), 54);
   const title = pageTitle.endsWith('DetectHiddenFees') ? pageTitle : `${pageTitle} | DetectHiddenFees`;
   const description = trimWords(currentDescription || firstParagraph || `${pageTitle}. Learn how DetectHiddenFees helps consumers identify hidden fees, pricing risks, and unclear terms.`, 158);
-  const canonical = file === 'index.html' ? `${SITE}/` : `${SITE}/${file}`;
+  const canonical = file === 'index.html' ? `${SITE}/` : `${SITE}/${file.replace(/\.html$/, '')}`;
 
   if (/<title[^>]*>/i.test(html)) html = html.replace(/<title[^>]*>[\s\S]*?<\/title>/i, `<title>${esc(title)}</title>`);
   else html = html.replace(/<head[^>]*>/i, `$&<title>${esc(title)}</title>`);
@@ -62,6 +62,10 @@ for (const file of files) {
   html = html.replace(/href=["']\/ai-document-analyzer\.html(["'])/g, 'href="/ai-document-checker.html$1');
   html = html.replace(/href=["']\/resort-fees\.html(["'])/g, 'href="/hidden-travel-fees.html$1');
   html = html.replace(/href=["']\/knowledge-graph\.html(["'])/g, 'href="/knowledge-center.html$1');
+  html = html.replace(/(https:\/\/detecthiddenfees\.com|href=["'])\/([^"'?#\s]+)\.html(?=["'?#\s])/g, (match, prefix, name) => {
+    if (name === 'index') return `${prefix}/`;
+    return `${prefix}/${name}`;
+  });
   html = html.replace(/<img\b([^>]*?)(?<!\/)\s*>/gi, (match, attrs) => {
     if (!/\bwidth\s*=/.test(attrs)) attrs += ' width="1200"';
     if (!/\bheight\s*=/.test(attrs)) attrs += ' height="630"';
@@ -74,7 +78,7 @@ for (const file of files) {
   pages.push({ file, title, description, canonical, indexable: !redirectSources.has(file) });
 }
 
-const url = (file) => file === 'index.html' ? `${SITE}/` : `${SITE}/${file}`;
+const url = (file) => file === 'index.html' ? `${SITE}/` : `${SITE}/${file.replace(/\.html$/, '')}`;
 const indexable = pages.filter((page) => page.indexable && page.file !== 'index.html');
 let sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url><loc>${SITE}/</loc><lastmod>${TODAY}</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>\n`;
 for (const page of indexable.sort((a, b) => a.file.localeCompare(b.file))) sitemap += `  <url><loc>${url(page.file)}</loc><lastmod>${TODAY}</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>\n`;

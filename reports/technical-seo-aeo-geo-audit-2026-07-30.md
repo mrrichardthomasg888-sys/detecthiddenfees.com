@@ -17,7 +17,7 @@ The repository is now normalized to 226 real HTML pages. Scratch fragments were 
 | XML sitemap | 222 URLs, duplicated `<changefreq>`/`<priority>` entries, and non-production coverage | Regenerated from indexable, self-canonical production pages; 201 URLs including the homepage | Fixed |
 | Page titles | 22 missing; 210 longer than 60 characters | Added missing titles and normalized titles to concise, branded titles | Fixed |
 | Meta descriptions | 12 missing; 86 longer than 160 characters | Added missing descriptions and normalized all descriptions to search-snippet length | Fixed |
-| Canonicals | 12 missing; 4 conflicting canonical groups | Added self-canonicals and redirected consolidated duplicates through `_headers` | Fixed |
+| Canonicals | 12 missing; 4 conflicting canonical groups; `.html` canonicals conflicted with live clean-URL redirects | Canonicals, sitemap, RSS, structured-data URLs, and internal links now use the live extensionless URL format; consolidated duplicates use `_redirects` | Fixed |
 | Robots meta | Utility page was indexable | Marked `indexnow-submit.html` `noindex,follow`; production pages remain indexable | Fixed |
 | H1 structure | 12 pages had zero or multiple H1s | Removed the duplicate H1 and removed fragment pages; remaining production pages have one H1 | Fixed |
 | Structured data | Several fragment pages had none | Added a valid WebPage JSON-LD fallback where absent; preserved existing page-specific schemas | Fixed |
@@ -40,6 +40,7 @@ The repository is now normalized to 226 real HTML pages. Scratch fragments were 
 - 0 production pages with zero/multiple H1s.
 - 1 intentional `noindex` utility page: `indexnow-submit.html`.
 - 201 sitemap URLs; every sitemap URL resolves to a file in the repository.
+- Canonicals and sitemap URLs use the live extensionless URL format, avoiding the host’s automatic `.html` → clean-URL redirect mismatch.
 - `rss.xml`, `robots.txt`, `llms.txt`, `indexnow-key.txt`, `_headers`, and `sitemap.xml` are present.
 - No blocking external JavaScript tags were found in the HTML audit.
 
@@ -59,4 +60,5 @@ The site retains its direct-answer sections, FAQPage markup where present, WebPa
 
 - GitHub `main` contains the new sitemap and RSS feed after commit `9caa93b`.
 - The public origin returned the existing sitemap and key successfully during the final check. The public `rss.xml` response was still served with the prior HTML content type at that moment, which indicates the hosting/CDN deployment had not fully propagated the new feed yet. Recheck after the hosting build completes.
+- The live host was confirmed to return HTTP 308 from sampled `.html` URLs to clean extensionless URLs and HTTP 200 for the clean URLs. The repository now matches that behavior in canonicals and discovery assets.
 - IndexNow verification reached the live key successfully, but Bing returned HTTP 403 `User is unauthorized to access the site`. Configure the IndexNow/Bing site ownership verification or a Cloudflare bypass for `/indexnow-key.txt`, then rerun `node submit_indexnow.js`.
