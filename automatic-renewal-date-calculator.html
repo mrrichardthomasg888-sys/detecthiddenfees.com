@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Automatic Renewal Date Calculator | DetectHiddenFees</title>
+  <meta name="description" content="Calculate a reminder date from a renewal date and notice period. This date-arithmetic tool does not interpret contracts or provide legal advice.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://detecthiddenfees.com/automatic-renewal-date-calculator">
+  <meta property="og:url" content="https://detecthiddenfees.com/automatic-renewal-date-calculator">
+  <meta property="og:title" content="Automatic Renewal Date Calculator | DetectHiddenFees">
+  <meta property="og:description" content="Calculate a reminder date from a renewal date and notice period.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="DetectHiddenFees">
+  <meta property="og:image" content="https://detecthiddenfees.com/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Automatic Renewal Date Calculator | DetectHiddenFees">
+  <meta name="twitter:description" content="Calculate a reminder date from a renewal date and notice period.">
+  <meta name="twitter:image" content="https://detecthiddenfees.com/og-image.png">
+  <link rel="stylesheet" href="/phase1-foundation.css">
+  <style>
+    body{background:#020617;color:#e2e8f0;font-family:Inter,system-ui,sans-serif;margin:0;line-height:1.6}.tool{max-width:760px;margin:0 auto;padding:64px 20px}.card{background:#0f172a;border:1px solid rgba(148,163,184,.25);border-radius:20px;padding:28px;box-shadow:0 18px 50px rgba(0,0,0,.3)}h1{font-size:clamp(2rem,6vw,4rem);line-height:1.05;color:#fff}h2{color:#fff;margin-top:32px}label{display:block;font-weight:700;margin:18px 0 7px}input{width:100%;max-width:360px;padding:13px;border-radius:9px;border:1px solid #64748b;background:#020617;color:#fff;font:inherit}button{margin-top:22px;padding:13px 20px;border:0;border-radius:9px;background:#2563eb;color:#fff;font:inherit;font-weight:800;cursor:pointer}button:focus,input:focus{outline:3px solid #93c5fd;outline-offset:3px}.result{margin-top:24px;padding:18px;border-left:4px solid #60a5fa;background:rgba(37,99,235,.12)}.muted{color:#94a3b8}.site-nav{padding:16px 20px;border-bottom:1px solid rgba(148,163,184,.2)}.site-nav a{color:#bfdbfe;font-weight:800}
+  </style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Automatic Renewal Date Calculator","url":"https://detecthiddenfees.com/automatic-renewal-date-calculator","isPartOf":{"@id":"https://detecthiddenfees.com/#website"},"about":{"@type":"Thing","name":"automatic renewal reminder date"}}</script>
+</head>
+<body>
+  <a class="phase1-skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-nav"><a href="/">DetectHiddenFees</a></header>
+  <main id="main-content" class="tool">
+    <nav aria-label="Breadcrumb"><a href="/">Home</a> <span aria-hidden="true">/</span> <span aria-current="page">Automatic Renewal Date Calculator</span></nav>
+    <h1>Automatic Renewal Date Calculator</h1>
+    <p>Enter a renewal date and the number of days of notice you want to allow for review. The result is a planning reminder based on simple calendar arithmetic.</p>
+    <section class="card" aria-labelledby="calculator-heading">
+      <h2 id="calculator-heading">Calculate a reminder date</h2>
+      <form id="renewal-form">
+        <label for="renewal-date">Renewal date</label>
+        <input id="renewal-date" name="renewal-date" type="date" required>
+        <label for="notice-days">Notice period to allow (days)</label>
+        <input id="notice-days" name="notice-days" type="number" min="0" max="3650" value="30" required>
+        <button type="submit">Calculate reminder date</button>
+      </form>
+      <div id="result" class="result" role="status" aria-live="polite" hidden></div>
+    </section>
+    <section aria-labelledby="limitations-heading">
+      <h2 id="limitations-heading">Important limitations</h2>
+      <p class="muted">This tool does not read a contract, determine whether a notice period is valid, account for business-day rules, or provide legal advice. Check the agreement and applicable law, including any separate cancellation or renewal notice requirements.</p>
+      <p><a href="/contract-terms-glossary">Learn about contract terms</a> · <a href="/hidden-fee-encyclopedia">Browse the hidden-fee taxonomy</a></p>
+    </section>
+  </main>
+  <script>
+    (function(){
+      var form=document.getElementById('renewal-form'), result=document.getElementById('result');
+      form.addEventListener('submit',function(event){
+        event.preventDefault();
+        var dateValue=document.getElementById('renewal-date').value;
+        var days=Number(document.getElementById('notice-days').value);
+        if(!dateValue || !Number.isFinite(days) || days<0){result.hidden=false;result.textContent='Enter a valid renewal date and notice period.';return;}
+        var date=new Date(dateValue+'T00:00:00Z');
+        date.setUTCDate(date.getUTCDate()-days);
+        var iso=date.toISOString().slice(0,10);
+        var pretty=new Intl.DateTimeFormat('en-US',{dateStyle:'long',timeZone:'UTC'}).format(date);
+        result.hidden=false;
+        result.innerHTML='<strong>Suggested reminder date: '+pretty+'</strong><br><span class="muted">Calculation: '+dateValue+' minus '+days+' calendar days = '+iso+'.</span>';
+      });
+    }());
+  </script>
+</body>
+</html>

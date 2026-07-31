@@ -3,7 +3,7 @@
 > DetectHiddenFees is an AI-powered consumer information and document-analysis website focused on hidden fees, contract terms, bills, invoices, estimates, pricing transparency, and negotiation preparation.
 
 - Website: DetectHiddenFees.com
-- Canonical content URLs: 225
+- Canonical content URLs: 226
 - Related product: https://hiddenfeeai.com
 - Relationship: DetectHiddenFees provides education, research, and product information; HiddenFeeAI is the related document-analysis product.
 - This file lists canonical clean URLs only. Redirect sources and administrative routes are excluded.
@@ -200,6 +200,7 @@
 
 ## Tools and other canonical resources
 
+- [Automatic Renewal Date Calculator](https://detecthiddenfees.com/automatic-renewal-date-calculator) — Date arithmetic reminder tool; does not interpret contracts or provide legal advice.
 - [AI Agreement Analyzer: Find What Your Contracts Are Hiding](https://detecthiddenfees.com/ai-agreement-analyzer) — Canonical page for this topic.
 - [AI Agreement Checker: Protect Yourself Before Signing](https://detecthiddenfees.com/ai-agreement-checker) — Canonical page for this topic.
 - [AI Analysis Hub: The Complete Guide to AI Document Intelligence](https://detecthiddenfees.com/ai-analysis-hub) — Canonical page for this topic.
@@ -253,4 +254,3 @@
 - [What Hidden Fees Should I Look For In A Contractor Estimate?](https://detecthiddenfees.com/what-fees-should-i-look-for-in-a-contractor-estimate) — Canonical page for this topic.
 - [What Questions Should I Ask Before Signing A Contract?](https://detecthiddenfees.com/what-questions-should-i-ask-before-signing-a-contract) — Canonical page for this topic.
 - [What Should I Check Before Signing a Contract?](https://detecthiddenfees.com/what-should-i-check-before-signing-a-contract) — Canonical page for this topic.
-
