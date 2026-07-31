@@ -1,0 +1,1887 @@
+{
+  "generatedAt": "2026-07-31T20:38:52.796685+00:00",
+  "principle": "One primary home and one dominant intent per canonical page; secondary topic support is allowed without creating competing primary authorities.",
+  "silos": {
+    "hidden_fee_detection": {
+      "name": "Hidden Fee Detection",
+      "authority_pillars": [
+        "/hidden-fee-encyclopedia",
+        "/hidden-fee-detector"
+      ],
+      "conversion": "https://hiddenfeeai.com",
+      "role": "Define hidden fees, detection, examples, industries, and practical detection tools.",
+      "pages": [
+        "ai-fee-detector",
+        "ai-hidden-fee-questions",
+        "best-hidden-fee-detector-tools",
+        "change-order-fees",
+        "check-my-fees",
+        "free-hidden-fee-scanner",
+        "hidden-auto-fees",
+        "hidden-bank-overdraft-fees",
+        "hidden-banking-fees",
+        "hidden-credit-card-fees",
+        "hidden-dealership-financing-fees",
+        "hidden-electrician-fees",
+        "hidden-fee-analysis-tool",
+        "hidden-fee-calculator",
+        "hidden-fee-database",
+        "hidden-fee-detector",
+        "hidden-fee-dictionary",
+        "hidden-fee-encyclopedia",
+        "hidden-fee-examples",
+        "hidden-fee-glossary",
+        "hidden-fee-index",
+        "hidden-fee-industry-guide",
+        "hidden-fee-intelligence-center",
+        "hidden-fee-intelligence-engine",
+        "hidden-fee-knowledge-center",
+        "hidden-fee-prevention-guide",
+        "hidden-fee-reports",
+        "hidden-fee-risk-score",
+        "hidden-fee-scanner",
+        "hidden-fee-statistics",
+        "hidden-fees-guides",
+        "hidden-fees-resource-center",
+        "hidden-healthcare-fees",
+        "hidden-home-renovation-fees",
+        "hidden-insurance-fees",
+        "hidden-internet-fees",
+        "hidden-investment-fees",
+        "hidden-landscaping-fees",
+        "hidden-loan-fees",
+        "hidden-mortgage-fees",
+        "hidden-moving-company-fees",
+        "hidden-plumbing-fees",
+        "hidden-rental-fees",
+        "hidden-streaming-fees",
+        "hidden-subscription-fees",
+        "hidden-telecom-fees",
+        "hidden-travel-fees",
+        "hidden-utility-fees",
+        "how-ai-detects-fees",
+        "how-detect-hidden-fees-works",
+        "types-of-hidden-fees"
+      ],
+      "recommended_hubs": [
+        "/hidden-fee-dictionary",
+        "/hidden-fee-encyclopedia",
+        "/hidden-fee-glossary",
+        "/hidden-fee-index",
+        "/hidden-fee-intelligence-center",
+        "/hidden-fee-knowledge-center",
+        "/hidden-fees-guides",
+        "/hidden-fees-resource-center"
+      ]
+    },
+    "ai_contract_review": {
+      "name": "AI Contract Review",
+      "authority_pillars": [
+        "/ai-contract-review",
+        "/ai-contract-analysis"
+      ],
+      "conversion": "https://hiddenfeeai.com",
+      "role": "Explain contract review, contract analysis, clauses, risk, software, and contract-specific tools.",
+      "pages": [
+        "ai-agreement-analyzer",
+        "ai-agreement-checker",
+        "ai-commercial-lease-review",
+        "ai-construction-contract-review",
+        "ai-consulting-agreement-review",
+        "ai-contract-analysis",
+        "ai-contract-checker",
+        "ai-contract-resource-center",
+        "ai-contract-review",
+        "ai-contract-review-before-signing",
+        "ai-contract-review-software",
+        "ai-contract-review-tool",
+        "ai-contract-review-vs-chatgpt",
+        "ai-contract-review-vs-lawyer-review",
+        "ai-contract-review-vs-manual-review",
+        "ai-contract-risk-score",
+        "ai-contractor-agreement-review",
+        "ai-employment-contract-review",
+        "ai-freelance-contract-review",
+        "ai-lease-review",
+        "ai-proposal-review",
+        "ai-purchase-agreement-review",
+        "ai-purchase-contract-review",
+        "ai-rental-lease-analyzer",
+        "ai-service-contract-review",
+        "ai-software-license-review",
+        "ai-vendor-contract-review",
+        "analyze-contract-online",
+        "analyze-my-contract",
+        "arbitration-clauses-explained",
+        "automatic-renewal-clauses",
+        "before-signing-a-contract",
+        "before-signing-contract-checklist",
+        "best-ai-contract-analysis-tools",
+        "business-contract-review",
+        "can-ai-find-hidden-fees-in-a-contract",
+        "can-ai-review-a-contract-before-signing",
+        "cancellation-fee-clauses",
+        "contract-analysis-ai",
+        "contract-clause-checker",
+        "contract-fee-analysis",
+        "contract-fee-checker",
+        "contract-red-flag-checker",
+        "contract-red-flags",
+        "contract-review-ai-software",
+        "contract-review-checklist",
+        "contract-risk-analysis",
+        "contract-risk-assessment-ai-tool",
+        "contract-risk-assessment-guide",
+        "contract-risk-score",
+        "contract-terms-analyzer-ai",
+        "contract-terms-glossary",
+        "detect-hidden-contract-fees",
+        "early-termination-fees",
+        "example-internet-service-agreement",
+        "find-hidden-fees-in-contract",
+        "free-ai-contract-review-vs-paid-review",
+        "free-vs-paid-contract-review",
+        "hidden-clauses-in-contracts",
+        "hidden-contract-fees",
+        "hidden-contractor-fees",
+        "hidden-hvac-contractor-fees",
+        "hidden-roofing-contractor-fees",
+        "how-do-companies-hide-fees-in-contracts",
+        "how-to-review-a-contract",
+        "how-we-analyze-contracts",
+        "identify-contract-risks",
+        "indemnification-clauses-explained",
+        "review-contract-online",
+        "service-agreement-red-flags",
+        "unfair-contract-terms",
+        "upload-contract-for-review",
+        "what-are-common-hidden-fees-in-service-agreements",
+        "what-fees-should-i-look-for-in-a-contractor-estimate",
+        "what-questions-should-i-ask-before-signing-a-contract",
+        "what-should-i-check-before-signing-a-contract"
+      ],
+      "recommended_hubs": [
+        "/ai-contract-resource-center",
+        "/contract-terms-glossary"
+      ]
+    },
+    "bills_documents": {
+      "name": "Bills, Invoices, and Document Analysis",
+      "authority_pillars": [
+        "/ai-document-intelligence-center",
+        "/ai-bill-analyzer",
+        "/ai-invoice-analyzer"
+      ],
+      "conversion": "https://hiddenfeeai.com",
+      "role": "Organize bill, invoice, statement, estimate, receipt, and general document analysis.",
+      "pages": [
+        "ai-analysis-hub",
+        "ai-bill-analysis-vs-manual-review",
+        "ai-bill-analyzer",
+        "ai-bill-analyzer-vs-chatgpt",
+        "ai-bill-checker",
+        "ai-document-analysis-benefits",
+        "ai-document-analysis-tools",
+        "ai-document-checker",
+        "ai-document-intelligence-center",
+        "ai-document-review-tool",
+        "ai-document-reviewer",
+        "ai-document-risk-analysis",
+        "ai-document-scanner",
+        "ai-estimate-checker",
+        "ai-estimate-review",
+        "ai-financial-advisor",
+        "ai-financial-analysis",
+        "ai-financial-assistant",
+        "ai-invoice-analyzer",
+        "ai-invoice-checker",
+        "ai-pricing-analysis",
+        "ai-quote-analyzer",
+        "ai-quote-review",
+        "ai-receipt-analyzer",
+        "ai-statement-analyzer",
+        "analyze-my-bill",
+        "analyze-my-document",
+        "analyze-my-estimate",
+        "analyze-my-invoice",
+        "best-ai-bill-analyzer-tools",
+        "can-ai-analyze-financial-documents",
+        "can-ai-detect-duplicate-billing-charges",
+        "consumer-financial-intelligence-center",
+        "duplicate-medical-billing-charges",
+        "estimate-vs-quote",
+        "example-cell-phone-bill",
+        "example-hvac-estimate",
+        "example-medical-bill",
+        "financial-analysis-software",
+        "financial-analysis-tools",
+        "hidden-billing-fees",
+        "hidden-phone-bill-fees",
+        "how-can-i-check-if-a-bill-is-incorrect",
+        "how-do-i-find-hidden-fees-in-an-invoice",
+        "how-to-read-an-invoice",
+        "how-to-reduce-medical-bills",
+        "index",
+        "invoice-red-flags",
+        "legal-artificial-intelligence",
+        "medical-bill-audit",
+        "medical-bill-error-checklist",
+        "scan-my-invoice",
+        "upload-bill-for-analysis",
+        "upload-document-for-ai-analysis"
+      ],
+      "recommended_hubs": [
+        "/ai-document-intelligence-center",
+        "/consumer-financial-intelligence-center"
+      ]
+    },
+    "consumer_negotiation": {
+      "name": "Consumer Negotiation and Protection",
+      "authority_pillars": [
+        "/consumer-negotiation-resource-center",
+        "/bill-negotiation-resource-center"
+      ],
+      "conversion": "https://hiddenfeeai.com",
+      "role": "Help users challenge questionable charges and prepare negotiations without unsupported legal claims.",
+      "pages": [
+        "ai-bill-negotiation",
+        "bill-negotiation-letter",
+        "bill-negotiation-resource-center",
+        "bill-negotiation-service",
+        "bill-negotiation-templates",
+        "bill-savings-calculator",
+        "consumer-negotiation-academy",
+        "consumer-negotiation-resource-center",
+        "contract-negotiation-assistant",
+        "fee-negotiation-checklist",
+        "fee-removal-request-template",
+        "hiddenfeeai-vs-bill-negotiation-services",
+        "hiddenfeeai-vs-lawyer-review",
+        "hiddenfeeai-vs-traditional-negotiation",
+        "hospital-bill-negotiation-guide",
+        "how-to-negotiate-medical-bills",
+        "medical-bill-negotiation-template",
+        "medical-debt-negotiation",
+        "medical-debt-relief-options",
+        "negotiate-bills",
+        "negotiate-hospital-bill",
+        "negotiation-scripts",
+        "reduce-monthly-bills"
+      ],
+      "recommended_hubs": [
+        "/bill-negotiation-resource-center",
+        "/consumer-negotiation-resource-center"
+      ]
+    },
+    "research_trust": {
+      "name": "Research, Methodology, Trust, and Transparency",
+      "authority_pillars": [
+        "/research-center",
+        "/research-methodology"
+      ],
+      "conversion": "https://hiddenfeeai.com",
+      "role": "Explain research, methodology, limitations, privacy, security, editorial standards, and product relationship.",
+      "pages": [
+        "about-detect-hidden-fees",
+        "ai-accuracy-and-limitations",
+        "ai-analysis-methodology",
+        "ai-testing-results",
+        "ai-transparency-report",
+        "consumer-fee-trends-report",
+        "contact",
+        "data-handling-policy",
+        "editorial-methodology",
+        "editorial-policy",
+        "example-auto-financing",
+        "example-home-renovation-proposal",
+        "knowledge-center",
+        "our-evaluation-process",
+        "privacy-and-ai-security",
+        "research-center",
+        "research-methodology",
+        "resource-library",
+        "sample-analysis-report",
+        "security-overview",
+        "terms-of-service"
+      ],
+      "recommended_hubs": []
+    }
+  },
+  "page_assignments": [
+    {
+      "url": "https://detecthiddenfees.com/about-detect-hidden-fees",
+      "silo": "research_trust",
+      "primary_pillar": "/research-center",
+      "parent": null,
+      "intent": "trust_or_compliance"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-accuracy-and-limitations",
+      "silo": "research_trust",
+      "primary_pillar": "/research-center",
+      "parent": "/research-center",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-agreement-analyzer",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-agreement-checker",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-analysis-hub",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-document-intelligence-center",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-analysis-methodology",
+      "silo": "research_trust",
+      "primary_pillar": "/research-center",
+      "parent": "/research-center",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-bill-analysis-vs-manual-review",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-bill-analyzer",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-bill-analyzer",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": null,
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-bill-analyzer-vs-chatgpt",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-bill-analyzer",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-bill-checker",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-bill-analyzer",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-bill-negotiation",
+      "silo": "consumer_negotiation",
+      "primary_pillar": "/consumer-negotiation-resource-center",
+      "parent": "/consumer-negotiation-resource-center",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-commercial-lease-review",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-construction-contract-review",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-consulting-agreement-review",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-contract-analysis",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": null,
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-contract-checker",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-contract-resource-center",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "topic_navigation_and_learning"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-contract-review",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": null,
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-contract-review-before-signing",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-contract-review-software",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review-software",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-contract-review-tool",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "commercial_solution"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-contract-review-vs-chatgpt",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review-software",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-contract-review-vs-lawyer-review",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review-software",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-contract-review-vs-manual-review",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review-software",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-contract-risk-score",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-contractor-agreement-review",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-document-analysis-benefits",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-document-intelligence-center",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-document-analysis-tools",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-document-intelligence-center",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-document-checker",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-document-intelligence-center",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-document-intelligence-center",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": null,
+      "intent": "topic_navigation_and_learning"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-document-review-tool",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-document-intelligence-center",
+      "intent": "commercial_solution"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-document-reviewer",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-document-intelligence-center",
+      "intent": "informational_guide"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-document-risk-analysis",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-document-intelligence-center",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-document-scanner",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-document-intelligence-center",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-employment-contract-review",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-estimate-checker",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-document-intelligence-center",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-estimate-review",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-document-intelligence-center",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-fee-detector",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-detector",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-financial-advisor",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-document-intelligence-center",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-financial-analysis",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-document-intelligence-center",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-financial-assistant",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-document-intelligence-center",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-freelance-contract-review",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-hidden-fee-questions",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-encyclopedia",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-invoice-analyzer",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": null,
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-invoice-checker",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-invoice-analyzer",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-lease-review",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-pricing-analysis",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-document-intelligence-center",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-proposal-review",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review-software",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-purchase-agreement-review",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-purchase-contract-review",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-quote-analyzer",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-document-intelligence-center",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-quote-review",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-document-intelligence-center",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-receipt-analyzer",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-document-intelligence-center",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-rental-lease-analyzer",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-service-contract-review",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-software-license-review",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review-software",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-statement-analyzer",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-document-intelligence-center",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-testing-results",
+      "silo": "research_trust",
+      "primary_pillar": "/research-center",
+      "parent": "/research-center",
+      "intent": "informational_guide"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-transparency-report",
+      "silo": "research_trust",
+      "primary_pillar": "/research-center",
+      "parent": "/research-center",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-vendor-contract-review",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/analyze-contract-online",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/analyze-my-bill",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-bill-analyzer",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/analyze-my-contract",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/analyze-my-document",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-document-intelligence-center",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/analyze-my-estimate",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-document-intelligence-center",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/analyze-my-invoice",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-invoice-analyzer",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/arbitration-clauses-explained",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/contract-terms-glossary",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/automatic-renewal-clauses",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/contract-terms-glossary",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/before-signing-a-contract",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/before-signing-contract-checklist",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review-software",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/best-ai-bill-analyzer-tools",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-bill-analyzer",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/best-ai-contract-analysis-tools",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review-software",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/best-hidden-fee-detector-tools",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-encyclopedia",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/bill-negotiation-letter",
+      "silo": "consumer_negotiation",
+      "primary_pillar": "/consumer-negotiation-resource-center",
+      "parent": "/consumer-negotiation-resource-center",
+      "intent": "informational_guide"
+    },
+    {
+      "url": "https://detecthiddenfees.com/bill-negotiation-resource-center",
+      "silo": "consumer_negotiation",
+      "primary_pillar": "/consumer-negotiation-resource-center",
+      "parent": null,
+      "intent": "topic_navigation_and_learning"
+    },
+    {
+      "url": "https://detecthiddenfees.com/bill-negotiation-service",
+      "silo": "consumer_negotiation",
+      "primary_pillar": "/consumer-negotiation-resource-center",
+      "parent": "/consumer-negotiation-resource-center",
+      "intent": "informational_guide"
+    },
+    {
+      "url": "https://detecthiddenfees.com/bill-negotiation-templates",
+      "silo": "consumer_negotiation",
+      "primary_pillar": "/consumer-negotiation-resource-center",
+      "parent": "/consumer-negotiation-resource-center",
+      "intent": "practical_action"
+    },
+    {
+      "url": "https://detecthiddenfees.com/bill-savings-calculator",
+      "silo": "consumer_negotiation",
+      "primary_pillar": "/consumer-negotiation-resource-center",
+      "parent": "/consumer-negotiation-resource-center",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/business-contract-review",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/can-ai-analyze-financial-documents",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-document-intelligence-center",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/can-ai-detect-duplicate-billing-charges",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-bill-analyzer",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/can-ai-find-hidden-fees-in-a-contract",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/can-ai-review-a-contract-before-signing",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review-software",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/cancellation-fee-clauses",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/contract-terms-glossary",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/change-order-fees",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-encyclopedia",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/check-my-fees",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-encyclopedia",
+      "intent": "informational_guide"
+    },
+    {
+      "url": "https://detecthiddenfees.com/consumer-fee-trends-report",
+      "silo": "research_trust",
+      "primary_pillar": "/research-center",
+      "parent": "/research-center",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/consumer-financial-intelligence-center",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-document-intelligence-center",
+      "intent": "topic_navigation_and_learning"
+    },
+    {
+      "url": "https://detecthiddenfees.com/consumer-negotiation-academy",
+      "silo": "consumer_negotiation",
+      "primary_pillar": "/consumer-negotiation-resource-center",
+      "parent": "/consumer-negotiation-resource-center",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/consumer-negotiation-resource-center",
+      "silo": "consumer_negotiation",
+      "primary_pillar": "/consumer-negotiation-resource-center",
+      "parent": null,
+      "intent": "topic_navigation_and_learning"
+    },
+    {
+      "url": "https://detecthiddenfees.com/contact",
+      "silo": "research_trust",
+      "primary_pillar": "/research-center",
+      "parent": "/about-detect-hidden-fees",
+      "intent": "trust_or_compliance"
+    },
+    {
+      "url": "https://detecthiddenfees.com/contract-analysis-ai",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/contract-clause-checker",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/contract-terms-glossary",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/contract-fee-analysis",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/contract-fee-checker",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/contract-negotiation-assistant",
+      "silo": "consumer_negotiation",
+      "primary_pillar": "/consumer-negotiation-resource-center",
+      "parent": "/consumer-negotiation-resource-center",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/contract-red-flag-checker",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/contract-terms-glossary",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/contract-red-flags",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/contract-terms-glossary",
+      "intent": "informational_guide"
+    },
+    {
+      "url": "https://detecthiddenfees.com/contract-review-ai-software",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review-software",
+      "intent": "informational_guide"
+    },
+    {
+      "url": "https://detecthiddenfees.com/contract-review-checklist",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/contract-terms-glossary",
+      "intent": "practical_action"
+    },
+    {
+      "url": "https://detecthiddenfees.com/contract-risk-analysis",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/contract-risk-assessment-ai-tool",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "commercial_solution"
+    },
+    {
+      "url": "https://detecthiddenfees.com/contract-risk-assessment-guide",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/contract-risk-score",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/contract-terms-analyzer-ai",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review-software",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/contract-terms-glossary",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/contract-terms-glossary",
+      "intent": "topic_navigation_and_learning"
+    },
+    {
+      "url": "https://detecthiddenfees.com/data-handling-policy",
+      "silo": "research_trust",
+      "primary_pillar": "/research-center",
+      "parent": "/about-detect-hidden-fees",
+      "intent": "trust_or_compliance"
+    },
+    {
+      "url": "https://detecthiddenfees.com/detect-hidden-contract-fees",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/duplicate-medical-billing-charges",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-bill-analyzer",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/early-termination-fees",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/editorial-methodology",
+      "silo": "research_trust",
+      "primary_pillar": "/research-center",
+      "parent": "/research-center",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/editorial-policy",
+      "silo": "research_trust",
+      "primary_pillar": "/research-center",
+      "parent": "/about-detect-hidden-fees",
+      "intent": "trust_or_compliance"
+    },
+    {
+      "url": "https://detecthiddenfees.com/estimate-vs-quote",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-document-intelligence-center",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/example-auto-financing",
+      "silo": "research_trust",
+      "primary_pillar": "/research-center",
+      "parent": "/research-center",
+      "intent": "practical_action"
+    },
+    {
+      "url": "https://detecthiddenfees.com/example-cell-phone-bill",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-bill-analyzer",
+      "intent": "practical_action"
+    },
+    {
+      "url": "https://detecthiddenfees.com/example-home-renovation-proposal",
+      "silo": "research_trust",
+      "primary_pillar": "/research-center",
+      "parent": "/research-center",
+      "intent": "practical_action"
+    },
+    {
+      "url": "https://detecthiddenfees.com/example-hvac-estimate",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-document-intelligence-center",
+      "intent": "practical_action"
+    },
+    {
+      "url": "https://detecthiddenfees.com/example-internet-service-agreement",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review-software",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/example-medical-bill",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-bill-analyzer",
+      "intent": "practical_action"
+    },
+    {
+      "url": "https://detecthiddenfees.com/fee-negotiation-checklist",
+      "silo": "consumer_negotiation",
+      "primary_pillar": "/consumer-negotiation-resource-center",
+      "parent": "/consumer-negotiation-resource-center",
+      "intent": "practical_action"
+    },
+    {
+      "url": "https://detecthiddenfees.com/fee-removal-request-template",
+      "silo": "consumer_negotiation",
+      "primary_pillar": "/consumer-negotiation-resource-center",
+      "parent": "/consumer-negotiation-resource-center",
+      "intent": "practical_action"
+    },
+    {
+      "url": "https://detecthiddenfees.com/financial-analysis-software",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-document-intelligence-center",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/financial-analysis-tools",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-document-intelligence-center",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/find-hidden-fees-in-contract",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/free-ai-contract-review-vs-paid-review",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review-software",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/free-hidden-fee-scanner",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-detector",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/free-vs-paid-contract-review",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review-software",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-auto-fees",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-industry-guide",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-bank-overdraft-fees",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-industry-guide",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-banking-fees",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-industry-guide",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-billing-fees",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-bill-analyzer",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-clauses-in-contracts",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/contract-terms-glossary",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-contract-fees",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-contractor-fees",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review-software",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-credit-card-fees",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-industry-guide",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-dealership-financing-fees",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-industry-guide",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-electrician-fees",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-industry-guide",
+      "intent": "informational_guide"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-analysis-tool",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-detector",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-calculator",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-detector",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-database",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-encyclopedia",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-detector",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": null,
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-dictionary",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-glossary",
+      "intent": "topic_navigation_and_learning"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-encyclopedia",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": null,
+      "intent": "topic_navigation_and_learning"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-examples",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-examples",
+      "intent": "practical_action"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-glossary",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-glossary",
+      "intent": "topic_navigation_and_learning"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-index",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-encyclopedia",
+      "intent": "topic_navigation_and_learning"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-industry-guide",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-industry-guide",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-intelligence-center",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-encyclopedia",
+      "intent": "topic_navigation_and_learning"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-intelligence-engine",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-encyclopedia",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-knowledge-center",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-encyclopedia",
+      "intent": "topic_navigation_and_learning"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-prevention-guide",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-encyclopedia",
+      "intent": "informational_guide"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-reports",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-encyclopedia",
+      "intent": "informational_guide"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-risk-score",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-detector",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-scanner",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-detector",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-statistics",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-encyclopedia",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fees-guides",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-encyclopedia",
+      "intent": "topic_navigation_and_learning"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fees-resource-center",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-encyclopedia",
+      "intent": "topic_navigation_and_learning"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-healthcare-fees",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-industry-guide",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-home-renovation-fees",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-industry-guide",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-hvac-contractor-fees",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-insurance-fees",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-industry-guide",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-internet-fees",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-industry-guide",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-investment-fees",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-industry-guide",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-landscaping-fees",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-industry-guide",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-loan-fees",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-industry-guide",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-mortgage-fees",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-industry-guide",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-moving-company-fees",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-industry-guide",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-phone-bill-fees",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-bill-analyzer",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-plumbing-fees",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-industry-guide",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-rental-fees",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-industry-guide",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-roofing-contractor-fees",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-streaming-fees",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-industry-guide",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-subscription-fees",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-industry-guide",
+      "intent": "informational_guide"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-telecom-fees",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-industry-guide",
+      "intent": "informational_guide"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-travel-fees",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-industry-guide",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-utility-fees",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-industry-guide",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hiddenfeeai-vs-bill-negotiation-services",
+      "silo": "consumer_negotiation",
+      "primary_pillar": "/consumer-negotiation-resource-center",
+      "parent": "/consumer-negotiation-resource-center",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hiddenfeeai-vs-lawyer-review",
+      "silo": "consumer_negotiation",
+      "primary_pillar": "/consumer-negotiation-resource-center",
+      "parent": "/consumer-negotiation-resource-center",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hiddenfeeai-vs-traditional-negotiation",
+      "silo": "consumer_negotiation",
+      "primary_pillar": "/consumer-negotiation-resource-center",
+      "parent": "/consumer-negotiation-resource-center",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/hospital-bill-negotiation-guide",
+      "silo": "consumer_negotiation",
+      "primary_pillar": "/consumer-negotiation-resource-center",
+      "parent": "/bill-negotiation-resource-center",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/how-ai-detects-fees",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-encyclopedia",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/how-can-i-check-if-a-bill-is-incorrect",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-bill-analyzer",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/how-detect-hidden-fees-works",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-encyclopedia",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/how-do-companies-hide-fees-in-contracts",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/how-do-i-find-hidden-fees-in-an-invoice",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-invoice-analyzer",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/how-to-negotiate-medical-bills",
+      "silo": "consumer_negotiation",
+      "primary_pillar": "/consumer-negotiation-resource-center",
+      "parent": "/bill-negotiation-resource-center",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/how-to-read-an-invoice",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-invoice-analyzer",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/how-to-reduce-medical-bills",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-bill-analyzer",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/how-to-review-a-contract",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/how-we-analyze-contracts",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/identify-contract-risks",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/indemnification-clauses-explained",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/contract-terms-glossary",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-document-intelligence-center",
+      "intent": "brand_and_category_discovery"
+    },
+    {
+      "url": "https://detecthiddenfees.com/invoice-red-flags",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-invoice-analyzer",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/knowledge-center",
+      "silo": "research_trust",
+      "primary_pillar": "/research-center",
+      "parent": "/research-center",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/legal-artificial-intelligence",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-document-intelligence-center",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/medical-bill-audit",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-bill-analyzer",
+      "intent": "informational_guide"
+    },
+    {
+      "url": "https://detecthiddenfees.com/medical-bill-error-checklist",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-bill-analyzer",
+      "intent": "practical_action"
+    },
+    {
+      "url": "https://detecthiddenfees.com/medical-bill-negotiation-template",
+      "silo": "consumer_negotiation",
+      "primary_pillar": "/consumer-negotiation-resource-center",
+      "parent": "/bill-negotiation-resource-center",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/medical-debt-negotiation",
+      "silo": "consumer_negotiation",
+      "primary_pillar": "/consumer-negotiation-resource-center",
+      "parent": "/bill-negotiation-resource-center",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/medical-debt-relief-options",
+      "silo": "consumer_negotiation",
+      "primary_pillar": "/consumer-negotiation-resource-center",
+      "parent": "/bill-negotiation-resource-center",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/negotiate-bills",
+      "silo": "consumer_negotiation",
+      "primary_pillar": "/consumer-negotiation-resource-center",
+      "parent": "/consumer-negotiation-resource-center",
+      "intent": "informational_guide"
+    },
+    {
+      "url": "https://detecthiddenfees.com/negotiate-hospital-bill",
+      "silo": "consumer_negotiation",
+      "primary_pillar": "/consumer-negotiation-resource-center",
+      "parent": "/bill-negotiation-resource-center",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/negotiation-scripts",
+      "silo": "consumer_negotiation",
+      "primary_pillar": "/consumer-negotiation-resource-center",
+      "parent": "/consumer-negotiation-resource-center",
+      "intent": "practical_action"
+    },
+    {
+      "url": "https://detecthiddenfees.com/our-evaluation-process",
+      "silo": "research_trust",
+      "primary_pillar": "/research-center",
+      "parent": "/research-center",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/privacy-and-ai-security",
+      "silo": "research_trust",
+      "primary_pillar": "/research-center",
+      "parent": "/about-detect-hidden-fees",
+      "intent": "trust_or_compliance"
+    },
+    {
+      "url": "https://detecthiddenfees.com/reduce-monthly-bills",
+      "silo": "consumer_negotiation",
+      "primary_pillar": "/consumer-negotiation-resource-center",
+      "parent": "/consumer-negotiation-resource-center",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/research-center",
+      "silo": "research_trust",
+      "primary_pillar": "/research-center",
+      "parent": null,
+      "intent": "informational_guide"
+    },
+    {
+      "url": "https://detecthiddenfees.com/research-methodology",
+      "silo": "research_trust",
+      "primary_pillar": "/research-center",
+      "parent": null,
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/resource-library",
+      "silo": "research_trust",
+      "primary_pillar": "/research-center",
+      "parent": "/research-center",
+      "intent": "commercial_comparison"
+    },
+    {
+      "url": "https://detecthiddenfees.com/review-contract-online",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "commercial_solution"
+    },
+    {
+      "url": "https://detecthiddenfees.com/sample-analysis-report",
+      "silo": "research_trust",
+      "primary_pillar": "/research-center",
+      "parent": "/research-center",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/scan-my-invoice",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-invoice-analyzer",
+      "intent": "informational_guide"
+    },
+    {
+      "url": "https://detecthiddenfees.com/security-overview",
+      "silo": "research_trust",
+      "primary_pillar": "/research-center",
+      "parent": "/about-detect-hidden-fees",
+      "intent": "trust_or_compliance"
+    },
+    {
+      "url": "https://detecthiddenfees.com/service-agreement-red-flags",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/contract-terms-glossary",
+      "intent": "informational_guide"
+    },
+    {
+      "url": "https://detecthiddenfees.com/terms-of-service",
+      "silo": "research_trust",
+      "primary_pillar": "/research-center",
+      "parent": "/about-detect-hidden-fees",
+      "intent": "trust_or_compliance"
+    },
+    {
+      "url": "https://detecthiddenfees.com/types-of-hidden-fees",
+      "silo": "hidden_fee_detection",
+      "primary_pillar": "/hidden-fee-encyclopedia",
+      "parent": "/hidden-fee-encyclopedia",
+      "intent": "informational_guide"
+    },
+    {
+      "url": "https://detecthiddenfees.com/unfair-contract-terms",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/upload-bill-for-analysis",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-bill-analyzer",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/upload-contract-for-review",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/upload-document-for-ai-analysis",
+      "silo": "bills_documents",
+      "primary_pillar": "/ai-document-intelligence-center",
+      "parent": "/ai-document-intelligence-center",
+      "intent": "transactional_tool"
+    },
+    {
+      "url": "https://detecthiddenfees.com/what-are-common-hidden-fees-in-service-agreements",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "informational_guide"
+    },
+    {
+      "url": "https://detecthiddenfees.com/what-fees-should-i-look-for-in-a-contractor-estimate",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/what-questions-should-i-ask-before-signing-a-contract",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "informational_question"
+    },
+    {
+      "url": "https://detecthiddenfees.com/what-should-i-check-before-signing-a-contract",
+      "silo": "ai_contract_review",
+      "primary_pillar": "/ai-contract-review",
+      "parent": "/ai-contract-review",
+      "intent": "informational_question"
+    }
+  ]
+}

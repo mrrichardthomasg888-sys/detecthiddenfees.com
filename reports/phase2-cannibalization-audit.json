@@ -1,0 +1,3414 @@
+{
+  "generatedAt": "2026-07-31T20:38:55.611667+00:00",
+  "candidateCount": 120,
+  "explicitGroups": {
+    "ai_contract_review": [
+      "ai-contract-review",
+      "ai-contract-review-tool",
+      "ai-contract-review-software",
+      "contract-review-ai-software",
+      "contract-analysis-ai",
+      "ai-contract-analysis",
+      "ai-contract-checker",
+      "ai-agreement-analyzer"
+    ],
+    "hidden_fee_tools": [
+      "hidden-fee-detector",
+      "hidden-fee-scanner",
+      "hidden-fee-analysis-tool",
+      "check-my-fees",
+      "hidden-fee-risk-score",
+      "hidden-fee-calculator",
+      "upload-bill-for-analysis",
+      "analyze-my-document"
+    ],
+    "negotiation": [
+      "bill-negotiation-resource-center",
+      "consumer-negotiation-resource-center",
+      "consumer-negotiation-academy",
+      "negotiate-bills",
+      "bill-negotiation-service",
+      "bill-negotiation-templates"
+    ],
+    "risk_scoring": [
+      "ai-contract-risk-score",
+      "hidden-fee-risk-score",
+      "contract-risk-score",
+      "contract-risk-analysis",
+      "ai-document-risk-analysis"
+    ],
+    "research_hubs": [
+      "hidden-fee-index",
+      "hidden-fee-encyclopedia",
+      "hidden-fee-knowledge-center",
+      "hidden-fee-intelligence-center",
+      "hidden-fee-intelligence-engine",
+      "research-center",
+      "research-methodology",
+      "resource-library",
+      "knowledge-center"
+    ]
+  },
+  "decisions": [
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/hiddenfeeai-vs-bill-negotiation-services",
+        "/hiddenfeeai-vs-traditional-negotiation"
+      ],
+      "current_intents": {
+        "/hiddenfeeai-vs-bill-negotiation-services": "commercial_comparison",
+        "/hiddenfeeai-vs-traditional-negotiation": "commercial_comparison"
+      },
+      "page_types": {
+        "/hiddenfeeai-vs-bill-negotiation-services": "comparison",
+        "/hiddenfeeai-vs-traditional-negotiation": "comparison"
+      },
+      "silo": "consumer_negotiation",
+      "similarity_score": 0.833,
+      "title_similarity": 0.88,
+      "token_overlap": 0.812,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contract-review-vs-manual-review",
+        "/how-to-review-a-contract"
+      ],
+      "current_intents": {
+        "/ai-contract-review-vs-manual-review": "commercial_comparison",
+        "/how-to-review-a-contract": "informational_question"
+      },
+      "page_types": {
+        "/ai-contract-review-vs-manual-review": "comparison",
+        "/how-to-review-a-contract": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.82,
+      "title_similarity": 0.618,
+      "token_overlap": 0.906,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/contract-fee-analysis",
+        "/contract-risk-analysis"
+      ],
+      "current_intents": {
+        "/contract-fee-analysis": "transactional_tool",
+        "/contract-risk-analysis": "transactional_tool"
+      },
+      "page_types": {
+        "/contract-fee-analysis": "tool_or_service",
+        "/contract-risk-analysis": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.813,
+      "title_similarity": 0.745,
+      "token_overlap": 0.842,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contract-resource-center",
+        "/how-to-review-a-contract"
+      ],
+      "current_intents": {
+        "/ai-contract-resource-center": "topic_navigation_and_learning",
+        "/how-to-review-a-contract": "informational_question"
+      },
+      "page_types": {
+        "/ai-contract-resource-center": "hub",
+        "/how-to-review-a-contract": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.797,
+      "title_similarity": 0.614,
+      "token_overlap": 0.875,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contract-resource-center",
+        "/ai-contract-review-vs-manual-review"
+      ],
+      "current_intents": {
+        "/ai-contract-resource-center": "topic_navigation_and_learning",
+        "/ai-contract-review-vs-manual-review": "commercial_comparison"
+      },
+      "page_types": {
+        "/ai-contract-resource-center": "hub",
+        "/ai-contract-review-vs-manual-review": "comparison"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.794,
+      "title_similarity": 0.667,
+      "token_overlap": 0.848,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/analyze-contract-online",
+        "/review-contract-online"
+      ],
+      "current_intents": {
+        "/analyze-contract-online": "transactional_tool",
+        "/review-contract-online": "commercial_solution"
+      },
+      "page_types": {
+        "/analyze-contract-online": "tool_or_service",
+        "/review-contract-online": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.786,
+      "title_similarity": 0.806,
+      "token_overlap": 0.778,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-document-checker",
+        "/ai-document-scanner"
+      ],
+      "current_intents": {
+        "/ai-document-checker": "transactional_tool",
+        "/ai-document-scanner": "transactional_tool"
+      },
+      "page_types": {
+        "/ai-document-checker": "tool_or_service",
+        "/ai-document-scanner": "tool_or_service"
+      },
+      "silo": "bills_documents",
+      "similarity_score": 0.78,
+      "title_similarity": 0.703,
+      "token_overlap": 0.812,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contract-resource-center",
+        "/best-ai-contract-analysis-tools"
+      ],
+      "current_intents": {
+        "/ai-contract-resource-center": "topic_navigation_and_learning",
+        "/best-ai-contract-analysis-tools": "commercial_comparison"
+      },
+      "page_types": {
+        "/ai-contract-resource-center": "hub",
+        "/best-ai-contract-analysis-tools": "comparison"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.778,
+      "title_similarity": 0.673,
+      "token_overlap": 0.824,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/how-to-review-a-contract",
+        "/how-we-analyze-contracts"
+      ],
+      "current_intents": {
+        "/how-to-review-a-contract": "informational_question",
+        "/how-we-analyze-contracts": "informational_question"
+      },
+      "page_types": {
+        "/how-to-review-a-contract": "editorial_guide",
+        "/how-we-analyze-contracts": "research"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.778,
+      "title_similarity": 0.614,
+      "token_overlap": 0.848,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contract-resource-center",
+        "/how-we-analyze-contracts"
+      ],
+      "current_intents": {
+        "/ai-contract-resource-center": "topic_navigation_and_learning",
+        "/how-we-analyze-contracts": "informational_question"
+      },
+      "page_types": {
+        "/ai-contract-resource-center": "hub",
+        "/how-we-analyze-contracts": "research"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.777,
+      "title_similarity": 0.61,
+      "token_overlap": 0.848,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contract-review-vs-manual-review",
+        "/how-we-analyze-contracts"
+      ],
+      "current_intents": {
+        "/ai-contract-review-vs-manual-review": "commercial_comparison",
+        "/how-we-analyze-contracts": "informational_question"
+      },
+      "page_types": {
+        "/ai-contract-review-vs-manual-review": "comparison",
+        "/how-we-analyze-contracts": "research"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.77,
+      "title_similarity": 0.646,
+      "token_overlap": 0.824,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/best-ai-contract-analysis-tools",
+        "/how-we-analyze-contracts"
+      ],
+      "current_intents": {
+        "/best-ai-contract-analysis-tools": "commercial_comparison",
+        "/how-we-analyze-contracts": "informational_question"
+      },
+      "page_types": {
+        "/best-ai-contract-analysis-tools": "comparison",
+        "/how-we-analyze-contracts": "research"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.765,
+      "title_similarity": 0.684,
+      "token_overlap": 0.8,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contract-resource-center",
+        "/ai-contract-review-software"
+      ],
+      "current_intents": {
+        "/ai-contract-resource-center": "topic_navigation_and_learning",
+        "/ai-contract-review-software": "commercial_comparison"
+      },
+      "page_types": {
+        "/ai-contract-resource-center": "hub",
+        "/ai-contract-review-software": "comparison"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.762,
+      "title_similarity": 0.672,
+      "token_overlap": 0.8,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contract-review-software",
+        "/how-to-review-a-contract"
+      ],
+      "current_intents": {
+        "/ai-contract-review-software": "commercial_comparison",
+        "/how-to-review-a-contract": "informational_question"
+      },
+      "page_types": {
+        "/ai-contract-review-software": "comparison",
+        "/how-to-review-a-contract": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.755,
+      "title_similarity": 0.525,
+      "token_overlap": 0.853,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contract-review-software",
+        "/best-ai-contract-analysis-tools"
+      ],
+      "current_intents": {
+        "/ai-contract-review-software": "commercial_comparison",
+        "/best-ai-contract-analysis-tools": "commercial_comparison"
+      },
+      "page_types": {
+        "/ai-contract-review-software": "comparison",
+        "/best-ai-contract-analysis-tools": "comparison"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.751,
+      "title_similarity": 0.625,
+      "token_overlap": 0.806,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-commercial-lease-review",
+        "/ai-freelance-contract-review"
+      ],
+      "current_intents": {
+        "/ai-commercial-lease-review": "informational_question",
+        "/ai-freelance-contract-review": "informational_question"
+      },
+      "page_types": {
+        "/ai-commercial-lease-review": "editorial_guide",
+        "/ai-freelance-contract-review": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.749,
+      "title_similarity": 0.778,
+      "token_overlap": 0.737,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/before-signing-a-contract",
+        "/what-should-i-check-before-signing-a-contract"
+      ],
+      "current_intents": {
+        "/before-signing-a-contract": "informational_question",
+        "/what-should-i-check-before-signing-a-contract": "informational_question"
+      },
+      "page_types": {
+        "/before-signing-a-contract": "editorial_guide",
+        "/what-should-i-check-before-signing-a-contract": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.748,
+      "title_similarity": 0.677,
+      "token_overlap": 0.778,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/best-ai-contract-analysis-tools",
+        "/how-to-review-a-contract"
+      ],
+      "current_intents": {
+        "/best-ai-contract-analysis-tools": "commercial_comparison",
+        "/how-to-review-a-contract": "informational_question"
+      },
+      "page_types": {
+        "/best-ai-contract-analysis-tools": "comparison",
+        "/how-to-review-a-contract": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.742,
+      "title_similarity": 0.553,
+      "token_overlap": 0.824,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contract-resource-center",
+        "/ai-lease-review"
+      ],
+      "current_intents": {
+        "/ai-contract-resource-center": "topic_navigation_and_learning",
+        "/ai-lease-review": "informational_question"
+      },
+      "page_types": {
+        "/ai-contract-resource-center": "hub",
+        "/ai-lease-review": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.739,
+      "title_similarity": 0.598,
+      "token_overlap": 0.8,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/best-ai-contract-analysis-tools",
+        "/contract-risk-analysis"
+      ],
+      "current_intents": {
+        "/best-ai-contract-analysis-tools": "commercial_comparison",
+        "/contract-risk-analysis": "transactional_tool"
+      },
+      "page_types": {
+        "/best-ai-contract-analysis-tools": "comparison",
+        "/contract-risk-analysis": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.739,
+      "title_similarity": 0.634,
+      "token_overlap": 0.784,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contract-review-vs-manual-review",
+        "/best-ai-contract-analysis-tools"
+      ],
+      "current_intents": {
+        "/ai-contract-review-vs-manual-review": "commercial_comparison",
+        "/best-ai-contract-analysis-tools": "commercial_comparison"
+      },
+      "page_types": {
+        "/ai-contract-review-vs-manual-review": "comparison",
+        "/best-ai-contract-analysis-tools": "comparison"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.731,
+      "title_similarity": 0.569,
+      "token_overlap": 0.8,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contract-review-vs-manual-review",
+        "/ai-lease-review"
+      ],
+      "current_intents": {
+        "/ai-contract-review-vs-manual-review": "commercial_comparison",
+        "/ai-lease-review": "informational_question"
+      },
+      "page_types": {
+        "/ai-contract-review-vs-manual-review": "comparison",
+        "/ai-lease-review": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.726,
+      "title_similarity": 0.605,
+      "token_overlap": 0.778,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contract-resource-center",
+        "/contract-risk-analysis"
+      ],
+      "current_intents": {
+        "/ai-contract-resource-center": "topic_navigation_and_learning",
+        "/contract-risk-analysis": "transactional_tool"
+      },
+      "page_types": {
+        "/ai-contract-resource-center": "hub",
+        "/contract-risk-analysis": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.723,
+      "title_similarity": 0.596,
+      "token_overlap": 0.778,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/best-ai-contract-analysis-tools",
+        "/contract-fee-analysis"
+      ],
+      "current_intents": {
+        "/best-ai-contract-analysis-tools": "commercial_comparison",
+        "/contract-fee-analysis": "transactional_tool"
+      },
+      "page_types": {
+        "/best-ai-contract-analysis-tools": "comparison",
+        "/contract-fee-analysis": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.719,
+      "title_similarity": 0.661,
+      "token_overlap": 0.744,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contract-review-software",
+        "/ai-contract-review-vs-manual-review"
+      ],
+      "current_intents": {
+        "/ai-contract-review-software": "commercial_comparison",
+        "/ai-contract-review-vs-manual-review": "commercial_comparison"
+      },
+      "page_types": {
+        "/ai-contract-review-software": "comparison",
+        "/ai-contract-review-vs-manual-review": "comparison"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.715,
+      "title_similarity": 0.567,
+      "token_overlap": 0.778,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-lease-review",
+        "/how-to-review-a-contract"
+      ],
+      "current_intents": {
+        "/ai-lease-review": "informational_question",
+        "/how-to-review-a-contract": "informational_question"
+      },
+      "page_types": {
+        "/ai-lease-review": "editorial_guide",
+        "/how-to-review-a-contract": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.713,
+      "title_similarity": 0.512,
+      "token_overlap": 0.8,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/detect-hidden-contract-fees",
+        "/find-hidden-fees-in-contract"
+      ],
+      "current_intents": {
+        "/detect-hidden-contract-fees": "informational_question",
+        "/find-hidden-fees-in-contract": "informational_question"
+      },
+      "page_types": {
+        "/detect-hidden-contract-fees": "editorial_guide",
+        "/find-hidden-fees-in-contract": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.71,
+      "title_similarity": 0.745,
+      "token_overlap": 0.696,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contract-review-software",
+        "/how-we-analyze-contracts"
+      ],
+      "current_intents": {
+        "/ai-contract-review-software": "commercial_comparison",
+        "/how-we-analyze-contracts": "informational_question"
+      },
+      "page_types": {
+        "/ai-contract-review-software": "comparison",
+        "/how-we-analyze-contracts": "research"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.708,
+      "title_similarity": 0.545,
+      "token_overlap": 0.778,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-lease-review",
+        "/contract-risk-analysis"
+      ],
+      "current_intents": {
+        "/ai-lease-review": "informational_question",
+        "/contract-risk-analysis": "transactional_tool"
+      },
+      "page_types": {
+        "/ai-lease-review": "editorial_guide",
+        "/contract-risk-analysis": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.707,
+      "title_similarity": 0.465,
+      "token_overlap": 0.811,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "High confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contract-review-vs-manual-review",
+        "/contract-risk-analysis"
+      ],
+      "current_intents": {
+        "/ai-contract-review-vs-manual-review": "commercial_comparison",
+        "/contract-risk-analysis": "transactional_tool"
+      },
+      "page_types": {
+        "/ai-contract-review-vs-manual-review": "comparison",
+        "/contract-risk-analysis": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.706,
+      "title_similarity": 0.588,
+      "token_overlap": 0.757,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/contract-risk-analysis",
+        "/how-we-analyze-contracts"
+      ],
+      "current_intents": {
+        "/contract-risk-analysis": "transactional_tool",
+        "/how-we-analyze-contracts": "informational_question"
+      },
+      "page_types": {
+        "/contract-risk-analysis": "tool_or_service",
+        "/how-we-analyze-contracts": "research"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.7,
+      "title_similarity": 0.567,
+      "token_overlap": 0.757,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/contract-risk-analysis",
+        "/how-to-review-a-contract"
+      ],
+      "current_intents": {
+        "/contract-risk-analysis": "transactional_tool",
+        "/how-to-review-a-contract": "informational_question"
+      },
+      "page_types": {
+        "/contract-risk-analysis": "tool_or_service",
+        "/how-to-review-a-contract": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.699,
+      "title_similarity": 0.515,
+      "token_overlap": 0.778,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "High confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/hidden-fee-intelligence-center",
+        "/hidden-fees-resource-center"
+      ],
+      "current_intents": {
+        "/hidden-fee-intelligence-center": "topic_navigation_and_learning",
+        "/hidden-fees-resource-center": "topic_navigation_and_learning"
+      },
+      "page_types": {
+        "/hidden-fee-intelligence-center": "hub",
+        "/hidden-fees-resource-center": "hub"
+      },
+      "silo": "hidden_fee_detection",
+      "similarity_score": 0.699,
+      "title_similarity": 0.895,
+      "token_overlap": 0.615,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-employment-contract-review",
+        "/ai-vendor-contract-review"
+      ],
+      "current_intents": {
+        "/ai-employment-contract-review": "informational_question",
+        "/ai-vendor-contract-review": "informational_question"
+      },
+      "page_types": {
+        "/ai-employment-contract-review": "editorial_guide",
+        "/ai-vendor-contract-review": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.698,
+      "title_similarity": 0.841,
+      "token_overlap": 0.636,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contract-resource-center",
+        "/contract-terms-glossary"
+      ],
+      "current_intents": {
+        "/ai-contract-resource-center": "topic_navigation_and_learning",
+        "/contract-terms-glossary": "topic_navigation_and_learning"
+      },
+      "page_types": {
+        "/ai-contract-resource-center": "hub",
+        "/contract-terms-glossary": "hub"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.697,
+      "title_similarity": 0.559,
+      "token_overlap": 0.757,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-lease-review",
+        "/contract-fee-analysis"
+      ],
+      "current_intents": {
+        "/ai-lease-review": "informational_question",
+        "/contract-fee-analysis": "transactional_tool"
+      },
+      "page_types": {
+        "/ai-lease-review": "editorial_guide",
+        "/contract-fee-analysis": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.695,
+      "title_similarity": 0.523,
+      "token_overlap": 0.769,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "High confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-agreement-checker",
+        "/ai-contractor-agreement-review"
+      ],
+      "current_intents": {
+        "/ai-agreement-checker": "transactional_tool",
+        "/ai-contractor-agreement-review": "informational_question"
+      },
+      "page_types": {
+        "/ai-agreement-checker": "tool_or_service",
+        "/ai-contractor-agreement-review": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.694,
+      "title_similarity": 0.716,
+      "token_overlap": 0.684,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "High confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-consulting-agreement-review",
+        "/ai-contractor-agreement-review"
+      ],
+      "current_intents": {
+        "/ai-consulting-agreement-review": "informational_question",
+        "/ai-contractor-agreement-review": "informational_question"
+      },
+      "page_types": {
+        "/ai-consulting-agreement-review": "editorial_guide",
+        "/ai-contractor-agreement-review": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.694,
+      "title_similarity": 0.717,
+      "token_overlap": 0.684,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/review-contract-online",
+        "/upload-contract-for-review"
+      ],
+      "current_intents": {
+        "/review-contract-online": "commercial_solution",
+        "/upload-contract-for-review": "transactional_tool"
+      },
+      "page_types": {
+        "/review-contract-online": "tool_or_service",
+        "/upload-contract-for-review": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.693,
+      "title_similarity": 0.59,
+      "token_overlap": 0.737,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/contract-terms-glossary",
+        "/how-to-review-a-contract"
+      ],
+      "current_intents": {
+        "/contract-terms-glossary": "topic_navigation_and_learning",
+        "/how-to-review-a-contract": "informational_question"
+      },
+      "page_types": {
+        "/contract-terms-glossary": "hub",
+        "/how-to-review-a-contract": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.692,
+      "title_similarity": 0.541,
+      "token_overlap": 0.757,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-consulting-agreement-review",
+        "/ai-freelance-contract-review"
+      ],
+      "current_intents": {
+        "/ai-consulting-agreement-review": "informational_question",
+        "/ai-freelance-contract-review": "informational_question"
+      },
+      "page_types": {
+        "/ai-consulting-agreement-review": "editorial_guide",
+        "/ai-freelance-contract-review": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.691,
+      "title_similarity": 0.706,
+      "token_overlap": 0.684,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-freelance-contract-review",
+        "/ai-purchase-contract-review"
+      ],
+      "current_intents": {
+        "/ai-freelance-contract-review": "informational_question",
+        "/ai-purchase-contract-review": "informational_question"
+      },
+      "page_types": {
+        "/ai-freelance-contract-review": "editorial_guide",
+        "/ai-purchase-contract-review": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.689,
+      "title_similarity": 0.701,
+      "token_overlap": 0.684,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-agreement-checker",
+        "/ai-consulting-agreement-review"
+      ],
+      "current_intents": {
+        "/ai-agreement-checker": "transactional_tool",
+        "/ai-consulting-agreement-review": "informational_question"
+      },
+      "page_types": {
+        "/ai-agreement-checker": "tool_or_service",
+        "/ai-consulting-agreement-review": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.684,
+      "title_similarity": 0.684,
+      "token_overlap": 0.684,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "High confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-employment-contract-review",
+        "/ai-freelance-contract-review"
+      ],
+      "current_intents": {
+        "/ai-employment-contract-review": "informational_question",
+        "/ai-freelance-contract-review": "informational_question"
+      },
+      "page_types": {
+        "/ai-employment-contract-review": "editorial_guide",
+        "/ai-freelance-contract-review": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.684,
+      "title_similarity": 0.648,
+      "token_overlap": 0.7,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-purchase-contract-review",
+        "/analyze-contract-online"
+      ],
+      "current_intents": {
+        "/ai-purchase-contract-review": "informational_question",
+        "/analyze-contract-online": "transactional_tool"
+      },
+      "page_types": {
+        "/ai-purchase-contract-review": "editorial_guide",
+        "/analyze-contract-online": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.681,
+      "title_similarity": 0.584,
+      "token_overlap": 0.722,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "High confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contract-review-software",
+        "/ai-lease-review"
+      ],
+      "current_intents": {
+        "/ai-contract-review-software": "commercial_comparison",
+        "/ai-lease-review": "informational_question"
+      },
+      "page_types": {
+        "/ai-contract-review-software": "comparison",
+        "/ai-lease-review": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.677,
+      "title_similarity": 0.537,
+      "token_overlap": 0.737,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/contract-fee-analysis",
+        "/how-we-analyze-contracts"
+      ],
+      "current_intents": {
+        "/contract-fee-analysis": "transactional_tool",
+        "/how-we-analyze-contracts": "informational_question"
+      },
+      "page_types": {
+        "/contract-fee-analysis": "tool_or_service",
+        "/how-we-analyze-contracts": "research"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.676,
+      "title_similarity": 0.578,
+      "token_overlap": 0.718,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-lease-review",
+        "/best-ai-contract-analysis-tools"
+      ],
+      "current_intents": {
+        "/ai-lease-review": "informational_question",
+        "/best-ai-contract-analysis-tools": "commercial_comparison"
+      },
+      "page_types": {
+        "/ai-lease-review": "editorial_guide",
+        "/best-ai-contract-analysis-tools": "comparison"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.675,
+      "title_similarity": 0.483,
+      "token_overlap": 0.757,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contract-review-vs-manual-review",
+        "/contract-terms-glossary"
+      ],
+      "current_intents": {
+        "/ai-contract-review-vs-manual-review": "commercial_comparison",
+        "/contract-terms-glossary": "topic_navigation_and_learning"
+      },
+      "page_types": {
+        "/ai-contract-review-vs-manual-review": "comparison",
+        "/contract-terms-glossary": "hub"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.674,
+      "title_similarity": 0.526,
+      "token_overlap": 0.737,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contract-checker",
+        "/contract-clause-checker"
+      ],
+      "current_intents": {
+        "/ai-contract-checker": "transactional_tool",
+        "/contract-clause-checker": "transactional_tool"
+      },
+      "page_types": {
+        "/ai-contract-checker": "tool_or_service",
+        "/contract-clause-checker": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.673,
+      "title_similarity": 0.647,
+      "token_overlap": 0.684,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contract-review-software",
+        "/contract-risk-analysis"
+      ],
+      "current_intents": {
+        "/ai-contract-review-software": "commercial_comparison",
+        "/contract-risk-analysis": "transactional_tool"
+      },
+      "page_types": {
+        "/ai-contract-review-software": "comparison",
+        "/contract-risk-analysis": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.673,
+      "title_similarity": 0.567,
+      "token_overlap": 0.718,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contract-review-vs-manual-review",
+        "/contract-fee-analysis"
+      ],
+      "current_intents": {
+        "/ai-contract-review-vs-manual-review": "commercial_comparison",
+        "/contract-fee-analysis": "transactional_tool"
+      },
+      "page_types": {
+        "/ai-contract-review-vs-manual-review": "comparison",
+        "/contract-fee-analysis": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.673,
+      "title_similarity": 0.569,
+      "token_overlap": 0.718,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-freelance-contract-review",
+        "/analyze-contract-online"
+      ],
+      "current_intents": {
+        "/ai-freelance-contract-review": "informational_question",
+        "/analyze-contract-online": "transactional_tool"
+      },
+      "page_types": {
+        "/ai-freelance-contract-review": "editorial_guide",
+        "/analyze-contract-online": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.673,
+      "title_similarity": 0.557,
+      "token_overlap": 0.722,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "High confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/best-ai-contract-analysis-tools",
+        "/contract-terms-glossary"
+      ],
+      "current_intents": {
+        "/best-ai-contract-analysis-tools": "commercial_comparison",
+        "/contract-terms-glossary": "topic_navigation_and_learning"
+      },
+      "page_types": {
+        "/best-ai-contract-analysis-tools": "comparison",
+        "/contract-terms-glossary": "hub"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.673,
+      "title_similarity": 0.567,
+      "token_overlap": 0.718,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/contract-fee-analysis",
+        "/how-to-review-a-contract"
+      ],
+      "current_intents": {
+        "/contract-fee-analysis": "transactional_tool",
+        "/how-to-review-a-contract": "informational_question"
+      },
+      "page_types": {
+        "/contract-fee-analysis": "tool_or_service",
+        "/how-to-review-a-contract": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.673,
+      "title_similarity": 0.526,
+      "token_overlap": 0.737,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "High confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contract-resource-center",
+        "/contract-fee-analysis"
+      ],
+      "current_intents": {
+        "/ai-contract-resource-center": "topic_navigation_and_learning",
+        "/contract-fee-analysis": "transactional_tool"
+      },
+      "page_types": {
+        "/ai-contract-resource-center": "hub",
+        "/contract-fee-analysis": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.672,
+      "title_similarity": 0.522,
+      "token_overlap": 0.737,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-freelance-contract-review",
+        "/upload-contract-for-review"
+      ],
+      "current_intents": {
+        "/ai-freelance-contract-review": "informational_question",
+        "/upload-contract-for-review": "transactional_tool"
+      },
+      "page_types": {
+        "/ai-freelance-contract-review": "editorial_guide",
+        "/upload-contract-for-review": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.672,
+      "title_similarity": 0.643,
+      "token_overlap": 0.684,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "High confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/contract-terms-glossary",
+        "/how-we-analyze-contracts"
+      ],
+      "current_intents": {
+        "/contract-terms-glossary": "topic_navigation_and_learning",
+        "/how-we-analyze-contracts": "informational_question"
+      },
+      "page_types": {
+        "/contract-terms-glossary": "hub",
+        "/how-we-analyze-contracts": "research"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.671,
+      "title_similarity": 0.516,
+      "token_overlap": 0.737,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-commercial-lease-review",
+        "/ai-consulting-agreement-review"
+      ],
+      "current_intents": {
+        "/ai-commercial-lease-review": "informational_question",
+        "/ai-consulting-agreement-review": "informational_question"
+      },
+      "page_types": {
+        "/ai-commercial-lease-review": "editorial_guide",
+        "/ai-consulting-agreement-review": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.669,
+      "title_similarity": 0.713,
+      "token_overlap": 0.65,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-bill-checker",
+        "/ai-document-checker"
+      ],
+      "current_intents": {
+        "/ai-bill-checker": "transactional_tool",
+        "/ai-document-checker": "transactional_tool"
+      },
+      "page_types": {
+        "/ai-bill-checker": "tool_or_service",
+        "/ai-document-checker": "tool_or_service"
+      },
+      "silo": "bills_documents",
+      "similarity_score": 0.668,
+      "title_similarity": 0.629,
+      "token_overlap": 0.684,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/free-hidden-fee-scanner",
+        "/hidden-fee-scanner"
+      ],
+      "current_intents": {
+        "/free-hidden-fee-scanner": "transactional_tool",
+        "/hidden-fee-scanner": "transactional_tool"
+      },
+      "page_types": {
+        "/free-hidden-fee-scanner": "tool_or_service",
+        "/hidden-fee-scanner": "tool_or_service"
+      },
+      "silo": "hidden_fee_detection",
+      "similarity_score": 0.668,
+      "title_similarity": 0.954,
+      "token_overlap": 0.545,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/free-ai-contract-review-vs-paid-review",
+        "/free-vs-paid-contract-review"
+      ],
+      "current_intents": {
+        "/free-ai-contract-review-vs-paid-review": "commercial_comparison",
+        "/free-vs-paid-contract-review": "commercial_comparison"
+      },
+      "page_types": {
+        "/free-ai-contract-review-vs-paid-review": "comparison",
+        "/free-vs-paid-contract-review": "comparison"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.667,
+      "title_similarity": 0.824,
+      "token_overlap": 0.6,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contract-checker",
+        "/find-hidden-fees-in-contract"
+      ],
+      "current_intents": {
+        "/ai-contract-checker": "transactional_tool",
+        "/find-hidden-fees-in-contract": "informational_question"
+      },
+      "page_types": {
+        "/ai-contract-checker": "tool_or_service",
+        "/find-hidden-fees-in-contract": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.664,
+      "title_similarity": 0.579,
+      "token_overlap": 0.7,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "High confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-lease-review",
+        "/how-we-analyze-contracts"
+      ],
+      "current_intents": {
+        "/ai-lease-review": "informational_question",
+        "/how-we-analyze-contracts": "informational_question"
+      },
+      "page_types": {
+        "/ai-lease-review": "editorial_guide",
+        "/how-we-analyze-contracts": "research"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.664,
+      "title_similarity": 0.4,
+      "token_overlap": 0.778,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/analyze-contract-online",
+        "/upload-contract-for-review"
+      ],
+      "current_intents": {
+        "/analyze-contract-online": "transactional_tool",
+        "/upload-contract-for-review": "transactional_tool"
+      },
+      "page_types": {
+        "/analyze-contract-online": "tool_or_service",
+        "/upload-contract-for-review": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.664,
+      "title_similarity": 0.529,
+      "token_overlap": 0.722,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-freelance-contract-review",
+        "/identify-contract-risks"
+      ],
+      "current_intents": {
+        "/ai-freelance-contract-review": "informational_question",
+        "/identify-contract-risks": "informational_question"
+      },
+      "page_types": {
+        "/ai-freelance-contract-review": "editorial_guide",
+        "/identify-contract-risks": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.663,
+      "title_similarity": 0.694,
+      "token_overlap": 0.65,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/identify-contract-risks",
+        "/upload-contract-for-review"
+      ],
+      "current_intents": {
+        "/identify-contract-risks": "informational_question",
+        "/upload-contract-for-review": "transactional_tool"
+      },
+      "page_types": {
+        "/identify-contract-risks": "editorial_guide",
+        "/upload-contract-for-review": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.663,
+      "title_similarity": 0.694,
+      "token_overlap": 0.65,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "High confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/bill-negotiation-resource-center",
+        "/hospital-bill-negotiation-guide"
+      ],
+      "current_intents": {
+        "/bill-negotiation-resource-center": "topic_navigation_and_learning",
+        "/hospital-bill-negotiation-guide": "informational_question"
+      },
+      "page_types": {
+        "/bill-negotiation-resource-center": "hub",
+        "/hospital-bill-negotiation-guide": "editorial_guide"
+      },
+      "silo": "consumer_negotiation",
+      "similarity_score": 0.662,
+      "title_similarity": 0.721,
+      "token_overlap": 0.636,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contract-review-software",
+        "/contract-terms-glossary"
+      ],
+      "current_intents": {
+        "/ai-contract-review-software": "commercial_comparison",
+        "/contract-terms-glossary": "topic_navigation_and_learning"
+      },
+      "page_types": {
+        "/ai-contract-review-software": "comparison",
+        "/contract-terms-glossary": "hub"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.66,
+      "title_similarity": 0.565,
+      "token_overlap": 0.7,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/hidden-internet-fees",
+        "/hidden-investment-fees"
+      ],
+      "current_intents": {
+        "/hidden-internet-fees": "informational_question",
+        "/hidden-investment-fees": "informational_question"
+      },
+      "page_types": {
+        "/hidden-internet-fees": "editorial_guide",
+        "/hidden-investment-fees": "editorial_guide"
+      },
+      "silo": "hidden_fee_detection",
+      "similarity_score": 0.659,
+      "title_similarity": 0.863,
+      "token_overlap": 0.571,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/contract-risk-analysis",
+        "/contract-terms-glossary"
+      ],
+      "current_intents": {
+        "/contract-risk-analysis": "transactional_tool",
+        "/contract-terms-glossary": "topic_navigation_and_learning"
+      },
+      "page_types": {
+        "/contract-risk-analysis": "tool_or_service",
+        "/contract-terms-glossary": "hub"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.658,
+      "title_similarity": 0.602,
+      "token_overlap": 0.683,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "risk_scoring",
+      "pages": [
+        "/ai-contract-risk-score",
+        "/contract-risk-score"
+      ],
+      "current_intents": {
+        "/ai-contract-risk-score": "transactional_tool",
+        "/contract-risk-score": "transactional_tool"
+      },
+      "page_types": {
+        "/ai-contract-risk-score": "tool_or_service",
+        "/contract-risk-score": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.656,
+      "title_similarity": 0.808,
+      "token_overlap": 0.591,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/arbitration-clauses-explained",
+        "/indemnification-clauses-explained"
+      ],
+      "current_intents": {
+        "/arbitration-clauses-explained": "informational_question",
+        "/indemnification-clauses-explained": "informational_question"
+      },
+      "page_types": {
+        "/arbitration-clauses-explained": "editorial_guide",
+        "/indemnification-clauses-explained": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.656,
+      "title_similarity": 0.744,
+      "token_overlap": 0.619,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/contract-clause-checker",
+        "/contract-fee-checker"
+      ],
+      "current_intents": {
+        "/contract-clause-checker": "transactional_tool",
+        "/contract-fee-checker": "transactional_tool"
+      },
+      "page_types": {
+        "/contract-clause-checker": "tool_or_service",
+        "/contract-fee-checker": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.656,
+      "title_similarity": 0.701,
+      "token_overlap": 0.636,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-document-checker",
+        "/ai-document-review-tool"
+      ],
+      "current_intents": {
+        "/ai-document-checker": "transactional_tool",
+        "/ai-document-review-tool": "commercial_solution"
+      },
+      "page_types": {
+        "/ai-document-checker": "tool_or_service",
+        "/ai-document-review-tool": "tool_or_service"
+      },
+      "silo": "bills_documents",
+      "similarity_score": 0.655,
+      "title_similarity": 0.757,
+      "token_overlap": 0.611,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-purchase-contract-review",
+        "/upload-contract-for-review"
+      ],
+      "current_intents": {
+        "/ai-purchase-contract-review": "informational_question",
+        "/upload-contract-for-review": "transactional_tool"
+      },
+      "page_types": {
+        "/ai-purchase-contract-review": "editorial_guide",
+        "/upload-contract-for-review": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.654,
+      "title_similarity": 0.584,
+      "token_overlap": 0.684,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "High confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-document-review-tool",
+        "/ai-document-scanner"
+      ],
+      "current_intents": {
+        "/ai-document-review-tool": "commercial_solution",
+        "/ai-document-scanner": "transactional_tool"
+      },
+      "page_types": {
+        "/ai-document-review-tool": "tool_or_service",
+        "/ai-document-scanner": "tool_or_service"
+      },
+      "silo": "bills_documents",
+      "similarity_score": 0.653,
+      "title_similarity": 0.667,
+      "token_overlap": 0.647,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-agreement-checker",
+        "/identify-contract-risks"
+      ],
+      "current_intents": {
+        "/ai-agreement-checker": "transactional_tool",
+        "/identify-contract-risks": "informational_question"
+      },
+      "page_types": {
+        "/ai-agreement-checker": "tool_or_service",
+        "/identify-contract-risks": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.652,
+      "title_similarity": 0.658,
+      "token_overlap": 0.65,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "High confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contractor-agreement-review",
+        "/unfair-contract-terms"
+      ],
+      "current_intents": {
+        "/ai-contractor-agreement-review": "informational_question",
+        "/unfair-contract-terms": "informational_question"
+      },
+      "page_types": {
+        "/ai-contractor-agreement-review": "editorial_guide",
+        "/unfair-contract-terms": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.652,
+      "title_similarity": 0.658,
+      "token_overlap": 0.65,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-lease-review",
+        "/contract-terms-glossary"
+      ],
+      "current_intents": {
+        "/ai-lease-review": "informational_question",
+        "/contract-terms-glossary": "topic_navigation_and_learning"
+      },
+      "page_types": {
+        "/ai-lease-review": "editorial_guide",
+        "/contract-terms-glossary": "hub"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.652,
+      "title_similarity": 0.54,
+      "token_overlap": 0.7,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/analyze-contract-online",
+        "/find-hidden-fees-in-contract"
+      ],
+      "current_intents": {
+        "/analyze-contract-online": "transactional_tool",
+        "/find-hidden-fees-in-contract": "informational_question"
+      },
+      "page_types": {
+        "/analyze-contract-online": "tool_or_service",
+        "/find-hidden-fees-in-contract": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.648,
+      "title_similarity": 0.643,
+      "token_overlap": 0.65,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "High confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/hidden-internet-fees",
+        "/hidden-landscaping-fees"
+      ],
+      "current_intents": {
+        "/hidden-internet-fees": "informational_question",
+        "/hidden-landscaping-fees": "informational_question"
+      },
+      "page_types": {
+        "/hidden-internet-fees": "editorial_guide",
+        "/hidden-landscaping-fees": "editorial_guide"
+      },
+      "silo": "hidden_fee_detection",
+      "similarity_score": 0.646,
+      "title_similarity": 0.821,
+      "token_overlap": 0.571,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contract-review-software",
+        "/contract-fee-analysis"
+      ],
+      "current_intents": {
+        "/ai-contract-review-software": "commercial_comparison",
+        "/contract-fee-analysis": "transactional_tool"
+      },
+      "page_types": {
+        "/ai-contract-review-software": "comparison",
+        "/contract-fee-analysis": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.639,
+      "title_similarity": 0.535,
+      "token_overlap": 0.683,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-invoice-analyzer",
+        "/analyze-my-invoice"
+      ],
+      "current_intents": {
+        "/ai-invoice-analyzer": "transactional_tool",
+        "/analyze-my-invoice": "transactional_tool"
+      },
+      "page_types": {
+        "/ai-invoice-analyzer": "tool_or_service",
+        "/analyze-my-invoice": "tool_or_service"
+      },
+      "silo": "bills_documents",
+      "similarity_score": 0.639,
+      "title_similarity": 0.644,
+      "token_overlap": 0.636,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-purchase-contract-review",
+        "/review-contract-online"
+      ],
+      "current_intents": {
+        "/ai-purchase-contract-review": "informational_question",
+        "/review-contract-online": "commercial_solution"
+      },
+      "page_types": {
+        "/ai-purchase-contract-review": "editorial_guide",
+        "/review-contract-online": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.636,
+      "title_similarity": 0.603,
+      "token_overlap": 0.65,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "High confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-document-scanner",
+        "/ai-pricing-analysis"
+      ],
+      "current_intents": {
+        "/ai-document-scanner": "transactional_tool",
+        "/ai-pricing-analysis": "transactional_tool"
+      },
+      "page_types": {
+        "/ai-document-scanner": "tool_or_service",
+        "/ai-pricing-analysis": "tool_or_service"
+      },
+      "silo": "bills_documents",
+      "similarity_score": 0.633,
+      "title_similarity": 0.636,
+      "token_overlap": 0.632,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-agreement-checker",
+        "/ai-freelance-contract-review"
+      ],
+      "current_intents": {
+        "/ai-agreement-checker": "transactional_tool",
+        "/ai-freelance-contract-review": "informational_question"
+      },
+      "page_types": {
+        "/ai-agreement-checker": "tool_or_service",
+        "/ai-freelance-contract-review": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.631,
+      "title_similarity": 0.704,
+      "token_overlap": 0.6,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "High confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-freelance-contract-review",
+        "/ai-vendor-contract-review"
+      ],
+      "current_intents": {
+        "/ai-freelance-contract-review": "informational_question",
+        "/ai-vendor-contract-review": "informational_question"
+      },
+      "page_types": {
+        "/ai-freelance-contract-review": "editorial_guide",
+        "/ai-vendor-contract-review": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.631,
+      "title_similarity": 0.657,
+      "token_overlap": 0.619,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-vendor-contract-review",
+        "/upload-contract-for-review"
+      ],
+      "current_intents": {
+        "/ai-vendor-contract-review": "informational_question",
+        "/upload-contract-for-review": "transactional_tool"
+      },
+      "page_types": {
+        "/ai-vendor-contract-review": "editorial_guide",
+        "/upload-contract-for-review": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.631,
+      "title_similarity": 0.657,
+      "token_overlap": 0.619,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "High confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/hidden-credit-card-fees",
+        "/hidden-streaming-fees"
+      ],
+      "current_intents": {
+        "/hidden-credit-card-fees": "informational_question",
+        "/hidden-streaming-fees": "informational_question"
+      },
+      "page_types": {
+        "/hidden-credit-card-fees": "editorial_guide",
+        "/hidden-streaming-fees": "editorial_guide"
+      },
+      "silo": "hidden_fee_detection",
+      "similarity_score": 0.63,
+      "title_similarity": 0.766,
+      "token_overlap": 0.571,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-document-scanner",
+        "/ai-quote-analyzer"
+      ],
+      "current_intents": {
+        "/ai-document-scanner": "transactional_tool",
+        "/ai-quote-analyzer": "commercial_comparison"
+      },
+      "page_types": {
+        "/ai-document-scanner": "tool_or_service",
+        "/ai-quote-analyzer": "comparison"
+      },
+      "silo": "bills_documents",
+      "similarity_score": 0.628,
+      "title_similarity": 0.667,
+      "token_overlap": 0.611,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-employment-contract-review",
+        "/upload-contract-for-review"
+      ],
+      "current_intents": {
+        "/ai-employment-contract-review": "informational_question",
+        "/upload-contract-for-review": "transactional_tool"
+      },
+      "page_types": {
+        "/ai-employment-contract-review": "editorial_guide",
+        "/upload-contract-for-review": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.628,
+      "title_similarity": 0.648,
+      "token_overlap": 0.619,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "High confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-freelance-contract-review",
+        "/review-contract-online"
+      ],
+      "current_intents": {
+        "/ai-freelance-contract-review": "informational_question",
+        "/review-contract-online": "commercial_solution"
+      },
+      "page_types": {
+        "/ai-freelance-contract-review": "editorial_guide",
+        "/review-contract-online": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.628,
+      "title_similarity": 0.576,
+      "token_overlap": 0.65,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "High confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-agreement-checker",
+        "/what-should-i-check-before-signing-a-contract"
+      ],
+      "current_intents": {
+        "/ai-agreement-checker": "transactional_tool",
+        "/what-should-i-check-before-signing-a-contract": "informational_question"
+      },
+      "page_types": {
+        "/ai-agreement-checker": "tool_or_service",
+        "/what-should-i-check-before-signing-a-contract": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.626,
+      "title_similarity": 0.613,
+      "token_overlap": 0.632,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "High confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-purchase-contract-review",
+        "/ai-vendor-contract-review"
+      ],
+      "current_intents": {
+        "/ai-purchase-contract-review": "informational_question",
+        "/ai-vendor-contract-review": "informational_question"
+      },
+      "page_types": {
+        "/ai-purchase-contract-review": "editorial_guide",
+        "/ai-vendor-contract-review": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.626,
+      "title_similarity": 0.643,
+      "token_overlap": 0.619,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-document-review-tool",
+        "/upload-document-for-ai-analysis"
+      ],
+      "current_intents": {
+        "/ai-document-review-tool": "commercial_solution",
+        "/upload-document-for-ai-analysis": "transactional_tool"
+      },
+      "page_types": {
+        "/ai-document-review-tool": "tool_or_service",
+        "/upload-document-for-ai-analysis": "tool_or_service"
+      },
+      "silo": "bills_documents",
+      "similarity_score": 0.625,
+      "title_similarity": 0.658,
+      "token_overlap": 0.611,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/arbitration-clauses-explained",
+        "/cancellation-fee-clauses"
+      ],
+      "current_intents": {
+        "/arbitration-clauses-explained": "informational_question",
+        "/cancellation-fee-clauses": "informational_question"
+      },
+      "page_types": {
+        "/arbitration-clauses-explained": "editorial_guide",
+        "/cancellation-fee-clauses": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.625,
+      "title_similarity": 0.638,
+      "token_overlap": 0.619,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-agreement-checker",
+        "/ai-contract-checker"
+      ],
+      "current_intents": {
+        "/ai-agreement-checker": "transactional_tool",
+        "/ai-contract-checker": "transactional_tool"
+      },
+      "page_types": {
+        "/ai-agreement-checker": "tool_or_service",
+        "/ai-contract-checker": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.624,
+      "title_similarity": 0.681,
+      "token_overlap": 0.6,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-bill-checker",
+        "/ai-document-scanner"
+      ],
+      "current_intents": {
+        "/ai-bill-checker": "transactional_tool",
+        "/ai-document-scanner": "transactional_tool"
+      },
+      "page_types": {
+        "/ai-bill-checker": "tool_or_service",
+        "/ai-document-scanner": "tool_or_service"
+      },
+      "silo": "bills_documents",
+      "similarity_score": 0.624,
+      "title_similarity": 0.606,
+      "token_overlap": 0.632,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-document-checker",
+        "/ai-invoice-checker"
+      ],
+      "current_intents": {
+        "/ai-document-checker": "transactional_tool",
+        "/ai-invoice-checker": "transactional_tool"
+      },
+      "page_types": {
+        "/ai-document-checker": "tool_or_service",
+        "/ai-invoice-checker": "tool_or_service"
+      },
+      "silo": "bills_documents",
+      "similarity_score": 0.623,
+      "title_similarity": 0.601,
+      "token_overlap": 0.632,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-employment-contract-review",
+        "/ai-purchase-contract-review"
+      ],
+      "current_intents": {
+        "/ai-employment-contract-review": "informational_question",
+        "/ai-purchase-contract-review": "informational_question"
+      },
+      "page_types": {
+        "/ai-employment-contract-review": "editorial_guide",
+        "/ai-purchase-contract-review": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.623,
+      "title_similarity": 0.633,
+      "token_overlap": 0.619,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-estimate-review",
+        "/analyze-my-estimate"
+      ],
+      "current_intents": {
+        "/ai-estimate-review": "commercial_comparison",
+        "/analyze-my-estimate": "transactional_tool"
+      },
+      "page_types": {
+        "/ai-estimate-review": "comparison",
+        "/analyze-my-estimate": "tool_or_service"
+      },
+      "silo": "bills_documents",
+      "similarity_score": 0.623,
+      "title_similarity": 0.803,
+      "token_overlap": 0.545,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contractor-agreement-review",
+        "/ai-freelance-contract-review"
+      ],
+      "current_intents": {
+        "/ai-contractor-agreement-review": "informational_question",
+        "/ai-freelance-contract-review": "informational_question"
+      },
+      "page_types": {
+        "/ai-contractor-agreement-review": "editorial_guide",
+        "/ai-freelance-contract-review": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.621,
+      "title_similarity": 0.671,
+      "token_overlap": 0.6,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/contract-fee-analysis",
+        "/contract-terms-glossary"
+      ],
+      "current_intents": {
+        "/contract-fee-analysis": "transactional_tool",
+        "/contract-terms-glossary": "topic_navigation_and_learning"
+      },
+      "page_types": {
+        "/contract-fee-analysis": "tool_or_service",
+        "/contract-terms-glossary": "hub"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.621,
+      "title_similarity": 0.552,
+      "token_overlap": 0.651,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-employment-contract-review",
+        "/analyze-contract-online"
+      ],
+      "current_intents": {
+        "/ai-employment-contract-review": "informational_question",
+        "/analyze-contract-online": "transactional_tool"
+      },
+      "page_types": {
+        "/ai-employment-contract-review": "editorial_guide",
+        "/analyze-contract-online": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.62,
+      "title_similarity": 0.549,
+      "token_overlap": 0.65,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "High confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contractor-agreement-review",
+        "/analyze-contract-online"
+      ],
+      "current_intents": {
+        "/ai-contractor-agreement-review": "informational_question",
+        "/analyze-contract-online": "transactional_tool"
+      },
+      "page_types": {
+        "/ai-contractor-agreement-review": "editorial_guide",
+        "/analyze-contract-online": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.619,
+      "title_similarity": 0.589,
+      "token_overlap": 0.632,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "High confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-vendor-contract-review",
+        "/analyze-contract-online"
+      ],
+      "current_intents": {
+        "/ai-vendor-contract-review": "informational_question",
+        "/analyze-contract-online": "transactional_tool"
+      },
+      "page_types": {
+        "/ai-vendor-contract-review": "editorial_guide",
+        "/analyze-contract-online": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.619,
+      "title_similarity": 0.545,
+      "token_overlap": 0.65,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "High confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/hidden-fee-index",
+        "/hidden-fees-resource-center"
+      ],
+      "current_intents": {
+        "/hidden-fee-index": "topic_navigation_and_learning",
+        "/hidden-fees-resource-center": "topic_navigation_and_learning"
+      },
+      "page_types": {
+        "/hidden-fee-index": "hub",
+        "/hidden-fees-resource-center": "hub"
+      },
+      "silo": "hidden_fee_detection",
+      "similarity_score": 0.616,
+      "title_similarity": 0.676,
+      "token_overlap": 0.591,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contract-checker",
+        "/detect-hidden-contract-fees"
+      ],
+      "current_intents": {
+        "/ai-contract-checker": "transactional_tool",
+        "/detect-hidden-contract-fees": "informational_question"
+      },
+      "page_types": {
+        "/ai-contract-checker": "tool_or_service",
+        "/detect-hidden-contract-fees": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.614,
+      "title_similarity": 0.625,
+      "token_overlap": 0.609,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "High confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contractor-agreement-review",
+        "/ai-purchase-contract-review"
+      ],
+      "current_intents": {
+        "/ai-contractor-agreement-review": "informational_question",
+        "/ai-purchase-contract-review": "informational_question"
+      },
+      "page_types": {
+        "/ai-contractor-agreement-review": "editorial_guide",
+        "/ai-purchase-contract-review": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.613,
+      "title_similarity": 0.643,
+      "token_overlap": 0.6,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contractor-agreement-review",
+        "/upload-contract-for-review"
+      ],
+      "current_intents": {
+        "/ai-contractor-agreement-review": "informational_question",
+        "/upload-contract-for-review": "transactional_tool"
+      },
+      "page_types": {
+        "/ai-contractor-agreement-review": "editorial_guide",
+        "/upload-contract-for-review": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.613,
+      "title_similarity": 0.644,
+      "token_overlap": 0.6,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "High confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contract-checker",
+        "/analyze-contract-online"
+      ],
+      "current_intents": {
+        "/ai-contract-checker": "transactional_tool",
+        "/analyze-contract-online": "transactional_tool"
+      },
+      "page_types": {
+        "/ai-contract-checker": "tool_or_service",
+        "/analyze-contract-online": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.611,
+      "title_similarity": 0.563,
+      "token_overlap": 0.632,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/analyze-contract-online",
+        "/contract-clause-checker"
+      ],
+      "current_intents": {
+        "/analyze-contract-online": "transactional_tool",
+        "/contract-clause-checker": "transactional_tool"
+      },
+      "page_types": {
+        "/analyze-contract-online": "tool_or_service",
+        "/contract-clause-checker": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.609,
+      "title_similarity": 0.555,
+      "token_overlap": 0.632,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-consulting-agreement-review",
+        "/ai-software-license-review"
+      ],
+      "current_intents": {
+        "/ai-consulting-agreement-review": "informational_question",
+        "/ai-software-license-review": "informational_question"
+      },
+      "page_types": {
+        "/ai-consulting-agreement-review": "editorial_guide",
+        "/ai-software-license-review": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.607,
+      "title_similarity": 0.622,
+      "token_overlap": 0.6,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-bill-checker",
+        "/ai-estimate-checker"
+      ],
+      "current_intents": {
+        "/ai-bill-checker": "transactional_tool",
+        "/ai-estimate-checker": "transactional_tool"
+      },
+      "page_types": {
+        "/ai-bill-checker": "tool_or_service",
+        "/ai-estimate-checker": "tool_or_service"
+      },
+      "silo": "bills_documents",
+      "similarity_score": 0.606,
+      "title_similarity": 0.575,
+      "token_overlap": 0.619,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/hidden-telecom-fees",
+        "/hidden-utility-fees"
+      ],
+      "current_intents": {
+        "/hidden-telecom-fees": "informational_guide",
+        "/hidden-utility-fees": "informational_question"
+      },
+      "page_types": {
+        "/hidden-telecom-fees": "editorial_guide",
+        "/hidden-utility-fees": "editorial_guide"
+      },
+      "silo": "hidden_fee_detection",
+      "similarity_score": 0.605,
+      "title_similarity": 0.661,
+      "token_overlap": 0.581,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-consulting-agreement-review",
+        "/ai-purchase-contract-review"
+      ],
+      "current_intents": {
+        "/ai-consulting-agreement-review": "informational_question",
+        "/ai-purchase-contract-review": "informational_question"
+      },
+      "page_types": {
+        "/ai-consulting-agreement-review": "editorial_guide",
+        "/ai-purchase-contract-review": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.604,
+      "title_similarity": 0.613,
+      "token_overlap": 0.6,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/analyze-contract-online",
+        "/what-should-i-check-before-signing-a-contract"
+      ],
+      "current_intents": {
+        "/analyze-contract-online": "transactional_tool",
+        "/what-should-i-check-before-signing-a-contract": "informational_question"
+      },
+      "page_types": {
+        "/analyze-contract-online": "tool_or_service",
+        "/what-should-i-check-before-signing-a-contract": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.604,
+      "title_similarity": 0.459,
+      "token_overlap": 0.667,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "High confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-document-risk-analysis",
+        "/ai-quote-analyzer"
+      ],
+      "current_intents": {
+        "/ai-document-risk-analysis": "transactional_tool",
+        "/ai-quote-analyzer": "commercial_comparison"
+      },
+      "page_types": {
+        "/ai-document-risk-analysis": "tool_or_service",
+        "/ai-quote-analyzer": "comparison"
+      },
+      "silo": "bills_documents",
+      "similarity_score": 0.601,
+      "title_similarity": 0.604,
+      "token_overlap": 0.6,
+      "user_value_difference": "Different task, funnel stage, audience, or level of explanation.",
+      "recommended_action": "Keep separate; clarify intent, headings, examples, CTAs, and contextual links.",
+      "confidence": "Medium confidence",
+      "risk": "Low",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "None implemented. Any redirect/canonical/noindex decision requires approval.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": false,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/ai-contractor-agreement-review",
+        "/what-should-i-check-before-signing-a-contract"
+      ],
+      "current_intents": {
+        "/ai-contractor-agreement-review": "informational_question",
+        "/what-should-i-check-before-signing-a-contract": "informational_question"
+      },
+      "page_types": {
+        "/ai-contractor-agreement-review": "editorial_guide",
+        "/what-should-i-check-before-signing-a-contract": "editorial_guide"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.6,
+      "title_similarity": 0.525,
+      "token_overlap": 0.632,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    }
+  ]
+}
