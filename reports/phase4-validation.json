@@ -1,0 +1,13 @@
+{
+  "canonical_pages": 227,
+  "missing_files": [],
+  "canonical_errors": [],
+  "broken_internal_links": [],
+  "http_source_links": [],
+  "sitemap_urls": 226,
+  "llms_urls": 226,
+  "new_tool_present": true,
+  "taxonomy_json_present": true,
+  "taxonomy_csv_present": true,
+  "embed_present": true
+}
