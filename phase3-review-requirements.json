@@ -1,0 +1,13 @@
+{
+  "policy_version": "2026-07-31",
+  "default_reviewer": "DetectHiddenFees Editorial Team",
+  "categories": [
+    {"category":"legal","reviewer":"qualified legal professional","mandatory_before_conclusions":true,"frequency":"event-driven and at least annually","verify":["jurisdiction","effective date","exceptions","source accuracy"],"public_status":"show only with verified reviewer and date"},
+    {"category":"consumer-finance","reviewer":"qualified finance or accounting professional","mandatory_before_numeric_or_regulated_claims":true,"frequency":"annually or when source changes","verify":["definitions","calculations","assumptions","dates"],"public_status":"show only with verified reviewer and date"},
+    {"category":"privacy-security","reviewer":"qualified privacy or security reviewer","mandatory_for_product_behavior_claims":true,"frequency":"when implementation or policy changes","verify":["collection","retention","access","encryption","processors"],"public_status":"show only with verified reviewer and scope"},
+    {"category":"ai-technical","reviewer":"qualified AI or product reviewer","mandatory_for_accuracy_or_capability_claims":true,"frequency":"each material model or product change","verify":["test design","version","metrics","false positives","false negatives"],"public_status":"show only with verified reviewer and method"},
+    {"category":"research","reviewer":"methodology reviewer","mandatory_for_published_original_research":true,"frequency":"each publication and material revision","verify":["sampling","inclusion","analysis","limitations","reproducibility"],"public_status":"show methodology and attribution"},
+    {"category":"editorial","reviewer":"DetectHiddenFees Editorial Team","mandatory":true,"frequency":"before publication and on material update","verify":["claim/source match","clarity","links","date"],"public_status":"organizational authorship"}
+  ],
+  "prohibited_without_evidence":["expert reviewed","legally reviewed","secure","encrypted","automatically deleted","accurate percentage","guaranteed savings"]
+}

@@ -1,0 +1,172 @@
+{
+  "total_external_references": 1306,
+  "unique_urls": 14,
+  "unique_domains": 11,
+  "links": [
+    {
+      "url": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/",
+      "domain": "airc.nist.gov",
+      "scheme": "https",
+      "occurrences": 1,
+      "sample_file": "research-methodology.html",
+      "anchor": "NIST AI Risk Management Framework core guidance",
+      "target_blank": false,
+      "rel": [],
+      "flags": []
+    },
+    {
+      "url": "https://buildlist.io",
+      "domain": "buildlist.io",
+      "scheme": "https",
+      "occurrences": 1,
+      "sample_file": "index.html",
+      "anchor": "",
+      "target_blank": true,
+      "rel": [
+        "noopener"
+      ],
+      "flags": []
+    },
+    {
+      "url": "https://facebook.com/1276218502236982",
+      "domain": "facebook.com",
+      "scheme": "https",
+      "occurrences": 191,
+      "sample_file": "about-detect-hidden-fees.html",
+      "anchor": "Facebook",
+      "target_blank": true,
+      "rel": [
+        "noopener",
+        "noreferrer"
+      ],
+      "flags": []
+    },
+    {
+      "url": "https://fazier.com/launches/detecthiddenfees.com",
+      "domain": "fazier.com",
+      "scheme": "https",
+      "occurrences": 1,
+      "sample_file": "index.html",
+      "anchor": "",
+      "target_blank": true,
+      "rel": [
+        "noopener"
+      ],
+      "flags": []
+    },
+    {
+      "url": "https://hiddenfeeai.com",
+      "domain": "hiddenfeeai.com",
+      "scheme": "https",
+      "occurrences": 1102,
+      "sample_file": "about-detect-hidden-fees.html",
+      "anchor": "Analyze a Document",
+      "target_blank": false,
+      "rel": [],
+      "flags": []
+    },
+    {
+      "url": "https://www.cms.gov/digital-service/medical-bill-rights",
+      "domain": "www.cms.gov",
+      "scheme": "https",
+      "occurrences": 1,
+      "sample_file": "hidden-healthcare-fees.html",
+      "anchor": "Medical Bill Rights resources",
+      "target_blank": false,
+      "rel": [],
+      "flags": []
+    },
+    {
+      "url": "https://www.cms.gov/newsroom/fact-sheets/no-surprises-understand-your-rights-against-surprise-medical-bills",
+      "domain": "www.cms.gov",
+      "scheme": "https",
+      "occurrences": 1,
+      "sample_file": "hidden-healthcare-fees.html",
+      "anchor": "Centers for Medicare & Medicaid Services No Surprises guidance",
+      "target_blank": false,
+      "rel": [],
+      "flags": []
+    },
+    {
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-can-i-do-if-my-bank-charged-me-a-fee-for-overdrawing-my-account-en-1037/",
+      "domain": "www.consumerfinance.gov",
+      "scheme": "https",
+      "occurrences": 1,
+      "sample_file": "hidden-bank-overdraft-fees.html",
+      "anchor": "Consumer Financial Protection Bureau overdraft-fee guidance",
+      "target_blank": false,
+      "rel": [],
+      "flags": []
+    },
+    {
+      "url": "https://www.consumerfinance.gov/compliance/circulars/consumer-financial-protection-circular-2024-05/",
+      "domain": "www.consumerfinance.gov",
+      "scheme": "https",
+      "occurrences": 1,
+      "sample_file": "hidden-bank-overdraft-fees.html",
+      "anchor": "CFPB circular",
+      "target_blank": false,
+      "rel": [],
+      "flags": []
+    },
+    {
+      "url": "https://www.ftc.gov/business-guidance/advertising-marketing",
+      "domain": "www.ftc.gov",
+      "scheme": "https",
+      "occurrences": 1,
+      "sample_file": "editorial-policy.html",
+      "anchor": "Federal Trade Commission advertising guidance",
+      "target_blank": false,
+      "rel": [],
+      "flags": []
+    },
+    {
+      "url": "https://www.ftc.gov/legal-library/browse/ftc-policy-statement-regarding-advertising-substantiation",
+      "domain": "www.ftc.gov",
+      "scheme": "https",
+      "occurrences": 1,
+      "sample_file": "editorial-policy.html",
+      "anchor": "advertising-substantiation policy statement",
+      "target_blank": false,
+      "rel": [],
+      "flags": []
+    },
+    {
+      "url": "https://www.listbulb.com/tools/detecthiddenfees",
+      "domain": "www.listbulb.com",
+      "scheme": "https",
+      "occurrences": 1,
+      "sample_file": "index.html",
+      "anchor": "",
+      "target_blank": true,
+      "rel": [
+        "noopener"
+      ],
+      "flags": []
+    },
+    {
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "domain": "www.nist.gov",
+      "scheme": "https",
+      "occurrences": 2,
+      "sample_file": "ai-accuracy-and-limitations.html",
+      "anchor": "NIST AI Risk Management Framework",
+      "target_blank": false,
+      "rel": [],
+      "flags": []
+    },
+    {
+      "url": "https://www.stork.ai/",
+      "domain": "www.stork.ai",
+      "scheme": "https",
+      "occurrences": 1,
+      "sample_file": "index.html",
+      "anchor": "",
+      "target_blank": false,
+      "rel": [
+        "nofollow"
+      ],
+      "flags": []
+    }
+  ]
+}

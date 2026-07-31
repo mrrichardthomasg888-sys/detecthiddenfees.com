@@ -1,0 +1,9 @@
+{
+  "status":"planning only; no findings are asserted",
+  "projects":[
+    {"name":"Annual Consumer Fee Index","question":"How do disclosed fee categories and total-price presentation vary across selected industries and dates?","data":"public price pages, contracts, invoices with permission","constraints":["sampling bias","terms changes","privacy"],"effort":"high","format":["report","charts","methodology","lawful aggregate data"],"potential":"journalist and AI citation value","gate":"source, sampling, legal/privacy, and methodology review"},
+    {"name":"Contract Clause Risk Report","question":"Which clause patterns occur in a defined, permissioned document sample and what questions do they raise?","data":"permissioned and de-identified agreements","constraints":["confidentiality","jurisdiction","human review"],"effort":"high","format":["report","taxonomy","annotated examples"],"potential":"research and education asset","gate":"consent, de-identification, reviewer agreement, reproducible protocol"},
+    {"name":"Fee Disclosure Quality Study","question":"How consistently do selected providers present mandatory and optional charges before commitment?","data":"archived public checkout observations","constraints":["dynamic pages","date capture","terms of use"],"effort":"medium-high","format":["dataset","screenshots where lawful","report"],"potential":"consumer and policy interest","gate":"pre-registered criteria and repeatable observation protocol"},
+    {"name":"AI Contract Analysis Benchmark","question":"How reliably does a defined system identify pre-labeled clause and fee examples?","data":"permissioned benchmark set with adjudicated labels","constraints":["benchmark leakage","privacy","model versioning"],"effort":"high","format":["protocol","metrics","limitations"],"potential":"technical citation value","gate":"independent labels, test split, version lock, false-positive/negative review"}
+  ]
+}
