@@ -1,0 +1,8 @@
+id,label,definition,common_industries,document_locations,limitations
+mandatory-disclosed,Disclosed mandatory fee,A required charge identified before commitment or payment.,telecom|travel|utilities,price summary|contract|invoice,Context and jurisdiction determine treatment.
+poorly-disclosed-mandatory,Poorly disclosed mandatory fee,A required charge whose timing label amount or condition is difficult to understand.,ticketing|travel|services|housing,checkout|terms|invoice,Not automatically a legal conclusion.
+optional-add-on,Optional add-on,A charge for an optional product or service.,travel|auto|software|telecom,checkout|quote|order form,Selection and disclosure rules vary.
+automatically-selected,Automatically selected add-on,An optional charge selected by default.,travel|ticketing|subscriptions,checkout|order summary,Interface and jurisdiction matter.
+recurring,Recurring fee,A charge that repeats while an account or service remains active.,subscriptions|banking|telecom,terms|billing schedule|statement,Account history and renewal terms are necessary.
+contract-triggered,Contract-triggered fee,A charge activated by cancellation renewal late payment or another contract event.,leases|services|software|financing,termination clause|fee schedule|payment terms,Interpretation may require professional review.
+duplicate-or-unclear,Duplicate or unclear charge,A repeated bundled or insufficiently described line item.,all billing contexts,invoice|statement|estimate,Complete records and human confirmation are required.

@@ -1,0 +1,13 @@
+{
+  "version":"2026-07-31",
+  "status":"awaiting owner confirmation",
+  "sections":[
+    {"id":"identity","fields":["legal_owner","shared_operation","revenue_relationship","editorial_independence","approved_disclosure"]},
+    {"id":"files","fields":["pdf","docx","xlsx","xls","csv","txt","images","image_formats","max_file_size","max_pages","password_files","scans","ocr_provider","handwriting","tables","formulas","comments","footnotes","attachments","embedded_objects"]},
+    {"id":"ai","fields":["provider","model","automatic_model_changes","extraction","analysis","deterministic_rules","page_coverage","table_coverage","spreadsheet_coverage","processing_time","limitations","risk_score","savings_method","benchmark","human_review","false_positive_test","false_negative_test","report_versioning"]},
+    {"id":"privacy_security","fields":["storage","location","retention","deletion","backup_retention","staff_access","provider_retention","training_use","encryption_transit","encryption_rest","logging","error_logging","subprocessors","cloud_provider","processing_regions","incident_response","user_deletion","account_deletion","policies"]},
+    {"id":"commercial_output","fields":["pricing","refunds","credits","failed_analysis","billing_model","subscriptions","size_pricing","approved_promotional_language","savings_disclaimer","informational_only","findings","prioritization","savings","risk_score","negotiation_playbook","email_template","phone_script","pdf","sharing","printing","retention_after_report","expiration","editable","account_storage"]}
+  ],
+  "answer_schema":{"answer":"verified|partially_verified|unknown|not_supported","evidence":"path_or_url","verified_by":"name_or_role","verified_at":"date","scope":"text","review_by":"date"},
+  "gate":"No public claim, schema, benchmark, outreach asset, or conversion copy may rely on an unknown answer."
+}

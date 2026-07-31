@@ -1,0 +1,10 @@
+{
+  "title":"Hidden Fee Transparency Index",
+  "status":"specification_only",
+  "research_question":"How consistently do selected providers present total prices and fee triggers before commitment?",
+  "scope":{"initial_industries":3,"data":"public pricing and contract pages","private_customer_documents":false},
+  "method":{"dimensions":["base_price","mandatory_fees","optional_add_ons","automatic_selection","recurring_charge","conditional_charge","tax_presentation","disclosure_timing","label_clarity","total_price_visibility","renewal_cancellation_visibility"],"rubric":"0-2 per dimension; pre-registered before publication","review":"two-person scoring and adjudication"},
+  "outputs":["canonical research page","methodology","accessible charts","CSV","JSON metadata","PDF summary","static chart","responsive embed","suggested citation"],
+  "gates":["public-data terms review","methodology review","legal language review","ownership disclosure confirmation","manual quality control"],
+  "success_metrics":["relevant editorial citations","dataset downloads","repeatability","corrections resolved","consumer usefulness"]
+}
