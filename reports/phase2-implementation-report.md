@@ -193,7 +193,10 @@ Zero JSON-LD parsing issues and zero BreadcrumbList-count issues were detected. 
 
 ## 14. Commits created
 
-The commits are recorded in Git history after the local review commits are created. The work is separated into architecture/reporting and implementation/validation groups.
+The work is separated into two reviewable commits:
+
+- `84ba06d` — content inventory, topical architecture, cannibalization audit, and baseline link graph.
+- `599f552` — navigation, breadcrumbs, footer cleanup, contextual links, validation, screenshots, and implementation report.
 
 ## 15. Test results
 
