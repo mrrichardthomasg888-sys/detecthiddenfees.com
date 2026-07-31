@@ -1,0 +1,81 @@
+{
+  "site": {
+    "name": "DetectHiddenFees",
+    "url": "https://detecthiddenfees.com/",
+    "logo": "https://detecthiddenfees.com/logo.png",
+    "image": "https://detecthiddenfees.com/og-image.png",
+    "hiddenFeeAI": "https://hiddenfeeai.com"
+  },
+  "overrides": {
+    "/": {
+      "title": "AI Forensic Pricing Intelligence for Hidden Fee Detection | DetectHiddenFees",
+      "description": "Use AI-powered forensic pricing intelligence to find hidden fees, unclear terms, inflated charges, and pricing risks in contracts, bills, invoices, and estimates."
+    },
+    "/free-hidden-fee-scanner": {
+      "title": "Free Hidden Fee Scanner for Bills and Contracts | DetectHiddenFees"
+    },
+    "/hidden-fee-scanner": {
+      "title": "AI Hidden Fee Scanner for Bills and Contracts | DetectHiddenFees"
+    },
+    "/ai-contract-review-software": {
+      "title": "AI Contract Review Software vs Tools: What to Look For | DetectHiddenFees"
+    },
+    "/ai-contract-review-tool": {
+      "title": "AI Contract Review Tool: Scan Any Document for Hidden Fees | DetectHiddenFees"
+    },
+    "/ai-document-intelligence-center": {
+      "title": "AI Document Intelligence Center: Guide to Document Analysis | DetectHiddenFees"
+    },
+    "/ai-testing-results": {
+      "title": "AI Testing Results: Accuracy Benchmarks for Fee Detection | DetectHiddenFees"
+    },
+    "/before-signing-a-contract": {
+      "title": "Before Signing a Contract: Essential Checklist | DetectHiddenFees"
+    },
+    "/consumer-financial-intelligence-center": {
+      "title": "Consumer Financial Intelligence Center: Master Your Bills | DetectHiddenFees"
+    },
+    "/consumer-negotiation-academy": {
+      "title": "Consumer Negotiation Academy: Master Bill Negotiation | DetectHiddenFees"
+    },
+    "/contract-analysis-ai": {
+      "title": "How AI Contract Analysis Works: Technology and Methods | DetectHiddenFees"
+    },
+    "/contract-fee-analysis": {
+      "title": "Contract Fee Analysis: AI Detection of Hidden Fees | DetectHiddenFees"
+    },
+    "/contract-review-ai-software": {
+      "title": "Contract Review AI Software: Features to Compare | DetectHiddenFees"
+    },
+    "/free-vs-paid-contract-review": {
+      "title": "Free vs Paid Contract Review: Which Option Should You Choose? | DetectHiddenFees"
+    },
+    "/hidden-fee-glossary": {
+      "title": "Hidden Fee Glossary: Dictionary of Hidden Charges | DetectHiddenFees"
+    },
+    "/hidden-fee-intelligence-center": {
+      "title": "Hidden Fee Intelligence Center: Guide to Fee Detection | DetectHiddenFees"
+    },
+    "/hidden-fee-intelligence-engine": {
+      "title": "Hidden Fee Intelligence Engine: AI Detection System | DetectHiddenFees"
+    },
+    "/hidden-fee-knowledge-center": {
+      "title": "Hidden Fee Knowledge Center: Database of Fee Types | DetectHiddenFees"
+    },
+    "/hidden-fees-resource-center": {
+      "title": "Hidden Fees Resource Center: Guide to Fee Detection | DetectHiddenFees"
+    },
+    "/how-ai-detects-fees": {
+      "title": "How AI Detects Hidden Fees: Technology Behind Fee Analysis | DetectHiddenFees"
+    },
+    "/sample-analysis-report": {
+      "title": "Sample Analysis Report: See How AI Detects Hidden Fees | DetectHiddenFees"
+    },
+    "/scan-my-invoice": {
+      "title": "Scan My Invoice: AI Invoice Analysis for Hidden Fees | DetectHiddenFees"
+    },
+    "/what-should-i-check-before-signing-a-contract": {
+      "title": "What Should I Check Before Signing a Contract? | DetectHiddenFees"
+    }
+  }
+}

@@ -1,624 +1,256 @@
-# DetectHiddenFees — AI Forensic Pricing Intelligence Platform
+# DetectHiddenFees
+
+> DetectHiddenFees is an AI-powered consumer information and document-analysis website focused on hidden fees, contract terms, bills, invoices, estimates, pricing transparency, and negotiation preparation.
+
+- Website: DetectHiddenFees.com
+- Canonical content URLs: 225
+- Related product: https://hiddenfeeai.com
+- Relationship: DetectHiddenFees provides education, research, and product information; HiddenFeeAI is the related document-analysis product.
+- This file lists canonical clean URLs only. Redirect sources and administrative routes are excluded.
+
+## About and trust
+
+- [About DetectHiddenFees: AI-Powered Fee Intelligence](https://detecthiddenfees.com/about-detect-hidden-fees) — Canonical page for this topic.
+- [Contact Us](https://detecthiddenfees.com/contact) — Canonical page for this topic.
+- [Data Handling Policy: How We Process Your Documents](https://detecthiddenfees.com/data-handling-policy) — Canonical page for this topic.
+- [Editorial Policy: Our Commitment to Accurate Content](https://detecthiddenfees.com/editorial-policy) — Canonical page for this topic.
+- [Privacy and Data Handling](https://detecthiddenfees.com/privacy-and-ai-security) — Canonical page for this topic.
+- [Security Overview: How We Protect Your Data](https://detecthiddenfees.com/security-overview) — Canonical page for this topic.
+- [Terms of Service](https://detecthiddenfees.com/terms-of-service) — Canonical page for this topic.
+
+## Hidden fee detection
+
+- [Hidden Auto Financing & Dealership Fees: APR Markups, Loan Packing, Warranty Inflation & More](https://detecthiddenfees.com/hidden-auto-fees) — Canonical page for this topic.
+- [Hidden Bank Overdraft Fees: How to Detect & Avoid Banking Charges](https://detecthiddenfees.com/hidden-bank-overdraft-fees) — Canonical page for this topic.
+- [Hidden Banking Fees: Overdraft, Loan, Credit Card & Mortgage Fees Explained](https://detecthiddenfees.com/hidden-banking-fees) — Canonical page for this topic.
+- [Hidden Billing Fees: How to Spot and Fight Every Hidden Charge](https://detecthiddenfees.com/hidden-billing-fees) — Canonical page for this topic.
+- [Hidden Clauses in Contracts: What to Watch For](https://detecthiddenfees.com/hidden-clauses-in-contracts) — Canonical page for this topic.
+- [Hidden Contract Fees: Where Charges Hide in Agreements](https://detecthiddenfees.com/hidden-contract-fees) — Canonical page for this topic.
+- [Hidden Contractor & Construction Fees: Material Markups, Change Orders, Emergency Surcharges & More](https://detecthiddenfees.com/hidden-contractor-fees) — Canonical page for this topic.
+- [Hidden Credit Card Fees: What Credit Card Companies Don't Advertise](https://detecthiddenfees.com/hidden-credit-card-fees) — Canonical page for this topic.
+- [Hidden Dealership Financing Fees: How to Spot Costly Add-Ons & Markups](https://detecthiddenfees.com/hidden-dealership-financing-fees) — Canonical page for this topic.
+- [Hidden Electrician Fees: Spot Pricing Manipulation](https://detecthiddenfees.com/hidden-electrician-fees) — Canonical page for this topic.
+- [Hidden Fee Analysis Tool](https://detecthiddenfees.com/hidden-fee-analysis-tool) — Canonical page for this topic.
+- [Hidden Fee Calculator: Estimate Your Annual Hidden Fee Costs](https://detecthiddenfees.com/hidden-fee-calculator) — Canonical page for this topic.
+- [Hidden Fee Database: Search and Identify Every Hidden Charge](https://detecthiddenfees.com/hidden-fee-database) — Canonical page for this topic.
+- [Hidden Fee Detector: Find Buried Charges With AI](https://detecthiddenfees.com/hidden-fee-detector) — Canonical page for this topic.
+- [Hidden Fee Dictionary: Complete A-to-Z Guide to Fee Terminology](https://detecthiddenfees.com/hidden-fee-dictionary) — Canonical page for this topic.
+- [Hidden Fee Encyclopedia: The Definitive Guide to Pricing Manipulation & Deceptive Charges](https://detecthiddenfees.com/hidden-fee-encyclopedia) — Canonical page for this topic.
+- [Hidden Fee Examples Library: Real Documents, Real Fees Exposed](https://detecthiddenfees.com/hidden-fee-examples) — Canonical page for this topic.
+- [Hidden Fee Glossary: Dictionary of Hidden Charges](https://detecthiddenfees.com/hidden-fee-glossary) — Canonical page for this topic.
+- [2026 Hidden Fee Index: The Complete Guide to Hidden Charges](https://detecthiddenfees.com/hidden-fee-index) — Canonical page for this topic.
+- [Hidden Fees by Industry: Complete Industry-by-Industry Guide](https://detecthiddenfees.com/hidden-fee-industry-guide) — Canonical page for this topic.
+- [Hidden Fee Intelligence Center: Guide to Fee Detection](https://detecthiddenfees.com/hidden-fee-intelligence-center) — Canonical page for this topic.
+- [Hidden Fee Intelligence Engine: AI Detection System](https://detecthiddenfees.com/hidden-fee-intelligence-engine) — Canonical page for this topic.
+- [Hidden Fee Knowledge Center: Database of Fee Types](https://detecthiddenfees.com/hidden-fee-knowledge-center) — Canonical page for this topic.
+- [Hidden Fee Prevention Guide: Complete 12-Strategy System](https://detecthiddenfees.com/hidden-fee-prevention-guide) — Canonical page for this topic.
+- [Hidden Fee Reports: Research-Backed Industry Analysis](https://detecthiddenfees.com/hidden-fee-reports) — Canonical page for this topic.
+- [Hidden Fee Risk Score: Evaluate Your Exposure](https://detecthiddenfees.com/hidden-fee-risk-score) — Canonical page for this topic.
+- [AI Hidden Fee Scanner for Bills and Contracts](https://detecthiddenfees.com/hidden-fee-scanner) — Canonical page for this topic.
+- [Hidden Fee Statistics: The True Cost of Hidden Fees in America](https://detecthiddenfees.com/hidden-fee-statistics) — Canonical page for this topic.
+- [Hidden Fees Guides: Master Deceptive Pricing & Billing Practices](https://detecthiddenfees.com/hidden-fees-guides) — Canonical page for this topic.
+- [Hidden Fees Resource Center: Guide to Fee Detection](https://detecthiddenfees.com/hidden-fees-resource-center) — Canonical page for this topic.
+- [Hidden Healthcare & Medical Billing Fees: What They Are, Why They Exist, and How to Fight Back](https://detecthiddenfees.com/hidden-healthcare-fees) — Canonical page for this topic.
+- [Hidden Home Renovation Fees: How Contractors Inflate Project Costs](https://detecthiddenfees.com/hidden-home-renovation-fees) — Canonical page for this topic.
+- [Hidden HVAC Contractor Fees: How to Spot Pricing Manipulation & Overcharges](https://detecthiddenfees.com/hidden-hvac-contractor-fees) — Canonical page for this topic.
+- [Hidden Insurance Fees: Policy Administration, Installment Charges, Rate Escalation & Coverage Fees Exposed](https://detecthiddenfees.com/hidden-insurance-fees) — Canonical page for this topic.
+- [Hidden Internet Fees: What Your ISP Isn't Telling You](https://detecthiddenfees.com/hidden-internet-fees) — Canonical page for this topic.
+- [Hidden Investment Fees: What Your Financial Advisor Isn't Telling You](https://detecthiddenfees.com/hidden-investment-fees) — Canonical page for this topic.
+- [Hidden Landscaping Fees: What Your Lawn Service Isn't Telling You](https://detecthiddenfees.com/hidden-landscaping-fees) — Canonical page for this topic.
+- [Hidden Loan Fees: The Real Cost of Borrowing Money](https://detecthiddenfees.com/hidden-loan-fees) — Canonical page for this topic.
+- [Hidden Mortgage Fees: Closing Costs and Lender Charges](https://detecthiddenfees.com/hidden-mortgage-fees) — Canonical page for this topic.
+- [Hidden Moving Company Fees: No Surprises on Moving Day](https://detecthiddenfees.com/hidden-moving-company-fees) — Canonical page for this topic.
+- [Hidden Phone Bill Fees: What Your Carrier Charges Without Asking](https://detecthiddenfees.com/hidden-phone-bill-fees) — Canonical page for this topic.
+- [Hidden Plumbing Fees: What Plumbers Don't Tell You](https://detecthiddenfees.com/hidden-plumbing-fees) — Canonical page for this topic.
+- [Hidden Rental & Lease Fees: Application Fees, Admin Charges, Parking, Pet Rent, Move-In/Out Costs & More](https://detecthiddenfees.com/hidden-rental-fees) — Canonical page for this topic.
+- [Hidden Roofing Contractor Fees: What to Watch For](https://detecthiddenfees.com/hidden-roofing-contractor-fees) — Canonical page for this topic.
+- [Hidden Streaming Fees: What Streaming Services Don't Advertise](https://detecthiddenfees.com/hidden-streaming-fees) — Canonical page for this topic.
+- [Hidden Subscription Fees: Stop Paying for What You Forgot](https://detecthiddenfees.com/hidden-subscription-fees) — Canonical page for this topic.
+- [Hidden Telecommunications Fees: Regulatory Charges, Equipment Rental, Activation Fees, Early Termination & More](https://detecthiddenfees.com/hidden-telecom-fees) — Canonical page for this topic.
+- [Hidden Travel & Hospitality Fees: Resort Fees, Baggage Charges, Seat Selection, Check-In Costs & More](https://detecthiddenfees.com/hidden-travel-fees) — Canonical page for this topic.
+- [Hidden Utility & Energy Fees: Regulatory Charges, Distribution Fees, Transmission Surcharges & More](https://detecthiddenfees.com/hidden-utility-fees) — Canonical page for this topic.
+- [Types of Hidden Fees: Complete Classification System](https://detecthiddenfees.com/types-of-hidden-fees) — Canonical page for this topic.
+
+## AI contract review and clauses
+
+- [AI Contract Analysis That Actually Understands Your Documents](https://detecthiddenfees.com/ai-contract-analysis) — Canonical page for this topic.
+- [AI Contract Checker: Find Hidden Fees Before You Sign](https://detecthiddenfees.com/ai-contract-checker) — Canonical page for this topic.
+- [AI Contract Resource Center](https://detecthiddenfees.com/ai-contract-resource-center) — Canonical page for this topic.
+- [AI Contract Review: Find Hidden Fees and Risky Clauses Before You Sign](https://detecthiddenfees.com/ai-contract-review) — Canonical page for this topic.
+- [AI Contract Review Before Signing: Know What You're Committing To](https://detecthiddenfees.com/ai-contract-review-before-signing) — Canonical page for this topic.
+- [AI Contract Review Software vs Tools: What to Look For](https://detecthiddenfees.com/ai-contract-review-software) — Canonical page for this topic.
+- [AI Contract Review Tool: Scan Any Document for Hidden Fees](https://detecthiddenfees.com/ai-contract-review-tool) — Canonical page for this topic.
+- [AI Contract Review vs ChatGPT: Why Specialized Tools Win](https://detecthiddenfees.com/ai-contract-review-vs-chatgpt) — Canonical page for this topic.
+- [AI Contract Review vs Lawyer Review: The Complete Comparison](https://detecthiddenfees.com/ai-contract-review-vs-lawyer-review) — Canonical page for this topic.
+- [AI vs Manual Contract Review: Complete Comparison](https://detecthiddenfees.com/ai-contract-review-vs-manual-review) — Canonical page for this topic.
+- [AI Contract Risk Score: Know Your Risk Before You Sign](https://detecthiddenfees.com/ai-contract-risk-score) — Canonical page for this topic.
+- [AI Contractor Agreement Review: Know What You Are Signing](https://detecthiddenfees.com/ai-contractor-agreement-review) — Canonical page for this topic.
+- [Arbitration Clauses Explained: Know Your Legal Rights](https://detecthiddenfees.com/arbitration-clauses-explained) — Canonical page for this topic.
+- [Automatic Renewal Clauses: Stop Paying for Contracts You Do Not Need](https://detecthiddenfees.com/automatic-renewal-clauses) — Canonical page for this topic.
+- [Before Signing a Contract: Essential Checklist](https://detecthiddenfees.com/before-signing-a-contract) — Canonical page for this topic.
+- [Before Signing a Contract: The Complete 30-Point Pre-Signing Checklist](https://detecthiddenfees.com/before-signing-contract-checklist) — Canonical page for this topic.
+- [Business Contract Review: Protect Your Bottom Line](https://detecthiddenfees.com/business-contract-review) — Canonical page for this topic.
+- [Cancellation Fee Clauses: Know the Cost of Leaving](https://detecthiddenfees.com/cancellation-fee-clauses) — Canonical page for this topic.
+- [Change Order Fees: How to Avoid Costly Contractor Surprises](https://detecthiddenfees.com/change-order-fees) — Canonical page for this topic.
+- [How AI Contract Analysis Works: Technology and Methods](https://detecthiddenfees.com/contract-analysis-ai) — Canonical page for this topic.
+- [Contract Clause Checker: Analyze Every Provision](https://detecthiddenfees.com/contract-clause-checker) — Canonical page for this topic.
+- [Contract Fee Analysis: AI Detection of Hidden Fees](https://detecthiddenfees.com/contract-fee-analysis) — Canonical page for this topic.
+- [Contract Fee Checker: AI Analysis of Contract Costs](https://detecthiddenfees.com/contract-fee-checker) — Canonical page for this topic.
+- [Contract Negotiation Assistant: AI Strategy Generator](https://detecthiddenfees.com/contract-negotiation-assistant) — Canonical page for this topic.
+- [Contract Red Flag Checker: Find Warning Signs Before You Sign](https://detecthiddenfees.com/contract-red-flag-checker) — Canonical page for this topic.
+- [Contract Red Flags: Warning Signs in Every Agreement](https://detecthiddenfees.com/contract-red-flags) — Canonical page for this topic.
+- [Contract Review AI Software: Features to Compare](https://detecthiddenfees.com/contract-review-ai-software) — Canonical page for this topic.
+- [Contract Review Checklist: Never Miss a Hidden Fee](https://detecthiddenfees.com/contract-review-checklist) — Canonical page for this topic.
+- [Contract Risk Analysis: AI-Powered Risk Detection](https://detecthiddenfees.com/contract-risk-analysis) — Canonical page for this topic.
+- [Contract Risk Assessment AI: Know Your Risk Before You Sign](https://detecthiddenfees.com/contract-risk-assessment-ai-tool) — Canonical page for this topic.
+- [Contract Risk Assessment Guide: Evaluate Any Agreement](https://detecthiddenfees.com/contract-risk-assessment-guide) — Canonical page for this topic.
+- [Contract Risk Score: Rate Your Contract Before Signing](https://detecthiddenfees.com/contract-risk-score) — Canonical page for this topic.
+- [Contract Terms Analyzer AI: Understand Every Clause Before You Sign](https://detecthiddenfees.com/contract-terms-analyzer-ai) — Canonical page for this topic.
+- [Contract Terms Glossary: Legal Terms Explained](https://detecthiddenfees.com/contract-terms-glossary) — Canonical page for this topic.
+- [Detect Hidden Contract Fees: AI Fee Detection Service](https://detecthiddenfees.com/detect-hidden-contract-fees) — Canonical page for this topic.
+- [Find Hidden Fees in Contract: AI-Powered Fee Detection](https://detecthiddenfees.com/find-hidden-fees-in-contract) — Canonical page for this topic.
+- [How to Review a Contract: Complete Guide Using AI](https://detecthiddenfees.com/how-to-review-a-contract) — Canonical page for this topic.
+- [How We Analyze Contracts: AI Methodology](https://detecthiddenfees.com/how-we-analyze-contracts) — Canonical page for this topic.
+- [Identify Contract Risks: Protect Yourself with AI Analysis](https://detecthiddenfees.com/identify-contract-risks) — Canonical page for this topic.
+- [Indemnification Clauses Explained: Understand Your Financial Risk](https://detecthiddenfees.com/indemnification-clauses-explained) — Canonical page for this topic.
+- [Service Agreement Red Flags: What to Watch For Before Signing](https://detecthiddenfees.com/service-agreement-red-flags) — Canonical page for this topic.
+- [Unfair Contract Terms: Know What Is Not Right in Your Agreement](https://detecthiddenfees.com/unfair-contract-terms) — Canonical page for this topic.
+
+## Bills and document analysis
+
+- [AI Bill Analysis vs Manual Review: The Numbers Speak](https://detecthiddenfees.com/ai-bill-analysis-vs-manual-review) — Canonical page for this topic.
+- [AI Bill Analyzer: Every Overcharge in Your Bills Exposed](https://detecthiddenfees.com/ai-bill-analyzer) — Canonical page for this topic.
+- [AI Bill Analyzer vs ChatGPT: Head-to-Head Comparison for Fee Detection](https://detecthiddenfees.com/ai-bill-analyzer-vs-chatgpt) — Canonical page for this topic.
+- [AI Bill Checker: Catch Hidden Charges on Every Bill](https://detecthiddenfees.com/ai-bill-checker) — Canonical page for this topic.
+- [AI Bill Negotiation: Let Artificial Intelligence Fight Your Bills](https://detecthiddenfees.com/ai-bill-negotiation) — Canonical page for this topic.
+- [AI Document Analysis Benefits: Why Smart Consumers Use AI](https://detecthiddenfees.com/ai-document-analysis-benefits) — Canonical page for this topic.
+- [AI Document Analysis Tools: Complete Guide to Smarter Document Review](https://detecthiddenfees.com/ai-document-analysis-tools) — Canonical page for this topic.
+- [AI Document Checker: Scan Any Document for Hidden Fees](https://detecthiddenfees.com/ai-document-checker) — Canonical page for this topic.
+- [AI Document Intelligence Center: Guide to Document Analysis](https://detecthiddenfees.com/ai-document-intelligence-center) — Canonical page for this topic.
+- [AI Document Review Tool: Analyze Any Document in Minutes](https://detecthiddenfees.com/ai-document-review-tool) — Canonical page for this topic.
+- [AI Document Reviewer: One Tool for All Your Document Analysis](https://detecthiddenfees.com/ai-document-reviewer) — Canonical page for this topic.
+- [AI Document Risk Analysis: Spot Problems Before They Cost You](https://detecthiddenfees.com/ai-document-risk-analysis) — Canonical page for this topic.
+- [AI Document Scanner: Find Hidden Fees in Any Document](https://detecthiddenfees.com/ai-document-scanner) — Canonical page for this topic.
+- [AI Estimate Checker: Verify Every Line Before You Approve](https://detecthiddenfees.com/ai-estimate-checker) — Canonical page for this topic.
+- [AI Estimate Review: Verify Quotes Before You Approve](https://detecthiddenfees.com/ai-estimate-review) — Canonical page for this topic.
+- [AI Financial Advisor: Complete Guide to Automated Financial Analysis](https://detecthiddenfees.com/ai-financial-advisor) — Canonical page for this topic.
+- [AI for Financial Analysis: Complete Technology Guide](https://detecthiddenfees.com/ai-financial-analysis) — Canonical page for this topic.
+- [AI Financial Assistant: Smarter Money Decisions](https://detecthiddenfees.com/ai-financial-assistant) — Canonical page for this topic.
+- [AI Invoice Analyzer: Find Hidden Charges in Every Invoice](https://detecthiddenfees.com/ai-invoice-analyzer) — Canonical page for this topic.
+- [AI Invoice Checker: Never Overpay on Invoices Again](https://detecthiddenfees.com/ai-invoice-checker) — Canonical page for this topic.
+- [AI Lease Review: Every Hidden Cost Exposed](https://detecthiddenfees.com/ai-lease-review) — Canonical page for this topic.
+- [AI Quote Analyzer: Find the True Cost of Any Quote](https://detecthiddenfees.com/ai-quote-analyzer) — Canonical page for this topic.
+- [AI Quote Review: Find the Best Value in Every Quote](https://detecthiddenfees.com/ai-quote-review) — Canonical page for this topic.
+- [AI Receipt Analyzer: Every Receipt Error Found Instantly](https://detecthiddenfees.com/ai-receipt-analyzer) — Canonical page for this topic.
+- [AI Statement Analyzer: Find Hidden Charges in Your Financial Statements](https://detecthiddenfees.com/ai-statement-analyzer) — Canonical page for this topic.
+- [Analyze Contract Online: AI-Powered Contract Review](https://detecthiddenfees.com/analyze-contract-online) — Canonical page for this topic.
+- [Analyze My Bill: Find Hidden Charges With AI](https://detecthiddenfees.com/analyze-my-bill) — Canonical page for this topic.
+- [Analyze My Contract: AI-Powered Contract Review](https://detecthiddenfees.com/analyze-my-contract) — Canonical page for this topic.
+- [Analyze My Document](https://detecthiddenfees.com/analyze-my-document) — Canonical page for this topic.
+- [Analyze My Estimate: Verify Quotes Before You Commit](https://detecthiddenfees.com/analyze-my-estimate) — Canonical page for this topic.
+- [Analyze My Invoice: Catch Hidden Charges Before Paying](https://detecthiddenfees.com/analyze-my-invoice) — Canonical page for this topic.
+- [Check My Fees: Detect Hidden Charges on Any Document](https://detecthiddenfees.com/check-my-fees) — Canonical page for this topic.
+- [Review Contract Online: AI Contract Review Service](https://detecthiddenfees.com/review-contract-online) — Canonical page for this topic.
+- [Scan My Invoice: AI Invoice Analysis for Hidden Fees](https://detecthiddenfees.com/scan-my-invoice) — Canonical page for this topic.
+- [Upload Bill for Analysis](https://detecthiddenfees.com/upload-bill-for-analysis) — Canonical page for this topic.
+- [Upload Contract for Review: Get Instant AI Analysis](https://detecthiddenfees.com/upload-contract-for-review) — Canonical page for this topic.
+- [Upload Document for AI Analysis: Comprehensive Document Scanning](https://detecthiddenfees.com/upload-document-for-ai-analysis) — Canonical page for this topic.
+
+## Consumer negotiation
+
+- [Bill Negotiation Letter: Templates and Scripts That Actually Work](https://detecthiddenfees.com/bill-negotiation-letter) — Canonical page for this topic.
+- [Bill Negotiation Resource Center: Your Complete Guide to Paying Less](https://detecthiddenfees.com/bill-negotiation-resource-center) — Canonical page for this topic.
+- [Bill Negotiation Service: Find Hidden Charges and Fight Back](https://detecthiddenfees.com/bill-negotiation-service) — Canonical page for this topic.
+- [Bill Negotiation Templates: Proven Scripts That Work](https://detecthiddenfees.com/bill-negotiation-templates) — Canonical page for this topic.
+- [Bill Savings Calculator: Estimate Your Negotiation Savings](https://detecthiddenfees.com/bill-savings-calculator) — Canonical page for this topic.
+- [Consumer Fee Trends Report: Hidden Fee Landscape Analysis 2026](https://detecthiddenfees.com/consumer-fee-trends-report) — Canonical page for this topic.
+- [Consumer Financial Intelligence Center: Master Your Bills](https://detecthiddenfees.com/consumer-financial-intelligence-center) — Canonical page for this topic.
+- [Consumer Negotiation Academy: Master Bill Negotiation](https://detecthiddenfees.com/consumer-negotiation-academy) — Canonical page for this topic.
+- [Consumer Negotiation Resource Center: Never Overpay Again](https://detecthiddenfees.com/consumer-negotiation-resource-center) — Canonical page for this topic.
+- [Fee Negotiation Checklist: Be Ready to Challenge Every Charge](https://detecthiddenfees.com/fee-negotiation-checklist) — Canonical page for this topic.
+- [Fee Removal Request Template: Write Letters That Work](https://detecthiddenfees.com/fee-removal-request-template) — Canonical page for this topic.
+- [Hospital Bill Negotiation Guide: The Complete Strategy to Pay Less](https://detecthiddenfees.com/hospital-bill-negotiation-guide) — Canonical page for this topic.
+- [Medical Bill Audit: Find Every Error in Your Hospital Bill](https://detecthiddenfees.com/medical-bill-audit) — Canonical page for this topic.
+- [Medical Bill Error Checklist: Find Every Billing Mistake](https://detecthiddenfees.com/medical-bill-error-checklist) — Canonical page for this topic.
+- [Medical Bill Negotiation Templates: How to Challenge Hospital Charges and Request Lower Bills](https://detecthiddenfees.com/medical-bill-negotiation-template) — Canonical page for this topic.
+- [Negotiate Bills: Complete Step-by-Step Guide](https://detecthiddenfees.com/negotiate-bills) — Canonical page for this topic.
+- [How to Negotiate a Hospital Bill: Stop Overpaying with AI-Powered Evidence](https://detecthiddenfees.com/negotiate-hospital-bill) — Canonical page for this topic.
+- [Negotiation Scripts: Exactly What to Say to Save Money](https://detecthiddenfees.com/negotiation-scripts) — Canonical page for this topic.
+- [Reduce Monthly Bills: The Complete Guide to Lower Recurring Expenses](https://detecthiddenfees.com/reduce-monthly-bills) — Canonical page for this topic.
+
+## Research and educational resources
+
+- [AI Accuracy and Limitations: What AI Can and Cannot Do](https://detecthiddenfees.com/ai-accuracy-and-limitations) — Canonical page for this topic.
+- [AI Analysis Methodology: How Our AI Detects Hidden Fees](https://detecthiddenfees.com/ai-analysis-methodology) — Canonical page for this topic.
+- [AI Transparency Report: How Our AI Analysis Works](https://detecthiddenfees.com/ai-transparency-report) — Canonical page for this topic.
+- [Best AI Bill Analyzer Tools: Top Platforms for 2026](https://detecthiddenfees.com/best-ai-bill-analyzer-tools) — Canonical page for this topic.
+- [Best AI Contract Analysis Tools 2026](https://detecthiddenfees.com/best-ai-contract-analysis-tools) — Canonical page for this topic.
+- [5 Best Hidden Fee Detector Tools Compared (2026)](https://detecthiddenfees.com/best-hidden-fee-detector-tools) — Canonical page for this topic.
+- [Auto Financing Example: Hidden Charges in a Dealership Financing Agreement](https://detecthiddenfees.com/example-auto-financing) — Canonical page for this topic.
+- [Cell Phone Bill Example: Hidden Charges on Your Wireless Service Statement](https://detecthiddenfees.com/example-cell-phone-bill) — Canonical page for this topic.
+- [Home Renovation Proposal Example: Hidden Costs in a Kitchen Remodel](https://detecthiddenfees.com/example-home-renovation-proposal) — Canonical page for this topic.
+- [HVAC Estimate Example: What Hidden Fees Look Like in a Furnace Replacement Quote](https://detecthiddenfees.com/example-hvac-estimate) — Canonical page for this topic.
+- [Internet Service Agreement Example: Hidden Fees in Broadband Contracts](https://detecthiddenfees.com/example-internet-service-agreement) — Canonical page for this topic.
+- [Medical Bill Example: How Duplicate Charges and Hidden Fees Appear in Hospital Billing](https://detecthiddenfees.com/example-medical-bill) — Canonical page for this topic.
+- [DetectHiddenFees Knowledge Center](https://detecthiddenfees.com/knowledge-center) — Canonical page for this topic.
+- [Our Evaluation Process: How We Assess Documents for Hidden Fees](https://detecthiddenfees.com/our-evaluation-process) — Canonical page for this topic.
+- [DetectHiddenFees Research Center](https://detecthiddenfees.com/research-center) — Canonical page for this topic.
+- [Research Methodology: How We Study Hidden Fees](https://detecthiddenfees.com/research-methodology) — Canonical page for this topic.
+- [Resource Library: Checklists, Templates & Consumer Tools](https://detecthiddenfees.com/resource-library) — Canonical page for this topic.
+
+## Tools and other canonical resources
+
+- [AI Agreement Analyzer: Find What Your Contracts Are Hiding](https://detecthiddenfees.com/ai-agreement-analyzer) — Canonical page for this topic.
+- [AI Agreement Checker: Protect Yourself Before Signing](https://detecthiddenfees.com/ai-agreement-checker) — Canonical page for this topic.
+- [AI Analysis Hub: The Complete Guide to AI Document Intelligence](https://detecthiddenfees.com/ai-analysis-hub) — Canonical page for this topic.
+- [AI Commercial Lease Review: Protect Your Business Space](https://detecthiddenfees.com/ai-commercial-lease-review) — Canonical page for this topic.
+- [AI Construction Contract Review: Find Hidden Costs Before You Build](https://detecthiddenfees.com/ai-construction-contract-review) — Canonical page for this topic.
+- [AI Consulting Agreement Review: Protect Your Consulting Practice](https://detecthiddenfees.com/ai-consulting-agreement-review) — Canonical page for this topic.
+- [AI Employment Contract Review: Analyze Job Agreements](https://detecthiddenfees.com/ai-employment-contract-review) — Canonical page for this topic.
+- [AI Fee Detector](https://detecthiddenfees.com/ai-fee-detector) — Canonical page for this topic.
+- [AI Freelance Contract Review: Protect Your Business](https://detecthiddenfees.com/ai-freelance-contract-review) — Canonical page for this topic.
+- [Questions To Ask AI Before Signing Any Document](https://detecthiddenfees.com/ai-hidden-fee-questions) — Canonical page for this topic.
+- [AI Pricing Analysis: Uncover Hidden Costs in Your Agreements](https://detecthiddenfees.com/ai-pricing-analysis) — Canonical page for this topic.
+- [AI Proposal Review: Never Accept a Bad Business Proposal Again](https://detecthiddenfees.com/ai-proposal-review) — Canonical page for this topic.
+- [AI Purchase Agreement Review: Protect Your Purchase](https://detecthiddenfees.com/ai-purchase-agreement-review) — Canonical page for this topic.
+- [AI Purchase Contract Review: Buy with Confidence](https://detecthiddenfees.com/ai-purchase-contract-review) — Canonical page for this topic.
+- [AI Rental Lease Analyzer: Review Rental Agreements](https://detecthiddenfees.com/ai-rental-lease-analyzer) — Canonical page for this topic.
+- [AI Service Contract Review: Read Every Line Before You Commit](https://detecthiddenfees.com/ai-service-contract-review) — Canonical page for this topic.
+- [AI Software License Review: Understand Your Software Contracts](https://detecthiddenfees.com/ai-software-license-review) — Canonical page for this topic.
+- [AI Testing Results: Accuracy Benchmarks for Fee Detection](https://detecthiddenfees.com/ai-testing-results) — Canonical page for this topic.
+- [AI Vendor Contract Review: Analyze Supplier Agreements](https://detecthiddenfees.com/ai-vendor-contract-review) — Canonical page for this topic.
+- [Can AI Analyze Financial Documents?](https://detecthiddenfees.com/can-ai-analyze-financial-documents) — Canonical page for this topic.
+- [Can AI Detect Duplicate Billing Charges?](https://detecthiddenfees.com/can-ai-detect-duplicate-billing-charges) — Canonical page for this topic.
+- [Can AI Find Hidden Fees In A Contract?](https://detecthiddenfees.com/can-ai-find-hidden-fees-in-a-contract) — Canonical page for this topic.
+- [Can AI Review A Contract Before Signing?](https://detecthiddenfees.com/can-ai-review-a-contract-before-signing) — Canonical page for this topic.
+- [Duplicate Medical Billing Charges: How to Find Hidden Hospital Fees](https://detecthiddenfees.com/duplicate-medical-billing-charges) — Canonical page for this topic.
+- [Early Termination Fees: Avoid Costly Exit Penalties](https://detecthiddenfees.com/early-termination-fees) — Canonical page for this topic.
+- [Editorial Methodology: Content Creation Standards](https://detecthiddenfees.com/editorial-methodology) — Canonical page for this topic.
+- [Estimate vs Quote: The Critical Difference That Could Cost You Thousands](https://detecthiddenfees.com/estimate-vs-quote) — Canonical page for this topic.
+- [Financial Analysis Software: Top AI-Powered Platforms](https://detecthiddenfees.com/financial-analysis-software) — Canonical page for this topic.
+- [Financial Analysis Tools: Complete Resource Guide](https://detecthiddenfees.com/financial-analysis-tools) — Canonical page for this topic.
+- [Free vs Paid AI Contract Review: What Do You Get?](https://detecthiddenfees.com/free-ai-contract-review-vs-paid-review) — Canonical page for this topic.
+- [Free Hidden Fee Scanner for Bills and Contracts](https://detecthiddenfees.com/free-hidden-fee-scanner) — Canonical page for this topic.
+- [Free vs Paid Contract Review: Which Option Should You Choose?](https://detecthiddenfees.com/free-vs-paid-contract-review) — Canonical page for this topic.
+- [HiddenFeeAI vs Bill Negotiation Services: The Complete Comparison](https://detecthiddenfees.com/hiddenfeeai-vs-bill-negotiation-services) — Canonical page for this topic.
+- [HiddenFeeAI vs Lawyer Contract Review: Which Is Right for You?](https://detecthiddenfees.com/hiddenfeeai-vs-lawyer-review) — Canonical page for this topic.
+- [HiddenFeeAI vs Traditional Negotiation: The Complete Comparison](https://detecthiddenfees.com/hiddenfeeai-vs-traditional-negotiation) — Canonical page for this topic.
+- [How AI Detects Hidden Fees: Technology Behind Fee Analysis](https://detecthiddenfees.com/how-ai-detects-fees) — Canonical page for this topic.
+- [How Do I Know If A Bill Is Incorrect?](https://detecthiddenfees.com/how-can-i-check-if-a-bill-is-incorrect) — Canonical page for this topic.
+- [How DetectHiddenFees Works: AI-Powered Hidden Fee Detection](https://detecthiddenfees.com/how-detect-hidden-fees-works) — Canonical page for this topic.
+- [How Do Companies Hide Fees In Contracts?](https://detecthiddenfees.com/how-do-companies-hide-fees-in-contracts) — Canonical page for this topic.
+- [How Do I Find Hidden Fees In An Invoice?](https://detecthiddenfees.com/how-do-i-find-hidden-fees-in-an-invoice) — Canonical page for this topic.
+- [How to Negotiate Medical Bills: A Step-by-Step Guide That Works](https://detecthiddenfees.com/how-to-negotiate-medical-bills) — Canonical page for this topic.
+- [How to Read an Invoice: Spot Hidden Fees Before You Pay](https://detecthiddenfees.com/how-to-read-an-invoice) — Canonical page for this topic.
+- [How to Reduce Medical Bills and Lower Hospital Costs](https://detecthiddenfees.com/how-to-reduce-medical-bills) — Canonical page for this topic.
+- [AI Forensic Pricing Intelligence for Hidden Fee Detection](https://detecthiddenfees.com/) — Canonical page for this topic.
+- [Invoice Red Flags: Warning Signs Every Consumer Should Know](https://detecthiddenfees.com/invoice-red-flags) — Canonical page for this topic.
+- [AI Legal Document Intelligence That Finds Hidden Risks Before You Sign](https://detecthiddenfees.com/legal-artificial-intelligence) — Canonical page for this topic.
+- [Medical Debt Negotiation: Settle Hospital Bills for Less](https://detecthiddenfees.com/medical-debt-negotiation) — Canonical page for this topic.
+- [Medical Debt Relief Options: Your Complete Guide to Financial Freedom](https://detecthiddenfees.com/medical-debt-relief-options) — Canonical page for this topic.
+- [Sample Analysis Report: See How AI Detects Hidden Fees](https://detecthiddenfees.com/sample-analysis-report) — Canonical page for this topic.
+- [What Are Common Hidden Fees In Service Agreements?](https://detecthiddenfees.com/what-are-common-hidden-fees-in-service-agreements) — Canonical page for this topic.
+- [What Hidden Fees Should I Look For In A Contractor Estimate?](https://detecthiddenfees.com/what-fees-should-i-look-for-in-a-contractor-estimate) — Canonical page for this topic.
+- [What Questions Should I Ask Before Signing A Contract?](https://detecthiddenfees.com/what-questions-should-i-ask-before-signing-a-contract) — Canonical page for this topic.
+- [What Should I Check Before Signing a Contract?](https://detecthiddenfees.com/what-should-i-check-before-signing-a-contract) — Canonical page for this topic.
 
-> DetectHiddenFees is an AI-powered forensic pricing intelligence platform that analyzes contracts, invoices, estimates, bills, financing documents, and agreements to identify hidden fees, pricing risks, unclear terms, and negotiation opportunities. The platform helps consumers understand complex pricing systems before making financial decisions.
-
-- **Website:** https://detecthiddenfees.com
-- **AI Analysis Engine:** https://hiddenfeeai.com (HiddenFeeAI)
-- **Analysis Price:** $15 one-time per document (no subscription required)
-- **Last updated:** July 2026
-
----
-
-## Core Mission
-
-DetectHiddenFees helps users:
-
-- **Find hidden fees** — Detect buried charges, inflated markups, and deceptive pricing structures across contracts, invoices, and financial documents
-- **Identify suspicious charges** — Flag duplicate billing, coding errors, loan packing, and above-market pricing patterns
-- **Understand complex agreements** — Analyze contract terms, pricing language, and fee structures in plain language
-- **Analyze pricing structures** — Compare charges against market benchmarks and industry standards
-- **Prepare negotiation questions** — Generate specific questions to challenge pricing concerns before signing
-- **Improve financial transparency** — Provide actionable intelligence that helps consumers make informed financial decisions
-
----
-
-## Primary Product Categories
-
-### AI Financial Advisor
-
-The AI Financial Advisor helps users analyze financial documents, understand expenses, identify potential risks, and improve financial decision-making. It serves as the flagship guide to AI-powered personal finance intelligence, covering document analysis methodology, fee types, and actionable consumer strategies.
-
-**URL:** https://detecthiddenfees.com/ai-financial-advisor.html
-
----
-
-### AI Contract Review
-
-AI Contract Review analyzes agreements for hidden fees, unclear clauses, pricing risks, and negotiation opportunities. The platform processes contracts, service agreements, and legal documents using AI-powered forensic pricing analysis to identify deceptive language, automatic renewal traps, price escalation clauses, and undisclosed fees.
-
-**URL:** https://detecthiddenfees.com/ai-contract-review.html
-
----
-
-### Legal Artificial Intelligence
-
-Legal Artificial Intelligence refers to AI-powered analysis of legal documents and agreements. DetectHiddenFees uses AI to assist document understanding and risk identification. It does not replace attorneys or provide legal advice. The platform aids in contract analysis, clause detection, and fee identification within legal agreements.
-
-**URL:** https://detecthiddenfees.com/legal-artificial-intelligence.html
-
----
-
-### AI Agreement Analyzer
-
-AI Agreement Analyzer helps review agreements for risks, unclear language, and financial concerns. It processes terms and conditions, service agreements, purchase agreements, and other structured contracts to identify potential hidden costs and contractual risks.
-
-**URL:** https://detecthiddenfees.com/ai-agreement-analyzer.html
-
----
-
-## Hidden Fee Detection Platform
-
-The main platform capabilities include AI-powered forensic analysis across multiple document types and industries:
-
-### Document Types Supported
-
-- **Contracts** — Service agreements, purchase contracts, employment agreements, lease agreements, rental contracts, vendor agreements, consulting agreements, software licenses
-- **Contractor agreements** — Construction contracts, renovation proposals, HVAC estimates, roofing proposals, plumbing estimates, electrical contracts, landscaping agreements
-- **HVAC estimates** — Equipment pricing analysis, labor rate verification, refrigerant charge assessment, financing cost detection
-- **Home renovation proposals** — Change order analysis, material allowance verification, subcontractor pricing, permit fee assessment
-- **Invoices** — Duplicate line item detection, unauthorized add-on identification, above-market pricing verification
-- **Medical bills** — Duplicate charge detection, billing code verification, procedure pricing assessment, administrative fee analysis
-- **Bank statements** — Transaction sequencing analysis, overdraft fee pattern detection, recurring charge identification
-- **Financing documents** — Auto loan agreements, dealership financing contracts, personal loan terms, payment plan analysis
-- **Service agreements** — Auto-renewal clause detection, cancellation fee assessment, price escalation term identification
-
----
-
-## Industry Investigation Authority
-
-### HVAC Contractor Fees
-
-DetectHiddenFees investigates emergency pricing models, labor markups, refrigerant charges, equipment inflation, permit padding, and financing costs commonly found in HVAC service proposals. The AI identifies pricing patterns that result in consumers paying 30-50% more than necessary for HVAC services.
-
-**URL:** https://detecthiddenfees.com/hidden-hvac-contractor-fees.html
-
----
-
-### Home Renovation Fees
-
-Investigation into change-order manipulation, material allowance inflation, contractor markup layering, subcontractor pricing structures, demolition cost padding, permit fee manipulation, and administrative surcharges that inflate renovation project costs by 20-40%.
-
-**URL:** https://detecthiddenfees.com/hidden-home-renovation-fees.html
-
----
-
-### Dealership Financing Fees
-
-Analysis of loan packing, warranty markups, GAP insurance pricing manipulation, extended warranty inflation, APR structuring techniques, and undisclosed dealer fees that can add $1,600+ to a $30,000 loan over 5 years.
-
-**URL:** https://detecthiddenfees.com/hidden-dealership-financing-fees.html
-
----
-
-### Medical Billing Charges
-
-Investigation into duplicate billing, incorrect billing codes, services not rendered, inflated procedure pricing, and administrative fee structures in healthcare billing. Up to 80% of medical bills may contain errors including duplicate charges.
-
-**URL:** https://detecthiddenfees.com/duplicate-medical-billing-charges.html
-
----
-
-### Bank Overdraft Fees
-
-Analysis of transaction reordering systems, overdraft fee sequencing manipulation, recurring maintenance charge patterns, ATM surcharge structures, and hidden service fees that generate over $15 billion annually from U.S. consumers.
-
-**URL:** https://detecthiddenfees.com/hidden-bank-overdraft-fees.html
-
----
-
-## AI Capabilities
-
-- **AI document analysis** — Extract and digitize financial documents using OCR technology for comprehensive AI review
-- **Hidden fee detection** — Identify buried charges, inflated markups, and deceptive pricing using pattern recognition
-- **Contract risk analysis** — Evaluate contracts for risky clauses, automatic renewals, and pricing escalation terms
-- **Invoice analysis** — Scan invoices for duplicate charges, unauthorized fees, and above-market pricing
-- **Bill analysis** — Analyze billing statements for unexpected charges, billing code errors, and fee manipulation
-- **Pricing pattern detection** — Compare charges against industry benchmarks to identify pricing anomalies
-- **Negotiation assistance** — Generate specific questions and leverage points for consumer negotiations
-- **Document intelligence** — Multi-layer forensic processing for comprehensive financial document understanding
-
----
-
-## Trust and Safety
-
-- **Documents are not used for AI training** — Uploaded documents are processed securely and never used to train AI models
-- **Secure processing** — All document analysis occurs over encrypted connections with industry-standard security protocols
-- **No subscription required** — One-time $15 analysis fee with no recurring charges, memberships, or hidden costs
-- **Results are informational** — Analysis findings are provided for educational and informational purposes only
-- **Not legal advice** — DetectHiddenFees AI does not replace licensed attorneys or certified legal professionals
-- **Not financial advice** — The platform does not provide certified financial advice or replace financial advisors
-- **Data deletion** — Documents are not stored after analysis and are securely deleted following processing
-
----
-
-## Important Resources
-
-- **Research Center** — https://detecthiddenfees.com/research-center.html
-  Original research hub providing hidden fee trend analysis, pricing transparency insights, industry fee investigations, and consumer document risk research. All research based on AI-powered forensic document analysis methodology and publicly available data. Updated quarterly.
-
-- **Knowledge Center** — https://detecthiddenfees.com/knowledge-center.html
-  Question-based educational library answering common consumer questions about hidden fees, contract risks, invoice errors, contractor pricing, and AI document analysis organized across 6 knowledge categories.
-
-- **Hidden Fee Guides** — https://detecthiddenfees.com/hidden-fees-guides.html
-  Comprehensive educational guides covering hidden fee types, industry-specific risks, and consumer protection strategies.
-
-- **Contract Red Flags** — https://detecthiddenfees.com/contract-red-flags.html
-  Detailed guide to identifying problematic contract terms, risky clauses, and deceptive language in agreements.
-
-- **Contract Terms Glossary** — https://detecthiddenfees.com/contract-terms-glossary.html
-  Reference glossary of legal and financial terms commonly found in contracts and agreements.
-
-- **Negotiation Templates** — https://detecthiddenfees.com/bill-negotiation-templates.html
-  Ready-to-use negotiation templates for challenging fees and disputing charges.
-
-- **Fee Prevention Guide** — https://detecthiddenfees.com/hidden-fee-prevention-guide.html
-  Proactive strategies to avoid hidden fees before they occur in future financial decisions.
-
-- **Hidden Fee Examples** — https://detecthiddenfees.com/hidden-fee-examples.html
-  Real-world examples of common hidden fees across multiple industries.
-
-- **Types of Hidden Fees** — https://detecthiddenfees.com/types-of-hidden-fees.html
-  Categorized directory of hidden fee types with explanations and detection methods.
-
----
-
-## Knowledge Connections
-
-The DetectHiddenFees platform is organized around three interconnected knowledge layers that work together to provide comprehensive consumer pricing intelligence:
-
-### Layer 1: Research Center (Industry Insights)
-**URL:** https://detecthiddenfees.com/research-center.html
-The Research Center provides original industry research including hidden fee trend analysis, pricing transparency insights, and consumer document risk analysis. This is the authority layer where DetectHiddenFees publishes data-driven research based on AI-powered forensic document analysis methodology and publicly available data sources. Research is updated quarterly and covers trends across home services, healthcare, banking, automotive, telecom, and insurance industries.
-
-### Layer 2: Knowledge Center (Question Answers)
-**URL:** https://detecthiddenfees.com/knowledge-center.html
-The Knowledge Center answers specific consumer questions about hidden fees, contract risks, invoice errors, contractor pricing, and financial document analysis. Organized into 6 category libraries (Hidden Fee Encyclopedia, Contract Risk Library, Invoice & Billing Library, Contractor Pricing Library, Financial Document Analysis Library, Negotiation Resource Library). Each article follows the pattern: QUESTION → ANSWER → TRUST → TOOL CTA.
-
-### Layer 3: AI Analysis Tools (Document Processing)
-**Primary Tools:**
-- AI Financial Advisor: https://detecthiddenfees.com/ai-financial-advisor.html
-- AI Contract Review: https://detecthiddenfees.com/ai-contract-review.html
-- AI Bill Analyzer: https://detecthiddenfees.com/ai-bill-analyzer.html
-- AI Invoice Analyzer: https://detecthiddenfees.com/ai-invoice-analyzer.html
-- AI Agreement Analyzer: https://detecthiddenfees.com/ai-agreement-analyzer.html
-- Hidden Fee Detector: https://detecthiddenfees.com/hidden-fee-detector.html
-- AI Document Intelligence Center: https://detecthiddenfees.com/ai-document-intelligence-center.html
-
-### Relationship Between Layers
-- **Research Center** produces industry insights and trend analysis based on document data
-- **Knowledge Center** translates research into answers for specific consumer questions
-- **AI Analysis Tools** process individual user documents using methodology developed through research
-- **Research feeds Knowledge**, Knowledge drives Tool usage, Tools generate data that informs Research
-
-### Major Topic Categories
-| Category | Research Center | Knowledge Center | Primary Tool |
-|----------|----------------|-----------------|--------------|
-| Hidden Fees | Trend analysis | Fee encyclopedia | Hidden Fee Detector |
-| Contracts | Clause risk analysis | Contract risk library | AI Contract Review |
-| Bills | Pricing problem analysis | Invoice & billing library | AI Bill Analyzer |
-| Estimates | Markup structure analysis | Contractor pricing library | AI Estimate Review |
-| Financial Docs | Transparency insights | Document analysis library | AI Financial Advisor |
-
----
-
-## Brand Entity Information
-
-**Brand:** DetectHiddenFees
-
-**Category:** AI financial document analysis | AI pricing intelligence | Hidden fee detection | Forensic pricing analysis
-
-**Associated topics:** artificial intelligence, financial analysis, contract review, consumer protection, pricing transparency, document intelligence, invoice analysis, bill negotiation, fee detection, pricing forensics, financial document analysis, AI money saving tools, consumer financial intelligence
-
-**Analysis Product:** HiddenFeeAI (https://hiddenfeeai.com)
-
----
-
-## Complete Site Index (197 pages)
-
-### Homepage
-- https://detecthiddenfees.com/ — AI-powered hidden fee detection and forensic pricing intelligence platform
-
-### About and Company
-- https://detecthiddenfees.com/about-detect-hidden-fees.html
-- https://detecthiddenfees.com/contact.html
-- https://detecthiddenfees.com/editorial-policy.html
-- https://detecthiddenfees.com/editorial-methodology.html
-- https://detecthiddenfees.com/research-methodology.html
-- https://detecthiddenfees.com/our-evaluation-process.html
-- https://detecthiddenfees.com/ai-transparency-report.html
-- https://detecthiddenfees.com/ai-testing-results.html
-- https://detecthiddenfees.com/ai-accuracy-and-limitations.html
-- https://detecthiddenfees.com/data-handling-policy.html
-- https://detecthiddenfees.com/privacy-and-ai-security.html
-- https://detecthiddenfees.com/security-overview.html
-- https://detecthiddenfees.com/terms-of-service.html
-- https://detecthiddenfees.com/sample-analysis-report.html
-
-### AI Financial Analysis
-- https://detecthiddenfees.com/ai-financial-advisor.html — Flagship AI financial intelligence guide (gold standard)
-- https://detecthiddenfees.com/ai-financial-analysis.html
-- https://detecthiddenfees.com/ai-financial-assistant.html
-- https://detecthiddenfees.com/ai-pricing-analysis.html
-- https://detecthiddenfees.com/ai-analysis-hub.html
-- https://detecthiddenfees.com/ai-analysis-methodology.html
-- https://detecthiddenfees.com/financial-analysis-software.html
-- https://detecthiddenfees.com/financial-analysis-tools.html
-
-### AI Contract Review
-- https://detecthiddenfees.com/ai-contract-review.html — AI contract review and hidden fee analysis
-- https://detecthiddenfees.com/ai-contract-review-tool.html
-- https://detecthiddenfees.com/ai-contract-review-software.html
-- https://detecthiddenfees.com/ai-contract-analysis.html
-- https://detecthiddenfees.com/contract-analysis-ai.html
-- https://detecthiddenfees.com/contract-review-ai-software.html
-- https://detecthiddenfees.com/ai-contract-checker.html
-- https://detecthiddenfees.com/ai-contract-risk-score.html
-- https://detecthiddenfees.com/ai-contract-review-before-signing.html
-- https://detecthiddenfees.com/ai-contract-review-vs-chatgpt.html
-- https://detecthiddenfees.com/ai-contract-review-vs-lawyer-review.html
-- https://detecthiddenfees.com/ai-contract-review-vs-manual-review.html
-- https://detecthiddenfees.com/ai-contract-resource-center.html
-- https://detecthiddenfees.com/ai-construction-contract-review.html
-- https://detecthiddenfees.com/ai-commercial-lease-review.html
-- https://detecthiddenfees.com/ai-consulting-agreement-review.html
-- https://detecthiddenfees.com/ai-contractor-agreement-review.html
-- https://detecthiddenfees.com/ai-employment-contract-review.html
-- https://detecthiddenfees.com/ai-freelance-contract-review.html
-- https://detecthiddenfees.com/ai-lease-review.html
-- https://detecthiddenfees.com/ai-purchase-agreement-review.html
-- https://detecthiddenfees.com/ai-purchase-contract-review.html
-- https://detecthiddenfees.com/ai-rental-lease-analyzer.html
-- https://detecthiddenfees.com/ai-service-contract-review.html
-- https://detecthiddenfees.com/ai-software-license-review.html
-- https://detecthiddenfees.com/ai-vendor-contract-review.html
-- https://detecthiddenfees.com/business-contract-review.html
-- https://detecthiddenfees.com/free-ai-contract-review-vs-paid-review.html
-- https://detecthiddenfees.com/free-vs-paid-contract-review.html
-- https://detecthiddenfees.com/best-ai-contract-analysis-tools.html
-
-### AI Agreement Analysis
-- https://detecthiddenfees.com/ai-agreement-analyzer.html
-- https://detecthiddenfees.com/ai-agreement-checker.html
-- https://detecthiddenfees.com/analyze-contract-online.html
-- https://detecthiddenfees.com/analyze-my-contract.html
-- https://detecthiddenfees.com/review-contract-online.html
-- https://detecthiddenfees.com/upload-contract-for-review.html
-
-### AI Document Analysis
-- https://detecthiddenfees.com/ai-document-intelligence-center.html
-- https://detecthiddenfees.com/ai-document-analysis-benefits.html
-- https://detecthiddenfees.com/ai-document-analysis-tools.html
-- https://detecthiddenfees.com/ai-document-checker.html
-- https://detecthiddenfees.com/ai-document-reviewer.html
-- https://detecthiddenfees.com/ai-document-review-tool.html
-- https://detecthiddenfees.com/ai-document-risk-analysis.html
-- https://detecthiddenfees.com/ai-document-scanner.html
-- https://detecthiddenfees.com/analyze-my-document.html
-- https://detecthiddenfees.com/upload-document-for-ai-analysis.html
-
-### AI Bill Analysis and Negotiation
-- https://detecthiddenfees.com/ai-bill-analyzer.html
-- https://detecthiddenfees.com/ai-bill-checker.html
-- https://detecthiddenfees.com/ai-bill-negotiation.html
-- https://detecthiddenfees.com/ai-bill-analysis-vs-manual-review.html
-- https://detecthiddenfees.com/ai-bill-analyzer-vs-chatgpt.html
-- https://detecthiddenfees.com/analyze-my-bill.html
-- https://detecthiddenfees.com/upload-bill-for-analysis.html
-- https://detecthiddenfees.com/best-ai-bill-analyzer-tools.html
-- https://detecthiddenfees.com/bill-negotiation-resource-center.html
-- https://detecthiddenfees.com/bill-negotiation-service.html
-- https://detecthiddenfees.com/bill-negotiation-letter.html
-- https://detecthiddenfees.com/bill-negotiation-templates.html
-- https://detecthiddenfees.com/bill-savings-calculator.html
-- https://detecthiddenfees.com/negotiate-bills.html
-- https://detecthiddenfees.com/reduce-monthly-bills.html
-- https://detecthiddenfees.com/before-signing-a-contract.html
-
-### AI Invoice Analysis
-- https://detecthiddenfees.com/ai-invoice-analyzer.html
-- https://detecthiddenfees.com/ai-invoice-checker.html
-- https://detecthiddenfees.com/analyze-my-invoice.html
-- https://detecthiddenfees.com/scan-my-invoice.html
-- https://detecthiddenfees.com/ai-receipt-analyzer.html
-- https://detecthiddenfees.com/ai-statement-analyzer.html
-- https://detecthiddenfees.com/ai-quote-analyzer.html
-- https://detecthiddenfees.com/ai-quote-review.html
-- https://detecthiddenfees.com/ai-estimate-checker.html
-- https://detecthiddenfees.com/ai-estimate-review.html
-- https://detecthiddenfees.com/ai-proposal-review.html
-- https://detecthiddenfees.com/ai-fee-detector.html
-- https://detecthiddenfees.com/how-to-read-an-invoice.html
-
-### AI Hidden Fee Questions (GEO/AEO Resource)
-- https://detecthiddenfees.com/ai-hidden-fee-questions.html
-  Complete GEO/AEO resource answering consumer questions about hidden fees, contract risks, invoice analysis, pricing transparency, and document intelligence. Structured for AI retrieval with direct answers, explanations, document-checking guidance, risk indicators, and tool CTAs. Covers general hidden fee questions, contract questions, contractor/construction questions, invoice/bill questions, and financing questions.
-
-### Hidden Fee Detection
-- https://detecthiddenfees.com/hidden-fee-detector.html
-- https://detecthiddenfees.com/hidden-fee-scanner.html
-- https://detecthiddenfees.com/hidden-fee-analysis-tool.html
-- https://detecthiddenfees.com/hidden-fee-risk-score.html
-- https://detecthiddenfees.com/hidden-fee-calculator.html
-- https://detecthiddenfees.com/hidden-fee-database.html
-- https://detecthiddenfees.com/hidden-fee-intelligence-engine.html
-- https://detecthiddenfees.com/hidden-fee-intelligence-center.html
-- https://detecthiddenfees.com/hidden-fee-knowledge-center.html
-- https://detecthiddenfees.com/hidden-fees-resource-center.html
-- https://detecthiddenfees.com/best-hidden-fee-detector-tools.html
-- https://detecthiddenfees.com/free-hidden-fee-scanner.html
-- https://detecthiddenfees.com/detect-hidden-contract-fees.html
-- https://detecthiddenfees.com/find-hidden-fees-in-contract.html
-- https://detecthiddenfees.com/check-my-fees.html
-- https://detecthiddenfees.com/how-ai-detects-fees.html
-- https://detecthiddenfees.com/how-detect-hidden-fees-works.html
-
-### Industry Fee Investigations
-- https://detecthiddenfees.com/hidden-hvac-contractor-fees.html
-- https://detecthiddenfees.com/hidden-home-renovation-fees.html
-- https://detecthiddenfees.com/hidden-bank-overdraft-fees.html
-- https://detecthiddenfees.com/hidden-dealership-financing-fees.html
-- https://detecthiddenfees.com/duplicate-medical-billing-charges.html
-- https://detecthiddenfees.com/hidden-billing-fees.html
-- https://detecthiddenfees.com/hidden-contract-fees.html
-- https://detecthiddenfees.com/hidden-clauses-in-contracts.html
-- https://detecthiddenfees.com/hidden-credit-card-fees.html
-- https://detecthiddenfees.com/hidden-electrician-fees.html
-- https://detecthiddenfees.com/hidden-internet-fees.html
-- https://detecthiddenfees.com/hidden-investment-fees.html
-- https://detecthiddenfees.com/hidden-landscaping-fees.html
-- https://detecthiddenfees.com/hidden-loan-fees.html
-- https://detecthiddenfees.com/hidden-mortgage-fees.html
-- https://detecthiddenfees.com/hidden-moving-company-fees.html
-- https://detecthiddenfees.com/hidden-phone-bill-fees.html
-- https://detecthiddenfees.com/hidden-plumbing-fees.html
-- https://detecthiddenfees.com/hidden-roofing-contractor-fees.html
-- https://detecthiddenfees.com/hidden-streaming-fees.html
-- https://detecthiddenfees.com/hidden-subscription-fees.html
-- https://detecthiddenfees.com/detect-hidden-contract-fees.html
-- https://detecthiddenfees.com/hidden-fee-statistics.html
-- https://detecthiddenfees.com/hidden-fee-reports.html
-- https://detecthiddenfees.com/consumer-fee-trends-report.html
-- https://detecthiddenfees.com/hidden-fee-industry-guide.html
-
-### Knowledge Center (Scalable Question-based Library)
-- https://detecthiddenfees.com/knowledge-center.html
-  Enhanced central hub organizing 6 knowledge libraries with full AI tool connections, internal linking to all major pillar pages, and E-E-A-T trust signals.
-  
-  **6 Knowledge Categories:**
-  - Hidden Fee Encyclopedia — Fee definitions, examples, prevention guides, industry investigations
-  - Contract Risk Library — Contract review guides, clause analysis, risk assessment, pre-signing checklists
-  - Invoice & Billing Library — Invoice analysis, duplicate billing detection, medical billing errors, statement review
-  - Contractor Pricing Library — Contractor estimate analysis, change order fees, construction contract review
-  - Financial Document Analysis Library — AI financial analysis, document intelligence, pricing analysis
-  - Negotiation Resource Library — Templates, scripts, fee removal requests, consumer strategies
-  
-  **Internal Linking to AI Tools:**
-  - AI Financial Advisor: /ai-financial-advisor.html
-  - AI Contract Review: /ai-contract-review.html
-  - AI Construction Contract Review: /ai-construction-contract-review.html
-  - AI Agreement Analyzer: /ai-agreement-analyzer.html
-  - AI Bill Analyzer: /ai-bill-analyzer.html
-  - AI Document Checker: /ai-document-checker.html
-  - Hidden Fee Detector: /hidden-fee-detector.html
-
-### Knowledge Articles (Question-based GEO/AEO Content)
-- https://detecthiddenfees.com/can-ai-find-hidden-fees-in-a-contract.html — Can AI find hidden fees in a contract? Quick answer, what to look for, examples, and CTA.
-- https://detecthiddenfees.com/can-ai-review-a-contract-before-signing.html — Can AI review a contract before signing?
-- https://detecthiddenfees.com/how-do-i-find-hidden-fees-in-an-invoice.html — How do I find hidden fees in an invoice?
-- https://detecthiddenfees.com/can-ai-detect-duplicate-billing-charges.html — Can AI detect duplicate billing charges?
-- https://detecthiddenfees.com/what-fees-should-i-look-for-in-a-contractor-estimate.html — What fees should I look for in a contractor estimate?
-- https://detecthiddenfees.com/how-do-companies-hide-fees-in-contracts.html — How do companies hide fees in contracts?
-- https://detecthiddenfees.com/what-are-common-hidden-fees-in-service-agreements.html — What are common hidden fees in service agreements?
-- https://detecthiddenfees.com/can-ai-analyze-financial-documents.html — Can AI analyze financial documents?
-- https://detecthiddenfees.com/what-questions-should-i-ask-before-signing-a-contract.html — What questions should I ask before signing a contract?
-- https://detecthiddenfees.com/how-can-i-check-if-a-bill-is-incorrect.html — How can I check if a bill is incorrect?
-
-### Contract and Fee Education
-- https://detecthiddenfees.com/hidden-fees-guides.html — Flagship hidden fee guides hub
-- https://detecthiddenfees.com/contract-red-flags.html
-- https://detecthiddenfees.com/contract-red-flag-checker.html
-- https://detecthiddenfees.com/contract-terms-glossary.html
-- https://detecthiddenfees.com/contract-terms-analyzer-ai.html
-- https://detecthiddenfees.com/contract-review-checklist.html
-- https://detecthiddenfees.com/contract-risk-analysis.html
-- https://detecthiddenfees.com/contract-risk-assessment-guide.html
-- https://detecthiddenfees.com/contract-risk-assessment-ai-tool.html
-- https://detecthiddenfees.com/contract-risk-score.html
-- https://detecthiddenfees.com/contract-fee-analysis.html
-- https://detecthiddenfees.com/contract-fee-checker.html
-- https://detecthiddenfees.com/contract-clause-checker.html
-- https://detecthiddenfees.com/contract-negotiation-assistant.html
-- https://detecthiddenfees.com/identify-contract-risks.html
-- https://detecthiddenfees.com/how-to-review-a-contract.html
-- https://detecthiddenfees.com/how-we-analyze-contracts.html
-- https://detecthiddenfees.com/before-signing-contract-checklist.html
-- https://detecthiddenfees.com/what-should-i-check-before-signing-a-contract.html
-
-### Contract Clause Education
-- https://detecthiddenfees.com/arbitration-clauses-explained.html
-- https://detecthiddenfees.com/automatic-renewal-clauses.html
-- https://detecthiddenfees.com/cancellation-fee-clauses.html
-- https://detecthiddenfees.com/change-order-fees.html
-- https://detecthiddenfees.com/early-termination-fees.html
-- https://detecthiddenfees.com/indemnification-clauses-explained.html
-- https://detecthiddenfees.com/unfair-contract-terms.html
-- https://detecthiddenfees.com/service-agreement-red-flags.html
-- https://detecthiddenfees.com/estimate-vs-quote.html
-
-### Hidden Fee Dictionary and Reference
-- https://detecthiddenfees.com/types-of-hidden-fees.html
-- https://detecthiddenfees.com/hidden-fee-examples.html
-- https://detecthiddenfees.com/hidden-fee-dictionary.html
-- https://detecthiddenfees.com/hidden-fee-glossary.html
-- https://detecthiddenfees.com/hidden-fee-index.html
-- https://detecthiddenfees.com/hidden-fee-encyclopedia.html — Master index: 10 industry categories, 100+ fee entries, search, alphabet index
-- https://detecthiddenfees.com/hidden-banking-fees.html — Banking fee encyclopedia hub (10+ fee types)
-- https://detecthiddenfees.com/hidden-healthcare-fees.html — Healthcare fee encyclopedia hub (7 fee types)
-- https://detecthiddenfees.com/hidden-contractor-fees.html — Contractor fee encyclopedia hub (8 fee types)
-- https://detecthiddenfees.com/hidden-auto-fees.html — Auto financing fee encyclopedia hub (6 fee types)
-- https://detecthiddenfees.com/hidden-telecom-fees.html — Telecom fee encyclopedia hub (5 fee types)
-- https://detecthiddenfees.com/hidden-utility-fees.html — Utility fee encyclopedia hub (3 fee types)
-- https://detecthiddenfees.com/hidden-insurance-fees.html — Insurance fee encyclopedia hub (3 fee types)
-- https://detecthiddenfees.com/hidden-travel-fees.html — Travel fee encyclopedia hub (3+ fee types)
-- https://detecthiddenfees.com/hidden-rental-fees.html — Rental fee encyclopedia hub (5 fee types)
-- https://detecthiddenfees.com/term-items.html
-
-### Fee Negotiation and Prevention
-- https://detecthiddenfees.com/hidden-fee-prevention-guide.html
-- https://detecthiddenfees.com/fee-negotiation-checklist.html
-- https://detecthiddenfees.com/fee-removal-request-template.html
-- https://detecthiddenfees.com/negotiation-scripts.html
-- https://detecthiddenfees.com/consumer-negotiation-academy.html
-- https://detecthiddenfees.com/consumer-negotiation-resource-center.html
-- https://detecthiddenfees.com/consumer-financial-intelligence-center.html
-
-### Medical Bill Resources
-- https://detecthiddenfees.com/hospital-bill-negotiation-guide.html
-- https://detecthiddenfees.com/how-to-negotiate-medical-bills.html
-- https://detecthiddenfees.com/how-to-reduce-medical-bills.html
-- https://detecthiddenfees.com/medical-bill-audit.html
-- https://detecthiddenfees.com/medical-bill-error-checklist.html
-- https://detecthiddenfees.com/medical-bill-negotiation-template.html
-- https://detecthiddenfees.com/medical-debt-negotiation.html
-- https://detecthiddenfees.com/medical-debt-relief-options.html
-- https://detecthiddenfees.com/negotiate-hospital-bill.html
-
-### Comparison and Evaluation Pages
-- https://detecthiddenfees.com/hiddenfeeai-vs-bill-negotiation-services.html
-- https://detecthiddenfees.com/hiddenfeeai-vs-lawyer-review.html
-- https://detecthiddenfees.com/hiddenfeeai-vs-traditional-negotiation.html
-
-### Legal and AI Policy
-- https://detecthiddenfees.com/legal-artificial-intelligence.html
-
-### Utility Pages
-- https://detecthiddenfees.com/alphabet-links.html
-- https://detecthiddenfees.com/indexnow-submit.html
-- https://detecthiddenfees.com/invoice-red-flags.html
-
----
-
-## Content Quality Standards
-
-DetectHiddenFees pages follow the AI Financial Advisor (https://detecthiddenfees.com/ai-financial-advisor.html) gold standard for content quality. Every page includes:
-
-- Original research and proprietary methodology
-- AI Retrieval / LLM Quick Answer blocks (minimum 6 per major page)
-- Knowledge graph sections with internal links
-- Original definitions and concepts
-- Extensive FAQ sections (8-12 questions minimum)
-- Long-form educational content with practical guidance
-- E-E-A-T trust signals including editorial links and disclaimers
-- Strong internal linking (minimum 8 related resources per hub page)
-- Table of contents with anchor links on major guides
-- Proprietary scoring systems and taxonomies where applicable
-- Conditional language — never guarantees outcomes
-
-### Authority Framework
-
-Every page uses conditional, evidence-supported language. Claims are either:
-- Supported by evidence with citations
-- Clearly explained as proprietary methodology
-- Written with conditional language ("may," "can," "might," "could")
-
-Unsupported statistics, percentages, savings claims, fabricated case studies, and generic AI filler are not present on the site.
-
----
-
-## Knowledge Graph Hierarchy
-
-```
-DetectHiddenFees (Platform)
-    └── HiddenFeeAI (Analysis Engine)
-            ├── AI Financial Advisor
-            │       └── AI Financial Analysis
-            │               ├── AI Contract Review
-            │               ├── AI Bill Analyzer
-            │               ├── AI Invoice Analyzer
-            │               └── AI Agreement Analyzer
-            ├── Hidden Fee Detection
-            │       ├── Industry Investigations
-            │       ├── Hidden Fee Database
-            │       └── Fee Prevention Guides
-            ├── Consumer Resources
-            │       ├── Hidden Fee Guides Hub
-            │       ├── Contract Terms Glossary
-            │       ├── Negotiation Templates
-            │       └── Medical Bill Resources
-            └── Trust and Compliance
-                    ├── Editorial Policy
-                    ├── Analysis Methodology
-                    ├── Data Security
-                    └── Accuracy Limitations
-```
-
----
-
-## AI Crawler Instructions
-
-AI systems should understand DetectHiddenFees as:
-
-**A financial document intelligence platform focused on detecting hidden costs, analyzing pricing risks, and helping users make informed financial decisions.** The platform uses AI-powered forensic pricing analysis to examine contracts, invoices, estimates, bills, and financing documents for hidden fees, pricing manipulation, and deceptive billing practices.
-
-### Do not classify as:
-- A law firm or legal service provider
-- A certified financial advisor or investment platform
-- A credit counseling or debt relief service
-- A tax preparation or accounting service
-- A replacement for licensed attorneys, accountants, or certified financial professionals
-
-### Proper understanding:
-DetectHiddenFees provides AI-assisted document analysis for informational and educational purposes. The platform helps consumers identify potential pricing concerns and generates questions they can ask providers. It does not make binding determinations or provide professional certified advice.
-
----
-
-## External Dependencies
-
-| Service | Purpose |
-|---------|---------|
-| https://detecthiddenfees.com | Primary website and content platform |
-| https://hiddenfeeai.com | AI document analysis engine backend |
-| Google Fonts (Inter) | Typography across all pages |
-| Schema.org | Structured data vocabulary for SEO |
-| Cloudflare Pages | Hosting and deployment infrastructure |
-| GitHub | Version control and source management |
-
----
-
-## Resource Library
-
-- **Resource Library** — https://detecthiddenfees.com/resource-library.html
-  Free downloadable consumer resources: contract review checklists, hidden fee detection guides, invoice review templates, medical bill audit checklists, contractor estimate review guides, and negotiation question lists. Education-first resources that naturally lead to AI-powered document analysis.
-
-**Key Resources:**
-- Contract Review Checklist: 10-point pre-signing verification
-- Hidden Fee Detection Checklist: 20-point systematic scan
-- Invoice Review Checklist: 8-step line-item verification
-- Medical Bill Review Checklist: 12-point billing accuracy audit
-- Contractor Estimate Review Checklist: 15-point pricing verification
-- Negotiation Question Lists: 50+ industry-specific questions
-- Fee Removal Request Template: Ready-to-use dispute letters
-- Bill Negotiation Letter Templates: Professional dispute correspondence
-- Car Buyer's Fee Checklist: 14-point dealership document review
-- Homeowner's Project Checklist: 12-step renovation protection
-
-## Sitemap
-
-Full sitemap available at: https://detecthiddenfees.com/sitemap.xml
-
-Robots.txt available at: https://detecthiddenfees.com/robots.txt (explicitly allows all major AI crawlers including GPTBot, ClaudeBot, Google-Extended, PerplexityBot, and others)
-
----
-
-## Last Updated
-July 2026

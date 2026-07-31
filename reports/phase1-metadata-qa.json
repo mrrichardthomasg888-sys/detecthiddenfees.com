@@ -1,0 +1,1929 @@
+{
+  "generatedAt": "2026-07-31T18:30:51.182144+00:00",
+  "pagesScanned": 225,
+  "pagesChanged": 191,
+  "pagesWithSharedMetadataUpdated": 225,
+  "searchActionsRemoved": 0,
+  "unsupportedFaqSchemasRemoved": 1,
+  "changes": [
+    {
+      "url": "https://detecthiddenfees.com/about-detect-hidden-fees",
+      "file": "about-detect-hidden-fees.html",
+      "oldTitle": "About DetectHiddenFees: Our Mission to Fight Hidden… | DetectHiddenFees",
+      "newTitle": "About DetectHiddenFees: AI-Powered Fee Intelligence | DetectHiddenFees",
+      "oldDescription": "Learn about DetectHiddenFees and our mission to protect consumers from hidden fees, deceptive pricing, and unfair billing practices using AI-powered analysis.",
+      "newDescription": "Learn about DetectHiddenFees and our mission to protect consumers from hidden fees, deceptive pricing, and unfair billing practices using AI-powered analysis.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-agreement-analyzer",
+      "file": "ai-agreement-analyzer.html",
+      "oldTitle": "AI Agreement Analyzer: Scan Contracts, Leases… | DetectHiddenFees",
+      "newTitle": "AI Agreement Analyzer: Find What Your Contracts Are Hiding | DetectHiddenFees",
+      "oldDescription": "Upload any agreement for AI-powered analysis. HiddenFeeAI scans contracts, leases, service agreements, and subscription terms for hidden fees, pricing…",
+      "newDescription": "Upload any agreement for AI-powered analysis. HiddenFeeAI scans contracts, leases, service agreements, and subscription terms for hidden fees, pricing.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-agreement-checker",
+      "file": "ai-agreement-checker.html",
+      "oldTitle": "AI Agreement Checker: Review Service &amp;amp;amp;… | DetectHiddenFees",
+      "newTitle": "AI Agreement Checker: Protect Yourself Before Signing | DetectHiddenFees",
+      "oldDescription": "Use our AI agreement checker to analyze service agreements, purchase contracts, and subscription terms for hidden costs, auto-renewals, and unfair terms.",
+      "newDescription": "Use our AI agreement checker to analyze service agreements, purchase contracts, and subscription terms for hidden costs, auto-renewals, and unfair terms.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-analysis-hub",
+      "file": "ai-analysis-hub.html",
+      "oldTitle": "AI Analysis Hub: AI-Powered Document Intelligence… | DetectHiddenFees",
+      "newTitle": "AI Analysis Hub: The Complete Guide to AI Document Intelligence | DetectHiddenFees",
+      "oldDescription": "The central authority on AI document analysis for hidden fee detection. Learn how AI identifies contract risks, invoice manipulation, billing errors, and…",
+      "newDescription": "The central authority on AI document analysis for hidden fee detection. Learn how AI identifies contract risks, invoice manipulation, billing errors, and related risks.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-analysis-methodology",
+      "file": "ai-analysis-methodology.html",
+      "oldTitle": "AI Analysis Methodology: How Our Artificial… | DetectHiddenFees",
+      "newTitle": "AI Analysis Methodology: How Our AI Detects Hidden Fees | DetectHiddenFees",
+      "oldDescription": "Technical overview of how our AI analyzes documents. Pattern recognition, pricing analysis, risk scoring, and script generation explained in detail.",
+      "newDescription": "Technical overview of how our AI analyzes documents. Pattern recognition, pricing analysis, risk scoring, and script generation explained in detail.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-bill-analysis-vs-manual-review",
+      "file": "ai-bill-analysis-vs-manual-review.html",
+      "oldTitle": "AI Bill Analysis vs Manual Review: Which Is More… | DetectHiddenFees",
+      "newTitle": "AI Bill Analysis vs Manual Review: The Numbers Speak | DetectHiddenFees",
+      "oldDescription": "Compare AI-powered bill analysis with traditional manual review. Speed, accuracy, cost savings, and thoroughness compared with real data.",
+      "newDescription": "Compare AI-powered bill analysis with traditional manual review. Speed, accuracy, cost savings, and thoroughness compared with real data.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-bill-analyzer",
+      "file": "ai-bill-analyzer.html",
+      "oldTitle": "AI Bill Analyzer: Find Overcharges in Medical,… | DetectHiddenFees",
+      "newTitle": "AI Bill Analyzer: Every Overcharge in Your Bills Exposed | DetectHiddenFees",
+      "oldDescription": "AI-powered bill analyzer that scans medical bills, utility bills, phone bills, and service invoices for hidden fees, errors, and overcharges. Save money on…",
+      "newDescription": "AI-powered bill analyzer that scans medical bills, utility bills, phone bills, and service invoices for hidden fees, errors, and overcharges. Save money on.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-bill-analyzer-vs-chatgpt",
+      "file": "ai-bill-analyzer-vs-chatgpt.html",
+      "oldTitle": "AI Bill Analyzer vs ChatGPT: Which Finds More Hidden… | DetectHiddenFees",
+      "newTitle": "AI Bill Analyzer vs ChatGPT: Head-to-Head Comparison for Fee Detection | DetectHiddenFees",
+      "oldDescription": "Head-to-head comparison of AI bill analyzers vs ChatGPT for hidden fee detection.",
+      "newDescription": "Head-to-head comparison of AI bill analyzers vs ChatGPT for hidden fee detection.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-bill-checker",
+      "file": "ai-bill-checker.html",
+      "oldTitle": "AI Bill Checker: Scan Bills for Hidden Charges… | DetectHiddenFees",
+      "newTitle": "AI Bill Checker: Catch Hidden Charges on Every Bill | DetectHiddenFees",
+      "oldDescription": "Upload your bills to our AI bill checker for instant detection of hidden fees, duplicate charges, and billing errors. Save money with AI analysis.",
+      "newDescription": "Upload your bills to our AI bill checker for instant detection of hidden fees, duplicate charges, and billing errors. Save money with AI analysis.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-bill-negotiation",
+      "file": "ai-bill-negotiation.html",
+      "oldTitle": "AI Bill Negotiation: How Artificial Intelligence… | DetectHiddenFees",
+      "newTitle": "AI Bill Negotiation: Let Artificial Intelligence Fight Your Bills | DetectHiddenFees",
+      "oldDescription": "Learn how AI bill negotiation works. HiddenFeeAI analyzes your bills, identifies overcharges and hidden fees, and generates specific negotiation scripts…",
+      "newDescription": "Learn how AI bill negotiation works. HiddenFeeAI analyzes your bills, identifies overcharges and hidden fees, and generates specific negotiation scripts.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-commercial-lease-review",
+      "file": "ai-commercial-lease-review.html",
+      "oldTitle": "AI Commercial Lease Review: Analyze Business Lease… | DetectHiddenFees",
+      "newTitle": "AI Commercial Lease Review: Protect Your Business Space | DetectHiddenFees",
+      "oldDescription": "Review commercial leases with AI. Identify escalation clauses, maintenance responsibilities, hidden fees, and unfavorable lease terms.",
+      "newDescription": "Review commercial leases with AI. Identify escalation clauses, maintenance responsibilities, hidden fees, and unfavorable lease terms.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-construction-contract-review",
+      "file": "ai-construction-contract-review.html",
+      "oldTitle": "AI Construction Contract Review: Find Hidden Costs… | DetectHiddenFees",
+      "newTitle": "AI Construction Contract Review: Find Hidden Costs Before You Build | DetectHiddenFees",
+      "oldDescription": "AI construction contract review scans contractor agreements for change order traps, materials escalation clauses, vague scope language, and hidden fees. See…",
+      "newDescription": "AI construction contract review scans contractor agreements for change order traps, materials escalation clauses, vague scope language, and hidden fees. See.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-consulting-agreement-review",
+      "file": "ai-consulting-agreement-review.html",
+      "oldTitle": "AI Consulting Agreement Review: Analyze Consulting… | DetectHiddenFees",
+      "newTitle": "AI Consulting Agreement Review: Protect Your Consulting Practice | DetectHiddenFees",
+      "oldDescription": "Review consulting agreements with AI analysis. Identify scope limitations, payment terms, IP rights, and hidden fees in consulting contracts.",
+      "newDescription": "Review consulting agreements with AI analysis. Identify scope limitations, payment terms, IP rights, and hidden fees in consulting contracts.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-contract-analysis",
+      "file": "ai-contract-analysis.html",
+      "oldTitle": "AI Contract Analysis vs Contract Review: What's the… | DetectHiddenFees",
+      "newTitle": "AI Contract Analysis That Actually Understands Your Documents | DetectHiddenFees",
+      "oldDescription": "Understand the difference between AI contract analysis and AI contract review. Learn which approach works best for your needs.",
+      "newDescription": "Understand the difference between AI contract analysis and AI contract review. Learn which approach works best for your needs.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-contract-checker",
+      "file": "ai-contract-checker.html",
+      "oldTitle": "AI Contract Checker: may identify Hidden Fees in… | DetectHiddenFees",
+      "newTitle": "AI Contract Checker: Find Hidden Fees Before You Sign | DetectHiddenFees",
+      "oldDescription": "Upload your contract to our AI contract checker for instant analysis of hidden fees, unfavorable clauses, pricing errors, and risks. $15 per document.",
+      "newDescription": "Upload your contract to our AI contract checker for instant analysis of hidden fees, unfavorable clauses, pricing errors, and risks. $15 per document.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-contract-review",
+      "file": "ai-contract-review.html",
+      "oldTitle": "AI Contract Review: Find Hidden Fees and Risky… | DetectHiddenFees",
+      "newTitle": "AI Contract Review: Find Hidden Fees and Risky Clauses Before You Sign | DetectHiddenFees",
+      "oldDescription": "AI contract review helps you understand agreements, identify potential hidden fees, uncover unfavorable terms, and generate a plain-English report with…",
+      "newDescription": "AI contract review helps you understand agreements, identify potential hidden fees, uncover unfavorable terms, and generate a plain-English report with with clear explanations.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-contract-review-before-signing",
+      "file": "ai-contract-review-before-signing.html",
+      "oldTitle": "AI Contract Review Before Signing: Catch Hidden Fees… | DetectHiddenFees",
+      "newTitle": "AI Contract Review Before Signing: Know What You're Committing To | DetectHiddenFees",
+      "oldDescription": "Get an AI contract review before signing any agreement. HiddenFeeAI scans for hidden fees, pricing traps, and unfavorable terms so you know exactly what you",
+      "newDescription": "Get an AI contract review before signing any agreement. HiddenFeeAI scans for hidden fees, pricing traps, and unfavorable terms so you know exactly what you",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-contract-review-software",
+      "file": "ai-contract-review-software.html",
+      "oldTitle": "AI Contract Review Software vs Tools — What to Look… | DetectHiddenFees",
+      "newTitle": "AI Contract Review Software vs Tools: What to Look For | DetectHiddenFees",
+      "oldDescription": "Compare AI contract review software options and learn what features matter most for thorough contract analysis.",
+      "newDescription": "Compare AI contract review software options and learn what features matter most for thorough contract analysis.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-contract-review-tool",
+      "file": "ai-contract-review-tool.html",
+      "oldTitle": "AI Contract Review Tool: Scan Any Document for… | DetectHiddenFees",
+      "newTitle": "AI Contract Review Tool: Scan Any Document for Hidden Fees | DetectHiddenFees",
+      "oldDescription": "Upload any contract, invoice, or proposal. Our AI scans for hidden fees, pricing risks, unclear clauses, and negotiation opportunities. Get answers in…",
+      "newDescription": "Upload any contract, invoice, or proposal. Our AI scans for hidden fees, pricing risks, unclear clauses, and negotiation opportunities. Get answers in in more detail.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-contract-review-vs-chatgpt",
+      "file": "ai-contract-review-vs-chatgpt.html",
+      "oldTitle": "AI Contract Review vs ChatGPT: Which Is Better for… | DetectHiddenFees",
+      "newTitle": "AI Contract Review vs ChatGPT: Why Specialized Tools Win | DetectHiddenFees",
+      "oldDescription": "Detailed comparison of AI contract review platforms vs ChatGPT for analyzing contracts. Accuracy, security, pricing, and specialized features compared.",
+      "newDescription": "Detailed comparison of AI contract review platforms vs ChatGPT for analyzing contracts. Accuracy, security, pricing, and specialized features compared.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-contract-review-vs-lawyer-review",
+      "file": "ai-contract-review-vs-lawyer-review.html",
+      "oldTitle": "AI Contract Review vs Lawyer Review: Which Protects… | DetectHiddenFees",
+      "newTitle": "AI Contract Review vs Lawyer Review: The Complete Comparison | DetectHiddenFees",
+      "oldDescription": "Detailed comparison of AI contract review versus hiring a lawyer. Accuracy, cost, speed, and thoroughness compared with real data and use cases.",
+      "newDescription": "Detailed comparison of AI contract review versus hiring a lawyer. Accuracy, cost, speed, and thoroughness compared with real data and use cases.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-contract-risk-score",
+      "file": "ai-contract-risk-score.html",
+      "oldTitle": "AI Contract Risk Score: Rate Any Contract Before You… | DetectHiddenFees",
+      "newTitle": "AI Contract Risk Score: Know Your Risk Before You Sign | DetectHiddenFees",
+      "oldDescription": "Get an AI-powered contract risk score for any agreement. Evaluate hidden fees, risky clauses, pricing manipulation, and negotiation opportunities before…",
+      "newDescription": "Get an AI-powered contract risk score for any agreement. Evaluate hidden fees, risky clauses, pricing manipulation, and negotiation opportunities before before you sign or pay.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-contractor-agreement-review",
+      "file": "ai-contractor-agreement-review.html",
+      "oldTitle": "AI Contractor Agreement Review: Analyze Independent… | DetectHiddenFees",
+      "newTitle": "AI Contractor Agreement Review: Know What You Are Signing | DetectHiddenFees",
+      "oldDescription": "Review contractor agreements with AI. Identify misclassification risks, payment terms, liability provisions, and hidden fees before signing.",
+      "newDescription": "Review contractor agreements with AI. Identify misclassification risks, payment terms, liability provisions, and hidden fees before signing.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-document-analysis-benefits",
+      "file": "ai-document-analysis-benefits.html",
+      "oldTitle": "AI Document Analysis Benefits: Why Use AI for… | DetectHiddenFees",
+      "newTitle": "AI Document Analysis Benefits: Why Smart Consumers Use AI | DetectHiddenFees",
+      "oldDescription": "Discover the key benefits of AI document analysis for contracts, bills, invoices, and estimates. Speed, accuracy, cost savings, and negotiation leverage.",
+      "newDescription": "Discover the key benefits of AI document analysis for contracts, bills, invoices, and estimates. Speed, accuracy, cost savings, and negotiation leverage.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-document-analysis-tools",
+      "file": "ai-document-analysis-tools.html",
+      "oldTitle": "AI Document Analysis Tools: Complete Guide to AI… | DetectHiddenFees",
+      "newTitle": "AI Document Analysis Tools: Complete Guide to Smarter Document Review | DetectHiddenFees",
+      "oldDescription": "Complete guide to AI document analysis tools for contracts, bills, invoices, and estimates. Compare features, accuracy, and benefits.",
+      "newDescription": "Complete guide to AI document analysis tools for contracts, bills, invoices, and estimates. Compare features, accuracy, and benefits.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-document-checker",
+      "file": "ai-document-checker.html",
+      "oldTitle": "AI Document Checker: Scan Documents for Hidden Fees… | DetectHiddenFees",
+      "newTitle": "AI Document Checker: Scan Any Document for Hidden Fees | DetectHiddenFees",
+      "oldDescription": "Use our AI document checker to scan contracts, bills, and agreements for hidden fees, errors, and unfavorable terms before you sign or pay.",
+      "newDescription": "Use our AI document checker to scan contracts, bills, and agreements for hidden fees, errors, and unfavorable terms before you sign or pay.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-document-intelligence-center",
+      "file": "ai-document-intelligence-center.html",
+      "oldTitle": "AI Document Intelligence Center: Complete Guide to… | DetectHiddenFees",
+      "newTitle": "AI Document Intelligence Center: Guide to Document Analysis | DetectHiddenFees",
+      "oldDescription": "The ultimate authority on AI document intelligence. Learn how AI analyzes contracts, bills, invoices, estimates, and receipts to detect hidden fees and…",
+      "newDescription": "The ultimate authority on AI document intelligence. Learn how AI analyzes contracts, bills, invoices, estimates, and receipts to detect hidden fees and related risks.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-document-review-tool",
+      "file": "ai-document-review-tool.html",
+      "oldTitle": "AI Document Review Tool: Automated Analysis for… | DetectHiddenFees",
+      "newTitle": "AI Document Review Tool: Analyze Any Document in Minutes | DetectHiddenFees",
+      "oldDescription": "Upload documents to our AI document review tool for instant analysis of hidden fees, contract risks, and billing errors. Fast, affordable, secure.",
+      "newDescription": "Upload documents to our AI document review tool for instant analysis of hidden fees, contract risks, and billing errors. Fast, affordable, secure.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-document-reviewer",
+      "file": "ai-document-reviewer.html",
+      "oldTitle": "AI Document Reviewer: Analyze Contracts, Bills,… | DetectHiddenFees",
+      "newTitle": "AI Document Reviewer: One Tool for All Your Document Analysis | DetectHiddenFees",
+      "oldDescription": "Upload any document for AI-powered review. HiddenFeeAI analyzes contracts, invoices, bills, estimates, and agreements for hidden fees, errors, and risks.",
+      "newDescription": "Upload any document for AI-powered review. HiddenFeeAI analyzes contracts, invoices, bills, estimates, and agreements for hidden fees, errors, and risks.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-document-risk-analysis",
+      "file": "ai-document-risk-analysis.html",
+      "oldTitle": "AI Document Risk Analysis: Identify Contract… | DetectHiddenFees",
+      "newTitle": "AI Document Risk Analysis: Spot Problems Before They Cost You | DetectHiddenFees",
+      "oldDescription": "Get AI-powered document risk analysis that identifies hidden fees, unfavorable terms, pricing errors, and legal risks in your contracts and bills.",
+      "newDescription": "Get AI-powered document risk analysis that identifies hidden fees, unfavorable terms, pricing errors, and legal risks in your contracts and bills.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-document-scanner",
+      "file": "ai-document-scanner.html",
+      "oldTitle": "AI Document Scanner: Intelligent Document Analysis… | DetectHiddenFees",
+      "newTitle": "AI Document Scanner: Find Hidden Fees in Any Document | DetectHiddenFees",
+      "oldDescription": "Our AI document scanner analyzes contracts, invoices, bills, and estimates for hidden fees, errors, and risks. Upload any document for instant AI analysis.",
+      "newDescription": "Our AI document scanner analyzes contracts, invoices, bills, and estimates for hidden fees, errors, and risks. Upload any document for instant AI analysis.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-employment-contract-review",
+      "file": "ai-employment-contract-review.html",
+      "oldTitle": "AI Employment Contract Review: Analyze Job Agreements | DetectHiddenFees",
+      "newTitle": "AI Employment Contract Review: Analyze Job Agreements | DetectHiddenFees",
+      "oldDescription": "Review your employment contract with AI analysis. Detect hidden non-compete clauses, restrictive covenants, termination terms, and unfair provisions before…",
+      "newDescription": "Review your employment contract with AI analysis. Detect hidden non-compete clauses, restrictive covenants, termination terms, and unfair provisions before before you sign or pay.",
+      "reason": "Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-estimate-checker",
+      "file": "ai-estimate-checker.html",
+      "oldTitle": "AI Estimate Checker: Verify Quotes &amp;amp;amp;… | DetectHiddenFees",
+      "newTitle": "AI Estimate Checker: Verify Every Line Before You Approve | DetectHiddenFees",
+      "oldDescription": "Upload estimates and quotes to our AI estimate checker for analysis of inflated pricing, missing items, hidden fees, and unfavorable payment terms.",
+      "newDescription": "Upload estimates and quotes to our AI estimate checker for analysis of inflated pricing, missing items, hidden fees, and unfavorable payment terms.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-estimate-review",
+      "file": "ai-estimate-review.html",
+      "oldTitle": "AI Estimate Review: Verify Quotes Before You Approve | DetectHiddenFees",
+      "newTitle": "AI Estimate Review: Verify Quotes Before You Approve | DetectHiddenFees",
+      "oldDescription": "Get AI-powered estimate reviews for home improvement, HVAC, construction, and service quotes. Detect inflated pricing, hidden markups, and questionable…",
+      "newDescription": "Get AI-powered estimate reviews for home improvement, HVAC, construction, and service quotes. Detect inflated pricing, hidden markups, and questionable.",
+      "reason": "Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-fee-detector",
+      "file": "ai-fee-detector.html",
+      "oldTitle": "AI Fee Detector — Scan Any Bill or Contract for… | DetectHiddenFees",
+      "newTitle": "AI Fee Detector | DetectHiddenFees",
+      "oldDescription": "Upload your bill, invoice, or contract. Our AI instantly detects hidden fees, markups, and questionable charges. Free scan with detailed report.",
+      "newDescription": "Upload your bill, invoice, or contract. Our AI instantly detects hidden fees, markups, and questionable charges. Free scan with detailed report.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-financial-advisor",
+      "file": "ai-financial-advisor.html",
+      "oldTitle": "AI Financial Advisor: Complete Guide to Automated… | DetectHiddenFees",
+      "newTitle": "AI Financial Advisor: Complete Guide to Automated Financial Analysis | DetectHiddenFees",
+      "oldDescription": "AI financial advisor guide: How artificial intelligence analyzes contracts, invoices, and bills to detect hidden fees, pricing errors, and savings…",
+      "newDescription": "AI financial advisor guide: How artificial intelligence analyzes contracts, invoices, and bills to detect hidden fees, pricing errors, and savings.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-financial-analysis",
+      "file": "ai-financial-analysis.html",
+      "oldTitle": "AI for Financial Analysis: Complete Technology Guide | DetectHiddenFees",
+      "newTitle": "AI for Financial Analysis: Complete Technology Guide | DetectHiddenFees",
+      "oldDescription": "Explore how AI for financial analysis transforms hidden fee detection, contract review, and invoice analysis. Complete guide to financial AI technology and…",
+      "newDescription": "Explore how AI for financial analysis transforms hidden fee detection, contract review, and invoice analysis. Complete guide to financial AI technology and related risks.",
+      "reason": "Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-financial-assistant",
+      "file": "ai-financial-assistant.html",
+      "oldTitle": "AI Financial Assistant: Smarter Money Decisions | DetectHiddenFees",
+      "newTitle": "AI Financial Assistant: Smarter Money Decisions | DetectHiddenFees",
+      "oldDescription": "An AI financial assistant helps detect hidden fees, analyze contracts, and review invoices before money leaves your account. Discover smarter financial…",
+      "newDescription": "An AI financial assistant helps detect hidden fees, analyze contracts, and review invoices before money leaves your account. Discover smarter financial.",
+      "reason": "Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-freelance-contract-review",
+      "file": "ai-freelance-contract-review.html",
+      "oldTitle": "AI Freelance Contract Review: Analyze Client… | DetectHiddenFees",
+      "newTitle": "AI Freelance Contract Review: Protect Your Business | DetectHiddenFees",
+      "oldDescription": "Upload freelance contracts for AI analysis. Detect scope creep risks, late payment terms, IP ownership issues, and hidden fees in client agreements.",
+      "newDescription": "Upload freelance contracts for AI analysis. Detect scope creep risks, late payment terms, IP ownership issues, and hidden fees in client agreements.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-hidden-fee-questions",
+      "file": "ai-hidden-fee-questions.html",
+      "oldTitle": "AI Hidden Fee Questions: What To Ask Before Signing… | DetectHiddenFees",
+      "newTitle": "Questions To Ask AI Before Signing Any Document | DetectHiddenFees",
+      "oldDescription": "Complete guide to AI hidden fee questions: What to ask before signing contracts, reviewing bills, analyzing estimates, and detecting hidden charges.…",
+      "newDescription": "Complete guide to AI hidden fee questions: What to ask before signing contracts, reviewing bills, analyzing estimates, and detecting hidden charges..",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-invoice-analyzer",
+      "file": "ai-invoice-analyzer.html",
+      "oldTitle": "AI Invoice Analyzer: Detect Hidden Charges in Any… | DetectHiddenFees",
+      "newTitle": "AI Invoice Analyzer: Find Hidden Charges in Every Invoice | DetectHiddenFees",
+      "oldDescription": "Use AI to analyze invoices for hidden fees, duplicate charges, inflated pricing, and billing errors. Upload any invoice and get a detailed analysis in…",
+      "newDescription": "Use AI to analyze invoices for hidden fees, duplicate charges, inflated pricing, and billing errors. Upload any invoice and get a detailed analysis in in more detail.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-invoice-checker",
+      "file": "ai-invoice-checker.html",
+      "oldTitle": "AI Invoice Checker: Detect Hidden Fees &amp;amp;amp;… | DetectHiddenFees",
+      "newTitle": "AI Invoice Checker: Never Overpay on Invoices Again | DetectHiddenFees",
+      "oldDescription": "Use our AI invoice checker to scan invoices for unauthorized charges, duplicate line items, pricing errors, and hidden fees before you pay.",
+      "newDescription": "Use our AI invoice checker to scan invoices for unauthorized charges, duplicate line items, pricing errors, and hidden fees before you pay.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-lease-review",
+      "file": "ai-lease-review.html",
+      "oldTitle": "AI Lease Review: Find Hidden Costs in Rental… | DetectHiddenFees",
+      "newTitle": "AI Lease Review: Every Hidden Cost Exposed | DetectHiddenFees",
+      "oldDescription": "AI-powered lease review for commercial and residential leases. Detect hidden rent escalation and fees.",
+      "newDescription": "AI-powered lease review for commercial and residential leases. Detect hidden rent escalation and fees.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-pricing-analysis",
+      "file": "ai-pricing-analysis.html",
+      "oldTitle": "AI Pricing Analysis: Detect Hidden Costs in… | DetectHiddenFees",
+      "newTitle": "AI Pricing Analysis: Uncover Hidden Costs in Your Agreements | DetectHiddenFees",
+      "oldDescription": "Use AI pricing analysis to identify hidden charges, inflated pricing, and unfavorable payment terms in contracts, quotes, and proposals.",
+      "newDescription": "Use AI pricing analysis to identify hidden charges, inflated pricing, and unfavorable payment terms in contracts, quotes, and proposals.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-proposal-review",
+      "file": "ai-proposal-review.html",
+      "oldTitle": "AI Proposal Review: Analyze Business Proposals,… | DetectHiddenFees",
+      "newTitle": "AI Proposal Review: Never Accept a Bad Business Proposal Again | DetectHiddenFees",
+      "oldDescription": "Upload any business proposal, quote, or estimate for AI-powered risk analysis. HiddenFeeAI scans for hidden fees, pricing manipulation, and unfavorable…",
+      "newDescription": "Upload any business proposal, quote, or estimate for AI-powered risk analysis. HiddenFeeAI scans for hidden fees, pricing manipulation, and unfavorable.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-purchase-contract-review",
+      "file": "ai-purchase-contract-review.html",
+      "oldTitle": "AI Purchase Contract Review: Analyze Purchase… | DetectHiddenFees",
+      "newTitle": "AI Purchase Contract Review: Buy with Confidence | DetectHiddenFees",
+      "oldDescription": "Review purchase contracts with AI analysis. Detect hidden fees, financing terms, warranty limitations, and unfavorable purchase conditions.",
+      "newDescription": "Review purchase contracts with AI analysis. Detect hidden fees, financing terms, warranty limitations, and unfavorable purchase conditions.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-quote-analyzer",
+      "file": "ai-quote-analyzer.html",
+      "oldTitle": "AI Quote Analyzer: Compare &amp;amp;amp; Analyze… | DetectHiddenFees",
+      "newTitle": "AI Quote Analyzer: Find the True Cost of Any Quote | DetectHiddenFees",
+      "oldDescription": "Use our AI quote analyzer to compare quotes, detect inflated pricing, identify hidden fees, and find the best deal across multiple vendor proposals.",
+      "newDescription": "Use our AI quote analyzer to compare quotes, detect inflated pricing, identify hidden fees, and find the best deal across multiple vendor proposals.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-quote-review",
+      "file": "ai-quote-review.html",
+      "oldTitle": "AI Quote Review: Compare Quotes and Find Hidden… | DetectHiddenFees",
+      "newTitle": "AI Quote Review: Find the Best Value in Every Quote | DetectHiddenFees",
+      "oldDescription": "AI-powered quote review service that compares quotes, identifies hidden markups, and helps you choose the best value for services and products.",
+      "newDescription": "AI-powered quote review service that compares quotes, identifies hidden markups, and helps you choose the best value for services and products.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-receipt-analyzer",
+      "file": "ai-receipt-analyzer.html",
+      "oldTitle": "AI Receipt Analyzer: Catch Receipt Errors and… | DetectHiddenFees",
+      "newTitle": "AI Receipt Analyzer: Every Receipt Error Found Instantly | DetectHiddenFees",
+      "oldDescription": "Use AI to analyze receipts for errors, duplicate charges, incorrect pricing, and hidden fees. Upload any receipt and get instant analysis.",
+      "newDescription": "Use AI to analyze receipts for errors, duplicate charges, incorrect pricing, and hidden fees. Upload any receipt and get instant analysis.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-service-contract-review",
+      "file": "ai-service-contract-review.html",
+      "oldTitle": "AI Service Contract Review: Protect Your Business… | DetectHiddenFees",
+      "newTitle": "AI Service Contract Review: Read Every Line Before You Commit | DetectHiddenFees",
+      "oldDescription": "AI service contract review for businesses and consumers. Detect auto-renewal traps and hidden fees.",
+      "newDescription": "AI service contract review for businesses and consumers. Detect auto-renewal traps and hidden fees.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-software-license-review",
+      "file": "ai-software-license-review.html",
+      "oldTitle": "AI Software License Review: Analyze Software… | DetectHiddenFees",
+      "newTitle": "AI Software License Review: Understand Your Software Contracts | DetectHiddenFees",
+      "oldDescription": "Upload software license agreements for AI analysis. Detect auto-renewal clauses, usage limitations, hidden fees, and unfavorable terms.",
+      "newDescription": "Upload software license agreements for AI analysis. Detect auto-renewal clauses, usage limitations, hidden fees, and unfavorable terms.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-statement-analyzer",
+      "file": "ai-statement-analyzer.html",
+      "oldTitle": "AI Statement Analyzer: Review Bank, Credit Card… | DetectHiddenFees",
+      "newTitle": "AI Statement Analyzer: Find Hidden Charges in Your Financial Statements | DetectHiddenFees",
+      "oldDescription": "Upload any financial statement for AI-powered analysis. HiddenFeeAI scans bank statements, credit card bills, and account summaries for hidden fees and…",
+      "newDescription": "Upload any financial statement for AI-powered analysis. HiddenFeeAI scans bank statements, credit card bills, and account summaries for hidden fees and related risks.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-testing-results",
+      "file": "ai-testing-results.html",
+      "oldTitle": "AI Testing Results — Accuracy Benchmarks for Fee… | DetectHiddenFees",
+      "newTitle": "AI Testing Results: Accuracy Benchmarks for Fee Detection | DetectHiddenFees",
+      "oldDescription": "Real talk about hidden fees—where they hide, who uses them, and how to fight back. From dealership financing tricks to medical billing errors, contractor…",
+      "newDescription": "Real talk about hidden fees—where they hide, who uses them, and how to fight back. From dealership financing tricks to medical billing errors, contractor.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/ai-transparency-report",
+      "file": "ai-transparency-report.html",
+      "oldTitle": "AI Transparency Report: How Our AI Document Analysis… | DetectHiddenFees",
+      "newTitle": "AI Transparency Report: How Our AI Analysis Works | DetectHiddenFees",
+      "oldDescription": "Our AI transparency report explains how our document analysis AI works, its limitations, accuracy metrics, privacy protections, and responsible AI usage…",
+      "newDescription": "Our AI transparency report explains how our document analysis AI works, its limitations, accuracy metrics, privacy protections, and responsible AI usage.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/analyze-contract-online",
+      "file": "analyze-contract-online.html",
+      "oldTitle": "Analyze Contract Online: Free AI Contract Analysis… | DetectHiddenFees",
+      "newTitle": "Analyze Contract Online: AI-Powered Contract Review | DetectHiddenFees",
+      "oldDescription": "Analyze your contract online with AI. Get instant detection of hidden fees, unfair clauses, and risks. Upload and receive your report in minutes.",
+      "newDescription": "Analyze your contract online with AI. Get instant detection of hidden fees, unfair clauses, and risks. Upload and receive your report in minutes.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/analyze-my-document",
+      "file": "analyze-my-document.html",
+      "oldTitle": "Analyze My Document — AI Document Analysis for… | DetectHiddenFees",
+      "newTitle": "Analyze My Document | DetectHiddenFees",
+      "oldDescription": "Upload any document for AI-powered analysis. Detect hidden fees, contract risks, and billing errors in seconds.",
+      "newDescription": "Upload any document for AI-powered analysis. Detect hidden fees, contract risks, and billing errors in seconds.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/arbitration-clauses-explained",
+      "file": "arbitration-clauses-explained.html",
+      "oldTitle": "Arbitration Clauses Explained: What They Mean for… | DetectHiddenFees",
+      "newTitle": "Arbitration Clauses Explained: Know Your Legal Rights | DetectHiddenFees",
+      "oldDescription": "Learn how arbitration clauses affect your legal rights including class action waivers, venue selection, and jury trial waivers. AI detects arbitration…",
+      "newDescription": "Learn how arbitration clauses affect your legal rights including class action waivers, venue selection, and jury trial waivers. AI detects arbitration.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/automatic-renewal-clauses",
+      "file": "automatic-renewal-clauses.html",
+      "oldTitle": "Automatic Renewal Clauses: How They Work and How to… | DetectHiddenFees",
+      "newTitle": "Automatic Renewal Clauses: Stop Paying for Contracts You Do Not Need | DetectHiddenFees",
+      "oldDescription": "Learn about automatic renewal clauses in contracts and how they lock you into recurring payments. Use AI to detect auto-renewals before signing.",
+      "newDescription": "Learn about automatic renewal clauses in contracts and how they lock you into recurring payments. Use AI to detect auto-renewals before signing.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/before-signing-a-contract",
+      "file": "before-signing-a-contract.html",
+      "oldTitle": "Before Signing a Contract: Essential Checklist for… | DetectHiddenFees",
+      "newTitle": "Before Signing a Contract: Essential Checklist | DetectHiddenFees",
+      "oldDescription": "Learn what to check before signing a contract. Essential guide to hidden fees, unfair terms, and risks. Use AI to review every agreement before signing.",
+      "newDescription": "Learn what to check before signing a contract. Essential guide to hidden fees, unfair terms, and risks. Use AI to review every agreement before signing.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/before-signing-contract-checklist",
+      "file": "before-signing-contract-checklist.html",
+      "oldTitle": "Before Signing a Contract: 30-Point Checklist to… | DetectHiddenFees",
+      "newTitle": "Before Signing a Contract: The Complete 30-Point Pre-Signing Checklist | DetectHiddenFees",
+      "oldDescription": "Complete 30-point pre-signing contract checklist. Review pricing, fees, terms, and risks before signing any contract to avoid hidden charges and costly…",
+      "newDescription": "Complete 30-point pre-signing contract checklist. Review pricing, fees, terms, and risks before signing any contract to avoid hidden charges and costly.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/best-ai-bill-analyzer-tools",
+      "file": "best-ai-bill-analyzer-tools.html",
+      "oldTitle": "Best AI Bill Analyzer Tools: Top Platforms Compared… | DetectHiddenFees",
+      "newTitle": "Best AI Bill Analyzer Tools: Top Platforms for 2026 | DetectHiddenFees",
+      "oldDescription": "Compare the best AI bill analyzer tools on the market. Features, pricing, accuracy, and user reviews for automated bill analysis platforms.",
+      "newDescription": "Compare the best AI bill analyzer tools on the market. Features, pricing, accuracy, and user reviews for automated bill analysis platforms.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/best-hidden-fee-detector-tools",
+      "file": "best-hidden-fee-detector-tools.html",
+      "oldTitle": "5 Best Hidden Fee Detector Tools Compared (2026) | DetectHiddenFees",
+      "newTitle": "5 Best Hidden Fee Detector Tools Compared (2026) | DetectHiddenFees",
+      "oldDescription": "Compare the top 5 hidden fee detector tools. Side-by-side comparison of HiddenFeeAI vs alternatives for finding hidden charges in contracts, bills, and…",
+      "newDescription": "Compare the top 5 hidden fee detector tools. Side-by-side comparison of HiddenFeeAI vs alternatives for finding hidden charges in contracts, bills, and related risks.",
+      "reason": "Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/bill-negotiation-letter",
+      "file": "bill-negotiation-letter.html",
+      "oldTitle": "Bill Negotiation Letter: Templates &amp;amp;amp;… | DetectHiddenFees",
+      "newTitle": "Bill Negotiation Letter: Templates and Scripts That Actually Work | DetectHiddenFees",
+      "oldDescription": "Professional bill negotiation letter templates and scripts for medical bills, debt settlement, utility disputes, and more. Proven language that gets results…",
+      "newDescription": "Professional bill negotiation letter templates and scripts for medical bills, debt settlement, utility disputes, and more. Proven language that gets results.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/bill-negotiation-resource-center",
+      "file": "bill-negotiation-resource-center.html",
+      "oldTitle": "Bill Negotiation Resource Center: Master the Art of… | DetectHiddenFees",
+      "newTitle": "Bill Negotiation Resource Center: Your Complete Guide to Paying Less | DetectHiddenFees",
+      "oldDescription": "Your complete resource center for bill negotiation. Learn how to negotiate medical bills, reduce monthly expenses, and use AI to fight hidden fees and…",
+      "newDescription": "Your complete resource center for bill negotiation. Learn how to negotiate medical bills, reduce monthly expenses, and use AI to fight hidden fees and related risks.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/bill-negotiation-service",
+      "file": "bill-negotiation-service.html",
+      "oldTitle": "Bill Negotiation Service: Cut Your Monthly Bills… | DetectHiddenFees",
+      "newTitle": "Bill Negotiation Service: Find Hidden Charges and Fight Back | DetectHiddenFees",
+      "oldDescription": "Stop overpaying on medical bills, telecom services, utilities, and subscriptions. HiddenFeeAI analyzes your bills and identifies hidden charges, errors, and…",
+      "newDescription": "Stop overpaying on medical bills, telecom services, utilities, and subscriptions. HiddenFeeAI analyzes your bills and identifies hidden charges, errors, and related risks.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/bill-negotiation-templates",
+      "file": "bill-negotiation-templates.html",
+      "oldTitle": "Bill Negotiation Templates: Ready-to-Use Scripts and… | DetectHiddenFees",
+      "newTitle": "Bill Negotiation Templates: Proven Scripts That Work | DetectHiddenFees",
+      "oldDescription": "Professional bill negotiation templates for medical bills, utility bills, phone bills, and more. Ready-to-use scripts that get results.",
+      "newDescription": "Professional bill negotiation templates for medical bills, utility bills, phone bills, and more. Ready-to-use scripts that get results.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/bill-savings-calculator",
+      "file": "bill-savings-calculator.html",
+      "oldTitle": "Bill Savings Calculator: How Much Can You Save… | DetectHiddenFees",
+      "newTitle": "Bill Savings Calculator: Estimate Your Negotiation Savings | DetectHiddenFees",
+      "oldDescription": "Use our bill savings calculator to estimate how much you can save by negotiating medical bills, utility bills, subscriptions, and service contracts.",
+      "newDescription": "Use our bill savings calculator to estimate how much you can save by negotiating medical bills, utility bills, subscriptions, and service contracts.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/business-contract-review",
+      "file": "business-contract-review.html",
+      "oldTitle": "Business Contract Review: Protect Your Company From… | DetectHiddenFees",
+      "newTitle": "Business Contract Review: Protect Your Bottom Line | DetectHiddenFees",
+      "oldDescription": "Professional business contract review for small and medium businesses. Detect hidden fees, vendor overcharges, and unfavorable terms in commercial agreements.",
+      "newDescription": "Professional business contract review for small and medium businesses. Detect hidden fees, vendor overcharges, and unfavorable terms in commercial agreements.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/can-ai-analyze-financial-documents",
+      "file": "can-ai-analyze-financial-documents.html",
+      "oldTitle": "Can AI Analyze Financial Documents? | DetectHiddenFees",
+      "newTitle": "Can AI Analyze Financial Documents? | DetectHiddenFees",
+      "oldDescription": "Yes, AI can analyze financial documents including contracts, invoices, bills, bank statements, medical bills, insurance policies, and mortgage disclosures…",
+      "newDescription": "Yes, AI can analyze financial documents including contracts, invoices, bills, bank statements, medical bills, insurance policies, and mortgage disclosures.",
+      "reason": "Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/can-ai-detect-duplicate-billing-charges",
+      "file": "can-ai-detect-duplicate-billing-charges.html",
+      "oldTitle": "Can AI Detect Duplicate Billing Charges? | DetectHiddenFees",
+      "newTitle": "Can AI Detect Duplicate Billing Charges? | DetectHiddenFees",
+      "oldDescription": "Yes, AI can detect duplicate billing charges by comparing every line item across invoices and bills. Learn how AI identifies identical charges, overlapping…",
+      "newDescription": "Yes, AI can detect duplicate billing charges by comparing every line item across invoices and bills. Learn how AI identifies identical charges, overlapping.",
+      "reason": "Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/can-ai-find-hidden-fees-in-a-contract",
+      "file": "can-ai-find-hidden-fees-in-a-contract.html",
+      "oldTitle": "Can AI Find Hidden Fees In A Contract? | DetectHiddenFees",
+      "newTitle": "Can AI Find Hidden Fees In A Contract? | DetectHiddenFees",
+      "oldDescription": "Yes, AI can find hidden fees in contracts by scanning every clause and pricing term. Learn how AI contract review detects administrative surcharges,…",
+      "newDescription": "Yes, AI can find hidden fees in contracts by scanning every clause and pricing term. Learn how AI contract review detects administrative surcharges.",
+      "reason": "Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/can-ai-review-a-contract-before-signing",
+      "file": "can-ai-review-a-contract-before-signing.html",
+      "oldTitle": "Can AI Review A Contract Before Signing? | DetectHiddenFees",
+      "newTitle": "Can AI Review A Contract Before Signing? | DetectHiddenFees",
+      "oldDescription": "Yes, AI can review any contract before you sign it. Learn how AI contract review identifies hidden fees, risky clauses, and unfavorable terms so you can…",
+      "newDescription": "Yes, AI can review any contract before you sign it. Learn how AI contract review identifies hidden fees, risky clauses, and unfavorable terms so you can so you can make a more informed decision.",
+      "reason": "Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/cancellation-fee-clauses",
+      "file": "cancellation-fee-clauses.html",
+      "oldTitle": "Cancellation Fee Clauses: What They Are and How to… | DetectHiddenFees",
+      "newTitle": "Cancellation Fee Clauses: Know the Cost of Leaving | DetectHiddenFees",
+      "oldDescription": "Learn about cancellation fee clauses hidden in contracts and how they penalize you for leaving. Use AI to detect unfair cancellation provisions.",
+      "newDescription": "Learn about cancellation fee clauses hidden in contracts and how they penalize you for leaving. Use AI to detect unfair cancellation provisions.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/change-order-fees",
+      "file": "change-order-fees.html",
+      "oldTitle": "Change Order Fees: How Contractors Inflate Costs and… | DetectHiddenFees",
+      "newTitle": "Change Order Fees: How to Avoid Costly Contractor Surprises | DetectHiddenFees",
+      "oldDescription": "Learn how change order fees work in construction and renovation. Identify contractor abuse, inflated charges, and protect your budget.",
+      "newDescription": "Learn how change order fees work in construction and renovation. Identify contractor abuse, inflated charges, and protect your budget.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/consumer-fee-trends-report",
+      "file": "consumer-fee-trends-report.html",
+      "oldTitle": "Consumer Fee Trends Report 2026: Hidden Fee… | DetectHiddenFees",
+      "newTitle": "Consumer Fee Trends Report: Hidden Fee Landscape Analysis 2026 | DetectHiddenFees",
+      "oldDescription": "Annual consumer fee trends report analyzing the hidden fee landscape across banking, healthcare, automotive, telecom, and home services industries.",
+      "newDescription": "Annual consumer fee trends report analyzing the hidden fee landscape across banking, healthcare, automotive, telecom, and home services industries.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/consumer-financial-intelligence-center",
+      "file": "consumer-financial-intelligence-center.html",
+      "oldTitle": "Consumer Financial Intelligence Center: Master Your… | DetectHiddenFees",
+      "newTitle": "Consumer Financial Intelligence Center: Master Your Bills | DetectHiddenFees",
+      "oldDescription": "Your complete consumer financial intelligence center. Learn to detect hidden fees, analyze contracts, negotiate bills, and protect your finances with AI.",
+      "newDescription": "Your complete consumer financial intelligence center. Learn to detect hidden fees, analyze contracts, negotiate bills, and protect your finances with AI.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/consumer-negotiation-academy",
+      "file": "consumer-negotiation-academy.html",
+      "oldTitle": "Consumer Negotiation Academy: Master the Art of… | DetectHiddenFees",
+      "newTitle": "Consumer Negotiation Academy: Master Bill Negotiation | DetectHiddenFees",
+      "oldDescription": "Learn professional negotiation strategies for medical bills, service contracts, and monthly expenses. Expert scripts, templates, and AI-powered preparation…",
+      "newDescription": "Learn professional negotiation strategies for medical bills, service contracts, and monthly expenses. Expert scripts, templates, and AI-powered preparation.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/consumer-negotiation-resource-center",
+      "file": "consumer-negotiation-resource-center.html",
+      "oldTitle": "Consumer Negotiation Resource Center: Master the Art… | DetectHiddenFees",
+      "newTitle": "Consumer Negotiation Resource Center: Never Overpay Again | DetectHiddenFees",
+      "oldDescription": "Your complete resource center for consumer negotiation. Learn how to negotiate bills, contracts, medical expenses, and service agreements with confidence.",
+      "newDescription": "Your complete resource center for consumer negotiation. Learn how to negotiate bills, contracts, medical expenses, and service agreements with confidence.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/contract-analysis-ai",
+      "file": "contract-analysis-ai.html",
+      "oldTitle": "How AI Contract Analysis Works: Technology Behind… | DetectHiddenFees",
+      "newTitle": "How AI Contract Analysis Works: Technology and Methods | DetectHiddenFees",
+      "oldDescription": "Understand how AI contract analysis technology works to identify hidden fees, pricing anomalies, and unfavorable terms. A technical overview of our document…",
+      "newDescription": "Understand how AI contract analysis technology works to identify hidden fees, pricing anomalies, and unfavorable terms. A technical overview of our document.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/contract-clause-checker",
+      "file": "contract-clause-checker.html",
+      "oldTitle": "Contract Clause Checker: AI Analysis of Contract… | DetectHiddenFees",
+      "newTitle": "Contract Clause Checker: Analyze Every Provision | DetectHiddenFees",
+      "oldDescription": "Use our AI contract clause checker to analyze specific contract provisions for hidden fees, unfair terms, and legal risks. Upload your contract now.",
+      "newDescription": "Use our AI contract clause checker to analyze specific contract provisions for hidden fees, unfair terms, and legal risks. Upload your contract now.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/contract-fee-analysis",
+      "file": "contract-fee-analysis.html",
+      "oldTitle": "Contract Fee Analysis: AI Detection of Hidden Fees… | DetectHiddenFees",
+      "newTitle": "Contract Fee Analysis: AI Detection of Hidden Fees | DetectHiddenFees",
+      "oldDescription": "Detailed contract fee analysis using AI to uncover hidden fees, inflated markups, and pricing manipulation.",
+      "newDescription": "Detailed contract fee analysis using AI to uncover hidden fees, inflated markups, and pricing manipulation.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/contract-red-flag-checker",
+      "file": "contract-red-flag-checker.html",
+      "oldTitle": "Contract Red Flag Checker: Scan Any Agreement for… | DetectHiddenFees",
+      "newTitle": "Contract Red Flag Checker: Find Warning Signs Before You Sign | DetectHiddenFees",
+      "oldDescription": "Use our AI-powered contract red flag checker to scan any agreement for hidden fees, one-sided clauses, and unfavorable terms before you sign.",
+      "newDescription": "Use our AI-powered contract red flag checker to scan any agreement for hidden fees, one-sided clauses, and unfavorable terms before you sign.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/contract-review-ai-software",
+      "file": "contract-review-ai-software.html",
+      "oldTitle": "Contract Review AI Software — Top Features… | DetectHiddenFees",
+      "newTitle": "Contract Review AI Software: Features to Compare | DetectHiddenFees",
+      "oldDescription": "Explore the features and benefits of AI contract review software and how it can protect your business.",
+      "newDescription": "Explore the features and benefits of AI contract review software and how it can protect your business.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/contract-review-checklist",
+      "file": "contract-review-checklist.html",
+      "oldTitle": "Contract Review Checklist: Complete Guide to… | DetectHiddenFees",
+      "newTitle": "Contract Review Checklist: Never Miss a Hidden Fee | DetectHiddenFees",
+      "oldDescription": "Comprehensive contract review checklist covering hidden fees, risky clauses, pricing terms, and negotiation opportunities for any agreement.",
+      "newDescription": "Comprehensive contract review checklist covering hidden fees, risky clauses, pricing terms, and negotiation opportunities for any agreement.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/contract-risk-assessment-ai-tool",
+      "file": "contract-risk-assessment-ai-tool.html",
+      "oldTitle": "Contract Risk Assessment AI Tool: Evaluate Any… | DetectHiddenFees",
+      "newTitle": "Contract Risk Assessment AI: Know Your Risk Before You Sign | DetectHiddenFees",
+      "oldDescription": "Use AI to assess contract risk before signing. Our tool evaluates pricing, clauses, scope, and payment terms to identify potential risks.",
+      "newDescription": "Use AI to assess contract risk before signing. Our tool evaluates pricing, clauses, scope, and payment terms to identify potential risks.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/contract-terms-analyzer-ai",
+      "file": "contract-terms-analyzer-ai.html",
+      "oldTitle": "Contract Terms Analyzer AI: Evaluate Every Clause,… | DetectHiddenFees",
+      "newTitle": "Contract Terms Analyzer AI: Understand Every Clause Before You Sign | DetectHiddenFees",
+      "oldDescription": "Upload any contract for AI-powered terms analysis. HiddenFeeAI evaluates each clause, condition, and provision, identifying unfavorable language and hidden…",
+      "newDescription": "Upload any contract for AI-powered terms analysis. HiddenFeeAI evaluates each clause, condition, and provision, identifying unfavorable language and hidden.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/duplicate-medical-billing-charges",
+      "file": "duplicate-medical-billing-charges.html",
+      "oldTitle": "Medical Billing Errors: How Hospitals Overcharge You… | DetectHiddenFees",
+      "newTitle": "Duplicate Medical Billing Charges: How to Find Hidden Hospital Fees | DetectHiddenFees",
+      "oldDescription": "Nearly Medical billing reviews frequently identify potential issues such as duplicate charges, coding questions, unclear fees, and billing discrepancies…",
+      "newDescription": "Nearly Medical billing reviews frequently identify potential issues such as duplicate charges, coding questions, unclear fees, and billing discrepancies.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/early-termination-fees",
+      "file": "early-termination-fees.html",
+      "oldTitle": "Early Termination Fees: How to Avoid Expensive Exit… | DetectHiddenFees",
+      "newTitle": "Early Termination Fees: Avoid Costly Exit Penalties | DetectHiddenFees",
+      "oldDescription": "Learn about early termination fees in contracts and how they trap you in unwanted agreements. Use AI to detect and negotiate termination penalties.",
+      "newDescription": "Learn about early termination fees in contracts and how they trap you in unwanted agreements. Use AI to detect and negotiate termination penalties.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/editorial-policy",
+      "file": "editorial-policy.html",
+      "oldTitle": "Editorial Policy: Our Content Standards and Ethics… | DetectHiddenFees",
+      "newTitle": "Editorial Policy: Our Commitment to Accurate Content | DetectHiddenFees",
+      "oldDescription": "Our editorial policy outlines our content creation standards, fact-checking process, disclosure guidelines, and commitment to accurate consumer information.",
+      "newDescription": "Our editorial policy outlines our content creation standards, fact-checking process, disclosure guidelines, and commitment to accurate consumer information.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/estimate-vs-quote",
+      "file": "estimate-vs-quote.html",
+      "oldTitle": "Estimate vs Quote: Understanding the Difference and… | DetectHiddenFees",
+      "newTitle": "Estimate vs Quote: The Critical Difference That Could Cost You Thousands | DetectHiddenFees",
+      "oldDescription": "Learn the critical difference between an estimate and a quote. Understand binding vs non-binding pricing, where hidden fees hide, and how to protect yourself.",
+      "newDescription": "Learn the critical difference between an estimate and a quote. Understand binding vs non-binding pricing, where hidden fees hide, and how to protect yourself.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/example-auto-financing",
+      "file": "example-auto-financing.html",
+      "oldTitle": "Auto Financing Agreement Example: Hidden APR Markups… | DetectHiddenFees",
+      "newTitle": "Auto Financing Example: Hidden Charges in a Dealership Financing Agreement | DetectHiddenFees",
+      "oldDescription": "See how APR markups, documentation fees, and unnecessary add-ons appear in a typical dealership financing agreement.",
+      "newDescription": "See how APR markups, documentation fees, and unnecessary add-ons appear in a typical dealership financing agreement.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/example-cell-phone-bill",
+      "file": "example-cell-phone-bill.html",
+      "oldTitle": "Cell Phone Bill Example: Hidden Fees in a Wireless… | DetectHiddenFees",
+      "newTitle": "Cell Phone Bill Example: Hidden Charges on Your Wireless Service Statement | DetectHiddenFees",
+      "oldDescription": "See how administrative charges, regulatory fees, and equipment rental overcharges appear on a typical cell phone bill.",
+      "newDescription": "See how administrative charges, regulatory fees, and equipment rental overcharges appear on a typical cell phone bill.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/example-home-renovation-proposal",
+      "file": "example-home-renovation-proposal.html",
+      "oldTitle": "Home Renovation Proposal Example: Hidden Fees in a… | DetectHiddenFees",
+      "newTitle": "Home Renovation Proposal Example: Hidden Costs in a Kitchen Remodel | DetectHiddenFees",
+      "oldDescription": "See how change-order fees, material allowance tricks, and subcontractor layering appear in a typical home renovation proposal.",
+      "newDescription": "See how change-order fees, material allowance tricks, and subcontractor layering appear in a typical home renovation proposal.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/example-hvac-estimate",
+      "file": "example-hvac-estimate.html",
+      "oldTitle": "HVAC Estimate Example: Hidden Fees in a Furnace… | DetectHiddenFees",
+      "newTitle": "HVAC Estimate Example: What Hidden Fees Look Like in a Furnace Replacement Quote | DetectHiddenFees",
+      "oldDescription": "See how hidden fees appear in a real HVAC estimate. Learn to spot material markups, permit padding, and labor inflation before you sign.",
+      "newDescription": "See how hidden fees appear in a real HVAC estimate. Learn to spot material markups, permit padding, and labor inflation before you sign.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/example-internet-service-agreement",
+      "file": "example-internet-service-agreement.html",
+      "oldTitle": "Internet Service Agreement Example: Hidden Fees in… | DetectHiddenFees",
+      "newTitle": "Internet Service Agreement Example: Hidden Fees in Broadband Contracts | DetectHiddenFees",
+      "oldDescription": "See how early termination fees, equipment rental costs, and price escalation clauses appear in internet service agreements.",
+      "newDescription": "See how early termination fees, equipment rental costs, and price escalation clauses appear in internet service agreements.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/example-medical-bill",
+      "file": "example-medical-bill.html",
+      "oldTitle": "Medical Bill Example: Duplicate Charges &amp;amp;amp;… | DetectHiddenFees",
+      "newTitle": "Medical Bill Example: How Duplicate Charges and Hidden Fees Appear in Hospital Billing | DetectHiddenFees",
+      "oldDescription": "See how duplicate procedure charges, facility fees, and billing code errors appear on a typical medical bill.",
+      "newDescription": "See how duplicate procedure charges, facility fees, and billing code errors appear on a typical medical bill.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/fee-negotiation-checklist",
+      "file": "fee-negotiation-checklist.html",
+      "oldTitle": "Fee Negotiation Checklist: Prepare to Challenge… | DetectHiddenFees",
+      "newTitle": "Fee Negotiation Checklist: Be Ready to Challenge Every Charge | DetectHiddenFees",
+      "oldDescription": "Download our fee negotiation checklist to prepare for every negotiation. Includes scripts, documentation requirements, and step-by-step strategy.",
+      "newDescription": "Download our fee negotiation checklist to prepare for every negotiation. Includes scripts, documentation requirements, and step-by-step strategy.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/fee-removal-request-template",
+      "file": "fee-removal-request-template.html",
+      "oldTitle": "Fee Removal Request Template: Get Hidden Charges… | DetectHiddenFees",
+      "newTitle": "Fee Removal Request Template: Write Letters That Work | DetectHiddenFees",
+      "oldDescription": "Professional fee removal request templates. Write effective letters and emails to get hidden fees, late fees, and unauthorized charges removed.",
+      "newDescription": "Professional fee removal request templates. Write effective letters and emails to get hidden fees, late fees, and unauthorized charges removed.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/financial-analysis-software",
+      "file": "financial-analysis-software.html",
+      "oldTitle": "Financial Analysis Software: Top AI-Powered Platforms | DetectHiddenFees",
+      "newTitle": "Financial Analysis Software: Top AI-Powered Platforms | DetectHiddenFees",
+      "oldDescription": "Compare the best financial analysis software platforms for AI-powered hidden fee detection, contract review, and invoice analysis. Find the right tools for…",
+      "newDescription": "Compare the best financial analysis software platforms for AI-powered hidden fee detection, contract review, and invoice analysis. Find the right tools for for clearer pricing decisions.",
+      "reason": "Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/financial-analysis-tools",
+      "file": "financial-analysis-tools.html",
+      "oldTitle": "Financial Analysis Tools: Complete Resource Guide | DetectHiddenFees",
+      "newTitle": "Financial Analysis Tools: Complete Resource Guide | DetectHiddenFees",
+      "oldDescription": "Discover the best financial analysis tools for AI-powered hidden fee detection, contract review, and invoice analysis. Complete resource guide for consumer…",
+      "newDescription": "Discover the best financial analysis tools for AI-powered hidden fee detection, contract review, and invoice analysis. Complete resource guide for consumer.",
+      "reason": "Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/free-hidden-fee-scanner",
+      "file": "free-hidden-fee-scanner.html",
+      "oldTitle": "Free Hidden Fee Scanner — Check Any Bill for Hidden… | DetectHiddenFees",
+      "newTitle": "Free Hidden Fee Scanner for Bills and Contracts | DetectHiddenFees",
+      "oldDescription": "Free AI-powered hidden fee scanner. Upload your bill, invoice, or contract and get instant detection of hidden fees, markups, and overcharges.",
+      "newDescription": "Free AI-powered hidden fee scanner. Upload your bill, invoice, or contract and get instant detection of hidden fees, markups, and overcharges.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/free-vs-paid-contract-review",
+      "file": "free-vs-paid-contract-review.html",
+      "oldTitle": "Free vs Paid Contract Review: Which Option Should… | DetectHiddenFees",
+      "newTitle": "Free vs Paid Contract Review: Which Option Should You Choose? | DetectHiddenFees",
+      "oldDescription": "Compare free and paid contract review options including DIY, AI tools, and legal professionals. Find the best approach for your budget and needs.",
+      "newDescription": "Compare free and paid contract review options including DIY, AI tools, and legal professionals. Find the best approach for your budget and needs.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-auto-fees",
+      "file": "hidden-auto-fees.html",
+      "oldTitle": "Hidden Auto Financing &amp;amp;amp; Dealership Fees… | DetectHiddenFees",
+      "newTitle": "Hidden Auto Financing & Dealership Fees: APR Markups, Loan Packing, Warranty Inflation & More | DetectHiddenFees",
+      "oldDescription": "Complete guide to hidden auto financing and dealership fees: APR markups, documentation fees, extended warranty inflation, GAP insurance overpricing, loan…",
+      "newDescription": "Complete guide to hidden auto financing and dealership fees: APR markups, documentation fees, extended warranty inflation, GAP insurance overpricing, loan.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-bank-overdraft-fees",
+      "file": "hidden-bank-overdraft-fees.html",
+      "oldTitle": "Bank Fees Exposed: The $35 Billion Industry Built on… | DetectHiddenFees",
+      "newTitle": "Hidden Bank Overdraft Fees: How to Detect & Avoid Banking Charges | DetectHiddenFees",
+      "oldDescription": "Banks made over $35 billion in overdraft fees last year alone. Transaction reordering, hidden maintenance charges, ATM surcharges—here’s how they work and…",
+      "newDescription": "Banks made over $35 billion in overdraft fees last year alone. Transaction reordering, hidden maintenance charges, ATM surcharges—here’s how they work and related risks.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-banking-fees",
+      "file": "hidden-banking-fees.html",
+      "oldTitle": "Hidden Banking Fees Encyclopedia: Overdraft, Loan,… | DetectHiddenFees",
+      "newTitle": "Hidden Banking Fees: Overdraft, Loan, Credit Card & Mortgage Fees Explained | DetectHiddenFees",
+      "oldDescription": "Complete guide to hidden banking fees: overdraft fees, NSF charges, ATM surcharges, loan origination fees, prepayment penalties, credit card fees, and…",
+      "newDescription": "Complete guide to hidden banking fees: overdraft fees, NSF charges, ATM surcharges, loan origination fees, prepayment penalties, credit card fees, and related risks.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-billing-fees",
+      "file": "hidden-billing-fees.html",
+      "oldTitle": "Hidden Billing Fees: Complete Guide to Spotting… | DetectHiddenFees",
+      "newTitle": "Hidden Billing Fees: How to Spot and Fight Every Hidden Charge | DetectHiddenFees",
+      "oldDescription": "Comprehensive guide to hidden billing fees across every industry. Learn how to spot hidden charges on medical bills, phone bills, credit cards, bank…",
+      "newDescription": "Comprehensive guide to hidden billing fees across every industry. Learn how to spot hidden charges on medical bills, phone bills, credit cards, bank.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-contractor-fees",
+      "file": "hidden-contractor-fees.html",
+      "oldTitle": "Hidden Contractor &amp;amp;amp; Construction Fees… | DetectHiddenFees",
+      "newTitle": "Hidden Contractor & Construction Fees: Material Markups, Change Orders, Emergency Surcharges & More | DetectHiddenFees",
+      "oldDescription": "Complete guide to hidden contractor and construction fees: material markups, change-order fees, emergency surcharges, subcontractor layering, permit…",
+      "newDescription": "Complete guide to hidden contractor and construction fees: material markups, change-order fees, emergency surcharges, subcontractor layering, permit.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-credit-card-fees",
+      "file": "hidden-credit-card-fees.html",
+      "oldTitle": "Hidden Credit Card Fees: Every Charge You Should… | DetectHiddenFees",
+      "newTitle": "Hidden Credit Card Fees: What Credit Card Companies Don't Advertise | DetectHiddenFees",
+      "oldDescription": "Complete guide to hidden credit card fees including annual fees, balance transfer fees, foreign transaction fees, late payment fees, and cash advance charges.",
+      "newDescription": "Complete guide to hidden credit card fees including annual fees, balance transfer fees, foreign transaction fees, late payment fees, and cash advance charges.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-dealership-financing-fees",
+      "file": "hidden-dealership-financing-fees.html",
+      "oldTitle": "Dealership Financing Fees Exposed: The Hidden Costs… | DetectHiddenFees",
+      "newTitle": "Hidden Dealership Financing Fees: How to Spot Costly Add-Ons & Markups | DetectHiddenFees",
+      "oldDescription": "Car dealerships make more money on financing than on cars. APR markups, GAP insurance inflation, loan packing—learn every trick in the F&amp;amp;amp;I…",
+      "newDescription": "Car dealerships make more money on financing than on cars. APR markups, GAP insurance inflation, loan packing—learn every trick in the F&I.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-electrician-fees",
+      "file": "hidden-electrician-fees.html",
+      "oldTitle": "Hidden Electrician Fees: Pricing Tricks and How to… | DetectHiddenFees",
+      "newTitle": "Hidden Electrician Fees: Spot Pricing Manipulation | DetectHiddenFees",
+      "oldDescription": "Learn about hidden electrician fees including service call markups, material overpricing, emergency rate inflation, and unnecessary work upcharges.",
+      "newDescription": "Learn about hidden electrician fees including service call markups, material overpricing, emergency rate inflation, and unnecessary work upcharges.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-analysis-tool",
+      "file": "hidden-fee-analysis-tool.html",
+      "oldTitle": "Hidden Fee Analysis Tool — AI-Powered Fee Detection… | DetectHiddenFees",
+      "newTitle": "Hidden Fee Analysis Tool | DetectHiddenFees",
+      "oldDescription": "Comprehensive hidden fee analysis tool. Upload any document and get AI-powered detection of hidden charges, markups, and billing errors.",
+      "newDescription": "Comprehensive hidden fee analysis tool. Upload any document and get AI-powered detection of hidden charges, markups, and billing errors.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-calculator",
+      "file": "hidden-fee-calculator.html",
+      "oldTitle": "Hidden Fee Calculator: Estimate How Much Hidden Fees… | DetectHiddenFees",
+      "newTitle": "Hidden Fee Calculator: Estimate Your Annual Hidden Fee Costs | DetectHiddenFees",
+      "oldDescription": "Use our hidden fee calculator to estimate how much hidden fees cost you each year across medical bills, contracts, banking, and services.",
+      "newDescription": "Use our hidden fee calculator to estimate how much hidden fees cost you each year across medical bills, contracts, banking, and services.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-database",
+      "file": "hidden-fee-database.html",
+      "oldTitle": "Hidden Fee Database: Searchable Directory of Hidden… | DetectHiddenFees",
+      "newTitle": "Hidden Fee Database: Search and Identify Every Hidden Charge | DetectHiddenFees",
+      "oldDescription": "Comprehensive database of hidden fees across industries. Search and identify hidden charges on medical bills, contracts, bank statements, service…",
+      "newDescription": "Comprehensive database of hidden fees across industries. Search and identify hidden charges on medical bills, contracts, bank statements, service.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-detector",
+      "file": "hidden-fee-detector.html",
+      "oldTitle": "Hidden Fee Detector: AI Tool That Finds Hidden… | DetectHiddenFees",
+      "newTitle": "Hidden Fee Detector: Find Buried Charges With AI | DetectHiddenFees",
+      "oldDescription": "Use our AI hidden fee detector to find hidden charges in contracts, bills, invoices, and agreements. Upload any document for instant AI-powered fee detection.",
+      "newDescription": "Use our AI hidden fee detector to find hidden charges in contracts, bills, invoices, and agreements. Upload any document for instant AI-powered fee detection.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-dictionary",
+      "file": "hidden-fee-dictionary.html",
+      "oldTitle": "Hidden Fee Dictionary: Complete A-to-Z Guide to Fee… | DetectHiddenFees",
+      "newTitle": "Hidden Fee Dictionary: Complete A-to-Z Guide to Fee Terminology | DetectHiddenFees",
+      "oldDescription": "Complete A-to-Z dictionary of 76+ hidden fee terms with definitions, typical costs, industries, and avoidance tips.",
+      "newDescription": "Complete A-to-Z dictionary of 76+ hidden fee terms with definitions, typical costs, industries, and avoidance tips.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-encyclopedia",
+      "file": "hidden-fee-encyclopedia.html",
+      "oldTitle": "Hidden Fee Encyclopedia: The Definitive Guide to… | DetectHiddenFees",
+      "newTitle": "Hidden Fee Encyclopedia: The Definitive Guide to Pricing Manipulation & Deceptive Charges | DetectHiddenFees",
+      "oldDescription": "The most comprehensive hidden fee encyclopedia on the internet. Explore 300+ hidden fees across banking, healthcare, contractor services, auto financing,…",
+      "newDescription": "The most comprehensive hidden fee encyclopedia on the internet. Explore 300+ hidden fees across banking, healthcare, contractor services, auto financing.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-examples",
+      "file": "hidden-fee-examples.html",
+      "oldTitle": "Hidden Fee Examples Library: Real Document… | DetectHiddenFees",
+      "newTitle": "Hidden Fee Examples Library: Real Documents, Real Fees Exposed | DetectHiddenFees",
+      "oldDescription": "See how hidden fees appear in real-world documents. Walk through HVAC estimates, medical bills, auto financing agreements, and more with expert analysis…",
+      "newDescription": "See how hidden fees appear in real-world documents. Walk through HVAC estimates, medical bills, auto financing agreements, and more with expert analysis.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-glossary",
+      "file": "hidden-fee-glossary.html",
+      "oldTitle": "Hidden Fee Glossary: Complete Dictionary of Hidden… | DetectHiddenFees",
+      "newTitle": "Hidden Fee Glossary: Dictionary of Hidden Charges | DetectHiddenFees",
+      "oldDescription": "Comprehensive glossary of hidden fee terms and definitions. Understand every charge on your bills and contracts.",
+      "newDescription": "Comprehensive glossary of hidden fee terms and definitions. Understand every charge on your bills and contracts.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-index",
+      "file": "hidden-fee-index.html",
+      "oldTitle": "2026 Hidden Fee Index: Complete Guide to Hidden… | DetectHiddenFees",
+      "newTitle": "2026 Hidden Fee Index: The Complete Guide to Hidden Charges | DetectHiddenFees",
+      "oldDescription": "The 2026 Hidden Fee Index catalogs hundreds of hidden charges across every industry. Research-backed analysis and consumer protection insights.",
+      "newDescription": "The 2026 Hidden Fee Index catalogs hundreds of hidden charges across every industry. Research-backed analysis and consumer protection insights.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-industry-guide",
+      "file": "hidden-fee-industry-guide.html",
+      "oldTitle": "Hidden Fees by Industry: Complete Guide to… | DetectHiddenFees",
+      "newTitle": "Hidden Fees by Industry: Complete Industry-by-Industry Guide | DetectHiddenFees",
+      "oldDescription": "Comprehensive guide to hidden fees across every major industry. Explore industry-specific fee types, detection strategies, and savings opportunities.",
+      "newDescription": "Comprehensive guide to hidden fees across every major industry. Explore industry-specific fee types, detection strategies, and savings opportunities.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-intelligence-center",
+      "file": "hidden-fee-intelligence-center.html",
+      "oldTitle": "Hidden Fee Intelligence Center: Complete Guide to… | DetectHiddenFees",
+      "newTitle": "Hidden Fee Intelligence Center: Guide to Fee Detection | DetectHiddenFees",
+      "oldDescription": "Your complete intelligence center for hidden fees. AI-powered analysis, industry guides, calculators, and expert strategies to detect and eliminate hidden…",
+      "newDescription": "Your complete intelligence center for hidden fees. AI-powered analysis, industry guides, calculators, and expert strategies to detect and eliminate hidden.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-intelligence-engine",
+      "file": "hidden-fee-intelligence-engine.html",
+      "oldTitle": "Hidden Fee Intelligence Engine: AI Detection System… | DetectHiddenFees",
+      "newTitle": "Hidden Fee Intelligence Engine: AI Detection System | DetectHiddenFees",
+      "oldDescription": "The complete hidden fee intelligence engine - a 5-layer detection system identifying pricing manipulation across 12 industries.",
+      "newDescription": "The complete hidden fee intelligence engine - a 5-layer detection system identifying pricing manipulation across 12 industries.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-knowledge-center",
+      "file": "hidden-fee-knowledge-center.html",
+      "oldTitle": "Hidden Fee Knowledge Center: Complete Database of… | DetectHiddenFees",
+      "newTitle": "Hidden Fee Knowledge Center: Database of Fee Types | DetectHiddenFees",
+      "oldDescription": "The definitive guide to hidden fees across every industry. Explore our database of 50+ fee types, detection methods, negotiation strategies, and real…",
+      "newDescription": "The definitive guide to hidden fees across every industry. Explore our database of 50+ fee types, detection methods, negotiation strategies, and real.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-prevention-guide",
+      "file": "hidden-fee-prevention-guide.html",
+      "oldTitle": "Hidden Fee Prevention Guide: Complete 12-Strategy… | DetectHiddenFees",
+      "newTitle": "Hidden Fee Prevention Guide: Complete 12-Strategy System | DetectHiddenFees",
+      "oldDescription": "Complete hidden fee prevention guide with 12 research-backed approaches to stop hidden charges before they cost you money. Banking, medical, telecom,…",
+      "newDescription": "Complete hidden fee prevention guide with 12 research-backed approaches to stop hidden charges before they cost you money. Banking, medical, telecom.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-reports",
+      "file": "hidden-fee-reports.html",
+      "oldTitle": "Hidden Fee Reports: Industry Analysis and Consumer… | DetectHiddenFees",
+      "newTitle": "Hidden Fee Reports: Research-Backed Industry Analysis | DetectHiddenFees",
+      "oldDescription": "In-depth hidden fee reports across industries. Research-backed analysis of pricing practices, fee structures, and consumer protection strategies.",
+      "newDescription": "In-depth hidden fee reports across industries. Research-backed analysis of pricing practices, fee structures, and consumer protection strategies.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-risk-score",
+      "file": "hidden-fee-risk-score.html",
+      "oldTitle": "Hidden Fee Risk Score: Rate Your Risk of Hidden… | DetectHiddenFees",
+      "newTitle": "Hidden Fee Risk Score: Evaluate Your Exposure | DetectHiddenFees",
+      "oldDescription": "Assess your exposure to hidden fees with our risk scoring system. Identify which industries and services pose the highest risk of hidden charges.",
+      "newDescription": "Assess your exposure to hidden fees with our risk scoring system. Identify which industries and services pose the highest risk of hidden charges.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-scanner",
+      "file": "hidden-fee-scanner.html",
+      "oldTitle": "Free Hidden Fee Scanner — Check Any Bill for Hidden… | DetectHiddenFees",
+      "newTitle": "AI Hidden Fee Scanner for Bills and Contracts | DetectHiddenFees",
+      "oldDescription": "Free hidden fee scanner. Upload any bill, invoice, or contract and our AI instantly checks for hidden charges, billing errors, and overcharges.",
+      "newDescription": "Free hidden fee scanner. Upload any bill, invoice, or contract and our AI instantly checks for hidden charges, billing errors, and overcharges.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fee-statistics",
+      "file": "hidden-fee-statistics.html",
+      "oldTitle": "Hidden Fee Statistics: The Real Cost of Hidden Fees… | DetectHiddenFees",
+      "newTitle": "Hidden Fee Statistics: The True Cost of Hidden Fees in America | DetectHiddenFees",
+      "oldDescription": "Comprehensive hidden fee statistics showing the $200B+ annual cost to American consumers. Industry breakdowns, average household losses, and data-driven…",
+      "newDescription": "Comprehensive hidden fee statistics showing the $200B+ annual cost to American consumers. Industry breakdowns, average household losses, and data-driven.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fees-guides",
+      "file": "hidden-fees-guides.html",
+      "oldTitle": "Hidden Fees Decoded: The Complete Guide to Not… | DetectHiddenFees",
+      "newTitle": "Hidden Fees Guides: Master Deceptive Pricing & Billing Practices | DetectHiddenFees",
+      "oldDescription": "Real talk about hidden fees—where they hide, who uses them, and how to fight back. From dealership financing tricks to medical billing errors, contractor…",
+      "newDescription": "Real talk about hidden fees—where they hide, who uses them, and how to fight back. From dealership financing tricks to medical billing errors, contractor.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-fees-resource-center",
+      "file": "hidden-fees-resource-center.html",
+      "oldTitle": "Hidden Fees Resource Center: Complete Guide to… | DetectHiddenFees",
+      "newTitle": "Hidden Fees Resource Center: Guide to Fee Detection | DetectHiddenFees",
+      "oldDescription": "Your complete resource center for hidden fees across every industry. Learn how to spot, challenge, and eliminate hidden charges on contracts, bills, and…",
+      "newDescription": "Your complete resource center for hidden fees across every industry. Learn how to spot, challenge, and eliminate hidden charges on contracts, bills, and related risks.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-healthcare-fees",
+      "file": "hidden-healthcare-fees.html",
+      "oldTitle": "Hidden Healthcare &amp;amp;amp; Medical Billing Fees… | DetectHiddenFees",
+      "newTitle": "Hidden Healthcare & Medical Billing Fees: What They Are, Why They Exist, and How to Fight Back | DetectHiddenFees",
+      "oldDescription": "Complete guide to hidden healthcare fees: duplicate charges, facility fees, out-of-network costs, coding errors, and medical billing markups. Each fee…",
+      "newDescription": "Complete guide to hidden healthcare fees: duplicate charges, facility fees, out-of-network costs, coding errors, and medical billing markups. Each fee.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-home-renovation-fees",
+      "file": "hidden-home-renovation-fees.html",
+      "oldTitle": "Home Renovation Fee Secrets: How Contractors Inflate… | DetectHiddenFees",
+      "newTitle": "Hidden Home Renovation Fees: How Contractors Inflate Project Costs | DetectHiddenFees",
+      "oldDescription": "That kitchen remodel costs more than you think. Home renovation contractors use change-order manipulation, material overages, and subcontractor layering to…",
+      "newDescription": "That kitchen remodel costs more than you think. Home renovation contractors use change-order manipulation, material overages, and subcontractor layering to to support better decisions.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-hvac-contractor-fees",
+      "file": "hidden-hvac-contractor-fees.html",
+      "oldTitle": "HVAC Contractor Fees Exposed: 13 Pricing Tricks They… | DetectHiddenFees",
+      "newTitle": "Hidden HVAC Contractor Fees: How to Spot Pricing Manipulation & Overcharges | DetectHiddenFees",
+      "oldDescription": "HVAC contractors have pricing tricks older than the equipment they install. From emergency service markups to refrigerant overpricing and labor…",
+      "newDescription": "HVAC contractors have pricing tricks older than the equipment they install. From emergency service markups to refrigerant overpricing and labor.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-insurance-fees",
+      "file": "hidden-insurance-fees.html",
+      "oldTitle": "Hidden Insurance Fee Encyclopedia: Policy, Premium… | DetectHiddenFees",
+      "newTitle": "Hidden Insurance Fees: Policy Administration, Installment Charges, Rate Escalation & Coverage Fees Exposed | DetectHiddenFees",
+      "oldDescription": "Complete guide to hidden insurance fees: policy administration fees, installment charges, rate escalation clauses, cancellation penalties, and endorsement…",
+      "newDescription": "Complete guide to hidden insurance fees: policy administration fees, installment charges, rate escalation clauses, cancellation penalties, and endorsement.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-internet-fees",
+      "file": "hidden-internet-fees.html",
+      "oldTitle": "Hidden Internet Fees: Equipment Rental, Installation… | DetectHiddenFees",
+      "newTitle": "Hidden Internet Fees: What Your ISP Isn't Telling You | DetectHiddenFees",
+      "oldDescription": "Discover hidden internet service provider fees including equipment rental charges, installation fees, early termination penalties, data overage fees, and…",
+      "newDescription": "Discover hidden internet service provider fees including equipment rental charges, installation fees, early termination penalties, data overage fees, and related risks.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-investment-fees",
+      "file": "hidden-investment-fees.html",
+      "oldTitle": "Hidden Investment Fees: Management Fees, Loads… | DetectHiddenFees",
+      "newTitle": "Hidden Investment Fees: What Your Financial Advisor Isn't Telling You | DetectHiddenFees",
+      "oldDescription": "Learn about hidden investment fees including management expense ratios, front-end loads, back-end loads, 12b-1 fees, account maintenance charges, and…",
+      "newDescription": "Learn about hidden investment fees including management expense ratios, front-end loads, back-end loads, 12b-1 fees, account maintenance charges, and related risks.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-landscaping-fees",
+      "file": "hidden-landscaping-fees.html",
+      "oldTitle": "Hidden Landscaping Fees: Pricing Tricks in Yard… | DetectHiddenFees",
+      "newTitle": "Hidden Landscaping Fees: What Your Lawn Service Isn't Telling You | DetectHiddenFees",
+      "oldDescription": "Discover hidden landscaping fees including material markups, disposal charges, seasonal surcharges, and contract auto-renewal traps.",
+      "newDescription": "Discover hidden landscaping fees including material markups, disposal charges, seasonal surcharges, and contract auto-renewal traps.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-loan-fees",
+      "file": "hidden-loan-fees.html",
+      "oldTitle": "Hidden Loan Fees: Loan Origination, Processing… | DetectHiddenFees",
+      "newTitle": "Hidden Loan Fees: The Real Cost of Borrowing Money | DetectHiddenFees",
+      "oldDescription": "Identify hidden loan fees including origination fees, processing charges, prepayment penalties, application fees, and hidden interest rate adjustments.",
+      "newDescription": "Identify hidden loan fees including origination fees, processing charges, prepayment penalties, application fees, and hidden interest rate adjustments.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-mortgage-fees",
+      "file": "hidden-mortgage-fees.html",
+      "oldTitle": "Hidden Mortgage Fees: Closing Costs and Lender Charges | DetectHiddenFees",
+      "newTitle": "Hidden Mortgage Fees: Closing Costs and Lender Charges | DetectHiddenFees",
+      "oldDescription": "Comprehensive guide to hidden mortgage fees including closing costs, origination points, appraisal fees, title insurance markups, and lender processing…",
+      "newDescription": "Comprehensive guide to hidden mortgage fees including closing costs, origination points, appraisal fees, title insurance markups, and lender processing.",
+      "reason": "Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-moving-company-fees",
+      "file": "hidden-moving-company-fees.html",
+      "oldTitle": "Hidden Moving Company Fees: Avoid Surprise Charges… | DetectHiddenFees",
+      "newTitle": "Hidden Moving Company Fees: No Surprises on Moving Day | DetectHiddenFees",
+      "oldDescription": "Identify hidden moving company fees including fuel surcharges, stair fees, long-carry charges, packing markups, and weight re-weigh scams.",
+      "newDescription": "Identify hidden moving company fees including fuel surcharges, stair fees, long-carry charges, packing markups, and weight re-weigh scams.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-phone-bill-fees",
+      "file": "hidden-phone-bill-fees.html",
+      "oldTitle": "Hidden Phone Bill Fees: Carrier Charges and Service… | DetectHiddenFees",
+      "newTitle": "Hidden Phone Bill Fees: What Your Carrier Charges Without Asking | DetectHiddenFees",
+      "oldDescription": "Complete guide to hidden phone bill fees including activation fees, upgrade fees, regulatory charges, administrative fees, and unauthorized third-party…",
+      "newDescription": "Complete guide to hidden phone bill fees including activation fees, upgrade fees, regulatory charges, administrative fees, and unauthorized third-party.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-plumbing-fees",
+      "file": "hidden-plumbing-fees.html",
+      "oldTitle": "Hidden Plumbing Fees: How to Spot Overcharges and… | DetectHiddenFees",
+      "newTitle": "Hidden Plumbing Fees: What Plumbers Don't Tell You | DetectHiddenFees",
+      "oldDescription": "Discover hidden plumbing contractor fees including diagnostic charges, trip fees, material markups, emergency service premiums, and unnecessary repair…",
+      "newDescription": "Discover hidden plumbing contractor fees including diagnostic charges, trip fees, material markups, emergency service premiums, and unnecessary repair.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-rental-fees",
+      "file": "hidden-rental-fees.html",
+      "oldTitle": "Hidden Rental &amp;amp;amp; Lease Fee Encyclopedia | DetectHiddenFees",
+      "newTitle": "Hidden Rental & Lease Fees: Application Fees, Admin Charges, Parking, Pet Rent, Move-In/Out Costs & More | DetectHiddenFees",
+      "oldDescription": "Complete guide to hidden rental and lease fees: application fees, administrative charges, parking surcharges, pet rent, utility billing fees, move-in/out…",
+      "newDescription": "Complete guide to hidden rental and lease fees: application fees, administrative charges, parking surcharges, pet rent, utility billing fees, move-in/out.",
+      "reason": "Normalized title encoding or completeness. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-streaming-fees",
+      "file": "hidden-streaming-fees.html",
+      "oldTitle": "Hidden Streaming Fees: Price Hikes, Add-Ons… | DetectHiddenFees",
+      "newTitle": "Hidden Streaming Fees: What Streaming Services Don't Advertise | DetectHiddenFees",
+      "oldDescription": "Reveal hidden streaming service fees including price increases, ad-free upcharges, 4K surcharges, account sharing fees, and bundled service markups.",
+      "newDescription": "Reveal hidden streaming service fees including price increases, ad-free upcharges, 4K surcharges, account sharing fees, and bundled service markups.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-subscription-fees",
+      "file": "hidden-subscription-fees.html",
+      "oldTitle": "Hidden Subscription Fees: Auto-Renewal Traps and… | DetectHiddenFees",
+      "newTitle": "Hidden Subscription Fees: Stop Paying for What You Forgot | DetectHiddenFees",
+      "oldDescription": "Identify hidden subscription fees including auto-renewal charges, price increases, free trial conversions, add-on subscriptions, and forgotten recurring…",
+      "newDescription": "Identify hidden subscription fees including auto-renewal charges, price increases, free trial conversions, add-on subscriptions, and forgotten recurring.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-telecom-fees",
+      "file": "hidden-telecom-fees.html",
+      "oldTitle": "Hidden Telecommunications Fee Encyclopedia: Phone,… | DetectHiddenFees",
+      "newTitle": "Hidden Telecommunications Fees: Regulatory Charges, Equipment Rental, Activation Fees, Early Termination & More | DetectHiddenFees",
+      "oldDescription": "Complete guide to hidden telecommunications fees: regulatory recovery fees, equipment rental charges, activation costs, early termination penalties, data…",
+      "newDescription": "Complete guide to hidden telecommunications fees: regulatory recovery fees, equipment rental charges, activation costs, early termination penalties, data.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-travel-fees",
+      "file": "hidden-travel-fees.html",
+      "oldTitle": "Hidden Travel &amp;amp;amp; Hospitality Fee… | DetectHiddenFees",
+      "newTitle": "Hidden Travel & Hospitality Fees: Resort Fees, Baggage Charges, Seat Selection, Check-In Costs & More | DetectHiddenFees",
+      "oldDescription": "Complete guide to hidden travel fees: resort fees, baggage charges, seat selection costs, hotel early check-in fees, rental car surcharges, and booking…",
+      "newDescription": "Complete guide to hidden travel fees: resort fees, baggage charges, seat selection costs, hotel early check-in fees, rental car surcharges, and booking.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hidden-utility-fees",
+      "file": "hidden-utility-fees.html",
+      "oldTitle": "Hidden Utility &amp;amp;amp; Energy Fees Encyclopedia | DetectHiddenFees",
+      "newTitle": "Hidden Utility & Energy Fees: Regulatory Charges, Distribution Fees, Transmission Surcharges & More | DetectHiddenFees",
+      "oldDescription": "Complete guide to hidden utility and energy fees: regulatory charges, distribution fees, transmission surcharges, renewable energy add-ons, meter reading…",
+      "newDescription": "Complete guide to hidden utility and energy fees: regulatory charges, distribution fees, transmission surcharges, renewable energy add-ons, meter reading.",
+      "reason": "Normalized title encoding or completeness. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hiddenfeeai-vs-bill-negotiation-services",
+      "file": "hiddenfeeai-vs-bill-negotiation-services.html",
+      "oldTitle": "HiddenFeeAI vs Bill Negotiation Services: Which Is… | DetectHiddenFees",
+      "newTitle": "HiddenFeeAI vs Bill Negotiation Services: The Complete Comparison | DetectHiddenFees",
+      "oldDescription": "Compare HiddenFeeAI with traditional bill negotiation services. Feature comparison, pricing analysis, effectiveness ratings, and which option saves you more…",
+      "newDescription": "Compare HiddenFeeAI with traditional bill negotiation services. Feature comparison, pricing analysis, effectiveness ratings, and which option saves you more.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hiddenfeeai-vs-lawyer-review",
+      "file": "hiddenfeeai-vs-lawyer-review.html",
+      "oldTitle": "HiddenFeeAI vs Lawyer Contract Review: Cost, Speed… | DetectHiddenFees",
+      "newTitle": "HiddenFeeAI vs Lawyer Contract Review: Which Is Right for You? | DetectHiddenFees",
+      "oldDescription": "Compare HiddenFeeAI vs traditional lawyer contract review. $15 AI analysis vs $200-500/hr attorney fees - when to use each, accuracy comparison, and…",
+      "newDescription": "Compare HiddenFeeAI vs traditional lawyer contract review. $15 AI analysis vs $200-500/hr attorney fees - when to use each, accuracy comparison, and related risks.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hiddenfeeai-vs-traditional-negotiation",
+      "file": "hiddenfeeai-vs-traditional-negotiation.html",
+      "oldTitle": "HiddenFeeAI vs Traditional Negotiation: Which Saves… | DetectHiddenFees",
+      "newTitle": "HiddenFeeAI vs Traditional Negotiation: The Complete Comparison | DetectHiddenFees",
+      "oldDescription": "Compare HiddenFeeAI-powered negotiation with traditional do-it-yourself and professional negotiation services. Savings, cost, and success rates.",
+      "newDescription": "Compare HiddenFeeAI-powered negotiation with traditional do-it-yourself and professional negotiation services. Savings, cost, and success rates.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/hospital-bill-negotiation-guide",
+      "file": "hospital-bill-negotiation-guide.html",
+      "oldTitle": "Hospital Bill Negotiation Guide: Cut Your Medical… | DetectHiddenFees",
+      "newTitle": "Hospital Bill Negotiation Guide: The Complete Strategy to Pay Less | DetectHiddenFees",
+      "oldDescription": "The ultimate hospital bill negotiation guide. Step-by-step strategies to reduce hospital expenses, negotiate with billing departments, and save thousands on…",
+      "newDescription": "The ultimate hospital bill negotiation guide. Step-by-step strategies to reduce hospital expenses, negotiate with billing departments, and save thousands on.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/how-ai-detects-fees",
+      "file": "how-ai-detects-fees.html",
+      "oldTitle": "How AI Detects Hidden Fees — Technology Behind Fee… | DetectHiddenFees",
+      "newTitle": "How AI Detects Hidden Fees: Technology Behind Fee Analysis | DetectHiddenFees",
+      "oldDescription": "Real talk about hidden fees—where they hide, who uses them, and how to fight back. From dealership financing tricks to medical billing errors, contractor…",
+      "newDescription": "Real talk about hidden fees—where they hide, who uses them, and how to fight back. From dealership financing tricks to medical billing errors, contractor.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/how-can-i-check-if-a-bill-is-incorrect",
+      "file": "how-can-i-check-if-a-bill-is-incorrect.html",
+      "oldTitle": "How Do I Know If A Bill Is Incorrect? | DetectHiddenFees",
+      "newTitle": "How Do I Know If A Bill Is Incorrect? | DetectHiddenFees",
+      "oldDescription": "Learn how to check if a bill is incorrect by comparing charges against agreements, checking for duplicates, verifying pricing, looking for unauthorized…",
+      "newDescription": "Learn how to check if a bill is incorrect by comparing charges against agreements, checking for duplicates, verifying pricing, looking for unauthorized.",
+      "reason": "Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/how-detect-hidden-fees-works",
+      "file": "how-detect-hidden-fees-works.html",
+      "oldTitle": "How DetectHiddenFees Works: AI-Powered Document… | DetectHiddenFees",
+      "newTitle": "How DetectHiddenFees Works: AI-Powered Hidden Fee Detection | DetectHiddenFees",
+      "oldDescription": "Learn how DetectHiddenFees works. Our AI analyzes contracts, bills, and invoices to detect hidden fees, pricing manipulation, and negotiation opportunities.",
+      "newDescription": "Learn how DetectHiddenFees works. Our AI analyzes contracts, bills, and invoices to detect hidden fees, pricing manipulation, and negotiation opportunities.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/how-do-companies-hide-fees-in-contracts",
+      "file": "how-do-companies-hide-fees-in-contracts.html",
+      "oldTitle": "How Do Companies Hide Fees In Contracts? | DetectHiddenFees",
+      "newTitle": "How Do Companies Hide Fees In Contracts? | DetectHiddenFees",
+      "oldDescription": "Companies use dozens of techniques to hide fees in contracts: fine print, vague language, buried charges, split pricing, automatic renewal traps, and…",
+      "newDescription": "Companies use dozens of techniques to hide fees in contracts: fine print, vague language, buried charges, split pricing, automatic renewal traps, and related risks.",
+      "reason": "Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/how-do-i-find-hidden-fees-in-an-invoice",
+      "file": "how-do-i-find-hidden-fees-in-an-invoice.html",
+      "oldTitle": "How Do I Find Hidden Fees In An Invoice? | DetectHiddenFees",
+      "newTitle": "How Do I Find Hidden Fees In An Invoice? | DetectHiddenFees",
+      "oldDescription": "Find hidden fees in any invoice by checking for administrative charges, material markups, duplicate line items, and vague descriptions. Learn how AI invoice…",
+      "newDescription": "Find hidden fees in any invoice by checking for administrative charges, material markups, duplicate line items, and vague descriptions. Learn how AI invoice.",
+      "reason": "Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/how-to-negotiate-medical-bills",
+      "file": "how-to-negotiate-medical-bills.html",
+      "oldTitle": "How to Negotiate Medical Bills: Step-by-Step Guide… | DetectHiddenFees",
+      "newTitle": "How to Negotiate Medical Bills: A Step-by-Step Guide That Works | DetectHiddenFees",
+      "oldDescription": "Learn how to negotiate medical bills with research-backed approaches. Step-by-step guide covering preparation, scripts, timing, and how AI analysis gives…",
+      "newDescription": "Learn how to negotiate medical bills with research-backed approaches. Step-by-step guide covering preparation, scripts, timing, and how AI analysis gives.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/how-to-read-an-invoice",
+      "file": "how-to-read-an-invoice.html",
+      "oldTitle": "How to Read an Invoice: Complete Guide to… | DetectHiddenFees",
+      "newTitle": "How to Read an Invoice: Spot Hidden Fees Before You Pay | DetectHiddenFees",
+      "oldDescription": "Learn how to read an invoice line by line. Identify hidden fees, duplicate charges, inflated pricing, and billing errors before you pay.",
+      "newDescription": "Learn how to read an invoice line by line. Identify hidden fees, duplicate charges, inflated pricing, and billing errors before you pay.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/how-to-reduce-medical-bills",
+      "file": "how-to-reduce-medical-bills.html",
+      "oldTitle": "How to Reduce Medical Bills: Lower Hospital Costs… | DetectHiddenFees",
+      "newTitle": "How to Reduce Medical Bills and Lower Hospital Costs | DetectHiddenFees",
+      "oldDescription": "Learn how to reduce medical bills and lower hospital costs after insurance. HiddenFeeAI identifies errors and overcharges, giving you the leverage to…",
+      "newDescription": "Learn how to reduce medical bills and lower hospital costs after insurance. HiddenFeeAI identifies errors and overcharges, giving you the leverage to to support better decisions.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/identify-contract-risks",
+      "file": "identify-contract-risks.html",
+      "oldTitle": "Identify Contract Risks: AI Risk Detection for… | DetectHiddenFees",
+      "newTitle": "Identify Contract Risks: Protect Yourself with AI Analysis | DetectHiddenFees",
+      "oldDescription": "Use AI to identify contract risks including hidden fees, unbalanced liability, auto-renewals, vague scope, and unfavorable payment terms before signing.",
+      "newDescription": "Use AI to identify contract risks including hidden fees, unbalanced liability, auto-renewals, vague scope, and unfavorable payment terms before signing.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/indemnification-clauses-explained",
+      "file": "indemnification-clauses-explained.html",
+      "oldTitle": "Indemnification Clauses Explained: Understanding… | DetectHiddenFees",
+      "newTitle": "Indemnification Clauses Explained: Understand Your Financial Risk | DetectHiddenFees",
+      "oldDescription": "Learn about indemnification clauses in contracts and how they shift financial risk. AI detects one-sided indemnity provisions before you sign.",
+      "newDescription": "Learn about indemnification clauses in contracts and how they shift financial risk. AI detects one-sided indemnity provisions before you sign.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/",
+      "file": "index.html",
+      "oldTitle": "AI Forensic Pricing Intelligence: Find Hidden Fees… | DetectHiddenFees",
+      "newTitle": "AI Forensic Pricing Intelligence for Hidden Fee Detection | DetectHiddenFees",
+      "oldDescription": "Before you sign that contract, know exactly where they",
+      "newDescription": "Use AI-powered forensic pricing intelligence to find hidden fees, unclear terms, inflated charges, and pricing risks in contracts, bills, invoices, and estimates.",
+      "reason": "Removed literal title truncation. Completed the homepage description as a full sentence.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/invoice-red-flags",
+      "file": "invoice-red-flags.html",
+      "oldTitle": "Invoice Red Flags: Warning Signs of Hidden Fees and… | DetectHiddenFees",
+      "newTitle": "Invoice Red Flags: Warning Signs Every Consumer Should Know | DetectHiddenFees",
+      "oldDescription": "Learn to spot invoice red flags including duplicate charges, inflated pricing, vague descriptions, unauthorized fees, and payment scams in any invoice.",
+      "newDescription": "Learn to spot invoice red flags including duplicate charges, inflated pricing, vague descriptions, unauthorized fees, and payment scams in any invoice.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/knowledge-center",
+      "file": "knowledge-center.html",
+      "oldTitle": "DetectHiddenFees Knowledge Center | DetectHiddenFees",
+      "newTitle": "DetectHiddenFees Knowledge Center | DetectHiddenFees",
+      "oldDescription": "DetectHiddenFees Knowledge Center: Expert answers about hidden fees, contract risks, billing errors, contractor pricing, financial document analysis, and…",
+      "newDescription": "DetectHiddenFees Knowledge Center: Expert answers about hidden fees, contract risks, billing errors, contractor pricing, financial document analysis, and related risks.",
+      "reason": "Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/legal-artificial-intelligence",
+      "file": "legal-artificial-intelligence.html",
+      "oldTitle": "Legal Artificial Intelligence: AI-Powered Document… | DetectHiddenFees",
+      "newTitle": "AI Legal Document Intelligence That Finds Hidden Risks Before You Sign | DetectHiddenFees",
+      "oldDescription": "Legal artificial intelligence for analyzing contracts, agreements, and financial documents to identify hidden fees, pricing risks, unclear terms, and…",
+      "newDescription": "Legal artificial intelligence for analyzing contracts, agreements, and financial documents to identify hidden fees, pricing risks, unclear terms, and related risks.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/medical-bill-audit",
+      "file": "medical-bill-audit.html",
+      "oldTitle": "Medical Bill Audit: Find Billing Errors and Hidden… | DetectHiddenFees",
+      "newTitle": "Medical Bill Audit: Find Every Error in Your Hospital Bill | DetectHiddenFees",
+      "oldDescription": "Comprehensive medical bill audit guide. Learn how to audit hospital bills for duplicate charges, incorrect codes, unbundled procedures, and hidden fees…",
+      "newDescription": "Comprehensive medical bill audit guide. Learn how to audit hospital bills for duplicate charges, incorrect codes, unbundled procedures, and hidden fees.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/medical-bill-error-checklist",
+      "file": "medical-bill-error-checklist.html",
+      "oldTitle": "Medical Bill Error Checklist: Find Billing Mistakes… | DetectHiddenFees",
+      "newTitle": "Medical Bill Error Checklist: Find Every Billing Mistake | DetectHiddenFees",
+      "oldDescription": "Download our medical bill error checklist to audit hospital bills for duplicate charges, incorrect codes, unbundled procedures, and hidden facility fees.",
+      "newDescription": "Download our medical bill error checklist to audit hospital bills for duplicate charges, incorrect codes, unbundled procedures, and hidden facility fees.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/medical-bill-negotiation-template",
+      "file": "medical-bill-negotiation-template.html",
+      "oldTitle": "Medical Bill Negotiation Templates: How to Challenge… | DetectHiddenFees",
+      "newTitle": "Medical Bill Negotiation Templates: How to Challenge Hospital Charges and Request Lower Bills | DetectHiddenFees",
+      "oldDescription": "Medical bill negotiation templates, scripts, and strategies. Original research from DetectHiddenFees on how to review hospital bills, identify potential…",
+      "newDescription": "Medical bill negotiation templates, scripts, and strategies. Original research from DetectHiddenFees on how to review hospital bills, identify potential.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/medical-debt-negotiation",
+      "file": "medical-debt-negotiation.html",
+      "oldTitle": "Medical Debt Negotiation: Settle Hospital Bills for… | DetectHiddenFees",
+      "newTitle": "Medical Debt Negotiation: Settle Hospital Bills for Less | DetectHiddenFees",
+      "oldDescription": "Medical debt negotiation guide: How to settle hospital bills for less using AI-powered analysis. HiddenFeeAI identifies billing errors that strengthen your…",
+      "newDescription": "Medical debt negotiation guide: How to settle hospital bills for less using AI-powered analysis. HiddenFeeAI identifies billing errors that strengthen your.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/medical-debt-relief-options",
+      "file": "medical-debt-relief-options.html",
+      "oldTitle": "Medical Debt Relief Options: Complete Guide to… | DetectHiddenFees",
+      "newTitle": "Medical Debt Relief Options: Your Complete Guide to Financial Freedom | DetectHiddenFees",
+      "oldDescription": "Explore medical debt relief options including charity care, payment plans, debt settlement, bankruptcy alternatives, and AI-powered negotiation strategies…",
+      "newDescription": "Explore medical debt relief options including charity care, payment plans, debt settlement, bankruptcy alternatives, and AI-powered negotiation strategies.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/negotiate-hospital-bill",
+      "file": "negotiate-hospital-bill.html",
+      "oldTitle": "How to Negotiate a Hospital Bill: Complete Guide… | DetectHiddenFees",
+      "newTitle": "How to Negotiate a Hospital Bill: Stop Overpaying with AI-Powered Evidence | DetectHiddenFees",
+      "oldDescription": "Learn exactly how to negotiate a hospital bill with confidence. HiddenFeeAI analyzes your medical bills and gives you the evidence and scripts to reduce…",
+      "newDescription": "Learn exactly how to negotiate a hospital bill with confidence. HiddenFeeAI analyzes your medical bills and gives you the evidence and scripts to reduce.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/negotiation-scripts",
+      "file": "negotiation-scripts.html",
+      "oldTitle": "Negotiation Scripts: What to Say to Save Money on… | DetectHiddenFees",
+      "newTitle": "Negotiation Scripts: Exactly What to Say to Save Money | DetectHiddenFees",
+      "oldDescription": "Ready-to-use negotiation scripts for phone calls and emails. Know exactly what to say to billing departments to get results.",
+      "newDescription": "Ready-to-use negotiation scripts for phone calls and emails. Know exactly what to say to billing departments to get results.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/our-evaluation-process",
+      "file": "our-evaluation-process.html",
+      "oldTitle": "Our Evaluation Process: How We Assess Documents for… | DetectHiddenFees",
+      "newTitle": "Our Evaluation Process: How We Assess Documents for Hidden Fees | DetectHiddenFees",
+      "oldDescription": "Learn how DetectHiddenFees evaluates documents for hidden fees. Our multi-stage evaluation process combines AI analysis with quality assurance for accurate…",
+      "newDescription": "Learn how DetectHiddenFees evaluates documents for hidden fees. Our multi-stage evaluation process combines AI analysis with quality assurance for accurate.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/privacy-and-ai-security",
+      "file": "privacy-and-ai-security.html",
+      "oldTitle": "Privacy and Data Handling: How DetectHiddenFees… | DetectHiddenFees",
+      "newTitle": "Privacy and Data Handling | DetectHiddenFees",
+      "oldDescription": "DetectHiddenFees privacy practices: no AI training on your documents, encrypted transmission, automatic deletion after analysis.",
+      "newDescription": "DetectHiddenFees privacy practices: no AI training on your documents, encrypted transmission, automatic deletion after analysis.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/reduce-monthly-bills",
+      "file": "reduce-monthly-bills.html",
+      "oldTitle": "Reduce Monthly Bills: Cut Phone, Internet,… | DetectHiddenFees",
+      "newTitle": "Reduce Monthly Bills: The Complete Guide to Lower Recurring Expenses | DetectHiddenFees",
+      "oldDescription": "Learn how to reduce monthly bills including phone, internet, subscriptions, utilities, and insurance. Proven negotiation scripts and AI-powered analysis to…",
+      "newDescription": "Learn how to reduce monthly bills including phone, internet, subscriptions, utilities, and insurance. Proven negotiation scripts and AI-powered analysis to to support better decisions.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/research-center",
+      "file": "research-center.html",
+      "oldTitle": "DetectHiddenFees Research Center | DetectHiddenFees",
+      "newTitle": "DetectHiddenFees Research Center | DetectHiddenFees",
+      "oldDescription": "DetectHiddenFees Research Center: Original research on hidden fee trends, pricing transparency, consumer financial risks, and industry fee analysis.…",
+      "newDescription": "DetectHiddenFees Research Center: Original research on hidden fee trends, pricing transparency, consumer financial risks, and industry fee analysis..",
+      "reason": "Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/research-methodology",
+      "file": "research-methodology.html",
+      "oldTitle": "Research Methodology: How We Study Hidden Fees and… | DetectHiddenFees",
+      "newTitle": "Research Methodology: How We Study Hidden Fees | DetectHiddenFees",
+      "oldDescription": "Our research methodology for studying hidden fees, billing practices, and pricing manipulation across industries. Learn how we gather and verify data.",
+      "newDescription": "Our research methodology for studying hidden fees, billing practices, and pricing manipulation across industries. Learn how we gather and verify data.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/resource-library",
+      "file": "resource-library.html",
+      "oldTitle": "Resource Library: Checklists, Templates &amp;amp;amp;… | DetectHiddenFees",
+      "newTitle": "Resource Library: Checklists, Templates & Consumer Tools | DetectHiddenFees",
+      "oldDescription": "Free downloadable resource library for consumers: contract review checklists, hidden fee detection guides, invoice review templates, medical bill audit…",
+      "newDescription": "Free downloadable resource library for consumers: contract review checklists, hidden fee detection guides, invoice review templates, medical bill audit.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/sample-analysis-report",
+      "file": "sample-analysis-report.html",
+      "oldTitle": "Sample Analysis Report — See How AI Detects Hidden… | DetectHiddenFees",
+      "newTitle": "Sample Analysis Report: See How AI Detects Hidden Fees | DetectHiddenFees",
+      "oldDescription": "Real talk about hidden fees—where they hide, who uses them, and how to fight back. From dealership financing tricks to medical billing errors, contractor…",
+      "newDescription": "Real talk about hidden fees—where they hide, who uses them, and how to fight back. From dealership financing tricks to medical billing errors, contractor.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/scan-my-invoice",
+      "file": "scan-my-invoice.html",
+      "oldTitle": "Scan My Invoice — AI Invoice Analysis for Hidden… | DetectHiddenFees",
+      "newTitle": "Scan My Invoice: AI Invoice Analysis for Hidden Fees | DetectHiddenFees",
+      "oldDescription": "Upload your invoice for instant AI analysis. Our scanner detects hidden charges, billing errors, and overcharges.",
+      "newDescription": "Upload your invoice for instant AI analysis. Our scanner detects hidden charges, billing errors, and overcharges.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/service-agreement-red-flags",
+      "file": "service-agreement-red-flags.html",
+      "oldTitle": "Service Agreement Red Flags: Warning Signs in Every… | DetectHiddenFees",
+      "newTitle": "Service Agreement Red Flags: What to Watch For Before Signing | DetectHiddenFees",
+      "oldDescription": "Identify warning signs in service agreements before signing. Auto-renewal traps, cancellation penalties, hidden fees, and unfair clauses explained.",
+      "newDescription": "Identify warning signs in service agreements before signing. Auto-renewal traps, cancellation penalties, hidden fees, and unfair clauses explained.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/types-of-hidden-fees",
+      "file": "types-of-hidden-fees.html",
+      "oldTitle": "Types of Hidden Fees: Complete Classification System | DetectHiddenFees",
+      "newTitle": "Types of Hidden Fees: Complete Classification System | DetectHiddenFees",
+      "oldDescription": "Complete classification system for every type of hidden fee across industries. Transaction fees, contract fees, service fees, financial fees, subscription…",
+      "newDescription": "Complete classification system for every type of hidden fee across industries. Transaction fees, contract fees, service fees, financial fees, subscription.",
+      "reason": "Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/unfair-contract-terms",
+      "file": "unfair-contract-terms.html",
+      "oldTitle": "Unfair Contract Terms: How to Identify and Challenge… | DetectHiddenFees",
+      "newTitle": "Unfair Contract Terms: Know What Is Not Right in Your Agreement | DetectHiddenFees",
+      "oldDescription": "Learn to identify unfair contract terms including unbalanced liability, one-sided termination, and hidden fees. Use AI to detect unfair provisions.",
+      "newDescription": "Learn to identify unfair contract terms including unbalanced liability, one-sided termination, and hidden fees. Use AI to detect unfair provisions.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/upload-bill-for-analysis",
+      "file": "upload-bill-for-analysis.html",
+      "oldTitle": "Upload Bill for Analysis — AI-Powered Hidden Fee… | DetectHiddenFees",
+      "newTitle": "Upload Bill for Analysis | DetectHiddenFees",
+      "oldDescription": "Upload your bill and let AI instantly detect hidden fees, billing errors, and overcharges. Free analysis with detailed report.",
+      "newDescription": "Upload your bill and let AI instantly detect hidden fees, billing errors, and overcharges. Free analysis with detailed report.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/upload-contract-for-review",
+      "file": "upload-contract-for-review.html",
+      "oldTitle": "Upload Contract for Review: AI-Powered Analysis in… | DetectHiddenFees",
+      "newTitle": "Upload Contract for Review: Get Instant AI Analysis | DetectHiddenFees",
+      "oldDescription": "Upload your contract for AI-powered review. Get instant analysis of hidden fees, unfavorable clauses, and risks. $15 per document. No subscription needed.",
+      "newDescription": "Upload your contract for AI-powered review. Get instant analysis of hidden fees, unfavorable clauses, and risks. $15 per document. No subscription needed.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/upload-document-for-ai-analysis",
+      "file": "upload-document-for-ai-analysis.html",
+      "oldTitle": "Upload Document for AI Analysis: Contracts, Bills,… | DetectHiddenFees",
+      "newTitle": "Upload Document for AI Analysis: Comprehensive Document Scanning | DetectHiddenFees",
+      "oldDescription": "Upload any document for AI analysis. HiddenFeeAI scans contracts, bills, invoices, estimates, and agreements for hidden fees and risks.",
+      "newDescription": "Upload any document for AI analysis. HiddenFeeAI scans contracts, bills, invoices, estimates, and agreements for hidden fees and risks.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/what-are-common-hidden-fees-in-service-agreements",
+      "file": "what-are-common-hidden-fees-in-service-agreements.html",
+      "oldTitle": "What Are Common Hidden Fees In Service Agreements? | DetectHiddenFees",
+      "newTitle": "What Are Common Hidden Fees In Service Agreements? | DetectHiddenFees",
+      "oldDescription": "Service agreements commonly contain administrative fees, auto-renewal clauses, price escalation terms, cancellation penalties, and vague surcharges. Learn…",
+      "newDescription": "Service agreements commonly contain administrative fees, auto-renewal clauses, price escalation terms, cancellation penalties, and vague surcharges. Learn how to evaluate these issues.",
+      "reason": "Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/what-fees-should-i-look-for-in-a-contractor-estimate",
+      "file": "what-fees-should-i-look-for-in-a-contractor-estimate.html",
+      "oldTitle": "What Hidden Fees Should I Look For In A Contractor… | DetectHiddenFees",
+      "newTitle": "What Hidden Fees Should I Look For In A Contractor Estimate? | DetectHiddenFees",
+      "oldDescription": "Learn about hidden fees in contractor estimates: inflated material markups, labor padding, permit fees, change order clauses, and undisclosed surcharges…",
+      "newDescription": "Learn about hidden fees in contractor estimates: inflated material markups, labor padding, permit fees, change order clauses, and undisclosed surcharges.",
+      "reason": "Removed literal title truncation. Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/what-questions-should-i-ask-before-signing-a-contract",
+      "file": "what-questions-should-i-ask-before-signing-a-contract.html",
+      "oldTitle": "What Questions Should I Ask Before Signing A Contract? | DetectHiddenFees",
+      "newTitle": "What Questions Should I Ask Before Signing A Contract? | DetectHiddenFees",
+      "oldDescription": "Before signing any contract, ask these questions about auto-renewal, price escalation, cancellation penalties, hidden fees, scope changes, and dispute…",
+      "newDescription": "Before signing any contract, ask these questions about auto-renewal, price escalation, cancellation penalties, hidden fees, scope changes, and dispute.",
+      "reason": "Completed an ellipsis-truncated description.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    },
+    {
+      "url": "https://detecthiddenfees.com/what-should-i-check-before-signing-a-contract",
+      "file": "what-should-i-check-before-signing-a-contract.html",
+      "oldTitle": "What Should I Check Before Signing a Contract:… | DetectHiddenFees",
+      "newTitle": "What Should I Check Before Signing a Contract? | DetectHiddenFees",
+      "oldDescription": "Discover what you should check before signing a contract. From hidden fees to termination terms, learn how to protect yourself with AI analysis.",
+      "newDescription": "Discover what you should check before signing a contract. From hidden fees to termination terms, learn how to protect yourself with AI analysis.",
+      "reason": "Removed literal title truncation.",
+      "validation": "Pass: unique title/description, self-canonical, OG/Twitter metadata present."
+    }
+  ],
+  "validation": {
+    "allCanonicalPagesHaveTitle": true,
+    "allCanonicalPagesHaveDescription": true,
+    "allCanonicalPagesUseHttpsCanonical": true,
+    "noLiteralTitleEllipsis": true,
+    "noLiteralDescriptionEllipsis": true,
+    "llmsCanonicalUrlCount": 225,
+    "rssEditorialItemCount": 162
+  }
+}
