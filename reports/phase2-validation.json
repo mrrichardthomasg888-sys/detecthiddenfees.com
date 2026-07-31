@@ -1,0 +1,1170 @@
+{
+  "html": {
+    "canonicalPages": 225,
+    "missingFiles": [],
+    "badCanonicals": [],
+    "duplicateCanonicalTags": [
+      {
+        "route": "/ai-bill-analyzer-vs-chatgpt",
+        "count": 2
+      },
+      {
+        "route": "/ai-testing-results",
+        "count": 2
+      },
+      {
+        "route": "/how-ai-detects-fees",
+        "count": 2
+      },
+      {
+        "route": "/sample-analysis-report",
+        "count": 2
+      }
+    ],
+    "brokenInternalLinks": [],
+    "legacyHtmlInternalLinks": [],
+    "navigationIssues": [],
+    "breadcrumbIssues": [],
+    "mainLandmarkIssues": [],
+    "schemaIssues": [],
+    "noindexPages": [],
+    "htmlParseErrors": [
+      {
+        "route": "/about-detect-hidden-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 500 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-accuracy-and-limitations",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 503 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-agreement-analyzer",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 507 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-agreement-checker",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1588 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-analysis-hub",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 514 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-analysis-methodology",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 504 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-bill-analysis-vs-manual-review",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 501 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-bill-analyzer",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 505 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-bill-analyzer-vs-chatgpt",
+        "error": "Tag header invalid, line 21, column 285 (<string>, line 21)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-bill-checker",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 414 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-bill-negotiation",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 514 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-commercial-lease-review",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1568 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-construction-contract-review",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 514 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-consulting-agreement-review",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1617 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-contract-analysis",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 512 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-contract-checker",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1580 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-contract-resource-center",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 478 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-contract-review",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 517 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-contract-review-before-signing",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 514 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-contract-review-software",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 505 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-contract-review-tool",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 505 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-contract-review-vs-chatgpt",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 505 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-contract-review-vs-lawyer-review",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 509 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-contract-review-vs-manual-review",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 500 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-contract-risk-score",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 503 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-contractor-agreement-review",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1594 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-document-analysis-benefits",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 506 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-document-analysis-tools",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 518 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-document-checker",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 414 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-document-intelligence-center",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 507 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-document-review-tool",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1589 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-document-reviewer",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 509 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-document-risk-analysis",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1608 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-document-scanner",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 414 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-employment-contract-review",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1658 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-estimate-checker",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1586 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-estimate-review",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 501 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-fee-detector",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 462 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-financial-advisor",
+        "error": "htmlParseEntityRef: expecting ';', line 7, column 121 (<string>, line 7)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-financial-analysis",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 499 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-financial-assistant",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 494 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-freelance-contract-review",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1588 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-hidden-fee-questions",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 494 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-invoice-analyzer",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 506 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-invoice-checker",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 414 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-lease-review",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 493 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-pricing-analysis",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 414 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-proposal-review",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 511 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-purchase-agreement-review",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 502 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-purchase-contract-review",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1559 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-quote-analyzer",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1563 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-quote-review",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 500 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-receipt-analyzer",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 505 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-rental-lease-analyzer",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1547 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-service-contract-review",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 512 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-software-license-review",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1591 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-statement-analyzer",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 519 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-testing-results",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1980 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-transparency-report",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 497 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/ai-vendor-contract-review",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1563 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/analyze-contract-online",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1572 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/analyze-my-bill",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 493 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/analyze-my-contract",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 496 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/analyze-my-document",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 466 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/analyze-my-estimate",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 501 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/analyze-my-invoice",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 503 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/arbitration-clauses-explained",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1602 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/automatic-renewal-clauses",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1625 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/before-signing-a-contract",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1575 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/before-signing-contract-checklist",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 518 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/best-ai-bill-analyzer-tools",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 500 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/best-ai-contract-analysis-tools",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 487 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/best-hidden-fee-detector-tools",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 496 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/bill-negotiation-letter",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 514 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/bill-negotiation-resource-center",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 517 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/bill-negotiation-service",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 509 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/bill-negotiation-templates",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 501 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/bill-savings-calculator",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 507 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/business-contract-review",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 499 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/can-ai-analyze-financial-documents",
+        "error": "htmlParseEntityRef: expecting ';', line 2, column 121 (<string>, line 2)",
+        "preExisting": true
+      },
+      {
+        "route": "/can-ai-detect-duplicate-billing-charges",
+        "error": "htmlParseEntityRef: expecting ';', line 2, column 121 (<string>, line 2)",
+        "preExisting": true
+      },
+      {
+        "route": "/can-ai-find-hidden-fees-in-a-contract",
+        "error": "htmlParseEntityRef: expecting ';', line 2, column 121 (<string>, line 2)",
+        "preExisting": true
+      },
+      {
+        "route": "/can-ai-review-a-contract-before-signing",
+        "error": "htmlParseEntityRef: expecting ';', line 2, column 121 (<string>, line 2)",
+        "preExisting": true
+      },
+      {
+        "route": "/cancellation-fee-clauses",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1569 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/change-order-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 508 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/check-my-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 501 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/consumer-fee-trends-report",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 510 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/consumer-financial-intelligence-center",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 506 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/consumer-negotiation-academy",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 502 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/consumer-negotiation-resource-center",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 506 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/contact",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 459 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/contract-analysis-ai",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 503 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/contract-clause-checker",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1569 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/contract-fee-analysis",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 501 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/contract-fee-checker",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1572 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/contract-negotiation-assistant",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 504 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/contract-red-flag-checker",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 509 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/contract-red-flags",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 501 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/contract-review-ai-software",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 499 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/contract-review-checklist",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 499 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/contract-risk-analysis",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 500 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/contract-risk-assessment-ai-tool",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 507 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/contract-risk-assessment-guide",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 503 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/contract-risk-score",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 503 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/contract-terms-analyzer-ai",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 515 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/contract-terms-glossary",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 497 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/data-handling-policy",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 500 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/detect-hidden-contract-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1576 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/duplicate-medical-billing-charges",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 514 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/early-termination-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1574 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/editorial-methodology",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 500 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/editorial-policy",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 501 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/estimate-vs-quote",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 521 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/example-auto-financing",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 521 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/example-cell-phone-bill",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 521 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/example-home-renovation-proposal",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 514 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/example-hvac-estimate",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 527 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/example-internet-service-agreement",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 517 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/example-medical-bill",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 533 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/fee-negotiation-checklist",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 510 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/fee-removal-request-template",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 502 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/financial-analysis-software",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 500 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/financial-analysis-tools",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 496 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/find-hidden-fees-in-contract",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1587 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/free-ai-contract-review-vs-paid-review",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 498 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/free-hidden-fee-scanner",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 494 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/free-vs-paid-contract-review",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 510 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-auto-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 3, column 121 (<string>, line 3)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-bank-overdraft-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 516 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-banking-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 3, column 121 (<string>, line 3)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-billing-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 511 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-clauses-in-contracts",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1565 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-contract-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 503 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-contractor-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 3, column 121 (<string>, line 3)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-credit-card-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 516 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-dealership-financing-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 521 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-electrician-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 499 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-fee-analysis-tool",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 471 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-fee-calculator",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 509 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-fee-database",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 509 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-fee-detector",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 496 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-fee-dictionary",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 511 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-fee-encyclopedia",
+        "error": "htmlParseEntityRef: expecting ';', line 3, column 121 (<string>, line 3)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-fee-examples",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 509 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-fee-glossary",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 498 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-fee-index",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 508 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-fee-industry-guide",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 762 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-fee-intelligence-center",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 503 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-fee-intelligence-engine",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 499 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-fee-knowledge-center",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 501 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-fee-prevention-guide",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 504 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-fee-reports",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 502 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-fee-risk-score",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 494 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-fee-scanner",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 493 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-fee-statistics",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 510 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-fees-guides",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 515 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-fees-resource-center",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 500 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-healthcare-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 3, column 121 (<string>, line 3)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-home-renovation-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 513 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-hvac-contractor-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 526 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-insurance-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 13, column 96 (<string>, line 13)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-internet-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 502 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-investment-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 518 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-landscaping-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 514 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-loan-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 499 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-mortgage-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 503 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-moving-company-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 503 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-phone-bill-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 513 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-plumbing-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 499 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-rental-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 13, column 96 (<string>, line 13)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-roofing-contractor-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 498 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-streaming-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 511 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-subscription-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 506 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-telecom-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 3, column 121 (<string>, line 3)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-travel-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 13, column 96 (<string>, line 13)",
+        "preExisting": true
+      },
+      {
+        "route": "/hidden-utility-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 14, column 96 (<string>, line 14)",
+        "preExisting": true
+      },
+      {
+        "route": "/hiddenfeeai-vs-bill-negotiation-services",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 514 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hiddenfeeai-vs-lawyer-review",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 510 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hiddenfeeai-vs-traditional-negotiation",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 512 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/hospital-bill-negotiation-guide",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 515 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/how-ai-detects-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1984 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/how-can-i-check-if-a-bill-is-incorrect",
+        "error": "htmlParseEntityRef: expecting ';', line 2, column 121 (<string>, line 2)",
+        "preExisting": true
+      },
+      {
+        "route": "/how-detect-hidden-fees-works",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 508 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/how-do-companies-hide-fees-in-contracts",
+        "error": "htmlParseEntityRef: expecting ';', line 2, column 121 (<string>, line 2)",
+        "preExisting": true
+      },
+      {
+        "route": "/how-do-i-find-hidden-fees-in-an-invoice",
+        "error": "htmlParseEntityRef: expecting ';', line 2, column 121 (<string>, line 2)",
+        "preExisting": true
+      },
+      {
+        "route": "/how-to-negotiate-medical-bills",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 512 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/how-to-read-an-invoice",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 504 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/how-to-reduce-medical-bills",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 499 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/how-to-review-a-contract",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 500 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/how-we-analyze-contracts",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 491 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/identify-contract-risks",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1607 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/indemnification-clauses-explained",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1628 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 508 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/invoice-red-flags",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 508 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/knowledge-center",
+        "error": "htmlParseEntityRef: expecting ';', line 3, column 121 (<string>, line 3)",
+        "preExisting": true
+      },
+      {
+        "route": "/legal-artificial-intelligence",
+        "error": "htmlParseEntityRef: expecting ';', line 7, column 121 (<string>, line 7)",
+        "preExisting": true
+      },
+      {
+        "route": "/medical-bill-audit",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 507 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/medical-bill-error-checklist",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 505 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/medical-bill-negotiation-template",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 542 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/medical-debt-negotiation",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 503 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/medical-debt-relief-options",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 518 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/negotiate-bills",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 492 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/negotiate-hospital-bill",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 521 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/negotiation-scripts",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 503 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/our-evaluation-process",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 511 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/privacy-and-ai-security",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 473 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/reduce-monthly-bills",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 517 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/research-center",
+        "error": "htmlParseEntityRef: expecting ';', line 3, column 121 (<string>, line 3)",
+        "preExisting": true
+      },
+      {
+        "route": "/research-methodology",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 495 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/resource-library",
+        "error": "htmlParseEntityRef: expecting ';', line 3, column 121 (<string>, line 3)",
+        "preExisting": true
+      },
+      {
+        "route": "/review-contract-online",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1543 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/sample-analysis-report",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1982 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/scan-my-invoice",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 499 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/security-overview",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 491 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/service-agreement-red-flags",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 510 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/terms-of-service",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 465 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/types-of-hidden-fees",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 500 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/unfair-contract-terms",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1608 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/upload-bill-for-analysis",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 470 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/upload-contract-for-review",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1596 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/upload-document-for-ai-analysis",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1607 (<string>, line 1)",
+        "preExisting": true
+      },
+      {
+        "route": "/what-are-common-hidden-fees-in-service-agreements",
+        "error": "htmlParseEntityRef: expecting ';', line 2, column 121 (<string>, line 2)",
+        "preExisting": true
+      },
+      {
+        "route": "/what-fees-should-i-look-for-in-a-contractor-estimate",
+        "error": "htmlParseEntityRef: expecting ';', line 2, column 121 (<string>, line 2)",
+        "preExisting": true
+      },
+      {
+        "route": "/what-questions-should-i-ask-before-signing-a-contract",
+        "error": "htmlParseEntityRef: expecting ';', line 2, column 121 (<string>, line 2)",
+        "preExisting": true
+      },
+      {
+        "route": "/what-should-i-check-before-signing-a-contract",
+        "error": "htmlParseEntityRef: expecting ';', line 1, column 1599 (<string>, line 1)",
+        "preExisting": true
+      }
+    ]
+  },
+  "discovery": {
+    "sitemapCount": 225,
+    "sitemapError": null,
+    "sitemapNonCanonicalUrls": [],
+    "llmsCount": 225,
+    "llmsNonCanonicalUrls": [],
+    "rssLinkCount": 163,
+    "rssError": null,
+    "rssNonCanonicalUrls": [],
+    "robotsReferencesSitemap": true
+  }
+}

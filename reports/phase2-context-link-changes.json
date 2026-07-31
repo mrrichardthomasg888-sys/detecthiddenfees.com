@@ -1,0 +1,53 @@
+[
+  {
+    "source": "/ai-contract-review",
+    "targets": [
+      "/before-signing-a-contract",
+      "/what-should-i-check-before-signing-a-contract",
+      "/ai-contract-review-before-signing"
+    ],
+    "reason": "High-confidence parent-to-child contextual discovery links for orphan or underlinked pages."
+  },
+  {
+    "source": "/ai-contract-review-software",
+    "targets": [
+      "/contract-review-ai-software"
+    ],
+    "reason": "High-confidence parent-to-child contextual discovery links for orphan or underlinked pages."
+  },
+  {
+    "source": "/hidden-fee-industry-guide",
+    "targets": [
+      "/hidden-auto-fees",
+      "/hidden-insurance-fees",
+      "/hidden-telecom-fees",
+      "/hidden-utility-fees"
+    ],
+    "reason": "High-confidence parent-to-child contextual discovery links for orphan or underlinked pages."
+  },
+  {
+    "source": "/research-center",
+    "targets": [
+      "/ai-testing-results",
+      "/sample-analysis-report"
+    ],
+    "reason": "High-confidence parent-to-child contextual discovery links for orphan or underlinked pages."
+  },
+  {
+    "source": "/ai-invoice-analyzer",
+    "targets": [
+      "/scan-my-invoice",
+      "/ai-invoice-checker",
+      "/analyze-my-invoice"
+    ],
+    "reason": "High-confidence parent-to-child contextual discovery links for orphan or underlinked pages."
+  },
+  {
+    "source": "/ai-bill-analyzer",
+    "targets": [
+      "/ai-bill-analysis-vs-manual-review",
+      "/ai-bill-analyzer-vs-chatgpt"
+    ],
+    "reason": "High-confidence parent-to-child contextual discovery links for orphan or underlinked pages."
+  }
+]
