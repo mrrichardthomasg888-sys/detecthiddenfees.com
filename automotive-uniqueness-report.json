@@ -1,0 +1,121 @@
+{
+  "generatedAt": "2026-08-01T22:56:31.544Z",
+  "guides": 15,
+  "paragraphCount": 1110,
+  "exactDuplicateParagraphGroups": 0,
+  "exactDuplicateParagraphInstances": 0,
+  "exactDuplicateParagraphPercentage": 0,
+  "repeatedHeadings": [
+    {
+      "heading": "related resources",
+      "pages": [
+        "dealer-add-on-cost-breakdown",
+        "hidden-auto-loan-fees",
+        "hidden-car-dealer-fees-guide",
+        "auto-loan-fine-print-explained",
+        "vehicle-purchase-agreement-review-guide",
+        "dealer-documentation-fees-explained",
+        "dealer-markup-explained",
+        "extended-warranty-hidden-costs",
+        "gap-insurance-cost-analysis",
+        "car-purchase-contract-red-flags",
+        "spot-delivery-scam-guide",
+        "auto-financing-hidden-charges",
+        "car-buying-checklist-before-signing",
+        "hidden-dealer-charges-by-state",
+        "dealer-fee-negotiation-guide"
+      ]
+    }
+  ],
+  "repeatedFaqs": [],
+  "repeatedCtaCopies": [],
+  "semanticSimilarityPairs": [
+    {
+      "score": 0.7352,
+      "pages": [
+        "hidden-car-dealer-fees-guide",
+        "vehicle-purchase-agreement-review-guide"
+      ]
+    },
+    {
+      "score": 0.7191,
+      "pages": [
+        "dealer-documentation-fees-explained",
+        "hidden-dealer-charges-by-state"
+      ]
+    },
+    {
+      "score": 0.7189,
+      "pages": [
+        "hidden-car-dealer-fees-guide",
+        "dealer-fee-negotiation-guide"
+      ]
+    },
+    {
+      "score": 0.7151,
+      "pages": [
+        "dealer-add-on-cost-breakdown",
+        "hidden-car-dealer-fees-guide"
+      ]
+    },
+    {
+      "score": 0.7149,
+      "pages": [
+        "hidden-car-dealer-fees-guide",
+        "dealer-markup-explained"
+      ]
+    },
+    {
+      "score": 0.7147,
+      "pages": [
+        "car-buying-checklist-before-signing",
+        "dealer-fee-negotiation-guide"
+      ]
+    },
+    {
+      "score": 0.7109,
+      "pages": [
+        "hidden-car-dealer-fees-guide",
+        "car-buying-checklist-before-signing"
+      ]
+    },
+    {
+      "score": 0.7081,
+      "pages": [
+        "hidden-car-dealer-fees-guide",
+        "auto-financing-hidden-charges"
+      ]
+    },
+    {
+      "score": 0.707,
+      "pages": [
+        "car-purchase-contract-red-flags",
+        "spot-delivery-scam-guide"
+      ]
+    },
+    {
+      "score": 0.7039,
+      "pages": [
+        "hidden-car-dealer-fees-guide",
+        "car-purchase-contract-red-flags"
+      ]
+    }
+  ],
+  "wordCounts": {
+    "dealer-add-on-cost-breakdown": 7395,
+    "hidden-auto-loan-fees": 7656,
+    "hidden-car-dealer-fees-guide": 7305,
+    "auto-loan-fine-print-explained": 7414,
+    "vehicle-purchase-agreement-review-guide": 7294,
+    "dealer-documentation-fees-explained": 7730,
+    "dealer-markup-explained": 7542,
+    "extended-warranty-hidden-costs": 7370,
+    "gap-insurance-cost-analysis": 7729,
+    "car-purchase-contract-red-flags": 7254,
+    "spot-delivery-scam-guide": 7725,
+    "auto-financing-hidden-charges": 7426,
+    "car-buying-checklist-before-signing": 7402,
+    "hidden-dealer-charges-by-state": 7760,
+    "dealer-fee-negotiation-guide": 7739
+  }
+}

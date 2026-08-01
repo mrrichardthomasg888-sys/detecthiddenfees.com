@@ -7,6 +7,7 @@ const referenceHtml = fs.readFileSync('about-detect-hidden-fees.html','utf8');
 const referenceStyle = (referenceHtml.match(/<style>([\s\S]*?)<\/style>/) || ['', ''])[1];
 const sharedHeader = (referenceHtml.match(/<header[\s\S]*?<\/nav>/) || [''])[0];
 const sharedFooter = (referenceHtml.match(/<footer>[\s\S]*?<\/footer><div class="sticky-cta-bar">[\s\S]*?<\/a><\/div>/) || [''])[0];
+const remediation = require('./automotive-remediation');
 
 const pages = [
   {slug:'dealer-add-on-cost-breakdown', title:'Dealer Add-On Cost Breakdown: Every Hidden Car Dealer Fee Explained', short:'A line-by-line field guide to optional products, dealer charges, and the financing math that turns a “small” add-on into a large lifetime cost.', tag:'THE DEALER DESK', angle:'the complete add-on stack', topics:['market adjustments','documentation fees','GAP','service contracts','protection packages','etching','accessories']},
@@ -176,9 +177,9 @@ function optimizeHtml(out){
   }
   return out;
 }
-fs.writeFileSync('automotive-authority.css',automotiveCss);
-fs.writeFileSync('car-dealer-fees.html',optimizeHtml(renderHtml(normalizeHub(hub()))));
-for(const p of pages) fs.writeFileSync(`${p.slug}.html`,optimizeHtml(renderHtml(personalizeBenchmarks(page(p),p))));
+fs.writeFileSync('automotive-authority.css',automotiveCss + remediation.css);
+fs.writeFileSync('car-dealer-fees.html',remediation.remediateHub(optimizeHtml(renderHtml(normalizeHub(hub()))),pages,sharedHeader,sharedFooter));
+for(const p of pages) fs.writeFileSync(`${p.slug}.html`,remediation.remediateGuide(optimizeHtml(renderHtml(personalizeBenchmarks(page(p),p))),p,sharedHeader,sharedFooter));
 
 const urls=['car-dealer-fees',...pages.map(p=>p.slug)];
 const sitemap=`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urls.map(u=>`<url><loc>${site}/${u}</loc><lastmod>${today}</lastmod><changefreq>monthly</changefreq><priority>${u==='car-dealer-fees'?'0.9':'0.8'}</priority></url>`).join('')}</urlset>`;
@@ -189,4 +190,6 @@ function addToSitemap(){ const f='sitemap.xml'; if(!fs.existsSync(f)) return; le
 function addToRss(){ const f='rss.xml'; if(!fs.existsSync(f)) return; let x=fs.readFileSync(f,'utf8'); const additions=pages.filter(p=>!x.includes(`/${p.slug}`)).map(p=>`<item><title>${esc(p.title)}</title><link>${site}/${p.slug}</link><guid isPermaLink="true">${site}/${p.slug}</guid><description>${esc(p.short)}</description><pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate></item>`).join(''); x=x.replace('</channel>',`${additions}</channel>`); fs.writeFileSync(f,x); }
 function addToLlms(){ const f='llms.txt'; if(!fs.existsSync(f)) return; let x=fs.readFileSync(f,'utf8'); if(!x.includes('Automotive Authority Hub')) x += `\n\n## Automotive Authority Hub\n\n- [Car Dealer Fees & Auto Financing Authority Hub](${site}/car-dealer-fees) — hub for the 15 automotive guides below.\n${pages.map(p=>`- [${p.title}](${site}/${p.slug})`).join('\n')}\n`; fs.writeFileSync(f,x); }
 addToSitemap(); addToRss(); addToLlms();
+const ctaMatrix = [{slug:'car-dealer-fees',url:`${site}/car-dealer-fees`,searchIntent:remediation.hubConfig.intent,readerConcern:remediation.hubConfig.concern,documentType:remediation.hubConfig.document,topCta:remediation.hubConfig.cta.topHeadline,middleCta:remediation.hubConfig.cta.middleHeadline,bottomCta:remediation.hubConfig.cta.bottomHeadline,stickyCta:remediation.hubConfig.cta.stickyLabel,primaryConversionGoal:remediation.hubConfig.goal},...pages.map(p=>{const c=remediation.configs[p.slug]; return {slug:p.slug,url:`${site}/${p.slug}`,searchIntent:c.intent,readerConcern:c.concern,documentType:c.document,topCta:c.cta.topHeadline,middleCta:c.cta.middleHeadline,bottomCta:c.cta.bottomHeadline,stickyCta:c.cta.stickyLabel,primaryConversionGoal:c.goal};})];
+fs.writeFileSync('automotive-cta-matrix.json',JSON.stringify(ctaMatrix,null,2));
 console.log(`Built ${urls.length} automotive authority pages plus sitemap, RSS feed, and LLM reference file.`);
