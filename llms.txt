@@ -71,7 +71,12 @@
 - [Hidden Utility & Energy Fees: Regulatory Charges, Distribution Fees, Transmission Surcharges & More](https://detecthiddenfees.com/hidden-utility-fees) — Canonical page for this topic.
 - [Types of Hidden Fees: Complete Classification System](https://detecthiddenfees.com/types-of-hidden-fees) — Canonical page for this topic.
 
+- [Mandatory vs. Optional Fees: How to Tell the Difference](https://detecthiddenfees.com/mandatory-vs-optional-fees) — Educational guide to classifying required charges and add-ons.
+- [How to Dispute a Hidden Fee](https://detecthiddenfees.com/how-to-dispute-a-hidden-fee) — Documentation-first consumer action guide for questioning unexpected charges.
+
 ## AI contract review and clauses
+
+- [Price Escalation Clauses: How Contract Increases Work](https://detecthiddenfees.com/price-escalation-clauses) — Explains triggers, formulas, caps, notice, and review questions.
 
 - [AI Contract Analysis That Actually Understands Your Documents](https://detecthiddenfees.com/ai-contract-analysis) — Canonical page for this topic.
 - [AI Contract Checker: Find Hidden Fees Before You Sign](https://detecthiddenfees.com/ai-contract-checker) — Canonical page for this topic.
