@@ -2,12 +2,12 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const INDEXNOW_KEY = '241f89e1cd603413c1ee2de939c63dbb';
+const INDEXNOW_KEY = process.env.INDEXNOW_KEY;
+const INDEXNOW_KEY_LOCATION = process.env.INDEXNOW_KEY_LOCATION;
 const SITEMAP_URL = 'https://detecthiddenfees.com/sitemap.xml';
 const INDEXNOW_URL = 'https://api.indexnow.org/indexnow';
 const HOST = 'detecthiddenfees.com';
 
-const KEY_FILE = path.join(__dirname, '..', 'indexnow-key.txt');
 const LOG_FILE = path.join(__dirname, '..', 'indexnow-log.json');
 const SITEMAP_FILE = path.join(__dirname, '..', 'sitemap.xml');
 
@@ -43,7 +43,7 @@ function submitToIndexNow(urls) {
     const payload = JSON.stringify({
       host: HOST,
       key: INDEXNOW_KEY,
-      keyLocation: 'https://' + HOST + '/indexnow-key.txt',
+      keyLocation: INDEXNOW_KEY_LOCATION,
       urlList: urls
     });
 
@@ -71,8 +71,10 @@ function submitToIndexNow(urls) {
 async function main() {
   console.log('=== IndexNow Submission Script ===');
   console.log('Host: ' + HOST);
-  console.log('Key: ' + INDEXNOW_KEY);
   console.log('');
+  if (!INDEXNOW_KEY || !INDEXNOW_KEY_LOCATION) {
+    throw new Error('INDEXNOW_KEY and INDEXNOW_KEY_LOCATION must be provided by the secured server-side environment.');
+  }
 
   const log = loadLog();
   const allUrls = getUrlsFromSitemap();

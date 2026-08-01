@@ -26,4 +26,3 @@ Allow: /
 Sitemap: https://detecthiddenfees.com/sitemap.xml
 
 # RSS is a supplementary discovery channel; the sitemap remains canonical.
-# IndexNow key: https://detecthiddenfees.com/indexnow-key.txt

@@ -718,7 +718,7 @@ Pages not worth submitting due to being merges/redirects:
 ### Implementation Script Structure
 ```javascript
 // bing_submit.js structure
-const BING_API_KEY = 'YOUR_BING_API_KEY_HERE';
+const BING_API_KEY = process.env.BING_API_KEY;
 const SITE_URL = 'https://detecthiddenfees.com';
 
 const priorityQueue = [

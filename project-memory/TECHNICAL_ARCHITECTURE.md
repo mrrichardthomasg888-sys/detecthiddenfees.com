@@ -37,7 +37,6 @@
 ├── sitemap.xml
 ├── robots.txt
 ├── _headers
-├── indexnow-key.txt
 ├── /project-memory/          # This folder
 ```
 
@@ -60,7 +59,7 @@
 
 ## Environment Variables
 - None stored in repo (static site)
-- IndexNow key: `241f89e1cd603413c1ee2de939c63dbb` (in indexnow-key.txt)
+- IndexNow submission credentials are not stored in the repository. If IndexNow is enabled, credentials must be supplied through the secured server-side environment and rotated outside source control.
 - Bing Webmaster API key: NOT CONFIGURED — needs to be set up
 
 ## Cloudflare

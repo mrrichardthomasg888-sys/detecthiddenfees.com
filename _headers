@@ -23,10 +23,6 @@
   Content-Type: application/rss+xml; charset=utf-8
   Cache-Control: public, max-age=3600
 
-/indexnow-key.txt
-  Content-Type: text/plain; charset=utf-8
-  Cache-Control: public, max-age=3600
-
 # Fonts and SVG - immutable cache
 /favicon.svg
   Content-Type: image/svg+xml

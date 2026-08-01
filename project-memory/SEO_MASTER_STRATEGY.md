@@ -103,7 +103,7 @@ Rank DetectHiddenFees.com as the #1 authority website for hidden fee intelligenc
 ## Indexing Strategy
 - **robots.txt**: Allow all major crawlers
 - **sitemap.xml**: ~145 URLs submitted
-- **IndexNow**: Key exists (`241f89e1cd603413c1ee2de939c63dbb`) but currently unused per user preference
+- **IndexNow**: Credentials are not stored in the repository. Any future key must be rotated externally and supplied only through a secured server-side environment.
 - **Bing Webmaster API**: NOT configured — BLOCKED pending API key from user
 - **Google Search Console**: Should be configured (check domain ownership)
 
