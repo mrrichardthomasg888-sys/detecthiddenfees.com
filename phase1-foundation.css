@@ -34,7 +34,7 @@
 
 .phase1-breadcrumb .phase1-separator {
   margin: 0 8px;
-  color: #64748b;
+  color: #94a3b8;
 }
 
 .phase2-global-nav {
@@ -114,7 +114,7 @@
 
 .phase2-breadcrumb .phase2-separator {
   margin: 0 8px;
-  color: #64748b;
+  color: #94a3b8;
 }
 
 .phase2-global-nav a:focus-visible,
@@ -122,6 +122,26 @@
 .phase2-breadcrumb span[aria-current="page"]:focus-visible {
   outline: 3px solid #60a5fa;
   outline-offset: 3px;
+}
+
+/* Shared contrast and focus baseline for templates that use local components. */
+a {
+  color: #93c5fd;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #93c5fd;
+  outline-offset: 3px;
+}
+
+body footer,
+body footer p,
+body footer li {
+  color: #94a3b8;
 }
 
 @media (max-width: 900px) {
