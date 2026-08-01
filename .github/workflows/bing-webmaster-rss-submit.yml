@@ -1,0 +1,60 @@
+name: Bing Webmaster RSS URL Submission
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Validate the live RSS inventory without contacting Bing'
+        required: false
+        default: false
+        type: boolean
+  push:
+    branches: [main]
+    paths:
+      - 'rss.xml'
+      - '*.html'
+      - '.github/workflows/bing-webmaster-rss-submit.yml'
+  schedule:
+    - cron: '17 3 * * *'
+
+concurrency:
+  group: bing-webmaster-rss-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Restore submission state
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache/bing-rss-submission.json
+          key: bing-rss-submission-${{ github.ref_name }}-${{ github.run_id }}
+          restore-keys: |
+            bing-rss-submission-${{ github.ref_name }}-
+
+      - name: Validate RSS inventory and submit to Bing
+        env:
+          BING_WEBMASTER_API_KEY: ${{ secrets.BING_WEBMASTER_API_KEY }}
+          BING_DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || 'false' }}
+          BING_STATE_FILE: .cache/bing-rss-submission.json
+        run: node scripts/bing-webmaster-rss-submit.js
+
+      - name: Save submission state
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .cache/bing-rss-submission.json
+          key: bing-rss-submission-${{ github.ref_name }}-${{ github.run_id }}
