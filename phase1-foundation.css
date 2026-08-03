@@ -393,3 +393,60 @@ body:has(.sticky-cta-bar) {
 .phase3-source-note{font-size:.9rem;color:#94a3b8}
 .phase3-disclosure{max-width:1000px;margin:24px auto;padding:16px 20px;border-left:3px solid #60a5fa;background:rgba(37,99,235,.08);color:#cbd5e1;line-height:1.7}
 @media (max-width:600px){.phase3-sources{margin:30px 18px;padding:22px 18px}.phase3-sources h2{font-size:1.25rem}}
+
+/* Intentional inline conversion prompt for legacy content and utility pages. */
+.phase1-conversion-cta {
+  max-width: 1000px;
+  margin: 42px auto;
+  padding: 28px 30px;
+  border: 1px solid rgba(96, 165, 250, .28);
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(37, 99, 235, .14), rgba(124, 58, 237, .12));
+  box-shadow: 0 18px 50px rgba(0, 0, 0, .22);
+}
+
+.phase1-conversion-cta h2 {
+  margin: 0 0 10px;
+  color: #fff;
+  font-size: clamp(1.35rem, 3vw, 1.85rem);
+  line-height: 1.2;
+}
+
+.phase1-conversion-cta p {
+  max-width: 760px;
+  margin: 0 0 18px;
+  color: #dbeafe;
+  line-height: 1.75;
+}
+
+.phase1-conversion-cta a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 12px 18px;
+  border: 1px solid rgba(147, 197, 253, .7);
+  border-radius: 12px;
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  color: #fff;
+  font-weight: 800;
+  text-align: center;
+  text-decoration: none;
+}
+
+.phase1-conversion-cta a:hover,
+.phase1-conversion-cta a:focus-visible {
+  background: linear-gradient(135deg, #1d4ed8, #6d28d9);
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .phase1-conversion-cta {
+    margin: 30px 18px;
+    padding: 22px 18px;
+  }
+
+  .phase1-conversion-cta a {
+    width: 100%;
+  }
+}
