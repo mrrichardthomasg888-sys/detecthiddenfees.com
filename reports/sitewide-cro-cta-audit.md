@@ -116,6 +116,16 @@ The sub-100 accessibility scores on the representative legacy pages are attribut
 
 No URLs, title tags, meta descriptions, canonicals, schemas, internal-link strategy, or article content were intentionally changed.
 
-## Release note
+## Production deployment validation
 
-The scoped CRO changes are ready for commit after repository validation. A production deployment should be reported separately with the deployed commit SHA and live-domain crawl results; this report records the local audit evidence and the remaining Lighthouse limitation honestly.
+- Production commit pushed to `main`: `625b3f7d1aeb709bdc52b0bb6fbb24622dc625cf`.
+- Live hosting: Cloudflare edge headers (`server: cloudflare`, `cf-cache-status: DYNAMIC`) confirmed the deployed site is being served through Cloudflare.
+- Live sitemap crawl: 245/245 URLs returned HTTP 200.
+- Live pages: no homepage fallback, no blank pages, no missing titles, no missing H1s, no canonical mismatches, and no duplicate sticky bars.
+- Live internal-link audit: 12,067 root-relative links checked; 0 broken targets.
+- Live CTA destination: `https://hiddenfeeai.com/` returned HTTP 200.
+- Live asset checks: `/phase1-foundation.css?v=sticky6` returned HTTP 200 and `/favicon.svg` returned HTTP 200.
+- Live nonexistent URL `/this-page-does-not-exist-cro-audit` returned HTTP 404 with the site’s Page Not Found title.
+- Live automotive resources: `/sitemap.xml`, `/sitemap-car-dealer-fees.xml`, `/rss.xml`, `/rss-car-dealer-fees.xml`, `/llms.txt`, and `/llms-car-dealer-fees.txt` each contained all 16 automotive references and returned HTTP 200. `robots.txt` returned HTTP 200.
+
+The scoped CRO changes are deployed and live. The Lighthouse limitation above remains open as a separate legacy accessibility/performance remediation item; it was not silently presented as a full-site 100 score.
