@@ -118,7 +118,8 @@ No URLs, title tags, meta descriptions, canonicals, schemas, internal-link strat
 
 ## Production deployment validation
 
-- Production commit pushed to `main`: `625b3f7d1aeb709bdc52b0bb6fbb24622dc625cf`.
+- CRO implementation commit pushed to `main`: `625b3f7d1aeb709bdc52b0bb6fbb24622dc625cf`.
+- Final `main` head after adding this live-validation report: `35e2eabcced0b2f7dcd0d3ce4e76a1d4591f6f65` (report-only follow-up; page output is unchanged).
 - Live hosting: Cloudflare edge headers (`server: cloudflare`, `cf-cache-status: DYNAMIC`) confirmed the deployed site is being served through Cloudflare.
 - Live sitemap crawl: 245/245 URLs returned HTTP 200.
 - Live pages: no homepage fallback, no blank pages, no missing titles, no missing H1s, no canonical mismatches, and no duplicate sticky bars.
