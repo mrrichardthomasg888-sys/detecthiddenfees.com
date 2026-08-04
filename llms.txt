@@ -3,7 +3,7 @@
 > DetectHiddenFees is an AI-powered consumer information and document-analysis website focused on hidden fees, contract terms, bills, invoices, estimates, pricing transparency, and negotiation preparation.
 
 - Website: DetectHiddenFees.com
-- Canonical content URLs: 226
+- Canonical content URLs: 262
 - Related product: https://hiddenfeeai.com
 - Relationship: DetectHiddenFees provides education, research, and product information; HiddenFeeAI is the related document-analysis product.
 - This file lists canonical clean URLs only. Redirect sources and administrative routes are excluded.
@@ -279,3 +279,23 @@
 - [Car Buying Checklist Before Signing: Print This at the Dealership](https://detecthiddenfees.com/car-buying-checklist-before-signing)
 - [Hidden Dealer Charges by State: A National Overview for Car Buyers](https://detecthiddenfees.com/hidden-dealer-charges-by-state)
 - [Dealer Fee Negotiation Guide: Scripts, Math, and Leverage That Work](https://detecthiddenfees.com/dealer-fee-negotiation-guide)
+
+## Calculator Authority Center
+
+- [Calculator Authority Center](https://detecthiddenfees.com/calculator-authority-center) — index of focused cost, fee, renewal, risk, and savings calculators.
+- [Contract Cost Calculator](https://detecthiddenfees.com/contract-cost-calculator) — estimate the full cost of an agreement across its term.
+- [Automatic Renewal Calculator](https://detecthiddenfees.com/automatic-renewal-calculator) — plan review, notice, and cancellation deadlines.
+- [Price Escalation Calculator](https://detecthiddenfees.com/price-escalation-calculator) — estimate increases created by escalation clauses.
+- [Termination Fee Calculator](https://detecthiddenfees.com/termination-fee-calculator) — estimate early exit and cancellation exposure.
+- [Late Fee Calculator](https://detecthiddenfees.com/late-fee-calculator) — estimate late charges and payment timing exposure.
+- [Subscription Cost Calculator](https://detecthiddenfees.com/subscription-cost-calculator) — compare recurring subscription fees over monthly and annual periods.
+- [Service Fee Calculator](https://detecthiddenfees.com/service-fee-calculator) — estimate service charges beyond a quoted price.
+- [Processing Fee Calculator](https://detecthiddenfees.com/processing-fee-calculator) — estimate payment processing and merchant fee exposure.
+- [Convenience Fee Calculator](https://detecthiddenfees.com/convenience-fee-calculator) — estimate convenience charges and payment surcharges.
+- [Contract Risk Calculator](https://detecthiddenfees.com/contract-risk-calculator) — organize contract risk signals before review.
+- [Hidden Fee Risk Calculator](https://detecthiddenfees.com/hidden-fee-risk-calculator) — score hidden-fee exposure in unclear pricing terms.
+- [Invoice Calculator](https://detecthiddenfees.com/invoice-calculator) — review invoice totals, fees, and line-item exposure.
+- [Negotiation Savings Calculator](https://detecthiddenfees.com/negotiation-savings-calculator) — estimate savings from a fee or price reduction.
+- [Consumer Savings Calculator](https://detecthiddenfees.com/consumer-savings-calculator) — estimate recurring and one-time savings from fee changes.
+- [Hidden Fee Transparency Index](https://detecthiddenfees.com/hidden-fee-transparency-index) — compare how clearly offers disclose their full price.
+- [Contract Clause Library](https://detecthiddenfees.com/contract-clause-library) — reference clauses that affect price, renewal, cancellation, and risk.
