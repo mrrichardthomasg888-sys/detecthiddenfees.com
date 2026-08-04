@@ -92,16 +92,17 @@
   }
   var handoff = document.querySelector(".scan-handoff");
   var closeHandoff = function () { if (handoff) handoff.hidden = true; };
-  document.addEventListener("click", function (event) {
-    var scan = event.target.closest ? event.target.closest(".scan-doc-trigger") : null;
-    var isDesktop = window.matchMedia && window.matchMedia("(min-width: 768px)").matches;
-    if (scan && !isDesktop && scan.href.indexOf("hiddenfeeai.com") > -1) {
+  document.querySelectorAll(".scan-doc-trigger").forEach(function (scan) {
+    scan.onclick = function (event) {
+      var isDesktop = window.matchMedia && window.matchMedia("(min-width: 768px)").matches;
+      if (isDesktop || scan.href.indexOf("hiddenfeeai.com") === -1) return true;
       event.preventDefault();
       event.stopPropagation();
       track(scan);
       window.location.assign(scan.href);
-    }
-  }, true);
+      return false;
+    };
+  });
   document.addEventListener("click", function (event) {
     var el = event.target.closest ? event.target.closest("[data-cta-position]") : null;
     var isHiddenFeeAiLink = el && el.tagName === "A" && el.href.indexOf("hiddenfeeai.com") > -1;
