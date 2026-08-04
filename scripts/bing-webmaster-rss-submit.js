@@ -16,6 +16,7 @@ const DEPLOYMENT_UPDATED = '2026-08-04T00:00:00.000Z';
 
 const deploymentUrls = [
   'calculator-authority-center',
+  'hidden-fee-calculator',
   'contract-cost-calculator',
   'automatic-renewal-calculator',
   'price-escalation-calculator',
