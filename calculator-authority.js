@@ -83,7 +83,7 @@
       event: "hiddenfeeai_cta_click",
       page_slug: el.getAttribute("data-page-slug") || location.pathname.replace(/^\//, "") || "home",
       cta_position: el.getAttribute("data-cta-position") || "unknown",
-      cta_action: el.getAttribute("data-cta-action") || "unknown",
+      cta_action: el.getAttribute("data-cta-intent") || el.getAttribute("data-cta-action") || "unknown",
       cta_variant: el.getAttribute("data-cta-variant") || "unknown"
     };
     window.dispatchEvent(new CustomEvent("dhf:cta", { detail: detail }));
@@ -96,16 +96,17 @@
     var el = event.target.closest ? event.target.closest("[data-cta-position]") : null;
     var isHiddenFeeAiLink = el && el.tagName === "A" && el.href.indexOf("hiddenfeeai.com") > -1;
     var action = isHiddenFeeAiLink ? el.getAttribute("data-cta-action") : null;
+    var isScan = isHiddenFeeAiLink && el.getAttribute("data-cta-intent") === "scan";
     var isDesktop = window.matchMedia && window.matchMedia("(min-width: 768px)").matches;
     if (isHiddenFeeAiLink) {
       track(el);
-      if (action === "upload") {
+      if (action === "upload" || (isScan && !isDesktop)) {
         event.preventDefault();
         window.location.assign(el.href);
         return;
       }
     }
-    var scan = event.target.closest ? event.target.closest('[data-cta-action="scan"]') : null;
+    var scan = event.target.closest ? event.target.closest(".calculator-scan-trigger") : null;
     if (scan && handoff && isDesktop) {
       event.preventDefault();
       handoff.hidden = false;
