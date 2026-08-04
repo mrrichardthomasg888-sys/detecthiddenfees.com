@@ -50,6 +50,7 @@ jobs:
           BING_WEBMASTER_API_KEY: ${{ secrets.BING_WEBMASTER_API_KEY }}
           BING_DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || 'false' }}
           BING_SUBMIT_DEPLOYMENT_URLS: 'true'
+          BING_SUBMISSION_INVENTORY_VERSION: '2026-08-04-2'
           BING_STATE_FILE: .cache/bing-rss-submission.json
         run: node scripts/bing-webmaster-rss-submit.js
 
