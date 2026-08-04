@@ -93,15 +93,14 @@
   var handoff = document.querySelector(".scan-handoff");
   var closeHandoff = function () { if (handoff) handoff.hidden = true; };
   document.querySelectorAll(".scan-doc-trigger").forEach(function (scan) {
-    scan.onclick = function (event) {
+    scan.addEventListener("click", function (event) {
       var isDesktop = window.matchMedia && window.matchMedia("(min-width: 768px)").matches;
-      if (isDesktop || scan.href.indexOf("hiddenfeeai.com") === -1) return true;
+      if (isDesktop || scan.href.indexOf("hiddenfeeai.com") === -1) return;
       event.preventDefault();
       event.stopPropagation();
       track(scan);
       window.location.assign(scan.href);
-      return false;
-    };
+    }, true);
   });
   document.addEventListener("click", function (event) {
     var el = event.target.closest ? event.target.closest("[data-cta-position]") : null;
