@@ -13,8 +13,17 @@
   function result(form, headline, detail) {
     var box = form.querySelector(".calculator-result");
     box.hidden = false;
+    box.setAttribute("aria-live", "polite");
     box.querySelector(".result-main").innerHTML = "<span>Estimated result</span>" + headline;
     box.querySelector(".result-detail").textContent = detail;
+    var resultDetail = {
+      event: "hiddenfee_calculator_result",
+      calculator_type: form.getAttribute("data-calculator") || "unknown",
+      page_slug: location.pathname.replace(/^\//, "") || "home"
+    };
+    window.dispatchEvent(new CustomEvent("dhf:calculator_result", { detail: resultDetail }));
+    if (typeof window.gtag === "function") window.gtag("event", "hiddenfee_calculator_result", resultDetail);
+    if (Array.isArray(window.dataLayer)) window.dataLayer.push(resultDetail);
     box.scrollIntoView({ behavior: "smooth", block: "nearest" });
   }
   function dateText(value) {
