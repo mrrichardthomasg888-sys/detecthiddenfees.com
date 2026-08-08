@@ -147,9 +147,8 @@ body footer li {
 @media (max-width: 900px) {
   .phase2-nav-list {
     justify-content: flex-start;
-    overflow-x: auto;
-    padding-bottom: 2px;
-    scrollbar-width: thin;
+    flex-wrap: wrap;
+    overflow-x: visible;
   }
 }
 
