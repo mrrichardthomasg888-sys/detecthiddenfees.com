@@ -47,3 +47,9 @@
 /security-overview.html
   Cache-Control: no-cache, no-store, must-revalidate
 
+# Developer embed fragment - never treat as an indexable HTML page
+/embed-code-template.html
+  Content-Type: text/plain; charset=utf-8
+  X-Robots-Tag: noindex, nofollow, noarchive
+  Cache-Control: no-cache, no-store, must-revalidate
+

@@ -38,6 +38,11 @@ for (const [name, urls] of [['llms.txt', llms], ['rss.xml', rss]]) {
 }
 if (!read('robots.txt').includes('Sitemap: https://detecthiddenfees.com/sitemap.xml')) errors.push('robots.txt does not reference the canonical sitemap');
 
+const headers = read('_headers');
+if (!headers.includes('/embed-code-template.html')) errors.push('_headers does not classify embed-code-template.html as a non-page asset');
+if (!/\/embed-code-template\.html[\s\S]*?X-Robots-Tag:\s*noindex,\s*nofollow,\s*noarchive/i.test(headers)) errors.push('embed-code-template.html is missing its noindex X-Robots-Tag');
+if (!/\/embed-code-template\.html[\s\S]*?Content-Type:\s*text\/plain/i.test(headers)) errors.push('embed-code-template.html is missing its text/plain content type');
+
 if (errors.length) {
   console.error(errors.join('\n'));
   process.exit(1);
