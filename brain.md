@@ -1415,3 +1415,9 @@ The master validator baseline is 238 pages with zero missing titles/descriptions
 - Commit `9ca4f55` was pushed directly to GitHub `main`. No PR and no Cloudflare deployment were used. The separate user-owned `calculator-authority.css` modification remains unstaged and untouched.
 - Legal blocker: these are general website terms, not a substitute for qualified counsel. Before relying on them as the business's complete binding terms, the site owner should provide or approve the operating entity, jurisdictions, product scope, refund/payment rules, privacy obligations, and limitation language.
 - Next work: audit remaining Search Console pages for unsupported claims and keyword cannibalization, then prioritize internal-link and conversion-path improvements using real Search Console data only.
+
+## Authority roadmap correction - 2026-08-08
+
+- Updated `seo/authority-roadmap.md` so its trust-page inventory reflects the current evidence-safe state of `privacy-and-ai-security.html`, `security-overview.html`, `data-handling-policy.html`, and `terms-of-service.html`.
+- The roadmap now records that privacy and security remain separate, cross-linked intents rather than a merge target, and that the older schema-gap tasks for those pages are obsolete. Current validators and `reports/verification-2026-08-08.md` are the authoritative state.
+- The roadmap explicitly keeps first-party HiddenFeeAI policy evidence and qualified legal review as blockers instead of inventing product guarantees or jurisdiction-specific terms.

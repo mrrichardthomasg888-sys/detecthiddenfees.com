@@ -32,13 +32,15 @@ DetectHiddenFees has strong foundations: premium design, solid schema, growing c
 | ai-analysis-methodology.html | Detailed 5-stage explanation, honest about limitations | Missing: specific accuracy metrics, validation methodology, update frequency |
 | editorial-policy.html | Fact-checking standards, independence commitment | Missing: correction process details, named editorial team, conflict of interest policy, sourcing standards |
 | ai-accuracy-and-limitations.html | Honest about false positives/negatives | Missing: specific detection rate benchmarks, industry-by-industry accuracy data |
-| data-handling-policy.html | Clear deletion timeline, encryption details | Missing: specific compliance frameworks (GDPR, CCPA), third-party audit references |
-| privacy-and-ai-security.html | Strong promises, simple language | Too simple — lacks detail compared to other trust pages; no schema |
-| security-overview.html | Encryption clarity, no-AI-training | Too simple — one-page; no schema; minimal content depth |
-| terms-of-service.html | Comprehensive legal coverage, clear liability limits | Missing: DMCA policy, refund policy details, dispute resolution specifics |
+| data-handling-policy.html | Evidence-safe product boundary, upload questions, source/claim limitations | Current first-party HiddenFeeAI policy evidence is not connected; counsel/product-owner review is still required before treating the page as a product policy |
+| privacy-and-ai-security.html | Evidence-safe privacy boundary, upload questions, six FAQs, and current structured data | Current first-party HiddenFeeAI policy evidence is not connected; do not add product guarantees without it |
+| security-overview.html | Evidence-safe security boundary, upload questions, six FAQs, and current structured data | Current first-party HiddenFeeAI policy evidence is not connected; page intentionally avoids security certification claims |
+| terms-of-service.html | General DetectHiddenFees.com website terms with an explicit HiddenFeeAI product boundary | Qualified counsel must review entity, jurisdiction, product scope, payment/refund, privacy, and limitation language before use as complete binding terms |
 | editorial-methodology.html | Detailed timeline, examples | Misaligned — page is about AI contract review methodology, not editorial methodology. Confusing title/content mismatch. |
 
 ### 2.2 Recommended Improvements
+
+**Current-state correction (2026-08-08):** The historical rows above predate the evidence-safe remediation of `privacy-and-ai-security.html`, `security-overview.html`, `data-handling-policy.html`, and `terms-of-service.html`. For those pages, the latest files, validators, and `reports/verification-2026-08-08.md` are authoritative. Do not re-add product guarantees or schema merely to satisfy the older inventory.
 
 **A. Editorial-methodology.html** — Rewrite to match its title. Currently content is about AI contract review (should be on ai-contract-review.html). Editorial methodology should cover: how topics are selected, how research is conducted, how sources are evaluated, review process, update frequency.
 
@@ -79,7 +81,7 @@ After reviewing the 140+ page inventory (from llms.txt), the following intent cl
 |-------|-----------|-----------|
 | ai-accuracy-and-limitations.html + data-handling-policy.html + privacy-and-ai-security.html | Keep separate but cross-link prominently | Different intents (accuracy vs data vs privacy) |
 | editorial-policy.html + editorial-methodology.html | Keep separate but fix editorial-methodology.html to match its title | 
-| security-overview.html + privacy-and-ai-security.html | Merge into privacy-and-ai-security.html | Content nearly identical, same intent |
+| security-overview.html + privacy-and-ai-security.html | Keep separate and cross-link | Security questions and broader privacy/product-policy limits are related but distinct intents; both now avoid duplicating unsupported product claims |
 | hidden-fee-dictionary.html + hidden-fee-glossary.html + hidden-fee-index.html | Merge into hidden-fee-encyclopedia.html | Encyclopedia supersedes all three |
 
 ### 3.3 Internal Linking Improvements
@@ -289,7 +291,7 @@ Apply this to all pillar pages and major category hubs.
 2. Add SoftwareApplication to all tool/analysis pages
 3. Add HowTo to ai-analysis-methodology.html
 4. Add CollectionPage to resource-library.html
-5. Add BreadcrumbList to privacy-and-ai-security.html, security-overview.html
+5. Keep BreadcrumbList and WebPage coverage on the remediated trust pages; audit remaining pages with the current validator before adding schema
 
 ### 8.2 Canonical URLs
 
@@ -315,7 +317,7 @@ Apply this to all pillar pages and major category hubs.
 
 1. Add resource-library.html to sitemap.xml
 2. Add resource-library.html to llms.txt
-3. Add BreadcrumbList to privacy-and-ai-security.html, security-overview.html
+3. Recheck BreadcrumbList/WebPage coverage with `node scripts/validate-master-mission.js`; the privacy and security pages now have the required structured data
 4. Cross-link trust pages (About → Methodology → Editorial → Privacy)
 
 ### Short-term (1-2 days)

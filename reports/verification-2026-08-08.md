@@ -403,3 +403,9 @@ The invoice analyzer guide was verified after commit `eae5423` propagated. A cac
 - Commit `9ca4f55` was pushed directly to GitHub `main`; the user-owned `calculator-authority.css` change remains unstaged and untouched. No PR or Cloudflare deployment was used.
 - Legal review remains required before treating this as a complete binding commercial terms document. The owner must approve entity, jurisdictions, product scope, refund/payment rules, privacy obligations, and limitation language.
 - Next work: continue the Search Console claim audit and then prioritize internal-link/cannibalization and conversion improvements from connected, real Search Console data.
+
+## Authority roadmap correction - 2026-08-08
+
+- Updated `seo/authority-roadmap.md` to replace stale trust-page descriptions with the verified evidence-safe state of the privacy, security, data-handling, and terms pages.
+- The roadmap now keeps privacy and security as separate linked intents, removes obsolete schema-gap tasks for the remediated pages, and points future work to current validators and this verification report.
+- First-party HiddenFeeAI policy evidence and qualified counsel review remain explicit blockers; no product guarantees or jurisdiction-specific terms are being inferred.
