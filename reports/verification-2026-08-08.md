@@ -3,7 +3,7 @@
 ## Source deployment
 
 - Changes were pushed directly to GitHub `main`.
-- Latest verified commit: `9a6159a` (`Strengthen contractor estimate authority page`), following the discovery governance, deployment handoff, canonical opportunity, attribution, contextual CTA, Research Lab, navigation, cache-bust, embed-route, hub, safe dashboard, evidence-governance, redirect, and exact GSC audit fixes.
+- Latest verified commit: `68ddd68` (`Make construction contract review evidence based`), following the discovery governance, deployment handoff, canonical opportunity, attribution, contextual CTA, Research Lab, navigation, cache-bust, embed-route, hub, safe dashboard, evidence-governance, redirect, exact GSC audit, and contractor-estimate authority fixes.
 - The pre-existing user-owned change to `calculator-authority.css` remains unstaged and untouched.
 
 ## Local verification
@@ -12,7 +12,7 @@
 - Sitemap contains 238 canonical URLs; `llms.txt` contains 238 canonical URLs; RSS contains 178 editorial items.
 - Attribution runtime is present on all 238 canonical pages and does not process document contents.
 - Research manifest remains collecting-only with zero records and no published statistics.
-- High-risk and prioritized unverified product-claim checks pass for nineteen pages, including `hidden-fees-guides.html`; the reusable remediation script is idempotent on a second run.
+- High-risk and prioritized unverified product-claim checks pass for 22 pages, including `hidden-fees-guides.html`, `what-fees-should-i-look-for-in-a-contractor-estimate.html`, and `ai-construction-contract-review.html`; the construction-page remediation script was run twice successfully.
 - The unsupported-claim inventory was refreshed after the hub remediation: 2,175 quantitative-amount candidates, 533 percentage candidates, 1,604 absolute/superlative candidates, 144 performance/outcome candidates, and 172 population/scale candidates. These remain review candidates, not findings that every match is unsupported.
 - The shared stylesheet cache-bust is consistent across 234 HTML files; no `sticky6` references remain and all current references use `sticky7`.
 - All known `.html` redirect aliases now have matching extensionless 301 rules.
@@ -51,3 +51,5 @@ After commit `ad534c5` propagated, the exact stale coverage URL `/alphabet-links
 The exact 40 user-supplied `.html` examples were re-audited and the report was corrected: 38 first return HTTP 308 normalization and 2 first return explicit HTTP 301; all 40 extensionless destinations return HTTP 200 with self-referencing canonicals. This corrected the audit wording without changing any page, sitemap entry, or canonical URL.
 
 The contractor-estimate authority page was verified after commit `9a6159a`. Production returned HTTP 200 and exposed the FTC and California CSLB source links, the updated 2026-08-08 date, eight FAQ items, and the self-canonical URL. The removed unsupported range and invented case-study markers were absent. At the browser’s mobile and desktop test widths, document width matched the viewport content width with no horizontal overflow; console error and warning logs were empty.
+
+The construction-contract review page was verified after commit `68ddd68`. Production returned HTTP 200 with the self-canonical URL, updated `dateModified`, both official source links, ten FAQ schema questions, the evidence-safe hero and CTA, and no removed unsupported claims. Local and live browser checks at 375px and 1440px reported one H1, ten visible FAQs, no horizontal overflow, and empty console error/warning logs. The visible FAQ questions and answers exactly match the FAQPage schema.
