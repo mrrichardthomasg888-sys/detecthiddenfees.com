@@ -49,7 +49,7 @@
 - [AI Hidden Fee Scanner for Bills and Contracts](https://detecthiddenfees.com/hidden-fee-scanner) — Canonical page for this topic.
 - [Hidden Fee Statistics: Data Collection Status](https://detecthiddenfees.com/hidden-fee-statistics) — Canonical page for this topic.
 - [Hidden Fee Transparency Index](https://detecthiddenfees.com/hidden-fee-transparency-index) — Canonical page for this topic.
-- [Hidden Fees Guides: Master Deceptive Pricing &amp; Billing Practices](https://detecthiddenfees.com/hidden-fees-guides) — Canonical page for this topic.
+- [Hidden Fee Guides: How to Review Charges by Document Type](https://detecthiddenfees.com/hidden-fees-guides) — Canonical page for this topic.
 - [Hidden Healthcare &amp; Medical Billing Fees: What They Are, Why They Exist, and How to Fight Back](https://detecthiddenfees.com/hidden-healthcare-fees) — Canonical page for this topic.
 - [Hidden Home Renovation Fees: How Contractors Inflate Project Costs](https://detecthiddenfees.com/hidden-home-renovation-fees) — Canonical page for this topic.
 - [Hidden HVAC Contractor Fees: How to Spot Pricing Manipulation &amp; Overcharges](https://detecthiddenfees.com/hidden-hvac-contractor-fees) — Canonical page for this topic.

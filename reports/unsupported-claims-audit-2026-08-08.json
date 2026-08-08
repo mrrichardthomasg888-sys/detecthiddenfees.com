@@ -6,9 +6,9 @@
   "page_count": 238,
   "pages_with_candidates": 234,
   "candidate_counts": {
-    "quantitative_amount": 1886,
+    "quantitative_amount": 1883,
     "quantitative_percent": 469,
-    "absolute_or_superlative": 1522,
+    "absolute_or_superlative": 1517,
     "performance_or_outcome": 154,
     "population_or_scale": 152
   },
@@ -17253,64 +17253,16 @@
       "file": "hidden-fees-guides.html",
       "matches": [
         {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "pricing questions — to help you prepare questions; savings are not guaranteed. Upload My Document — $15 Frequently Asked Questions About Hidden Fees What are hidden fees? A hidden fee is a charge that is not prominent, expected, or easy to understand in the advert"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "p you prepare questions; savings and negotiation outcomes are not guaranteed. Analyze My Document — $15 Review current pricing, retention, and security terms. Related Resources Bank Overdraft Fees Learn how banks charge overdraft fees and discover strategies to av"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "com — AI-Powered Hidden Fee Detection & Legal Artificial Intelligence for Consumers Try HiddenFeeAI $15 Analyze My Document"
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "every",
+          "snippet": "advertisement, quote, contract, addenda, bill, statement, or estimate Identify the stated total and every required or optional amount Mark recurring, renewal, cancellation, termination, and conditional terms Compare dates, descriptions, quantities, rates, adjustmen"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "guarantee",
-          "snippet": "AI-assisted review may help organize potential issues, but findings require verification and do not guarantee a negotiation result. Sources and limitations Fee practices vary by provider, contract, account, jurisdiction, and transaction. For primary consumer guidance, "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "inancing Fees Review the total loan cost, not just the monthly payment. Ask for an itemized list of all fees and add-ons. Question any charge that isn't clearly explained. Use AI analysis to scan the contract for unusual terms and markups. Duplicate Medical Billi"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "Always",
-          "snippet": "portunities. Get the questions you need to ask. Read Full Guide → How to Avoid Contractor Fee Traps Always get multiple estimates. Request an itemized proposal. Review change-order language carefully. Understand material allowance structures. Use AI analysis to revi"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "guaranteed",
-          "snippet": "ential hidden fees, markups, and pricing questions — to help you prepare questions; savings are not guaranteed. Upload My Document — $15 Frequently Asked Questions About Hidden Fees What are hidden fees? A hidden fee is a charge that is not prominent, expected, or easy "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "guaranteed",
-          "snippet": "plicate entries, vague line items, and pricing questions in content it can extract. Results are not guaranteed to be complete and should be checked against the original document. How much does AI hidden fee analysis cost? Current HiddenFeeAI pricing, billing terms, and "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "All",
-          "snippet": "vice. The analysis helps identify potential hidden fees and prepare better questions for providers. All final decisions remain with you. Review Potential Hidden Fees Upload any contract, invoice, or agreement to HiddenFeeAI. HiddenFeeAI may assist with reviewing "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "guaranteed",
-          "snippet": "ps, and pricing questions — to help you prepare questions; savings and negotiation outcomes are not guaranteed. Analyze My Document — $15 Review current pricing, retention, and security terms. Related Resources Bank Overdraft Fees Learn how banks charge overdraft fees a"
+          "snippet": "actable amounts, recurring terms, renewal language, and questions for human verification. It cannot guarantee completeness, determine legality or fair value, or replace qualified advice. Confirm current product terms before uploading a sensitive document. What records "
         }
       ]
     },

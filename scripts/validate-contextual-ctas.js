@@ -13,6 +13,7 @@ const expected = {
   'ai-document-analysis-tools.html': { action: 'document_analysis', text: 'Analyze My Document' },
   'ai-document-review-tool.html': { action: 'document_analysis', text: 'Review My Document' },
   'ai-document-checker.html': { action: 'document_analysis', text: 'Review My Document' },
+  'hidden-fees-guides.html': { action: 'document_analysis', text: 'Review My Document for Fees' },
   'ai-invoice-analyzer.html': { action: 'bill_analysis', text: 'Analyze My Invoice' },
   'hidden-bank-overdraft-fees.html': { action: 'bank_statement_review', text: 'Review My Bank Statement' },
   'hidden-dealership-financing-fees.html': { action: 'auto_financing_review', text: 'Review My Financing Agreement' },
