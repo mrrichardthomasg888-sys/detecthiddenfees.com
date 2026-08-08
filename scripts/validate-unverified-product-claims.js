@@ -876,6 +876,37 @@ const forbiddenByFile = {
     'automatically deleted after processing',
     'does not use uploaded documents for AI training'
   ],
+  'research-center.html': [
+    'Try HiddenFeeAI',
+    '$15',
+    'hidden fee trends, pricing transparency, consumer financial risks, and industry fee analysis'
+  ],
+  'research-methodology.html': [
+    'Try HiddenFeeAI',
+    '$15',
+    'hidden fee trends, pricing transparency, consumer financial risks, and industry fee analysis'
+  ],
+  'hidden-fee-index.html': [
+    'Try HiddenFeeAI',
+    '$15',
+    'catalogs hundreds of hidden charges across every industry',
+    'hundreds of hidden charges'
+  ],
+  'hidden-fee-statistics.html': [
+    'Try HiddenFeeAI',
+    '$15',
+    '$200B+ annual cost',
+    'thousands of similar documents',
+    'encrypted during transmission and automatically deleted after processing',
+    'Each document analysis costs $15',
+    '"@type": "FAQPage"'
+  ],
+  'hidden-fee-database.html': [
+    'Try HiddenFeeAI',
+    '$15',
+    'Search and Identify Every Hidden Charge',
+    'Comprehensive database of hidden fees across industries'
+  ],
   'hidden-fees-guides.html': [
     'Master Deceptive Pricing & Billing Practices',
     'Hidden Fee Intelligence Guides',

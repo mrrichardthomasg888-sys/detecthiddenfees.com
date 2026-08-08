@@ -21,7 +21,7 @@ if (issues.length) {
 for (const filename of ['research-center.html', 'research-methodology.html', 'hidden-fee-index.html', 'hidden-fee-statistics.html', 'hidden-fee-database.html']) {
   const source = fs.readFileSync(path.join(root, filename), 'utf8');
   if (!source.includes('research-data.json')) issues.push(`${filename} does not link to the public manifest`);
-  if (!source.includes(`"dateModified": "${expectedDate}"`)) issues.push(`${filename} dateModified is not aligned with the manifest update date`);
+  if (!new RegExp(`"dateModified"\\s*:\\s*"${expectedDate}"`, 'i').test(source)) issues.push(`${filename} dateModified is not aligned with the manifest update date`);
   if (!source.includes(expectedLabel)) issues.push(`${filename} does not expose the manifest update date visibly`);
   if (!source.includes('Research record')) issues.push(`${filename} is missing the citation-engineering research record summary`);
   if (/based on analysis of thousands|\$218 billion|\$1,735|85% of consumers|8-10% annual growth/i.test(source)) {

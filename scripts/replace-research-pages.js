@@ -54,10 +54,58 @@ function updateHead(source, title, description) {
   result = result.replace(/(<meta\s+name="description"\s+content=")[^"]*("\s*\/?>)/i, `$1${description}$2`);
   result = result.replace(/(<meta\s+property="og:title"\s+content=")[^"]*("\s*\/?>)/i, `$1${title}$2`);
   result = result.replace(/(<meta\s+property="og:description"\s+content=")[^"]*("\s*\/?>)/i, `$1${description}$2`);
+  result = result.replace(/(<meta\s+name="twitter:title"\s+content=")[^"]*("\s*\/?>)/i, `$1${title}$2`);
+  result = result.replace(/(<meta\s+name="twitter:description"\s+content=")[^"]*("\s*\/?>)/i, `$1${description}$2`);
   result = result.replace(/("dateModified"\s*:\s*")[^"]*(")/gi, `$1${LAST_UPDATED}$2`);
   result = result.replace(/July 2026/g, LAST_UPDATED_LABEL);
   result = result.replace(/<\/style>/i, `${researchButtonStyles}</style>`);
   return result;
+}
+
+function removeLegacyResearchProductSurface(source, filename) {
+  const stickyPattern = /<div\s+class=["']sticky-cta-bar["'][^>]*>\s*<div\s+class=["']sticky-text["'][\s\S]*?<\/div>\s*<a\b[\s\S]*?<\/a>\s*<\/div>/gi;
+  let result = source.replace(stickyPattern, '');
+  if (filename === 'hidden-fee-statistics.html') {
+    const faqPattern = /<script\b[^>]*type=["']application\/ld\+json["'][^>]*>\s*\{\s*"@context"\s*:\s*"https:\/\/schema\.org"\s*,\s*"@type"\s*:\s*"FAQPage"[\s\S]*?<\/script>/gi;
+    result = result.replace(faqPattern, '');
+  }
+  return result;
+}
+
+function rewriteResearchSchema(source, filename, title, description) {
+  const entityDescription = 'DetectHiddenFees publishes research and educational resources about hidden fees, contracts, invoices, and document-related financial risks. HiddenFeeAI is a separate AI-powered document-analysis product.';
+  const breadcrumbNames = {
+    'research-center.html': 'Research Center',
+    'research-methodology.html': 'Research Methodology',
+    'hidden-fee-index.html': 'Hidden Fee Index',
+    'hidden-fee-statistics.html': 'Hidden Fee Statistics',
+    'hidden-fee-database.html': 'Hidden Fee Database'
+  };
+  const pattern = /(<script\b[^>]*type=["']application\/ld\+json["'][^>]*>)([\s\S]*?)(<\/script>)/gi;
+  return source.replace(pattern, (full, open, payload, close) => {
+    let data;
+    try {
+      data = JSON.parse(payload);
+    } catch {
+      return full;
+    }
+    const type = data['@type'];
+    if (type === 'Organization' || type === 'WebSite') data.description = entityDescription;
+    if (type === 'CollectionPage' || type === 'Article' || type === 'WebPage') {
+      if (type === 'Article') data.headline = title;
+      data.name = title;
+      data.description = description;
+    }
+    if (type === 'Dataset' && filename === 'hidden-fee-statistics.html') {
+      data.name = 'Hidden Fee Statistics: Collection Status';
+      data.description = description;
+    }
+    if (type === 'BreadcrumbList' && Array.isArray(data.itemListElement)) {
+      const last = data.itemListElement[data.itemListElement.length - 1];
+      if (last) last.name = breadcrumbNames[filename] || title;
+    }
+    return `${open}${JSON.stringify(data)}${close}`;
+  });
 }
 
 for (const [filename, page] of Object.entries(pages)) {
@@ -70,7 +118,15 @@ for (const [filename, page] of Object.entries(pages)) {
     throw new Error(`Could not locate main content in ${filename}`);
   }
   const body = page.body.replace(/(<p class="phase3-direct-answer">[\s\S]*?<\/p>)/i, `$1${researchRecordPanel}`);
-  const updated = updateHead(source.slice(0, mainStart) + source.slice(mainStart, mainOpenEnd + 1) + body + source.slice(mainEnd), page.title, page.description);
+  const updated = removeLegacyResearchProductSurface(
+    rewriteResearchSchema(
+      updateHead(source.slice(0, mainStart) + source.slice(mainStart, mainOpenEnd + 1) + body + source.slice(mainEnd), page.title, page.description),
+      filename,
+      page.title,
+      page.description
+    ),
+    filename
+  );
   fs.writeFileSync(file, updated, 'utf8');
   console.log(`Replaced research content in ${filename}`);
 }

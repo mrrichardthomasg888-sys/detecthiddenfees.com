@@ -25,14 +25,14 @@ Null is not zero. No unavailable metric is represented as a performance value.
 | Canonical sitemap pages | 238 | `sitemap.xml` |
 | Indexable self-canonical HTML parity | 238 / 238 | Discovery validator |
 | Pages with a main HiddenFeeAI link | 223 | CTA path audit |
-| Pages with an internal funnel path | 8 | CTA path audit |
-| Main-content HiddenFeeAI links | 752 | CTA path audit |
-| Annotated main-content CTA links | 117 | CTA path audit |
+| Pages with an internal funnel path | 7 | CTA path audit |
+| Main-content HiddenFeeAI links | 705 | CTA path audit |
+| Annotated main-content CTA links | 173 | CTA path audit |
 | Research records published | 0 | `research-data.json` |
 | Research manifest status | collecting | `research-data.json` |
 | Evidence-register records | 0 | `seo/evidence-register.json` |
 | Evidence-register status | collecting | `seo/evidence-register.json` |
-| Claim-review candidates | 4096 | Unsupported-claim inventory; review candidates, not findings |
+| Claim-review candidates | 4010 | Unsupported-claim inventory; review candidates, not findings |
 
 ## Research and evidence status
 
