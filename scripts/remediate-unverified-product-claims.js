@@ -252,6 +252,157 @@ const exactReplacements = {
       'Review current pricing and weigh it against the proposal context; savings are not guaranteed.'
     ]
   ],
+  'contract-risk-assessment-ai-tool.html': [
+    ...sharedUnverifiedClaimPairs,
+    [
+      'AI analysis changes this by reading every word, comparing every clause against known patterns, and flagging anything that deserves your attention.',
+      'AI-assisted review can analyze extractable text and flag patterns for attention; document quality and product coverage affect results.'
+    ],
+    [
+      'AI reads every word and flags unbalanced liability language.',
+      'AI-assisted review may flag unbalanced liability language in content it can extract.'
+    ],
+    [
+      'AI makes thorough review fast and affordable for every document.',
+      'AI-assisted review may make some document checks more convenient; timing, price, and coverage depend on the current product.'
+    ],
+    [
+      'That habit saves more money than almost any other financial practice.',
+      'That habit may help reduce surprises, but no savings ranking is asserted here.'
+    ]
+  ],
+  'contract-terms-analyzer-ai.html': [
+    ...sharedUnverifiedClaimPairs,
+    [
+      'AI analysis changes this by reading every word, comparing every clause against known patterns, and flagging anything that deserves your attention.',
+      'AI-assisted review can analyze extractable text and flag patterns for attention; document quality and product coverage affect results.'
+    ],
+    [
+      'AI reads every word and flags unbalanced liability language.',
+      'AI-assisted review may flag unbalanced liability language in content it can extract.'
+    ],
+    [
+      'AI makes thorough review fast and affordable for every document.',
+      'AI-assisted review may make some document checks more convenient; timing, price, and coverage depend on the current product.'
+    ],
+    [
+      'AI provides clause-by-clause analysis of every provision.',
+      'AI may provide clause-level findings for content it can extract; completeness depends on document quality and product behavior.'
+    ],
+    [
+      'That habit saves more money than almost any other financial practice.',
+      'That habit may help reduce surprises, but no savings ranking is asserted here.'
+    ]
+  ],
+  'contract-red-flag-checker.html': [
+    ...sharedUnverifiedClaimPairs,
+    [
+      'AI analysis changes this by reading every word, comparing every clause against known patterns, and flagging anything that deserves your attention.',
+      'AI-assisted review can analyze extractable text and flag patterns for attention; document quality and product coverage affect results.'
+    ],
+    [
+      'AI reads every word and flags unbalanced liability language.',
+      'AI-assisted review may flag unbalanced liability language in content it can extract.'
+    ],
+    [
+      'AI makes thorough review fast and affordable for every document.',
+      'AI-assisted review may make some document checks more convenient; timing, price, and coverage depend on the current product.'
+    ],
+    [
+      'That habit saves more money than almost any other financial practice.',
+      'That habit may help reduce surprises, but no savings ranking is asserted here.'
+    ],
+    [
+      'Unlike reading the contract yourself, the AI examines every clause systematically, comparing language against known risk indicators from thousands of similar agreements.',
+      'A checker may compare extractable clauses with configured risk indicators; this repository does not verify a dataset size or claim complete clause coverage.'
+    ],
+    [
+      'For a one-time fee of $15, you get a comprehensive red flag analysis that would take a professional reviewer hours to complete manually.',
+      'Review current product pricing and scope before purchase; this repository does not verify a professional-review time comparison or guarantee a comprehensive result.'
+    ],
+    [
+      'The AI completes the same analysis in minutes.',
+      'Analysis timing is product-dependent and is not independently verified here.'
+    ]
+  ],
+  'ai-financial-assistant.html': [
+    [
+      'Every year, consumers lose thousands of dollars to hidden fees, pricing manipulation, and deceptive billing practices embedded inside contracts, invoices, and financial agreements.',
+      'Consumers can face meaningful costs from hidden fees, pricing manipulation, and deceptive billing practices in contracts, invoices, and financial agreements; this page does not assert an annual per-consumer total.'
+    ],
+    [
+      'Industry research suggests that hidden fees cost American consumers over $200 billion annually across banking, lending, contracting, medical billing, and insurance sectors. The average household may encounter hidden fees in 15 to 20 different service categories each year without realizing it.',
+      'This page does not publish a national hidden-fee total or household category count without a documented, reviewable dataset. Actual exposure depends on the document, provider, product, and consumer context.'
+    ],
+    [
+      'Machine learning models trained on thousands of financial documents help the system recognize patterns associated with hidden fees.',
+      'The public repository does not document a HiddenFeeAI training-data count. Any pattern coverage depends on the current product implementation and document context.'
+    ],
+    [
+      'Modern AI financial assistants can process contracts, invoices, estimates, bills, financing agreements, insurance policies, and banking statements.',
+      'Supported document types and extraction behavior vary by product; confirm current HiddenFeeAI requirements before uploading.'
+    ],
+    [
+      'An AI financial assistant can review documents in seconds, apply consistent criteria across every analysis, and identify patterns that human reviewers commonly miss.',
+      'Analysis timing, consistency, and coverage are product-dependent; automated review may surface patterns for human verification but is not asserted to find everything a human misses.'
+    ],
+    [
+      'The AI compares the document against thousands of previously analyzed financial documents to identify patterns associated with hidden fees.',
+      'A financial-analysis system may compare extractable content with configured patterns; this repository does not verify a dataset size or complete coverage.'
+    ],
+    [
+      'This score reflects the likelihood that the document contains hidden fees or pricing manipulation.',
+      'If a product provides a risk score, its meaning and calibration should be confirmed in current first-party documentation; this repository does not establish score semantics.'
+    ],
+    [
+      'AI financial assistants achieve high accuracy for common fee patterns but have limitations.',
+      'No verified accuracy percentage or benchmark is asserted here. Results may vary with document quality, context, and the fee pattern involved.'
+    ],
+    [
+      'Accuracy rates vary by platform and document type. For common hidden fee patterns in standard documents, AI financial assistants typically achieve high detection rates. Accuracy is lower for unusual documents or creative pricing structures that do not match known patterns. AI analysis should always be combined with human judgment.',
+      'Accuracy varies by platform, document type, document quality, and fee pattern. This repository does not publish a verified detection-rate benchmark; unusual or creatively structured documents may require additional human review.'
+    ],
+    [
+      'Consumers who use these tools report significant improvements in their ability to identify hidden costs, negotiate better terms, and make informed financial decisions.',
+      'This repository does not publish a verified user-outcome study. A tool may help organize questions, but negotiation and financial outcomes are not guaranteed.'
+    ],
+    [
+      'An AI financial assistant can review a 50-page contract in under 60 seconds.',
+      'Turnaround varies by product, document length, and document quality; no page-count benchmark is independently verified here.'
+    ],
+    [
+      'This precision dramatically improves negotiation outcomes.',
+      'Specific findings may help structure negotiation questions, but outcomes depend on the document, counterparty, and circumstances.'
+    ],
+    [
+      '<h2>Real-World Examples of AI Financial Assistant Success</h2><p>Real-world case studies demonstrate the practical value of AI financial assistants across different situations and industries.',
+      '<h2>Illustrative Scenarios (Not Verified Case Studies)</h2><p>The following examples are fictional illustrations of how document review might surface questions. They are not reported customer results, research findings, or guarantees of savings.'
+    ],
+    [
+      '<strong>HVAC Proposal Analysis.</strong> A family received',
+      '<strong>Illustrative HVAC proposal scenario.</strong> Suppose a family received'
+    ],
+    [
+      '<strong>Medical Bill Discrepancy.</strong> A patient received',
+      '<strong>Illustrative medical bill scenario.</strong> Suppose a patient received'
+    ],
+    [
+      '<strong>Dealership Financing Review.</strong> A car buyer was offered',
+      '<strong>Illustrative dealership financing scenario.</strong> Suppose a car buyer was offered'
+    ],
+    [
+      'Very high detection rate',
+      'Coverage not independently verified'
+    ],
+    [
+      'High detection rate',
+      'Coverage not independently verified'
+    ],
+    [
+      'Moderate detection rate',
+      'Coverage not independently verified'
+    ]
+  ],
   'contract-fee-analysis.html': [
     [
       'The financial impact is substantial. A study by the American Bar Association found that nearly 60% of consumers who sign contracts without legal review later discover terms they didn’t understand or agree with. In many cases, those terms cost them thousands of dollars. HiddenFeeAI was built specifically to address this problem. By combining pattern recognition across thousands of contracts with plain-English reporting, the platform turns complex legal language into clear, actionable insights.',

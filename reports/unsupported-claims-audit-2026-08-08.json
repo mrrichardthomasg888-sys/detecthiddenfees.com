@@ -6,11 +6,11 @@
   "page_count": 238,
   "pages_with_candidates": 234,
   "candidate_counts": {
-    "quantitative_amount": 2196,
+    "quantitative_amount": 2194,
     "quantitative_percent": 547,
-    "absolute_or_superlative": 1626,
-    "performance_or_outcome": 155,
-    "population_or_scale": 187
+    "absolute_or_superlative": 1611,
+    "performance_or_outcome": 153,
+    "population_or_scale": 180
   },
   "records": [
     {
@@ -5604,13 +5604,7 @@
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
-          "snippet": "s. Analyze My Document — $15 Upload contracts, invoices, estimates AI detects hidden fees & markups $15 one-time analysis Private document processing Introduction: Why You Need an AI Financial Assistant Every year, consumers lose thousands of dollars to hidden fee"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$200 billion",
-          "snippet": "ost Problem by the Numbers Industry research suggests that hidden fees cost American consumers over $200 billion annually across banking, lending, contracting, medical billing, and insurance sectors. The average household may encounter hidden fees in 15 to 20 different se"
+          "snippet": "s. Analyze My Document — $15 Upload contracts, invoices, estimates AI detects hidden fees & markups $15 one-time analysis Private document processing Introduction: Why You Need an AI Financial Assistant Consumers can face meaningful costs from hidden fees, pricing"
         },
         {
           "key": "quantitative_amount",
@@ -5634,19 +5628,19 @@
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$2,400 b",
-          "snippet": "al permit cost by 150 percent. Armed with this information, the homeowner negotiated a reduction of $2,400 before signing the contract. Real-World Examples of AI Financial Assistant Success Real-world case studies demonstrate the practical value of AI financial assist"
+          "snippet": "al permit cost by 150 percent. Armed with this information, the homeowner negotiated a reduction of $2,400 before signing the contract. Illustrative Scenarios (Not Verified Case Studies) The following examples are fictional illustrations of how document review might s"
         },
         {
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$8,500 ",
-          "snippet": "ations and industries. HVAC Proposal Analysis. A family received competing HVAC quotes ranging from $8,500 to $14,200 for a complete system replacement. The lowest quote appeared to be the best deal, but AI analysis revealed that the low quote excluded permit fees, d"
+          "snippet": ". Illustrative HVAC proposal scenario. Suppose a family received competing HVAC quotes ranging from $8,500 to $14,200 for a complete system replacement. The lowest quote appeared to be the best deal, but AI analysis revealed that the low quote excluded permit fees, d"
         },
         {
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$14,200 ",
-          "snippet": " industries. HVAC Proposal Analysis. A family received competing HVAC quotes ranging from $8,500 to $14,200 for a complete system replacement. The lowest quote appeared to be the best deal, but AI analysis revealed that the low quote excluded permit fees, ductwork mod"
+          "snippet": "tive HVAC proposal scenario. Suppose a family received competing HVAC quotes ranging from $8,500 to $14,200 for a complete system replacement. The lowest quote appeared to be the best deal, but AI analysis revealed that the low quote excluded permit fees, ductwork mod"
         },
         {
           "key": "quantitative_amount",
@@ -5658,13 +5652,13 @@
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$3,200 ",
-          "snippet": "nsparent pricing and no hidden fees. The family selected the mid-range quote and saved an estimated $3,200 compared to the lowest quote after change orders. Medical Bill Discrepancy. A patient received a $12,800 hospital bill for an emergency room visit that included"
+          "snippet": "nsparent pricing and no hidden fees. The family selected the mid-range quote and saved an estimated $3,200 compared to the lowest quote after change orders. Illustrative medical bill scenario. Suppose a patient received a $12,800 hospital bill for an emergency room v"
         },
         {
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$12,800 ",
-          "snippet": "00 compared to the lowest quote after change orders. Medical Bill Discrepancy. A patient received a $12,800 hospital bill for an emergency room visit that included an overnight observation stay. The AI analysis identified three duplicate charges totaling $1,900, a lab"
+          "snippet": " lowest quote after change orders. Illustrative medical bill scenario. Suppose a patient received a $12,800 hospital bill for an emergency room visit that included an overnight observation stay. The AI analysis identified three duplicate charges totaling $1,900, a lab"
         },
         {
           "key": "quantitative_amount",
@@ -5682,19 +5676,19 @@
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$780",
-          "snippet": "med ($450), and a supply charge that exceeded typical rates for the geographic area by 300 percent ($780). The patient used the AI findings to dispute the charges and successfully reduced the bill by $3,130. Dealership Financing Review. A car buyer was offered fin"
+          "snippet": "med ($450), and a supply charge that exceeded typical rates for the geographic area by 300 percent ($780). The patient used the AI findings to dispute the charges and successfully reduced the bill by $3,130. Illustrative dealership financing scenario. Suppose a ca"
         },
         {
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$3,130",
-          "snippet": "$780). The patient used the AI findings to dispute the charges and successfully reduced the bill by $3,130. Dealership Financing Review. A car buyer was offered financing at 6.9 percent APR with a monthly payment of $647. Before signing, they uploaded the financing "
+          "snippet": "$780). The patient used the AI findings to dispute the charges and successfully reduced the bill by $3,130. Illustrative dealership financing scenario. Suppose a car buyer was offered financing at 6.9 percent APR with a monthly payment of $647. Before signing, they "
         },
         {
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$647",
-          "snippet": "ip Financing Review. A car buyer was offered financing at 6.9 percent APR with a monthly payment of $647. Before signing, they uploaded the financing agreement to an AI financial assistant. The AI identified that the contract included a $2,400 extended warranty, a"
+          "snippet": "ng scenario. Suppose a car buyer was offered financing at 6.9 percent APR with a monthly payment of $647. Before signing, they uploaded the financing agreement to an AI financial assistant. The AI identified that the contract included a $2,400 extended warranty, a"
         },
         {
           "key": "quantitative_amount",
@@ -5771,14 +5765,8 @@
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "Every",
-          "snippet": " one-time analysis Private document processing Introduction: Why You Need an AI Financial Assistant Every year, consumers lose thousands of dollars to hidden fees, pricing manipulation, and deceptive billing practices embedded inside contracts, invoices, and financ"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "wledge. An AI financial assistant can review documents in seconds, apply consistent criteria across every analysis, and identify patterns that human reviewers commonly miss. This does not replace human judgment but significantly enhances the speed and thoroughness "
+          "value": "guaranteed",
+          "snippet": "r-outcome study. A tool may help organize questions, but negotiation and financial outcomes are not guaranteed. Speed. Turnaround varies by product, document length, and document quality; no page-count benchmark is independently verified here. Manual review of the same "
         },
         {
           "key": "absolute_or_superlative",
@@ -5873,32 +5861,8 @@
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "always",
-          "snippet": "usual documents or creative pricing structures that do not match known patterns. AI analysis should always be combined with human judgment. 🔒 Your Documents Stay Private No AI training on uploads Temporary processing No selling documents Secure analysis Disclaimer:"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
           "value": "All",
           "snippet": " assistants help identify potential hidden fees and prepare better questions for service providers. All final decisions remain with you. Related Financial Analysis Resources 🤖 AI Financial Advisor: Automated Financial Intelligence 📊 AI for Financial Analysis: T"
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": "document processing Introduction: Why You Need an AI Financial Assistant Every year, consumers lose thousands of dollars to hidden fees, pricing manipulation, and deceptive billing practices embedded inside contracts, invoices, and financial agreements. The problem is not"
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": "text of financial language rather than simply matching keywords. Machine learning models trained on thousands of financial documents help the system recognize patterns associated with hidden fees. Comparative analysis capabilities let the AI benchmark pricing against indu"
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": "ge within the broader document structure. Pattern Recognition. The AI compares the document against thousands of previously analyzed financial documents to identify patterns associated with hidden fees. This includes pricing structures, vague language patterns, unusual li"
         },
         {
           "key": "population_or_scale",
@@ -5910,37 +5874,25 @@
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "Accuracy",
-          "snippet": "n. This transforms the analysis from a simple flagging system into a practical negotiation tool. AI Accuracy and Limitations in Financial Analysis AI financial assistants achieve high accuracy for common fee patterns but have limitations. They work best when analyzing"
+          "snippet": "n. This transforms the analysis from a simple flagging system into a practical negotiation tool. AI Accuracy and Limitations in Financial Analysis No verified accuracy percentage or benchmark is asserted here. Results may vary with document quality, context, and the f"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "accuracy",
-          "snippet": "iation tool. AI Accuracy and Limitations in Financial Analysis AI financial assistants achieve high accuracy for common fee patterns but have limitations. They work best when analyzing documents that follow standard financial structures. Highly unusual or creative pri"
-        },
-        {
-          "key": "performance_or_outcome",
-          "severity": "high",
-          "value": "precision",
-          "snippet": "o specific line items, question specific markups, and request clarification on specific terms. This precision dramatically improves negotiation outcomes. Financial Education. Over time, using an AI financial assistant helps consumers develop a better understanding of h"
+          "snippet": "em into a practical negotiation tool. AI Accuracy and Limitations in Financial Analysis No verified accuracy percentage or benchmark is asserted here. Results may vary with document quality, context, and the fee pattern involved. They work best when analyzing document"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "accuracy",
-          "snippet": " fee agreements, and IRS correspondence that may contain errors or unnecessary charges. What is the accuracy rate of AI financial assistants? Accuracy rates vary by platform and document type. For common hidden fee patterns in standard documents, AI financial assistan"
+          "snippet": " fee agreements, and IRS correspondence that may contain errors or unnecessary charges. What is the accuracy rate of AI financial assistants? Accuracy varies by platform, document type, document quality, and fee pattern. This repository does not publish a verified det"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "Accuracy",
-          "snippet": "at may contain errors or unnecessary charges. What is the accuracy rate of AI financial assistants? Accuracy rates vary by platform and document type. For common hidden fee patterns in standard documents, AI financial assistants typically achieve high detection rates."
-        },
-        {
-          "key": "performance_or_outcome",
-          "severity": "high",
-          "value": "Accuracy",
-          "snippet": "fee patterns in standard documents, AI financial assistants typically achieve high detection rates. Accuracy is lower for unusual documents or creative pricing structures that do not match known patterns. AI analysis should always be combined with human judgment. 🔒 Y"
+          "snippet": "at may contain errors or unnecessary charges. What is the accuracy rate of AI financial assistants? Accuracy varies by platform, document type, document quality, and fee pattern. This repository does not publish a verified detection-rate benchmark; unusual or creative"
         }
       ]
     },
@@ -12902,12 +12854,6 @@
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15, ",
-          "snippet": "egal training to understand what the findings mean and what to do about them. For a one-time fee of $15, you get a comprehensive red flag analysis that would take a professional reviewer hours to complete manually. The AI completes the same analysis in minutes. Mos"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15, ",
           "snippet": " not to sign at all. The contract red flag checker makes this process practical and affordable. For $15, you get a comprehensive analysis of any contract before you commit. Contract red flags are provisions that create risk for you as the signing party. Some red fl"
         },
         {
@@ -12937,24 +12883,6 @@
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "every",
-          "snippet": "e written in language that is intentionally difficult to parse. AI analysis changes this by reading every word, comparing every clause against known patterns, and flagging anything that deserves your attention. The result is a clear, actionable report that tells yo"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "that is intentionally difficult to parse. AI analysis changes this by reading every word, comparing every clause against known patterns, and flagging anything that deserves your attention. The result is a clear, actionable report that tells you exactly what you nee"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "he agreement. These provisions are buried in dense legal paragraphs that most people skip. AI reads every word and flags unbalanced liability language. Scope of work descriptions are another frequent source of disputes. Vague language like 'comprehensive services' "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
           "value": "never",
           "snippet": "c. When the other party delivers less than you expected, you have no recourse because the scope was never defined. AI identifies vague scope language and recommends specific questions to clarify exactly what is included. Payment terms deserve careful scrutiny befor"
         },
@@ -12974,13 +12902,13 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "Every",
-          "snippet": "s the work. Document review before signing is one of the smartest financial habits you can develop. Every agreement you sign has terms that can cost you if you do not understand them. AI makes thorough review fast and affordable for every document. Contracts are de"
+          "snippet": "s the work. Document review before signing is one of the smartest financial habits you can develop. Every agreement you sign has terms that can cost you if you do not understand them. AI-assisted review may make some document checks more convenient; timing, price, "
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "every",
-          "snippet": "s that can cost you if you do not understand them. AI makes thorough review fast and affordable for every document. Contracts are designed by people who understand legal language and know how to structure terms in their favor. You do not need to be an expert to pro"
+          "value": "guarantee",
+          "snippet": "ating the agreement. Uploading a document for analysis may help identify questions, but it does not guarantee savings or a particular financial outcome. Hidden fees, automatic renewals, and unbalanced terms are expensive mistakes that are completely avoidable with prop"
         },
         {
           "key": "absolute_or_superlative",
@@ -13004,13 +12932,7 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "Every",
-          "snippet": "ent. AI helps you distinguish between standard provisions and unusual terms that deserve attention. Every dollar spent on contract review before signing is an investment in protecting yourself from future costs. A single hidden fee identified before signing can sav"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "contract can include provisions that cost you thousands if you do not read them carefully. AI reads every word so you do not have to. Contract review is not about being paranoid. It is about being practical. The vast majority of contracts contain at least some term"
+          "snippet": "ent. AI helps you distinguish between standard provisions and unusual terms that deserve attention. Every dollar spent on contract review before signing is an investment in protecting yourself from future costs. A hidden fee identified before signing may help infor"
         },
         {
           "key": "absolute_or_superlative",
@@ -13058,19 +12980,19 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "ts, proposals, statements, and any document requiring your approval. The key is consistency. Review every document before signing. That habit saves more money than almost any other financial practice. Understanding the documents you sign is essential for protecting"
+          "snippet": "ts, proposals, statements, and any document requiring your approval. The key is consistency. Review every document before signing. That habit may help reduce surprises, but no savings ranking is asserted here. Understanding the documents you sign is essential for p"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "Every",
-          "snippet": "ractice. Understanding the documents you sign is essential for protecting your financial interests. Every agreement creates binding obligations that affect your rights and responsibilities. Taking time to review before committing ensures you know exactly what you a"
+          "snippet": "ed here. Understanding the documents you sign is essential for protecting your financial interests. Every agreement creates binding obligations that affect your rights and responsibilities. Taking time to review before committing ensures you know exactly what you a"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "every",
-          "snippet": "r document for problematic language patterns. Unlike reading the contract yourself, the AI examines every clause systematically, comparing language against known risk indicators from thousands of similar agreements. The AI looks for twelve categories of red flags: "
+          "value": "guarantee",
+          "snippet": "and scope before purchase; this repository does not verify a professional-review time comparison or guarantee a comprehensive result. Analysis timing is product-dependent and is not independently verified here. Most Common Contract Red Flags Hidden fee language is the "
         },
         {
           "key": "absolute_or_superlative",
@@ -13106,25 +13028,13 @@
           "key": "population_or_scale",
           "severity": "high",
           "value": "thousands of",
-          "snippet": "e agreement. The few minutes it takes to upload a document for AI analysis can save you hundreds or thousands of dollars. Hidden fees, automatic renewals, and unbalanced terms are expensive mistakes that are completely avoidable with proper review before signing. Many peo"
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": " the AI examines every clause systematically, comparing language against known risk indicators from thousands of similar agreements. The AI looks for twelve categories of red flags: hidden fee language, automatic renewal clauses, unbalanced liability provisions, vague sco"
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
           "snippet": ", and one-sided clauses before you sign. How accurate is the red flag checker? The AI is trained on thousands of contracts to recognize common risk patterns. While no tool catches every issue, it provides a level of scrutiny that would take a human hours to complete. What"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "precision",
-          "snippet": "s. The language of contracts is deliberately complex. This complexity serves a purpose beyond legal precision. It makes it harder for non-experts to understand what they are agreeing to. AI translates this complexity into plain language explanations. Most contract disp"
+          "snippet": "e. The language of contracts is deliberately complex. This complexity serves a purpose beyond legal precision. It makes it harder for non-experts to understand what they are agreeing to. AI translates this complexity into plain language explanations. Most contract disp"
         }
       ]
     },
@@ -13336,24 +13246,6 @@
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "every",
-          "snippet": "e written in language that is intentionally difficult to parse. AI analysis changes this by reading every word, comparing every clause against known patterns, and flagging anything that deserves your attention. The result is a clear, actionable report that tells yo"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "that is intentionally difficult to parse. AI analysis changes this by reading every word, comparing every clause against known patterns, and flagging anything that deserves your attention. The result is a clear, actionable report that tells you exactly what you nee"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "he agreement. These provisions are buried in dense legal paragraphs that most people skip. AI reads every word and flags unbalanced liability language. Scope of work descriptions are another frequent source of disputes. Vague language like 'comprehensive services' "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
           "value": "never",
           "snippet": "c. When the other party delivers less than you expected, you have no recourse because the scope was never defined. AI identifies vague scope language and recommends specific questions to clarify exactly what is included. Payment terms deserve careful scrutiny befor"
         },
@@ -13373,13 +13265,13 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "Every",
-          "snippet": "s the work. Document review before signing is one of the smartest financial habits you can develop. Every agreement you sign has terms that can cost you if you do not understand them. AI makes thorough review fast and affordable for every document. Contracts are de"
+          "snippet": "s the work. Document review before signing is one of the smartest financial habits you can develop. Every agreement you sign has terms that can cost you if you do not understand them. AI-assisted review may make some document checks more convenient; timing, price, "
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "every",
-          "snippet": "s that can cost you if you do not understand them. AI makes thorough review fast and affordable for every document. Contracts are designed by people who understand legal language and know how to structure terms in their favor. You do not need to be an expert to pro"
+          "value": "guarantee",
+          "snippet": "ating the agreement. Uploading a document for analysis may help identify questions, but it does not guarantee savings or a particular financial outcome. Hidden fees, automatic renewals, and unbalanced terms are expensive mistakes that are completely avoidable with prop"
         },
         {
           "key": "absolute_or_superlative",
@@ -13403,13 +13295,7 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "Every",
-          "snippet": "ent. AI helps you distinguish between standard provisions and unusual terms that deserve attention. Every dollar spent on contract review before signing is an investment in protecting yourself from future costs. A single hidden fee identified before signing can sav"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "contract can include provisions that cost you thousands if you do not read them carefully. AI reads every word so you do not have to. Contract review is not about being paranoid. It is about being practical. The vast majority of contracts contain at least some term"
+          "snippet": "ent. AI helps you distinguish between standard provisions and unusual terms that deserve attention. Every dollar spent on contract review before signing is an investment in protecting yourself from future costs. A hidden fee identified before signing may help infor"
         },
         {
           "key": "absolute_or_superlative",
@@ -13463,13 +13349,13 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "ts, proposals, statements, and any document requiring your approval. The key is consistency. Review every document before signing. That habit saves more money than almost any other financial practice. Understanding the documents you sign is essential for protecting"
+          "snippet": "ts, proposals, statements, and any document requiring your approval. The key is consistency. Review every document before signing. That habit may help reduce surprises, but no savings ranking is asserted here. Understanding the documents you sign is essential for p"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "Every",
-          "snippet": "ractice. Understanding the documents you sign is essential for protecting your financial interests. Every agreement creates binding obligations that affect your rights and responsibilities. Taking time to review before committing ensures you know exactly what you a"
+          "snippet": "ed here. Understanding the documents you sign is essential for protecting your financial interests. Every agreement creates binding obligations that affect your rights and responsibilities. Taking time to review before committing ensures you know exactly what you a"
         },
         {
           "key": "absolute_or_superlative",
@@ -13523,19 +13409,13 @@
           "key": "population_or_scale",
           "severity": "high",
           "value": "thousands of",
-          "snippet": "e agreement. The few minutes it takes to upload a document for AI analysis can save you hundreds or thousands of dollars. Hidden fees, automatic renewals, and unbalanced terms are expensive mistakes that are completely avoidable with proper review before signing. Many peo"
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
           "snippet": "es, marketing contracts, and professional services agreements can be assessed. The AI is trained on thousands of contracts across multiple industries, allowing it to identify risk patterns that may not be obvious to someone who only reviews contracts occasionally. Contrac"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "precision",
-          "snippet": "s. The language of contracts is deliberately complex. This complexity serves a purpose beyond legal precision. It makes it harder for non-experts to understand what they are agreeing to. AI translates this complexity into plain language explanations. Most contract disp"
+          "snippet": "e. The language of contracts is deliberately complex. This complexity serves a purpose beyond legal precision. It makes it harder for non-experts to understand what they are agreeing to. AI translates this complexity into plain language explanations. Most contract disp"
         }
       ]
     },
@@ -13699,24 +13579,6 @@
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "every",
-          "snippet": "e written in language that is intentionally difficult to parse. AI analysis changes this by reading every word, comparing every clause against known patterns, and flagging anything that deserves your attention. The result is a clear, actionable report that tells yo"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "that is intentionally difficult to parse. AI analysis changes this by reading every word, comparing every clause against known patterns, and flagging anything that deserves your attention. The result is a clear, actionable report that tells you exactly what you nee"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "he agreement. These provisions are buried in dense legal paragraphs that most people skip. AI reads every word and flags unbalanced liability language. Scope of work descriptions are another frequent source of disputes. Vague language like 'comprehensive services' "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
           "value": "never",
           "snippet": "c. When the other party delivers less than you expected, you have no recourse because the scope was never defined. AI identifies vague scope language and recommends specific questions to clarify exactly what is included. Payment terms deserve careful scrutiny befor"
         },
@@ -13736,13 +13598,13 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "Every",
-          "snippet": "s the work. Document review before signing is one of the smartest financial habits you can develop. Every agreement you sign has terms that can cost you if you do not understand them. AI makes thorough review fast and affordable for every document. Contracts are de"
+          "snippet": "s the work. Document review before signing is one of the smartest financial habits you can develop. Every agreement you sign has terms that can cost you if you do not understand them. AI-assisted review may make some document checks more convenient; timing, price, "
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "every",
-          "snippet": "s that can cost you if you do not understand them. AI makes thorough review fast and affordable for every document. Contracts are designed by people who understand legal language and know how to structure terms in their favor. You do not need to be an expert to pro"
+          "value": "guarantee",
+          "snippet": "ating the agreement. Uploading a document for analysis may help identify questions, but it does not guarantee savings or a particular financial outcome. Hidden fees, automatic renewals, and unbalanced terms are expensive mistakes that are completely avoidable with prop"
         },
         {
           "key": "absolute_or_superlative",
@@ -13766,13 +13628,7 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "Every",
-          "snippet": "ent. AI helps you distinguish between standard provisions and unusual terms that deserve attention. Every dollar spent on contract review before signing is an investment in protecting yourself from future costs. A single hidden fee identified before signing can sav"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "contract can include provisions that cost you thousands if you do not read them carefully. AI reads every word so you do not have to. Contract review is not about being paranoid. It is about being practical. The vast majority of contracts contain at least some term"
+          "snippet": "ent. AI helps you distinguish between standard provisions and unusual terms that deserve attention. Every dollar spent on contract review before signing is an investment in protecting yourself from future costs. A hidden fee identified before signing may help infor"
         },
         {
           "key": "absolute_or_superlative",
@@ -13785,12 +13641,6 @@
           "severity": "high",
           "value": "every",
           "snippet": "lationship before entering into it is simply common sense. AI makes this common sense practical for every document you encounter. Contracts are composed of individual clauses with specific legal meanings. Understanding each clause separately helps you understand th"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "e separately helps you understand the contract as a whole. AI provides clause-by-clause analysis of every provision. many consumers may not be aware how much power a signed contract has until they need to get out of one. This is why reviewing documents before signi"
         },
         {
           "key": "absolute_or_superlative",
@@ -13826,13 +13676,13 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "ts, proposals, statements, and any document requiring your approval. The key is consistency. Review every document before signing. That habit saves more money than almost any other financial practice. Understanding the documents you sign is essential for protecting"
+          "snippet": "ts, proposals, statements, and any document requiring your approval. The key is consistency. Review every document before signing. That habit may help reduce surprises, but no savings ranking is asserted here. Understanding the documents you sign is essential for p"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "Every",
-          "snippet": "ractice. Understanding the documents you sign is essential for protecting your financial interests. Every agreement creates binding obligations that affect your rights and responsibilities. Taking time to review before committing ensures you know exactly what you a"
+          "snippet": "ed here. Understanding the documents you sign is essential for protecting your financial interests. Every agreement creates binding obligations that affect your rights and responsibilities. Taking time to review before committing ensures you know exactly what you a"
         },
         {
           "key": "absolute_or_superlative",
@@ -13850,12 +13700,6 @@
           "key": "population_or_scale",
           "severity": "high",
           "value": "thousands of",
-          "snippet": "e agreement. The few minutes it takes to upload a document for AI analysis can save you hundreds or thousands of dollars. Hidden fees, automatic renewals, and unbalanced terms are expensive mistakes that are completely avoidable with proper review before signing. Many peo"
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
           "snippet": "r distinguishes between standard language and unusual provisions by comparing against a database of thousands of similar contracts. This comparison helps you understand which provisions are worth negotiating and which are likely non-negotiable. Contract terms analysis bre"
         },
         {
@@ -13868,7 +13712,7 @@
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "precision",
-          "snippet": "s. The language of contracts is deliberately complex. This complexity serves a purpose beyond legal precision. It makes it harder for non-experts to understand what they are agreeing to. AI translates this complexity into plain language explanations. Most contract disp"
+          "snippet": "e. The language of contracts is deliberately complex. This complexity serves a purpose beyond legal precision. It makes it harder for non-experts to understand what they are agreeing to. AI translates this complexity into plain language explanations. Most contract disp"
         }
       ]
     },
