@@ -545,6 +545,22 @@ const forbiddenByFile = {
     'No selling documents',
     'Secure analysis'
   ],
+  'hidden-fee-examples.html': [
+    'Hidden Fee Examples Library: Real Documents, Real Fees Exposed',
+    'real-world documents',
+    'see exactly where hidden fees hide',
+    'pricing breakdown',
+    'how DetectHiddenFees AI would analyze the document',
+    'Potential Hidden Fees',
+    'may be inflated or unnecessary',
+    'Upload My Document for Analysis',
+    'Upload My Document — $15',
+    'Analyze My Document — $15',
+    'Our AI scans for hidden fees, markups, and pricing risks',
+    'No subscription',
+    'Secure analysis',
+    'AI-Powered Hidden Fee Detection for Consumers'
+  ],
   'early-termination-fees.html': [
     'Results in minutes',
     '$15 one-time payment',
