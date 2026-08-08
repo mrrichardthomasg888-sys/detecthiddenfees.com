@@ -11,16 +11,11 @@ Authority pillars:
 - `/hidden-fee-detector`
 
 Recommended hubs:
+- `/hidden-fee-database`
 - `/hidden-fee-dictionary`
-- `/hidden-fee-encyclopedia`
-- `/hidden-fee-glossary`
-- `/hidden-fee-index`
-- `/hidden-fee-intelligence-center`
-- `/hidden-fee-knowledge-center`
 - `/hidden-fees-guides`
-- `/hidden-fees-resource-center`
 
-Assigned canonical pages: 51
+Assigned canonical pages: 58
 
 ## AI Contract Review
 
@@ -32,9 +27,10 @@ Authority pillars:
 
 Recommended hubs:
 - `/ai-contract-resource-center`
+- `/contract-clause-library`
 - `/contract-terms-glossary`
 
-Assigned canonical pages: 76
+Assigned canonical pages: 78
 
 ## Bills, Invoices, and Document Analysis
 
@@ -46,10 +42,9 @@ Authority pillars:
 - `/ai-invoice-analyzer`
 
 Recommended hubs:
-- `/ai-document-intelligence-center`
-- `/consumer-financial-intelligence-center`
+- None beyond the existing pillars.
 
-Assigned canonical pages: 54
+Assigned canonical pages: 58
 
 ## Consumer Negotiation and Protection
 
@@ -63,7 +58,7 @@ Recommended hubs:
 - `/bill-negotiation-resource-center`
 - `/consumer-negotiation-resource-center`
 
-Assigned canonical pages: 23
+Assigned canonical pages: 25
 
 ## Research, Methodology, Trust, and Transparency
 
@@ -76,7 +71,7 @@ Authority pillars:
 Recommended hubs:
 - None beyond the existing pillars.
 
-Assigned canonical pages: 21
+Assigned canonical pages: 19
 
 ## Architecture rules
 

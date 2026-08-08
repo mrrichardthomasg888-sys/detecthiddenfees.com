@@ -55,7 +55,7 @@ def main() -> None:
         "",
         "## Targeted contextual links added",
         "",
-        "The following six parent pages received 15 contextual links. The links were limited to semantically related child pages that were orphaned or had only one inbound link in the baseline.",
+        f"The following {len(changes)} parent pages received {sum(len(x['targets']) for x in changes)} contextual links. The links were limited to semantically related child pages that were orphaned or had only one inbound link in the baseline.",
         "",
     ]
     for change in changes:

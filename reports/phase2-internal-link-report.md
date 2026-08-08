@@ -6,10 +6,10 @@ This report compares the read-only Phase 2 baseline with the local Phase 2 navig
 
 | Metric | Before | After | Change |
 |---|---:|---:|---:|
-| Canonical nodes | 225 | 225 | +0 |
-| Distinct directed edges | 7689 | 8743 | +1054 |
-| Link occurrences | 10072 | 10373 | +301 |
-| Orphan pages | 11 | 0 | -11 |
+| Canonical nodes | 225 | 238 | +13 |
+| Distinct directed edges | 7689 | 9160 | +1471 |
+| Link occurrences | 10072 | 10813 | +741 |
+| Orphan pages | 11 | 3 | -8 |
 | Pages with exactly one inbound link | 61 | 66 | +5 |
 | Excessive sitewide targets flagged | 24 | 28 | +4 |
 
@@ -31,11 +31,13 @@ Pages no longer orphaned after targeted contextual links:
 - `/what-should-i-check-before-signing-a-contract`
 
 Remaining orphan pages:
-- None
+- `/ai-consulting-agreement-review`
+- `/automatic-renewal-date-calculator`
+- `/free-hidden-fee-scanner`
 
 ## Targeted contextual links added
 
-The following six parent pages received 15 contextual links. The links were limited to semantically related child pages that were orphaned or had only one inbound link in the baseline.
+The following 8 parent pages received 19 contextual links. The links were limited to semantically related child pages that were orphaned or had only one inbound link in the baseline.
 
 - `/ai-contract-review` → `/before-signing-a-contract`, `/what-should-i-check-before-signing-a-contract`, `/ai-contract-review-before-signing`
 - `/ai-contract-review-software` → `/contract-review-ai-software`
@@ -43,13 +45,16 @@ The following six parent pages received 15 contextual links. The links were limi
 - `/research-center` → `/ai-testing-results`, `/sample-analysis-report`
 - `/ai-invoice-analyzer` → `/scan-my-invoice`, `/ai-invoice-checker`, `/analyze-my-invoice`
 - `/ai-bill-analyzer` → `/ai-bill-analysis-vs-manual-review`, `/ai-bill-analyzer-vs-chatgpt`
+- `/hidden-fee-industry-guide` → `/hidden-auto-fees`, `/hidden-insurance-fees`, `/hidden-utility-fees`
+- `/ai-contract-review` → `/find-hidden-fees-in-contract`
 
 ## Pages still underlinked
 
 These pages have exactly one inbound link in the after graph. They should be reviewed in the next approved linking pass, prioritizing distinct search intent and user value rather than raw link counts.
+- `/ai-bill-analysis-vs-manual-review`
+- `/ai-bill-analyzer-vs-chatgpt`
 - `/ai-bill-negotiation`
-- `/ai-consulting-agreement-review`
-- `/ai-contract-review-vs-chatgpt`
+- `/ai-contract-review-before-signing`
 - `/ai-contractor-agreement-review`
 - `/ai-document-reviewer`
 - `/ai-document-risk-analysis`
@@ -60,92 +65,91 @@ These pages have exactly one inbound link in the after graph. They should be rev
 - `/ai-purchase-contract-review`
 - `/ai-quote-analyzer`
 - `/ai-software-license-review`
-- `/ai-testing-results`
 - `/analyze-contract-online`
+- `/analyze-my-contract`
 - `/analyze-my-estimate`
-- `/before-signing-a-contract`
 - `/best-ai-bill-analyzer-tools`
 - `/best-ai-contract-analysis-tools`
 - `/best-hidden-fee-detector-tools`
+- `/business-contract-review`
 - `/can-ai-analyze-financial-documents`
-- `/cancellation-fee-clauses`
-- `/contract-clause-checker`
+- `/check-my-fees`
+- `/consumer-savings-calculator`
 - `/contract-fee-checker`
 - `/contract-negotiation-assistant`
-- `/contract-review-ai-software`
+- `/contract-risk-calculator`
 - `/contract-terms-analyzer-ai`
 - `/detect-hidden-contract-fees`
-- `/example-auto-financing`
 - `/example-cell-phone-bill`
-- `/example-home-renovation-proposal`
-- `/example-hvac-estimate`
 - `/example-internet-service-agreement`
 - `/example-medical-bill`
 - `/find-hidden-fees-in-contract`
-- `/free-ai-contract-review-vs-paid-review`
-- `/free-hidden-fee-scanner`
-- `/free-vs-paid-contract-review`
 - `/hidden-auto-fees`
 - `/hidden-fee-analysis-tool`
-- `/hidden-fee-intelligence-engine`
+- `/hidden-fee-reports`
+- `/hidden-fee-scanner`
 - `/hidden-insurance-fees`
+- `/hidden-landscaping-fees`
+- `/hidden-moving-company-fees`
+- `/hidden-roofing-contractor-fees`
 - `/hidden-telecom-fees`
+- `/hidden-travel-fees`
 - `/hidden-utility-fees`
 - `/hiddenfeeai-vs-bill-negotiation-services`
 - `/hiddenfeeai-vs-lawyer-review`
 - `/hiddenfeeai-vs-traditional-negotiation`
-- `/how-ai-detects-fees`
 - `/how-can-i-check-if-a-bill-is-incorrect`
-- `/how-to-read-an-invoice`
+- `/how-to-dispute-a-hidden-fee`
+- `/how-to-negotiate-medical-bills`
 - `/identify-contract-risks`
 - `/indemnification-clauses-explained`
-- `/invoice-red-flags`
 - `/medical-debt-relief-options`
 - `/negotiate-hospital-bill`
+- `/negotiation-savings-calculator`
 - `/our-evaluation-process`
 - `/reduce-monthly-bills`
 - `/review-contract-online`
-- `/sample-analysis-report`
-- `/scan-my-invoice`
 - `/service-agreement-red-flags`
+- `/service-fee-calculator`
+- `/subscription-cost-calculator`
+- `/termination-fee-calculator`
 - `/upload-bill-for-analysis`
 - `/upload-contract-for-review`
 - `/what-are-common-hidden-fees-in-service-agreements`
 - `/what-questions-should-i-ask-before-signing-a-contract`
-- `/what-should-i-check-before-signing-a-contract`
 
 ## Most-linked destinations after implementation
 
-- `/ai-contract-review` — 533 link occurrences
-- `/` — 436 link occurrences
-- `/ai-document-intelligence-center` — 419 link occurrences
-- `/hidden-fee-encyclopedia` — 279 link occurrences
-- `/ai-bill-analyzer` — 261 link occurrences
-- `/hidden-fee-detector` — 246 link occurrences
-- `/research-center` — 242 link occurrences
-- `/consumer-negotiation-resource-center` — 240 link occurrences
-- `/ai-analysis-methodology` — 230 link occurrences
-- `/about-detect-hidden-fees` — 225 link occurrences
-- `/resource-library` — 224 link occurrences
-- `/ai-financial-advisor` — 218 link occurrences
-- `/privacy-and-ai-security` — 215 link occurrences
-- `/bill-negotiation-service` — 214 link occurrences
-- `/contact` — 214 link occurrences
-- `/editorial-policy` — 197 link occurrences
-- `/terms-of-service` — 196 link occurrences
-- `/hidden-fees-guides` — 191 link occurrences
-- `/data-handling-policy` — 185 link occurrences
-- `/ai-document-checker` — 184 link occurrences
-- `/ai-agreement-analyzer` — 181 link occurrences
-- `/contract-terms-glossary` — 176 link occurrences
-- `/hidden-fee-examples` — 174 link occurrences
-- `/ai-document-scanner` — 171 link occurrences
-- `/analyze-my-document` — 166 link occurrences
-- `/contract-red-flags` — 166 link occurrences
-- `/before-signing-contract-checklist` — 162 link occurrences
-- `/hidden-fee-prevention-guide` — 158 link occurrences
-- `/contract-risk-assessment-ai-tool` — 153 link occurrences
-- `/hidden-fee-industry-guide` — 153 link occurrences
+- `/ai-contract-review` — 685 link occurrences
+- `/` — 461 link occurrences
+- `/ai-analysis-hub` — 432 link occurrences
+- `/hidden-fee-encyclopedia` — 297 link occurrences
+- `/research-center` — 287 link occurrences
+- `/ai-bill-analyzer` — 271 link occurrences
+- `/ai-analysis-methodology` — 253 link occurrences
+- `/consumer-negotiation-resource-center` — 252 link occurrences
+- `/hidden-fee-detector` — 251 link occurrences
+- `/contact` — 244 link occurrences
+- `/about-detect-hidden-fees` — 235 link occurrences
+- `/resource-library` — 233 link occurrences
+- `/privacy-and-ai-security` — 230 link occurrences
+- `/ai-financial-advisor` — 225 link occurrences
+- `/hidden-fees-guides` — 219 link occurrences
+- `/editorial-policy` — 216 link occurrences
+- `/terms-of-service` — 206 link occurrences
+- `/contract-terms-glossary` — 203 link occurrences
+- `/ai-document-checker` — 196 link occurrences
+- `/hidden-fee-examples` — 191 link occurrences
+- `/ai-agreement-analyzer` — 188 link occurrences
+- `/bill-negotiation-service` — 187 link occurrences
+- `/contract-red-flags` — 184 link occurrences
+- `/ai-document-scanner` — 181 link occurrences
+- `/hidden-fee-prevention-guide` — 179 link occurrences
+- `/analyze-my-document` — 178 link occurrences
+- `/data-handling-policy` — 172 link occurrences
+- `/hidden-fee-industry-guide` — 172 link occurrences
+- `/before-signing-contract-checklist` — 163 link occurrences
+- `/ai-document-review-tool` — 154 link occurrences
 
 ## Sitewide repetition observations
 

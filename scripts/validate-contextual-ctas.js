@@ -32,6 +32,7 @@ const expected = {
   'example-medical-bill.html': { action: 'bill_analysis', text: 'Review My Medical Bill' },
   'ai-construction-contract-review.html': { action: 'contract_review', text: 'Analyze My Construction Contract' },
   'ai-contract-review-vs-chatgpt.html': { action: 'contract_review', text: 'Review My Contract' }
+  ,'find-hidden-fees-in-contract.html': { action: 'contract_review', text: 'Review My Contract' }
 };
 const errors = [];
 

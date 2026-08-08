@@ -49,5 +49,21 @@
       "/ai-bill-analyzer-vs-chatgpt"
     ],
     "reason": "High-confidence parent-to-child contextual discovery links for orphan or underlinked pages."
+  },
+  {
+    "source": "/hidden-fee-industry-guide",
+    "targets": [
+      "/hidden-auto-fees",
+      "/hidden-insurance-fees",
+      "/hidden-utility-fees"
+    ],
+    "reason": "Restored or added a semantically matched parent link for a current orphan page."
+  },
+  {
+    "source": "/ai-contract-review",
+    "targets": [
+      "/find-hidden-fees-in-contract"
+    ],
+    "reason": "Restored or added a semantically matched parent link for a current orphan page."
   }
 ]

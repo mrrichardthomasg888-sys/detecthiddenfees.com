@@ -586,6 +586,25 @@ const forbiddenByFile = {
     'Comprehensive investigation of hidden',
     'Learn how companies hide charges and how to detect them'
   ],
+  'find-hidden-fees-in-contract.html': [
+    'Find Hidden Fees in Contract: AI-Powered Fee Detection',
+    'Upload your contract to find hidden fees automatically',
+    'AI scans for buried charges, inflated pricing, and unfavorable terms',
+    'The AI reads every word and identifies all fee-related provisions',
+    'compares them against typical industry ranges',
+    'patterns from thousands of similar documents',
+    'results in minutes',
+    'Results in minutes',
+    '$15',
+    'one-time payment',
+    'Encrypted & secure',
+    'Upload & Analyze',
+    'Upload My Document',
+    'No subscription',
+    'automatically deleted after processing',
+    'does not use uploaded documents for AI training',
+    'AI-powered hidden fee detection'
+  ],
   'early-termination-fees.html': [
     'Results in minutes',
     '$15 one-time payment',
