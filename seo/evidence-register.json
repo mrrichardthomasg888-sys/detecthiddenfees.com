@@ -1,0 +1,18 @@
+{
+  "version": "2026-08-08.1",
+  "status": "collecting",
+  "description": "Evidence register for reviewing material claims before they are treated as verified authority statements. The current claim inventory is a triage queue; this empty register intentionally publishes no new findings.",
+  "source_priority": [
+    "government",
+    "regulator",
+    "statute",
+    "court",
+    "official_disclosure",
+    "public_pricing",
+    "academic",
+    "institutional",
+    "secondary",
+    "owner_confirmation"
+  ],
+  "records": []
+}

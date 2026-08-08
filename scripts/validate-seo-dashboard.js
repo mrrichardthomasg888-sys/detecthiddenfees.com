@@ -5,6 +5,7 @@ const ROOT = path.resolve(__dirname, '..');
 const reportPath = path.join(ROOT, 'reports', 'seo-dashboard-current.md');
 const report = fs.readFileSync(reportPath, 'utf8');
 const ctaAudit = JSON.parse(fs.readFileSync(path.join(ROOT, 'reports', 'cta-path-audit-2026-08-08.json'), 'utf8'));
+const evidence = JSON.parse(fs.readFileSync(path.join(ROOT, 'seo', 'evidence-register.json'), 'utf8'));
 const sitemapCount = (fs.readFileSync(path.join(ROOT, 'sitemap.xml'), 'utf8').match(/<loc>[^<]+<\/loc>/g) || []).length;
 const errors = [];
 
@@ -14,6 +15,8 @@ for (const required of ['DATA SOURCE NOT CONNECTED', 'INTEGRATION REQUIRED', 'NO
 if (!report.includes(`| Canonical sitemap pages | ${sitemapCount} |`)) errors.push('dashboard sitemap count does not match sitemap.xml');
 if (!report.includes(`| Pages with a main HiddenFeeAI link | ${ctaAudit.summary.pages_with_main_product_link} |`)) errors.push('dashboard CTA page count does not match CTA audit');
 if (!report.includes(`| Main-content HiddenFeeAI links | ${ctaAudit.summary.total_main_product_links} |`)) errors.push('dashboard CTA link count does not match CTA audit');
+if (!report.includes(`| Evidence-register records | ${evidence.records.length} |`)) errors.push('dashboard evidence-register count does not match register');
+if (!report.includes(`| Evidence-register status | ${evidence.status} |`)) errors.push('dashboard evidence-register status does not match register');
 if (/\| (Impressions|Clicks|CTR|Average position|Conversions|Revenue) \|[^\n]*\|\s*0(?:\.0+)?\s*\|/i.test(report)) errors.push('dashboard appears to render a disconnected performance metric as zero');
 if (/customer document|document content|extracted text|payment details/i.test(report) && !/no Search Console query data, customer data, document contents, conversion records, or revenue figures/i.test(report)) errors.push('dashboard privacy boundary is incomplete');
 

@@ -11,6 +11,7 @@ const sitemapUrls = [...read('sitemap.xml').matchAll(/<loc>([^<]+)<\/loc>/g)].ma
 const ctaAudit = readJson('reports/cta-path-audit-2026-08-08.json');
 const research = readJson('research-data.json');
 const claims = readJson('reports/unsupported-claims-audit-2026-08-08.json');
+const evidence = readJson('seo/evidence-register.json');
 
 const redirectSources = new Set();
 for (const line of read('_redirects').split(/\r?\n/)) {
@@ -40,6 +41,8 @@ const structural = {
   annotatedMainLinks: ctaAudit.summary.annotated_main_links,
   researchRecords: Array.isArray(research.records) ? research.records.length : null,
   researchStatus: research.status || 'unknown',
+  evidenceRecords: Array.isArray(evidence.records) ? evidence.records.length : null,
+  evidenceStatus: evidence.status || 'unknown',
   claimCandidates: Object.values(claims.candidate_counts || {}).reduce((sum, value) => sum + Number(value || 0), 0)
 };
 
@@ -76,6 +79,8 @@ const lines = [
   `| Annotated main-content CTA links | ${structural.annotatedMainLinks} | CTA path audit |`,
   `| Research records published | ${structural.researchRecords} | \`research-data.json\` |`,
   `| Research manifest status | ${structural.researchStatus} | \`research-data.json\` |`,
+  `| Evidence-register records | ${structural.evidenceRecords} | \`seo/evidence-register.json\` |`,
+  `| Evidence-register status | ${structural.evidenceStatus} | \`seo/evidence-register.json\` |`,
   `| Claim-review candidates | ${structural.claimCandidates} | Unsupported-claim inventory; review candidates, not findings |`,
   '',
   '## Research and evidence status',

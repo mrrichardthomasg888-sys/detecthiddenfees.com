@@ -30,6 +30,8 @@ Null is not zero. No unavailable metric is represented as a performance value.
 | Annotated main-content CTA links | 117 | CTA path audit |
 | Research records published | 0 | `research-data.json` |
 | Research manifest status | collecting | `research-data.json` |
+| Evidence-register records | 0 | `seo/evidence-register.json` |
+| Evidence-register status | collecting | `seo/evidence-register.json` |
 | Claim-review candidates | 4628 | Unsupported-claim inventory; review candidates, not findings |
 
 ## Research and evidence status
