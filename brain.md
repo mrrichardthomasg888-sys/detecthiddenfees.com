@@ -993,6 +993,19 @@ This section records the current implementation state so future work can resume 
 - The code was pushed directly to GitHub `main`. The pre-existing `calculator-authority.css` modification remains unstaged and untouched. No PR and no Cloudflare dashboard deployment were used.
 - Next session should read this section and `reports/verification-2026-08-08.md`, confirm `6e76436` is still the latest deployed commit, and choose the next evidence-backed priority. Do not stage `calculator-authority.css` automatically.
 
+### Evidence-based AI accuracy guide — 2026-08-08
+
+- Commit `21ce9df` remediated `ai-accuracy-and-limitations.html`, a supplied Search Console-affected canonical page that still presented product-performance language, training-data implications, “most effective” framing, a forced product bar, and `SoftwareApplication` JSON-LD despite being an educational limitations resource.
+- The page now answers why no universal AI accuracy percentage applies: a meaningful evaluation needs a defined task, dataset, labels, system version, test date, and separate false-positive/false-negative measures. It explains extraction, context, false positives, false negatives, and a four-step verification workflow without claiming HiddenFeeAI private metrics or capabilities.
+- The existing DetectHiddenFees URL, logo, header/navigation, footer, typography, colors, responsive layout, and page template were preserved. The research page no longer forces a HiddenFeeAI CTA or sticky product bar into the body; the existing global navigation remains available.
+- The page cites the [NIST AI Risk Management Framework](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10) as voluntary risk-management guidance, not a HiddenFeeAI performance evaluation. The page also points to the public methodology, Research Center, and Hidden Fee Index, all of which remain collecting-only where no verified dataset exists.
+- Article, BreadcrumbList, WebPage, and FAQPage JSON-LD remain; the invalid `SoftwareApplication` block was removed. Six visible FAQ questions exactly match the six FAQPage schema questions. Article publication date remains `2026-07-19`, WebPage publication date remains `2026-07-21`, and both modification dates are `2026-08-08`.
+- The guarded, idempotent remediation script is `scripts/remediate-ai-accuracy-and-limitations-page.js`. The unverified-product-claim gate now covers 27 priority pages and explicitly guards the removed accuracy/product promises.
+- Full local validation passed: 238 canonical pages with zero master structural/link/indexability failures, 15 opportunity records with no invented performance data, 27 claim-gate pages, 9 contextual-CTA pages, sitemap/`llms.txt` 238, RSS 179 total with 178 editorial items, 50 valid redirect rules, collecting-only research/evidence registers, disconnected dashboard with no fake metrics, 15 calculator pages, refreshed unsupported-claim audit, and clean `git diff --check`.
+- Production verification after `21ce9df` propagated on cache-busting attempt 5: HTTP 200 with the new title, NIST source, evidence-safe answer, no old product claims, no `SoftwareApplication` schema, no stale footer label, and no sticky product bar. Fresh live browser checks at desktop and 390px mobile widths found one H1, six schema-aligned FAQs, no horizontal overflow, no HiddenFeeAI link in the accuracy-guide body, and no old claims.
+- The code was pushed directly to GitHub `main`. The pre-existing `calculator-authority.css` modification remains unstaged and untouched. No PR and no Cloudflare dashboard deployment were used.
+- Next session should read this section and `reports/verification-2026-08-08.md`, confirm `21ce9df` remains deployed, and choose the next evidence-backed priority. Do not stage `calculator-authority.css` automatically.
+
 ### Validation baseline
 
 The following checks were passing at the end of the 2026-08-08 work session:
