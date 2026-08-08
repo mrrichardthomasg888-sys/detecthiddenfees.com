@@ -29,7 +29,8 @@ const expected = {
   'early-termination-fees.html': { action: 'contract_review', text: 'Review My Contract for Exit Terms' },
   'duplicate-medical-billing-charges.html': { action: 'bill_analysis', text: 'Review My Medical Bill' },
   'example-medical-bill.html': { action: 'bill_analysis', text: 'Review My Medical Bill' },
-  'ai-construction-contract-review.html': { action: 'contract_review', text: 'Analyze My Construction Contract' }
+  'ai-construction-contract-review.html': { action: 'contract_review', text: 'Analyze My Construction Contract' },
+  'ai-contract-review-vs-chatgpt.html': { action: 'contract_review', text: 'Review My Contract' }
 };
 const errors = [];
 

@@ -6,11 +6,11 @@
   "page_count": 238,
   "pages_with_candidates": 233,
   "candidate_counts": {
-    "quantitative_amount": 1829,
-    "quantitative_percent": 465,
-    "absolute_or_superlative": 1513,
+    "quantitative_amount": 1824,
+    "quantitative_percent": 464,
+    "absolute_or_superlative": 1516,
     "performance_or_outcome": 154,
-    "population_or_scale": 150
+    "population_or_scale": 149
   },
   "records": [
     {
@@ -2494,70 +2494,46 @@
       "file": "ai-contract-review-vs-chatgpt.html",
       "matches": [
         {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ion Service Upload any bill AI identifies potential billing issues and charges that may need review $15 one-time No subscription Start negotiating your bills today. Upload any bill or service agreement to HiddenFeeAI. The AI identifies overcharges, hidden fees, an"
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "every",
+          "snippet": "rt options, or review controls. Those are workflow characteristics to verify, not assumptions about every product or proof of better accuracy. Repeatable checklist Look for a clear description of the clauses and document fields the workflow is intended to organize,"
         },
         {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ees, and negotiation opportunities. Get your analysis in minutes and start saving. Upload My Bill — $15 AI Contract Review vs ChatGPT: Why Specialized Tools Win ChatGPT is an impressive general-purpose AI that can read and summarize documents, but when it comes to"
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "always",
+          "snippet": "ntract and do not treat an AI response as a legal conclusion. Is a specialized contract-review tool always better than ChatGPT? No. A specialized workflow may be more convenient for a defined checklist or repeatable document process, while ChatGPT may be sufficient "
         },
         {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ed analysis of what you should challenge. Know exactly what to say and save money. Upload My Bill — $15 Start Negotiating Your Bills Today Don't pay more than you have to. Let AI analyze your bills and give you the leverage you need. Analyze My Bill → $15 one-time"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "e than you have to. Let AI analyze your bills and give you the leverage you need. Analyze My Bill → $15 one-time · No subscription · Secure processing Related: See how AI Contract Review compares with other analysis methods. TOOLS AI Contract Review AI Bill Analyz"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "hidden costs &#8595; Document Intelligence Center — complete document analysis Review Your Contract $15 Analyze My Contract"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "90%",
-          "snippet": "e contract language that has been deliberately crafted to appear standard. HiddenFeeAI catches over 90% of known hidden fee patterns and pricing anomalies because it has been specifically trained to recognize them. For users who need to quickly understand the gen"
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "guarantee",
+          "snippet": "ms. Review the current terms that apply before uploading sensitive material. Can a specialized tool guarantee that it finds every hidden fee? No. A responsible document-analysis workflow should describe limitations and require verification. Neither a general assistant "
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "ained exclusively on thousands of real contracts, bills, invoices, and financial documents spanning every major industry. This specialized training means HiddenFeeAI can identify patterns associated with hidden fees, inflated pricing, duplicate charges, and unfavor"
+          "snippet": "erms that apply before uploading sensitive material. Can a specialized tool guarantee that it finds every hidden fee? No. A responsible document-analysis workflow should describe limitations and require verification. Neither a general assistant nor a specialized to"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "never",
-          "snippet": ", inflated pricing, duplicate charges, and unfavorable terms that ChatGPT would miss because it has never been trained to recognize them. Security is a critical consideration when uploading contracts and financial documents to any AI platform. ChatGPT stores conver"
+          "value": "guarantee",
+          "snippet": "scribe limitations and require verification. Neither a general assistant nor a specialized tool can guarantee that every charge, omission, legal issue, or pricing question has been identified from a document alone. What should I do before uploading a sensitive contract"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "never",
-          "snippet": "ssion, stores them temporarily in isolated storage, automatically deletes them within 24 hours, and never uses uploaded documents for AI training. For sensitive contracts containing personal or financial information, the specialized platform offers significantly be"
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": "marks, or deceptive contract language patterns. HiddenFeeAI, by contrast, is trained exclusively on thousands of real contracts, bills, invoices, and financial documents spanning every major industry. This specialized training means HiddenFeeAI can identify patterns assoc"
+          "value": "every",
+          "snippet": "ons and require verification. Neither a general assistant nor a specialized tool can guarantee that every charge, omission, legal issue, or pricing question has been identified from a document alone. What should I do before uploading a sensitive contract? Remove in"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
-          "value": "Accuracy",
-          "snippet": " or financial information, the specialized platform offers significantly better privacy protection. Accuracy in identifying hidden fees and risky contract terms is where the difference between general and specialized AI becomes most apparent. ChatGPT can identify obvi"
+          "value": "accuracy",
+          "snippet": "hose are workflow characteristics to verify, not assumptions about every product or proof of better accuracy. Repeatable checklist Look for a clear description of the clauses and document fields the workflow is intended to organize, along with its known exclusions. Ev"
         }
       ]
     },
