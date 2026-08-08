@@ -3,7 +3,7 @@
 ## Source deployment
 
 - Changes were pushed directly to GitHub `main`.
-- Latest verified commit: `2639bd2` (`Redirect extensionless legacy aliases`).
+- Latest verified commit: `d22b611` (`Qualify contract analysis product claims`).
 - The pre-existing user-owned change to `calculator-authority.css` remains unstaged and untouched.
 
 ## Local verification
