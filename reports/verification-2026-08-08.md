@@ -530,7 +530,7 @@ The invoice analyzer guide was verified after commit `eae5423` propagated. A cac
 
 ## Phase 3 deployment checkpoint - 2026-08-08
 
-Code commit `7cfbeb0` records the verified Phase 3 evidence review. It is committed locally and awaiting direct push to GitHub `main`; production routes have not yet been rechecked against this commit.
+Code commit `7cfbeb0` records the verified Phase 3 evidence review, and checkpoint commit `6ac66d8` is confirmed on GitHub `main`. Production returned 200 for the five research pages, `research-data.json`, `research-data.csv`, `sitemap.xml`, `llms.txt`, and `rss.xml`; all published research markers and both machine-readable downloads were verified. The only remaining worktree change is the unstaged user-owned `calculator-authority.css`.
 
 ## Phase 2 real traffic, research, and authority infrastructure - 2026-08-08
 

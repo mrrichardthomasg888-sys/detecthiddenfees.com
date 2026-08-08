@@ -1590,6 +1590,7 @@ The master validator baseline is 238 pages with zero missing titles/descriptions
 - Validation passed across the master structure/link/indexability checks, discovery assets, redirects, attribution, contextual CTAs, research manifest/data, opportunity engine, dashboard source-state rules, evidence and claim gates, calculator checks, Search Console template, outreach pipeline, JavaScript syntax, public-data privacy checks, and `git diff --check`.
 - Deployment status: Phase 3 files are prepared but not yet committed or pushed. The pre-existing user-owned `calculator-authority.css` remains unstaged and untouched. Next safe action: stage only verified Phase 3 files, commit, push directly to GitHub `main`, verify the remote commit, then verify production HTTP for the five research routes and JSON/CSV assets.
 - Code commit `7cfbeb0` now records the verified Phase 3 evidence review. It is committed locally and awaiting direct push to GitHub `main`; the production routes have not yet been rechecked against this commit.
+- Deployment completed: documentation checkpoint commit `6ac66d8` is confirmed on GitHub `main`. Production returned 200 for the five research pages, `research-data.json`, `research-data.csv`, `sitemap.xml`, `llms.txt`, and `rss.xml`; all published research markers and both machine-readable downloads were verified. The only remaining worktree change is the unstaged user-owned `calculator-authority.css`.
 
 ## Standing handoff rule - 2026-08-08
 
