@@ -55,6 +55,7 @@ function updateHead(source, title, description) {
   result = result.replace(/(<meta\s+property="og:description"\s+content=")[^"]*("\s*\/?>)/i, `$1${description}$2`);
   result = result.replace(/("dateModified"\s*:\s*")[^"]*(")/gi, `$1${LAST_UPDATED}$2`);
   result = result.replace(/July 2026/g, LAST_UPDATED_LABEL);
+  result = result.replace(/<\/style>/i, '@media(max-width:600px){.hero-buttons{flex-direction:column;align-items:stretch}.hero-buttons a{width:100%;text-align:center}}</style>');
   return result;
 }
 
