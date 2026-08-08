@@ -6,6 +6,7 @@ const LAST_UPDATED = '2026-08-08';
 const LAST_UPDATED_LABEL = 'August 8, 2026';
 
 const researchRecordPanel = `<div class="insight-block" aria-labelledby="research-record-heading"><h3 id="research-record-heading">Research record</h3><p><strong>Who:</strong> DetectHiddenFees Research Lab.</p><p><strong>What:</strong> A collection framework for public-source fee terminology, contract clauses, cancellation terms, renewal language, and unexpected charges; this is not a completed prevalence study.</p><p><strong>When:</strong> Source-level collection dates will be recorded per record. The public manifest was last updated ${LAST_UPDATED_LABEL}.</p><p><strong>How:</strong> A record must retain its source URL, scope, evidence reference, classification, and verification status before it can support a finding.</p><p><strong>Data size:</strong> The collecting manifest currently lists 0 public records and no calculated statistics.</p><p><strong>Limitations:</strong> A category or example does not establish that a fee is common, unlawful, deceptive, or representative. Inspect the <a href="/research-data.json">manifest</a> and <a href="/research-methodology">methodology</a> before citing the status.</p></div>`;
+const researchButtonStyles = `.hero-buttons{display:flex;gap:18px;flex-wrap:wrap;margin:20px 0 16px}.hero-buttons a{display:inline-block;padding:16px 24px;border-radius:16px;font-weight:800;text-align:center;text-decoration:none}.hero-buttons .primary-btn{background:linear-gradient(135deg,#2563eb,#9333ea);color:#fff;box-shadow:0 12px 36px rgba(37,99,235,.35)}.hero-buttons .secondary-btn{border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.03);color:#e2e8f0}@media(max-width:600px){.hero-buttons{flex-direction:column;align-items:stretch}.hero-buttons a{width:100%;text-align:center}}`;
 
 const commonLinks = `
 <p><a href="/research-data.json">Download the machine-readable research manifest</a> · <a href="/research-methodology">Read the methodology</a> · <a href="/editorial-policy">Read the editorial policy</a></p>`;
@@ -55,7 +56,7 @@ function updateHead(source, title, description) {
   result = result.replace(/(<meta\s+property="og:description"\s+content=")[^"]*("\s*\/?>)/i, `$1${description}$2`);
   result = result.replace(/("dateModified"\s*:\s*")[^"]*(")/gi, `$1${LAST_UPDATED}$2`);
   result = result.replace(/July 2026/g, LAST_UPDATED_LABEL);
-  result = result.replace(/<\/style>/i, '@media(max-width:600px){.hero-buttons{flex-direction:column;align-items:stretch}.hero-buttons a{width:100%;text-align:center}}</style>');
+  result = result.replace(/<\/style>/i, `${researchButtonStyles}</style>`);
   return result;
 }
 
