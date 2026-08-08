@@ -9,7 +9,8 @@ const expected = {
   'hidden-landscaping-fees.html': { action: 'estimate_review', text: 'Landscaping Estimate' },
   'ai-estimate-review.html': { action: 'estimate_review', text: 'Review My Estimate' },
   'ai-bill-analyzer.html': { action: 'bill_analysis', text: 'Review My Bill' },
-  'ai-financial-analysis.html': { action: 'document_analysis', text: 'Review My Financial Document' }
+  'ai-financial-analysis.html': { action: 'document_analysis', text: 'Review My Financial Document' },
+  'ai-document-analysis-tools.html': { action: 'document_analysis', text: 'Analyze My Document' }
 };
 const errors = [];
 

@@ -167,6 +167,18 @@ const forbiddenByFile = {
     'guarantee detection of every possible fee',
     'industry experience indicates that',
     'substantial revenue from fee income'
+  ],
+  'ai-document-analysis-tools.html': [
+    'Upload any bill or service agreement to HiddenFeeAI',
+    'Get your analysis in minutes and start saving',
+    'analyzes every line item without fatigue',
+    'catches over 90% of known patterns',
+    'identifies overcharges that offset the analysis cost many times over',
+    'making it easy to upload and analyze virtually any document',
+    'Start Negotiating Your Bills Today',
+    'Analyze My Bill',
+    'Upload My Bill',
+    'complete protection'
   ]
 };
 const issues = [];
