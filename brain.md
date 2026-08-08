@@ -1681,3 +1681,9 @@ The master validator baseline is 238 pages with zero missing titles/descriptions
 - Added `.github/workflows/outreach-internal-test.yml`, manual-dispatch only. It passes `BREVO_API_KEY` from GitHub Actions Secrets without printing it, locks From and Reply-To to `support@detecthiddenfees.com`, sends one test to the support routing address, and cannot send the four external outreach messages.
 - The workflow has not been triggered yet. External outreach remains disabled. No Cloudflare/MX/DNS changes were made.
 - Next safe action: trigger the manual internal-test workflow, inspect Brevo’s non-secret result, then verify delivery/reply in the owner’s Gmail if available. Keep automated Gmail monitoring marked blocked until a read-only Gmail authorization exists.
+
+## Phase 6C one-time test trigger - 2026-08-08
+
+- GitHub’s public workflow page confirmed the internal test workflow exists but this environment is not signed in to GitHub, so manual dispatch is unavailable.
+- Added a temporary push trigger gated to the exact commit message `Run internal Brevo test`; it will run only the one internal test on that push and remains unable to invoke external outreach. It will be removed after the result is checked.
+- Next safe action: push the one-time trigger, inspect the GitHub Actions result without exposing `BREVO_API_KEY`, then remove the temporary push trigger and preserve a manual-only test workflow.
