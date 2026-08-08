@@ -6,11 +6,11 @@
   "page_count": 238,
   "pages_with_candidates": 234,
   "candidate_counts": {
-    "quantitative_amount": 1955,
+    "quantitative_amount": 1947,
     "quantitative_percent": 476,
-    "absolute_or_superlative": 1546,
+    "absolute_or_superlative": 1539,
     "performance_or_outcome": 152,
-    "population_or_scale": 161
+    "population_or_scale": 159
   },
   "records": [
     {
@@ -16809,136 +16809,34 @@
       "file": "hidden-fee-detector.html",
       "matches": [
         {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ad any document and get a complete analysis in minutes. AI-powered fee detection Results in minutes $15 one-time payment Encrypted &amp; secure Detect Hidden Fees &mdash; $15 Free Hidden Fee Scanner Hidden fees cost consumers billions of dollars every year. They a"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "detection Results in minutes $15 one-time payment Encrypted &amp; secure Detect Hidden Fees &mdash; $15 Free Hidden Fee Scanner Hidden fees cost consumers billions of dollars every year. They are buried in contracts, disguised on bills, hidden in invoices, and emb"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$5 m",
-          "snippet": "agraphs and never referred to again. These fees appear as small amounts but accumulate over time. A $5 monthly fee that you did not know about costs $60 per year. Over a five-year contract, that is $300 for a charge you never agreed to explicitly. Administrative f"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$60 ",
-          "snippet": "ppear as small amounts but accumulate over time. A $5 monthly fee that you did not know about costs $60 per year. Over a five-year contract, that is $300 for a charge you never agreed to explicitly. Administrative fees appear in many service agreements. Companies "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$300 ",
-          "snippet": "A $5 monthly fee that you did not know about costs $60 per year. Over a five-year contract, that is $300 for a charge you never agreed to explicitly. Administrative fees appear in many service agreements. Companies add them to cover costs that should be part of the"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "owered hidden fee detection. One-time payment, no subscription required. Detect Hidden Fees &mdash; $15 One-time payment &middot; No subscription &middot; Encrypted &amp; secure How the AI Hidden Fee Detector Works The AI hidden fee detector follows a systematic p"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ment language and identify fee-related provisions regardless of terminology. How much does it cost? $15 per document. No subscription or recurring fee. Related next steps Check a bill or document for hidden fees AI Tools AI Financial Advisor Legal Artificial Intel"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "com — AI-Powered Hidden Fee Detection & Legal Artificial Intelligence for Consumers Try HiddenFeeAI $15 Analyze My Document"
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "guarantee",
+          "snippet": "he useful output is a set of passages and questions to verify against the source records. It cannot guarantee that every fee was found, determine fair market value from text alone, decide whether a charge violates a law, inspect workmanship, or guarantee a dispute or n"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "es appear under dozens of names in contracts, bills, and invoices. Our AI hidden fee detector reads every word and identifies buried charges regardless of what they are called. Upload any document and get a complete analysis in minutes. AI-powered fee detection Res"
+          "snippet": "t is a set of passages and questions to verify against the source records. It cannot guarantee that every fee was found, determine fair market value from text alone, decide whether a charge violates a law, inspect workmanship, or guarantee a dispute or negotiation "
+        },
+        {
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "guarantee",
+          "snippet": " fair market value from text alone, decide whether a charge violates a law, inspect workmanship, or guarantee a dispute or negotiation result. Flagged text is not a legal conclusion Amounts need source verification Original documents remain important What to look for i"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "tect Hidden Fees &mdash; $15 Free Hidden Fee Scanner Hidden fees cost consumers billions of dollars every year. They are buried in contracts, disguised on bills, hidden in invoices, and embedded in agreements. The fees are never called fees. They are called process"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "never",
-          "snippet": "ried in contracts, disguised on bills, hidden in invoices, and embedded in agreements. The fees are never called fees. They are called processing charges, administrative surcharges, compliance recovery costs, account maintenance fees, documentation fees, service ch"
+          "snippet": "es. A cropped excerpt can hide an exception or definition. 2. Ask for passages, not just labels For every flagged fee, locate the exact page or line, the amount, the trigger, the affected service, and any definition or cross-reference. 3. Compare the same transacti"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "ice charges, and dozens of other names designed to avoid detection. An AI hidden fee detector reads every line of your document and identifies every provision that could cost you money. Unlike a manual review where you might miss a buried clause on page twelve, the"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "gned to avoid detection. An AI hidden fee detector reads every line of your document and identifies every provision that could cost you money. Unlike a manual review where you might miss a buried clause on page twelve, the AI reads everything with equal attention a"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "never",
-          "snippet": " consumer contracts include monthly processing fees that are mentioned once in dense paragraphs and never referred to again. These fees appear as small amounts but accumulate over time. A $5 monthly fee that you did not know about costs $60 per year. Over a five-ye"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "never",
-          "snippet": "you did not know about costs $60 per year. Over a five-year contract, that is $300 for a charge you never agreed to explicitly. Administrative fees appear in many service agreements. Companies add them to cover costs that should be part of their standard overhead. "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "ees appear in banking contracts, subscription agreements, and service contracts. The fee is charged every month regardless of whether you use the service. It is buried in the fine print and often goes unnoticed for months or years. Documentation and processing fees"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "ple document types. Contracts, bills, invoices, estimates, lease agreements, and subscription terms all receive the same thorough analysis. Using the same fee detector for all your documents creates consistency. You develop familiarity with the analysis format an"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "nts, and subscription terms all receive the same thorough analysis. Using the same fee detector for all your documents creates consistency. You develop familiarity with the analysis format and learn what to look for. Each subsequent review becomes more efficient "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "he AI Hidden Fee Detector Works The AI hidden fee detector follows a systematic process to identify every potential charge in your document. First, the AI reads and structures your document, identifying all financial provisions, fee-related language, and pricing te"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "ry potential charge in your document. First, the AI reads and structures your document, identifying all financial provisions, fee-related language, and pricing terms. It uses natural language processing to understand the context and meaning of each section. Next,"
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": "elve, the AI reads everything with equal attention and compares your document against patterns from thousands of similar documents. The most common hidden fees found in consumer contracts include monthly processing fees that are mentioned once in dense paragraphs and neve"
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": " Next, the AI compares your document against a database of known hidden fee patterns collected from thousands of similar documents. This comparative analysis identifies provisions that deviate from industry norms and flag terms that deserve attention. Each finding is cate"
+          "snippet": "a human to check against the quote, contract, bill, or account disclosures. Can an AI detector find every hidden fee? No. Results depend on document quality, context, scope, and the review system. A detector may miss text, misunderstand an exception, or flag a legi"
         }
       ]
     },

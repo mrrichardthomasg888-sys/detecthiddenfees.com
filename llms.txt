@@ -36,7 +36,7 @@
 - [Hidden Fee Analysis Tool](https://detecthiddenfees.com/hidden-fee-analysis-tool) — Canonical page for this topic.
 - [Hidden Fee Calculator](https://detecthiddenfees.com/hidden-fee-calculator) — Canonical page for this topic.
 - [Hidden Fee Database: Collection Framework and Public Status](https://detecthiddenfees.com/hidden-fee-database) — Canonical page for this topic.
-- [Hidden Fee Detector: Find Buried Charges With AI](https://detecthiddenfees.com/hidden-fee-detector) — Canonical page for this topic.
+- [Hidden Fee Detector: How AI-Assisted Document Review Works](https://detecthiddenfees.com/hidden-fee-detector) — Canonical page for this topic.
 - [Hidden Fee Dictionary: Complete A-to-Z Guide to Fee Terminology](https://detecthiddenfees.com/hidden-fee-dictionary) — Canonical page for this topic.
 - [Hidden Fee Encyclopedia: The Definitive Guide to Pricing Manipulation &amp; Deceptive Charges](https://detecthiddenfees.com/hidden-fee-encyclopedia) — Canonical page for this topic.
 - [Hidden Fee Examples Library: Real Documents, Real Fees Exposed](https://detecthiddenfees.com/hidden-fee-examples) — Canonical page for this topic.
