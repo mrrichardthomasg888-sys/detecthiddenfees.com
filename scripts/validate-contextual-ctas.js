@@ -20,6 +20,7 @@ const expected = {
   'ai-financial-advisor.html': { action: 'document_analysis', text: 'Review My Financial Document' },
   'example-auto-financing.html': { action: 'auto_financing_review', text: 'Review My Financing Agreement' },
   'example-hvac-estimate.html': { action: 'estimate_review', text: 'Review My HVAC Estimate' },
+  'example-home-renovation-proposal.html': { action: 'estimate_review', text: 'Review My Renovation Proposal' },
   'hidden-fee-prevention-guide.html': { action: 'document_analysis', text: 'Review My Document for Fees' },
   'hidden-fee-detector.html': { action: 'document_analysis', text: 'Review My Document for Fees' },
   'hidden-rental-fees.html': { action: 'document_analysis', text: 'Review My Lease for Fees' },

@@ -6,9 +6,9 @@
   "page_count": 238,
   "pages_with_candidates": 233,
   "candidate_counts": {
-    "quantitative_amount": 1866,
-    "quantitative_percent": 468,
-    "absolute_or_superlative": 1512,
+    "quantitative_amount": 1846,
+    "quantitative_percent": 465,
+    "absolute_or_superlative": 1511,
     "performance_or_outcome": 154,
     "population_or_scale": 152
   },
@@ -13538,166 +13538,22 @@
       "file": "example-home-renovation-proposal.html",
       "matches": [
         {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": " proposals. Use it as a reference when reviewing your own contracts. Upload & Analyze My Document — $15 Home Renovation Proposal / Contract Illustrative example Not a real customer document Educational purposes only The Scenario A homeowner receives a $32,000 kitc"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$32,000 k",
-          "snippet": " example Not a real customer document Educational purposes only The Scenario A homeowner receives a $32,000 kitchen renovation proposal. The proposal appears comprehensive but contains several hidden fee structures common in the renovation industry. Document Type Home "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$32,000 ",
-          "snippet": "ation industry. Document Type Home Renovation Proposal / Contract Pricing Breakdown Total Proposal: $32,000 Cabinetry & Countertops: $14,500 Labor & Installation: $9,800 Plumbing & Electrical: $3,200 Materials & Tile: $2,500 Permits & Design Fees: $1,200 Change Order "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$14,500 ",
-          "snippet": "e Renovation Proposal / Contract Pricing Breakdown Total Proposal: $32,000 Cabinetry & Countertops: $14,500 Labor & Installation: $9,800 Plumbing & Electrical: $3,200 Materials & Tile: $2,500 Permits & Design Fees: $1,200 Change Order Allowance: $800 Potential Hidden "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$9,800 ",
-          "snippet": "ct Pricing Breakdown Total Proposal: $32,000 Cabinetry & Countertops: $14,500 Labor & Installation: $9,800 Plumbing & Electrical: $3,200 Materials & Tile: $2,500 Permits & Design Fees: $1,200 Change Order Allowance: $800 Potential Hidden Fees Identified The following"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$3,200 M",
-          "snippet": "posal: $32,000 Cabinetry & Countertops: $14,500 Labor & Installation: $9,800 Plumbing & Electrical: $3,200 Materials & Tile: $2,500 Permits & Design Fees: $1,200 Change Order Allowance: $800 Potential Hidden Fees Identified The following charges in this document may b"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$2,500 ",
-          "snippet": "& Countertops: $14,500 Labor & Installation: $9,800 Plumbing & Electrical: $3,200 Materials & Tile: $2,500 Permits & Design Fees: $1,200 Change Order Allowance: $800 Potential Hidden Fees Identified The following charges in this document may be inflated, unnecessary,"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$1,200 ",
-          "snippet": " Installation: $9,800 Plumbing & Electrical: $3,200 Materials & Tile: $2,500 Permits & Design Fees: $1,200 Change Order Allowance: $800 Potential Hidden Fees Identified The following charges in this document may be inflated, unnecessary, or deceptive. Each item inclu"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$800 ",
-          "snippet": "& Electrical: $3,200 Materials & Tile: $2,500 Permits & Design Fees: $1,200 Change Order Allowance: $800 Potential Hidden Fees Identified The following charges in this document may be inflated, unnecessary, or deceptive. Each item includes the potential overcharge "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$14,500 ",
-          "snippet": " deceptive. Each item includes the potential overcharge amount. Material Allowance Manipulation The $14,500 for cabinets and countertops includes a 25% \"handling and procurement fee\" on top of the material cost. Potential Overcharge: $2,900 Subcontractor Layering Plum"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$2,900 ",
-          "snippet": "ps includes a 25% \"handling and procurement fee\" on top of the material cost. Potential Overcharge: $2,900 Subcontractor Layering Plumbing and electrical work is subcontracted with a 20% markup passed to the homeowner without disclosure. Potential Overcharge: $640 Ch"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$640 ",
-          "snippet": "s subcontracted with a 20% markup passed to the homeowner without disclosure. Potential Overcharge: $640 Change Order Minimum Fee The contract requires a minimum $300 fee for any change order, regardless of scope or cost. Potential Overcharge: $300 Disposal & Clean"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$300 ",
-          "snippet": "out disclosure. Potential Overcharge: $640 Change Order Minimum Fee The contract requires a minimum $300 fee for any change order, regardless of scope or cost. Potential Overcharge: $300 Disposal & Cleanup Fee A $600 disposal fee is included, but standard dumpster "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$300 ",
-          "snippet": "equires a minimum $300 fee for any change order, regardless of scope or cost. Potential Overcharge: $300 Disposal & Cleanup Fee A $600 disposal fee is included, but standard dumpster rental in most areas is $250-350. Potential Overcharge: $300 Important: These pote"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$600 ",
-          "snippet": " any change order, regardless of scope or cost. Potential Overcharge: $300 Disposal & Cleanup Fee A $600 disposal fee is included, but standard dumpster rental in most areas is $250-350. Potential Overcharge: $300 Important: These potential hidden fees are identifi"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$250",
-          "snippet": "sposal & Cleanup Fee A $600 disposal fee is included, but standard dumpster rental in most areas is $250-350. Potential Overcharge: $300 Important: These potential hidden fees are identified for illustrative purposes. Actual document analysis results may vary. Alw"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$300 ",
-          "snippet": "osal fee is included, but standard dumpster rental in most areas is $250-350. Potential Overcharge: $300 Important: These potential hidden fees are identified for illustrative purposes. Actual document analysis results may vary. Always consult qualified professiona"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$32,000 ",
-          "snippet": "costs for changes? • What is the actual dumpster rental cost? Can you provide the invoice? • Is the $32,000 a firm fixed price, or are there allowances that could increase the final cost? How DetectHiddenFees AI Would Analyze This Document AI Analysis Approach DetectH"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "is that identifies hidden fees, pricing risks, and negotiation opportunities. Analyze My Document — $15 No subscription. No long-term commitment. Secure analysis. AI Tools AI Financial Advisor AI Contract Review AI Bill Analyzer AI Agreement Analyzer Hidden Fee De"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "opy; 2026 DetectHiddenFees.com — AI-Powered Hidden Fee Detection for Consumers Review Your Proposal $15 Analyze My Proposal"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "25%",
-          "snippet": "rcharge amount. Material Allowance Manipulation The $14,500 for cabinets and countertops includes a 25% \"handling and procurement fee\" on top of the material cost. Potential Overcharge: $2,900 Subcontractor Layering Plumbing and electrical work is subcontracted w"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "20%",
-          "snippet": "tial Overcharge: $2,900 Subcontractor Layering Plumbing and electrical work is subcontracted with a 20% markup passed to the homeowner without disclosure. Potential Overcharge: $640 Change Order Minimum Fee The contract requires a minimum $300 fee for any change "
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "25%",
-          "snippet": "s Approach DetectHiddenFees AI would analyze this renovation proposal and flag: (1) the undisclosed 25% procurement fee on materials as a high-risk pricing practice, (2) the subcontractor markup as a potential cost inflation area, (3) the change order minimum fee"
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "every",
+          "snippet": "t management, permits, inspections, financing, service plans, and optional products. Total: whether every line reconciles to the quoted total, payment schedule, and any stated contingency. Questions to ask about a real renovation proposal A line item can be worth q"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "Always",
-          "snippet": "al hidden fees are identified for illustrative purposes. Actual document analysis results may vary. Always consult qualified professionals for advice specific to your situation. Questions a Consumer Should Ask If you encounter similar charges in your own document, h"
+          "value": "every",
+          "snippet": "tingencies completed? How to review a real renovation proposal 1. Preserve the complete record Keep every proposal page, plan, specification, allowance schedule, addendum, change order, warranty, financing document, and message that affects scope or price. 2. Separ"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "Always",
-          "snippet": "ovides informational analysis and is not a substitute for legal, financial, or professional advice. Always consult qualified professionals for significant financial or legal decisions. Related Resources Renovation Fee Guide Read the complete guide covering hidden fe"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "is industry, with more examples and detailed analysis. Read Guide → Back to Examples Library Browse all educational examples to learn how hidden fees appear across different document types and industries. All Examples → Knowledge Center Educational articles answe"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "All",
-          "snippet": "ducational examples to learn how hidden fees appear across different document types and industries. All Examples → Knowledge Center Educational articles answering common questions about hidden fees, contract review, and financial document analysis. Visit Knowledg"
+          "value": "guarantee",
+          "snippet": "cannot inspect workmanship, verify local requirements, establish fair value, determine legality, or guarantee a negotiation or project result from the document alone. Frequently asked questions Is this home-renovation proposal a real customer document? No. It is a fict"
         }
       ]
     },
