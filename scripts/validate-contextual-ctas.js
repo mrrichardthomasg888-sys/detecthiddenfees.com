@@ -19,7 +19,8 @@ const expected = {
   'example-hvac-estimate.html': { action: 'estimate_review', text: 'Review My HVAC Estimate' },
   'hidden-fee-prevention-guide.html': { action: 'document_analysis', text: 'Review My Document for Fees' },
   'hidden-fee-detector.html': { action: 'document_analysis', text: 'Review My Document for Fees' },
-  'hidden-rental-fees.html': { action: 'document_analysis', text: 'Review My Lease for Fees' }
+  'hidden-rental-fees.html': { action: 'document_analysis', text: 'Review My Lease for Fees' },
+  'hidden-fee-encyclopedia.html': { action: 'document_analysis', text: 'Review My Document for Fees' }
 };
 const errors = [];
 

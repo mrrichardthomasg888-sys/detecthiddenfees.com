@@ -6,9 +6,9 @@
   "page_count": 238,
   "pages_with_candidates": 234,
   "candidate_counts": {
-    "quantitative_amount": 1916,
-    "quantitative_percent": 473,
-    "absolute_or_superlative": 1532,
+    "quantitative_amount": 1908,
+    "quantitative_percent": 470,
+    "absolute_or_superlative": 1524,
     "performance_or_outcome": 152,
     "population_or_scale": 159
   },
@@ -16891,148 +16891,34 @@
       "file": "hidden-fee-encyclopedia.html",
       "matches": [
         {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "y entry is based on a proprietary research dataset or forensic study. Analyze My Document With AI — $15 Categorized fee reference Each fee explained in depth Proprietary research methodology Actionable consumer guidance $15 one-time analysis Home › Knowledge Cente"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "reference Each fee explained in depth Proprietary research methodology Actionable consumer guidance $15 one-time analysis Home › Knowledge Center › Hidden Fee Encyclopedia Written by DetectHiddenFees Research Team Published July 2026 Updated July 2026 Fee Entries "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ustries 10 major consumer industries 10 Industry Categories 100+ Fee Entries 7 Explanations Per Fee $15 One-Time AI Analysis — Evidence status Alphabetical Index Browse hidden fees alphabetically. Each letter links to fee entries starting with that letter across a"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$20",
-          "snippet": "elecommunications Fees Telecom bills are notorious for containing multiple hidden fees that can add $20–$50+ per month to advertised prices. Regulatory recovery fees, administrative charges, line access fees, equipment rental surcharges, and data overage penaltie"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$50",
-          "snippet": "ommunications Fees Telecom bills are notorious for containing multiple hidden fees that can add $20–$50+ per month to advertised prices. Regulatory recovery fees, administrative charges, line access fees, equipment rental surcharges, and data overage penalties ar"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "tiation opportunities. Covers all 10 industry categories in our encyclopedia. One-time analysis for $15 with no subscription required. Analyze My Document With AI — $15 No subscription. One-time analysis. Secure processing. Documents deleted after analysis. About "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ncyclopedia. One-time analysis for $15 with no subscription required. Analyze My Document With AI — $15 No subscription. One-time analysis. Secure processing. Documents deleted after analysis. About the Hidden Fee Encyclopedia The Hidden Fee Encyclopedia is an edu"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "s.com — AI-Powered Hidden Fee Detection & Financial Document Analysis for Consumers Try HiddenFeeAI $15 Analyze My Document"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "80%",
-          "snippet": "billing is among the most complex and error-prone consumer financial systems. Studies suggest up to 80% of medical bills contain errors, including duplicate charges, incorrect billing codes, and charges for services not rendered. Healthcare billing can involve co"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "40%",
-          "snippet": "tion, material inflation, and undisclosed administrative fees that can increase project costs by 20–40% above the initial quote. Homeowners often discover these fees after signing, when they have limited leverage to negotiate. Hidden Contractor Fee Categories Exp"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "50%",
-          "snippet": " billing structures that obscure the true cost of energy consumption. These fees can account for 30–50% of a typical utility bill. Hidden Utility Fee Categories Explore our complete collection of utility and energy fee explanations covering electricity, gas, wate"
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "guarantee",
+          "snippet": "p organize fee language, recurring charges, totals, and questions for human verification. It cannot guarantee completeness, determine legality or fair value, or replace the original document and qualified advice. Start with a focused resource Hidden fee detector guide "
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "gory coverage may change. Entries are editorial educational material; this page does not claim that every entry is based on a proprietary research dataset or forensic study. Analyze My Document With AI — $15 Categorized fee reference Each fee explained in depth Pro"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "rowse hidden fees alphabetically. Each letter links to fee entries starting with that letter across all industry categories. A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Industry Categories 1. Banking Fees 2. Healthcare & Medical Billing Fees 3. Contractor"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "Guarantee",
-          "snippet": "derwriting Fee → Wire Transfer Fee → Cash Advance Fee → Account Closure Fee → Paper Statement Fee → Guarantee Fee → Commitment Fee → 🏦 Hidden Bank Overdraft Fees Deep investigation into overdraft fee structures, transaction reordering, and bank fee manipulation. Learn"
+          "snippet": "ion programs. These sources provide context for particular transactions; they do not establish that every fee listed here is unlawful or that every category has the same rule. The public DetectHiddenFees research manifest is currently collecting-only, with no publi"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "tegories Explore our complete collection of dealership and auto financing fee explanations covering every stage of the car buying process. Dealer Reserve / APR Markup → Documentation Fee (Doc Fee) → Extended Warranty Markup → GAP Insurance Markup → VIN Etching Fee "
+          "snippet": "t for particular transactions; they do not establish that every fee listed here is unlawful or that every category has the same rule. The public DetectHiddenFees research manifest is currently collecting-only, with no published prevalence statistics. Inspect the ma"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "all",
-          "snippet": "ols scan your actual documents for hidden fees, pricing risks, and negotiation opportunities across all industries covered in this encyclopedia. 🏦 AI Financial Advisor Complete financial intelligence platform. Analyzes contracts, bills, invoices, estimates, and "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "ecker General-purpose document analysis for hidden fees, pricing concerns, and unclear terms across all document types covered in this encyclopedia. Check Your Document → 🔍 Hidden Fee Detector Specialized tool focused exclusively on identifying hidden fees acros"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "ent → 🔍 Hidden Fee Detector Specialized tool focused exclusively on identifying hidden fees across all document types. Uses pattern recognition and pricing benchmarking to flag buried charges. Detect Hidden Fees → Understanding Hidden Fees: Quick Answers for AI "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "ystems in ways that obscure the true cost from the consumer. Hidden fees are found across virtually all consumer industries including banking, healthcare, auto sales, construction, telecommunications, insurance, travel, and rentals. The Consumer Financial Protect"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "y Upload any contract, invoice, bill, estimate, or financing agreement to HiddenFeeAI. Our AI scans every line item for hidden fees, pricing risks, and negotiation opportunities. Covers all 10 industry categories in our encyclopedia. One-time analysis for $15 with "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": " Our AI scans every line item for hidden fees, pricing risks, and negotiation opportunities. Covers all 10 industry categories in our encyclopedia. One-time analysis for $15 with no subscription required. Analyze My Document With AI — $15 No subscription. One-tim"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "it commonly appears, and how AI document analysis can help identify it. This structure ensures that every entry provides substantial educational value — not just a definition, but actionable guidance consumers can use to protect themselves. The encyclopedia is desi"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "All",
-          "snippet": " encyclopedia is designed to serve as the educational foundation for the DetectHiddenFees platform. All entries link to relevant Knowledge Center articles, industry investigations, pillar pages, AI analysis tools, and the Research Center. This interconnected know"
+          "value": "guarantee",
+          "snippet": "rganize fee terminology, recurring charges, totals, and questions for human verification. It cannot guarantee completeness, establish a fair price, or decide whether a charge is legal. Confirm current product capabilities and privacy terms before uploading sensitive re"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
-          "value": "Accuracy",
-          "snippet": "alyzing your actual documents. Editorial Policy → Editorial Methodology → Analysis Methodology → AI Accuracy & Limitations → Data Handling Policy → Research Center → Knowledge Center → Public hidden-fee taxonomy and downloads This taxonomy distinguishes disclosed mand"
+          "value": "accuracy",
+          "snippet": "n fee detector guide → AI document checker → AI document review tool → AI analysis methodology → AI accuracy and limitations → Source context and research status The FTC fee-rule FAQ explains how final payment amounts, mandatory ancillary charges, and optional add-ons"
         }
       ]
     },
