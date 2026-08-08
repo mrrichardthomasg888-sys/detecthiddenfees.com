@@ -613,6 +613,96 @@ const exactReplacements = {
       'A: The repository does not verify a 100,000-document training count or a product comparison with general-purpose AI. Compare current documented capabilities and limitations before relying on either tool.'
     ]
   ],
+  'ai-lease-review.html': [
+    [
+      'HiddenFeeAI identifies hidden costs and gives you leverage to negotiate.',
+      'HiddenFeeAI may help surface potential hidden costs and organize questions for negotiation; outcomes are not guaranteed.'
+    ],
+    [
+      'AI reads every single word, compares every clause against known risk patterns, and generates a structured report of everything it finds.',
+      'AI-assisted review may analyze extractable document content and flag configured patterns; completeness depends on document quality and product behavior.'
+    ],
+    [
+      'An AI review costs $15 and delivers results in minutes.',
+      'Review current product pricing and turnaround before upload; this repository does not independently verify a universal price or timing.'
+    ],
+    [
+      'HiddenFeeAI accepts most common file types.',
+      'Supported file types are product-dependent; confirm current requirements before upload.'
+    ],
+    [
+      'The upload process is encrypted and secure.',
+      'Current encryption and retention practices should be confirmed in HiddenFeeAI first-party policies; this repository does not independently verify implementation details.'
+    ],
+    [
+      'Your document is processed temporarily and never stored permanently unless you choose to save it.',
+      'Current processing, retention, and storage practices are governed by HiddenFeeAI first-party policies and are not independently verified here.'
+    ],
+    [
+      'Document coverage and extraction quality vary by file, layout, and product support; equal thoroughness is not guaranteed.',
+      'Document coverage and extraction quality vary by file, layout, and product support; uniform completeness is not guaranteed.'
+    ],
+    [
+      'Files are encrypted during transmission and during processing.',
+      'Current encryption practices should be confirmed in HiddenFeeAI first-party policies; this repository does not independently verify implementation details.'
+    ],
+    [
+      'They are deleted promptly after analysis.',
+      'Current deletion and retention practices should be confirmed in HiddenFeeAI first-party policies.'
+    ],
+    [
+      'The entire process takes about three to five minutes from upload to final report.',
+      'Analysis timing varies by product and document; no three-to-five-minute benchmark is asserted here.'
+    ],
+    [
+      'A $15 investment that saves you from a $15,000 mistake is a remarkable return.',
+      'A document-analysis purchase may help identify questions, but it does not guarantee savings or prevent a particular loss.'
+    ],
+    [
+      '<h2>Real Examples of AI Contract Review Findings</h2>',
+      '<h2>Illustrative Contract-Review Scenarios</h2>'
+    ],
+    [
+      'To understand what AI contract review actually catches, it helps to look at real examples. Here are anonymized cases from HiddenFeeAI users:',
+      'The following fictional illustrations show how a reviewer might organize questions; they are not verified customer cases or savings results:'
+    ],
+    [
+      'It reads every word with the same level of attention, from the first line to the last.',
+      'It may analyze extractable content, but document quality and product behavior affect completeness.'
+    ],
+    [
+      'It evaluates every term against its training data and flags anything that deviates from safe patterns.',
+      'It may compare extractable terms with configured patterns; no complete training-data coverage or safety determination is asserted here.'
+    ],
+    [
+      'dramatically reduces your risk of signing a bad contract.',
+      'may help surface questions before signing, but does not guarantee that a contract risk is avoided.'
+    ],
+    [
+      'The platform accepts PDFs, Word documents, images, and most other common file formats.',
+      'Supported formats are product-dependent; confirm current requirements before upload.'
+    ],
+    [
+      'It catches 95%+ of known risk patterns.',
+      'No verified detection percentage is asserted here; results vary with document quality, complexity, and pattern coverage.'
+    ],
+    [
+      'The entire process typically takes three to five minutes from start to finish.',
+      'Analysis timing is product-dependent and is not independently verified here.'
+    ],
+    [
+      'Documents are processed temporarily and deleted promptly after analysis.',
+      'Current document retention and deletion practices should be confirmed in HiddenFeeAI first-party policies.'
+    ],
+    [
+      'This is significantly more affordable than hiring an attorney, which typically costs $200-$500 per hour.',
+      'Professional pricing varies by provider and jurisdiction; this page does not assert a comparative attorney-cost benchmark.'
+    ],
+    [
+      'AI is specifically designed to detect hidden fees',
+      'AI-assisted review may be configured to flag potential hidden fees'
+    ]
+  ],
   'hidden-fee-encyclopedia.html': [
     [
       'The most comprehensive hidden fee encyclopedia on the internet. Explore 300+ hidden fees across banking, healthcare, contractor services, auto financing.',
@@ -771,6 +861,15 @@ const exactReplacements = {
   ]
 };
 
+const regexReplacements = {
+  'ai-lease-review.html': [
+    [
+      /<p>The financial impact is substantial\.[\s\S]*?<\/p>/,
+      '<p>The financial impact of a lease or other contract depends on price, duration, language, jurisdiction, and context. This page does not publish an independent population statistic or typical savings amount. Review any finding against the actual document and current product information.</p>'
+    ]
+  ]
+};
+
 for (const [filename, pairs] of Object.entries(exactReplacements)) {
   const file = path.join(root, filename);
   let source = fs.readFileSync(file, 'utf8');
@@ -780,4 +879,15 @@ for (const [filename, pairs] of Object.entries(exactReplacements)) {
   }
   fs.writeFileSync(file, source, 'utf8');
   console.log(`Remediated unverified product claims in ${filename}`);
+}
+
+for (const [filename, pairs] of Object.entries(regexReplacements)) {
+  const file = path.join(root, filename);
+  let source = fs.readFileSync(file, 'utf8');
+  for (const [pattern, after] of pairs) {
+    if (pattern.test(source)) source = source.replace(pattern, after);
+    else if (!source.includes(after)) throw new Error(`Expected regex product claim not found in ${filename}`);
+  }
+  fs.writeFileSync(file, source, 'utf8');
+  console.log(`Remediated regex product claims in ${filename}`);
 }
