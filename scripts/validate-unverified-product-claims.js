@@ -428,7 +428,9 @@ const forbiddenByFile = {
     '50%+ upfront',
     '100% of price increases',
     '15% maximum markup',
-    'industry experience indicates'
+    'industry experience indicates',
+    '$15',
+    'AI-Powered Hidden Fee Detection & Legal Artificial Intelligence for Consumers'
   ],
   'ai-estimate-review.html': [
     'Analyze My Bill',

@@ -25,7 +25,8 @@ const expected = {
   'hidden-rental-fees.html': { action: 'document_analysis', text: 'Review My Lease for Fees' },
   'hidden-fee-encyclopedia.html': { action: 'document_analysis', text: 'Review My Document for Fees' },
   'duplicate-medical-billing-charges.html': { action: 'bill_analysis', text: 'Review My Medical Bill' },
-  'example-medical-bill.html': { action: 'bill_analysis', text: 'Review My Medical Bill' }
+  'example-medical-bill.html': { action: 'bill_analysis', text: 'Review My Medical Bill' },
+  'ai-construction-contract-review.html': { action: 'contract_review', text: 'Analyze My Construction Contract' }
 };
 const errors = [];
 

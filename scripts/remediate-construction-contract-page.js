@@ -27,6 +27,9 @@ function replaceOnceOrSkip(from, to) {
 
 replaceOnceOrSkip('"description": "A comprehensive guide explaining how AI reviews construction contracts to detect hidden costs, change order traps, materials escalation clauses, and contractor overcharges."', '"description": "A source-aware guide to reviewing construction contracts for scope, payment, change-order, materials, and fee questions. Findings require document and jurisdiction-specific verification."');
 replaceOnceOrSkip('"dateModified": "2026-07-21"', '"dateModified": "2026-08-08"');
+replaceOnceOrSkip('"description": "AI-powered hidden fee detection platform that analyzes contracts, invoices, and financial documents for hidden costs and deceptive billing practices."', '"description": "DetectHiddenFees provides research and educational resources about hidden fees, contract charges, and document review. HiddenFeeAI is its separate AI-powered document-analysis product."');
+replaceOnceOrSkip('"description": "Comprehensive guide explaining how AI reviews construction contracts, renovation agreements, and contractor proposals to detect hidden costs, change order traps, materials escalation, and unfavorable terms."', '"description": "A source-aware guide to reviewing construction contracts for scope, payment, change-order, materials, and fee questions. Findings require document and jurisdiction-specific verification."');
+replaceOnceOrSkip('"description": "AI-powered review and analysis of construction contracts, renovation agreements, and contractor proposals to identify hidden costs, change order risks, and pricing manipulation"', '"description": "AI-assisted construction-document review may organize scope, payment, change-order, materials, and fee questions for verification; it does not establish a fair price, legal conclusion, or required dispute."');
 
 // Normalize labels from an earlier draft run so the section boundaries remain
 // stable when this remediation is run again.
@@ -52,6 +55,24 @@ replaceSection('<!-- FAQ -->', '<!-- Related Topics -->', `<!-- FAQ --><section 
 replaceSection('<!-- Trust Badges -->', '<!-- CTA Block -->', `<!-- Trust Badges --><div class="container"><div class="trust-badges"><span>Source-aware review questions</span><span>Check current product terms</span><span>Human verification required</span><span>AI is not legal advice</span></div></div>`);
 
 replaceSection('<!-- CTA Block -->', '<!-- Legal Notice -->', `<!-- CTA Block --><div class="container"><div class="cta-block"><h2>Review Your Construction Contract Before You Commit</h2><p>Upload a supported construction document to HiddenFeeAI if its current terms fit your needs. Use the result to organize questions about scope, costs, changes, and obligations before seeking the right professional answer.</p><a href="https://hiddenfeeai.com" class="cta-btn">Analyze My Construction Contract →</a><div class="cta-reassurance">Current pricing and product terms are shown by HiddenFeeAI before checkout.</div></div></div>`);
+
+// Annotate the contextual product links so cross-domain attribution can
+// distinguish construction-contract intent from other document reviews.
+source = source.replace(/<a\b[^>]*href="https:\/\/hiddenfeeai\.com"[^>]*>[\s\S]*?<\/a>/gi, (block) => {
+  if (block.includes('data-cta-action=')) return block;
+  const position = block.includes('class="phase2-nav-cta"') ? 'nav' : block.includes('class="primary-btn"') ? 'hero' : 'end';
+  const variant = position === 'nav' ? 'navigation' : position === 'hero' ? 'hero-primary' : 'end';
+  return block.replace('<a ', `<a data-cta-action="contract_review" data-cta-position="${position}" data-cta-variant="${variant}" `);
+});
+
+// Remove the legacy fixed-price product bar. Pricing and product terms remain
+// on HiddenFeeAI and should not be presented as a static claim here.
+source = source.replace(/<!-- Sticky CTA Bar -->[\s\S]*?<\/body>/, '</body>');
+source = source.replace('AI-Powered Hidden Fee Detection & Legal Artificial Intelligence for Consumers', 'Financial Transparency Resources');
+
+if (!source.includes('Updated August 8, 2026')) {
+  source = source.replace('<span>AI is not legal advice</span>', '<span>AI is not legal advice</span><span>Updated August 8, 2026</span>');
+}
 
 const faq = [
   ['What is AI construction contract review?', 'It is an AI-assisted document-review workflow that may help organize extractable contract language around scope, payments, changes, materials, obligations, and potential fee questions. Results depend on the document and current product behavior.'],

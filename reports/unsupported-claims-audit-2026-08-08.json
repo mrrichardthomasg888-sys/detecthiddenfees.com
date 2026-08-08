@@ -6,7 +6,7 @@
   "page_count": 238,
   "pages_with_candidates": 233,
   "candidate_counts": {
-    "quantitative_amount": 1867,
+    "quantitative_amount": 1866,
     "quantitative_percent": 468,
     "absolute_or_superlative": 1512,
     "performance_or_outcome": 154,
@@ -1365,12 +1365,6 @@
     {
       "file": "ai-construction-contract-review.html",
       "matches": [
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "idden Fee Detection & Legal Artificial Intelligence for Consumers Review Your Construction Contract $15 Analyze My Contract"
-        },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
