@@ -6,11 +6,11 @@
   "page_count": 238,
   "pages_with_candidates": 234,
   "candidate_counts": {
-    "quantitative_amount": 2098,
-    "quantitative_percent": 499,
-    "absolute_or_superlative": 1575,
-    "performance_or_outcome": 140,
-    "population_or_scale": 167
+    "quantitative_amount": 2086,
+    "quantitative_percent": 496,
+    "absolute_or_superlative": 1563,
+    "performance_or_outcome": 141,
+    "population_or_scale": 165
   },
   "records": [
     {
@@ -3606,61 +3606,19 @@
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
-          "snippet": "ion Service Upload any bill AI identifies potential billing issues and charges that may need review $15 one-time No subscription Start negotiating your bills today. Upload any bill or service agreement to HiddenFeeAI. The AI identifies overcharges, hidden fees, an"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ees, and negotiation opportunities. Get your analysis in minutes and start saving. Upload My Bill — $15 AI Document Analysis Tools: Complete Guide to Smarter Document Review AI document analysis is transforming how consumers and businesses review contracts, bills,"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ed analysis of what you should challenge. Know exactly what to say and save money. Upload My Bill — $15 Start Negotiating Your Bills Today Don't pay more than you have to. Let AI analyze your bills and give you the leverage you need. Analyze My Bill → $15 one-time"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "e than you have to. Let AI analyze your bills and give you the leverage you need. Analyze My Bill → $15 one-time · No subscription · Secure processing TOOLS AI Contract Review AI Bill Analyzer AI Document Checker Hidden Fee Detector Upload Document DOCUMENT ANALYS"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "find hidden costs &#8595; Document Intelligence Center — complete document analysis Try HiddenFeeAI $15 Analyze My Document"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "90%",
-          "snippet": "several key benefits including speed (analysis in minutes instead of hours), accuracy (catches over 90% of known patterns), thoroughness (analyzes every line item without fatigue), cost savings (identifies overcharges that offset the analysis cost many times over"
+          "snippet": "rors &#8595; Find hidden costs &#8595; AI Analysis Hub — complete document analysis Try HiddenFeeAI $15 Analyze My Document"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "sses review contracts, bills, invoices, and estimates. Instead of spending hours manually reviewing every line item, AI-powered tools can scan documents in minutes and identify potential issues that human reviewers might miss. This guide explains the types of docum"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "cument review needs. The types of documents that AI can analyze include contracts and agreements of all types, medical bills and insurance statements, invoices and purchase orders, estimates and quotes from contractors, service agreements and terms of service, fi"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "in minutes instead of hours), accuracy (catches over 90% of known patterns), thoroughness (analyzes every line item without fatigue), cost savings (identifies overcharges that offset the analysis cost many times over), and negotiation leverage (provides documented "
+          "snippet": "nguage, duplicate-looking charges, renewal terms, or unclear obligations, but it may not understand every scan, table, jurisdiction-specific rule, or unusual clause. Confirm important findings against the original document and consult a qualified professional when "
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "accuracy",
-          "snippet": "ment analysis provides several key benefits including speed (analysis in minutes instead of hours), accuracy (catches over 90% of known patterns), thoroughness (analyzes every line item without fatigue), cost savings (identifies overcharges that offset the analysis co"
+          "snippet": " explains uncertainty or missing information. These details are more meaningful than an unsupported accuracy percentage. Document types and review boundaries Common use cases include contracts, invoices, estimates, statements, bills, and service agreements. A tool may"
         }
       ]
     },
@@ -3927,7 +3885,7 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "All",
-          "snippet": "rces Analyze a Document Home / AI Document Intelligence Center / AI Document Reviewer: One Tool for All Your Document Analysis AI DOCUMENT REVIEWER AI Document Reviewer: One Tool for All Your Document Analysis Contracts, invoices, bills, estimates, leases, and ag"
+          "snippet": "n Research Resources Analyze a Document Home / AI Analysis Hub / AI Document Reviewer: One Tool for All Your Document Analysis AI DOCUMENT REVIEWER AI Document Reviewer: One Tool for All Your Document Analysis Contracts, invoices, bills, estimates, leases, and ag"
         },
         {
           "key": "absolute_or_superlative",
@@ -4481,7 +4439,7 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "Every",
-          "snippet": " Document Skip to main content Home / AI Document Intelligence Center / AI Estimate Checker: Verify Every Line Before You Approve AI ESTIMATE CHECKER AI Estimate Checker: Verify Every Line Before You Approve Upload estimates and quotes to our AI estimate checker fo"
+          "snippet": "ources Analyze a Document Skip to main content Home / AI Analysis Hub / AI Estimate Checker: Verify Every Line Before You Approve AI ESTIMATE CHECKER AI Estimate Checker: Verify Every Line Before You Approve Upload estimates and quotes to our AI estimate checker fo"
         },
         {
           "key": "absolute_or_superlative",
@@ -5680,7 +5638,7 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "all",
-          "snippet": "analysis ↓ Hidden Fee Guides Hub — complete educational resource library For a complete overview of all available analysis tools, visit the AI Analysis Hub or the AI Document Intelligence Center . Frequently Asked Questions What types of hidden fees can AI detect"
+          "snippet": "analysis ↓ Hidden Fee Guides Hub — complete educational resource library For a complete overview of all available analysis tools, visit the AI Analysis Hub or the AI Analysis Hub . Frequently Asked Questions What types of hidden fees can AI detect in contracts? A"
         },
         {
           "key": "absolute_or_superlative",
@@ -5730,148 +5688,22 @@
       "file": "ai-invoice-analyzer.html",
       "matches": [
         {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ion Service Upload any bill AI identifies potential billing issues and charges that may need review $15 one-time No subscription Start negotiating your bills today. Upload any bill or service agreement to HiddenFeeAI. The AI identifies overcharges, hidden fees, an"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ees, and negotiation opportunities. Get your analysis in minutes and start saving. Upload My Bill — $15 AI Invoice Analyzer: Never Pay an Inflated Invoice Again Invoices are one of the most common sources of hidden fees and overcharges in the business world, yet t"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$200 ",
-          "snippet": "voice errors occur in 20% to 30% of all business invoices, with the average overcharge ranging from $200 to $2,000 depending on the industry and invoice size. The $15 cost of each analysis is typically recovered many times over from the first error you identify and"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$2,000 ",
-          "snippet": "rors occur in 20% to 30% of all business invoices, with the average overcharge ranging from $200 to $2,000 depending on the industry and invoice size. The $15 cost of each analysis is typically recovered many times over from the first error you identify and correct. "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": " the average overcharge ranging from $200 to $2,000 depending on the industry and invoice size. The $15 cost of each analysis is typically recovered many times over from the first error you identify and correct. Regular invoice analysis also creates a deterrent ef"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ed analysis of what you should challenge. Know exactly what to say and save money. Upload My Bill — $15 Start Negotiating Your Bills Today Don't pay more than you have to. Let AI analyze your bills and give you the leverage you need. Analyze My Bill → $15 one-time"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "e than you have to. Let AI analyze your bills and give you the leverage you need. Analyze My Bill → $15 one-time · No subscription · Secure processing Related: Learn more about our AI Bill Analyzer for complete bill analysis. Explore invoice analysis resources Sca"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": " hidden costs &#8595; Document Intelligence Center — complete document analysis Review Your Invoice $15 Analyze My Invoice"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "20%",
-          "snippet": "n save your business thousands of dollars per year. Studies have shown that invoice errors occur in 20% to 30% of all business invoices, with the average overcharge ranging from $200 to $2,000 depending on the industry and invoice size. The $15 cost of each analy"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "30%",
-          "snippet": "your business thousands of dollars per year. Studies have shown that invoice errors occur in 20% to 30% of all business invoices, with the average overcharge ranging from $200 to $2,000 depending on the industry and invoice size. The $15 cost of each analysis is "
-        },
-        {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "Every",
-          "snippet": "AI Invoice Analyzer: Find Hidden Charges in Every Invoice | DetectHiddenFees Skip to main content Detect HiddenFees Hidden Fees Contract Review Bills &amp; Documents Negotiation Research Resources Analyze a Do"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "Every",
-          "snippet": "egotiation Research Resources Analyze a Document Home / AI Invoice Analyzer: Find Hidden Charges in Every Invoice AI INVOICE ANALYZER AI Invoice Analyzer: Find Hidden Charges in Every Invoice Learn more in our AI Document Intelligence Center . Invoices are one of t"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "Every",
-          "snippet": "ind Hidden Charges in Every Invoice AI INVOICE ANALYZER AI Invoice Analyzer: Find Hidden Charges in Every Invoice Learn more in our AI Document Intelligence Center . Invoices are one of the most common places hidden fees appear. HiddenFeeAI analyzes every line item"
+          "value": "every",
+          "snippet": "taxes, and other records that may not appear on the invoice. Is an AI invoice analyzer accurate for every invoice? No universal accuracy rate applies to every document or use case. Scan quality, layout, handwriting, context, ambiguous descriptions, and information "
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "igence Center . Invoices are one of the most common places hidden fees appear. HiddenFeeAI analyzes every line item for duplicate charges, inflated pricing, and billing errors. Analyze My Bill → Bill Negotiation Service Upload any bill AI identifies potential billi"
+          "snippet": "nvoice. Is an AI invoice analyzer accurate for every invoice? No universal accuracy rate applies to every document or use case. Scan quality, layout, handwriting, context, ambiguous descriptions, and information outside the invoice can affect results. Verify import"
         },
         {
-          "key": "absolute_or_superlative",
+          "key": "performance_or_outcome",
           "severity": "high",
-          "value": "Never",
-          "snippet": "rtunities. Get your analysis in minutes and start saving. Upload My Bill — $15 AI Invoice Analyzer: Never Pay an Inflated Invoice Again Invoices are one of the most common sources of hidden fees and overcharges in the business world, yet they are also one of the le"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "ithout questioning individual line items. HiddenFeeAI changes this dynamic by automatically reading every line item on your invoice and flagging anything that appears incorrect, inflated, or unnecessary. Common invoice errors that our AI regularly detects include d"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "never",
-          "snippet": " line items where the same charge appears twice on the same invoice, charges for services that were never actually rendered or delivered, material costs that are inflated significantly above market prices, administrative and processing fees that appear without any "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "ion, and pricing that does not match the previously agreed-upon quote or contract. The AI scans for all of these patterns simultaneously, comparing each charge against industry benchmarks and historical pricing data from thousands of similar invoices. Within minu"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "milar invoices. Within minutes of uploading your invoice, you receive a detailed report identifying every questionable charge with specific line item references and suggested actions. The process is straightforward and designed for users who do not have specialized"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "siness thousands of dollars per year. Studies have shown that invoice errors occur in 20% to 30% of all business invoices, with the average overcharge ranging from $200 to $2,000 depending on the industry and invoice size. The $15 cost of each analysis is typical"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "Never",
-          "snippet": " for complete bill analysis. Explore invoice analysis resources Scan My Invoice AI Invoice Checker: Never Overpay on Invoices Again Analyze My Invoice: Never Pay an Inflated Invoice Again TOOLS AI Contract Review AI Bill Analyzer AI Document Checker Hidden Fee Dete"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "Never",
-          "snippet": "s resources Scan My Invoice AI Invoice Checker: Never Overpay on Invoices Again Analyze My Invoice: Never Pay an Inflated Invoice Again TOOLS AI Contract Review AI Bill Analyzer AI Document Checker Hidden Fee Detector Upload Document DOCUMENT ANALYSIS RESOURCES AI "
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": " simultaneously, comparing each charge against industry benchmarks and historical pricing data from thousands of similar invoices. Within minutes of uploading your invoice, you receive a detailed report identifying every questionable charge with specific line item referen"
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": " a correction. Using HiddenFeeAI to analyze your invoices before paying them can save your business thousands of dollars per year. Studies have shown that invoice errors occur in 20% to 30% of all business invoices, with the average overcharge ranging from $200 to $2,000 "
+          "value": "accuracy",
+          "snippet": "t may not appear on the invoice. Is an AI invoice analyzer accurate for every invoice? No universal accuracy rate applies to every document or use case. Scan quality, layout, handwriting, context, ambiguous descriptions, and information outside the invoice can affect "
         }
       ]
     },
@@ -6247,13 +6079,13 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "Every",
-          "snippet": "ents Negotiation Research Resources Analyze a Document Home / AI Contract Review / AI Lease Review: Every Hidden Cost Exposed LEASE REVIEW AI Lease Review: Every Hidden Cost Exposed Learn more in our AI Document Intelligence Center . Leases protect landlords. Hidde"
+          "snippet": "ents Negotiation Research Resources Analyze a Document Home / AI Contract Review / AI Lease Review: Every Hidden Cost Exposed LEASE REVIEW AI Lease Review: Every Hidden Cost Exposed Learn more in our AI Analysis Hub . Leases protect landlords. HiddenFeeAI may help "
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "Every",
-          "snippet": "ome / AI Contract Review / AI Lease Review: Every Hidden Cost Exposed LEASE REVIEW AI Lease Review: Every Hidden Cost Exposed Learn more in our AI Document Intelligence Center . Leases protect landlords. HiddenFeeAI may help surface potential hidden costs and organ"
+          "snippet": "ome / AI Contract Review / AI Lease Review: Every Hidden Cost Exposed LEASE REVIEW AI Lease Review: Every Hidden Cost Exposed Learn more in our AI Analysis Hub . Leases protect landlords. HiddenFeeAI may help surface potential hidden costs and organize questions fo"
         },
         {
           "key": "absolute_or_superlative",
@@ -6760,7 +6592,7 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": " Center . Purchase agreements contain terms that cost you long after the sale. HiddenFeeAI analyzes every clause. Review My Contract With AI → See How AI Analysis Works Upload contracts, invoices, estimates AI flags hidden fees & pricing risks $15 one-time analysis"
+          "snippet": "sis Hub . Purchase agreements contain terms that cost you long after the sale. HiddenFeeAI analyzes every clause. Review My Contract With AI → See How AI Analysis Works Upload contracts, invoices, estimates AI flags hidden fees & pricing risks $15 one-time analysis"
         },
         {
           "key": "absolute_or_superlative",
@@ -7039,19 +6871,19 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "Every",
-          "snippet": "Analyze a Document Home / AI Document Intelligence Center / AI Quote Review: Find the Best Value in Every Quote AI QUOTE REVIEW AI Quote Review: Find the Best Value in Every Quote Learn more in our AI Document Intelligence Center . Getting multiple quotes is smart."
+          "snippet": "earch Resources Analyze a Document Home / AI Analysis Hub / AI Quote Review: Find the Best Value in Every Quote AI QUOTE REVIEW AI Quote Review: Find the Best Value in Every Quote Learn more in our AI Analysis Hub . Getting multiple quotes is smart. Comparing them "
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "Every",
-          "snippet": " Review: Find the Best Value in Every Quote AI QUOTE REVIEW AI Quote Review: Find the Best Value in Every Quote Learn more in our AI Document Intelligence Center . Getting multiple quotes is smart. Comparing them properly is hard. HiddenFeeAI analyzes every quote s"
+          "snippet": " Review: Find the Best Value in Every Quote AI QUOTE REVIEW AI Quote Review: Find the Best Value in Every Quote Learn more in our AI Analysis Hub . Getting multiple quotes is smart. Comparing them properly is hard. HiddenFeeAI analyzes every quote side by side to f"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "ce Center . Getting multiple quotes is smart. Comparing them properly is hard. HiddenFeeAI analyzes every quote side by side to find hidden differences in pricing. Analyze My Bill → Bill Negotiation Service Upload any bill AI identifies potential billing issues and"
+          "snippet": "lysis Hub . Getting multiple quotes is smart. Comparing them properly is hard. HiddenFeeAI analyzes every quote side by side to find hidden differences in pricing. Analyze My Bill → Bill Negotiation Service Upload any bill AI identifies potential billing issues and"
         },
         {
           "key": "absolute_or_superlative",
@@ -7110,19 +6942,19 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "Every",
-          "snippet": "Research Resources Analyze a Document Home / AI Document Intelligence Center / AI Receipt Analyzer: Every Receipt Error Found Instantly AI RECEIPT ANALYZER AI Receipt Analyzer: Every Receipt Error Found Instantly Learn more in our AI Document Intelligence Center . "
+          "snippet": "nts Negotiation Research Resources Analyze a Document Home / AI Analysis Hub / AI Receipt Analyzer: Every Receipt Error Found Instantly AI RECEIPT ANALYZER AI Receipt Analyzer: Every Receipt Error Found Instantly Learn more in our AI Analysis Hub . Receipts contain"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "Every",
-          "snippet": "/ AI Receipt Analyzer: Every Receipt Error Found Instantly AI RECEIPT ANALYZER AI Receipt Analyzer: Every Receipt Error Found Instantly Learn more in our AI Document Intelligence Center . Receipts contain errors more often than you think. HiddenFeeAI scans every it"
+          "snippet": "/ AI Receipt Analyzer: Every Receipt Error Found Instantly AI RECEIPT ANALYZER AI Receipt Analyzer: Every Receipt Error Found Instantly Learn more in our AI Analysis Hub . Receipts contain errors more often than you think. HiddenFeeAI scans every item and flags dup"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "Document Intelligence Center . Receipts contain errors more often than you think. HiddenFeeAI scans every item and flags duplicate charges, wrong prices, and hidden fees. Analyze My Bill → Bill Negotiation Service Upload any bill AI identifies potential billing iss"
+          "snippet": " more in our AI Analysis Hub . Receipts contain errors more often than you think. HiddenFeeAI scans every item and flags duplicate charges, wrong prices, and hidden fees. Analyze My Bill → Bill Negotiation Service Upload any bill AI identifies potential billing iss"
         },
         {
           "key": "absolute_or_superlative",
@@ -7348,19 +7180,19 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "Every",
-          "snippet": " Research Resources Analyze a Document Home / AI Contract Review / AI Service Contract Review: Read Every Line Before You Commit SERVICE CONTRACT REVIEW AI Service Contract Review: Read Every Line Before You Commit Learn more in our AI Document Intelligence Center "
+          "snippet": " Research Resources Analyze a Document Home / AI Contract Review / AI Service Contract Review: Read Every Line Before You Commit SERVICE CONTRACT REVIEW AI Service Contract Review: Read Every Line Before You Commit Learn more in our AI Analysis Hub . Service contra"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "Every",
-          "snippet": " Review: Read Every Line Before You Commit SERVICE CONTRACT REVIEW AI Service Contract Review: Read Every Line Before You Commit Learn more in our AI Document Intelligence Center . Service contracts lock you into terms that can last for years. HiddenFeeAI reviews e"
+          "snippet": " Review: Read Every Line Before You Commit SERVICE CONTRACT REVIEW AI Service Contract Review: Read Every Line Before You Commit Learn more in our AI Analysis Hub . Service contracts lock you into terms that can last for years. HiddenFeeAI reviews every clause. Rev"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "ligence Center . Service contracts lock you into terms that can last for years. HiddenFeeAI reviews every clause. Review My Contract With AI → See How AI Analysis Works Upload contracts, invoices, estimates AI flags hidden fees & pricing risks $15 one-time analysis"
+          "snippet": "I Analysis Hub . Service contracts lock you into terms that can last for years. HiddenFeeAI reviews every clause. Review My Contract With AI → See How AI Analysis Works Upload contracts, invoices, estimates AI flags hidden fees & pricing risks $15 one-time analysis"
         },
         {
           "key": "absolute_or_superlative",
@@ -10058,7 +9890,7 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "all",
-          "snippet": "ontains sensitive personal information? AI services process documents securely. HiddenFeeAI deletes all uploaded documents after analysis is complete to protect your privacy. Related Resources Knowledge Center Home AI Financial Advisor — Complete Guide AI Documen"
+          "snippet": "ontains sensitive personal information? AI services process documents securely. HiddenFeeAI deletes all uploaded documents after analysis is complete to protect your privacy. Related Resources Knowledge Center Home AI Financial Advisor — Complete Guide AI Analysi"
         },
         {
           "key": "absolute_or_superlative",
@@ -24068,7 +23900,7 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "All",
-          "snippet": "ial Advisor: Complete Financial Intelligence Guide AI Document Intelligence Center AI Analysis Hub: All Tools Experience Legal AI Document Analysis Today Upload any contract, agreement, invoice, or financial document and discover what legal artificial intelligenc"
+          "snippet": "lauses AI Financial Advisor: Complete Financial Intelligence Guide AI Analysis Hub AI Analysis Hub: All Tools Experience Legal AI Document Analysis Today Upload any contract, agreement, invoice, or financial document and discover what legal artificial intelligenc"
         },
         {
           "key": "absolute_or_superlative",

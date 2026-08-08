@@ -132,7 +132,7 @@
 - [AI Financial Advisor: Complete Guide to Automated Financial Analysis](https://detecthiddenfees.com/ai-financial-advisor) — Canonical page for this topic.
 - [AI for Financial Analysis: How to Review Documents Safely](https://detecthiddenfees.com/ai-financial-analysis) — Canonical page for this topic.
 - [AI Financial Assistant: Smarter Money Decisions](https://detecthiddenfees.com/ai-financial-assistant) — Canonical page for this topic.
-- [AI Invoice Analyzer: Find Hidden Charges in Every Invoice](https://detecthiddenfees.com/ai-invoice-analyzer) — Canonical page for this topic.
+- [AI Invoice Analyzer: Review Fees, Charges, and Billing Errors](https://detecthiddenfees.com/ai-invoice-analyzer) — Canonical page for this topic.
 - [AI Invoice Checker: Never Overpay on Invoices Again](https://detecthiddenfees.com/ai-invoice-checker) — Canonical page for this topic.
 - [AI Lease Review: Every Hidden Cost Exposed](https://detecthiddenfees.com/ai-lease-review) — Canonical page for this topic.
 - [AI Quote Analyzer: Find the True Cost of Any Quote](https://detecthiddenfees.com/ai-quote-analyzer) — Canonical page for this topic.

@@ -179,6 +179,23 @@ const forbiddenByFile = {
     'Analyze My Bill',
     'Upload My Bill',
     'complete protection'
+  ],
+  'ai-invoice-analyzer.html': [
+    'Find Hidden Charges in Every Invoice',
+    'Never Pay an Inflated Invoice Again',
+    'every line item',
+    'industry benchmarks',
+    'historical pricing data from thousands',
+    'within minutes',
+    'save your business thousands',
+    '20% to 30% of all business invoices',
+    '$200 to $2,000',
+    'Upload My Bill',
+    'Analyze My Bill',
+    '$15 one-time',
+    'Secure processing',
+    'Document Intelligence Center',
+    'complete bill analysis'
   ]
 };
 const issues = [];
