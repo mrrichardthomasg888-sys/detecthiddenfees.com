@@ -3,7 +3,7 @@
 ## Source deployment
 
 - Changes were pushed directly to GitHub `main`.
-- Latest verified commits: `5b9c66b` (Research Lab citation metadata), `9d25f44` (Research Lab mobile action layout), and `85872c2` (Research Lab hero-action design alignment), alongside the earlier hub, navigation, cache-bust, and embed-route fixes.
+- Latest verified commits: `f954e56` (contextual CTA attribution metadata), `5b9c66b` (Research Lab citation metadata), `9d25f44` (Research Lab mobile action layout), and `85872c2` (Research Lab hero-action design alignment), alongside the earlier hub, navigation, cache-bust, and embed-route fixes.
 - The pre-existing user-owned change to `calculator-authority.css` remains unstaged and untouched.
 
 ## Local verification
@@ -21,6 +21,7 @@
 - The raw `embed-code-template.html` fragment is excluded from the sitemap and its `.html` redirect and extensionless final route are protected with `X-Robots-Tag: noindex, nofollow, noarchive`; the final route is no-store.
 - The five public Research Lab status pages now expose a crawlable research-record summary covering author, scope, collection timing, publication method, current manifest size, and limitations. Their visible “Last updated” date and `dateModified` values are aligned to the manifest’s `2026-08-08` update date.
 - `validate-research-data.js` now fails if a Research Lab status page drifts from the manifest update date or loses the citation-engineering summary. The research manifest remains collecting-only with zero records and null statistics.
+- Four existing high-intent pages now use context-specific CTA labels and explicit attribution actions: `contract_review`, `subscription_fee_review`, and `estimate_review`. The repeatable annotator and validator preserve the existing URLs and do not change HiddenFeeAI behavior.
 
 ## Production verification
 
@@ -31,5 +32,7 @@ Fresh browser checks at 320px, 390px, and 1440px verified no document-level hori
 The live embed-template redirect chain was checked with headers disabled from caching: the `.html` source returns a permanent redirect with noindex, and the extensionless final response also returns noindex/no-follow/no-archive and no-store caching.
 
 The five Research Lab status pages return HTTP 200 in production and serve the August 8, 2026 research-record summary. At 390px, the Research Center hero actions are full-width stacked buttons with no document overflow; at 1440px they remain inline in the established blue/purple and glass-button styles. The browser console log was empty during the final check.
+
+The four contextual CTA pages return HTTP 200 in production. Browser checks at 390px and 1440px confirmed the expected action metadata on navigation, hero, content, end, and sticky links, with no horizontal overflow or console logs.
 
 The repository contains no deployment workflow that publishes the site from `main`, but the existing hosting connection published the pushed GitHub commits after propagation. No host credentials, API keys, or Cloudflare changes were made.
