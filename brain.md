@@ -967,6 +967,19 @@ This section records the current implementation state so future work can resume 
 - Latest deployed code is `451525c`, pushed directly to GitHub `main`. The pre-existing `calculator-authority.css` change remains unstaged and untouched. No PR and no Cloudflare dashboard deployment were used.
 - Next session should read this section and `reports/verification-2026-08-08.md`, confirm the latest GitHub/live state, and continue with the next evidence-backed content batch. Do not stage `calculator-authority.css` automatically.
 
+### Evidence-based invoice analyzer guide — 2026-08-08
+
+- Commit `eae5423` remediated `ai-invoice-analyzer.html`, which had bill-specific sales copy, unsupported invoice-error percentages and savings claims, “every line item”/“in minutes” promises, stale bill CTAs, and `SoftwareApplication` JSON-LD presenting the guide as a product.
+- The page now answers what an AI invoice analyzer can and cannot do: organize invoice details, surface possible duplicates or unexplained fees, compare related records, and create questions for verification. It explicitly avoids declaring a price fair, a fee unlawful, or a discrepancy proven from the invoice alone.
+- The guide now cites official FTC small-business invoice guidance, CFPB credit-card billing-error guidance, FTC fee-disclosure guidance, and the NIST AI Risk Management Framework. The sources are labeled as context-specific guidance and not product certification or legal advice.
+- The existing URL, logo, navigation, footer, typography, colors, and page template were preserved. Four `bill_analysis` CTAs now use the invoice-specific “Analyze My Invoice” or “Review This Invoice” language, and the internal related link uses canonical `/before-signing-contract-checklist` rather than the retired redirect alias.
+- The incorrect `SoftwareApplication` block was removed. Article, BreadcrumbList, WebPage, and FAQPage JSON-LD remain; all six FAQ questions are visible and schema-aligned. Metadata, visible update date, and `llms.txt` were refreshed.
+- The reusable `scripts/remediate-ai-invoice-analyzer-page.js` script is guarded and idempotent. The product-claim gate now covers 26 priority pages, and contextual CTA validation covers 9 pages.
+- Full local validation passed: master 238 pages with zero structural/link/indexability issues, opportunity engine 15 records with no invented performance data, claim gate 26 pages, CTA validator 9 pages, research collecting-only with zero records, discovery sitemap 238 / `llms.txt` 238 / RSS 179 total with 178 editorial items, redirects 50 rules, evidence register collecting with zero records, disconnected SEO dashboard, calculator authority 15 pages, unsupported-claim audit refreshed, and `git diff --check` clean.
+- Production HTTP propagation was clean on cache-busting attempt 5. Live desktop and mobile browser checks found no horizontal overflow, one H1, four invoice CTAs, four source links, six FAQ questions, no old bill wording, no stale hub/redirect reference, no `SoftwareApplication` schema, and empty console logs.
+- Latest deployed code is `eae5423`, pushed directly to GitHub `main`. The documentation handoff is pushed separately afterward. The pre-existing `calculator-authority.css` change remains unstaged and untouched. No PR and no Cloudflare dashboard deployment were used.
+- Next session should read this section and `reports/verification-2026-08-08.md`, confirm the latest GitHub/live state, and continue with the next evidence-backed priority. Do not stage `calculator-authority.css` automatically.
+
 ### Validation baseline
 
 The following checks were passing at the end of the 2026-08-08 work session:
