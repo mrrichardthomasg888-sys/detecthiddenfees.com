@@ -53,3 +53,7 @@
   X-Robots-Tag: noindex, nofollow, noarchive
   Cache-Control: no-cache, no-store, must-revalidate
 
+/embed-code-template
+  X-Robots-Tag: noindex, nofollow, noarchive
+  Cache-Control: no-cache, no-store, must-revalidate
+
