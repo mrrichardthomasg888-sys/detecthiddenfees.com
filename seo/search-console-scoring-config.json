@@ -1,0 +1,34 @@
+{
+  "version": "2026-08-08.1",
+  "status": "not_connected",
+  "purpose": "Private, evidence-controlled configuration for scoring imported Google Search Console rows.",
+  "thresholds": {
+    "high_impressions_min": null,
+    "low_ctr_max": null,
+    "minimum_trend_rows": 4
+  },
+  "scoring": {
+    "position_4_10": 30,
+    "position_11_20": 25,
+    "high_impressions_low_ctr": 25,
+    "growing_query": 15,
+    "declining_query": 10,
+    "query_multiple_pages": 20,
+    "commercial_intent": 15,
+    "hiddenfeeai_relevance": 15
+  },
+  "commercial_intent_terms": [
+    "analyzer",
+    "checker",
+    "review",
+    "scan",
+    "scanner",
+    "tool",
+    "upload",
+    "analyze",
+    "check my",
+    "document fee"
+  ],
+  "privacy_note": "Keep connected imports, scored output, query text, and page-performance records outside the repository unless an explicit privacy review approves a sanitized aggregate. Null thresholds intentionally disable unsupported high-impression/low-CTR claims until an owner supplies a policy.",
+  "credential_status": "No Search Console export or API credential is connected in this repository."
+}

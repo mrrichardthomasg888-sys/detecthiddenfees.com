@@ -1,0 +1,6 @@
+{
+  "status": "template_only",
+  "purpose": "Native-platform production queue for verified DetectHiddenFees research. No derivative content is approved while the public dataset has zero published verified records.",
+  "formats": ["research_report", "supporting_article", "youtube_script", "youtube_short", "linkedin_post", "reddit_discussion_concept", "infographic", "journalist_pitch", "newsletter_pitch", "github_dataset_documentation"],
+  "records": []
+}

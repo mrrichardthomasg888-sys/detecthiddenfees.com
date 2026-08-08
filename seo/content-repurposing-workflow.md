@@ -1,5 +1,7 @@
 # Evidence-Controlled Content Repurposing Workflow
 
+The executable queue is `seo/content-repurposing.json`, with structure in `seo/content-repurposing.schema.json` and validation in `scripts/validate-content-repurposing.js`. It remains template-only until a research asset has verified claims and primary sources.
+
 One verified research asset may produce several native formats, but each format must retain the same source record and must not copy the same article verbatim.
 
 | Output | Native purpose | Required source link |

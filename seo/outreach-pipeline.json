@@ -3,5 +3,70 @@
   "purpose": "Track legitimate editorial opportunities for verified research assets. No contacts have been imported or contacted.",
   "privacy_rule": "Store only public professional context needed to evaluate editorial fit; do not scrape or retain unnecessary personal information.",
   "statuses": ["research", "approved", "contacted", "declined", "linked", "do_not_contact"],
-  "records": []
+  "records": [
+    {
+      "opportunity_id": "O-2026-001",
+      "domain": "buildingadvisor.com",
+      "publication": "BuildingAdvisor",
+      "relevant_url": "https://buildingadvisor.com/project-management/contracts/change-orders/",
+      "author": null,
+      "public_contact_method": null,
+      "topic": "construction change orders and contract charges",
+      "detecthiddenfees_asset": "/research-methodology.html",
+      "why_relevant": "The page explains that change orders can alter scope, price, and completion timing. A future verified fee-terminology dataset or construction-document finding could be offered only if it adds evidence beyond the existing explanation.",
+      "status": "research",
+      "date": "2026-08-08",
+      "response": null,
+      "mention_or_link": null,
+      "source_evidence": "https://buildingadvisor.com/project-management/contracts/change-orders/"
+    },
+    {
+      "opportunity_id": "O-2026-002",
+      "domain": "caredge.com",
+      "publication": "CarEdge",
+      "relevant_url": "https://caredge.com/guides/understanding-car-dealer-fees",
+      "author": null,
+      "public_contact_method": null,
+      "topic": "dealer fees and add-ons",
+      "detecthiddenfees_asset": "/hidden-fee-index.html",
+      "why_relevant": "The guide addresses dealer fees and presents transaction-level examples. A verified public-document study could be a relevant source comparison or data collaboration lead, but no claim is made that a link will be earned.",
+      "status": "research",
+      "date": "2026-08-08",
+      "response": null,
+      "mention_or_link": null,
+      "source_evidence": "https://caredge.com/guides/understanding-car-dealer-fees"
+    },
+    {
+      "opportunity_id": "O-2026-003",
+      "domain": "axios.com",
+      "publication": "Axios",
+      "relevant_url": "https://www.axios.com/2022/05/02/monthly-subscription-fees-car-buyers-balk",
+      "author": null,
+      "public_contact_method": null,
+      "topic": "automotive subscription fees",
+      "detecthiddenfees_asset": "/hidden-subscription-fees.html",
+      "why_relevant": "The article covers recurring fees for vehicle features. A clearly sourced DetectHiddenFees dataset on recurring-fee terminology could be pitched only after independent verification and publication review.",
+      "status": "research",
+      "date": "2026-08-08",
+      "response": null,
+      "mention_or_link": null,
+      "source_evidence": "https://www.axios.com/2022/05/02/monthly-subscription-fees-car-buyers-balk"
+    },
+    {
+      "opportunity_id": "O-2026-004",
+      "domain": "time.com",
+      "publication": "TIME",
+      "relevant_url": "https://time.com/6218046/new-car-prices-over-msrp/",
+      "author": null,
+      "public_contact_method": null,
+      "topic": "vehicle paperwork and added charges",
+      "detecthiddenfees_asset": "/car-dealer-fees.html",
+      "why_relevant": "The article gives a consumer account of dealer fees and above-sticker pricing. It is a possible editorial context for a future primary-source fee terminology asset; it is not evidence for a DetectHiddenFees statistic.",
+      "status": "research",
+      "date": "2026-08-08",
+      "response": null,
+      "mention_or_link": null,
+      "source_evidence": "https://time.com/6218046/new-car-prices-over-msrp/"
+    }
+  ]
 }

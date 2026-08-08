@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://detecthiddenfees.com/schemas/content-repurposing.json",
+  "title": "DetectHiddenFees Verified Research Repurposing Queue",
+  "type": "object",
+  "required": ["status", "records"],
+  "properties": {
+    "status": { "enum": ["template_only", "collecting", "review", "ready"] },
+    "purpose": { "type": "string", "minLength": 1 },
+    "formats": { "type": "array", "items": { "type": "string" } },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["repurpose_id", "source_asset", "source_version", "format", "audience", "angle", "claims_used", "primary_sources", "review_status", "canonical_link", "published_at"],
+        "properties": {
+          "repurpose_id": { "type": "string", "pattern": "^P-[0-9]{4}-[0-9]{3}$" },
+          "source_asset": { "type": "string", "minLength": 1 },
+          "source_version": { "type": "string", "minLength": 1 },
+          "format": { "type": "string", "minLength": 1 },
+          "audience": { "type": "string", "minLength": 1 },
+          "angle": { "type": "string", "minLength": 1 },
+          "claims_used": { "type": "array", "items": { "type": "string" } },
+          "primary_sources": { "type": "array", "items": { "type": "string", "pattern": "^https://" } },
+          "review_status": { "enum": ["not_started", "draft", "fact_checked", "approved", "published"] },
+          "canonical_link": { "type": "string", "minLength": 1 },
+          "published_at": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

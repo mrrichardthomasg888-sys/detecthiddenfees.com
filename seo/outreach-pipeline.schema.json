@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://detecthiddenfees.com/schemas/outreach-pipeline.json",
+  "title": "DetectHiddenFees Editorial Opportunity Pipeline",
+  "type": "object",
+  "required": ["version", "statuses", "records"],
+  "properties": {
+    "version": { "type": "string" },
+    "purpose": { "type": "string" },
+    "privacy_rule": { "type": "string" },
+    "statuses": { "type": "array", "items": { "type": "string" } },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["opportunity_id", "domain", "publication", "relevant_url", "author", "public_contact_method", "topic", "detecthiddenfees_asset", "why_relevant", "status", "date", "response", "mention_or_link"],
+        "properties": {
+          "opportunity_id": { "type": "string", "pattern": "^O-[0-9]{4}-[0-9]{3}$" },
+          "domain": { "type": "string", "minLength": 1 },
+          "publication": { "type": "string", "minLength": 1 },
+          "relevant_url": { "type": "string", "pattern": "^https://" },
+          "author": { "type": ["string", "null"] },
+          "public_contact_method": { "type": ["string", "null"] },
+          "topic": { "type": "string", "minLength": 1 },
+          "detecthiddenfees_asset": { "type": "string", "minLength": 1 },
+          "why_relevant": { "type": "string", "minLength": 1 },
+          "status": { "type": "string" },
+          "date": { "type": "string", "format": "date" },
+          "response": { "type": ["string", "null"] },
+          "mention_or_link": { "type": ["string", "null"] },
+          "source_evidence": { "type": "string", "pattern": "^https://" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

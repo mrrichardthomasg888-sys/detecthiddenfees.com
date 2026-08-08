@@ -2,6 +2,8 @@
 
 Status: implementation-ready, pending HiddenFeeAI integration.
 
+The expanded Phase 2 implementation specification is in [hiddenfeeai-attribution-specification.md](hiddenfeeai-attribution-specification.md). This contract remains the compatibility summary for the existing DetectHiddenFees runtime.
+
 ## Purpose
 
 DetectHiddenFees is a static authority/content site. This contract preserves non-sensitive marketing attribution when a visitor chooses a HiddenFeeAI link. It does not collect, inspect, or transmit document contents, filenames, extracted text, or analysis results.

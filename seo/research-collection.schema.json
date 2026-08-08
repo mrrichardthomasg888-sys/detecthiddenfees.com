@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://detecthiddenfees.com/schemas/research-collection.json",
+  "title": "DetectHiddenFees Private Research Collection",
+  "type": "object",
+  "required": ["status", "records", "publication_status"],
+  "properties": {
+    "status": { "enum": ["collecting", "verifying", "analyzing", "review"] },
+    "publication_status": { "const": "not_published" },
+    "last_updated": { "type": "string", "format": "date" },
+    "purpose": { "type": "string", "minLength": 1 },
+    "import_summary": { "type": ["object", "null"] },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["record_id", "source", "source_url", "source_type", "organization", "industry", "document_type", "date_collected", "fee_category", "evidence", "verification_status", "notes"],
+        "properties": {
+          "record_id": { "type": "string", "pattern": "^R-[0-9]{4}-[0-9]{3}$" },
+          "source": { "type": "string", "minLength": 1 },
+          "source_url": { "type": "string", "pattern": "^https://" },
+          "source_type": { "type": "string", "minLength": 1 },
+          "organization": { "type": "string", "minLength": 1 },
+          "industry": { "type": "string", "minLength": 1 },
+          "document_type": { "type": "string", "minLength": 1 },
+          "date_collected": { "type": "string", "format": "date" },
+          "source_date": { "type": ["string", "null"], "format": "date" },
+          "fee_terminology": { "type": ["string", "null"] },
+          "fee_category": { "type": "string", "minLength": 1 },
+          "fee_amount": { "type": ["number", "null"], "minimum": 0 },
+          "currency": { "type": ["string", "null"] },
+          "recurring_status": { "type": ["string", "null"] },
+          "contract_clause": { "type": ["string", "null"] },
+          "cancellation_requirements": { "type": ["string", "null"] },
+          "renewal_terms": { "type": ["string", "null"] },
+          "evidence": { "type": "string", "minLength": 1 },
+          "evidence_reference": { "type": ["string", "null"] },
+          "verification_status": { "enum": ["pending", "verified", "rejected"] },
+          "verification": { "type": ["object", "null"] },
+          "notes": { "type": "string", "minLength": 1 }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

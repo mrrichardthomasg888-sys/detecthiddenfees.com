@@ -9,6 +9,9 @@
     "imported_at": { "type": ["string", "null"], "format": "date-time" },
     "period": { "type": ["string", "null"] },
     "source_file": { "type": ["string", "null"] },
+    "source_provider": { "type": ["string", "null"] },
+    "property": { "type": ["string", "null"] },
+    "privacy_note": { "type": "string", "minLength": 1 },
     "records": {
       "type": "array",
       "items": {
@@ -20,7 +23,10 @@
           "clicks": { "type": "number", "minimum": 0 },
           "impressions": { "type": "number", "minimum": 0 },
           "ctr": { "type": "number", "minimum": 0, "maximum": 1 },
-          "position": { "type": "number", "minimum": 0 }
+          "position": { "type": "number", "minimum": 0 },
+          "date": { "type": ["string", "null"], "format": "date" },
+          "device": { "type": ["string", "null"], "minLength": 1 },
+          "country": { "type": ["string", "null"], "minLength": 2, "maxLength": 3 }
         },
         "additionalProperties": false
       }
