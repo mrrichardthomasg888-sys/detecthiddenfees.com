@@ -1594,5 +1594,13 @@ The master validator baseline is 238 pages with zero missing titles/descriptions
 
 ## Standing handoff rule - 2026-08-08
 
+## Real Search Console bulk export received - 2026-08-08
+
+- The owner supplied `C:\Users\lynns\Desktop\detecthiddenfees.com-Performance-on-Search-2026-08-08.zip`.
+- The ZIP was inspected and analyzed privately. It contains standard aggregate `Queries.csv`, `Pages.csv`, `Chart.csv`, `Countries.csv`, `Devices.csv`, `Search appearance.csv`, and `Filters.csv` files. The export contains 268 query rows and 213 page rows; connected rows and query text were not committed or published.
+- The ZIP supports real top-query and top-page analysis, position-band review, and commercial-intent matching. It does not contain query-plus-page rows or dated query/page rows, so query-to-page cannibalization and query/page growth or decline cannot be calculated without a Search Console API export using `query` + `page` dimensions or an equivalent combined export.
+- The current repository importer expects one combined CSV with `query,page,clicks,impressions,ctr,position`; do not force the separate aggregate tables into that schema because doing so would invent query/page relationships. Keep the existing public opportunity engine disconnected until a combined private export is available.
+- Next safe action: use the real aggregate findings for a private quick-win review, then obtain a combined query+page API/export if cannibalization and page-level query attribution are required.
+
 - After every meaningful repository update, append a concise entry to `brain.md` before completing the task. Record the date, files or systems changed, validation performed, deployment/commit status, blockers or credentials still needed, and the next safe action.
 - Keep this memory update separate from user-owned changes. In particular, never stage or overwrite the unstaged `calculator-authority.css` modification unless the user explicitly authorizes calculator work.
