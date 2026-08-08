@@ -893,7 +893,7 @@ This section records the current implementation state so future work can resume 
 - User-directed deployment: push directly to GitHub `main`; do not create a PR and do not deploy through a Cloudflare dashboard.
 - Current working branch during this work: `codex/calculator-native-branding-fix-2026-08-05`.
 - A pre-existing user-owned change to `calculator-authority.css` is intentionally unstaged and must not be included unless the user explicitly asks for it.
-- Latest verified remote `main`: `9a6159a` (`Strengthen contractor estimate authority page`).
+- Latest verified remote `main`: `2906bc0` (`Record contractor page production verification`).
 - Preserve existing URLs, templates, logo, typography, navigation, footer, CSS tokens, and visual design. New work must look native to the existing site.
 
 ### Completed systems and verified results
@@ -920,6 +920,13 @@ This section records the current implementation state so future work can resume 
 - Strengthened the high-intent `/what-fees-should-i-look-for-in-a-contractor-estimate` page without changing its URL or design: removed unsupported cost ranges, invented bathroom-renovation case-study savings, universal markup/hour benchmarks, and unverified product/database claims; added an answer-first review framework, official FTC and California CSLB source links with jurisdiction caveats, evidence-safe FAQs, product limitations, and a clear illustrative-not-case-study label. Added the page to the repeatable unverified-product-claim gate, which now checks 21 priority pages. RSS description and `dateModified` were refreshed to 2026-08-08.
 - Production verification for `9a6159a`: the page returns HTTP 200 with both official source links, no old 20–40% claim, no invented case study, updated date, canonical URL, and eight visible/schema-aligned FAQ items. Browser checks at mobile and desktop widths reported no horizontal overflow and no console errors or warnings.
 
+### Latest verified handoff state
+
+- Commit `2906bc0` records the production verification for the contractor-estimate authority revision. The live page was checked after propagation at `https://detecthiddenfees.com/what-fees-should-i-look-for-in-a-contractor-estimate` and returned HTTP 200 with the official FTC and California CSLB links, updated metadata, canonical URL, and evidence-safe FAQ content.
+- The exact GSC URL audit, redirect repair, evidence register, safe SEO dashboard, discovery assets, attribution instrumentation, and contractor-estimate content remediation are represented in the commits and reports above. Future sessions should read those reports before repeating work.
+- A construction-contract-review remediation script was drafted locally at `scripts/remediate-construction-contract-page.js`, but it is not yet verified, committed, or deployed. Treat `ai-construction-contract-review.html` as pending review; do not describe its cleanup as complete until the script and page pass the full validation and live-production checks.
+- The working tree at this handoff intentionally contains the pre-existing user-owned `calculator-authority.css` modification and the uncommitted construction-review remediation script. Do not stage either one automatically. Review and commit them separately only when the corresponding work is complete and authorized.
+
 ### Current attribution improvement now deployed
 
 - Commit `ca945fc` adds `dhf_funnel_path_click` tracking for existing internal `/analyze-my-bill`, `/analyze-my-document`, and `/upload-*` paths. Fourteen existing internal funnel links are annotated with action/placement metadata; outbound HiddenFeeAI links continue to emit `dhf_cta_click`.
@@ -941,6 +948,8 @@ node scripts/validate-unverified-product-claims.js
 node validate-calculator-authority.js
 git diff --check
 ```
+
+The contractor-estimate production check also confirmed the expected live content after deployment: HTTP 200, both official source links present, the removed unsupported percentage and invented case-study markers absent, updated `dateModified`, canonical URL, and eight visible/schema-aligned FAQs. The next construction-contract page slice must repeat this local, responsive, and production verification pattern.
 
 The master validator baseline is 238 pages with zero missing titles/descriptions, zero bad canonicals, zero bad H1 counts, zero missing JSON-LD blocks, zero accidental noindex pages, zero broken internal links, zero internal redirect links, and zero legacy `.html` links.
 
