@@ -6,9 +6,9 @@
   "page_count": 238,
   "pages_with_candidates": 234,
   "candidate_counts": {
-    "quantitative_amount": 1987,
-    "quantitative_percent": 486,
-    "absolute_or_superlative": 1547,
+    "quantitative_amount": 1974,
+    "quantitative_percent": 479,
+    "absolute_or_superlative": 1544,
     "performance_or_outcome": 152,
     "population_or_scale": 161
   },
@@ -10477,154 +10477,16 @@
       "file": "consumer-fee-trends-report.html",
       "matches": [
         {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$218 billion",
-          "snippet": " change, and shifting consumer awareness. Total hidden fee costs to American consumers have reached $218 billion annually , representing an 8% increase from 2025. This growth rate has slowed from the 10-12% annual increases seen in 2023-2024, suggesting that recent regula"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$218B",
-          "snippet": "xity and subscription service fee structures. Related: Hidden Fee Statistics | Research Methodology $218B Total 2026 Hidden Fee Cost +8% Year-Over-Year Growth 2. Regulatory Environment Changes The regulatory landscape for hidden fees has changed dramatically in 202"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$2.5 billion",
-          "snippet": "king fees, and processing fees. Early data shows that California consumers have saved approximately $2.5 billion in hidden charges since implementation. New York and Colorado enacted similar legislation in 2026, with more states considering bills. At the federal level, th"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$3 ",
-          "snippet": "ket sellers, and automotive dealerships. The CFPB has proposed new rules limiting overdraft fees to $3 per transaction for large banks — a dramatic reduction from the current $30-35 average. Despite these positive developments, enforcement remains inconsistent ac"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$30",
-          "snippet": "miting overdraft fees to $3 per transaction for large banks — a dramatic reduction from the current $30-35 average. Despite these positive developments, enforcement remains inconsistent across states and industries. Many companies have responded to transparency l"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$14.75 ",
-          "snippet": " in other fee categories. Monthly maintenance fees have risen slightly, with the average fee now at $14.75 compared to $13.50 in 2024. Foreign transaction fees have declined as more banks offer fee-free international transactions to attract travelers. The most signif"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$13.50 ",
-          "snippet": "ories. Monthly maintenance fees have risen slightly, with the average fee now at $14.75 compared to $13.50 in 2024. Foreign transaction fees have declined as more banks offer fee-free international transactions to attract travelers. The most significant trend in bank"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$50",
-          "snippet": "astest-growing healthcare hidden charge. Hospital-owned physician practices charge facility fees of $50-200 per visit that are not charged by independent practices. This practice has expanded rapidly as hospitals acquire more physician practices, and many patient"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$1,500",
-          "snippet": "upcoded procedures, and unbundled services. Early adopters of these tools report average savings of $1,500-5,000 per audit. 5. Automotive Fee Trends Automotive dealership fee practices are slowly improving under regulatory pressure and increased competition from onl"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$699, ",
-          "snippet": "ontinue to rise in states without regulation. The average doc fee in unregulated states has reached $699, up from $599 in 2024. Online car retailers like Carvana, Vroom, and traditional dealer online sales channels are creating pricing pressure that is reducing some"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$599 ",
-          "snippet": "e in states without regulation. The average doc fee in unregulated states has reached $699, up from $599 in 2024. Online car retailers like Carvana, Vroom, and traditional dealer online sales channels are creating pricing pressure that is reducing some hidden fees."
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$5",
-          "snippet": "service fees are appearing in software products that add artificial intelligence features, often at $5-20/month without clear disclosure during signup. Carbon offset fees are being added to travel bookings, airline tickets, and product purchases, sometimes as ma"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$5",
-          "snippet": "deral action on overdraft fees through CFPB rulemaking, potentially reducing banking fee revenue by $5-8 billion annually, (3) Growth in AI-powered consumer tools that make fee detection accessible to mainstream consumers, (4) Industry adaptation where companies"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "8%",
-          "snippet": ". Total hidden fee costs to American consumers have reached $218 billion annually , representing an 8% increase from 2025. This growth rate has slowed from the 10-12% annual increases seen in 2023-2024, suggesting that recent regulatory actions and increased con"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "12%",
-          "snippet": "8 billion annually , representing an 8% increase from 2025. This growth rate has slowed from the 10-12% annual increases seen in 2023-2024, suggesting that recent regulatory actions and increased consumer awareness may be having a moderating effect. The most sign"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "8%",
-          "snippet": "structures. Related: Hidden Fee Statistics | Research Methodology $218B Total 2026 Hidden Fee Cost +8% Year-Over-Year Growth 2. Regulatory Environment Changes The regulatory landscape for hidden fees has changed dramatically in 2026. Several major developments h"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "15%",
-          "snippet": " evolve under regulatory and competitive pressure. Overdraft fee revenue has declined approximately 15% from 2024 levels as more banks adopt real-time transaction processing and lower fee structures. However, this decline has been partially offset by increases in"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "15%",
-          "snippet": "ted corresponding increases in subscription-related hidden fees. Auto-renewal fee revenue has grown 15% year-over-year as services continue to charge higher rates after promotional periods without clear notification. The Federal Communications Commission (FCC) ha"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "300%",
-          "snippet": "n HVAC and plumbing — have grown faster than inflation, with average emergency service fees now 200-300% above standard rates. This markup is often justified by \"after-hours\" or \"weekend\" premiums, but the actual cost difference for the contractor is minimal. Chan"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "25%",
-          "snippet": "mon hidden fee tactic in home improvement. The average change order on a renovation project adds 15-25% to the original contract price. Increased consumer awareness has led some contractors to adopt \"fixed-price\" contracts that limit change order exposure, but th"
-        },
-        {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "all",
-          "snippet": "k full effect in 2025, has become a model for other states. The law requires businesses to disclose all mandatory fees upfront, including resort fees, service charges, booking fees, and processing fees. Early data shows that California consumers have saved approx"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "t is reducing some hidden fees. These platforms typically offer more transparent pricing, including all fees upfront, which forces traditional dealerships to become more transparent to compete. However, many dealerships have responded by adding new fee categories"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "eral Communications Commission (FCC) has proposed new rules requiring telecom companies to display \"all-in\" pricing that includes fees like regulatory recovery surcharges, administrative fees, and equipment rental charges. If implemented, these rules could elimin"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "a currently has the strongest hidden fee transparency law (SB 478), requiring upfront disclosure of all mandatory fees. New York and Colorado have enacted similar laws. Q: How can I stay informed about new hidden fee types? A: Follow our Hidden Fee Reports page f"
+          "snippet": "AI, and they do not establish a product performance claim. Limitations The study is not a survey of all consumer transactions, a legal index, a price-comparison database, or a measurement of total consumer harm. A fee can be disclosed and still require contract-s"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "accuracy",
-          "snippet": "rage consumers to identify hidden charges in contracts, invoices, and bills with professional-grade accuracy. The growing availability of AI detection tools is creating a market dynamic where companies with transparent pricing are rewarded and those relying on hidden "
+          "snippet": "te, this page will not state prevalence, average amounts, total costs, growth rates, savings, model accuracy, or industry rankings. Future updates must identify what changed and link the supporting evidence. Frequently asked questions Has DetectHiddenFees published a "
         }
       ]
     },
