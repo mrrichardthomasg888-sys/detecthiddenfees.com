@@ -858,6 +858,73 @@ const exactReplacements = {
       'AI reads every word so you do not have to.',
       'AI analyzes document content that it can extract, subject to document quality and product limitations.'
     ]
+  ],
+  'hidden-fees-guides.html': [
+    [
+      'Real talk about hidden fees—where they hide, who uses them, and how to fight back. From dealership financing tricks to medical billing errors, contractor.',
+      'A practical guide to reviewing unexpected charges in vehicle financing, medical bills, bank accounts, contractor estimates, subscriptions, and other documents.'
+    ],
+    [
+      'Explore expert hidden fee guides covering dealership financing fees, duplicate medical billing charges, banking fees, contractor estimate markups, telecom charges, and deceptive pricing structures. Learn how AI uncovers hidden costs so you can avoid overpaying.',
+      'Explore practical guides covering dealership financing fees, duplicate medical billing charges, banking fees, contractor estimates, telecom charges, and subscription terms. Learn how to review documents for potential issues and questions.'
+    ],
+    ['AI detects hidden fees &amp; markups', 'AI-assisted review may flag potential issues'],
+    ['$15 one-time analysis', 'Check current product pricing'],
+    ['Private document processing', 'Review current privacy terms'],
+    [
+      'Hidden fees are undisclosed or deceptive charges added to invoices, contracts, and agreements. They often appear as administrative fees, service charges, markups, or add-ons that increase the total cost without clear consumer understanding.',
+      'A hidden fee is a charge that is not prominent, expected, or easy to understand in the advertised or agreed price. It may appear as an administrative fee, service charge, markup, add-on, or other line item. Whether a charge is lawful or disputable depends on its disclosures, contract terms, and applicable rules.'
+    ],
+    [
+      'Understanding hidden fees is the first step to protecting your finances. Our guides break down how these fees work, where they hide, and how you can spot them before you pay. With AI-powered analysis, you can scan documents for unusual charges and negotiate with confidence.',
+      'Understanding the fee language and total price can help you ask better questions before paying. AI-assisted review may help organize potential issues, but findings require verification and do not guarantee a negotiation result.'
+    ],
+    ['These add-ons can add thousands of dollars to the cost of a vehicle.', 'The effect depends on the vehicle, add-on, financing terms, and transaction documents.'],
+    ['A 2% markup on a $30,000 loan can add over $1,600 in extra costs over five years.', 'The effect of an interest-rate difference depends on the amount financed, term, and repayment schedule; compare the APR and total finance charge.'],
+    ['Healthcare billing systems often contain duplicate charges, hidden hospital fees, insurance discrepancies, and unexplained administrative costs that patients struggle to identify manually. These errors can add hundreds or thousands of dollars to medical bills.', 'Healthcare bills may contain duplicate line items, facility fees, insurance discrepancies, or administrative charges. The financial effect depends on the services, coverage, and billing record; compare the bill with the explanation of benefits.'],
+    ['Hospitals frequently add facility fees on top of treatment costs. These fees can add hundreds of dollars to a bill and are often not explained to patients.', 'Facility fees may appear in some healthcare billing arrangements. Ask the provider to explain the charge and compare it with your itemized bill and explanation of benefits.'],
+    ['AI tools can scan hundreds of line items and flag suspicious charges in minutes.', 'AI-assisted tools may help organize line-item review and flag potential issues; timing and completeness vary by product, document quality, and extraction.'],
+    ['Banks frequently generate revenue through overdraft penalties, hidden checking account fees, ATM surcharges, maintenance charges, and deceptive transaction processing practices. These fees can cost consumers hundreds of dollars annually.', 'Bank accounts may include overdraft, ATM, maintenance, or other account fees. The effect depends on the account agreement and transaction history; review current disclosures and statements rather than relying on a universal annual estimate.'],
+    ['Overdraft fees are particularly controversial, with banks charging $30-$40 per transaction.', 'Overdraft fee amounts and when they apply vary by bank, account, and transaction. Review the account agreement and current disclosures; the CFPB explains that certain transaction types have different opt-in and fee rules.'],
+    ['Transaction reordering — processing larger transactions first — can trigger multiple fees in a single day.', 'Account processing practices and transaction timing may affect whether multiple fees are assessed; review the account terms and transaction history for the applicable explanation.'],
+    ['This practice is legal but can be costly.', 'Whether a practice is permitted and how a fee applies depends on the account terms and applicable rules.'],
+    ['Many banks will waive fees if you ask — but only if you know they exist.', 'You can ask your bank to explain or review a fee, but waiver policies vary. Keep a record of the request and ask for the applicable disclosure.'],
+    ['Construction and renovation contracts often contain hidden markups, change-order fees, administrative charges, and subcontractor pass-through costs. These fees can significantly inflate the final project cost.', 'Construction and renovation documents may include markups, change-order fees, administrative charges, or subcontractor pass-through costs. These terms can change the total project cost; the effect depends on the scope and contract language.'],
+    ["Many homeowners don't realize these fees exist until after signing.", 'A homeowner may not see the financial effect of a fee until an estimate, change order, or invoice is issued; ask for itemized terms before signing.'],
+    ['AI-powered document analysis tools can scan contracts, invoices, and agreements to identify unusual charges, markups, duplicate entries, vague line items, and pricing inconsistencies that are difficult to spot manually. Instead of spending hours reading fine print, AI can flag potential issues in minutes.', 'AI-assisted document analysis may help organize extractable charges, markups, duplicate entries, vague line items, and pricing questions. Results depend on document quality and product behavior; review the source document and do not assume a complete or faster-than-human result.'],
+    ['HiddenFeeAI uses advanced pattern recognition to detect common hidden fee structures across industries.', 'HiddenFeeAI may assist with reviewing supported documents for potential fee-related issues; confirm current product scope and limitations in its first-party materials.'],
+    ['giving you the information you need to save money.', 'to help you prepare questions; savings are not guaranteed.'],
+    ['giving you the information you need to save money and negotiate with confidence.', 'to help you prepare questions; savings and negotiation outcomes are not guaranteed.'],
+    ['No AI training on uploads', 'Review training-use terms'],
+    ['Temporary processing', 'Review retention terms'],
+    ['No selling documents', 'Review sharing terms'],
+    ['Secure analysis', 'Review security controls'],
+    ['<div class="cta-reassurance">No subscription. No long-term commitment. Review security controls.</div>', '<div class="cta-reassurance">Review current pricing, retention, and security terms.</div>'],
+    [
+      'You can find hidden fees by carefully reviewing line items, asking for itemized invoices, comparing against market rates, and using AI-powered analysis tools that scan documents for unusual pricing patterns and suspicious charges.',
+      'Review line items, request itemized invoices, compare the written terms with the total price, and ask for the source of any benchmark. AI-assisted tools may help flag unusual patterns, but verify findings against the original document.'
+    ],
+    [
+      'Industries that commonly use hidden fees include auto dealerships, healthcare (medical billing), banking, telecommunications, construction and contracting, hospitality, subscription services, and insurance.',
+      'Consumers may encounter additional or unexpected charges in auto sales, healthcare billing, banking, telecommunications, construction, hospitality, subscriptions, and insurance. Fee practices vary by provider, transaction, and jurisdiction.'
+    ],
+    [
+      'Yes. AI-powered document analysis can scan contracts, invoices, and agreements to identify unusual charges, markups, duplicate entries, vague line items, and pricing inconsistencies that are difficult to spot manually.',
+      'AI-assisted document analysis may flag unusual charges, markups, duplicate entries, vague line items, and pricing questions in content it can extract. Results are not guaranteed to be complete and should be checked against the original document.'
+    ],
+    [
+      'HiddenFeeAI offers a one-time analysis for just $15 per document. There are no subscriptions or recurring fees — a one-time analysis; confirm current pricing and scope before purchase.',
+      'Current HiddenFeeAI pricing, billing terms, and report scope should be confirmed on the product site before purchase; this page does not independently verify a universal price or completeness of review.'
+    ],
+    ['Auto financing agreements frequently contain hidden APR markups, documentation fees, warranty add-ons, GAP insurance products, and financing structures that increase total repayment costs.', 'Auto financing agreements may contain APR markups, documentation fees, warranty add-ons, GAP insurance products, or other financing terms that affect total repayment costs. Compare the written disclosures and total finance charge.'],
+    ['Dealerships often mark up the interest rate approved by the lender, keeping the difference as profit.', 'A dealer may quote an interest rate above a lender offer; compare the written APR, amount financed, and total finance charge.'],
+    ['Patients often pay these fees without realizing they are errors.', 'A billing discrepancy can go unnoticed until the patient compares the bill with the explanation of benefits.'],
+    ['Telecommunications companies and subscription services often add hidden fees to bills — administrative charges, regulatory fees, line access costs, roaming charges, and bandwidth overages. These fees are frequently buried in fine print.', 'Telecom and subscription bills may include administrative, regulatory, line-access, roaming, bandwidth, or other charges. Compare the advertised price, bill, and written terms for items that are not prominent.'],
+    ['Common telecom hidden fees include activation fees, early termination penalties, equipment rental charges, and data overage fees. Subscription services may add processing fees, service fees, and automatic renewal charges that catch consumers off guard.', 'Examples to check in telecom and subscription terms include activation charges, early-termination provisions, equipment rental, data-overage, processing, service, and automatic-renewal charges. Whether a charge applies depends on the current terms and usage.'],
+    ['Our AI scans for hidden fees, markups, and pricing risks — to help you prepare questions; savings are not guaranteed.', 'HiddenFeeAI may assist with reviewing supported documents for potential hidden fees, markups, and pricing questions — to help you prepare questions; savings are not guaranteed.'],
+    ['Our AI scans for hidden fees, markups, and pricing risks — to help you prepare questions; savings and negotiation outcomes are not guaranteed.', 'HiddenFeeAI may assist with reviewing supported documents for potential hidden fees, markups, and pricing questions — to help you prepare questions; savings and negotiation outcomes are not guaranteed.'],
+    ['Stop Paying Hidden Fees', 'Review Potential Hidden Fees'],
+    ['"dateModified": "2026-07-21"', '"dateModified": "2026-08-08"']
   ]
 };
 
@@ -866,6 +933,12 @@ const regexReplacements = {
     [
       /<p>The financial impact is substantial\.[\s\S]*?<\/p>/,
       '<p>The financial impact of a lease or other contract depends on price, duration, language, jurisdiction, and context. This page does not publish an independent population statistic or typical savings amount. Review any finding against the actual document and current product information.</p>'
+    ]
+  ],
+  'hidden-fees-guides.html': [
+    [
+      /(<div class="quick-answer">[\s\S]*?<\/div>)/,
+      '$1<div class="topic-box" style="margin-top:20px;"><h3>Sources and limitations</h3><p>Fee practices vary by provider, contract, account, jurisdiction, and transaction. For primary consumer guidance, compare the written terms with the <a href="https://consumer.ftc.gov/articles/financing-or-leasing-car" target="_blank" rel="noopener noreferrer">FTC car-financing guidance</a>, <a href="https://consumer.ftc.gov/consumer-alerts/2024/08/car-dealerships-cant-charge-you-add-ons-you-dont-want" target="_blank" rel="noopener noreferrer">FTC add-on guidance</a>, and <a href="https://www.consumerfinance.gov/ask-cfpb/what-can-i-do-if-my-bank-charged-me-a-fee-for-overdrawing-my-account-en-1037/" target="_blank" rel="noopener noreferrer">CFPB overdraft guidance</a>. These sources explain specific consumer issues; they do not establish a universal hidden-fee rate or prove that an individual charge is unlawful.</p><p><strong>Last updated:</strong> August 8, 2026. This guide is educational and does not replace legal or financial advice.</p></div>'
     ]
   ]
 };

@@ -6,11 +6,11 @@
   "page_count": 238,
   "pages_with_candidates": 234,
   "candidate_counts": {
-    "quantitative_amount": 2181,
-    "quantitative_percent": 534,
-    "absolute_or_superlative": 1600,
+    "quantitative_amount": 2175,
+    "quantitative_percent": 533,
+    "absolute_or_superlative": 1604,
     "performance_or_outcome": 144,
-    "population_or_scale": 174
+    "population_or_scale": 172
   },
   "records": [
     {
@@ -19566,49 +19566,13 @@
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
-          "snippet": "paying. Analyze My Documents → Upload contracts &amp; invoices AI detects hidden fees &amp; markups $15 one-time analysis Private document processing What Are Hidden Fees — And Why Do They Matter? Hidden fees are undisclosed or deceptive charges added to invoices,"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$30,000 ",
-          "snippet": "ark up the interest rate approved by the lender, keeping the difference as profit. A 2% markup on a $30,000 loan can add over $1,600 in extra costs over five years. Tip: Secure pre-approval from a bank before visiting the dealership. How to Identify Hidden Financing F"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$1,600 ",
-          "snippet": "pproved by the lender, keeping the difference as profit. A 2% markup on a $30,000 loan can add over $1,600 in extra costs over five years. Tip: Secure pre-approval from a bank before visiting the dealership. How to Identify Hidden Financing Fees Review the total loan"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$30",
-          "snippet": "rs hundreds of dollars annually. Overdraft fees are particularly controversial, with banks charging $30-$40 per transaction. Transaction reordering — processing larger transactions first — can trigger multiple fees in a single day. Monthly maintenance fees, ATM s"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$40 ",
-          "snippet": "undreds of dollars annually. Overdraft fees are particularly controversial, with banks charging $30-$40 per transaction. Transaction reordering — processing larger transactions first — can trigger multiple fees in a single day. Monthly maintenance fees, ATM surcha"
+          "snippet": "pricing questions — to help you prepare questions; savings are not guaranteed. Upload My Document — $15 Frequently Asked Questions About Hidden Fees What are hidden fees? A hidden fee is a charge that is not prominent, expected, or easy to understand in the advert"
         },
         {
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
-          "snippet": "arkups, and pricing risks — giving you the information you need to save money. Upload My Document — $15 Frequently Asked Questions About Hidden Fees What are hidden fees? Hidden fees are undisclosed or deceptive charges added to invoices, contracts, and agreements"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "anually. How much does AI hidden fee analysis cost? HiddenFeeAI offers a one-time analysis for just $15 per document. There are no subscriptions or recurring fees — just a single payment for a comprehensive review. 🔒 Your Documents Stay Private No AI training on "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ing you the information you need to save money and negotiate with confidence. Analyze My Document — $15 No subscription. No long-term commitment. Secure analysis. Related Resources Bank Overdraft Fees Learn how banks charge overdraft fees and discover strategies t"
+          "snippet": "p you prepare questions; savings and negotiation outcomes are not guaranteed. Analyze My Document — $15 Review current pricing, retention, and security terms. Related Resources Bank Overdraft Fees Learn how banks charge overdraft fees and discover strategies to av"
         },
         {
           "key": "quantitative_amount",
@@ -19617,10 +19581,10 @@
           "snippet": "com — AI-Powered Hidden Fee Detection & Legal Artificial Intelligence for Consumers Try HiddenFeeAI $15 Analyze My Document"
         },
         {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "2%",
-          "snippet": "erships often mark up the interest rate approved by the lender, keeping the difference as profit. A 2% markup on a $30,000 loan can add over $1,600 in extra costs over five years. Tip: Secure pre-approval from a bank before visiting the dealership. How to Identi"
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "guarantee",
+          "snippet": "AI-assisted review may help organize potential issues, but findings require verification and do not guarantee a negotiation result. Sources and limitations Fee practices vary by provider, contract, account, jurisdiction, and transaction. For primary consumer guidance, "
         },
         {
           "key": "absolute_or_superlative",
@@ -19637,20 +19601,26 @@
         {
           "key": "absolute_or_superlative",
           "severity": "high",
+          "value": "guaranteed",
+          "snippet": "ential hidden fees, markups, and pricing questions — to help you prepare questions; savings are not guaranteed. Upload My Document — $15 Frequently Asked Questions About Hidden Fees What are hidden fees? A hidden fee is a charge that is not prominent, expected, or easy "
+        },
+        {
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "guaranteed",
+          "snippet": "plicate entries, vague line items, and pricing questions in content it can extract. Results are not guaranteed to be complete and should be checked against the original document. How much does AI hidden fee analysis cost? Current HiddenFeeAI pricing, billing terms, and "
+        },
+        {
+          "key": "absolute_or_superlative",
+          "severity": "high",
           "value": "All",
-          "snippet": "vice. The analysis helps identify potential hidden fees and prepare better questions for providers. All final decisions remain with you. Stop Paying Hidden Fees Upload any contract, invoice, or agreement to HiddenFeeAI. Our AI scans for hidden fees, markups, and "
+          "snippet": "vice. The analysis helps identify potential hidden fees and prepare better questions for providers. All final decisions remain with you. Review Potential Hidden Fees Upload any contract, invoice, or agreement to HiddenFeeAI. HiddenFeeAI may assist with reviewing "
         },
         {
-          "key": "population_or_scale",
+          "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "thousands of",
-          "snippet": "N etching charges, paint protection packages, and pre-paid maintenance plans. These add-ons can add thousands of dollars to the cost of a vehicle. Hidden Dealership Financing Fees Learn how dealerships increase vehicle financing costs using hidden APR markups, administrat"
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": " administrative costs that patients struggle to identify manually. These errors can add hundreds or thousands of dollars to medical bills. Common issues include duplicate procedure charges, unexpected facility fees, insurance billing errors, medication markups, and unbund"
+          "value": "guaranteed",
+          "snippet": "ps, and pricing questions — to help you prepare questions; savings and negotiation outcomes are not guaranteed. Analyze My Document — $15 Review current pricing, retention, and security terms. Related Resources Bank Overdraft Fees Learn how banks charge overdraft fees a"
         }
       ]
     },

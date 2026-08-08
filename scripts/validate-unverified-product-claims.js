@@ -21,7 +21,23 @@ const forbiddenByFile = {
   'hidden-fee-encyclopedia.html': ['most comprehensive hidden fee encyclopedia', '300+ hidden fees', 'hundreds of hidden fees across 10 major industries', 'proprietary DetectHiddenFees research', '300+ fee entries across 10 industries', '10+ Years Consumer Data', '$15 billion annually in overdraft fees', 'costs consumers billions annually', 'add thousands of dollars to the price of a vehicle', 'add hundreds of dollars monthly', '$60+ billion annually', 'trained on thousands of financial documents', 'highest prevalence of hidden fees', 'identify vague or deceptive fee descriptions', 'process hundreds of line items in seconds', 'most comprehensive educational resource', 'years of consumer document analysis'],
   'ai-lease-review.html': ['American Bar Association found', 'nearly 60% of consumers', 'cost them thousands of dollars', 'pattern recognition across thousands of contracts', 'accepts most common file types', 'encrypted and secure', 'never stored permanently', 'equal thoroughness', 'deleted promptly after analysis', 'three to five minutes', '$15,000 mistake', 'Real Examples of AI Contract Review Findings', 'anonymized cases from HiddenFeeAI users', 'reads every word with the same level of attention', 'against its training data', 'dramatically reduces your risk', 'accepts PDFs, Word documents, images', '95%+ of known risk patterns', '$200-$500 per hour', 'specifically designed to detect hidden fees'],
   'contract-fee-analysis.html': ['American Bar Association found that nearly 60%', 'cost them thousands of dollars', 'takes about three to five minutes'],
-  'ai-agreement-analyzer.html': ['save you hundreds or thousands of dollars', 'AI reads every word so you do not have to']
+  'ai-agreement-analyzer.html': ['save you hundreds or thousands of dollars', 'AI reads every word so you do not have to'],
+  'hidden-fees-guides.html': [
+    'AI detects hidden fees & markups',
+    '$15 one-time analysis',
+    'Private document processing',
+    'These add-ons can add thousands of dollars to the cost of a vehicle',
+    'A 2% markup on a $30,000 loan can add over $1,600',
+    'AI tools can scan hundreds of line items and flag suspicious charges in minutes',
+    'Banks frequently generate revenue through overdraft penalties',
+    'These fees can cost consumers hundreds of dollars annually',
+    'HiddenFeeAI uses advanced pattern recognition',
+    'Our AI scans for hidden fees',
+    'No AI training on uploads',
+    'Temporary processing',
+    'No selling documents',
+    'Secure analysis'
+  ]
 };
 const issues = [];
 for (const [filename, phrases] of Object.entries(forbiddenByFile)) {
@@ -32,4 +48,4 @@ if (issues.length) {
   console.error(issues.join('\n'));
   process.exit(1);
 }
-console.log('Unverified product-claim remediation checks passed for eighteen priority pages.');
+console.log('Unverified product-claim remediation checks passed for nineteen priority pages.');
