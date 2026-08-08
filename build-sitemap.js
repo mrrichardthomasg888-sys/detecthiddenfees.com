@@ -13,10 +13,33 @@ const excludeExact = [
   'build-pages.js', 'build-sitemap.js', 'gold_standard_upgrade.js', 'al.txt', 'alinks.txt'
 ];
 
+// Redirect aliases must never be advertised as indexable sitemap URLs.
+// Normalize .html redirect sources to the extensionless URL form used by the site.
+const redirectSources = new Set();
+if (fs.existsSync('_redirects')) {
+  for (const line of fs.readFileSync('_redirects', 'utf8').split(/\r?\n/)) {
+    const match = line.match(/^\s*(\/\S+)\s+\S+\s+(?:301|302|307|308)\b/);
+    if (match) redirectSources.add(match[1].replace(/\.html$/i, ''));
+  }
+}
+
+function pagePath(file) {
+  return '/' + file.replace(/\.html$/i, '');
+}
+
+function canonicalFor(file) {
+  const html = fs.readFileSync(file, 'utf8');
+  const match = html.match(/<link\b[^>]*\brel=["']canonical["'][^>]*>/i);
+  const href = match && match[0].match(/\bhref=["']([^"']+)/i);
+  return href ? href[1] : null;
+}
+
 const files = fs.readdirSync('.').filter(f => {
   if (!f.endsWith('.html')) return false;
   if (excludeExact.includes(f)) return false;
   if (excludePatterns.some(p => p.test(f))) return false;
+  if (redirectSources.has(pagePath(f))) return false;
+  if (canonicalFor(f) !== 'https://detecthiddenfees.com' + pagePath(f)) return false;
   return true;
 });
 
@@ -37,7 +60,7 @@ xml += '  </url>\n';
 // All production pages sorted alphabetically
 files.sort().forEach(f => {
   xml += '  <url>\n';
-  xml += '    <loc>https://detecthiddenfees.com/' + f + '</loc>\n';
+  xml += '    <loc>https://detecthiddenfees.com' + pagePath(f) + '</loc>\n';
   xml += '    <lastmod>' + now + '</lastmod>\n';
   xml += '    <changefreq>weekly</changefreq>\n';
   xml += '    <priority>0.8</priority>\n';
