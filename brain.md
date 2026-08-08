@@ -1580,6 +1580,16 @@ The master validator baseline is 238 pages with zero missing titles/descriptions
 - Phase 2 deployment: commit `b712234` (`Build Phase 2 traffic and authority infrastructure`) was pushed directly to GitHub `main`; remote `refs/heads/main` verified at `b712234719e681970b5a4f38fb56e533834e3fcc`. Production HTTP returned 200 for the root, all five Research Lab routes, `sitemap.xml`, `llms.txt`, and `rss.xml`; Research Lab pages still expose canonical tags and `research-data.json`.
 - Next session: import a real private GSC export, validate and score it, review the five pending source records, verify or reject them individually, expand the research sample only from legitimate public documents, and create a linkable research asset only after the publication gate is satisfied.
 
+## Phase 3 verified research and authority review - 2026-08-08
+
+- Verified the original five public-source candidates individually against live FTC, CFPB, and CMS pages, then expanded the private collection to 25 verified public-source records across fee disclosure, banking, payment fees, medical billing, automotive fees/add-ons, subscriptions, home improvement, credit-card billing, and consumer disputes.
+- Published the first evidence asset as a `2026 Hidden Fee Evidence Review`, not a market-wide index. Public outputs are `/hidden-fee-database`, `/research-data.json`, and `/research-data.csv`; each preserves source provenance, evidence context, collection dates, methodology links, and limitations. Internal verification workflow fields remain private in `seo/research-collection.json`.
+- Added the evidence summary to `hidden-fee-database.html`, corrected sample-only statistics metadata on `hidden-fee-statistics.html`, and recorded the evidence decision in `reports/phase3-research-review-2026-08-08.md`.
+- Qualified BuildingAdvisor and CarEdge as medium-confidence, not-yet-contacted opportunities. Declined Axios and TIME for now because the present evidence is not specific enough. Prepared two personalized drafts in `seo/outreach-drafts.md`; no outreach was sent.
+- Search Console remains disconnected. No real query, page, click, impression, CTR, position, trend, or cannibalization data is reported. The existing import template and validators remain ready for a private CSV export or secure API connection.
+- Validation passed across the master structure/link/indexability checks, discovery assets, redirects, attribution, contextual CTAs, research manifest/data, opportunity engine, dashboard source-state rules, evidence and claim gates, calculator checks, Search Console template, outreach pipeline, JavaScript syntax, public-data privacy checks, and `git diff --check`.
+- Deployment status: Phase 3 files are prepared but not yet committed or pushed. The pre-existing user-owned `calculator-authority.css` remains unstaged and untouched. Next safe action: stage only verified Phase 3 files, commit, push directly to GitHub `main`, verify the remote commit, then verify production HTTP for the five research routes and JSON/CSV assets.
+
 ## Standing handoff rule - 2026-08-08
 
 - After every meaningful repository update, append a concise entry to `brain.md` before completing the task. Record the date, files or systems changed, validation performed, deployment/commit status, blockers or credentials still needed, and the next safe action.

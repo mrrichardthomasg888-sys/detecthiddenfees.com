@@ -9,10 +9,17 @@ const required = ['title', 'version', 'status', 'methodology_url', 'field_defini
 const missing = required.filter(key => !(key in manifest));
 const issues = [];
 if (missing.length) issues.push(`missing fields: ${missing.join(', ')}`);
-if (manifest.status !== 'collecting') issues.push(`unexpected status: ${manifest.status}`);
-if (manifest.statistics !== null) issues.push('statistics must remain null until publication gates pass');
+if (!['collecting', 'published'].includes(manifest.status)) issues.push(`unexpected status: ${manifest.status}`);
 if (!Array.isArray(manifest.records)) issues.push('records must be an array');
-if (manifest.records.length !== 0) issues.push('public collecting manifest must remain empty until verified records exist');
+if (manifest.status === 'collecting' && manifest.records.length !== 0) issues.push('public collecting manifest must remain empty until verified records exist');
+if (manifest.status === 'collecting' && manifest.statistics !== null) issues.push('collecting statistics must remain null until publication gates pass');
+if (manifest.status === 'published') {
+  if (!manifest.records.length) issues.push('published manifest must contain verified records');
+  if (!manifest.statistics || manifest.statistics.verified_record_count !== manifest.records.length) issues.push('published statistics must match the verified record count');
+  if (manifest.records.some(record => record.verification_status !== 'verified')) issues.push('published records must all be verified');
+  if (!manifest.data_downloads || !manifest.data_downloads.csv || !manifest.data_downloads.json) issues.push('published manifest must expose JSON and CSV download links');
+  if (!manifest.methodology || !manifest.methodology.sample_definition || !manifest.methodology.analysis_rule) issues.push('published manifest needs methodology and analysis rules');
+}
 if (!manifest.methodology_url.includes('/research-methodology')) issues.push('methodology URL is not linked to the public methodology page');
 if (issues.length) {
   console.error(issues.join('\n'));

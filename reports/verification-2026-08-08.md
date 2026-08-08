@@ -518,6 +518,16 @@ The invoice analyzer guide was verified after commit `eae5423` propagated. A cac
 - Commit `1eaab0b` was pushed directly to GitHub `main`; no PR or Cloudflare deployment was used. The user-owned `calculator-authority.css` remains unstaged and untouched.
 - The three-orphan audit is complete with zero true orphans. Next work is the broader Search Console/cannibalization and conversion-priority review using connected real Search Console data only.
 
+## Phase 3 verified research and authority review - 2026-08-08
+
+- Verified the original five public-source candidates individually against live FTC, CFPB, and CMS pages. Expanded the reviewed collection to 25 verified public-source records across fee disclosure, banking, payment fees, medical billing, automotive fees/add-ons, subscriptions, home improvement, credit-card billing, and consumer disputes.
+- Published the first evidence asset as a `2026 Hidden Fee Evidence Review`, not a market-wide index. The public release is available at `/hidden-fee-database`, `/research-data.json`, and `/research-data.csv`; it includes record-level provenance, evidence context, collection dates, limitations, methodology links, and sample-only statistics. Internal verification workflow fields remain private in `seo/research-collection.json`.
+- Added `reports/phase3-research-review-2026-08-08.md` with the fact/observation/calculation/interpretation/limitation decision record. The current data does not support prevalence, average-fee, market-share, savings, or consumer-harm estimates.
+- Qualified BuildingAdvisor and CarEdge as medium-confidence, not-yet-contacted opportunities. Declined Axios and TIME for now because the current evidence is not specific enough to add a credible independent contribution. Prepared two personalized drafts in `seo/outreach-drafts.md`; no outreach was sent.
+- Search Console remains disconnected. No real query, page, click, impression, CTR, position, trend, or cannibalization data is reported. The existing import template and validators remain the safe path until a private CSV export or secure API connection is supplied.
+- Local validation passed across the master structure/link/indexability checks, discovery assets, redirects, attribution, contextual CTAs, research manifest/data, opportunity engine, dashboard source-state rules, evidence and claim gates, calculator checks, Search Console template, outreach pipeline, JavaScript syntax, public-data privacy checks, and `git diff --check`. The pre-existing user-owned `calculator-authority.css` remains unstaged and untouched.
+- Deployment is pending final staging/commit/push. Next safe action: stage only the verified Phase 3 files, append the matching `brain.md` handoff, commit, push directly to GitHub `main`, then verify the remote commit and production HTTP for the five research routes plus JSON/CSV assets.
+
 ## Phase 2 real traffic, research, and authority infrastructure - 2026-08-08
 
 - No production page or design was changed. Phase 1 URLs, templates, branding, calculator-authority.css ownership, public Research Lab collecting-only status, and direct GitHub `main` deployment rules were preserved.
