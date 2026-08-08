@@ -177,16 +177,24 @@ const xmlEscape = (value) => String(value || '').replace(/&/g, '&amp;').replace(
 
 const sitemapUrls = [...fs.readFileSync(path.join(ROOT, 'sitemap.xml'), 'utf8').matchAll(/<loc>(.*?)<\/loc>/g)].map((match) => match[1].trim());
 const sitemapSlugs = sitemapUrls.map(slugFromUrl);
+const redirectSources = new Set();
+if (fs.existsSync(path.join(ROOT, '_redirects'))) {
+  for (const line of fs.readFileSync(path.join(ROOT, '_redirects'), 'utf8').split(/\r?\n/)) {
+    const match = line.match(/^\s*\/(\S+)\s+\S+\s+(?:301|302|307|308)\b/);
+    if (match) redirectSources.add(match[1].replace(/\.html$/i, ''));
+  }
+}
 const extraCanonicalSlugs = fs.readdirSync(ROOT)
   .filter((file) => file.endsWith('.html'))
   .map((file) => file.replace(/\.html$/, ''))
   .filter((slug) => slug !== 'indexnow-submit' && !sitemapSlugs.includes(slug))
+  .filter((slug) => !redirectSources.has(slug))
   .filter((slug) => {
     const html = readHtml(slug);
     const canonical = (html.match(/<link\b[^>]*rel=["']canonical["'][^>]*href=["']([^"']+)/i) || [])[1];
     return canonical === canonicalForSlug(slug);
   });
-const canonicalSlugs = [...new Set([...sitemapSlugs, ...extraCanonicalSlugs])];
+const canonicalSlugs = [...new Set([...sitemapSlugs, ...extraCanonicalSlugs])].filter((slug) => !redirectSources.has(slug));
 const pages = [];
 const metadataChanges = [];
 let totalSearchActionsRemoved = 0;

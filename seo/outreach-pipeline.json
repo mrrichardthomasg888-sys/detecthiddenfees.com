@@ -1,0 +1,7 @@
+{
+  "version": "2026-08-08.1",
+  "purpose": "Track legitimate editorial opportunities for verified research assets. No contacts have been imported or contacted.",
+  "privacy_rule": "Store only public professional context needed to evaluate editorial fit; do not scrape or retain unnecessary personal information.",
+  "statuses": ["research", "approved", "contacted", "declined", "linked", "do_not_contact"],
+  "records": []
+}

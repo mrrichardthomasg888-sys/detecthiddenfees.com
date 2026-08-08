@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://detecthiddenfees.com/schemas/search-opportunity.json",
+  "title": "DetectHiddenFees Search Opportunity",
+  "type": "object",
+  "required": [
+    "topic",
+    "search_intent",
+    "funnel_stage",
+    "topic_cluster",
+    "existing_target_url",
+    "recommended_url",
+    "commercial_relevance",
+    "estimated_competition",
+    "gsc",
+    "content_gap",
+    "internal_link_opportunities",
+    "recommended_action",
+    "priority_score",
+    "status",
+    "evidence_basis"
+  ],
+  "properties": {
+    "topic": { "type": "string", "minLength": 2 },
+    "search_intent": { "enum": ["informational", "commercial_investigation", "transactional", "navigational"] },
+    "funnel_stage": { "enum": ["awareness", "consideration", "action"] },
+    "topic_cluster": { "type": "string", "minLength": 2 },
+    "existing_target_url": { "type": ["string", "null"] },
+    "recommended_url": { "type": ["string", "null"] },
+    "commercial_relevance": { "enum": ["low", "medium", "high"] },
+    "estimated_competition": { "type": ["string", "null"] },
+    "gsc": {
+      "type": "object",
+      "required": ["impressions", "clicks", "ctr", "position", "source"],
+      "properties": {
+        "impressions": { "type": ["number", "null"], "minimum": 0 },
+        "clicks": { "type": ["number", "null"], "minimum": 0 },
+        "ctr": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+        "position": { "type": ["number", "null"], "minimum": 0 },
+        "source": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "content_gap": { "type": "string" },
+    "internal_link_opportunities": { "type": "array", "items": { "type": "string" } },
+    "recommended_action": { "type": "string" },
+    "priority_score": { "type": "integer", "minimum": 1, "maximum": 5 },
+    "status": { "type": "string" },
+    "evidence_basis": { "type": "string" }
+  },
+  "additionalProperties": false
+}

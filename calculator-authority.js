@@ -105,7 +105,7 @@
     var el = event.target.closest ? event.target.closest("[data-cta-position]") : null;
     var isHiddenFeeAiLink = el && el.tagName === "A" && el.href.indexOf("hiddenfeeai.com") > -1;
     var action = isHiddenFeeAiLink ? el.getAttribute("data-cta-action") : null;
-    var isScan = isHiddenFeeAiLink && el.getAttribute("data-cta-intent") === "scan";
+    var isScan = isHiddenFeeAiLink && (el.getAttribute("data-cta-intent") === "scan" || action === "scan");
     var isDesktop = window.matchMedia && window.matchMedia("(min-width: 768px)").matches;
     if (isHiddenFeeAiLink) {
       track(el);
@@ -115,7 +115,7 @@
         return;
       }
     }
-    var scan = event.target.closest ? event.target.closest(".calculator-scan-trigger") : null;
+    var scan = event.target.closest ? event.target.closest(".calculator-scan-trigger, .scan-doc-trigger") : null;
     if (scan && handoff && isDesktop) {
       event.preventDefault();
       handoff.hidden = false;
