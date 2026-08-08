@@ -1675,3 +1675,9 @@ The master validator baseline is 238 pages with zero missing titles/descriptions
 - Updated the existing Phase 6B sender configuration and code to require `support@detecthiddenfees.com` for both From and Reply-To. Added a credential-gated `test` command for one internal delivery test; it is disabled until explicit secure environment values exist and does not enable external outreach.
 - Updated the outreach validator to protect the support sender/Reply-To requirement. No external target was sent, and the eight Phase 4 SEO pages remain frozen.
 - Next safe action: connect Brevo/domain authentication and the owner’s read-only Gmail monitoring authorization; then run the internal test and reply test before enabling any external outreach. Do not alter Cloudflare MX or forwarding.
+
+## Phase 6C internal-test workflow - 2026-08-08
+
+- Added `.github/workflows/outreach-internal-test.yml`, manual-dispatch only. It passes `BREVO_API_KEY` from GitHub Actions Secrets without printing it, locks From and Reply-To to `support@detecthiddenfees.com`, sends one test to the support routing address, and cannot send the four external outreach messages.
+- The workflow has not been triggered yet. External outreach remains disabled. No Cloudflare/MX/DNS changes were made.
+- Next safe action: trigger the manual internal-test workflow, inspect Brevo’s non-secret result, then verify delivery/reply in the owner’s Gmail if available. Keep automated Gmail monitoring marked blocked until a read-only Gmail authorization exists.

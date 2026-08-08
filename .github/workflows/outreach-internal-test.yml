@@ -1,0 +1,30 @@
+name: DetectHiddenFees internal email authentication test
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  internal-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Send one internal test through Brevo
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          OUTREACH_FROM_EMAIL: support@detecthiddenfees.com
+          OUTREACH_REPLY_TO: support@detecthiddenfees.com
+          OUTREACH_TEST_ENABLED: '1'
+          OUTREACH_TEST_RECIPIENT: support@detecthiddenfees.com
+        run: node scripts/outreach-automation.js test
