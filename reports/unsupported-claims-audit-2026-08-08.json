@@ -6,9 +6,9 @@
   "page_count": 238,
   "pages_with_candidates": 234,
   "candidate_counts": {
-    "quantitative_amount": 2007,
-    "quantitative_percent": 490,
-    "absolute_or_superlative": 1546,
+    "quantitative_amount": 1987,
+    "quantitative_percent": 486,
+    "absolute_or_superlative": 1547,
     "performance_or_outcome": 152,
     "population_or_scale": 161
   },
@@ -13648,184 +13648,46 @@
       "file": "example-auto-financing.html",
       "matches": [
         {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "nts. Use it to spot similar tactics in your own auto loan documents. Upload & Analyze My Document — $15 Auto Financing Agreement / Retail Installment Contract Illustrative example Not a real customer document Educational purposes only The Scenario A buyer finances"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$28,000 ",
-          "snippet": "tive example Not a real customer document Educational purposes only The Scenario A buyer finances a $28,000 vehicle at a dealership. The offered financing includes several hidden charges and markups that increase the total cost by over $3,500. Document Type Auto Finan"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$3,500",
-          "snippet": " offered financing includes several hidden charges and markups that increase the total cost by over $3,500. Document Type Auto Financing Agreement / Retail Installment Contract Pricing Breakdown Vehicle Price: $28,000 Down Payment: $5,000 Amount Financed: $23,000 AP"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$28,000 ",
-          "snippet": "cument Type Auto Financing Agreement / Retail Installment Contract Pricing Breakdown Vehicle Price: $28,000 Down Payment: $5,000 Amount Financed: $23,000 APR Offered: 8.9% Loan Term: 60 months Monthly Payment: $476.50 Total Finance Cost: $28,590 Potential Hidden Fees "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$5,000 ",
-          "snippet": "cing Agreement / Retail Installment Contract Pricing Breakdown Vehicle Price: $28,000 Down Payment: $5,000 Amount Financed: $23,000 APR Offered: 8.9% Loan Term: 60 months Monthly Payment: $476.50 Total Finance Cost: $28,590 Potential Hidden Fees Identified The follow"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$23,000 ",
-          "snippet": "Installment Contract Pricing Breakdown Vehicle Price: $28,000 Down Payment: $5,000 Amount Financed: $23,000 APR Offered: 8.9% Loan Term: 60 months Monthly Payment: $476.50 Total Finance Cost: $28,590 Potential Hidden Fees Identified The following charges in this docum"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$476.50 ",
-          "snippet": "wn Payment: $5,000 Amount Financed: $23,000 APR Offered: 8.9% Loan Term: 60 months Monthly Payment: $476.50 Total Finance Cost: $28,590 Potential Hidden Fees Identified The following charges in this document may be inflated, unnecessary, or deceptive. Each item includ"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$28,590 ",
-          "snippet": "nanced: $23,000 APR Offered: 8.9% Loan Term: 60 months Monthly Payment: $476.50 Total Finance Cost: $28,590 Potential Hidden Fees Identified The following charges in this document may be inflated, unnecessary, or deceptive. Each item includes the potential overcharge "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$1,872 ",
-          "snippet": "yer qualifies for 6.5% APR from their credit union but the dealer offers 8.9%. The 2.4% markup adds $1,872 in additional interest over the loan term. Potential Overcharge: $1,872 Documentation Fee Inflation A $795 documentation fee is charged. Actual processing cost "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$1,872 ",
-          "snippet": " 8.9%. The 2.4% markup adds $1,872 in additional interest over the loan term. Potential Overcharge: $1,872 Documentation Fee Inflation A $795 documentation fee is charged. Actual processing cost is typically under $100. Potential Overcharge: $695 Extended Warranty Bu"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$795 ",
-          "snippet": " additional interest over the loan term. Potential Overcharge: $1,872 Documentation Fee Inflation A $795 documentation fee is charged. Actual processing cost is typically under $100. Potential Overcharge: $695 Extended Warranty Bundled Without Disclosure A $2,400 e"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$100",
-          "snippet": "tation Fee Inflation A $795 documentation fee is charged. Actual processing cost is typically under $100. Potential Overcharge: $695 Extended Warranty Bundled Without Disclosure A $2,400 extended warranty is included in the financed amount without clear disclosure"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$695 ",
-          "snippet": "documentation fee is charged. Actual processing cost is typically under $100. Potential Overcharge: $695 Extended Warranty Bundled Without Disclosure A $2,400 extended warranty is included in the financed amount without clear disclosure. The buyer did not specifica"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$2,400 ",
-          "snippet": " is typically under $100. Potential Overcharge: $695 Extended Warranty Bundled Without Disclosure A $2,400 extended warranty is included in the financed amount without clear disclosure. The buyer did not specifically request it. Potential Overcharge: $2,400 GAP Insur"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$2,400 ",
-          "snippet": "d amount without clear disclosure. The buyer did not specifically request it. Potential Overcharge: $2,400 GAP Insurance Markup GAP insurance is offered at $995. The same coverage is available from third-party providers for $300-400. Potential Overcharge: $600 Import"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$995",
-          "snippet": "cifically request it. Potential Overcharge: $2,400 GAP Insurance Markup GAP insurance is offered at $995. The same coverage is available from third-party providers for $300-400. Potential Overcharge: $600 Important: These potential hidden fees are identified for i"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$300",
-          "snippet": "kup GAP insurance is offered at $995. The same coverage is available from third-party providers for $300-400. Potential Overcharge: $600 Important: These potential hidden fees are identified for illustrative purposes. Actual document analysis results may vary. Alw"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$600 ",
-          "snippet": "$995. The same coverage is available from third-party providers for $300-400. Potential Overcharge: $600 Important: These potential hidden fees are identified for illustrative purposes. Actual document analysis results may vary. Always consult qualified professiona"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "is that identifies hidden fees, pricing risks, and negotiation opportunities. Analyze My Document — $15 No subscription. No long-term commitment. Secure analysis. AI Tools AI Financial Advisor AI Contract Review AI Bill Analyzer AI Agreement Analyzer Hidden Fee De"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "opy; 2026 DetectHiddenFees.com — AI-Powered Hidden Fee Detection for Consumers Review Your Document $15 Analyze My Document"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "8.9%",
-          "snippet": "Pricing Breakdown Vehicle Price: $28,000 Down Payment: $5,000 Amount Financed: $23,000 APR Offered: 8.9% Loan Term: 60 months Monthly Payment: $476.50 Total Finance Cost: $28,590 Potential Hidden Fees Identified The following charges in this document may be inflat"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "6.5%",
-          "snippet": " item includes the potential overcharge amount. APR Markup (Dealer Reserve) The buyer qualifies for 6.5% APR from their credit union but the dealer offers 8.9%. The 2.4% markup adds $1,872 in additional interest over the loan term. Potential Overcharge: $1,872 Doc"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "8.9%",
-          "snippet": "kup (Dealer Reserve) The buyer qualifies for 6.5% APR from their credit union but the dealer offers 8.9%. The 2.4% markup adds $1,872 in additional interest over the loan term. Potential Overcharge: $1,872 Documentation Fee Inflation A $795 documentation fee is ch"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "2.4%",
-          "snippet": "r Reserve) The buyer qualifies for 6.5% APR from their credit union but the dealer offers 8.9%. The 2.4% markup adds $1,872 in additional interest over the loan term. Potential Overcharge: $1,872 Documentation Fee Inflation A $795 documentation fee is charged. Act"
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "every",
+          "snippet": "at a fee is improper, or predict what an AI review will find in a real contract. Scenario boundary: every number and document detail below is invented for education. Use the workflow and questions, not the values, when reviewing your own paperwork. Illustrative sce"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "Always",
-          "snippet": "al hidden fees are identified for illustrative purposes. Actual document analysis results may vary. Always consult qualified professionals for advice specific to your situation. Questions a Consumer Should Ask If you encounter similar charges in your own document, h"
+          "value": "Every",
+          "snippet": "unt carried into the loan Documentation, processing, tax, registration, and other disclosed charges Every optional product, its price, coverage, exclusions, and cancellation terms Questions raised by the example Does the APR match the written offer? Did the buyer a"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "all",
-          "snippet": "s the base APR the lender approved before any dealer markup? • Can you show me the itemized list of all fees and add-ons included in the financing? • I did not request an extended warranty. Please remove it or provide written authorization. • Can you match the AP"
+          "snippet": "of payments match the disclosed finance terms? How to review a real auto-financing agreement 1. Get all pages before signing Request the buyer’s order, financing agreement, disclosures, add-on contracts, and any written quote. Keep the version that shows the pric"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "all",
-          "snippet": " the APR from my pre-approved credit union offer? • What is the total cost of the vehicle including all fees and interest over the full loan term? How DetectHiddenFees AI Would Analyze This Document AI Analysis Approach DetectHiddenFees AI would analyze this fina"
+          "value": "every",
+          "snippet": "r other lender when possible. Use the same term, amount financed, and product assumptions. 3. Match every number Reconcile vehicle price, fees, taxes, down payment, trade-in, payoff, add-ons, APR, term, amount financed, finance charge, and total of payments. Mark a"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "Always",
-          "snippet": "ovides informational analysis and is not a substitute for legal, financial, or professional advice. Always consult qualified professionals for significant financial or legal decisions. Related Resources Dealership Financing Guide Read the complete guide covering hid"
+          "value": "guarantee",
+          "snippet": "tches for verification. It cannot turn a hypothetical example into evidence, determine legality, or guarantee a negotiation result. Frequently Asked Questions Is this auto-financing example a real customer document? No. It is a fictional educational scenario. Every num"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "all",
-          "snippet": "is industry, with more examples and detailed analysis. Read Guide → Back to Examples Library Browse all educational examples to learn how hidden fees appear across different document types and industries. All Examples → Knowledge Center Educational articles answe"
+          "value": "Every",
+          "snippet": "s this auto-financing example a real customer document? No. It is a fictional educational scenario. Every number and document detail is illustrative and should not be treated as a market benchmark, legal conclusion, customer result, or prediction. What should a buy"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "All",
-          "snippet": "ducational examples to learn how hidden fees appear across different document types and industries. All Examples → Knowledge Center Educational articles answering common questions about hidden fees, contract review, and financial document analysis. Visit Knowledg"
+          "value": "every",
+          "snippet": "nced, finance charge, total of payments, down payment, trade-in or payoff amounts, taxes, fees, and every optional product. Are the add-ons in this example required? No conclusion can be drawn from a hypothetical example. In a real transaction, ask whether each pro"
         }
       ]
     },
