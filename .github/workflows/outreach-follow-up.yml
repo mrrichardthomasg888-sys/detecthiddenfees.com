@@ -1,0 +1,56 @@
+name: DetectHiddenFees controlled outreach follow-up
+
+on:
+  schedule:
+    - cron: '23 15 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  follow-up:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Check outreach activation gate
+        id: gate
+        shell: bash
+        run: |
+          if grep -q '"enabled": true' seo/outreach-automation.json; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Send at most one eligible follow-up
+        if: steps.gate.outputs.enabled == 'true'
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          OUTREACH_SEND_ENABLED: '1'
+          OUTREACH_FROM_EMAIL: support@detecthiddenfees.com
+          OUTREACH_REPLY_TO: research@detecthiddenfees.com
+        run: node scripts/outreach-automation.js follow-up
+
+      - name: Commit status-only follow-up changes
+        if: steps.gate.outputs.enabled == 'true'
+        shell: bash
+        run: |
+          if git diff --quiet -- seo/outreach-status.json; then
+            echo "No follow-up status changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add seo/outreach-status.json
+          git commit -m "Record controlled outreach follow-up"
+          git push origin HEAD:main

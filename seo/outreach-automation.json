@@ -11,7 +11,7 @@
     "required_sender_env": "OUTREACH_FROM_EMAIL",
     "required_reply_to_env": "OUTREACH_REPLY_TO",
     "required_sender_address": "support@detecthiddenfees.com",
-    "required_reply_to_address": "support@detecthiddenfees.com",
+    "required_reply_to_address": "research@detecthiddenfees.com",
     "internal_test_recipient_env": "OUTREACH_TEST_RECIPIENT",
     "required_sender_verification": true,
     "plain_text_only": true,
@@ -20,6 +20,15 @@
     "url_shorteners_allowed": false,
     "follow_up_days": 8,
     "max_follow_ups": 1
+  },
+  "reply_monitor": {
+    "status": "blocked_until_cloudflare_worker_authorization",
+    "address": "research@detecthiddenfees.com",
+    "service": "Cloudflare Email Worker + KV queue + GitHub Actions poller",
+    "personal_gmail_access": "none",
+    "required_secure_values": ["CLOUDFLARE_API_TOKEN", "CLOUDFLARE_ACCOUNT_ID", "REPLY_EVENT_NAMESPACE_ID"],
+    "human_review_for_substantive_replies": true,
+    "store_email_bodies": false
   },
   "dns_observed": {
     "mx_provider": "Cloudflare Email Routing",

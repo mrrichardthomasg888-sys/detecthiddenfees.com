@@ -1,0 +1,43 @@
+name: DetectHiddenFees business-only reply monitor
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  process-replies:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Process sanitized business reply events
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          REPLY_EVENT_NAMESPACE_ID: ${{ secrets.REPLY_EVENT_NAMESPACE_ID }}
+        run: node scripts/process-business-reply-events.js
+
+      - name: Commit status-only changes
+        shell: bash
+        run: |
+          if git diff --quiet -- seo/outreach-status.json; then
+            echo "No matched business reply status changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add seo/outreach-status.json
+          git commit -m "Update business outreach reply status"
+          git push origin HEAD:main

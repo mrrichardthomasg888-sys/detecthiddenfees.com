@@ -19,7 +19,9 @@
       "subject": "CFPB source records for your dealer-fee guide",
       "body": "Hello Edmunds press team,\n\nYour dealer-fee guide explains mandatory charges, document fees, state differences, and negotiability.\n\nOur 25-record Evidence Review includes CFPB source records distinguishing government-set taxes, title, and registration from preparation, document, delivery, market-adjustment, and optional add-on charges.\n\nThe review does not claim typical amounts or market-wide frequency. Its methodology and downloadable records are here:\nhttps://detecthiddenfees.com/research-media-kit\n\nPlease use it only if it adds useful source context for readers comparing an out-the-door price or sales contract.\n\nBest,\nDetectHiddenFees Research Team",
       "sendable_by_automation": true,
-      "reason": "Public press address verified on Edmunds' official press page."
+      "reason": "Public press address verified on Edmunds' official press page.",
+      "follow_up_subject": "Following up: CFPB source records for your dealer-fee guide",
+      "follow_up_body": "Hello Edmunds press team,\n\nI wanted to follow up once on my note about the source-linked DetectHiddenFees Evidence Review. It is a curated 25-record sample, not a market-wide fee study, and the methodology plus downloadable records are available here:\nhttps://detecthiddenfees.com/research-media-kit\n\nIf it is not useful for your current coverage, no response is needed.\n\nBest,\nDetectHiddenFees Research Team"
     },
     {
       "opportunity_id": "O-2026-007",
@@ -28,7 +30,9 @@
       "subject": "Public-source context for construction change-order guidance",
       "body": "Hello Procore press team,\n\nYour change-order guide explains how scope, cost, schedule, documentation, and approvals can change during a project.\n\nDetectHiddenFees reviewed public FTC guidance on written estimates, contracts, materials, dates, prices, and large upfront payments.\n\nThe 25-record Evidence Review is not a representative construction study. It is a source-linked research sample with public methodology and downloads:\nhttps://detecthiddenfees.com/research-media-kit\n\nPlease use it only where it genuinely improves the article.\n\nBest,\nDetectHiddenFees Research Team",
       "sendable_by_automation": true,
-      "reason": "Public press address verified on Procore's official pressroom."
+      "reason": "Public press address verified on Procore's official pressroom.",
+      "follow_up_subject": "Following up: public-source context for construction change orders",
+      "follow_up_body": "Hello Procore press team,\n\nI wanted to follow up once on my note about the DetectHiddenFees Evidence Review and its FTC source context for written estimates, contracts, materials, dates, prices, and upfront payments. It is not a representative construction study.\n\nThe methodology and public downloads are here:\nhttps://detecthiddenfees.com/research-media-kit\n\nIf it is not useful for your current coverage, no response is needed.\n\nBest,\nDetectHiddenFees Research Team"
     },
     {
       "opportunity_id": "O-2026-009",
@@ -37,7 +41,9 @@
       "subject": "CFPB source map for overdraft-fee terminology",
       "body": "Hello NerdWallet press team,\n\nYour overdraft-fee guide provides provider-based information for consumers.\n\nDetectHiddenFees organized CFPB records covering overdraft, NSF, returned-item, maintenance, and account-disclosure terminology into a public 25-record source review.\n\nNerdWallet provides provider data, while our review provides source links and bounded consumer-guidance context. It does not replace provider pricing or claim an average.\n\nhttps://detecthiddenfees.com/research-media-kit\n\nPlease use it only if it helps readers inspect their account terms.\n\nBest,\nDetectHiddenFees Research Team",
       "sendable_by_automation": true,
-      "reason": "Public press address verified on NerdWallet's official press page."
+      "reason": "Public press address verified on NerdWallet's official press page.",
+      "follow_up_subject": "Following up: CFPB source map for overdraft-fee terminology",
+      "follow_up_body": "Hello NerdWallet press team,\n\nI wanted to follow up once on my note about the public CFPB source map covering overdraft, NSF, returned-item, maintenance, and account-disclosure terminology. It does not replace provider pricing or claim an average.\n\nThe methodology and downloadable records are here:\nhttps://detecthiddenfees.com/research-media-kit\n\nIf it is not useful for your current coverage, no response is needed.\n\nBest,\nDetectHiddenFees Research Team"
     }
   ]
 }

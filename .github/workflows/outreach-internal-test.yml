@@ -24,7 +24,7 @@ jobs:
         env:
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
           OUTREACH_FROM_EMAIL: support@detecthiddenfees.com
-          OUTREACH_REPLY_TO: support@detecthiddenfees.com
+          OUTREACH_REPLY_TO: research@detecthiddenfees.com
           OUTREACH_TEST_ENABLED: '1'
           OUTREACH_TEST_RECIPIENT: support@detecthiddenfees.com
         run: node scripts/outreach-automation.js test

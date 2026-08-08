@@ -10,7 +10,10 @@ if (config.email.initial_batch_max !== 4) errors.push('Initial batch maximum mus
 if (config.email.bcc_allowed !== false) errors.push('BCC must remain disabled');
 if (config.email.max_follow_ups !== 1) errors.push('Maximum follow-ups must remain 1');
 if (config.email.required_sender_address !== 'support@detecthiddenfees.com') errors.push('Sender must remain support@detecthiddenfees.com');
-if (config.email.required_reply_to_address !== 'support@detecthiddenfees.com') errors.push('Reply-To must remain support@detecthiddenfees.com');
+if (config.email.required_reply_to_address !== 'research@detecthiddenfees.com') errors.push('Reply-To must remain research@detecthiddenfees.com');
+if (config.reply_monitor?.address !== 'research@detecthiddenfees.com') errors.push('Reply monitor address must remain research@detecthiddenfees.com');
+if (config.reply_monitor?.personal_gmail_access !== 'none') errors.push('Personal Gmail access must remain none');
+if (config.reply_monitor?.store_email_bodies !== false) errors.push('Inbound email bodies must not be stored');
 if (config.safety.never_send_to_contact_form_automatically !== true) errors.push('Contact-form automation must remain disabled');
 const ids = new Set();
 if (!messages.source_asset || !/^https:\/\//.test(messages.source_asset)) errors.push('Missing public source asset URL');
@@ -20,6 +23,7 @@ for (const message of messages.messages) {
   const record = pipeline.records.find(item => item.opportunity_id === message.opportunity_id);
   if (!record) errors.push(`Message has no pipeline record: ${message.opportunity_id}`);
   if (!message.subject || !message.body) errors.push(`Incomplete message: ${message.opportunity_id}`);
+  if (message.sendable_by_automation && (!message.follow_up_subject || !message.follow_up_body)) errors.push(`Sendable message lacks individualized follow-up: ${message.opportunity_id}`);
   if (/bit\.ly|tinyurl|t\.co|ow\.ly|goo\.gl|shorturl/i.test(message.body)) errors.push(`URL shortener found: ${message.opportunity_id}`);
   if (message.sendable_by_automation && !/[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/i.test(record?.public_contact_method || '')) errors.push(`Sendable message lacks public email: ${message.opportunity_id}`);
   if (message.body.includes('password') || message.body.includes('document contents')) errors.push(`Sensitive-content marker in message: ${message.opportunity_id}`);
