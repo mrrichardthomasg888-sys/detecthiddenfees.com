@@ -6,10 +6,10 @@
   "page_count": 238,
   "pages_with_candidates": 234,
   "candidate_counts": {
-    "quantitative_amount": 2079,
+    "quantitative_amount": 2074,
     "quantitative_percent": 496,
-    "absolute_or_superlative": 1557,
-    "performance_or_outcome": 143,
+    "absolute_or_superlative": 1561,
+    "performance_or_outcome": 153,
     "population_or_scale": 165
   },
   "records": [
@@ -243,82 +243,136 @@
       "file": "ai-accuracy-and-limitations.html",
       "matches": [
         {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ion Service Upload any bill AI identifies potential billing issues and charges that may need review $15 one-time No subscription Start negotiating your bills today. Upload any bill or service agreement to HiddenFeeAI. The AI identifies overcharges, hidden fees, an"
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "every",
+          "snippet": "nswer: how accurate is AI document analysis? There is no single accuracy percentage that applies to every AI document review. A credible evaluation must define the task, dataset, labels, system version, test date, and separate false-positive and false-negative resu"
         },
         {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ees, and negotiation opportunities. Get your analysis in minutes and start saving. Upload My Bill — $15 AI Accuracy and Limitations: An Honest Assessment HiddenFeeAI is a powerful tool for identifying potential issues in contracts, bills, invoices, and other finan"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ed analysis of what you should challenge. Know exactly what to say and save money. Upload My Bill — $15 Start Negotiating Your Bills Today Don't pay more than you have to. Let AI analyze your bills and give you the leverage you need. Analyze My Bill → $15 one-time"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "e than you have to. Let AI analyze your bills and give you the leverage you need. Analyze My Bill → $15 one-time · No subscription · Secure processing Sources and limitations AI systems can create risks from incorrect, incomplete, or context-sensitive outputs. The"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "find hidden costs &#8595; Document Intelligence Center — complete document analysis Try HiddenFeeAI $15 Analyze My Document"
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "Always",
+          "snippet": " term, attachment, or jurisdiction-specific rule can change the meaning of a sentence or line item. Always inspect the original record. A verification workflow for AI findings 1. Locate the exact passage Find the original clause, line item, fee name, amount, date, o"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": " or coverage of any HiddenFeeAI training or evaluation dataset. The system may not have encountered every fee structure or contract variation. New fee structures emerge constantly as companies develop new ways to increase revenue. The AI may not immediately identif"
+          "snippet": "nsupported universal accuracy rate. Frequently Asked Questions Is there one accuracy percentage for every AI document review? No. A meaningful accuracy result must define the task, dataset, labels, system version, test date, and error measures. A percentage without"
+        },
+        {
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "every",
+          "snippet": "stem version, test date, and error measures. A percentage without that context cannot be applied to every document or use case. What can make an AI document finding wrong or incomplete? Poor scans, handwriting, tables, missing pages, ambiguous wording, missing atta"
+        },
+        {
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "all",
+          "snippet": "sing attachments, unfamiliar fee structures, jurisdiction, and information outside the document can all affect an AI-assisted finding. What is a false positive in document review? A false positive is a flagged charge, clause, or pattern that appears questionable "
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "Accuracy",
-          "snippet": "AI Accuracy and Limitations: What AI Can and Cannot Do | DetectHiddenFees Skip to main content Detect HiddenFees Hidden Fees Contract Review Bills &amp; Documents Negotiat"
+          "snippet": "AI Accuracy and Limitations: A Practical Review Framework | DetectHiddenFees Skip to main content Detect HiddenFees Hidden Fees Contract Review Bills &amp; Documents Negot"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "Accuracy",
-          "snippet": "Bills &amp; Documents Negotiation Research Resources Analyze a Document Home / Research Center / AI Accuracy and Limitations: An Honest Assessment AI ACCURACY AND LIMITATIONS AI Accuracy and Limitations: An Honest Assessment AI is powerful but not perfect. Here is an "
+          "snippet": "Bills &amp; Documents Negotiation Research Resources Analyze a Document Home / Research Center / AI Accuracy and Limitations: A Practical Review Framework AI ACCURACY &amp; LIMITATIONS AI Accuracy and Limitations: A Practical Review Framework AI-assisted document revi"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "ACCURACY",
-          "snippet": "es Analyze a Document Home / Research Center / AI Accuracy and Limitations: An Honest Assessment AI ACCURACY AND LIMITATIONS AI Accuracy and Limitations: An Honest Assessment AI is powerful but not perfect. Here is an honest look at what our AI does well and where hum"
+          "snippet": "ze a Document Home / Research Center / AI Accuracy and Limitations: A Practical Review Framework AI ACCURACY &amp; LIMITATIONS AI Accuracy and Limitations: A Practical Review Framework AI-assisted document review can surface questions, but it cannot replace checking t"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "Accuracy",
-          "snippet": " Research Center / AI Accuracy and Limitations: An Honest Assessment AI ACCURACY AND LIMITATIONS AI Accuracy and Limitations: An Honest Assessment AI is powerful but not perfect. Here is an honest look at what our AI does well and where human judgment is still essenti"
+          "snippet": "Center / AI Accuracy and Limitations: A Practical Review Framework AI ACCURACY &amp; LIMITATIONS AI Accuracy and Limitations: A Practical Review Framework AI-assisted document review can surface questions, but it cannot replace checking the original record or qualifie"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "Accuracy",
-          "snippet": "d negotiation opportunities. Get your analysis in minutes and start saving. Upload My Bill — $15 AI Accuracy and Limitations: An Honest Assessment HiddenFeeAI is a powerful tool for identifying potential issues in contracts, bills, invoices, and other financial docume"
+          "snippet": "ew can surface questions, but it cannot replace checking the original record or qualified judgment. Accuracy varies by document quality, context, system version, and evaluation design. Read the Methodology &rarr; Explore Research Center No universal accuracy rate Sour"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "accuracy",
-          "snippet": "ons based on the AI findings combined with your own judgment. This page does not publish a verified accuracy percentage for HiddenFeeAI. Any performance claim should be based on a documented test protocol, a defined dataset, a versioned system, and separately reported"
+          "snippet": "em version, and evaluation design. Read the Methodology &rarr; Explore Research Center No universal accuracy rate Source and scope matter Human verification required Research status: collecting Direct answer: how accurate is AI document analysis? There is no single ac"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "accuracy",
-          "snippet": "rs should treat results as potential issues to review, not as a complete determination. However, AI accuracy depends on the quality and breadth of its training data. The available public materials do not establish the size, composition, or coverage of any HiddenFeeAI "
+          "snippet": "Research status: collecting Direct answer: how accurate is AI document analysis? There is no single accuracy percentage that applies to every AI document review. A credible evaluation must define the task, dataset, labels, system version, test date, and separate false"
+        },
+        {
+          "key": "performance_or_outcome",
+          "severity": "high",
+          "value": "accuracy",
+          "snippet": "e is a lead for verification, not proof that a charge is unlawful, incorrect, or recoverable. What “accuracy” can mean Document review has several different tasks: extracting text, identifying a document type, classifying fee language, matching related records, interp"
+        },
+        {
+          "key": "performance_or_outcome",
+          "severity": "high",
+          "value": "accuracy",
+          "snippet": "ting a clause, and supporting a decision. A system may perform differently on each task, so a broad accuracy label can hide important differences. Accuracy also depends on the record being reviewed. Scan quality, handwriting, tables, missing pages, ambiguous descripti"
+        },
+        {
+          "key": "performance_or_outcome",
+          "severity": "high",
+          "value": "Accuracy",
+          "snippet": "tem may perform differently on each task, so a broad accuracy label can hide important differences. Accuracy also depends on the record being reviewed. Scan quality, handwriting, tables, missing pages, ambiguous descriptions, missing attachments, jurisdiction, and inf"
+        },
+        {
+          "key": "performance_or_outcome",
+          "severity": "high",
+          "value": "accuracy",
+          "snippet": ", tax, medical, or business advice when the consequence of an error is material. What a trustworthy accuracy claim should disclose A useful evaluation identifies the task being measured, the source and size of the dataset, selection criteria, labels or reference answe"
+        },
+        {
+          "key": "performance_or_outcome",
+          "severity": "high",
+          "value": "accuracy",
+          "snippet": "blic DetectHiddenFees research manifest is collecting and contains no verified records or published accuracy statistics. This page therefore explains how to interpret accuracy claims without inventing a benchmark for HiddenFeeAI. External guidance The NIST AI Risk Man"
+        },
+        {
+          "key": "performance_or_outcome",
+          "severity": "high",
+          "value": "accuracy",
+          "snippet": "no verified records or published accuracy statistics. This page therefore explains how to interpret accuracy claims without inventing a benchmark for HiddenFeeAI. External guidance The NIST AI Risk Management Framework is voluntary guidance for managing AI risks and d"
+        },
+        {
+          "key": "performance_or_outcome",
+          "severity": "high",
+          "value": "accuracy",
+          "snippet": "y , Research Center , and Hidden Fee Index . None of these pages publishes an unsupported universal accuracy rate. Frequently Asked Questions Is there one accuracy percentage for every AI document review? No. A meaningful accuracy result must define the task, dataset,"
+        },
+        {
+          "key": "performance_or_outcome",
+          "severity": "high",
+          "value": "accuracy",
+          "snippet": "ese pages publishes an unsupported universal accuracy rate. Frequently Asked Questions Is there one accuracy percentage for every AI document review? No. A meaningful accuracy result must define the task, dataset, labels, system version, test date, and error measures."
+        },
+        {
+          "key": "performance_or_outcome",
+          "severity": "high",
+          "value": "accuracy",
+          "snippet": "tly Asked Questions Is there one accuracy percentage for every AI document review? No. A meaningful accuracy result must define the task, dataset, labels, system version, test date, and error measures. A percentage without that context cannot be applied to every docum"
+        },
+        {
+          "key": "performance_or_outcome",
+          "severity": "high",
+          "value": "accuracy",
+          "snippet": "d be treated as proof that an unflagged document contains no hidden fee or unfavorable term. Can AI accuracy replace human judgment? No. AI output can help organize questions, but people must verify the original clause or line item and use qualified advice when approp"
         }
       ]
     },
