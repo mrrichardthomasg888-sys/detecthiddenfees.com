@@ -6,11 +6,11 @@
   "page_count": 238,
   "pages_with_candidates": 234,
   "candidate_counts": {
-    "quantitative_amount": 1897,
+    "quantitative_amount": 1892,
     "quantitative_percent": 469,
-    "absolute_or_superlative": 1524,
-    "performance_or_outcome": 152,
-    "population_or_scale": 157
+    "absolute_or_superlative": 1522,
+    "performance_or_outcome": 153,
+    "population_or_scale": 154
   },
   "records": [
     {
@@ -3709,106 +3709,52 @@
       "file": "ai-document-review-tool.html",
       "matches": [
         {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ontract risks, and billing errors. Fast, affordable, secure. AI-powered analysis Results in minutes $15 one-time payment Encrypted & secure Upload & Analyze &mdash; $15 How to Review a Contract Essential Resources AI Contract Review AI Contract Review Tool AI Cont"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "owered analysis Results in minutes $15 one-time payment Encrypted & secure Upload & Analyze &mdash; $15 How to Review a Contract Essential Resources AI Contract Review AI Contract Review Tool AI Contract Analysis AI Document Analysis Hidden Fee Detector An AI docu"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "d negotiation opportunities. One-time payment, no subscription required. Upload My Document &mdash; $15 One-time payment &middot; No subscription &middot; Encrypted & secure How AI AI Document Review Tool Works The AI analysis process for ai document review tool: "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15",
-          "snippet": "ousands of similar documents. How much does AI document analysis cost? Each document analysis costs $15. There is no subscription or recurring fee. You pay per document with no long-term commitment. What types of documents can AI analyze? Contracts, agreements, i"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "find hidden costs &#8595; Document Intelligence Center — complete document analysis Try HiddenFeeAI $15 Analyze My Document"
-        },
-        {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "all",
-          "snippet": "on and duplicate charges. This adaptability makes the AI document review tool a single solution for all your document analysis needs. Instead of using different tools for different document types, you upload everything to one platform. The analysis is comprehensi"
+          "value": "every",
+          "snippet": ", recurring charges, totals, and follow-up questions. Use the output as a starting point and verify every material finding against the original document. Last updated: August 8, 2026 Review My Document Read the Methodology Human verification required Compare with t"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "rything to one platform. The analysis is comprehensive regardless of document type. The AI examines every element of your document, comparing findings against known patterns from thousands of similar documents. Using a single review tool creates consistency in your"
+          "snippet": " source record. A single generic score or checklist should not be treated as equally meaningful for every document type. Contracts and agreements Look for one-time charges, recurring obligations, renewal windows, cancellation and termination triggers, defined terms"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "nt review tool: analyze any document in minutes follows a thorough methodology designed to identify every potential issue in your document. First, the AI reads and structures your document, identifying all provisions, clauses, and terms. It uses natural language pr"
+          "snippet": "final amount owed. It can also miss text, misunderstand context, or surface a false positive. Treat every material finding as a question to verify. Privacy and responsible use Before uploading a sensitive record, read the related product’s current first-party priva"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "all",
-          "snippet": "ery potential issue in your document. First, the AI reads and structures your document, identifying all provisions, clauses, and terms. It uses natural language processing to understand the meaning and context of each section. Next, the AI compares your document "
+          "value": "guaranteed",
+          "snippet": "n, and clauses that deserve a closer human read. Capabilities vary and no tool should be treated as guaranteed complete. Can AI decide whether a fee is illegal or unfair? No. A model can help identify language to investigate, but legality, enforceability, fairness, cove"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "all",
-          "snippet": "rovides clear explanations and specific recommendations for each issue. The final report summarizes all findings in an easy-to-understand format, prioritizing issues by their potential financial impact and urgency. Related Resources AI Contract Review AI Contract"
+          "value": "guarantee",
+          "snippet": "essional advice. Disclaimer: AI-assisted document review can help organize questions, but it cannot guarantee that every issue will be found or decide what you should do. Keep the original record and seek qualified advice when the consequences matter. Continue learning"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "Always",
-          "snippet": "itute for professional legal review. For complex legal matters, please consult a licensed attorney. Always review AI analysis results with your own judgment and, where appropriate, seek independent legal counsel before signing any agreement. Frequently Asked Questio"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "cts, agreements, invoices, bills, estimates, quotes, lease agreements, and financial statements can all be analyzed for hidden fees and risks. Is my document data secure? Yes. All documents are encrypted during transmission and automatically deleted after process"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "All",
-          "snippet": "inancial statements can all be analyzed for hidden fees and risks. Is my document data secure? Yes. All documents are encrypted during transmission and automatically deleted after processing. HiddenFeeAI does not use uploaded documents for AI training. Can AI ana"
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": "ype. The AI examines every element of your document, comparing findings against known patterns from thousands of similar documents. Using a single review tool creates consistency in your review process. You develop familiarity with the analysis format across different doc"
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": " the meaning and context of each section. Next, the AI compares your document against patterns from thousands of similar documents. This comparative analysis identifies provisions that deviate from industry norms and flag terms that deserve attention. Each finding is cate"
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": "vorable terms, pricing errors, and other risks. The AI compares your document against patterns from thousands of similar documents. How much does AI document analysis cost? Each document analysis costs $15. There is no subscription or recurring fee. You pay per document w"
+          "value": "every",
+          "snippet": ". Disclaimer: AI-assisted document review can help organize questions, but it cannot guarantee that every issue will be found or decide what you should do. Keep the original record and seek qualified advice when the consequences matter. Continue learning Hidden Fee"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "accuracy",
-          "snippet": ". For contracts, it focuses on clause language and legal terms. For invoices, it focuses on pricing accuracy and hidden charges. For bills, it focuses on rate verification and duplicate charges. This adaptability makes the AI document review tool a single solution for"
+          "snippet": "ing record, state uncertainty, and preserve the next question. See the AI analysis methodology , AI accuracy and limitations , and editorial policy for the publishing and review standards used on this site. Have a document you want to organize for review? HiddenFeeAI "
+        },
+        {
+          "key": "performance_or_outcome",
+          "severity": "high",
+          "value": "Accuracy",
+          "snippet": "uences matter. Continue learning Hidden Fee Detector AI Document Checker AI Analysis Methodology AI Accuracy and Limitations Hidden Fee Encyclopedia Contact DetectHiddenFees Review a document for fee language Use the related product only after checking its current ter"
         }
       ]
     },

@@ -513,6 +513,28 @@ const forbiddenByFile = {
     'Upload My Bill',
     'complete protection'
   ],
+  'ai-document-review-tool.html': [
+    'instant analysis',
+    'Fast, affordable, secure',
+    'AI-powered analysis Results in minutes',
+    '$15 one-time payment',
+    'Encrypted',
+    'comprehensive automated analysis',
+    'works across multiple document types with the same thorough approach',
+    'all your document analysis needs',
+    'The analysis is comprehensive regardless of document type',
+    'examines every element of your document',
+    'thousands of similar documents',
+    'saves time and helps you identify patterns',
+    'specific recommendations',
+    'pay for itself',
+    'Upload My Document — $15',
+    'One-time payment',
+    'No subscription',
+    'Try HiddenFeeAI',
+    'Reviewed by DetectHiddenFees AI Analysis Team',
+    'Last updated July 2026'
+  ],
   'ai-invoice-analyzer.html': [
     'Find Hidden Charges in Every Invoice',
     'Never Pay an Inflated Invoice Again',

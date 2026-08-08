@@ -11,6 +11,7 @@ const expected = {
   'ai-bill-analyzer.html': { action: 'bill_analysis', text: 'Review My Bill' },
   'ai-financial-analysis.html': { action: 'document_analysis', text: 'Review My Financial Document' },
   'ai-document-analysis-tools.html': { action: 'document_analysis', text: 'Analyze My Document' },
+  'ai-document-review-tool.html': { action: 'document_analysis', text: 'Review My Document' },
   'ai-invoice-analyzer.html': { action: 'bill_analysis', text: 'Analyze My Invoice' },
   'hidden-bank-overdraft-fees.html': { action: 'bank_statement_review', text: 'Review My Bank Statement' },
   'hidden-dealership-financing-fees.html': { action: 'auto_financing_review', text: 'Review My Financing Agreement' },
