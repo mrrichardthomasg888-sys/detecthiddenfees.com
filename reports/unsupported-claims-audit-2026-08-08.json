@@ -6,8 +6,8 @@
   "page_count": 238,
   "pages_with_candidates": 234,
   "candidate_counts": {
-    "quantitative_amount": 1937,
-    "quantitative_percent": 474,
+    "quantitative_amount": 1916,
+    "quantitative_percent": 473,
     "absolute_or_superlative": 1532,
     "performance_or_outcome": 152,
     "population_or_scale": 159
@@ -18842,160 +18842,28 @@
       "file": "hidden-rental-fees.html",
       "matches": [
         {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "roader look at recurring consumer charges. Read the hidden fee guide . Analyze My Lease Documents — $15 20 fee entries explained 7-point analysis per fee AI detection strategies Home › Knowledge Center › Encyclopedia › Rental Fees AI Rental Lease Analyzer → AI Lea"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$30",
-          "snippet": "Review → Back to Encyclopedia → 📋 1. Rental Application Fee Medium Risk On: Apartment Rentals Avg: $30–$75 per application What It Is A non-refundable fee charged to process a rental application, typically covering credit checks, background checks, and administr"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$75 ",
-          "snippet": "ew → Back to Encyclopedia → 📋 1. Rental Application Fee Medium Risk On: Apartment Rentals Avg: $30–$75 per application What It Is A non-refundable fee charged to process a rental application, typically covering credit checks, background checks, and administrative"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15",
-          "snippet": " fees cover screening costs. However, the actual cost of a credit and background check is typically $15–$30, making fee amounts above that range potential profit centers. When It Is Legitimate When the fee is reasonable ($25–$50), covers actual screening costs, a"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$30, m",
-          "snippet": "s cover screening costs. However, the actual cost of a credit and background check is typically $15–$30, making fee amounts above that range potential profit centers. When It Is Legitimate When the fee is reasonable ($25–$50), covers actual screening costs, and is c"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$25",
-          "snippet": "mounts above that range potential profit centers. When It Is Legitimate When the fee is reasonable ($25–$50), covers actual screening costs, and is consistent across all applicants. When It May Be Excessive When fees exceed $75 per applicant; when fees are charge"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$50",
-          "snippet": "ts above that range potential profit centers. When It Is Legitimate When the fee is reasonable ($25–$50), covers actual screening costs, and is consistent across all applicants. When It May Be Excessive When fees exceed $75 per applicant; when fees are charged fo"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$75 ",
-          "snippet": "screening costs, and is consistent across all applicants. When It May Be Excessive When fees exceed $75 per applicant; when fees are charged for applications that are not processed; when multiple application fees are required for the same rental unit. Warning Sign"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$100",
-          "snippet": "nd flag excessive charges. 🏢 2. Administrative Fee (Rental) Medium Risk On: Apartment Rentals Avg: $100–$500/year What It Is A recurring fee charged by landlords for administrative costs such as lease processing, record keeping, and property management overhead. "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$500",
-          "snippet": "ag excessive charges. 🏢 2. Administrative Fee (Rental) Medium Risk On: Apartment Rentals Avg: $100–$500/year What It Is A recurring fee charged by landlords for administrative costs such as lease processing, record keeping, and property management overhead. Some "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$25",
-          "snippet": "es relative to market norms. 🐾 3. Pet Rent / Pet Deposit Medium Risk On: Pet-Friendly Rentals Avg: $25–$75/month + $200–$500 deposit What It Is A monthly fee or one-time deposit charged for having a pet in a rental unit. Some landlords charge both a non-refundab"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$75",
-          "snippet": "elative to market norms. 🐾 3. Pet Rent / Pet Deposit Medium Risk On: Pet-Friendly Rentals Avg: $25–$75/month + $200–$500 deposit What It Is A monthly fee or one-time deposit charged for having a pet in a rental unit. Some landlords charge both a non-refundable p"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$200",
-          "snippet": "arket norms. 🐾 3. Pet Rent / Pet Deposit Medium Risk On: Pet-Friendly Rentals Avg: $25–$75/month + $200–$500 deposit What It Is A monthly fee or one-time deposit charged for having a pet in a rental unit. Some landlords charge both a non-refundable pet fee and mo"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$500 ",
-          "snippet": " norms. 🐾 3. Pet Rent / Pet Deposit Medium Risk On: Pet-Friendly Rentals Avg: $25–$75/month + $200–$500 deposit What It Is A monthly fee or one-time deposit charged for having a pet in a rental unit. Some landlords charge both a non-refundable pet fee and monthly "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$25",
-          "snippet": "tual damage a pet might cause. When It Is Legitimate When the fee is clearly disclosed, reasonable ($25–$50/month per pet), and the pet policy is applied consistently. When It May Be Excessive When combined non-refundable fees and pet rent exceed $100/month per p"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$50",
-          "snippet": " damage a pet might cause. When It Is Legitimate When the fee is clearly disclosed, reasonable ($25–$50/month per pet), and the pet policy is applied consistently. When It May Be Excessive When combined non-refundable fees and pet rent exceed $100/month per pet; "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$100",
-          "snippet": "pplied consistently. When It May Be Excessive When combined non-refundable fees and pet rent exceed $100/month per pet; when deposits are charged on top of non-refundable fees without justification. Warning Signs Pet fees that are charged per pet and per month; no"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$100",
-          "snippet": "ee structures in the area. 🔑 4. Move-Out Fee / Cleaning Fee Medium Risk On: Apartment Rentals Avg: $100–$500+ What It Is A fee charged at move-out for cleaning, repairs, or painting of the rental unit. Some landlords charge a flat move-out fee regardless of the a"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$500",
-          "snippet": "ructures in the area. 🔑 4. Move-Out Fee / Cleaning Fee Medium Risk On: Apartment Rentals Avg: $100–$500+ What It Is A fee charged at move-out for cleaning, repairs, or painting of the rental unit. Some landlords charge a flat move-out fee regardless of the actual"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "n fees, admin charges, pet costs, move-out fees, and all other rental fee types. Analyze My Lease — $15 No subscription. One-time analysis. Secure processing. Related Resources: Back to Encyclopedia · AI Rental Lease Analyzer · AI Lease Review AI analysis is infor"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "opedia Home Rental Fees Company About Contact &copy; 2026 DetectHiddenFees.com Review Your Document $15 Analyze My Document"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "5%",
-          "snippet": "e, and covers specific administrative services. When It May Be Excessive When the admin fee exceeds 5% of monthly rent; when multiple administrative fees appear; when the fee is not mentioned until lease signing. Warning Signs \"Administrative fee\" or \"management"
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "every",
+          "snippet": ": Lease Charges to Review Before You Sign A rental advertisement may show base rent without showing every amount described in the application, lease, addenda, fee schedule, renewal notice, or statement. This guide helps you reconcile those records before you sign, "
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "/move-out costs can add hundreds of dollars monthly to the advertised rent price. This entry covers every major rental fee type in depth. Start with the hidden fee guide for a broader look at recurring consumer charges. Read the hidden fee guide . Analyze My Lease "
+          "snippet": " deposit, fee, or rule when the Fair Housing Act conditions apply. This is not a blanket answer for every animal or housing situation. Rental-listing and payment red flags The FTC rental-listing guidance recommends checking the property and listing, being cautious "
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "all",
-          "snippet": "imate When the fee is reasonable ($25–$50), covers actual screening costs, and is consistent across all applicants. When It May Be Excessive When fees exceed $75 per applicant; when fees are charged for applications that are not processed; when multiple applicati"
+          "value": "every",
+          "snippet": "d in the written documents. Can a landlord charge any fee? There is no single nationwide answer for every rental charge. Permitted fees, notice rules, deposits, late charges, screening practices, and refund requirements can depend on the state, city, lease, and tra"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "all",
-          "snippet": "nts, pet addendums, fee schedules. How AI Analysis Can Help AI can scan lease documents to identify all pet-related charges, calculate total pet costs, and compare against typical pet fee structures in the area. 🔑 4. Move-Out Fee / Cleaning Fee Medium Risk On: A"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "ase to HiddenFeeAI. Our AI scans for application fees, admin charges, pet costs, move-out fees, and all other rental fee types. Analyze My Lease — $15 No subscription. One-time analysis. Secure processing. Related Resources: Back to Encyclopedia · AI Rental Lease"
+          "value": "always",
+          "snippet": "quest and dispute the report. Follow the current CFPB instructions and applicable law. Are pet fees always allowed? Pet charges and deposit rules vary. An assistance animal is not a pet under HUD guidance, and a reasonable-accommodation request may include waiving a"
         }
       ]
     },
