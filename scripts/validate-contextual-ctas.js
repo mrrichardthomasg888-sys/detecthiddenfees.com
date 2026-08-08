@@ -20,7 +20,8 @@ const expected = {
   'hidden-fee-prevention-guide.html': { action: 'document_analysis', text: 'Review My Document for Fees' },
   'hidden-fee-detector.html': { action: 'document_analysis', text: 'Review My Document for Fees' },
   'hidden-rental-fees.html': { action: 'document_analysis', text: 'Review My Lease for Fees' },
-  'hidden-fee-encyclopedia.html': { action: 'document_analysis', text: 'Review My Document for Fees' }
+  'hidden-fee-encyclopedia.html': { action: 'document_analysis', text: 'Review My Document for Fees' },
+  'duplicate-medical-billing-charges.html': { action: 'bill_analysis', text: 'Review My Medical Bill' }
 };
 const errors = [];
 

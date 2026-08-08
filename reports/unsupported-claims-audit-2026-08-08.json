@@ -6,11 +6,11 @@
   "page_count": 238,
   "pages_with_candidates": 234,
   "candidate_counts": {
-    "quantitative_amount": 1908,
-    "quantitative_percent": 470,
+    "quantitative_amount": 1897,
+    "quantitative_percent": 469,
     "absolute_or_superlative": 1524,
     "performance_or_outcome": 152,
-    "population_or_scale": 159
+    "population_or_scale": 157
   },
   "records": [
     {
@@ -13106,112 +13106,28 @@
       "file": "duplicate-medical-billing-charges.html",
       "matches": [
         {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": " Upload hospital bills &amp; insurance statements AI detects duplicate charges &amp; billing errors $15 one-time analysis Private document processing What Are Duplicate Medical Billing Charges? Duplicate medical billing charges occur when hospitals, clinics, or he"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ny, giving you confidence when negotiating with billing departments. Get My Medical Bill Analysis — $15 Real-World Examples of Duplicate Medical Billing Consider a hypothetical scenario where a patient receives a hospital bill for $12,000. Upon detailed review, th"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$12,000",
-          "snippet": "icate Medical Billing Consider a hypothetical scenario where a patient receives a hospital bill for $12,000. Upon detailed review, they discover: A duplicate charge for an MRI that was only performed once — $2,400 An unexpected facility fee of $1,800 that was not exp"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$2,400 ",
-          "snippet": ". Upon detailed review, they discover: A duplicate charge for an MRI that was only performed once — $2,400 An unexpected facility fee of $1,800 that was not explained A medication charge of $800 for a drug that was never administered Unbundled surgery charges totalin"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$1,800 ",
-          "snippet": ": A duplicate charge for an MRI that was only performed once — $2,400 An unexpected facility fee of $1,800 that was not explained A medication charge of $800 for a drug that was never administered Unbundled surgery charges totaling $1,500 that should have been bundle"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$800 ",
-          "snippet": "ed once — $2,400 An unexpected facility fee of $1,800 that was not explained A medication charge of $800 for a drug that was never administered Unbundled surgery charges totaling $1,500 that should have been bundled The total erroneous charges in this example excee"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$1,500 ",
-          "snippet": "medication charge of $800 for a drug that was never administered Unbundled surgery charges totaling $1,500 that should have been bundled The total erroneous charges in this example exceed $6,500 — more than half of the original bill. Without careful review, these err"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$6,500 ",
-          "snippet": "es totaling $1,500 that should have been bundled The total erroneous charges in this example exceed $6,500 — more than half of the original bill. Without careful review, these errors would likely go unnoticed and be paid unnecessarily. AI-powered analysis can help id"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "he charges, identifies duplicate fees, hidden costs, and potential errors. Upload My Medical Bill — $15 Frequently Asked Questions About Duplicate Medical Billing Charges What are duplicate medical billing charges? Duplicate medical billing charges occur when hosp"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "s, hidden healthcare fees, and billing errors using AI-powered analysis. Analyze My Medical Bills — $15 No subscription. No long-term commitment. Secure analysis. AI Tools AI Financial Advisor Legal Artificial Intelligence AI Contract Review AI Agreement Analyzer "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "Powered Hidden Fee Detection & Legal Artificial Intelligence for Consumers Review Your Medical Bill $15 Analyze My Medical Bill"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "400%",
-          "snippet": " medications and hospital supplies are commonly billed at inflated prices. Hospitals may charge 200-400% more than the actual cost of medications, adding significant unnecessary expense to patient bills. Unbundling Charges Some hospitals separate bundled services "
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "guarantee",
+          "snippet": " medical necessity, coverage, coding correctness, legality, or the final amount owed, and it cannot guarantee that every duplicate or billing issue will be found. Illustrative review prompts Same service description and date appears twice Compare records Bill balance d"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "all",
-          "snippet": "lanation of Benefits (EOB) 3. Look for duplicate dates, services, or procedure codes 4. Verify that all services were actually received 5. Check for vague line items like \"miscellaneous\" or \"supplies\" 6. Use AI-powered analysis to scan hundreds of line items quic"
+          "value": "every",
+          "snippet": "ity, coverage, coding correctness, legality, or the final amount owed, and it cannot guarantee that every duplicate or billing issue will be found. Illustrative review prompts Same service description and date appears twice Compare records Bill balance differs from"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "never",
-          "snippet": "ected facility fee of $1,800 that was not explained A medication charge of $800 for a drug that was never administered Unbundled surgery charges totaling $1,500 that should have been bundled The total erroneous charges in this example exceed $6,500 — more than half"
+          "value": "guarantee",
+          "snippet": "dical necessity, coverage, coding correctness, legality, or the final amount you owe, and it cannot guarantee that every issue will be found. What if a bill may be a surprise or out-of-network bill? The applicable protections depend on the type of coverage, service, pr"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "all",
-          "snippet": "compare it against your insurance Explanation of Benefits (EOB), look for duplicate charges, verify all dates and services, and question any vague or unexplained line items. AI tools can help automate this process. Related Hidden Fee Investigations Hidden Dealers"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "All",
-          "snippet": "ntial billing errors and prepare better questions for healthcare providers and insurance companies. All final decisions remain with you. Analyze Medical Bills Before You Pay Upload hospital bills, insurance statements, and healthcare invoices to identify duplicat"
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": "for operating room time, or repeated facility fees for the same hospital stay. These errors can add thousands of dollars to a patient's bill without any additional services actually being provided. Common Duplicate Medical Billing Charges Medical billing statements often "
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": "' 'supply fee,' or 'equipment charge' without detailed descriptions. These fees can add hundreds or thousands of dollars to a patient's bill without clear justification. Can I audit my own medical bills? Yes. Start by requesting a fully itemized bill, compare it against y"
+          "value": "every",
+          "snippet": ", coverage, coding correctness, legality, or the final amount you owe, and it cannot guarantee that every issue will be found. What if a bill may be a surprise or out-of-network bill? The applicable protections depend on the type of coverage, service, provider, fac"
         }
       ]
     },
