@@ -6,11 +6,11 @@
   "page_count": 238,
   "pages_with_candidates": 234,
   "candidate_counts": {
-    "quantitative_amount": 2021,
-    "quantitative_percent": 491,
-    "absolute_or_superlative": 1557,
-    "performance_or_outcome": 153,
-    "population_or_scale": 162
+    "quantitative_amount": 2007,
+    "quantitative_percent": 490,
+    "absolute_or_superlative": 1546,
+    "performance_or_outcome": 152,
+    "population_or_scale": 161
   },
   "records": [
     {
@@ -4595,202 +4595,34 @@
       "file": "ai-financial-advisor.html",
       "matches": [
         {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": " documents, identify potential pricing risks, and understand complex charges. Analyze My Document — $15 Original research methodology Proprietary 6-step framework $15 one-time analysis Independent consumer protection Home › AI Tools › AI Financial Advisor Table of"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "mplex charges. Analyze My Document — $15 Original research methodology Proprietary 6-step framework $15 one-time analysis Independent consumer protection Home › AI Tools › AI Financial Advisor Table of Contents What Is an AI Financial Advisor? How AI Financial Ana"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": " specific findings, severity scores, and actionable recommendations. Analyze My Documents With AI — $15 How AI Financial Analysis Works AI financial analysis applies several layers of technology to transform unstructured financial documents into structured, action"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "t just get a list of problems — they get a clear path to resolution. Analyze My Documents With AI — $15 AI Financial Advisor Applications by Industry AI financial advisors serve different functions across different industries. Each industry presents unique documen"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "le ✓ Core service ✓ Core service Retirement planning ✗ Not applicable ✓ Core service ✓ Limited Cost $15 per analysis $200+ per hour 0.25-0.50% of assets When to Use Each Type Use an AI financial advisor when reviewing contracts, invoices, bills, or other financial"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$200",
-          "snippet": " ✓ Core service Retirement planning ✗ Not applicable ✓ Core service ✓ Limited Cost $15 per analysis $200+ per hour 0.25-0.50% of assets When to Use Each Type Use an AI financial advisor when reviewing contracts, invoices, bills, or other financial documents for hi"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$47,000 b",
-          "snippet": "ecific results. Illustrative Example: Contractor Estimate Analysis Scenario: A homeowner receives a $47,000 bathroom renovation estimate from a contractor. The estimate includes 43 line items across 6 pages. The homeowner uploads the document to an AI financial analysi"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$2,800 ",
-          "snippet": "analysis platform. In this illustrative scenario, the example uses a 32 percent materials markup, a $2,800 coordination fee, and a $950 permit-processing charge. Those figures are fictional examples for explaining the workflow; they are not market benchmarks, a legal"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$950 ",
-          "snippet": "strative scenario, the example uses a 32 percent materials markup, a $2,800 coordination fee, and a $950 permit-processing charge. Those figures are fictional examples for explaining the workflow; they are not market benchmarks, a legal conclusion, or a promised ne"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ks, and consumer document analysis patterns. Last Updated: July 2026 Analyze My Documents With AI — $15 DetectHiddenFees Research Findings Based on analysis of common financial document patterns, the following table summarizes typical areas where consumers may enc"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "mmendations. HiddenFeeAI by DetectHiddenFees provides comprehensive financial document analysis for $15 per document. See AI financial analysis questions → Can AI identify unnecessary fees? Yes. AI analysis identifies fees that may not be justified including admin"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ared to traditional analysis? HiddenFeeAI by DetectHiddenFees offers one-time document analysis for $15 with no subscription. Professional financial analysis can cost hundreds of dollars per hour depending on complexity, making AI analysis accessible to consumers "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": " savings opportunities in contracts, bills, invoices, and estimates. Analyze My Documents With AI — $15 No subscription. One-time analysis. Secure processing. About DetectHiddenFees: Uses artificial intelligence to analyze contracts, agreements, invoices, and fina"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "red Hidden Fee Detection & Financial Document Analysis for Consumers Review Your Financial Document $15 Analyze My Document"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "0.50%",
-          "snippet": "rement planning ✗ Not applicable ✓ Core service ✓ Limited Cost $15 per analysis $200+ per hour 0.25-0.50% of assets When to Use Each Type Use an AI financial advisor when reviewing contracts, invoices, bills, or other financial documents for hidden fees and pricing"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "of document types. The platform applies natural language processing and machine learning to extract every charge, classify each fee category, benchmark pricing against industry ranges, and generate prioritized action recommendations. The core function of an AI fina"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": " not know what questions to ask. AI financial analysis bridges this gap by systematically examining every line item and comparing it against known patterns of fair and unfair pricing. DetectHiddenFees Product HiddenFeeAI by DetectHiddenFees HiddenFeeAI is an AI-pow"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "adable before proceeding. Financial Data Extraction Once the document is digitized, the AI extracts every charge, fee, price, rate, and financial figure. Each extracted data point is categorized by type, amount, description, and context. The extraction process capt"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "ly analyzing any financial document. This six-step process ensures consistent, thorough coverage of every document type and produces actionable intelligence that consumers can use immediately. [DetectHiddenFees 6-Step Framework Graphic — Visual overview of the six-"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "readable, complete, and suitable for analysis. STEP 2 Financial Data Extraction The system extracts every charge, fee, price, rate, and financial figure from the document. Each extracted data point is categorized by type, amount, description, and context. STEP 3 Fe"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "omplementary rather than competing services, and a well-rounded financial strategy may benefit from all three. Illustrative Example: How AI Financial Analysis Identifies Pricing Risks The following example illustrates how AI financial analysis works in practice. "
-        },
-        {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "guarantee",
-          "snippet": "ional scenario showing the types of findings AI analysis can produce, not a customer testimonial or guarantee of specific results. Illustrative Example: Contractor Estimate Analysis Scenario: A homeowner receives a $47,000 bathroom renovation estimate from a contractor"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "Always",
-          "snippet": " represent common patterns observed in consumer financial documents. Individual documents may vary. Always review findings with appropriate professional guidance for significant financial decisions. AI Financial Knowledge Graph The following knowledge graph shows ho"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "resources ↓ AI Hidden Fee Questions — complete GEO/AEO question resource For a complete overview of all available analysis tools, visit the AI Analysis Hub . Questions People Ask AI About Financial Analysis These are the most common hidden fee questions consumers"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "insurance policies, mortgage disclosures, and other structured financial documents. The AI extracts every charge, classifies each fee type, benchmarks pricing against market data, and generates a plain-English report with specific findings and recommendations. Hidd"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "ct. Hidden Fee Detector → How can AI help me understand expenses? AI financial analysis categorizes every charge in your document by type, compares pricing against market benchmarks, and identifies patterns that indicate potential overcharging or deceptive pricing."
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "a document? The first thing an AI financial advisor analyzes is the pricing structure — identifying every line item that carries a cost, classifying each charge by type, and flagging any that use vague language or deviate from expected market ranges. What types of "
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": "y overpricing, GAP insurance inflation, and excessive dealer fees. Many dealerships add hundreds or thousands of dollars in undisclosed fees to financing agreements. See our hidden dealership financing fees resource for specific patterns. Banking and Financial Services Ba"
-        },
-        {
-          "key": "performance_or_outcome",
-          "severity": "high",
-          "value": "OCR",
-          "snippet": " when a consumer uploads a financial document. The AI first performs optical character recognition (OCR) if the document is a scanned image or photo. It converts the document into machine-readable text while preserving the original structure, including headings, "
-        },
-        {
-          "key": "performance_or_outcome",
-          "severity": "high",
-          "value": "accuracy",
-          "snippet": "ied financial planners for investment decisions, may miss creatively disguised fee structures, have accuracy limitations with unusual or non-standard document formats, and should not be the sole basis for significant financial decisions. AI analysis works best when co"
+          "snippet": "edically unnecessary, tax-deductible, or above a fair market price from a document alone. It cannot guarantee that an unflagged document contains no problem, and it cannot replace an official billing-dispute process or professional advice. Accuracy depends on document "
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "Accuracy",
-          "snippet": " and User Action Recommendations. How accurate is an AI financial advisor at detecting hidden fees? Accuracy depends on document type, clarity of pricing language, and the fee patterns involved. For standard fee structures in well-formatted documents, AI detection is "
+          "snippet": "tains no problem, and it cannot replace an official billing-dispute process or professional advice. Accuracy depends on document quality, extraction, context, system version, evaluation design, and information outside the record. The public DetectHiddenFees research m"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "accuracy",
-          "snippet": "-formatted documents, AI detection is generally reliable. For unusual or creatively disguised fees, accuracy varies. Can an AI financial advisor replace a human financial analyst? An AI financial advisor complements rather than replaces human analysts. AI handles the "
+          "snippet": "g AI risks, not an evaluation of HiddenFeeAI. Continue with the public AI analysis methodology , AI accuracy and limitations guide , and privacy and AI security resource . These pages separate evidence from inference and do not claim a universal model result. Frequent"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "accuracy",
-          "snippet": "knowledge limitations honestly. Read our Editorial Policy for details on our research standards and accuracy limitations. AI financial analysis helps identify potential issues but should be combined with professional guidance for important financial decisions. Related"
+          "snippet": " privacy and retention practices, pricing, update date, and the role of human verification. A broad accuracy or savings claim without that context is not enough. Can AI replace a financial, legal, tax, or investment professional? No. AI output can help organize questi"
+        },
+        {
+          "key": "performance_or_outcome",
+          "severity": "high",
+          "value": "Accuracy",
+          "snippet": "ocument Continue the research AI Analysis Hub AI Document Analysis Tools AI Analysis Methodology AI Accuracy and Limitations Hidden Fee Encyclopedia Editorial Policy About DetectHiddenFees: Uses artificial intelligence to analyze contracts, agreements, invoices, and f"
         }
       ]
     },
