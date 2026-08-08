@@ -27,6 +27,62 @@ The website should educate first, build trust second, and convert users to the A
 
 ---
 
+## 2026 DESIGN + ADVANCED SEO/AEO/GEO ADDENDUM
+
+This addendum is part of the permanent master prompt. It governs all future SEO, content, research, design, and architecture work.
+
+### Preserve the Existing DetectHiddenFees Design
+
+Use the exact existing DetectHiddenFees.com design system, visual template, branding, logo, shared header/navigation, footer, global CSS tokens, typography, spacing, containers, cards, buttons, backgrounds, responsive breakpoints, and article/page templates already contained in this repository and production site.
+
+Do not redesign the website, create a separate-looking Research Lab, generate or replace the logo, introduce an unrelated template or theme, duplicate global CSS unnecessarily, or change the visual identity. Research Lab pages, Hidden Fee Index pages, datasets, guides, glossaries, industry pages, and supporting resources must look as though they have always been part of DetectHiddenFees.com on desktop, tablet, and mobile.
+
+Before creating or materially changing any page, inspect production and the repository to identify and reuse the shared components and existing design tokens. Every change must preserve the dark theme, Inter typography, glass-morphism language, established card/button patterns, responsive behavior, accessibility, and reduced-motion support described in `brain/design-system.md`.
+
+### Advanced Legitimate Search Architecture
+
+Treat this as a modern search and AI-discovery architecture serving Google Search, Google AI experiences, answer engines, AI assistants, semantic/entity discovery, long-tail intent, topical authority, original-research citations, and qualified conversions. Use only legitimate methods. Never use spam, doorway pages, cloaking, fake citations, fabricated statistics, scaled low-value content, keyword stuffing, fake authors or reviews, link schemes, or manipulative structured data.
+
+Audit and improve search-intent mapping, entity/topic architecture, semantic clusters, hub-and-spoke relationships, contextual internal links, crawl depth, orphan pages, canonicalization, cannibalization, consolidation opportunities, information gain, SERP-intent alignment, title/description clarity, schema, breadcrumbs, authorship/reviewer transparency, source citations, accurate freshness signals, Core Web Vitals, mobile usability, server-rendered critical content, image optimization, accessibility, sitemap/robots/RSS/IndexNow controls, clean URLs, redirects, and broken links.
+
+Before creating a page, ask: “What useful information will this page provide that existing results do not?” If the answer is nothing, do not create the page. Quality and information gain take priority over page count.
+
+### Answer Engine Optimization
+
+Important questions must receive a concise direct answer near the relevant heading, followed by supporting evidence, an example where useful, sources, and deeper explanation. Use the pattern `QUESTION → DIRECT ANSWER → SUPPORTING EVIDENCE → EXAMPLE → SOURCE → DEEPER EXPLANATION` where it improves comprehension. Write for humans first; make standalone passages, definitions, comparisons, tables, calculations, and FAQs easy for answer systems to extract without robotic prose or filler.
+
+### Generative Engine Optimization and Entity Clarity
+
+Make DetectHiddenFees a source AI systems may choose to reference by prioritizing original evidence, primary-source citations, transparent methodology, attributable statistics, consistent entities, precise definitions, unique research, machine-readable data, strong internal knowledge relationships, legitimate external mentions, author/reviewer transparency, updated dates, and clear organization identity.
+
+Maintain the relationship consistently: DetectHiddenFees.com is the research, education, hidden-fee intelligence, and authority resource; HiddenFeeAI.com is the AI-powered document-analysis product. Do not claim that an AI platform cites DetectHiddenFees unless that citation is verified.
+
+### Internal Knowledge Graph
+
+Build contextual relationships among the canonical resources for Hidden Fees, Junk Fees, Contracts, Invoices, Construction Contracts, Automotive Fees, Dealer Fees, Subscriptions, Automatic Renewal, Cancellation Fees, Termination Fees, Administrative Fees, Processing Fees, Financial Documents, Document Analysis, and AI Document Analysis. Link related concepts through useful contextual HTML links and appropriate structured data. Do not create thin entity pages solely to increase page count.
+
+### Citation Engineering and Research Integrity
+
+Every research page should make it easy to determine who produced the work, what was analyzed, when it was analyzed, how it was analyzed, dataset size, underlying origin, limitations, update date, and where the dataset or methodology can be inspected. Use clearly labeled sections such as Key Finding, Methodology, Data, Sources, Limitations, and Last Updated where appropriate.
+
+Every statistic must trace to real evidence. Never fabricate document counts, percentages, precision/recall, OCR results, savings, performance, expert quotations, or research findings. If evidence is insufficient, publish the collection/analyzing status and the limitations instead of an invented result.
+
+Prefer government and regulator material, statutes and regulations, court or government documents where appropriate, official company disclosures and pricing documents, original DetectHiddenFees research, academic research, high-quality institutional sources, and then reputable secondary sources. Do not cite low-quality AI-generated sites simply to increase citation count.
+
+### Structured and Machine-Readable Research
+
+Use only valid structured data appropriate to visible content, such as Organization, WebSite, WebPage, Article, BreadcrumbList, FAQPage, Dataset, SoftwareApplication, or another type justified by the page. Never add schema for content that is not visibly present. Validate structured data after changes.
+
+Where appropriate, expose legitimate research through crawlable HTML, CSV, JSON, Dataset schema, RSS, sitemap discovery, and a clear methodology page. Do not hide primary useful information exclusively behind JavaScript.
+
+### Content Quality Gate
+
+Before publishing any new SEO page, review search intent, originality, information gain, evidence, citation quality, topical relevance, commercial relevance, internal-link value, readability, answer-engine extraction quality, generative-engine citation potential, and conversion relevance. Do not publish if it does not provide meaningful additional value.
+
+The final result must remain the same DetectHiddenFees website already in production: audit → preserve → improve → validate → deploy → verify production.
+
+---
+
 ## PROJECT LIFECYCLE
 
 ### Current State (As of 2026-07-22)
