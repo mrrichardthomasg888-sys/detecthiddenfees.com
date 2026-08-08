@@ -3,7 +3,7 @@
 ## Source deployment
 
 - Changes were pushed directly to GitHub `main`.
-- Latest verified commit: `09a848a` (`Make hidden fee encyclopedia evidence based`).
+- Latest verified commit: `fc25cc0` (`Qualify lease review product claims`).
 - The pre-existing user-owned change to `calculator-authority.css` remains unstaged and untouched.
 
 ## Local verification
@@ -18,6 +18,6 @@
 
 ## Production verification
 
-After the normal propagation window, the live host verified the three extensionless aliases as HTTP 301 responses to their canonical destinations. The latest nine remediated pages returned HTTP 200, one canonical, and attribution enabled; the targeted unsupported phrases were absent from the served HTML. RSS returned 178 editorial items with the updated encyclopedia description.
+After the normal propagation window, the live host verified the three extensionless aliases as HTTP 301 responses to their canonical destinations. The latest ten remediated pages returned HTTP 200, one canonical, and attribution enabled; the targeted unsupported phrases were absent from the served HTML. RSS returned 178 editorial items with the updated encyclopedia description.
 
 The repository contains no deployment workflow that publishes the site from `main`, but the existing hosting connection did publish the pushed GitHub commit after propagation. No host credentials, API keys, or Cloudflare changes were made.
