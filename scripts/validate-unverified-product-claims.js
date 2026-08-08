@@ -51,6 +51,21 @@ const forbiddenByFile = {
     '<h2>Access Controls</h2>',
     '<h2>Your Rights</h2>'
   ],
+  'security-overview.html': [
+    'Security Overview: How We Protect Your Data | DetectHiddenFees',
+    'This page explains how DetectHiddenFees protects your documents. We encrypt everything, never train AI on your data, and automatically delete documents after analysis.',
+    'All data is encrypted using TLS 1.2+ in transit and AES-256 at rest',
+    'the same standards banks use',
+    'Your documents are never used to train or improve our AI models',
+    'one-time, secure processing event',
+    'Documents are deleted from our systems shortly after analysis completes',
+    "We don't keep copies or backups",
+    'No employee can view your uploaded documents',
+    'Access is restricted to automated processing only',
+    'We never share, sell, or license your documents to third parties',
+    'Your data stays yours',
+    'For complete details, read our Data Handling Policy'
+  ],
   'ai-analysis-methodology.html': [
     'most detailed explanation available',
     'three to five minutes and results in a comprehensive report',
