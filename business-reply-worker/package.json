@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "name": "detecthiddenfees-business-reply-worker",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "postal-mime": "^2.3.3"
+  }
+}
