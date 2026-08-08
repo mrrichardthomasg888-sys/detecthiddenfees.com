@@ -19,6 +19,8 @@
 - Search Console import remains explicitly `not_connected` with zero records; no fabricated query, click, position, or revenue data was added.
 - Current discovery alignment is canonical-only: sitemap 238 URLs, `llms.txt` 238 URLs, and RSS 178 editorial items; no non-sitemap or redirect-source URLs are present in those assets.
 - The raw `embed-code-template.html` fragment is excluded from the sitemap and its `.html` redirect and extensionless final route are protected with `X-Robots-Tag: noindex, nofollow, noarchive`; the final route is no-store.
+- The five public Research Lab status pages now expose a crawlable research-record summary covering author, scope, collection timing, publication method, current manifest size, and limitations. Their visible “Last updated” date and `dateModified` values are aligned to the manifest’s `2026-08-08` update date.
+- `validate-research-data.js` now fails if a Research Lab status page drifts from the manifest update date or loses the citation-engineering summary. The research manifest remains collecting-only with zero records and null statistics.
 
 ## Production verification
 

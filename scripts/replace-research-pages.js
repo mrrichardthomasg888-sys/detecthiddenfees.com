@@ -2,6 +2,10 @@ const fs = require('fs');
 const path = require('path');
 
 const root = path.resolve(__dirname, '..');
+const LAST_UPDATED = '2026-08-08';
+const LAST_UPDATED_LABEL = 'August 8, 2026';
+
+const researchRecordPanel = `<div class="insight-block" aria-labelledby="research-record-heading"><h3 id="research-record-heading">Research record</h3><p><strong>Who:</strong> DetectHiddenFees Research Lab.</p><p><strong>What:</strong> A collection framework for public-source fee terminology, contract clauses, cancellation terms, renewal language, and unexpected charges; this is not a completed prevalence study.</p><p><strong>When:</strong> Source-level collection dates will be recorded per record. The public manifest was last updated ${LAST_UPDATED_LABEL}.</p><p><strong>How:</strong> A record must retain its source URL, scope, evidence reference, classification, and verification status before it can support a finding.</p><p><strong>Data size:</strong> The collecting manifest currently lists 0 public records and no calculated statistics.</p><p><strong>Limitations:</strong> A category or example does not establish that a fee is common, unlawful, deceptive, or representative. Inspect the <a href="/research-data.json">manifest</a> and <a href="/research-methodology">methodology</a> before citing the status.</p></div>`;
 
 const commonLinks = `
 <p><a href="/research-data.json">Download the machine-readable research manifest</a> · <a href="/research-methodology">Read the methodology</a> · <a href="/editorial-policy">Read the editorial policy</a></p>`;
@@ -49,6 +53,8 @@ function updateHead(source, title, description) {
   result = result.replace(/(<meta\s+name="description"\s+content=")[^"]*("\s*\/?>)/i, `$1${description}$2`);
   result = result.replace(/(<meta\s+property="og:title"\s+content=")[^"]*("\s*\/?>)/i, `$1${title}$2`);
   result = result.replace(/(<meta\s+property="og:description"\s+content=")[^"]*("\s*\/?>)/i, `$1${description}$2`);
+  result = result.replace(/("dateModified"\s*:\s*")[^"]*(")/gi, `$1${LAST_UPDATED}$2`);
+  result = result.replace(/July 2026/g, LAST_UPDATED_LABEL);
   return result;
 }
 
@@ -61,7 +67,8 @@ for (const [filename, page] of Object.entries(pages)) {
   if (mainStart < 0 || mainOpenEnd < 0 || mainEnd < 0) {
     throw new Error(`Could not locate main content in ${filename}`);
   }
-  const updated = updateHead(source.slice(0, mainStart) + source.slice(mainStart, mainOpenEnd + 1) + page.body + source.slice(mainEnd), page.title, page.description);
+  const body = page.body.replace(/(<p class="phase3-direct-answer">[\s\S]*?<\/p>)/i, `$1${researchRecordPanel}`);
+  const updated = updateHead(source.slice(0, mainStart) + source.slice(mainStart, mainOpenEnd + 1) + body + source.slice(mainEnd), page.title, page.description);
   fs.writeFileSync(file, updated, 'utf8');
   console.log(`Replaced research content in ${filename}`);
 }

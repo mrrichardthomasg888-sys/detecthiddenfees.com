@@ -3,6 +3,8 @@ const path = require('path');
 
 const root = path.resolve(__dirname, '..');
 const manifest = JSON.parse(fs.readFileSync(path.join(root, 'research-data.json'), 'utf8'));
+const expectedDate = manifest.updated_at;
+const expectedLabel = new Intl.DateTimeFormat('en-US', { dateStyle: 'long', timeZone: 'UTC' }).format(new Date(`${expectedDate}T00:00:00Z`));
 const required = ['title', 'version', 'status', 'methodology_url', 'field_definitions', 'statistics', 'records', 'limitations', 'changelog'];
 const missing = required.filter(key => !(key in manifest));
 const issues = [];
@@ -19,6 +21,9 @@ if (issues.length) {
 for (const filename of ['research-center.html', 'research-methodology.html', 'hidden-fee-index.html', 'hidden-fee-statistics.html', 'hidden-fee-database.html']) {
   const source = fs.readFileSync(path.join(root, filename), 'utf8');
   if (!source.includes('research-data.json')) issues.push(`${filename} does not link to the public manifest`);
+  if (!source.includes(`"dateModified": "${expectedDate}"`)) issues.push(`${filename} dateModified is not aligned with the manifest update date`);
+  if (!source.includes(expectedLabel)) issues.push(`${filename} does not expose the manifest update date visibly`);
+  if (!source.includes('Research record')) issues.push(`${filename} is missing the citation-engineering research record summary`);
   if (/based on analysis of thousands|\$218 billion|\$1,735|85% of consumers|8-10% annual growth/i.test(source)) {
     issues.push(`${filename} retains a previously unsupported research statistic`);
   }

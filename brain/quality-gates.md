@@ -10,7 +10,8 @@ Before any task is marked complete, every AI agent must verify ALL of the follow
 
 - [ ] **Build Success** — If the project has a build step, it completes without errors
 - [ ] **No broken pages** — All HTML pages load without 404 errors
-- [ ] **Cloudflare Pages deploy** — Changes deploy successfully (verify in Cloudflare dashboard)
+- [ ] **GitHub main deployment** — Verified files are committed and pushed to the approved GitHub `main` branch; do not perform a separate host-dashboard deployment.
+- [ ] **Production propagation** — After the GitHub push, verify the live canonical URLs, headers, discovery assets, and representative browser behavior.
 
 ## Gate 2: Browser Validation
 
