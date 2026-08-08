@@ -6,11 +6,11 @@
   "page_count": 238,
   "pages_with_candidates": 234,
   "candidate_counts": {
-    "quantitative_amount": 2175,
-    "quantitative_percent": 533,
-    "absolute_or_superlative": 1604,
-    "performance_or_outcome": 144,
-    "population_or_scale": 172
+    "quantitative_amount": 2127,
+    "quantitative_percent": 500,
+    "absolute_or_superlative": 1600,
+    "performance_or_outcome": 141,
+    "population_or_scale": 169
   },
   "records": [
     {
@@ -1488,320 +1488,26 @@
         {
           "key": "quantitative_amount",
           "severity": "review",
-          "value": "$10,000",
-          "snippet": "heck Your Contractor's Estimate Scans change orders, payment terms & scope Flags hidden costs up to $10,000+ $15 one-time analysis Results in 3-5 minutes 78% Construction contracts with cost-inflating clauses 15-20% Average cost overrun from change orders $2K-$10K Po"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": " Contractor's Estimate Scans change orders, payment terms & scope Flags hidden costs up to $10,000+ $15 one-time analysis Results in 3-5 minutes 78% Construction contracts with cost-inflating clauses 15-20% Average cost overrun from change orders $2K-$10K Potentia"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$2K",
-          "snippet": "% Construction contracts with cost-inflating clauses 15-20% Average cost overrun from change orders $2K-$10K Potential overcharges found per project 85-90% Hidden cost detection rate How AI Reviews Construction Contracts AI construction contract analysis works th"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$10K",
-          "snippet": "nstruction contracts with cost-inflating clauses 15-20% Average cost overrun from change orders $2K-$10K Potential overcharges found per project 85-90% Hidden cost detection rate How AI Reviews Construction Contracts AI construction contract analysis works through"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$500",
-          "snippet": "y charge that isn't clearly explained or that duplicates another line item. Typical hidden fees add $500-$3,000 to project costs. 🔍 Ambiguous Language Vague terms like \"as needed,\" \"standard materials,\" \"prevailing rates,\" and \"industry standard\" give contractors"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$3,000 ",
-          "snippet": "rge that isn't clearly explained or that duplicates another line item. Typical hidden fees add $500-$3,000 to project costs. 🔍 Ambiguous Language Vague terms like \"as needed,\" \"standard materials,\" \"prevailing rates,\" and \"industry standard\" give contractors discret"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$3,000",
-          "snippet": "on contracts and how it saves consumers money. Example 1 The Change Order Trap That Could Have Cost $3,000+ Scenario: A homeowner in Illinois signed a $35,000 bathroom renovation contract. The scope seemed thorough — new fixtures, tile, plumbing, and electrical work"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$35,000 b",
-          "snippet": "ple 1 The Change Order Trap That Could Have Cost $3,000+ Scenario: A homeowner in Illinois signed a $35,000 bathroom renovation contract. The scope seemed thorough — new fixtures, tile, plumbing, and electrical work. What the AI found: The change order clause on page 6"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$3,000",
-          "snippet": "bing, or rot — all \"unforeseen\" — and add thousands to the bill without the homeowner's permission. $3,000+ potential savings Takeaway: AI flagged the missing consent requirement and vague triggering language. The homeowner renegotiated: written approval required fo"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$500, ",
-          "snippet": "ague triggering language. The homeowner renegotiated: written approval required for any change over $500, with a 15% maximum markup. Example 2 The Materials Escalation Clause That Would Have Cost $6,000 Scenario: A couple in Colorado signed a $350,000 new home const"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$6,000 ",
-          "snippet": "ver $500, with a 15% maximum markup. Example 2 The Materials Escalation Clause That Would Have Cost $6,000 Scenario: A couple in Colorado signed a $350,000 new home construction contract in early 2025. The contract looked thorough and competitive. What the AI found: "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$350,000 ",
-          "snippet": "The Materials Escalation Clause That Would Have Cost $6,000 Scenario: A couple in Colorado signed a $350,000 new home construction contract in early 2025. The contract looked thorough and competitive. What the AI found: Buried in the \"Materials and Allowances\" section "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$8,000",
-          "snippet": "hold, and no expiration. If lumber prices rose 20%, the buyers paid the full increase — potentially $8,000-$12,000. What it meant: Market volatility in building materials would be entirely the buyers' problem. The contractor had no incentive to lock in prices or fin"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$12,000",
-          "snippet": "nd no expiration. If lumber prices rose 20%, the buyers paid the full increase — potentially $8,000-$12,000. What it meant: Market volatility in building materials would be entirely the buyers' problem. The contractor had no incentive to lock in prices or find altern"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$6,000 ",
-          "snippet": "e buyers' problem. The contractor had no incentive to lock in prices or find alternative materials. $6,000 saved by negotiating a 50/50 split over 5% Takeaway: AI identified the clause and negotiated a 50/50 split on materials increases above 5%, with a 15% total cap"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$12,000 ",
-          "snippet": " industry practice limits buyer exposure to volatility. Example 3 The Double-Billed Line Items on a $12,000 HVAC Job Scenario: A homeowner in Florida received a $12,000 HVAC replacement quote. It included equipment, labor, and several add-on fees. What the AI found: T"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$12,000 ",
-          "snippet": "le 3 The Double-Billed Line Items on a $12,000 HVAC Job Scenario: A homeowner in Florida received a $12,000 HVAC replacement quote. It included equipment, labor, and several add-on fees. What the AI found: The quote listed \"Permitting and Inspection Fees — $400\" and \""
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$400",
-          "snippet": "bor, and several add-on fees. What the AI found: The quote listed \"Permitting and Inspection Fees — $400\" and \"Debris Removal and Disposal — $250\" as separate charges. But the base \"$6,000 Installation\" line item already included permitting, inspection, and dispos"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$250",
-          "snippet": " found: The quote listed \"Permitting and Inspection Fees — $400\" and \"Debris Removal and Disposal — $250\" as separate charges. But the base \"$6,000 Installation\" line item already included permitting, inspection, and disposal as part of \"standard installation.\" Th"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$6,000 ",
-          "snippet": "Inspection Fees — $400\" and \"Debris Removal and Disposal — $250\" as separate charges. But the base \"$6,000 Installation\" line item already included permitting, inspection, and disposal as part of \"standard installation.\" The AI cross-referenced the overlapping line i"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$650 ",
-          "snippet": "ese fees were standard inclusions that the contractor had separately itemized to inflate the total. $650 removed from the invoice Takeaway: AI detects overlapping charges that look like separate line items but cover the same work. Always ask what's included in \"ins"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$50,000 ",
-          "snippet": "build contract, AI review catches hidden costs and gives negotiating leverage. Typical savings on a $50,000 renovation: $2,000-$8,000. 🔧 Contractors Contractors use AI to review subcontractor agreements and supplier contracts. It ensures subcontractor terms don't cre"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$2,000",
-          "snippet": "eview catches hidden costs and gives negotiating leverage. Typical savings on a $50,000 renovation: $2,000-$8,000. 🔧 Contractors Contractors use AI to review subcontractor agreements and supplier contracts. It ensures subcontractor terms don't create liability expo"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$8,000",
-          "snippet": "atches hidden costs and gives negotiating leverage. Typical savings on a $50,000 renovation: $2,000-$8,000. 🔧 Contractors Contractors use AI to review subcontractor agreements and supplier contracts. It ensures subcontractor terms don't create liability exposure an"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ause, flags every risk, and tells you exactly what to negotiate. Analyze My Construction Contract → $15 one-time analysis · No subscription · Secure processing Important: AI construction contract review is a tool for information and analysis purposes only. It does"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
           "value": "$15 ",
           "snippet": "idden Fee Detection & Legal Artificial Intelligence for Consumers Review Your Construction Contract $15 Analyze My Contract"
         },
         {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "78%",
-          "snippet": "ruction contract and get a plain-English risk report in minutes. industry experience indicates that 78% of construction contracts contain at least one clause that could add 10%+ to your final cost. Analyze My Construction Contract → Check Your Contractor's Estima"
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "every",
+          "snippet": ", undefined terms, inconsistent dates, and promises that appear only in conversation. Step 6 Verify every potential issue Use the original document, local authority, contractor, architect, engineer, or attorney to verify a finding. An AI result is a question for re"
         },
         {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "10%",
-          "snippet": " experience indicates that 78% of construction contracts contain at least one clause that could add 10%+ to your final cost. Analyze My Construction Contract → Check Your Contractor's Estimate Scans change orders, payment terms & scope Flags hidden costs up to $1"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "78%",
-          "snippet": "ayment terms & scope Flags hidden costs up to $10,000+ $15 one-time analysis Results in 3-5 minutes 78% Construction contracts with cost-inflating clauses 15-20% Average cost overrun from change orders $2K-$10K Potential overcharges found per project 85-90% Hidde"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "20%",
-          "snippet": " one-time analysis Results in 3-5 minutes 78% Construction contracts with cost-inflating clauses 15-20% Average cost overrun from change orders $2K-$10K Potential overcharges found per project 85-90% Hidden cost detection rate How AI Reviews Construction Contract"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "90%",
-          "snippet": " 15-20% Average cost overrun from change orders $2K-$10K Potential overcharges found per project 85-90% Hidden cost detection rate How AI Reviews Construction Contracts AI construction contract analysis works through a six-stage process designed specifically for "
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "50%",
-          "snippet": "estone definitions, retention terms, and progress payment schedules. It flags contracts that demand 50%+ upfront, undefined milestones that give the contractor discretion over timing, and retention percentages that exceed industry norms. Step 4 Risk Detection Usi"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "100%",
-          "snippet": "ntifies high-risk clauses: unlimited change-order authority, materials escalation clauses that pass 100% of price increases to you, vague scope language that invites upcharges, and liability provisions that shift unreasonable risk to the property owner. Step 5 Fee"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "30%",
-          "snippet": " structures, undefined milestones giving contractors discretion over timing, and deposits exceeding 30% of total project value. 📝 Changes Change Orders AI analyzes change order clauses for unlimited markup authority, lack of written consent requirements, vague t"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "20%",
-          "snippet": "pplied to every change. Change orders are the #1 source of construction cost overruns, averaging 15-20% of original contract value. Learn about change order fees → 📐 Scope Scope of Work AI evaluates scope-of-work language for vagueness, missing specifications, a"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "100%",
-          "snippet": "or equal\" that allow substitution with cheaper alternatives, materials escalation clauses that pass 100% of price increases to you, and allowance amounts that are unrealistically low. 🛡️ Protection Warranty Terms AI evaluates warranty periods for construction wor"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "15%",
-          "snippet": "ng language. The homeowner renegotiated: written approval required for any change over $500, with a 15% maximum markup. Example 2 The Materials Escalation Clause That Would Have Cost $6,000 Scenario: A couple in Colorado signed a $350,000 new home construction co"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "100%",
-          "snippet": "und: Buried in the \"Materials and Allowances\" section was a materials escalation clause that passed 100% of any price increases directly to the buyers. The clause had no cap, no threshold, and no expiration. If lumber prices rose 20%, the buyers paid the full incr"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "20%",
-          "snippet": "rectly to the buyers. The clause had no cap, no threshold, and no expiration. If lumber prices rose 20%, the buyers paid the full increase — potentially $8,000-$12,000. What it meant: Market volatility in building materials would be entirely the buyers' problem. "
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "5%",
-          "snippet": "ive to lock in prices or find alternative materials. $6,000 saved by negotiating a 50/50 split over 5% Takeaway: AI identified the clause and negotiated a 50/50 split on materials increases above 5%, with a 15% total cap. Standard industry practice limits buyer "
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "5%",
-          "snippet": "ver 5% Takeaway: AI identified the clause and negotiated a 50/50 split on materials increases above 5%, with a 15% total cap. Standard industry practice limits buyer exposure to volatility. Example 3 The Double-Billed Line Items on a $12,000 HVAC Job Scenario: A"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "15%",
-          "snippet": "away: AI identified the clause and negotiated a 50/50 split on materials increases above 5%, with a 15% total cap. Standard industry practice limits buyer exposure to volatility. Example 3 The Double-Billed Line Items on a $12,000 HVAC Job Scenario: A homeowner i"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "100%",
-          "snippet": "ds hidden costs including change order markups without caps, materials escalation clauses that pass 100% of price increases to you, permit fees that are already covered in the base price, disposal surcharges, administrative fees, and inflated labor rates. industry"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "78%",
-          "snippet": "posal surcharges, administrative fees, and inflated labor rates. industry experience indicates that 78% of construction contracts contain at least one cost-inflating clause. How does AI identify construction contract risks? AI identifies risks by analyzing clause"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "50%",
-          "snippet": "nt-loading risk, milestone definitions, and retention terms. It flags payment schedules that demand 50%+ upfront before work begins. What hidden fees are most common in construction contracts? The five most common hidden fees are: change order markups (uncapped a"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "50%",
-          "snippet": "construction cost databases. It flags labor rates above market average, excessive material markups (50%+ when 10-15% is standard), duplicate line items, and charges for work that should be included in the base scope. How can AI help me compare contractor quotes? "
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "15%",
-          "snippet": "cost databases. It flags labor rates above market average, excessive material markups (50%+ when 10-15% is standard), duplicate line items, and charges for work that should be included in the base scope. How can AI help me compare contractor quotes? AI helps comp"
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "guarantee",
+          "snippet": " or attorney to verify a finding. An AI result is a question for review—not a legal conclusion or a guarantee of savings. Construction Contract Areas To Review These sections commonly determine who pays, who performs the work, and what happens when the project changes."
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "greements, renovation proposals, and building contracts. Step 1 Document Extraction The AI extracts every word from your construction contract — including fine print, footnotes, and addendums where hidden costs are most often buried. It handles everything from a on"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "that are unreasonable for the project scope. Construction Contract Areas AI Can Analyze AI analyzes every major section of a construction contract, flagging risks specific to each area. 💳 Financial Payment Terms AI examines payment schedules, milestone definitions"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "ments, vague triggering conditions like \"unforeseen conditions,\" and administrative fees applied to every change. Change orders are the #1 source of construction cost overruns, averaging 15-20% of original contract value. Learn about change order fees → 📐 Scope Sc"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "entifies specific red flags: unlimited markup authority, no written consent requirement, owner pays all \"unforeseen\" costs, and change orders that can be initiated without your approval. Each is a potential cost landmine. See how change orders hide costs → Real E"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "it meant: During demolition, the contractor could claim old wiring, non-standard plumbing, or rot — all \"unforeseen\" — and add thousands to the bill without the homeowner's permission. $3,000+ potential savings Takeaway: AI flagged the missing consent requirement"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "Always",
-          "snippet": "akeaway: AI detects overlapping charges that look like separate line items but cover the same work. Always ask what's included in \"installation\" before agreeing to add-on fees. Who Benefits From AI Construction Contract Review AI construction contract review serves "
+          "snippet": "ork, and what happens when the project changes. Use them as a review checklist, not as a claim that every contract contains a problem. 💳 Payment Terms Check the total price, deposit, milestones, retainage, reimbursable expenses, late charges, and the event that ma"
         },
         {
           "key": "absolute_or_superlative",
@@ -1812,8 +1518,8 @@
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "all",
-          "snippet": "ions, warranty terms, liability and insurance requirements, and termination conditions. AI analyzes all of these and flags risks specific to each. Can AI review change orders and payment terms? Yes. AI analyzes change order clauses for unlimited markup authority,"
+          "value": "every",
+          "snippet": " may help identify approval, pricing, milestone, retainage, notice, and schedule questions. Confirm every proposed change in the signed documents and obtain professional advice when needed. What fees should I question? Question any charge whose basis, deliverable, "
         },
         {
           "key": "absolute_or_superlative",
@@ -1824,32 +1530,8 @@
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "every",
-          "snippet": "Costs Don't sign a contractor agreement without knowing what's hiding in the fine print. AI reviews every clause, flags every risk, and tells you exactly what to negotiate. Analyze My Construction Contract → $15 one-time analysis · No subscription · Secure processi"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "ontractor agreement without knowing what's hiding in the fine print. AI reviews every clause, flags every risk, and tells you exactly what to negotiate. Analyze My Construction Contract → $15 one-time analysis · No subscription · Secure processing Important: AI con"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
           "value": "Always",
           "snippet": "oses only. It does not constitute legal advice, nor does it create an attorney-client relationship. Always consult a qualified construction attorney for legal decisions involving significant financial stakes or complex construction matters. DetectHiddenFees uses Hid"
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": " percentages that exceed industry norms. Step 4 Risk Detection Using pattern recognition trained on thousands of construction contracts, the AI identifies high-risk clauses: unlimited change-order authority, materials escalation clauses that pass 100% of price increases t"
-        },
-        {
-          "key": "performance_or_outcome",
-          "severity": "high",
-          "value": "OCR",
-          "snippet": "It handles everything from a one-page HVAC proposal to a fifty-page new home construction contract. OCR technology ensures even scanned documents are fully readable. Step 2 Clause Identification The AI identifies and categorizes each clause specific to constructi"
         }
       ]
     },
@@ -9011,19 +8693,19 @@
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
-          "snippet": "ion, and jury trial waivers. AI detects arbitration clauses. AI-powered analysis Results in minutes $15 one-time payment Encrypted & secure Upload & Analyze &mdash; $15 How to Review a Contract Essential Resources AI Contract Review AI Contract Review Tool AI Cont"
+          "snippet": "ion, and jury trial waivers. AI detects arbitration clauses. AI-powered analysis Results in minutes $15 one-time payment Encrypted & secure Review My Contract &mdash; $15 How to Review a Contract Essential Resources AI Contract Review AI Contract Review Tool AI Co"
         },
         {
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
-          "snippet": "owered analysis Results in minutes $15 one-time payment Encrypted & secure Upload & Analyze &mdash; $15 How to Review a Contract Essential Resources AI Contract Review AI Contract Review Tool AI Contract Analysis AI Document Analysis Hidden Fee Detector Arbitratio"
+          "snippet": "ered analysis Results in minutes $15 one-time payment Encrypted & secure Review My Contract &mdash; $15 How to Review a Contract Essential Resources AI Contract Review AI Contract Review Tool AI Contract Analysis AI Document Analysis Hidden Fee Detector Arbitratio"
         },
         {
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
-          "snippet": "d negotiation opportunities. One-time payment, no subscription required. Upload My Document &mdash; $15 One-time payment &middot; No subscription &middot; Encrypted & secure How AI Arbitration Clauses Explained Works The AI analysis process for arbitration clauses"
+          "snippet": "d negotiation opportunities. One-time payment, no subscription required. Review My Contract &mdash; $15 One-time payment &middot; No subscription &middot; Encrypted & secure How AI Arbitration Clauses Explained Works The AI analysis process for arbitration clauses"
         },
         {
           "key": "quantitative_amount",
@@ -20399,19 +20081,19 @@
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
-          "snippet": "ees, and negotiation opportunities. Get your analysis in minutes and start saving. Upload My Bill — $15 Hidden Landscaping Fees: What Lawn Care Companies Don't Tell You Landscaping contracts often contain hidden fees that can inflate your monthly or annual bill si"
+          "snippet": "tiation opportunities. Get your analysis in minutes and start saving. Upload Landscaping Estimate — $15 Hidden Landscaping Fees: What Lawn Care Companies Don't Tell You Landscaping contracts often contain hidden fees that can inflate your monthly or annual bill si"
         },
         {
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
-          "snippet": "ed analysis of what you should challenge. Know exactly what to say and save money. Upload My Bill — $15 Start Negotiating Your Bills Today Don't pay more than you have to. Let AI analyze your bills and give you the leverage you need. Analyze My Bill → $15 one-time"
+          "snippet": "f what you should challenge. Know exactly what to say and save money. Upload Landscaping Estimate — $15 Start Negotiating Your Bills Today Don't pay more than you have to. Let AI analyze your bills and give you the leverage you need. Review My Landscaping Estimate"
         },
         {
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
-          "snippet": "e than you have to. Let AI analyze your bills and give you the leverage you need. Analyze My Bill → $15 one-time · No subscription · Secure processing TOOLS AI Contract Review AI Bill Analyzer AI Document Checker Hidden Fee Detector Upload Document DOCUMENT ANALYS"
+          "snippet": " to. Let AI analyze your bills and give you the leverage you need. Review My Landscaping Estimate → $15 one-time · No subscription · Secure processing TOOLS AI Contract Review AI Bill Analyzer AI Document Checker Hidden Fee Detector Upload Document DOCUMENT ANALYS"
         },
         {
           "key": "quantitative_amount",
@@ -21081,7 +20763,7 @@
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
-          "snippet": "ees, and negotiation opportunities. Get your analysis in minutes and start saving. Upload My Bill — $15 Hidden Streaming Fees: Price Hikes and Unexpected Charges Streaming services have become a major household expense, and companies in this space are continuously"
+          "snippet": "egotiation opportunities. Get your analysis in minutes and start saving. Upload Subscription Bill — $15 Hidden Streaming Fees: Price Hikes and Unexpected Charges Streaming services have become a major household expense, and companies in this space are continuously"
         },
         {
           "key": "quantitative_amount",
@@ -21111,13 +20793,13 @@
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
-          "snippet": "ed analysis of what you should challenge. Know exactly what to say and save money. Upload My Bill — $15 Start Negotiating Your Bills Today Don't pay more than you have to. Let AI analyze your bills and give you the leverage you need. Analyze My Bill → $15 one-time"
+          "snippet": "s of what you should challenge. Know exactly what to say and save money. Upload Subscription Bill — $15 Start Negotiating Your Bills Today Don't pay more than you have to. Let AI analyze your bills and give you the leverage you need. Analyze Subscription Charges →"
         },
         {
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
-          "snippet": "e than you have to. Let AI analyze your bills and give you the leverage you need. Analyze My Bill → $15 one-time · No subscription · Secure processing TOOLS AI Contract Review AI Bill Analyzer AI Document Checker Hidden Fee Detector Upload Document DOCUMENT ANALYS"
+          "snippet": "ve to. Let AI analyze your bills and give you the leverage you need. Analyze Subscription Charges → $15 one-time · No subscription · Secure processing TOOLS AI Contract Review AI Bill Analyzer AI Document Checker Hidden Fee Detector Upload Document DOCUMENT ANALYS"
         },
         {
           "key": "quantitative_amount",
@@ -24163,19 +23845,19 @@
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
-          "snippet": ". AI detects one-sided indemnity provisions before you sign. AI-powered analysis Results in minutes $15 one-time payment Encrypted & secure Upload & Analyze &mdash; $15 How to Review a Contract Essential Resources AI Contract Review AI Contract Review Tool AI Cont"
+          "snippet": ". AI detects one-sided indemnity provisions before you sign. AI-powered analysis Results in minutes $15 one-time payment Encrypted & secure Review My Contract &mdash; $15 How to Review a Contract Essential Resources AI Contract Review AI Contract Review Tool AI Co"
         },
         {
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
-          "snippet": "owered analysis Results in minutes $15 one-time payment Encrypted & secure Upload & Analyze &mdash; $15 How to Review a Contract Essential Resources AI Contract Review AI Contract Review Tool AI Contract Analysis AI Document Analysis Hidden Fee Detector Indemnific"
+          "snippet": "ered analysis Results in minutes $15 one-time payment Encrypted & secure Review My Contract &mdash; $15 How to Review a Contract Essential Resources AI Contract Review AI Contract Review Tool AI Contract Analysis AI Document Analysis Hidden Fee Detector Indemnific"
         },
         {
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
-          "snippet": "d negotiation opportunities. One-time payment, no subscription required. Upload My Document &mdash; $15 One-time payment &middot; No subscription &middot; Encrypted & secure How AI Indemnification Clauses Explained Works The AI analysis process for indemnification"
+          "snippet": "d negotiation opportunities. One-time payment, no subscription required. Review My Contract &mdash; $15 One-time payment &middot; No subscription &middot; Encrypted & secure How AI Indemnification Clauses Explained Works The AI analysis process for indemnification"
         },
         {
           "key": "quantitative_amount",
@@ -26301,7 +25983,7 @@
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "accuracy",
-          "snippet": "on status are documented. The current public dataset is still collecting records, so no prevalence, accuracy, or financial-impact result is asserted. Collection rules Prefer laws, regulations, official guidance, public filings, peer-reviewed research, and clearly attr"
+          "snippet": "on status are documented. The current public dataset is still collecting records, so no prevalence, accuracy, or financial-impact result is asserted. Research record Who: DetectHiddenFees Research Lab. What: A collection framework for public-source fee terminology, co"
         }
       ]
     },
@@ -28515,146 +28197,8 @@
         {
           "key": "quantitative_amount",
           "severity": "review",
-          "value": "$10,000 m",
-          "snippet": "However, some estimates show markups of 30-50% or more, adding thousands of dollars to a project. A $10,000 material cost with a 40% markup adds $4,000 in hidden profit. AI estimate analysis compares material pricing against verified wholesale and retail benchmarks to "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$4,000 ",
-          "snippet": "% or more, adding thousands of dollars to a project. A $10,000 material cost with a 40% markup adds $4,000 in hidden profit. AI estimate analysis compares material pricing against verified wholesale and retail benchmarks to identify excessive markups. Labor Rate Padd"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$75 ",
-          "snippet": "at 200 labor hours might actually require 140 hours from an experienced crew. The extra 60 hours at $75 per hour adds $4,500 in hidden costs. Permit And Inspection Fee Manipulation Some contractors quote permit fees significantly higher than actual municipal costs"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$4,500 ",
-          "snippet": " might actually require 140 hours from an experienced crew. The extra 60 hours at $75 per hour adds $4,500 in hidden costs. Permit And Inspection Fee Manipulation Some contractors quote permit fees significantly higher than actual municipal costs, keeping the differe"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$250 ",
-          "snippet": "ificantly higher than actual municipal costs, keeping the difference as profit. A permit that costs $250 from the city might appear as $750 on the estimate. AI analysis can check permit fee ranges for your area and flag discrepancies. Change Order Traps Some contra"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$750 ",
-          "snippet": "pal costs, keeping the difference as profit. A permit that costs $250 from the city might appear as $750 on the estimate. AI analysis can check permit fee ranges for your area and flag discrepancies. Change Order Traps Some contractors submit low initial estimates "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$18,000 B",
-          "snippet": "ing power on changes. Real-World Example: AI Review Of A Bathroom Renovation Estimate Case Example: $18,000 Bathroom Remodel Estimate A homeowner received a contractor estimate for a bathroom renovation totaling $18,200. AI analysis revealed: materials quoted at $8,400"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$18,200",
-          "snippet": "room Remodel Estimate A homeowner received a contractor estimate for a bathroom renovation totaling $18,200. AI analysis revealed: materials quoted at $8,400 with actual retail cost of $5,800 (45% markup versus standard 15%), a \"project management fee\" of $1,200 not "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$8,400 ",
-          "snippet": "ctor estimate for a bathroom renovation totaling $18,200. AI analysis revealed: materials quoted at $8,400 with actual retail cost of $5,800 (45% markup versus standard 15%), a \"project management fee\" of $1,200 not included in the original scope discussion, permit f"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$5,800 ",
-          "snippet": "ation totaling $18,200. AI analysis revealed: materials quoted at $8,400 with actual retail cost of $5,800 (45% markup versus standard 15%), a \"project management fee\" of $1,200 not included in the original scope discussion, permit fees quoted at $900 when actual cit"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$1,200 ",
-          "snippet": "0 with actual retail cost of $5,800 (45% markup versus standard 15%), a \"project management fee\" of $1,200 not included in the original scope discussion, permit fees quoted at $900 when actual city permits cost $320, and a $600 \"cleanup and disposal\" charge that was "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$900 ",
-          "snippet": "ject management fee\" of $1,200 not included in the original scope discussion, permit fees quoted at $900 when actual city permits cost $320, and a $600 \"cleanup and disposal\" charge that was already included in the labor line item. Total identified overcharges: $4,"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$320, ",
-          "snippet": "included in the original scope discussion, permit fees quoted at $900 when actual city permits cost $320, and a $600 \"cleanup and disposal\" charge that was already included in the labor line item. Total identified overcharges: $4,380 — 24% of the estimate. The homeo"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$600 ",
-          "snippet": "the original scope discussion, permit fees quoted at $900 when actual city permits cost $320, and a $600 \"cleanup and disposal\" charge that was already included in the labor line item. Total identified overcharges: $4,380 — 24% of the estimate. The homeowner used t"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$4,380 ",
-          "snippet": "nd disposal\" charge that was already included in the labor line item. Total identified overcharges: $4,380 — 24% of the estimate. The homeowner used the AI analysis to negotiate, ultimately agreeing on a $14,800 contract with transparent pricing. Checklist: Contracto"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$14,800 ",
-          "snippet": "80 — 24% of the estimate. The homeowner used the AI analysis to negotiate, ultimately agreeing on a $14,800 contract with transparent pricing. Checklist: Contractor Estimate Review Verify material markups — standard is 10-15% above documented cost Confirm labor hours "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15,000",
-          "snippet": "tion items. This analysis pays for itself many times over. With the average home renovation costing $15,000-$50,000, even a 10% overcharge represents $1,500-$5,000 in potential savings. AI estimate review at $15 per document provides an exceptional return on investme"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$50,000, ",
-          "snippet": "ms. This analysis pays for itself many times over. With the average home renovation costing $15,000-$50,000, even a 10% overcharge represents $1,500-$5,000 in potential savings. AI estimate review at $15 per document provides an exceptional return on investment. Limita"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$1,500",
-          "snippet": "es over. With the average home renovation costing $15,000-$50,000, even a 10% overcharge represents $1,500-$5,000 in potential savings. AI estimate review at $15 per document provides an exceptional return on investment. Limitations Of AI Estimate Review AI estimate"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$5,000 ",
-          "snippet": ". With the average home renovation costing $15,000-$50,000, even a 10% overcharge represents $1,500-$5,000 in potential savings. AI estimate review at $15 per document provides an exceptional return on investment. Limitations Of AI Estimate Review AI estimate review "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
           "value": "$15 ",
-          "snippet": "$50,000, even a 10% overcharge represents $1,500-$5,000 in potential savings. AI estimate review at $15 per document provides an exceptional return on investment. Limitations Of AI Estimate Review AI estimate review identifies pricing discrepancies and potential h"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$5,000",
-          "snippet": "get multiple contractor estimates? Yes, always obtain at least three estimates for any project over $5,000. Comparing estimates helps identify outlier pricing and hidden fees. Can AI review estimates for any trade? Yes, AI can analyze estimates for general contracti"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "very line item for hidden fees, pricing risks, and negotiation opportunities. One-time analysis for $15 with no subscription required. Your documents are processed securely and deleted after analysis. Analyze My Document With AI — $15 Disclaimer: This article is f"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ed. Your documents are processed securely and deleted after analysis. Analyze My Document With AI — $15 Disclaimer: This article is for educational and informational purposes only. AI document analysis helps identify potential issues but should be combined with pr"
+          "snippet": "tion, and limitation information before uploading sensitive material. Analyze My Document With AI — $15 Disclaimer: This article is for educational and informational purposes only. AI document analysis helps identify potential issues but should be combined with pr"
         },
         {
           "key": "quantitative_amount",
@@ -28663,88 +28207,22 @@
           "snippet": " — AI-Powered Hidden Fee Detection & Financial Document Analysis for Consumers Review Your Estimate $15 Analyze My Estimate"
         },
         {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "40%",
-          "snippet": "padding, permit fees, change order clauses, and undisclosed surcharges that can inflate costs by 20-40%. Home › Knowledge Center › What Hidden Fees Should I Look For In A Contractor Estimate? Quick Answer Contractor estimates commonly contain hidden fees and infl"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "40%",
-          "snippet": "or estimates commonly contain hidden fees and inflated costs that can increase the final bill by 20-40% above the quoted price. Knowing what to look for before approving an estimate can save thousands of dollars on home improvement, construction, and renovation p"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "15%",
-          "snippet": "evaluate estimates critically. Inflated Material Markups Contractors typically mark up materials 10-15% above their cost to cover procurement and handling. However, some estimates show markups of 30-50% or more, adding thousands of dollars to a project. A $10,000"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "50%",
-          "snippet": "-15% above their cost to cover procurement and handling. However, some estimates show markups of 30-50% or more, adding thousands of dollars to a project. A $10,000 material cost with a 40% markup adds $4,000 in hidden profit. AI estimate analysis compares materi"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "40%",
-          "snippet": "markups of 30-50% or more, adding thousands of dollars to a project. A $10,000 material cost with a 40% markup adds $4,000 in hidden profit. AI estimate analysis compares material pricing against verified wholesale and retail benchmarks to identify excessive mark"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "45%",
-          "snippet": "taling $18,200. AI analysis revealed: materials quoted at $8,400 with actual retail cost of $5,800 (45% markup versus standard 15%), a \"project management fee\" of $1,200 not included in the original scope discussion, permit fees quoted at $900 when actual city pe"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "15%",
-          "snippet": " revealed: materials quoted at $8,400 with actual retail cost of $5,800 (45% markup versus standard 15%), a \"project management fee\" of $1,200 not included in the original scope discussion, permit fees quoted at $900 when actual city permits cost $320, and a $600"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "24%",
-          "snippet": "al\" charge that was already included in the labor line item. Total identified overcharges: $4,380 — 24% of the estimate. The homeowner used the AI analysis to negotiate, ultimately agreeing on a $14,800 contract with transparent pricing. Checklist: Contractor Est"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "15%",
-          "snippet": "transparent pricing. Checklist: Contractor Estimate Review Verify material markups — standard is 10-15% above documented cost Confirm labor hours are reasonable for the scope of work Check hourly rates against local market averages Review permit and inspection fe"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "10%",
-          "snippet": "s pays for itself many times over. With the average home renovation costing $15,000-$50,000, even a 10% overcharge represents $1,500-$5,000 in potential savings. AI estimate review at $15 per document provides an exceptional return on investment. Limitations Of A"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "15%",
-          "snippet": "ions What is a reasonable material markup from contractors? Standard material markups range from 10-15% above documented cost. Markups above 20% warrant scrutiny and justification from the contractor. How do I know if labor hours in an estimate are reasonable? Co"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "20%",
-          "snippet": " from contractors? Standard material markups range from 10-15% above documented cost. Markups above 20% warrant scrutiny and justification from the contractor. How do I know if labor hours in an estimate are reasonable? Compare against industry standards for simi"
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "guarantee",
+          "snippet": " organize extractable line items for questions, but it cannot establish a universally fair price or guarantee that every issue will be found. Common Hidden Fees In Contractor Estimates Contractor estimates are among the most complex financial documents consumers encoun"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": " order traps, and undisclosed administrative surcharges. AI estimate review systematically analyzes every line item, compares pricing against industry benchmarks, and flags issues that even experienced homeowners may miss. Common Hidden Fees In Contractor Estimates"
+          "snippet": "ctable line items for questions, but it cannot establish a universally fair price or guarantee that every issue will be found. Common Hidden Fees In Contractor Estimates Contractor estimates are among the most complex financial documents consumers encounter, with m"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "every",
-          "snippet": "ge. HiddenFeeAI analyzes contractor estimates against industry-standard pricing databases, flagging every line item that falls outside expected ranges. The AI identifies material markups, labor inefficiencies, redundant charges, and undisclosed fees, producing a cl"
+          "value": "guaranteed",
+          "snippet": "d documents, privacy terms, and limitations before uploading; no savings or return on investment is guaranteed. Limitations Of AI Estimate Review AI estimate review identifies pricing discrepancies and potential hidden fees but cannot assess workmanship quality, contrac"
         },
         {
           "key": "absolute_or_superlative",
@@ -28755,44 +28233,20 @@
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "always",
-          "snippet": " benchmark labor estimates against typical ranges. Should I get multiple contractor estimates? Yes, always obtain at least three estimates for any project over $5,000. Comparing estimates helps identify outlier pricing and hidden fees. Can AI review estimates for an"
+          "value": "every",
+          "snippet": " a reasonable material markup from contractors? There is no universal markup that is reasonable for every project. Ask whether the amount is a disclosed markup, an allowance, or a pass-through cost, and request the basis for the charge in writing. How do I know if "
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "timate, bill, or financial agreement to HiddenFeeAI for comprehensive AI analysis. Our system scans every line item for hidden fees, pricing risks, and negotiation opportunities. One-time analysis for $15 with no subscription required. Your documents are processed "
+          "snippet": "flag fields or cost categories that appear absent from the described scope, but it cannot determine every legally required item. Confirm permits, inspections, and trade requirements with the relevant local authority. Should I pay for estimates? Estimate pricing var"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "Always",
           "snippet": "vide legal advice or replace licensed attorneys, accountants, or certified financial professionals. Always consult a qualified professional for legal or financial decisions. &copy; 2026 DetectHiddenFees.com — AI-Powered Hidden Fee Detection & Financial Document Anal"
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": "ll by 20-40% above the quoted price. Knowing what to look for before approving an estimate can save thousands of dollars on home improvement, construction, and renovation projects. The most common hidden fees include inflated material markups, labor rate padding, permit f"
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": "t to cover procurement and handling. However, some estimates show markups of 30-50% or more, adding thousands of dollars to a project. A $10,000 material cost with a 40% markup adds $4,000 in hidden profit. AI estimate analysis compares material pricing against verified w"
-        },
-        {
-          "key": "performance_or_outcome",
-          "severity": "high",
-          "value": "save thousands",
-          "snippet": "al bill by 20-40% above the quoted price. Knowing what to look for before approving an estimate can save thousands of dollars on home improvement, construction, and renovation projects. The most common hidden fees include inflated material markups, labor rate padding, permi"
-        },
-        {
-          "key": "performance_or_outcome",
-          "severity": "high",
-          "value": "accuracy",
-          "snippet": "rks best with English-language estimates but can process documents in other languages with variable accuracy depending on document complexity. Related Resources Knowledge Center Home AI Estimate Review AI Construction Contract Review Hidden Renovation Fees Guide Uploa"
         }
       ]
     },

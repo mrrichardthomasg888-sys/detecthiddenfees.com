@@ -81,6 +81,25 @@ const forbiddenByFile = {
     '100% of price increases',
     '15% maximum markup',
     'industry experience indicates'
+  ],
+  'ai-estimate-review.html': [
+    'Analyze My Bill',
+    'Upload My Bill',
+    '$15 one-time',
+    'No subscription',
+    'Secure processing',
+    'tell you if the price is fair',
+    'analyzes every line item',
+    'regional averages drawn from our database of thousands of actual contractor quotes',
+    'database of thousands of actual contractor quotes',
+    'actual contractor quotes across the country',
+    'standard industry percentages',
+    'could cost you thousands',
+    'in minutes and start saving',
+    'most powerful features of the platform',
+    'Know exactly what to say and save money',
+    'what you should challenge',
+    'compares it against regional averages'
   ]
 };
 const issues = [];

@@ -6,13 +6,21 @@ const expected = {
   'arbitration-clauses-explained.html': { action: 'contract_review', text: 'Review My Contract' },
   'indemnification-clauses-explained.html': { action: 'contract_review', text: 'Review My Contract' },
   'hidden-streaming-fees.html': { action: 'subscription_fee_review', text: 'Subscription' },
-  'hidden-landscaping-fees.html': { action: 'estimate_review', text: 'Landscaping Estimate' }
+  'hidden-landscaping-fees.html': { action: 'estimate_review', text: 'Landscaping Estimate' },
+  'ai-estimate-review.html': { action: 'estimate_review', text: 'Review My Estimate' }
 };
 const errors = [];
 
 for (const [filename, rule] of Object.entries(expected)) {
   const source = fs.readFileSync(path.join(root, filename), 'utf8');
-  const links = [...source.matchAll(/<a\b[^>]+href=["']https:\/\/hiddenfeeai\.com[^"']*["'][^>]*>([\s\S]*?)<\/a>/gi)];
+  const mainStart = source.indexOf('<main');
+  const mainEnd = source.indexOf('</main>', mainStart);
+  if (mainStart < 0 || mainEnd < 0) {
+    errors.push(`${filename}: could not locate main content`);
+    continue;
+  }
+  const main = source.slice(mainStart, mainEnd);
+  const links = [...main.matchAll(/<a\b[^>]+href=["']https:\/\/hiddenfeeai\.com[^"']*["'][^>]*>([\s\S]*?)<\/a>/gi)];
   if (!links.length) errors.push(`${filename}: no HiddenFeeAI links found`);
   for (const match of links) {
     const tag = match[0];
