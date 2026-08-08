@@ -3,7 +3,7 @@
 > DetectHiddenFees is an AI-powered consumer information and document-analysis website focused on hidden fees, contract terms, bills, invoices, estimates, pricing transparency, and negotiation preparation.
 
 - Website: DetectHiddenFees.com
-- Canonical content URLs: 238
+- Canonical content URLs: 239
 - Related product: https://hiddenfeeai.com
 - Relationship: DetectHiddenFees provides education, research, and product information; HiddenFeeAI is the related document-analysis product.
 - This file is generated from the canonical sitemap. Redirect sources and administrative routes are excluded.
@@ -192,6 +192,10 @@
 - [Research Methodology: How DetectHiddenFees Collects and Verifies Evidence](https://detecthiddenfees.com/research-methodology) — Canonical page for this topic.
 - [Resource Library: Checklists, Templates &amp; Consumer Tools](https://detecthiddenfees.com/resource-library) — Canonical page for this topic.
 
+## Research citation resources
+
+- [DetectHiddenFees Research & Media Kit](https://detecthiddenfees.com/research-media-kit) - Citation resources, methodology, public data downloads, limitations, and contact path.
+
 ## Tools and other canonical resources
 
 - [AI Agreement Analyzer: Find What Your Contracts Are Hiding](https://detecthiddenfees.com/ai-agreement-analyzer) — Canonical page for this topic.
@@ -266,4 +270,3 @@
 - [What Are Common Hidden Fees In Service Agreements?](https://detecthiddenfees.com/what-are-common-hidden-fees-in-service-agreements) — Canonical page for this topic.
 - [What Hidden Fees Should I Look For In A Contractor Estimate?](https://detecthiddenfees.com/what-fees-should-i-look-for-in-a-contractor-estimate) — Canonical page for this topic.
 - [What Questions Should I Ask Before Signing A Contract?](https://detecthiddenfees.com/what-questions-should-i-ask-before-signing-a-contract) — Canonical page for this topic.
-

@@ -1,6 +1,98 @@
 {
-  "status": "template_only",
-  "purpose": "Native-platform production queue for verified DetectHiddenFees research. No derivative content is approved while the public dataset has zero published verified records.",
-  "formats": ["research_report", "supporting_article", "youtube_script", "youtube_short", "linkedin_post", "reddit_discussion_concept", "infographic", "journalist_pitch", "newsletter_pitch", "github_dataset_documentation"],
-  "records": []
+  "status": "review",
+  "purpose": "Native-platform production queue for the verified 2026 Hidden Fee Evidence Review. These are draft concepts only; no derivative content is approved or published.",
+  "formats": ["research article", "LinkedIn", "YouTube", "YouTube Short", "Reddit discussion", "infographic", "journalist pitch", "newsletter pitch", "GitHub dataset documentation"],
+  "records": [
+    {
+      "repurpose_id": "P-2026-001",
+      "source_asset": "/hidden-fee-database",
+      "source_version": "0.2.0",
+      "format": "LinkedIn",
+      "audience": "consumer-protection and personal-finance professionals",
+      "angle": "How a source-linked fee review separates government guidance from sample observations and market-wide claims.",
+      "claims_used": ["The public release contains 25 verified public-source records.", "The records are a curated sample, not a prevalence estimate.", "Each record retains source URL, evidence context, and limitations."],
+      "primary_sources": ["https://consumer.ftc.gov/consumer-alerts/2025/05/what-rule-unfair-or-deceptive-fees-means-you", "https://www.consumerfinance.gov/ask-cfpb/what-things-can-i-negotiate-when-shopping-for-a-car-or-auto-loan-en-2132/", "https://www.cms.gov/medical-bill-rights/help/guides/bill-errors"],
+      "review_status": "draft",
+      "canonical_link": "https://detecthiddenfees.com/hidden-fee-database",
+      "published_at": null
+    },
+    {
+      "repurpose_id": "P-2026-002",
+      "source_asset": "/hidden-fee-database",
+      "source_version": "0.2.0",
+      "format": "YouTube",
+      "audience": "consumers reviewing vehicle paperwork",
+      "angle": "What a public CFPB source says to separate government-set vehicle charges, dealer fees, and optional add-ons.",
+      "claims_used": ["The CFPB lists examples including preparation, origination, document, delivery, and market-adjustment fees.", "The CFPB distinguishes possible dealer or loan charges from taxes, title, and registration fees set by government.", "The source does not establish fee frequency or typical amount."],
+      "primary_sources": ["https://www.consumerfinance.gov/ask-cfpb/what-things-can-i-negotiate-when-shopping-for-a-car-or-auto-loan-en-2132/", "https://www.consumerfinance.gov/ask-cfpb/what-is-a-finance-and-insurance-fi-department-en-747/"],
+      "review_status": "draft",
+      "canonical_link": "https://detecthiddenfees.com/hidden-fee-database",
+      "published_at": null
+    },
+    {
+      "repurpose_id": "P-2026-003",
+      "source_asset": "/hidden-fee-database",
+      "source_version": "0.2.0",
+      "format": "YouTube Short",
+      "audience": "consumers checking medical bills",
+      "angle": "Three source-backed checks before disputing a medical bill: detailed bill, EOB comparison, and duplicate-service review.",
+      "claims_used": ["CMS recommends requesting a detailed bill.", "CMS recommends comparing the patient share with the explanation of benefits.", "CMS identifies duplicate services and mismatched billing codes as items to check."],
+      "primary_sources": ["https://www.cms.gov/medical-bill-rights/help/guides/bill-errors"],
+      "review_status": "draft",
+      "canonical_link": "https://detecthiddenfees.com/hidden-fee-database",
+      "published_at": null
+    },
+    {
+      "repurpose_id": "P-2026-004",
+      "source_asset": "/hidden-fee-database",
+      "source_version": "0.2.0",
+      "format": "Reddit discussion",
+      "audience": "people comparing account fee disclosures",
+      "angle": "What does a bank mean by a free account, and which disclosed exceptions should a customer check before opening it?",
+      "claims_used": ["The CFPB explains that free or no-cost account descriptions can still include disclosed fees such as ATM, overdraft, bounced-check, stop-payment, dormant-account, or check-printing fees.", "The discussion should ask readers to compare their own fee schedule rather than generalize from anecdotes."],
+      "primary_sources": ["https://www.consumerfinance.gov/ask-cfpb/i-opened-a-free-checking-account-but-there-are-fees-charged-on-my-account-can-my-bankcredit-union-do-that-en-961/"],
+      "review_status": "draft",
+      "canonical_link": "https://detecthiddenfees.com/hidden-fee-database",
+      "published_at": null
+    },
+    {
+      "repurpose_id": "P-2026-005",
+      "source_asset": "/hidden-fee-database",
+      "source_version": "0.2.0",
+      "format": "GitHub dataset documentation",
+      "audience": "researchers and data practitioners",
+      "angle": "How to inspect a small public-source fee evidence dataset without turning record counts into prevalence claims.",
+      "claims_used": ["The dataset has 25 verified records.", "The release includes JSON and CSV downloads.", "The methodology defines source scope, record fields, verification, and limitations.", "Counts describe the reviewed sample and are not market shares."],
+      "primary_sources": ["https://detecthiddenfees.com/research-methodology", "https://consumer.ftc.gov/consumer-alerts/2025/05/what-rule-unfair-or-deceptive-fees-means-you", "https://www.consumerfinance.gov/rules-policy/junk-fees/"],
+      "review_status": "draft",
+      "canonical_link": "https://detecthiddenfees.com/hidden-fee-database",
+      "published_at": null
+    },
+    {
+      "repurpose_id": "P-2026-006",
+      "source_asset": "/hidden-fee-database",
+      "source_version": "0.2.0",
+      "format": "infographic",
+      "audience": "consumer educators",
+      "angle": "A source hierarchy for reading fee disclosures: government-set charges, optional add-ons, recurring terms, billing checks, and limitations.",
+      "claims_used": ["The reviewed records span automotive, banking, healthcare billing, subscriptions, construction/home services, and credit-card billing.", "The visual must label each statement as source fact, observation, calculation, interpretation, or limitation."],
+      "primary_sources": ["https://www.consumerfinance.gov/ask-cfpb/what-things-can-i-negotiate-when-shopping-for-a-car-or-auto-loan-en-2132/", "https://www.cms.gov/medical-bill-rights/help/guides/bill-errors", "https://consumer.ftc.gov/articles/getting-and-out-free-trials-auto-renewals-and-negative-option-subscriptions"],
+      "review_status": "draft",
+      "canonical_link": "https://detecthiddenfees.com/hidden-fee-database",
+      "published_at": null
+    },
+    {
+      "repurpose_id": "P-2026-007",
+      "source_asset": "/hidden-fee-database",
+      "source_version": "0.2.0",
+      "format": "journalist pitch",
+      "audience": "consumer-finance and automotive reporters",
+      "angle": "A transparent source map for fee and add-on coverage, with record-level links and no market-wide claim.",
+      "claims_used": ["The Evidence Review is a 25-record verified public-source sample.", "Automotive records include CFPB guidance on dealer/loan fees and optional add-ons.", "Underlying JSON and CSV are public."],
+      "primary_sources": ["https://www.consumerfinance.gov/ask-cfpb/what-things-can-i-negotiate-when-shopping-for-a-car-or-auto-loan-en-2132/", "https://www.consumerfinance.gov/ask-cfpb/what-is-a-finance-and-insurance-fi-department-en-747/"],
+      "review_status": "draft",
+      "canonical_link": "https://detecthiddenfees.com/research-media-kit",
+      "published_at": null
+    }
+  ]
 }

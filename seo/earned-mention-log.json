@@ -1,0 +1,16 @@
+{
+  "version": "2026-08-08.1",
+  "purpose": "Record actual outreach, responses, mentions, backlinks, and referral traffic for legitimate editorial opportunities. Null means no event has been recorded.",
+  "privacy_rule": "Store only public professional context and confirmed outcomes. Do not store private contact details, customer documents, or estimated performance.",
+  "records": [
+    { "opportunity_id": "O-2026-001", "outreach_target": "BuildingAdvisor", "date_prepared": "2026-08-08", "date_sent": null, "response": null, "mention": null, "backlink": null, "link_url": null, "referral_traffic": null },
+    { "opportunity_id": "O-2026-002", "outreach_target": "CarEdge", "date_prepared": "2026-08-08", "date_sent": null, "response": null, "mention": null, "backlink": null, "link_url": null, "referral_traffic": null },
+    { "opportunity_id": "O-2026-005", "outreach_target": "Consumer Reports — car-buying fees", "date_prepared": "2026-08-08", "date_sent": null, "response": null, "mention": null, "backlink": null, "link_url": null, "referral_traffic": null },
+    { "opportunity_id": "O-2026-006", "outreach_target": "Edmunds — dealer fees", "date_prepared": "2026-08-08", "date_sent": null, "response": null, "mention": null, "backlink": null, "link_url": null, "referral_traffic": null },
+    { "opportunity_id": "O-2026-007", "outreach_target": "Procore — change orders", "date_prepared": "2026-08-08", "date_sent": null, "response": null, "mention": null, "backlink": null, "link_url": null, "referral_traffic": null },
+    { "opportunity_id": "O-2026-008", "outreach_target": "Kiplinger — annoyance economy", "date_prepared": "2026-08-08", "date_sent": null, "response": null, "mention": null, "backlink": null, "link_url": null, "referral_traffic": null },
+    { "opportunity_id": "O-2026-009", "outreach_target": "NerdWallet — overdraft fees", "date_prepared": "2026-08-08", "date_sent": null, "response": null, "mention": null, "backlink": null, "link_url": null, "referral_traffic": null },
+    { "opportunity_id": "O-2026-010", "outreach_target": "American Economic Association — junk fees", "date_prepared": "2026-08-08", "date_sent": null, "response": null, "mention": null, "backlink": null, "link_url": null, "referral_traffic": null },
+    { "opportunity_id": "O-2026-011", "outreach_target": "Consumer Reports — hidden fees", "date_prepared": "2026-08-08", "date_sent": null, "response": null, "mention": null, "backlink": null, "link_url": null, "referral_traffic": null }
+  ]
+}
