@@ -6,10 +6,10 @@
   "page_count": 238,
   "pages_with_candidates": 234,
   "candidate_counts": {
-    "quantitative_amount": 2086,
+    "quantitative_amount": 2079,
     "quantitative_percent": 496,
-    "absolute_or_superlative": 1563,
-    "performance_or_outcome": 141,
+    "absolute_or_superlative": 1557,
+    "performance_or_outcome": 143,
     "population_or_scale": 165
   },
   "records": [
@@ -827,124 +827,58 @@
       "file": "ai-analysis-methodology.html",
       "matches": [
         {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ion Service Upload any bill AI identifies potential billing issues and charges that may need review $15 one-time No subscription Start negotiating your bills today. Upload any bill or service agreement to HiddenFeeAI. The AI identifies overcharges, hidden fees, an"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ees, and negotiation opportunities. Get your analysis in minutes and start saving. Upload My Bill — $15 AI Analysis Methodology: How Our Detection System Identifies Hidden Fees This page provides a high-level description of document-analysis concepts and a review "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$150 ",
-          "snippet": " agreement, if available, and against regional and industry benchmarks. If a contractor is charging $150 per hour for labor in a market where $75 is standard, the AI flags it. If a dealership is marking up the APR by three points above the lender base rate, the AI "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$75 ",
-          "snippet": "onal and industry benchmarks. If a contractor is charging $150 per hour for labor in a market where $75 is standard, the AI flags it. If a dealership is marking up the APR by three points above the lender base rate, the AI identifies it. If a medical bill contains"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ed analysis of what you should challenge. Know exactly what to say and save money. Upload My Bill — $15 Start Negotiating Your Bills Today Don't pay more than you have to. Let AI analyze your bills and give you the leverage you need. Analyze My Bill → $15 one-time"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "e than you have to. Let AI analyze your bills and give you the leverage you need. Analyze My Bill → $15 one-time · No subscription · Secure processing Methodology and risk reference The NIST AI Risk Management Framework is a general reference for identifying and m"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "find hidden costs &#8595; Document Intelligence Center — complete document analysis Try HiddenFeeAI $15 Analyze My Document"
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "guarantee",
+          "snippet": "fer authoritative sources, and state what is not known. It is not a product-performance report or a guarantee that an AI system will detect a particular charge. Important boundary: the public repository does not verify HiddenFeeAI's proprietary model, training set, ben"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "every",
-          "snippet": "k. It is not a verified implementation specification, accuracy benchmark, or promise of savings for every uploaded document. Understanding the technology behind AI document analysis helps you trust the results and use them more effectively in your negotiations with"
+          "value": "Every",
+          "snippet": "ntial issue is not proof of an unlawful or improper charge. 5. Publish limitations and update dates Every research result should identify who produced it, what was analyzed, when and how it was analyzed, the dataset size when one exists, source limitations, and the"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "all",
-          "snippet": "sis, risk scoring, and recommendation generation. When you upload a document, the AI first extracts all structured and unstructured data, identifying every charge, term, clause, and condition. It then compares each element against industry benchmarks, historical "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "When you upload a document, the AI first extracts all structured and unstructured data, identifying every charge, term, clause, and condition. It then compares each element against industry benchmarks, historical pricing data, and known patterns of hidden fees and "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "-dependent and should be confirmed on HiddenFeeAI before upload. During this stage, the AI extracts all textual content from the document, identifies the document type, and creates a structured representation that can be analyzed systematically. The AI identifies"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "documents come in many different formats and organizational structures, and the AI must handle them all consistently to produce reliable results. Stage two is data extraction and categorization. The AI attempts to identify charges, fees, terms, and conditions tha"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": " such as slightly different descriptions for the same charge that are easy to miss. The AI compares every line item against every other line item and flags potential duplicates based on similarities in description, amount, and context. Pricing inconsistencies are c"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "ent descriptions for the same charge that are easy to miss. The AI compares every line item against every other line item and flags potential duplicates based on similarities in description, amount, and context. Pricing inconsistencies are charges that do not match"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "always",
-          "snippet": "tential issues and provide information that helps you make better decisions, but the final judgment always rests with you as the consumer. The AI may occasionally flag charges that are legitimate, known as false positives. This can happen when a charge is unusual bu"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": " important findings require human review and, where appropriate, professional advice. Can AI detect all types of hidden fees? No. Document quality, context, jurisdiction, and unfamiliar fee structures can affect results. The tool should be treated as an aid to re"
+          "value": "guarantee",
+          "snippet": "lication gate. The current manifest is collecting and publishes no statistics. Can this methodology guarantee AI accuracy? No. Accuracy depends on the document, extraction quality, context, system version, evaluation design, and consequences of error. No universal accu"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "accuracy",
-          "snippet": "cument-analysis concepts and a review framework. It is not a verified implementation specification, accuracy benchmark, or promise of savings for every uploaded document. Understanding the technology behind AI document analysis helps you trust the results and use them"
+          "snippet": ", and estimates. It does not claim to disclose HiddenFeeAI's private implementation, training data, accuracy, or security controls. Explore Research Center → Read AI Limitations Evidence before statistics Sources and scope are labeled Human verification required Resea"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "accuracy",
-          "snippet": "I Analysis Process Works The AI analysis process follows a structured workflow designed to maximize accuracy while minimizing false positives. Each document that is uploaded goes through five distinct stages of analysis, with each stage building on the results of the "
+          "snippet": "This page therefore explains the method and evidence gate without presenting fabricated prevalence, accuracy, savings, document-count, or performance numbers. External guidance and limitations The NIST AI Risk Management Framework is voluntary guidance for managing AI"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "accuracy",
-          "snippet": "nt provides the best protection against hidden fees and unfair charges. No independently verifiable accuracy percentage is asserted here. A responsible evaluation should identify the dataset, labels, system version, test date, false-positive and false-negative rates, "
+          "snippet": ". The current manifest is collecting and publishes no statistics. Can this methodology guarantee AI accuracy? No. Accuracy depends on the document, extraction quality, context, system version, evaluation design, and consequences of error. No universal accuracy percent"
+        },
+        {
+          "key": "performance_or_outcome",
+          "severity": "high",
+          "value": "Accuracy",
+          "snippet": "manifest is collecting and publishes no statistics. Can this methodology guarantee AI accuracy? No. Accuracy depends on the document, extraction quality, context, system version, evaluation design, and consequences of error. No universal accuracy percentage is asserte"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "accuracy",
-          "snippet": "rk is a general reference for identifying and managing AI risks. It does not validate HiddenFeeAI’s accuracy, data handling, or security controls. Source: National Institute of Standards and Technology, Artificial Intelligence Risk Management Framework , accessed July"
+          "snippet": "action quality, context, system version, evaluation design, and consequences of error. No universal accuracy percentage is asserted here. Should I rely on an AI finding without checking the source? No. Treat an AI finding as a question or lead. Check the original clau"
+        },
+        {
+          "key": "performance_or_outcome",
+          "severity": "high",
+          "value": "Accuracy",
+          "snippet": "siness advice. Continue the research Research Center Hidden Fee Index AI Document Analysis Tools AI Accuracy and Limitations Editorial Policy Privacy and AI Security TOOLS AI Contract Review AI Bill Analyzer AI Document Checker Hidden Fee Detector Upload Document DOCU"
         }
       ]
     },
@@ -5691,19 +5625,19 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "taxes, and other records that may not appear on the invoice. Is an AI invoice analyzer accurate for every invoice? No universal accuracy rate applies to every document or use case. Scan quality, layout, handwriting, context, ambiguous descriptions, and information "
+          "snippet": "les and note the exact line or fee that needs clarification. Is an AI invoice analyzer accurate for every invoice? No universal accuracy rate applies to every document or use case. Scan quality, layout, handwriting, context, ambiguous descriptions, and information "
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "nvoice. Is an AI invoice analyzer accurate for every invoice? No universal accuracy rate applies to every document or use case. Scan quality, layout, handwriting, context, ambiguous descriptions, and information outside the invoice can affect results. Verify import"
+          "snippet": "cation. Is an AI invoice analyzer accurate for every invoice? No universal accuracy rate applies to every document or use case. Scan quality, layout, handwriting, context, ambiguous descriptions, and information outside the invoice can affect results. Verify import"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "accuracy",
-          "snippet": "t may not appear on the invoice. Is an AI invoice analyzer accurate for every invoice? No universal accuracy rate applies to every document or use case. Scan quality, layout, handwriting, context, ambiguous descriptions, and information outside the invoice can affect "
+          "snippet": "or fee that needs clarification. Is an AI invoice analyzer accurate for every invoice? No universal accuracy rate applies to every document or use case. Scan quality, layout, handwriting, context, ambiguous descriptions, and information outside the invoice can affect "
         }
       ]
     },

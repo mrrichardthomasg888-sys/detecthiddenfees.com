@@ -175,7 +175,7 @@
 ## Research and educational resources
 
 - [AI Accuracy and Limitations: What AI Can and Cannot Do](https://detecthiddenfees.com/ai-accuracy-and-limitations) — Canonical page for this topic.
-- [AI Analysis Methodology: How Our AI Detects Hidden Fees](https://detecthiddenfees.com/ai-analysis-methodology) — Canonical page for this topic.
+- [AI Analysis Methodology: Evidence, Limits, and Review Framework](https://detecthiddenfees.com/ai-analysis-methodology) — Canonical page for this topic.
 - [AI Transparency Report: How Our AI Analysis Works](https://detecthiddenfees.com/ai-transparency-report) — Canonical page for this topic.
 - [Best AI Bill Analyzer Tools: Top Platforms for 2026](https://detecthiddenfees.com/best-ai-bill-analyzer-tools) — Canonical page for this topic.
 - [Best AI Contract Analysis Tools 2026](https://detecthiddenfees.com/best-ai-contract-analysis-tools) — Canonical page for this topic.
