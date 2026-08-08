@@ -6,9 +6,9 @@
   "page_count": 238,
   "pages_with_candidates": 234,
   "candidate_counts": {
-    "quantitative_amount": 1947,
-    "quantitative_percent": 476,
-    "absolute_or_superlative": 1539,
+    "quantitative_amount": 1937,
+    "quantitative_percent": 474,
+    "absolute_or_superlative": 1532,
     "performance_or_outcome": 152,
     "population_or_scale": 159
   },
@@ -17223,172 +17223,58 @@
       "file": "hidden-fee-prevention-guide.html",
       "matches": [
         {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$300",
-          "snippet": "s to generate revenue. The average consumer pays for 3-5 subscriptions they no longer use, totaling $300-$800 annually in wasted charges. Use virtual credit card numbers for free trials so they expire automatically when the trial period ends. Strategy 5: Negotiate"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$800 ",
-          "snippet": "generate revenue. The average consumer pays for 3-5 subscriptions they no longer use, totaling $300-$800 annually in wasted charges. Use virtual credit card numbers for free trials so they expire automatically when the trial period ends. Strategy 5: Negotiate Befor"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$600 ",
-          "snippet": "views. A single quarterly review session of 30 minutes can may help identify potential cost savings-$600 per year by catching forgotten subscriptions, identifying rate increases, and removing unnecessary services. Strategy 8: Credit Card Fee Prevention Choose credi"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$4.73 ",
-          "snippet": "lerts to avoid accidental overdrafts. Use only in-network ATMs to avoid surcharge fees that average $4.73 per transaction. Many online banks offer completely fee-free banking with ATM fee reimbursement, eliminating most banking hidden fees entirely. Strategy 10: Med"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$1,000",
-          "snippet": "re it against services actually received. Medical billing errors affect 30% of patients and average $1,000-$5,000 in overcharges. Requesting an itemized bill before paying can catch most billing errors before they are paid. Strategy 11: Telecom and Internet Fee Prev"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$5,000 ",
-          "snippet": "gainst services actually received. Medical billing errors affect 30% of patients and average $1,000-$5,000 in overcharges. Requesting an itemized bill before paying can catch most billing errors before they are paid. Strategy 11: Telecom and Internet Fee Prevention P"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$80 ",
-          "snippet": "r own modem and router instead of renting equipment from your internet provider. A modem that costs $80 pays for itself in 8 months compared to $10/month rental fees. Review your plan annually and compare against current competitor offerings. Call to renegotiate r"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$10",
-          "snippet": "uipment from your internet provider. A modem that costs $80 pays for itself in 8 months compared to $10/month rental fees. Review your plan annually and compare against current competitor offerings. Call to renegotiate rates when promotional periods end. Ask abou"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$5,000 b",
-          "snippet": "k is completed to your satisfaction. The average homeowner may help identify potential cost savings-$5,000 by getting multiple quotes and comparing line items carefully before choosing a contractor. Use AI to Detect Hidden Fees Analyze Your Documents → Types of Hidden"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "find hidden costs &#8595; Document Intelligence Center — complete document analysis Try HiddenFeeAI $15 Find Hidden Fees"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "5%",
-          "snippet": "companies will waive the first late fee as a customer retention gesture. Balance transfer fees of 3-5% can be avoided by choosing cards that offer fee-free balance transfer promotions. Strategy 9: Banking Fee Prevention Choose banks that offer fee-free checking "
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "30%",
-          "snippet": "Benefits carefully and compare it against services actually received. Medical billing errors affect 30% of patients and average $1,000-$5,000 in overcharges. Requesting an itemized bill before paying can catch most billing errors before they are paid. Strategy 11"
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "always",
+          "snippet": "e, or subscription. It provides verification steps and source context, not a promise that a fee can always be prevented or removed. Last updated: August 8, 2026 Direct answer: how do you prevent hidden fees? Ask for the written total and terms, separate required fro"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "roaches for stopping hidden charges across banking, medical, telecom, subscription, contractor, and every other major fee category. Strategy 1: The All-In Pricing Request Before agreeing to any service or purchase, ask for a complete all-in price that includes ever"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "All",
-          "snippet": "ng, medical, telecom, subscription, contractor, and every other major fee category. Strategy 1: The All-In Pricing Request Before agreeing to any service or purchase, ask for a complete all-in price that includes every fee, surcharge, tax, and charge you will be "
+          "snippet": "tion, contract, jurisdiction, and records. This guide is a prevention checklist, not a promise that every fee is unlawful, undisclosed, negotiable, or removable. Strategy 1: Request an itemized total Ask for the total price in writing and request a line-by-line exp"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "all",
-          "snippet": "rategy 1: The All-In Pricing Request Before agreeing to any service or purchase, ask for a complete all-in price that includes every fee, surcharge, tax, and charge you will be required to pay. Use this exact language: \"Please provide a binding written quote that"
+          "snippet": "s that the treatment of a charge depends on its nature and the transaction covered; do not treat an all-in request as a universal legal guarantee. Strategy 2: Review before signing Read every page, attachment, schedule, and referenced term before signing. Compare"
+        },
+        {
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "guarantee",
+          "snippet": "ends on its nature and the transaction covered; do not treat an all-in request as a universal legal guarantee. Strategy 2: Review before signing Read every page, attachment, schedule, and referenced term before signing. Compare the final contract with the quote, advert"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "g Request Before agreeing to any service or purchase, ask for a complete all-in price that includes every fee, surcharge, tax, and charge you will be required to pay. Use this exact language: \"Please provide a binding written quote that includes every single fee I "
+          "snippet": " not treat an all-in request as a universal legal guarantee. Strategy 2: Review before signing Read every page, attachment, schedule, and referenced term before signing. Compare the final contract with the quote, advertisement, order, or estimate and mark every dif"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": " be required to pay. Use this exact language: \"Please provide a binding written quote that includes every single fee I will be required to pay. I will not pay any fee that is not disclosed in this quote.\" Companies that refuse to provide all-in pricing are likely r"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": " pay. I will not pay any fee that is not disclosed in this quote.\" Companies that refuse to provide all-in pricing are likely relying on hidden fees to increase their revenue. If a provider cannot or will not provide an all-in price, consider that a red flag and "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "ikely relying on hidden fees to increase their revenue. If a provider cannot or will not provide an all-in price, consider that a red flag and look for alternatives. This single strategy eliminates the majority of hidden fees before they can be added to your bill"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "Never",
-          "snippet": "y of hidden fees before they can be added to your bill. Strategy 2: The Pre-Signing Document Review Never sign a contract, agreement, or estimate without reviewing every line item first. Hidden fees are most commonly added in documentation fees, administrative char"
+          "snippet": "fore signing. Compare the final contract with the quote, advertisement, order, or estimate and mark every difference for written explanation. Strategy 3: Audit statements and bills Review bank statements, card statements, utility bills, invoices, and receipts on a "
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": " 2: The Pre-Signing Document Review Never sign a contract, agreement, or estimate without reviewing every line item first. Hidden fees are most commonly added in documentation fees, administrative charges, processing fees, and compliance costs that are buried in th"
+          "snippet": "edical-billing protections and limitations. These sources do not create one nationwide fee rule for every industry. Read the contract, account disclosures, notices, and local requirements that apply to your situation. Use qualified professional or regulator assista"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "sing fees, and compliance costs that are buried in the fine print. Request an itemized breakdown of every charge and ask for specific explanations of vague line items. If a fee description says \"administrative fee\" or \"service charge,\" ask exactly what services thi"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "Every",
-          "snippet": "s necessary. Cross-reference the final contract against any initial quote or estimate you received. Every difference between what was quoted and what appears in the contract is a potential hidden fee that should be questioned before signing. Strategy 3: Monthly Sta"
+          "snippet": "isclosed or triggered later. Ask for the contractual basis and a written explanation; do not assume every difference is unlawful or every quote is binding. How can I prevent subscription renewal charges? Record the renewal date, price-change terms, notice period, a"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "re signing. Strategy 3: Monthly Statement Audit Routine Set a recurring calendar reminder to review every bank statement, credit card statement, utility bill, and subscription charge each month. Look for fees that appeared without notification, price increases on s"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "cumentation for older charges. Strategy 4: Subscription Management System Maintain a spreadsheet of every active subscription including the start date, promotional rate, standard rate, renewal date, and cancellation requirements. Set calendar alerts 7 days before e"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "ers routinely offer promotional rates to new customers. Strategy 7: Automatic Payment Review Review all automatic payments and recurring charges quarterly. Cancel services you no longer use. Downgrade subscription tiers that offer more features than you need. Neg"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "dden fees entirely. Strategy 10: Medical Bill Prevention Before receiving medical care, ask whether all providers are in-network with your insurance plan. Request pre-authorization for any planned procedures. Ask about facility fees at hospital-owned clinics and "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "d whether the same service is available at a lower-cost outpatient center. Keep detailed records of all medical visits, procedures, and communications with providers. Review your Explanation of Benefits carefully and compare it against services actually received."
+          "snippet": " for the contractual basis and a written explanation; do not assume every difference is unlawful or every quote is binding. How can I prevent subscription renewal charges? Record the renewal date, price-change terms, notice period, and cancellation method. Keep con"
         }
       ]
     },
