@@ -6,11 +6,11 @@
   "page_count": 238,
   "pages_with_candidates": 234,
   "candidate_counts": {
-    "quantitative_amount": 2127,
+    "quantitative_amount": 2116,
     "quantitative_percent": 500,
-    "absolute_or_superlative": 1600,
+    "absolute_or_superlative": 1586,
     "performance_or_outcome": 141,
-    "population_or_scale": 169
+    "population_or_scale": 168
   },
   "records": [
     {
@@ -1088,124 +1088,16 @@
       "file": "ai-bill-analyzer.html",
       "matches": [
         {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ion Service Upload any bill AI identifies potential billing issues and charges that may need review $15 one-time No subscription Start negotiating your bills today. Upload any bill or service agreement to HiddenFeeAI. The AI identifies overcharges, hidden fees, an"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ees, and negotiation opportunities. Get your analysis in minutes and start saving. Upload My Bill — $15 AI Bill Analyzer: Stop Overpaying on Every Bill You Receive Bills arrive every single month for virtually every household, and a staggering percentage of them c"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ed analysis of what you should challenge. Know exactly what to say and save money. Upload My Bill — $15 Questions People Ask AI About Bills These are the most common hidden fee questions consumers ask AI about billing. Each provides actionable guidance for underst"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "lete analysis in minutes. See our AI document analysis questions for more detail. Analyze My Bill — $15 Can AI detect duplicate charges? AI invoice analysis is specifically designed to identify duplicate line items, overlapping fees, and charges for the same servi"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "e than you have to. Let AI analyze your bills and give you the leverage you need. Analyze My Bill → $15 one-time · No subscription · Secure processing Related Resources AI Invoice Analyzer Scan your invoices for hidden charges and billing errors using our AI-power"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "om — AI-Powered Hidden Fee Detection & Legal Artificial Intelligence for Consumers Review Your Bill $15 Analyze My Bill"
-        },
-        {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "Every",
-          "snippet": "AI Bill Analyzer: Every Overcharge in Your Bills Exposed | DetectHiddenFees Skip to main content Detect HiddenFees Hidden Fees Contract Review Bills &amp; Documents Negotiation Resear"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "Every",
-          "snippet": "ew Bills &amp; Documents Negotiation Research Resources Analyze a Document Home / AI Bill Analyzer: Every Overcharge in Your Bills Exposed AI BILL ANALYZER AI Bill Analyzer: Every Overcharge in Your Bills Exposed Learn more in our AI Document Intelligence Center . "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "Every",
-          "snippet": " Home / AI Bill Analyzer: Every Overcharge in Your Bills Exposed AI BILL ANALYZER AI Bill Analyzer: Every Overcharge in Your Bills Exposed Learn more in our AI Document Intelligence Center . Bills are designed to be paid, not analyzed. HiddenFeeAI changes that by s"
+          "value": "guarantee",
+          "snippet": "questions. It can surface issues for review, but it cannot independently prove a charge is wrong or guarantee a refund. Review My Bill How to Read an Invoice Organize billing questions Compare related statements Verify findings with the provider AI is not legal or medi"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "lligence Center . Bills are designed to be paid, not analyzed. HiddenFeeAI changes that by scanning every charge and flagging anything that looks wrong, inflated, or unnecessary. Analyze My Bill → Bill Negotiation Service Upload any bill AI identifies potential bil"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "Every",
-          "snippet": "our analysis in minutes and start saving. Upload My Bill — $15 AI Bill Analyzer: Stop Overpaying on Every Bill You Receive Bills arrive every single month for virtually every household, and a staggering percentage of them contain errors that cost you money. Researc"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "ving. Upload My Bill — $15 AI Bill Analyzer: Stop Overpaying on Every Bill You Receive Bills arrive every single month for virtually every household, and a staggering percentage of them contain errors that cost you money. Research consistently shows that up to Medi"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "l Analyzer: Stop Overpaying on Every Bill You Receive Bills arrive every single month for virtually every household, and a staggering percentage of them contain errors that cost you money. Research consistently shows that up to Medical billing reviews frequently id"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "et statements, insurance invoices, and subscription charges. The problem is that manually reviewing every line item on every bill you receive is incredibly time-consuming and requires specialized knowledge that most people simply do not have. You would need to unde"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "rance invoices, and subscription charges. The problem is that manually reviewing every line item on every bill you receive is incredibly time-consuming and requires specialized knowledge that most people simply do not have. You would need to understand medical bill"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": " methodologies just to identify the errors. HiddenFeeAI completely automates this process, scanning every line item on any bill and flagging charges that appear incorrect or excessive. The AI is designed to analyze bills from virtually any industry you can imagine."
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "vices in your geographic region. The analysis process works in three stages. First, the AI extracts every single charge from your bill and categorizes it by type. Second, each charge is compared against our extensive database of typical rates and fee structures for"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "guage to use when contacting the billing department. This transforms the daunting task of reviewing every bill you receive into a simple, automated process that takes just a few minutes per month. The savings from correcting just one or two errors typically covers "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "r understanding and challenging charges. Can AI find errors on my bill? Yes. AI bill analysis scans every charge for duplicate billing, incorrect amounts, unauthorized add-ons, and pricing that differs from quoted rates. It compares each line item against industry "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "outinely miss. AI Invoice Analyzer → Why is my bill higher than expected? AI bill analysis compares every charge on your current bill against previous billing periods to identify rate increases, new fees, service changes, and unexpected charges. It flags whatever c"
+          "snippet": "cords, and consult current FCC guidance about unauthorized charges known as cramming. Do not assume every unfamiliar line has the same legal status. Is AI bill analysis legal or medical advice? No. It is informational assistance. Medical coding, insurance coverage,"
         }
       ]
     },
@@ -4663,64 +4555,16 @@
       "file": "ai-estimate-review.html",
       "matches": [
         {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ion Service Upload any bill AI identifies potential billing issues and charges that may need review $15 one-time No subscription Start negotiating your bills today. Upload any bill or service agreement to HiddenFeeAI. The AI identifies overcharges, hidden fees, an"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ees, and negotiation opportunities. Get your analysis in minutes and start saving. Upload My Bill — $15 AI Estimate Review: Know If Your Contractor Is Charging a Fair Price Getting an estimate is the critical first step in virtually every home improvement project,"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ed analysis of what you should challenge. Know exactly what to say and save money. Upload My Bill — $15 Start Negotiating Your Bills Today Don't pay more than you have to. Let AI analyze your bills and give you the leverage you need. Analyze My Bill → $15 one-time"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "e than you have to. Let AI analyze your bills and give you the leverage you need. Analyze My Bill → $15 one-time · No subscription · Secure processing AI Tools AI Financial Advisor Legal Artificial Intelligence AI Contract Review AI Agreement Analyzer AI Bill Anal"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": " AI-Powered Hidden Fee Detection & Legal Artificial Intelligence for Consumers Review Your Estimate $15 Analyze My Estimate"
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "guarantee",
+          "snippet": "erve a closer look. It does not prove that a provider overcharged you, establish a market price, or guarantee savings. Review My Estimate Current pricing and product terms are shown by HiddenFeeAI before checkout. What an Estimate Review Can Examine A structured review"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "Center . Estimates and quotes are the most common place hidden markups appear. HiddenFeeAI analyzes every line item to tell you if the price is fair. Analyze My Bill → Bill Negotiation Service Upload any bill AI identifies potential billing issues and charges that "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "our Contractor Is Charging a Fair Price Getting an estimate is the critical first step in virtually every home improvement project, from HVAC replacements and kitchen renovations to roof repairs and landscaping overhauls. But estimates are not always reliable indic"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "always",
-          "snippet": "placements and kitchen renovations to roof repairs and landscaping overhauls. But estimates are not always reliable indicators of what your project will actually cost. Contractors have numerous ways to manipulate estimates in their favor. Some inflate prices on indi"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": " creates ambiguity and allows them to charge more when the actual work begins. HiddenFeeAI analyzes every quote you receive and identifies inflated pricing, hidden markups, and scope gaps that could cost you thousands. The AI examines each line item in your estimat"
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": "ach line item in your estimate and compares it against regional averages drawn from our database of thousands of actual contractor quotes across the country. It flags labor rates that significantly exceed the normal range for your geographic area, material markups that go"
+          "snippet": "n AI Review Cannot Determine Document analysis cannot inspect a job site, confirm workmanship, know every local requirement, independently verify a contractor’s cost basis, or decide whether a clause is enforceable. Location, project conditions, timing, and profess"
         }
       ]
     },

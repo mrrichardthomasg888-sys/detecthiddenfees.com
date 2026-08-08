@@ -100,6 +100,29 @@ const forbiddenByFile = {
     'Know exactly what to say and save money',
     'what you should challenge',
     'compares it against regional averages'
+  ],
+  'ai-bill-analyzer.html': [
+    'Every Overcharge in Your Bills Exposed',
+    'Save money on every bill',
+    'scanning every charge',
+    'scans every line item',
+    'database of typical rates',
+    'extensive database of typical rates',
+    'database of thousands',
+    'actual contractor quotes',
+    'within minutes',
+    'exactly which charges to question',
+    'greatest potential savings',
+    'highest-return financial habits',
+    'Analyze My Bill — $15',
+    'Upload My Bill — $15',
+    '$15 one-time',
+    'No subscription',
+    'Secure processing',
+    'what you should challenge',
+    'AI identifies every',
+    'compared against typical rates',
+    'completely automates this process'
   ]
 };
 const issues = [];

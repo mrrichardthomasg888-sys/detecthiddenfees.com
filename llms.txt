@@ -116,7 +116,7 @@
 ## Bills and document analysis
 
 - [AI Bill Analysis vs Manual Review: The Numbers Speak](https://detecthiddenfees.com/ai-bill-analysis-vs-manual-review) — Canonical page for this topic.
-- [AI Bill Analyzer: Every Overcharge in Your Bills Exposed](https://detecthiddenfees.com/ai-bill-analyzer) — Canonical page for this topic.
+- [AI Bill Analyzer: Questions to Ask About Unexpected Charges](https://detecthiddenfees.com/ai-bill-analyzer) — Canonical page for this topic.
 - [AI Bill Analyzer vs ChatGPT: Head-to-Head Comparison for Fee Detection](https://detecthiddenfees.com/ai-bill-analyzer-vs-chatgpt) — Canonical page for this topic.
 - [AI Bill Checker: Catch Hidden Charges on Every Bill](https://detecthiddenfees.com/ai-bill-checker) — Canonical page for this topic.
 - [AI Bill Negotiation: Let Artificial Intelligence Fight Your Bills](https://detecthiddenfees.com/ai-bill-negotiation) — Canonical page for this topic.

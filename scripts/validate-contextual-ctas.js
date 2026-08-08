@@ -7,7 +7,8 @@ const expected = {
   'indemnification-clauses-explained.html': { action: 'contract_review', text: 'Review My Contract' },
   'hidden-streaming-fees.html': { action: 'subscription_fee_review', text: 'Subscription' },
   'hidden-landscaping-fees.html': { action: 'estimate_review', text: 'Landscaping Estimate' },
-  'ai-estimate-review.html': { action: 'estimate_review', text: 'Review My Estimate' }
+  'ai-estimate-review.html': { action: 'estimate_review', text: 'Review My Estimate' },
+  'ai-bill-analyzer.html': { action: 'bill_analysis', text: 'Review My Bill' }
 };
 const errors = [];
 
