@@ -6,9 +6,9 @@
   "page_count": 238,
   "pages_with_candidates": 233,
   "candidate_counts": {
-    "quantitative_amount": 1841,
+    "quantitative_amount": 1829,
     "quantitative_percent": 465,
-    "absolute_or_superlative": 1510,
+    "absolute_or_superlative": 1513,
     "performance_or_outcome": 154,
     "population_or_scale": 150
   },
@@ -17245,82 +17245,28 @@
       "file": "hidden-hvac-contractor-fees.html",
       "matches": [
         {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "cing tactics commonly buried inside residential HVAC estimates. Upload HVAC Proposal For AI Audit — $15 Upload HVAC estimates &amp; proposals AI detects hidden fees &amp; markups $15 one-time analysis Private document processing HVAC Pricing Investigation #1 HVAC "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "posal For AI Audit — $15 Upload HVAC estimates &amp; proposals AI detects hidden fees &amp; markups $15 one-time analysis Private document processing HVAC Pricing Investigation #1 HVAC contractor pricing frequently contains hidden labor inflation, emergency servic"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "g language or bundled billing categories that prevent verification. Analyze HVAC Estimate With AI — $15 HVAC Pricing Investigation #2 HVAC contractor pricing frequently contains hidden labor inflation, emergency service markups, permit fee padding, vague material "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "g language or bundled billing categories that prevent verification. Analyze HVAC Estimate With AI — $15 HVAC Pricing Investigation #3 HVAC contractor pricing frequently contains hidden labor inflation, emergency service markups, permit fee padding, vague material "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "g language or bundled billing categories that prevent verification. Analyze HVAC Estimate With AI — $15 HVAC Pricing Investigation #4 HVAC contractor pricing frequently contains hidden labor inflation, emergency service markups, permit fee padding, vague material "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "g language or bundled billing categories that prevent verification. Analyze HVAC Estimate With AI — $15 HVAC Pricing Investigation #5 HVAC contractor pricing frequently contains hidden labor inflation, emergency service markups, permit fee padding, vague material "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "g language or bundled billing categories that prevent verification. Analyze HVAC Estimate With AI — $15 HVAC Proposal Review Checklist Request itemized estimate breakdown Verify labor cost calculations Review equipment pricing and markups Check permit fee inclusio"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "st breakdowns Negotiate permit fee padding Review financing charges Get My HVAC Proposal Analysis — $15 Have an HVAC Proposal You're Not Sure About? Upload your HVAC estimate, proposal, or contract. AI analyzes the charges, identifies hidden fees, pricing risks, a"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "idden fees, pricing risks, and negotiation opportunities before you sign. Upload My HVAC Proposal — $15 Frequently Asked Questions About Hidden HVAC Fees How do HVAC contractors hide fees in estimates? HVAC contractors hide fees through vague line items, emergency"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ft Fees 📄 AI Construction Contract Review 🤖 AI Contract Review Tool Analyze Hidden Fees With AI — $15 Stop Hidden HVAC Fees Before They Cost You Thousands Upload your HVAC estimate, proposal, or contract to HiddenFeeAI. Our AI scans for hidden fees, markups, and"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "isks — giving you the information you need to negotiate with confidence. Analyze My HVAC Proposal — $15 No subscription. No long-term commitment. Secure analysis. AI Tools AI Financial Advisor Legal Artificial Intelligence AI Contract Review AI Agreement Analyzer "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": " AI-Powered Hidden Fee Detection & Legal Artificial Intelligence for Consumers Review Your Estimate $15 Analyze My Estimate"
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "every",
+          "snippet": "to the proposal. A responsible HVAC estimate review workflow 1. Preserve the complete proposal Keep every page, equipment schedule, warranty, financing document, change-order provision, and message that affects scope or price. 2. Separate included, optional, and un"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "All",
-          "snippet": "ce. The analysis helps identify potential hidden fees and prepare better questions for contractors. All final decisions remain with you. Related Hidden Fee Investigations 🏠 Hidden Home Renovation Fees 🚗 Hidden Dealership Financing Fees 🏥 Duplicate Medical Bill"
+          "value": "guarantee",
+          "snippet": "stent text, but it cannot inspect the installation, verify a local charge, determine fair value, or guarantee performance from the document alone. Frequently asked questions What should an HVAC estimate identify? Ask for the equipment model and scope, labor and install"
+        },
+        {
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "every",
+          "snippet": "or inspections, materials, delivery or disposal, taxes, warranties or service plans, financing, and every other charge included in the total. Does a vague HVAC line item prove a hidden fee? No. A vague description is a reason to ask for an explanation and written s"
+        },
+        {
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "guarantee",
+          "snippet": "consistent text. It cannot inspect workmanship, verify local requirements, establish fair value, or guarantee a project result from the document alone. What should I do before signing an HVAC proposal? Preserve the complete proposal, compare written estimates when prac"
         }
       ]
     },
