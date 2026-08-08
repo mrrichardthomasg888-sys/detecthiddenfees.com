@@ -1,0 +1,62 @@
+{
+  "title": "DetectHiddenFees Hidden Fee Index 2026",
+  "version": "0.1.0",
+  "status": "collecting",
+  "creator": "DetectHiddenFees Research Lab",
+  "published_at": "2026-08-08",
+  "updated_at": "2026-08-08",
+  "methodology_url": "https://detecthiddenfees.com/research-methodology",
+  "landing_page": "https://detecthiddenfees.com/hidden-fee-index",
+  "scope": {
+    "geography": "United States; scope will be recorded per source",
+    "industries": [
+      "automotive",
+      "banking",
+      "construction",
+      "healthcare",
+      "invoices",
+      "subscriptions",
+      "telecommunications"
+    ],
+    "document_types": [
+      "public contract",
+      "public estimate",
+      "public invoice example",
+      "regulatory or research source"
+    ]
+  },
+  "statistics": null,
+  "records": [],
+  "field_definitions": {
+    "source": "Publisher or originating source name.",
+    "source_url": "Stable public URL supporting the record.",
+    "organization": "Organization named by the source, when applicable.",
+    "document_type": "Contract, estimate, invoice, policy, filing, or research source.",
+    "industry": "Industry classification used for the record.",
+    "collection_date": "UTC date on which the source was collected.",
+    "fee_terminology": "Exact fee wording or a faithful normalized term.",
+    "fee_category": "Controlled category assigned by the methodology.",
+    "fee_amount": "Amount only when the source states an amount; otherwise null.",
+    "recurring": "Whether the source describes a recurring charge; otherwise null.",
+    "contract_clause": "Relevant clause or section reference, when applicable.",
+    "cancellation_requirements": "Cancellation conditions stated by the source, when applicable.",
+    "renewal_terms": "Renewal language stated by the source, when applicable.",
+    "evidence_reference": "Page, section, line, or other traceable evidence location.",
+    "verification_status": "pending, verified, disputed, excluded, or corrected."
+  },
+  "limitations": [
+    "No prevalence, amount, accuracy, or impact statistic is published in this manifest.",
+    "An empty records array means the public dataset has not passed the publication gate.",
+    "A record will be published only after its source, scope, evidence reference, and verification status are reviewed.",
+    "The dataset will not contain customer documents, personal information, or confidential contract text."
+  ],
+  "sources": [],
+  "corrections_contact": "https://detecthiddenfees.com/contact",
+  "changelog": [
+    {
+      "version": "0.1.0",
+      "date": "2026-08-08",
+      "change": "Created the public research manifest and collection schema; findings remain unpublished while evidence is collected and verified."
+    }
+  ]
+}
