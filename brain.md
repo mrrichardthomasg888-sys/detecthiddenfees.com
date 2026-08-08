@@ -893,7 +893,7 @@ This section records the current implementation state so future work can resume 
 - User-directed deployment: push directly to GitHub `main`; do not create a PR and do not deploy through a Cloudflare dashboard.
 - Current working branch during this work: `codex/calculator-native-branding-fix-2026-08-05`.
 - A pre-existing user-owned change to `calculator-authority.css` is intentionally unstaged and must not be included unless the user explicitly asks for it.
-- Latest verified remote `main`: `51cb841` (`Add safe SEO dashboard status report`).
+- Latest verified remote `main`: `3215db2` (`Add evidence register and claim review gate`).
 - Preserve existing URLs, templates, logo, typography, navigation, footer, CSS tokens, and visual design. New work must look native to the existing site.
 
 ### Completed systems and verified results
@@ -914,6 +914,7 @@ This section records the current implementation state so future work can resume 
 - Hardened discovery governance: `scripts/build-discovery-assets.js` now derives `llms.txt` and RSS from indexable self-canonical HTML and fails on sitemap drift, while `scripts/validate-discovery-assets.js` compares the complete indexable HTML candidate set with the sitemap. The refreshed RSS carries the verified August 8 Research Lab update dates; no redirect aliases are advertised.
 - Added the safe SEO dashboard layer required by the static-site architecture: `scripts/generate-seo-dashboard-report.js` creates `reports/seo-dashboard-current.md` from real structural artifacts, and `scripts/validate-seo-dashboard.js` rejects missing disconnected-state labels or placeholder performance zeros. No public `/admin/seo` route or credentials are exposed; connected GSC, analytics, HiddenFeeAI, and revenue data remain private integration requirements.
 - Added the evidence-governance foundation: `seo/evidence-register.json` is intentionally empty with `collecting` status, `seo/evidence-register.schema.json` defines traceable claim fields, and `scripts/validate-evidence-register.js` requires HTTPS source, evidence reference, review date, and reviewer before any record can be marked `verified`. The dashboard reports the register's real zero-record status.
+- Production verification for `3215db2`: `/seo/evidence-register.json` returns HTTP 200 with `status=collecting` and `records=0`; `/reports/seo-dashboard-current.md` returns HTTP 200 as a public-safe structural status report with no connected performance, customer, document, conversion, or revenue data; `/admin/seo` returns HTTP 404; and `/ai-analysis-hub` returns HTTP 200. This is intentional: the safe status report may be public, while an authenticated dashboard and external data integrations remain absent.
 
 ### Current attribution improvement now deployed
 

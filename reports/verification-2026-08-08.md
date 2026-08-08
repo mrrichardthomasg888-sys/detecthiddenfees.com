@@ -3,7 +3,7 @@
 ## Source deployment
 
 - Changes were pushed directly to GitHub `main`.
-- Latest verified commit: `51cb841` (`Add safe SEO dashboard status report`), following the discovery governance, deployment handoff, canonical opportunity, attribution, contextual CTA, Research Lab, navigation, cache-bust, embed-route, and hub fixes.
+- Latest verified commit: `3215db2` (`Add evidence register and claim review gate`), following the discovery governance, deployment handoff, canonical opportunity, attribution, contextual CTA, Research Lab, navigation, cache-bust, embed-route, hub, and safe dashboard fixes.
 - The pre-existing user-owned change to `calculator-authority.css` remains unstaged and untouched.
 
 ## Local verification
@@ -44,4 +44,4 @@ After commit `ca945fc` propagated, six production funnel pages were checked with
 
 The repository contains no deployment workflow that publishes the site from `main`, but the existing hosting connection published the pushed GitHub commits after propagation. No host credentials, API keys, or Cloudflare changes were made.
 
-The repository dashboard report is intentionally not served as public content by the current host (HTTP 404), and `/admin/seo` is also HTTP 404. The canonical `/ai-analysis-hub` page remains HTTP 200 after commit `51cb841`. This confirms that no unauthenticated dashboard or connected data was exposed.
+After commit `3215db2` propagated, `/seo/evidence-register.json` returned HTTP 200 with `status=collecting` and zero records. The generated `/reports/seo-dashboard-current.md` returned HTTP 200 as a public-safe structural status report; it contains no Search Console, customer, document, conversion, or revenue data and explicitly reports disconnected integrations. `/admin/seo` returned HTTP 404, while the canonical `/ai-analysis-hub` page returned HTTP 200. This confirms that no unauthenticated connected-data dashboard was exposed.
