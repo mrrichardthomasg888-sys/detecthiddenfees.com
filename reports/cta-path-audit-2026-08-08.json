@@ -1,0 +1,4327 @@
+{
+  "audit_date": "2026-08-08",
+  "source": "canonical sitemap and local HTML attributes; no analytics or Search Console performance data connected",
+  "performance_data": {
+    "status": "DATA SOURCE NOT CONNECTED",
+    "impressions": null,
+    "clicks": null,
+    "conversions": null,
+    "revenue": null
+  },
+  "summary": {
+    "canonical_pages": 238,
+    "pages_with_main_product_link": 223,
+    "pages_with_explicit_hero_metadata": 4,
+    "pages_with_explicit_sticky_metadata": 4,
+    "pages_without_main_product_link": [
+      "/ai-fee-detector",
+      "/analyze-my-document",
+      "/contact",
+      "/free-hidden-fee-scanner",
+      "/hidden-fee-analysis-tool",
+      "/hidden-fee-database",
+      "/hidden-fee-industry-guide",
+      "/hidden-fee-scanner",
+      "/hidden-fee-statistics",
+      "/privacy-and-ai-security",
+      "/research-center",
+      "/research-methodology",
+      "/security-overview",
+      "/terms-of-service",
+      "/upload-bill-for-analysis"
+    ],
+    "total_product_links": 1242,
+    "total_main_product_links": 752,
+    "annotated_main_links": 117,
+    "unannotated_main_links": 635,
+    "action_counts": {
+      "unspecified": 635,
+      "contract_review": 4,
+      "upload": 60,
+      "scan": 45,
+      "estimate_review": 4,
+      "subscription_fee_review": 4
+    }
+  },
+  "pages": [
+    {
+      "path": "/",
+      "file": "index.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Document With AI →",
+        "Get Your Document Analyzed — $15",
+        "Get Your Negotiation Leverage — $15",
+        "Find Hidden Fees Before You Sign — $15 →"
+      ]
+    },
+    {
+      "path": "/about-detect-hidden-fees",
+      "file": "about-detect-hidden-fees.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Analyze My Document — $15",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/ai-accuracy-and-limitations",
+      "file": "ai-accuracy-and-limitations.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/ai-agreement-analyzer",
+      "file": "ai-agreement-analyzer.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Analyze My Agreement — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/ai-agreement-checker",
+      "file": "ai-agreement-checker.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/ai-analysis-hub",
+      "file": "ai-analysis-hub.html",
+      "product_links_total": 3,
+      "product_links_in_main": 1,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 1,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 1
+      },
+      "cta_texts": [
+        "Start Your Analysis →"
+      ]
+    },
+    {
+      "path": "/ai-analysis-methodology",
+      "file": "ai-analysis-methodology.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/ai-bill-analysis-vs-manual-review",
+      "file": "ai-bill-analysis-vs-manual-review.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/ai-bill-analyzer-vs-chatgpt",
+      "file": "ai-bill-analyzer-vs-chatgpt.html",
+      "product_links_total": 3,
+      "product_links_in_main": 1,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 1,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 1
+      },
+      "cta_texts": [
+        "Analyze My Bill"
+      ]
+    },
+    {
+      "path": "/ai-bill-analyzer",
+      "file": "ai-bill-analyzer.html",
+      "product_links_total": 7,
+      "product_links_in_main": 5,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 5,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 5
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15",
+        "Analyze My Bill — $15"
+      ]
+    },
+    {
+      "path": "/ai-bill-checker",
+      "file": "ai-bill-checker.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/ai-bill-negotiation",
+      "file": "ai-bill-negotiation.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/ai-commercial-lease-review",
+      "file": "ai-commercial-lease-review.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/ai-construction-contract-review",
+      "file": "ai-construction-contract-review.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Analyze My Construction Contract →"
+      ]
+    },
+    {
+      "path": "/ai-consulting-agreement-review",
+      "file": "ai-consulting-agreement-review.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/ai-contract-analysis",
+      "file": "ai-contract-analysis.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Contract →",
+        "Get Your Contract Analysis — $15",
+        "Get Your Analysis — $15",
+        "Upload & Analyze →"
+      ]
+    },
+    {
+      "path": "/ai-contract-checker",
+      "file": "ai-contract-checker.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/ai-contract-resource-center",
+      "file": "ai-contract-resource-center.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Review My Contract With AI →",
+        "Analyze My Contract Now — $15",
+        "Upload My Contract — $15"
+      ]
+    },
+    {
+      "path": "/ai-contract-review-before-signing",
+      "file": "ai-contract-review-before-signing.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Review My Contract Before I Sign — $15",
+        "Review My Contract Before Signing — $15"
+      ]
+    },
+    {
+      "path": "/ai-contract-review-vs-chatgpt",
+      "file": "ai-contract-review-vs-chatgpt.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/ai-contract-review-vs-lawyer-review",
+      "file": "ai-contract-review-vs-lawyer-review.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/ai-contract-review-vs-manual-review",
+      "file": "ai-contract-review-vs-manual-review.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Review My Contract With AI →",
+        "Analyze My Contract Now — $15",
+        "Upload My Contract — $15"
+      ]
+    },
+    {
+      "path": "/ai-contract-review",
+      "file": "ai-contract-review.html",
+      "product_links_total": 5,
+      "product_links_in_main": 3,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 3,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 3
+      },
+      "cta_texts": [
+        "Review My Contract With AI →",
+        "Upload your contract →"
+      ]
+    },
+    {
+      "path": "/ai-contract-risk-score",
+      "file": "ai-contract-risk-score.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/ai-contractor-agreement-review",
+      "file": "ai-contractor-agreement-review.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/ai-document-analysis-benefits",
+      "file": "ai-document-analysis-benefits.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/ai-document-analysis-tools",
+      "file": "ai-document-analysis-tools.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/ai-document-checker",
+      "file": "ai-document-checker.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/ai-document-review-tool",
+      "file": "ai-document-review-tool.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/ai-document-reviewer",
+      "file": "ai-document-reviewer.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Review My Document — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/ai-document-risk-analysis",
+      "file": "ai-document-risk-analysis.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/ai-document-scanner",
+      "file": "ai-document-scanner.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/ai-employment-contract-review",
+      "file": "ai-employment-contract-review.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/ai-estimate-checker",
+      "file": "ai-estimate-checker.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/ai-estimate-review",
+      "file": "ai-estimate-review.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/ai-fee-detector",
+      "file": "ai-fee-detector.html",
+      "product_links_total": 2,
+      "product_links_in_main": 0,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 0,
+      "has_main_product_link": false,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {},
+      "cta_texts": []
+    },
+    {
+      "path": "/ai-financial-advisor",
+      "file": "ai-financial-advisor.html",
+      "product_links_total": 8,
+      "product_links_in_main": 6,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 6,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 6
+      },
+      "cta_texts": [
+        "Analyze My Document — $15",
+        "Analyze My Documents With AI — $15",
+        "Analyze your documents →"
+      ]
+    },
+    {
+      "path": "/ai-financial-analysis",
+      "file": "ai-financial-analysis.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Document — $15",
+        "Analyze My Documents With AI — $15"
+      ]
+    },
+    {
+      "path": "/ai-financial-assistant",
+      "file": "ai-financial-assistant.html",
+      "product_links_total": 7,
+      "product_links_in_main": 5,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 5,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 5
+      },
+      "cta_texts": [
+        "Analyze My Document — $15",
+        "Analyze My Documents With AI — $15",
+        "Find Hidden Fees Before You Sign →",
+        "Analyze Your Documents With AI — $15"
+      ]
+    },
+    {
+      "path": "/ai-freelance-contract-review",
+      "file": "ai-freelance-contract-review.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/ai-hidden-fee-questions",
+      "file": "ai-hidden-fee-questions.html",
+      "product_links_total": 8,
+      "product_links_in_main": 6,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 6,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 6
+      },
+      "cta_texts": [
+        "Analyze My Document — $15",
+        "Analyze this document with AI →",
+        "Analyze My Document — $15 →",
+        "Scan Your Document For Hidden Fees — $15",
+        "Analyze My Documents With AI — $15",
+        "Analyze My Document With AI — $15"
+      ]
+    },
+    {
+      "path": "/ai-invoice-analyzer",
+      "file": "ai-invoice-analyzer.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/ai-invoice-checker",
+      "file": "ai-invoice-checker.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/ai-lease-review",
+      "file": "ai-lease-review.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Review My Contract With AI →",
+        "Analyze My Contract Now — $15",
+        "Upload My Contract — $15"
+      ]
+    },
+    {
+      "path": "/ai-pricing-analysis",
+      "file": "ai-pricing-analysis.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/ai-proposal-review",
+      "file": "ai-proposal-review.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Review My Proposal — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/ai-purchase-agreement-review",
+      "file": "ai-purchase-agreement-review.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Review My Contract With AI →",
+        "Analyze My Contract Now — $15",
+        "Upload My Contract — $15"
+      ]
+    },
+    {
+      "path": "/ai-purchase-contract-review",
+      "file": "ai-purchase-contract-review.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/ai-quote-analyzer",
+      "file": "ai-quote-analyzer.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/ai-quote-review",
+      "file": "ai-quote-review.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/ai-receipt-analyzer",
+      "file": "ai-receipt-analyzer.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/ai-rental-lease-analyzer",
+      "file": "ai-rental-lease-analyzer.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/ai-service-contract-review",
+      "file": "ai-service-contract-review.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Review My Contract With AI →",
+        "Analyze My Contract Now — $15",
+        "Upload My Contract — $15"
+      ]
+    },
+    {
+      "path": "/ai-software-license-review",
+      "file": "ai-software-license-review.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/ai-statement-analyzer",
+      "file": "ai-statement-analyzer.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Analyze My Statement — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/ai-transparency-report",
+      "file": "ai-transparency-report.html",
+      "product_links_total": 5,
+      "product_links_in_main": 3,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 3,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 3
+      },
+      "cta_texts": [
+        "Upload a Document for AI Review &#8599;",
+        "Upload My Document &#8599;",
+        "Upload My Document for Review &#8599;"
+      ]
+    },
+    {
+      "path": "/ai-vendor-contract-review",
+      "file": "ai-vendor-contract-review.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/analyze-contract-online",
+      "file": "analyze-contract-online.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/analyze-my-bill",
+      "file": "analyze-my-bill.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/analyze-my-contract",
+      "file": "analyze-my-contract.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/analyze-my-document",
+      "file": "analyze-my-document.html",
+      "product_links_total": 2,
+      "product_links_in_main": 0,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 0,
+      "has_main_product_link": false,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {},
+      "cta_texts": []
+    },
+    {
+      "path": "/analyze-my-estimate",
+      "file": "analyze-my-estimate.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/analyze-my-invoice",
+      "file": "analyze-my-invoice.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/arbitration-clauses-explained",
+      "file": "arbitration-clauses-explained.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 2,
+      "main_unannotated_links": 0,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": true,
+      "has_annotated_sticky_product_link": true,
+      "action_counts": {
+        "contract_review": 2
+      },
+      "cta_texts": [
+        "Review My Contract — $15"
+      ]
+    },
+    {
+      "path": "/auto-financing-hidden-charges",
+      "file": "auto-financing-hidden-charges.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Upload the buyer's order and amount-financed disclosure ↗",
+        "Review the buyer's order and amount-financed disclosure with HiddenFeeAI ↗",
+        "Finish the waterfall from price to repayment review ↗",
+        "Review this document with HiddenFeeAI ↗"
+      ]
+    },
+    {
+      "path": "/auto-loan-fine-print-explained",
+      "file": "auto-loan-fine-print-explained.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Upload the retail installment contract ↗",
+        "Review the retail installment contract with HiddenFeeAI ↗",
+        "Finish the clauses behind the payment review ↗",
+        "Review this document with HiddenFeeAI ↗"
+      ]
+    },
+    {
+      "path": "/automatic-renewal-calculator",
+      "file": "automatic-renewal-calculator.html",
+      "product_links_total": 11,
+      "product_links_in_main": 7,
+      "main_annotated_links": 7,
+      "main_unannotated_links": 0,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "upload": 4,
+        "scan": 3
+      },
+      "cta_texts": [
+        "Upload Document →",
+        "Scan Document →"
+      ]
+    },
+    {
+      "path": "/automatic-renewal-clauses",
+      "file": "automatic-renewal-clauses.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/automatic-renewal-date-calculator",
+      "file": "automatic-renewal-date-calculator.html",
+      "product_links_total": 1,
+      "product_links_in_main": 1,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 1,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 1
+      },
+      "cta_texts": [
+        "Analyze My Renewal Agreement &#8599;"
+      ]
+    },
+    {
+      "path": "/before-signing-contract-checklist",
+      "file": "before-signing-contract-checklist.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "AI analysis tool",
+        "Analyze My Contract →"
+      ]
+    },
+    {
+      "path": "/best-ai-bill-analyzer-tools",
+      "file": "best-ai-bill-analyzer-tools.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/best-ai-contract-analysis-tools",
+      "file": "best-ai-contract-analysis-tools.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Review My Contract With AI →",
+        "Analyze My Contract Now — $15",
+        "Upload My Contract — $15"
+      ]
+    },
+    {
+      "path": "/best-hidden-fee-detector-tools",
+      "file": "best-hidden-fee-detector-tools.html",
+      "product_links_total": 3,
+      "product_links_in_main": 1,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 1,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 1
+      },
+      "cta_texts": [
+        "Analyze Your Documents →"
+      ]
+    },
+    {
+      "path": "/bill-negotiation-letter",
+      "file": "bill-negotiation-letter.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/bill-negotiation-resource-center",
+      "file": "bill-negotiation-resource-center.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/bill-negotiation-service",
+      "file": "bill-negotiation-service.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Get My Analysis — $15",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/bill-negotiation-templates",
+      "file": "bill-negotiation-templates.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/bill-savings-calculator",
+      "file": "bill-savings-calculator.html",
+      "product_links_total": 5,
+      "product_links_in_main": 3,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 3,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 3
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/business-contract-review",
+      "file": "business-contract-review.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/calculator-authority-center",
+      "file": "calculator-authority-center.html",
+      "product_links_total": 4,
+      "product_links_in_main": 3,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 3,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 3
+      },
+      "cta_texts": [
+        "Upload Document -&gt;",
+        "Find Hidden Fees with AI -&gt;"
+      ]
+    },
+    {
+      "path": "/can-ai-analyze-financial-documents",
+      "file": "can-ai-analyze-financial-documents.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload Your Document For Analysis",
+        "Analyze My Document With AI — $15"
+      ]
+    },
+    {
+      "path": "/can-ai-detect-duplicate-billing-charges",
+      "file": "can-ai-detect-duplicate-billing-charges.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload Your Bill For Analysis",
+        "Analyze My Document With AI — $15"
+      ]
+    },
+    {
+      "path": "/can-ai-find-hidden-fees-in-a-contract",
+      "file": "can-ai-find-hidden-fees-in-a-contract.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload Your Document For Analysis",
+        "Analyze My Document With AI — $15"
+      ]
+    },
+    {
+      "path": "/can-ai-review-a-contract-before-signing",
+      "file": "can-ai-review-a-contract-before-signing.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload Your Contract For Analysis",
+        "Analyze My Document With AI — $15"
+      ]
+    },
+    {
+      "path": "/cancellation-fee-clauses",
+      "file": "cancellation-fee-clauses.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/car-buying-checklist-before-signing",
+      "file": "car-buying-checklist-before-signing.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Upload the checklist documents for a final pass ↗",
+        "Review the checklist documents for a final pass with HiddenFeeAI ↗",
+        "Finish the sequence that prevents last-minute surprises review ↗",
+        "Review this document with HiddenFeeAI ↗"
+      ]
+    },
+    {
+      "path": "/car-dealer-fees",
+      "file": "car-dealer-fees.html",
+      "product_links_total": 5,
+      "product_links_in_main": 3,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 3,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 3
+      },
+      "cta_texts": [
+        "Choose my automotive review path ↗",
+        "Compare my car-buying documents ↗",
+        "Upload documents to HiddenFeeAI ↗"
+      ]
+    },
+    {
+      "path": "/car-purchase-contract-red-flags",
+      "file": "car-purchase-contract-red-flags.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Upload the full contract packet ↗",
+        "Review the full contract packet with HiddenFeeAI ↗",
+        "Finish the risk-ranked contract inspection review ↗",
+        "Review this document with HiddenFeeAI ↗"
+      ]
+    },
+    {
+      "path": "/change-order-fees",
+      "file": "change-order-fees.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/check-my-fees",
+      "file": "check-my-fees.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/consumer-fee-trends-report",
+      "file": "consumer-fee-trends-report.html",
+      "product_links_total": 3,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "HiddenFeeAI",
+        "Analyze Your Documents →"
+      ]
+    },
+    {
+      "path": "/consumer-negotiation-resource-center",
+      "file": "consumer-negotiation-resource-center.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/consumer-savings-calculator",
+      "file": "consumer-savings-calculator.html",
+      "product_links_total": 11,
+      "product_links_in_main": 7,
+      "main_annotated_links": 7,
+      "main_unannotated_links": 0,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "upload": 4,
+        "scan": 3
+      },
+      "cta_texts": [
+        "Upload Document →",
+        "Scan Document →"
+      ]
+    },
+    {
+      "path": "/contact",
+      "file": "contact.html",
+      "product_links_total": 1,
+      "product_links_in_main": 0,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 0,
+      "has_main_product_link": false,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {},
+      "cta_texts": []
+    },
+    {
+      "path": "/contract-clause-checker",
+      "file": "contract-clause-checker.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/contract-clause-library",
+      "file": "contract-clause-library.html",
+      "product_links_total": 3,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload Document -&gt;"
+      ]
+    },
+    {
+      "path": "/contract-cost-calculator",
+      "file": "contract-cost-calculator.html",
+      "product_links_total": 11,
+      "product_links_in_main": 7,
+      "main_annotated_links": 7,
+      "main_unannotated_links": 0,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "upload": 4,
+        "scan": 3
+      },
+      "cta_texts": [
+        "Upload Document →",
+        "Scan Document →"
+      ]
+    },
+    {
+      "path": "/contract-fee-checker",
+      "file": "contract-fee-checker.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/contract-negotiation-assistant",
+      "file": "contract-negotiation-assistant.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Review My Contract With AI →",
+        "Analyze My Contract Now — $15",
+        "Upload My Contract — $15"
+      ]
+    },
+    {
+      "path": "/contract-red-flag-checker",
+      "file": "contract-red-flag-checker.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Check My Contract for Red Flags — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/contract-red-flags",
+      "file": "contract-red-flags.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/contract-review-checklist",
+      "file": "contract-review-checklist.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/contract-risk-assessment-ai-tool",
+      "file": "contract-risk-assessment-ai-tool.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Assess My Contract Risk — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/contract-risk-assessment-guide",
+      "file": "contract-risk-assessment-guide.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/contract-risk-calculator",
+      "file": "contract-risk-calculator.html",
+      "product_links_total": 11,
+      "product_links_in_main": 7,
+      "main_annotated_links": 7,
+      "main_unannotated_links": 0,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "upload": 4,
+        "scan": 3
+      },
+      "cta_texts": [
+        "Upload Document →",
+        "Scan Document →"
+      ]
+    },
+    {
+      "path": "/contract-terms-analyzer-ai",
+      "file": "contract-terms-analyzer-ai.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Analyze My Contract Terms — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/contract-terms-glossary",
+      "file": "contract-terms-glossary.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Review My Contract With AI →",
+        "Analyze My Contract Now — $15",
+        "Upload My Contract — $15"
+      ]
+    },
+    {
+      "path": "/convenience-fee-calculator",
+      "file": "convenience-fee-calculator.html",
+      "product_links_total": 11,
+      "product_links_in_main": 7,
+      "main_annotated_links": 7,
+      "main_unannotated_links": 0,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "upload": 4,
+        "scan": 3
+      },
+      "cta_texts": [
+        "Upload Document →",
+        "Scan Document →"
+      ]
+    },
+    {
+      "path": "/data-handling-policy",
+      "file": "data-handling-policy.html",
+      "product_links_total": 5,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/dealer-add-on-cost-breakdown",
+      "file": "dealer-add-on-cost-breakdown.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Upload the buyer's order and add-on menu ↗",
+        "Review the buyer's order and add-on menu with HiddenFeeAI ↗",
+        "Finish the finance-office add-on stack review ↗",
+        "Review this document with HiddenFeeAI ↗"
+      ]
+    },
+    {
+      "path": "/dealer-documentation-fees-explained",
+      "file": "dealer-documentation-fees-explained.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Upload two written out-the-door quotes ↗",
+        "Review two written out-the-door quotes with HiddenFeeAI ↗",
+        "Finish the paperwork charge and its state context review ↗",
+        "Review this document with HiddenFeeAI ↗"
+      ]
+    },
+    {
+      "path": "/dealer-fee-negotiation-guide",
+      "file": "dealer-fee-negotiation-guide.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Upload competing quotes and the buyer's order ↗",
+        "Review competing quotes and the buyer's order with HiddenFeeAI ↗",
+        "Finish the sequence and leverage of a disciplined negotiation review ↗",
+        "Review this document with HiddenFeeAI ↗"
+      ]
+    },
+    {
+      "path": "/dealer-markup-explained",
+      "file": "dealer-markup-explained.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Upload the lender approval and finance contract ↗",
+        "Review the lender approval and finance contract with HiddenFeeAI ↗",
+        "Finish the where dealership margin enters the transaction review ↗",
+        "Review this document with HiddenFeeAI ↗"
+      ]
+    },
+    {
+      "path": "/detect-hidden-contract-fees",
+      "file": "detect-hidden-contract-fees.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/duplicate-medical-billing-charges",
+      "file": "duplicate-medical-billing-charges.html",
+      "product_links_total": 7,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze Medical Bills →",
+        "Get My Medical Bill Analysis — $15",
+        "Upload My Medical Bill — $15",
+        "Analyze My Medical Bills — $15"
+      ]
+    },
+    {
+      "path": "/early-termination-fees",
+      "file": "early-termination-fees.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/editorial-policy",
+      "file": "editorial-policy.html",
+      "product_links_total": 5,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/estimate-vs-quote",
+      "file": "estimate-vs-quote.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/example-auto-financing",
+      "file": "example-auto-financing.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze My Document — $15",
+        "Analyze My Document — $15"
+      ]
+    },
+    {
+      "path": "/example-cell-phone-bill",
+      "file": "example-cell-phone-bill.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze My Document — $15",
+        "Analyze My Document — $15"
+      ]
+    },
+    {
+      "path": "/example-home-renovation-proposal",
+      "file": "example-home-renovation-proposal.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze My Document — $15",
+        "Analyze My Document — $15"
+      ]
+    },
+    {
+      "path": "/example-hvac-estimate",
+      "file": "example-hvac-estimate.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze My Document — $15",
+        "Analyze My Document — $15"
+      ]
+    },
+    {
+      "path": "/example-internet-service-agreement",
+      "file": "example-internet-service-agreement.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze My Document — $15",
+        "Analyze My Document — $15"
+      ]
+    },
+    {
+      "path": "/example-medical-bill",
+      "file": "example-medical-bill.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze My Document — $15",
+        "Analyze My Document — $15"
+      ]
+    },
+    {
+      "path": "/extended-warranty-hidden-costs",
+      "file": "extended-warranty-hidden-costs.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Upload the service contract and cancellation terms ↗",
+        "Review the service contract and cancellation terms with HiddenFeeAI ↗",
+        "Finish the coverage language versus repair reality review ↗",
+        "Review this document with HiddenFeeAI ↗"
+      ]
+    },
+    {
+      "path": "/fee-negotiation-checklist",
+      "file": "fee-negotiation-checklist.html",
+      "product_links_total": 5,
+      "product_links_in_main": 3,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 3,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 3
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/fee-removal-request-template",
+      "file": "fee-removal-request-template.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/financial-analysis-software",
+      "file": "financial-analysis-software.html",
+      "product_links_total": 7,
+      "product_links_in_main": 5,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 5,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 5
+      },
+      "cta_texts": [
+        "Analyze My Document — $15",
+        "Find Hidden Fees Before You Sign →",
+        "Analyze My Documents With AI — $15"
+      ]
+    },
+    {
+      "path": "/financial-analysis-tools",
+      "file": "financial-analysis-tools.html",
+      "product_links_total": 7,
+      "product_links_in_main": 5,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 5,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 5
+      },
+      "cta_texts": [
+        "Analyze My Document — $15",
+        "Find Hidden Fees Before You Sign →",
+        "Analyze My Documents With AI — $15"
+      ]
+    },
+    {
+      "path": "/find-hidden-fees-in-contract",
+      "file": "find-hidden-fees-in-contract.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/free-ai-contract-review-vs-paid-review",
+      "file": "free-ai-contract-review-vs-paid-review.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/free-hidden-fee-scanner",
+      "file": "free-hidden-fee-scanner.html",
+      "product_links_total": 2,
+      "product_links_in_main": 0,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 0,
+      "has_main_product_link": false,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {},
+      "cta_texts": []
+    },
+    {
+      "path": "/gap-insurance-cost-analysis",
+      "file": "gap-insurance-cost-analysis.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Upload the GAP certificate and finance contract ↗",
+        "Review the GAP certificate and finance contract with HiddenFeeAI ↗",
+        "Finish the balance-to-value gap after a total loss review ↗",
+        "Review this document with HiddenFeeAI ↗"
+      ]
+    },
+    {
+      "path": "/hidden-auto-fees",
+      "file": "hidden-auto-fees.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Analyze My Financing Documents With AI — $15",
+        "Analyze My Auto Documents — $15"
+      ]
+    },
+    {
+      "path": "/hidden-auto-loan-fees",
+      "file": "hidden-auto-loan-fees.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Upload the financing agreement and lender offer ↗",
+        "Review the financing agreement and lender offer with HiddenFeeAI ↗",
+        "Finish the borrower's true cost of credit review ↗",
+        "Review this document with HiddenFeeAI ↗"
+      ]
+    },
+    {
+      "path": "/hidden-bank-overdraft-fees",
+      "file": "hidden-bank-overdraft-fees.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze Banking Statements →",
+        "Get My Banking Fee Analysis — $15",
+        "Upload My Bank Statement — $15",
+        "Analyze My Banking Fees — $15"
+      ]
+    },
+    {
+      "path": "/hidden-banking-fees",
+      "file": "hidden-banking-fees.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Analyze My Bank Document With AI — $15",
+        "Analyze My Banking Documents — $15"
+      ]
+    },
+    {
+      "path": "/hidden-billing-fees",
+      "file": "hidden-billing-fees.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/hidden-car-dealer-fees-guide",
+      "file": "hidden-car-dealer-fees-guide.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Upload the complete quote or buyer's order ↗",
+        "Review the complete quote or buyer's order with HiddenFeeAI ↗",
+        "Finish the complete transaction taxonomy review ↗",
+        "Review this document with HiddenFeeAI ↗"
+      ]
+    },
+    {
+      "path": "/hidden-clauses-in-contracts",
+      "file": "hidden-clauses-in-contracts.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/hidden-contract-fees",
+      "file": "hidden-contract-fees.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/hidden-contractor-fees",
+      "file": "hidden-contractor-fees.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Analyze My Contractor Estimate With AI — $15",
+        "Analyze My Contractor Documents — $15"
+      ]
+    },
+    {
+      "path": "/hidden-credit-card-fees",
+      "file": "hidden-credit-card-fees.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/hidden-dealer-charges-by-state",
+      "file": "hidden-dealer-charges-by-state.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Upload the buyer's order with your state context ↗",
+        "Review the buyer's order with your state context with HiddenFeeAI ↗",
+        "Finish the a national research method for local rules review ↗",
+        "Review this document with HiddenFeeAI ↗"
+      ]
+    },
+    {
+      "path": "/hidden-dealership-financing-fees",
+      "file": "hidden-dealership-financing-fees.html",
+      "product_links_total": 5,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze Financing Documents →",
+        "Get My Financing Analysis — $15",
+        "Upload My Financing Agreement — $15",
+        "Analyze My Financing Agreement — $15"
+      ]
+    },
+    {
+      "path": "/hidden-electrician-fees",
+      "file": "hidden-electrician-fees.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/hidden-fee-analysis-tool",
+      "file": "hidden-fee-analysis-tool.html",
+      "product_links_total": 2,
+      "product_links_in_main": 0,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 0,
+      "has_main_product_link": false,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {},
+      "cta_texts": []
+    },
+    {
+      "path": "/hidden-fee-calculator",
+      "file": "hidden-fee-calculator.html",
+      "product_links_total": 11,
+      "product_links_in_main": 7,
+      "main_annotated_links": 7,
+      "main_unannotated_links": 0,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "upload": 4,
+        "scan": 3
+      },
+      "cta_texts": [
+        "Upload Document →",
+        "Scan Document →"
+      ]
+    },
+    {
+      "path": "/hidden-fee-database",
+      "file": "hidden-fee-database.html",
+      "product_links_total": 2,
+      "product_links_in_main": 0,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 0,
+      "has_main_product_link": false,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {},
+      "cta_texts": []
+    },
+    {
+      "path": "/hidden-fee-detector",
+      "file": "hidden-fee-detector.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Detect Hidden Fees — $15"
+      ]
+    },
+    {
+      "path": "/hidden-fee-dictionary",
+      "file": "hidden-fee-dictionary.html",
+      "product_links_total": 3,
+      "product_links_in_main": 1,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 1,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 1
+      },
+      "cta_texts": [
+        "Find Hidden Fees →"
+      ]
+    },
+    {
+      "path": "/hidden-fee-encyclopedia",
+      "file": "hidden-fee-encyclopedia.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Analyze My Document With AI — $15"
+      ]
+    },
+    {
+      "path": "/hidden-fee-examples",
+      "file": "hidden-fee-examples.html",
+      "product_links_total": 5,
+      "product_links_in_main": 3,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 3,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 3
+      },
+      "cta_texts": [
+        "Upload My Document for Analysis — $15",
+        "Upload My Document — $15",
+        "Analyze My Document — $15"
+      ]
+    },
+    {
+      "path": "/hidden-fee-index",
+      "file": "hidden-fee-index.html",
+      "product_links_total": 3,
+      "product_links_in_main": 1,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 1,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 1
+      },
+      "cta_texts": [
+        "HiddenFeeAI can analyze it as a separate product experience"
+      ]
+    },
+    {
+      "path": "/hidden-fee-industry-guide",
+      "file": "hidden-fee-industry-guide.html",
+      "product_links_total": 2,
+      "product_links_in_main": 0,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 0,
+      "has_main_product_link": false,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {},
+      "cta_texts": []
+    },
+    {
+      "path": "/hidden-fee-prevention-guide",
+      "file": "hidden-fee-prevention-guide.html",
+      "product_links_total": 3,
+      "product_links_in_main": 1,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 1,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 1
+      },
+      "cta_texts": [
+        "Analyze Your Documents →"
+      ]
+    },
+    {
+      "path": "/hidden-fee-reports",
+      "file": "hidden-fee-reports.html",
+      "product_links_total": 5,
+      "product_links_in_main": 3,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 3,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 3
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/hidden-fee-risk-calculator",
+      "file": "hidden-fee-risk-calculator.html",
+      "product_links_total": 11,
+      "product_links_in_main": 7,
+      "main_annotated_links": 7,
+      "main_unannotated_links": 0,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "upload": 4,
+        "scan": 3
+      },
+      "cta_texts": [
+        "Upload Document →",
+        "Scan Document →"
+      ]
+    },
+    {
+      "path": "/hidden-fee-risk-score",
+      "file": "hidden-fee-risk-score.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/hidden-fee-scanner",
+      "file": "hidden-fee-scanner.html",
+      "product_links_total": 2,
+      "product_links_in_main": 0,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 0,
+      "has_main_product_link": false,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {},
+      "cta_texts": []
+    },
+    {
+      "path": "/hidden-fee-statistics",
+      "file": "hidden-fee-statistics.html",
+      "product_links_total": 2,
+      "product_links_in_main": 0,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 0,
+      "has_main_product_link": false,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {},
+      "cta_texts": []
+    },
+    {
+      "path": "/hidden-fee-transparency-index",
+      "file": "hidden-fee-transparency-index.html",
+      "product_links_total": 3,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload Document -&gt;"
+      ]
+    },
+    {
+      "path": "/hidden-fees-guides",
+      "file": "hidden-fees-guides.html",
+      "product_links_total": 5,
+      "product_links_in_main": 3,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 3,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 3
+      },
+      "cta_texts": [
+        "Analyze My Documents →",
+        "Upload My Document — $15",
+        "Analyze My Document — $15"
+      ]
+    },
+    {
+      "path": "/hidden-healthcare-fees",
+      "file": "hidden-healthcare-fees.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Analyze My Medical Bill With AI — $15",
+        "Analyze My Medical Bills — $15"
+      ]
+    },
+    {
+      "path": "/hidden-home-renovation-fees",
+      "file": "hidden-home-renovation-fees.html",
+      "product_links_total": 12,
+      "product_links_in_main": 10,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 10,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 10
+      },
+      "cta_texts": [
+        "Upload Renovation Estimate For AI Audit — $15",
+        "Analyze Renovation Estimate With AI — $15",
+        "Get My Renovation Estimate Analysis — $15",
+        "Upload My Renovation Estimate — $15",
+        "Analyze Hidden Fees With AI — $15",
+        "Analyze My Renovation Estimate — $15"
+      ]
+    },
+    {
+      "path": "/hidden-hvac-contractor-fees",
+      "file": "hidden-hvac-contractor-fees.html",
+      "product_links_total": 12,
+      "product_links_in_main": 10,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 10,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 10
+      },
+      "cta_texts": [
+        "Upload HVAC Proposal For AI Audit — $15",
+        "Analyze HVAC Estimate With AI — $15",
+        "Get My HVAC Proposal Analysis — $15",
+        "Upload My HVAC Proposal — $15",
+        "Analyze Hidden Fees With AI — $15",
+        "Analyze My HVAC Proposal — $15"
+      ]
+    },
+    {
+      "path": "/hidden-insurance-fees",
+      "file": "hidden-insurance-fees.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Analyze My Insurance Documents — $15"
+      ]
+    },
+    {
+      "path": "/hidden-internet-fees",
+      "file": "hidden-internet-fees.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/hidden-investment-fees",
+      "file": "hidden-investment-fees.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/hidden-landscaping-fees",
+      "file": "hidden-landscaping-fees.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 4,
+      "main_unannotated_links": 0,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": true,
+      "has_annotated_sticky_product_link": true,
+      "action_counts": {
+        "estimate_review": 4
+      },
+      "cta_texts": [
+        "Review My Landscaping Estimate →",
+        "Upload Landscaping Estimate — $15"
+      ]
+    },
+    {
+      "path": "/hidden-loan-fees",
+      "file": "hidden-loan-fees.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/hidden-mortgage-fees",
+      "file": "hidden-mortgage-fees.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/hidden-moving-company-fees",
+      "file": "hidden-moving-company-fees.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/hidden-phone-bill-fees",
+      "file": "hidden-phone-bill-fees.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/hidden-plumbing-fees",
+      "file": "hidden-plumbing-fees.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/hidden-rental-fees",
+      "file": "hidden-rental-fees.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Analyze My Lease Documents — $15",
+        "Analyze My Lease — $15"
+      ]
+    },
+    {
+      "path": "/hidden-roofing-contractor-fees",
+      "file": "hidden-roofing-contractor-fees.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/hidden-streaming-fees",
+      "file": "hidden-streaming-fees.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 4,
+      "main_unannotated_links": 0,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": true,
+      "has_annotated_sticky_product_link": true,
+      "action_counts": {
+        "subscription_fee_review": 4
+      },
+      "cta_texts": [
+        "Analyze Subscription Charges →",
+        "Upload Subscription Bill — $15"
+      ]
+    },
+    {
+      "path": "/hidden-subscription-fees",
+      "file": "hidden-subscription-fees.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/hidden-telecom-fees",
+      "file": "hidden-telecom-fees.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Analyze My Telecom Bill With AI — $15",
+        "Analyze My Telecom Bills — $15"
+      ]
+    },
+    {
+      "path": "/hidden-travel-fees",
+      "file": "hidden-travel-fees.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Analyze My Travel Documents — $15"
+      ]
+    },
+    {
+      "path": "/hidden-utility-fees",
+      "file": "hidden-utility-fees.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Analyze My Utility Bill With AI — $15",
+        "Analyze My Utility Bills — $15"
+      ]
+    },
+    {
+      "path": "/hiddenfeeai-vs-bill-negotiation-services",
+      "file": "hiddenfeeai-vs-bill-negotiation-services.html",
+      "product_links_total": 5,
+      "product_links_in_main": 3,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 3,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 3
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/hiddenfeeai-vs-lawyer-review",
+      "file": "hiddenfeeai-vs-lawyer-review.html",
+      "product_links_total": 3,
+      "product_links_in_main": 1,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 1,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 1
+      },
+      "cta_texts": [
+        "Analyze My Contract Now →"
+      ]
+    },
+    {
+      "path": "/hiddenfeeai-vs-traditional-negotiation",
+      "file": "hiddenfeeai-vs-traditional-negotiation.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/hospital-bill-negotiation-guide",
+      "file": "hospital-bill-negotiation-guide.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/how-can-i-check-if-a-bill-is-incorrect",
+      "file": "how-can-i-check-if-a-bill-is-incorrect.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload Your Bill For Analysis",
+        "Analyze My Document With AI — $15"
+      ]
+    },
+    {
+      "path": "/how-detect-hidden-fees-works",
+      "file": "how-detect-hidden-fees-works.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/how-do-companies-hide-fees-in-contracts",
+      "file": "how-do-companies-hide-fees-in-contracts.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload Your Contract For Analysis",
+        "Analyze My Document With AI — $15"
+      ]
+    },
+    {
+      "path": "/how-do-i-find-hidden-fees-in-an-invoice",
+      "file": "how-do-i-find-hidden-fees-in-an-invoice.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload Your Invoice For Analysis",
+        "Analyze My Document With AI — $15"
+      ]
+    },
+    {
+      "path": "/how-to-dispute-a-hidden-fee",
+      "file": "how-to-dispute-a-hidden-fee.html",
+      "product_links_total": 2,
+      "product_links_in_main": 1,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 1,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 1
+      },
+      "cta_texts": [
+        "Analyze My Bill Before I Dispute It &#8599;"
+      ]
+    },
+    {
+      "path": "/how-to-negotiate-medical-bills",
+      "file": "how-to-negotiate-medical-bills.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/how-to-read-an-invoice",
+      "file": "how-to-read-an-invoice.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/how-to-reduce-medical-bills",
+      "file": "how-to-reduce-medical-bills.html",
+      "product_links_total": 5,
+      "product_links_in_main": 3,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 3,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 3
+      },
+      "cta_texts": [
+        "Upload My Medical Bill — $15 &#8594;",
+        "Reduce My Bill Now &#8594;",
+        "Upload My Medical Bill — $15"
+      ]
+    },
+    {
+      "path": "/how-to-review-a-contract",
+      "file": "how-to-review-a-contract.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Review My Contract With AI →",
+        "Analyze My Contract Now — $15",
+        "Upload My Contract — $15"
+      ]
+    },
+    {
+      "path": "/how-we-analyze-contracts",
+      "file": "how-we-analyze-contracts.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Review My Contract With AI →",
+        "Analyze My Contract Now — $15",
+        "Upload My Contract — $15"
+      ]
+    },
+    {
+      "path": "/identify-contract-risks",
+      "file": "identify-contract-risks.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/indemnification-clauses-explained",
+      "file": "indemnification-clauses-explained.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 2,
+      "main_unannotated_links": 0,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": true,
+      "has_annotated_sticky_product_link": true,
+      "action_counts": {
+        "contract_review": 2
+      },
+      "cta_texts": [
+        "Review My Contract — $15"
+      ]
+    },
+    {
+      "path": "/invoice-calculator",
+      "file": "invoice-calculator.html",
+      "product_links_total": 11,
+      "product_links_in_main": 7,
+      "main_annotated_links": 7,
+      "main_unannotated_links": 0,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "upload": 4,
+        "scan": 3
+      },
+      "cta_texts": [
+        "Upload Document →",
+        "Scan Document →"
+      ]
+    },
+    {
+      "path": "/invoice-red-flags",
+      "file": "invoice-red-flags.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/knowledge-center",
+      "file": "knowledge-center.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Analyze My Document With AI — $15"
+      ]
+    },
+    {
+      "path": "/late-fee-calculator",
+      "file": "late-fee-calculator.html",
+      "product_links_total": 11,
+      "product_links_in_main": 7,
+      "main_annotated_links": 7,
+      "main_unannotated_links": 0,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "upload": 4,
+        "scan": 3
+      },
+      "cta_texts": [
+        "Upload Document →",
+        "Scan Document →"
+      ]
+    },
+    {
+      "path": "/legal-artificial-intelligence",
+      "file": "legal-artificial-intelligence.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Document With AI →",
+        "Analyze My Documents With AI — $15",
+        "Analyze My Document With AI — $15"
+      ]
+    },
+    {
+      "path": "/mandatory-vs-optional-fees",
+      "file": "mandatory-vs-optional-fees.html",
+      "product_links_total": 2,
+      "product_links_in_main": 1,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 1,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 1
+      },
+      "cta_texts": [
+        "Scan My Bill or Contract &#8599;"
+      ]
+    },
+    {
+      "path": "/medical-bill-audit",
+      "file": "medical-bill-audit.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/medical-bill-error-checklist",
+      "file": "medical-bill-error-checklist.html",
+      "product_links_total": 5,
+      "product_links_in_main": 3,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 3,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 3
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/medical-bill-negotiation-template",
+      "file": "medical-bill-negotiation-template.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Medical Bill With AI — $15"
+      ]
+    },
+    {
+      "path": "/medical-debt-negotiation",
+      "file": "medical-debt-negotiation.html",
+      "product_links_total": 8,
+      "product_links_in_main": 6,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 6,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 6
+      },
+      "cta_texts": [
+        "Analyze My Medical Bill — $15 →",
+        "Analyze My Medical Bill — $15",
+        "Analyze My Medical Bill for Settlement — $15"
+      ]
+    },
+    {
+      "path": "/medical-debt-relief-options",
+      "file": "medical-debt-relief-options.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/negotiate-hospital-bill",
+      "file": "negotiate-hospital-bill.html",
+      "product_links_total": 5,
+      "product_links_in_main": 3,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 3,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 3
+      },
+      "cta_texts": [
+        "Upload My Hospital Bill — $15 &#8594;",
+        "Analyze My Hospital Bill Now &#8594;",
+        "Upload My Hospital Bill — $15"
+      ]
+    },
+    {
+      "path": "/negotiation-savings-calculator",
+      "file": "negotiation-savings-calculator.html",
+      "product_links_total": 11,
+      "product_links_in_main": 7,
+      "main_annotated_links": 7,
+      "main_unannotated_links": 0,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "upload": 4,
+        "scan": 3
+      },
+      "cta_texts": [
+        "Upload Document →",
+        "Scan Document →"
+      ]
+    },
+    {
+      "path": "/negotiation-scripts",
+      "file": "negotiation-scripts.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/our-evaluation-process",
+      "file": "our-evaluation-process.html",
+      "product_links_total": 3,
+      "product_links_in_main": 1,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 1,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 1
+      },
+      "cta_texts": [
+        "Upload & Analyze →"
+      ]
+    },
+    {
+      "path": "/price-escalation-calculator",
+      "file": "price-escalation-calculator.html",
+      "product_links_total": 11,
+      "product_links_in_main": 7,
+      "main_annotated_links": 7,
+      "main_unannotated_links": 0,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "upload": 4,
+        "scan": 3
+      },
+      "cta_texts": [
+        "Upload Document →",
+        "Scan Document →"
+      ]
+    },
+    {
+      "path": "/price-escalation-clauses",
+      "file": "price-escalation-clauses.html",
+      "product_links_total": 2,
+      "product_links_in_main": 1,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 1,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 1
+      },
+      "cta_texts": [
+        "Review My Agreement for Escalations &#8599;"
+      ]
+    },
+    {
+      "path": "/privacy-and-ai-security",
+      "file": "privacy-and-ai-security.html",
+      "product_links_total": 1,
+      "product_links_in_main": 0,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 0,
+      "has_main_product_link": false,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {},
+      "cta_texts": []
+    },
+    {
+      "path": "/processing-fee-calculator",
+      "file": "processing-fee-calculator.html",
+      "product_links_total": 11,
+      "product_links_in_main": 7,
+      "main_annotated_links": 7,
+      "main_unannotated_links": 0,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "upload": 4,
+        "scan": 3
+      },
+      "cta_texts": [
+        "Upload Document →",
+        "Scan Document →"
+      ]
+    },
+    {
+      "path": "/reduce-monthly-bills",
+      "file": "reduce-monthly-bills.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/research-center",
+      "file": "research-center.html",
+      "product_links_total": 2,
+      "product_links_in_main": 0,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 0,
+      "has_main_product_link": false,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {},
+      "cta_texts": []
+    },
+    {
+      "path": "/research-methodology",
+      "file": "research-methodology.html",
+      "product_links_total": 1,
+      "product_links_in_main": 0,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 0,
+      "has_main_product_link": false,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {},
+      "cta_texts": []
+    },
+    {
+      "path": "/resource-library",
+      "file": "resource-library.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "AI document analysis",
+        "Analyze My Document With AI — $15"
+      ]
+    },
+    {
+      "path": "/review-contract-online",
+      "file": "review-contract-online.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/security-overview",
+      "file": "security-overview.html",
+      "product_links_total": 1,
+      "product_links_in_main": 0,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 0,
+      "has_main_product_link": false,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {},
+      "cta_texts": []
+    },
+    {
+      "path": "/service-agreement-red-flags",
+      "file": "service-agreement-red-flags.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Analyze My Bill →",
+        "Upload My Bill — $15"
+      ]
+    },
+    {
+      "path": "/service-fee-calculator",
+      "file": "service-fee-calculator.html",
+      "product_links_total": 11,
+      "product_links_in_main": 7,
+      "main_annotated_links": 7,
+      "main_unannotated_links": 0,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "upload": 4,
+        "scan": 3
+      },
+      "cta_texts": [
+        "Upload Document →",
+        "Scan Document →"
+      ]
+    },
+    {
+      "path": "/spot-delivery-scam-guide",
+      "file": "spot-delivery-scam-guide.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Upload the conditional-delivery paperwork ↗",
+        "Review the conditional-delivery paperwork with HiddenFeeAI ↗",
+        "Finish the gap between possession and final financing review ↗",
+        "Review this document with HiddenFeeAI ↗"
+      ]
+    },
+    {
+      "path": "/subscription-cost-calculator",
+      "file": "subscription-cost-calculator.html",
+      "product_links_total": 11,
+      "product_links_in_main": 7,
+      "main_annotated_links": 7,
+      "main_unannotated_links": 0,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "upload": 4,
+        "scan": 3
+      },
+      "cta_texts": [
+        "Upload Document →",
+        "Scan Document →"
+      ]
+    },
+    {
+      "path": "/termination-fee-calculator",
+      "file": "termination-fee-calculator.html",
+      "product_links_total": 11,
+      "product_links_in_main": 7,
+      "main_annotated_links": 7,
+      "main_unannotated_links": 0,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "upload": 4,
+        "scan": 3
+      },
+      "cta_texts": [
+        "Upload Document →",
+        "Scan Document →"
+      ]
+    },
+    {
+      "path": "/terms-of-service",
+      "file": "terms-of-service.html",
+      "product_links_total": 1,
+      "product_links_in_main": 0,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 0,
+      "has_main_product_link": false,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {},
+      "cta_texts": []
+    },
+    {
+      "path": "/types-of-hidden-fees",
+      "file": "types-of-hidden-fees.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "HiddenFeeAI",
+        "Analyze My Documents Now →"
+      ]
+    },
+    {
+      "path": "/unfair-contract-terms",
+      "file": "unfair-contract-terms.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/upload-bill-for-analysis",
+      "file": "upload-bill-for-analysis.html",
+      "product_links_total": 2,
+      "product_links_in_main": 0,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 0,
+      "has_main_product_link": false,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {},
+      "cta_texts": []
+    },
+    {
+      "path": "/upload-contract-for-review",
+      "file": "upload-contract-for-review.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/upload-document-for-ai-analysis",
+      "file": "upload-document-for-ai-analysis.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload & Analyze — $15",
+        "Upload My Document — $15"
+      ]
+    },
+    {
+      "path": "/vehicle-purchase-agreement-review-guide",
+      "file": "vehicle-purchase-agreement-review-guide.html",
+      "product_links_total": 6,
+      "product_links_in_main": 4,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 4,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 4
+      },
+      "cta_texts": [
+        "Upload the buyer's order and signed contract ↗",
+        "Review the buyer's order and signed contract with HiddenFeeAI ↗",
+        "Finish the a line-by-line document audit review ↗",
+        "Review this document with HiddenFeeAI ↗"
+      ]
+    },
+    {
+      "path": "/what-are-common-hidden-fees-in-service-agreements",
+      "file": "what-are-common-hidden-fees-in-service-agreements.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload Your Agreement For Analysis",
+        "Analyze My Document With AI — $15"
+      ]
+    },
+    {
+      "path": "/what-fees-should-i-look-for-in-a-contractor-estimate",
+      "file": "what-fees-should-i-look-for-in-a-contractor-estimate.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload Your Estimate For Analysis",
+        "Analyze My Document With AI — $15"
+      ]
+    },
+    {
+      "path": "/what-questions-should-i-ask-before-signing-a-contract",
+      "file": "what-questions-should-i-ask-before-signing-a-contract.html",
+      "product_links_total": 4,
+      "product_links_in_main": 2,
+      "main_annotated_links": 0,
+      "main_unannotated_links": 2,
+      "has_main_product_link": true,
+      "has_annotated_hero_product_link": false,
+      "has_annotated_sticky_product_link": false,
+      "action_counts": {
+        "unspecified": 2
+      },
+      "cta_texts": [
+        "Upload Your Contract For Analysis",
+        "Analyze My Document With AI — $15"
+      ]
+    }
+  ]
+}

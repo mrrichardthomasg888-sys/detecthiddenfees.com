@@ -4,6 +4,8 @@
 > **Version:** 1.0
 > **Purpose:** Review CTA placement, wording, consistency, trust signals, and mobile usability across all major pages.
 
+> **Historical baseline notice:** This manual audit is retained for context but is not the current source of truth. It predates the canonical-page attribution runtime and contains outdated statements about pages lacking CTAs. Run `node scripts/audit-cta-paths.js` and review [the current generated audit](../reports/cta-path-audit-2026-08-08.md) for structural CTA status. Performance fields remain `DATA SOURCE NOT CONNECTED` until analytics/Search Console and HiddenFeeAI events are connected.
+
 ---
 
 ## CTA AUDIT BY PAGE TIER
