@@ -1667,3 +1667,11 @@ The master validator baseline is 238 pages with zero missing titles/descriptions
 - Production HTTP returned 200 for the homepage, `/research-media-kit`, `/hidden-fee-database`, and all eight frozen Phase 4 routes. The mention monitor and outreach validator passed before deployment; no detections or messages were generated.
 - The engine remains disabled at the credential boundary. No sender, API key, reply mailbox, social OAuth connection, or Search Console API credential was added. `calculator-authority.css` remains the only uncommitted worktree change and is user-owned, untouched, and unstaged.
 - Next safe action: obtain only the required external account authorizations, then run the verifier and approval-safe workflow. Never enable sending or publishing merely because credentials exist; preserve target verification, suppression, low-volume limits, and the eight-page SEO freeze.
+
+## Phase 6C activation checkpoint - 2026-08-08
+
+- Read-only account checks found Brevo at its login boundary, Cloudflare at its login boundary, and Gmail without an authenticated inbox session. No passwords, API keys, DNS changes, MX changes, forms, or emails were transmitted.
+- DNS remains unchanged and inbound Cloudflare Email Routing is preserved: MX still points to Cloudflare, SPF remains the existing Cloudflare-only record, DMARC remains `p=none`, and no public DKIM selector was found.
+- Updated the existing Phase 6B sender configuration and code to require `support@detecthiddenfees.com` for both From and Reply-To. Added a credential-gated `test` command for one internal delivery test; it is disabled until explicit secure environment values exist and does not enable external outreach.
+- Updated the outreach validator to protect the support sender/Reply-To requirement. No external target was sent, and the eight Phase 4 SEO pages remain frozen.
+- Next safe action: connect Brevo/domain authentication and the owner’s read-only Gmail monitoring authorization; then run the internal test and reply test before enabling any external outreach. Do not alter Cloudflare MX or forwarding.

@@ -9,6 +9,8 @@ if (config.email.enabled !== false) errors.push('Email automation must default t
 if (config.email.initial_batch_max !== 4) errors.push('Initial batch maximum must remain 4');
 if (config.email.bcc_allowed !== false) errors.push('BCC must remain disabled');
 if (config.email.max_follow_ups !== 1) errors.push('Maximum follow-ups must remain 1');
+if (config.email.required_sender_address !== 'support@detecthiddenfees.com') errors.push('Sender must remain support@detecthiddenfees.com');
+if (config.email.required_reply_to_address !== 'support@detecthiddenfees.com') errors.push('Reply-To must remain support@detecthiddenfees.com');
 if (config.safety.never_send_to_contact_form_automatically !== true) errors.push('Contact-form automation must remain disabled');
 const ids = new Set();
 if (!messages.source_asset || !/^https:\/\//.test(messages.source_asset)) errors.push('Missing public source asset URL');

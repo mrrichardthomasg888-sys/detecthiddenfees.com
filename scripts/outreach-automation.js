@@ -76,6 +76,8 @@ function requireSendCredentials() {
   if (!process.env.BREVO_API_KEY) missing.push('BREVO_API_KEY');
   if (!process.env.OUTREACH_FROM_EMAIL) missing.push('OUTREACH_FROM_EMAIL');
   if (!process.env.OUTREACH_REPLY_TO) missing.push('OUTREACH_REPLY_TO');
+  if (process.env.OUTREACH_FROM_EMAIL?.toLowerCase() !== config.email.required_sender_address) missing.push(`OUTREACH_FROM_EMAIL=${config.email.required_sender_address}`);
+  if (process.env.OUTREACH_REPLY_TO?.toLowerCase() !== config.email.required_reply_to_address) missing.push(`OUTREACH_REPLY_TO=${config.email.required_reply_to_address}`);
   return missing;
 }
 function htmlEscape(value) {
@@ -110,6 +112,24 @@ async function send() {
   saveState(state);
   print({ mode: 'low_volume_separate_sends', results });
 }
+async function internalTest() {
+  const missing = requireSendCredentials().filter(item => item !== 'OUTREACH_SEND_ENABLED=1');
+  if (process.env.OUTREACH_TEST_ENABLED !== '1') missing.push('OUTREACH_TEST_ENABLED=1');
+  if (!process.env.OUTREACH_TEST_RECIPIENT) missing.push('OUTREACH_TEST_RECIPIENT');
+  if (missing.length) { console.error(`TEST BLOCKED: missing secure connection values: ${missing.join(', ')}`); process.exitCode = 2; return; }
+  const recipient = process.env.OUTREACH_TEST_RECIPIENT;
+  const payload = {
+    sender: { email: config.email.required_sender_address, name: 'DetectHiddenFees Research' },
+    replyTo: { email: config.email.required_reply_to_address },
+    to: [{ email: recipient }],
+    subject: 'DetectHiddenFees outbound authentication test',
+    textContent: 'This is the authorized internal delivery test for DetectHiddenFees. Please reply to this message to verify the Cloudflare Email Routing reply path.',
+    tags: ['dhf-internal-authentication-test']
+  };
+  const response = await fetch(config.email.api_endpoint, { method: 'POST', headers: { 'api-key': process.env.BREVO_API_KEY, 'content-type': 'application/json' }, body: JSON.stringify(payload) });
+  if (!response.ok) { console.error(`TEST FAILED: Brevo returned HTTP ${response.status}`); process.exitCode = 1; return; }
+  print({ status: 'test_sent', recipient, sender: payload.sender.email, reply_to: payload.replyTo.email });
+}
 async function monitor() {
   const state = loadState();
   const results = [];
@@ -137,9 +157,10 @@ async function main() {
   if (command === 'verify') print((await verifyTargets()).map(resultSummary));
   else if (command === 'preview') print({ sender_required: ['OUTREACH_FROM_EMAIL', 'OUTREACH_REPLY_TO'], research_url: researchUrl, targets: messages.messages.map(message => ({ opportunity_id: message.opportunity_id, subject: message.subject, sendable_by_automation: message.sendable_by_automation, recipient: extractEmail(recordFor(message.opportunity_id)?.public_contact_method), reason: message.reason })) });
   else if (command === 'send') await send();
+  else if (command === 'test') await internalTest();
   else if (command === 'monitor') await monitor();
   else if (command === 'follow-up') await followUp();
   else if (command === 'status') print({ mode: config.mode, email_provider: config.email.provider, send_enabled: config.email.enabled, dns: config.dns_observed, social: config.social, search_console: config.search_console, runtime_state: fs.existsSync(statePath) ? 'present_private' : 'not_created' });
-  else { console.error('Usage: node scripts/outreach-automation.js <status|verify|preview|send|monitor|follow-up>'); process.exitCode = 1; }
+  else { console.error('Usage: node scripts/outreach-automation.js <status|verify|preview|test|send|monitor|follow-up>'); process.exitCode = 1; }
 }
 main().catch(error => { console.error(`OUTREACH AUTOMATION ERROR: ${error.message}`); process.exitCode = 1; });
