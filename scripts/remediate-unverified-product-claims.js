@@ -403,6 +403,126 @@ const exactReplacements = {
       'Coverage not independently verified'
     ]
   ],
+  'ai-contract-review-before-signing.html': [
+    [
+      'The AI is trained to recognize fee language by its structure and context, not by specific keywords.',
+      'A document-analysis system may review fee language by structure and context; this repository does not verify a specific training corpus or complete detection coverage.'
+    ],
+    [
+      'The platform accepts most common document types.',
+      'Supported document types are product-dependent; confirm current HiddenFeeAI requirements before uploading.'
+    ],
+    [
+      'HiddenFeeAI scans the document using its trained analysis engine.',
+      'HiddenFeeAI may analyze extractable document content using its current product workflow; implementation and coverage are not independently verified here.'
+    ],
+    [
+      'The entire process takes minutes.',
+      'Turnaround is product-dependent and is not independently verified by this repository.'
+    ],
+    [
+      'If reviewing a contract with AI costs $15 and potentially saves you from a single $500 mistake, the return on investment is over 3,000 percent.',
+      'A review purchase may help organize questions, but savings and return on investment are not guaranteed.'
+    ],
+    [
+      '<h3>Real Contracts, Real Problems</h3>',
+      '<h3>Illustrative Contract Scenarios</h3>'
+    ],
+    [
+      'Documents uploaded for analysis are encrypted during transmission and automatically deleted after processing.',
+      'Current encryption and retention practices are governed by HiddenFeeAI first-party policies and are not independently verified by this repository.'
+    ],
+    [
+      'The analysis report identifies specific clauses, explains what they mean, rates their risk level, and provides questions to ask.',
+      'A report may identify potential clauses and suggest questions; contents and risk-label semantics depend on the current product.'
+    ],
+    [
+      'For routine consumer contracts and standard business agreements, AI contract review provides substantial protection at a fraction of the cost.',
+      'For routine documents, AI-assisted review may help organize questions at a lower stated price than some professional services; it does not replace legal advice or guarantee protection.'
+    ],
+    [
+      'Results in minutes, not days',
+      'Product-dependent turnaround'
+    ],
+    [
+      'Most AI contract reviews are completed within minutes.',
+      'Analysis timing varies by product and document; no universal minutes-based benchmark is asserted here.'
+    ],
+    [
+      'HiddenFeeAI can analyze service agreements, contractor contracts, financing agreements, purchase agreements, leases, subscription terms, insurance policies, and many other document types commonly encountered by consumers and small businesses.',
+      'Whether HiddenFeeAI supports a particular agreement type should be confirmed in current first-party materials before upload.'
+    ],
+    [
+      'HiddenFeeAI can analyze service agreements, contractor contracts, financing agreements, purchase agreements, leases, subscription terms, insurance policies, and many other document types.',
+      'Whether HiddenFeeAI supports a particular agreement type should be confirmed in current first-party materials before upload.'
+    ],
+    [
+      'That simple discipline will save you more money over time than almost any other financial practice you can adopt.',
+      'That discipline may reduce surprises, but no comparative savings claim is asserted here.'
+    ]
+  ],
+  'can-ai-find-hidden-fees-in-a-contract.html': [
+    [
+      'Unlike manual review where consumers miss 70% of buried charges, AI reads every line with equal attention, flags suspicious language, and compares pricing against industry benchmarks.',
+      'This page does not assert a verified human-review miss rate. Automated review may flag suspicious language and compare pricing where documented benchmark data exists, but extraction and interpretation require verification.'
+    ],
+    [
+      'Many contracts include administrative fees, processing charges, documentation fees, or compliance surcharges that add 5-15% or more to the total cost.',
+      'Administrative, processing, documentation, and compliance charges can affect total cost; this page does not assert a universal percentage increase without a documented dataset.'
+    ],
+    [
+      'Standard material markups in construction run 10-15%, but some contracts show 30-50% markups that AI instantly identifies as red flags.',
+      'Material-markup norms vary by scope, region, contract, and source. Potentially unusual markups can be flagged for review, but no universal range or instant-detection claim is asserted here.'
+    ],
+    [
+      'AI flags all undefined fee language as high-risk because these clauses allow unlimited additional charges after signing.',
+      'Undefined fee language may warrant closer review; it does not automatically prove high risk or unlimited future charges.'
+    ],
+    [
+      'When you upload a contract, the AI uses OCR (Optical Character Recognition) to extract every word from the document, regardless of format. PDF, Word, scanned images, and digital documents are all processed with the same thoroughness. The AI reads every section heading, every fee table, every footnote, and every line of fine print that human reviewers consistently overlook.',
+      'Extraction methods, supported formats, and completeness are product-dependent. The system may analyze text it can extract, but this repository does not verify that every word, page, footnote, or format is processed with equal thoroughness.'
+    ],
+    [
+      'The AI applies its proprietary fee classification taxonomy to categorize every charge found in the document.',
+      'A document-analysis system may classify extractable charges using configured patterns; this repository does not verify a proprietary taxonomy or complete charge coverage.'
+    ],
+    [
+      'The overall contract receives a risk score that tells consumers at a glance whether the agreement contains significant hidden fee exposure.',
+      'If a product supplies a risk score, its meaning and calibration should be confirmed in current first-party documentation; this repository does not establish score semantics.'
+    ],
+    [
+      '<h2>Real-World Example: AI Finds Hidden Fees In A Service Agreement</h2>',
+      '<h2>Illustrative Service-Agreement Scenario</h2>'
+    ],
+    [
+      'The business owner used the AI report to negotiate removal of all undisclosed fees, saving $5,280 annually.',
+      'In an illustrative scenario, a reviewer might use identified questions during negotiation; no customer result or savings amount is asserted here.'
+    ],
+    [
+      'According to industry benchmarks, this fee is 40% above the standard rate, and here is the supporting data.',
+      'A benchmark comparison should identify its source, date, geography, and scope; no universal standard rate is asserted here.'
+    ],
+    [
+      'Combined with professional review, AI provides the most thorough analysis available.',
+      'Combining automated review with professional review may provide additional context; no comparative superlative is asserted here.'
+    ],
+    [
+      'AI can review service agreements, employment contracts, contractor estimates, purchase agreements, leases, financing contracts, software licenses, and most standard business or consumer contracts.',
+      'Supported agreement types are product-dependent; confirm current file and document support before upload.'
+    ],
+    [
+      'AI analysis typically completes within minutes for standard contracts.',
+      'Analysis timing varies by product and document; no standard-contract turnaround benchmark is asserted here.'
+    ],
+    [
+      'Reputable AI document analysis services process documents securely and delete uploaded files after analysis.',
+      'Review each provider\'s current security, retention, and deletion policies; this repository does not independently verify those practices.'
+    ],
+    [
+      'Your documents are processed securely and deleted after analysis.',
+      'Current document-handling practices are governed by HiddenFeeAI first-party policies and are not independently verified by this repository.'
+    ]
+  ],
   'contract-fee-analysis.html': [
     [
       'The financial impact is substantial. A study by the American Bar Association found that nearly 60% of consumers who sign contracts without legal review later discover terms they didn’t understand or agree with. In many cases, those terms cost them thousands of dollars. HiddenFeeAI was built specifically to address this problem. By combining pattern recognition across thousands of contracts with plain-English reporting, the platform turns complex legal language into clear, actionable insights.',

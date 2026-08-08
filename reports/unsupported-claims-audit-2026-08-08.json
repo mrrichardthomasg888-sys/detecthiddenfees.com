@@ -6,10 +6,10 @@
   "page_count": 238,
   "pages_with_candidates": 234,
   "candidate_counts": {
-    "quantitative_amount": 2194,
-    "quantitative_percent": 547,
-    "absolute_or_superlative": 1611,
-    "performance_or_outcome": 153,
+    "quantitative_amount": 2191,
+    "quantitative_percent": 542,
+    "absolute_or_superlative": 1604,
+    "performance_or_outcome": 152,
     "population_or_scale": 180
   },
   "records": [
@@ -2750,7 +2750,7 @@
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15, ",
-          "snippet": "cific questions you can ask before signing. The entire process takes minutes. For a one-time fee of $15, you get a comprehensive analysis that helps you approach the signing with confidence rather than uncertainty. Building the Habit of Pre-Signing Review The most "
+          "snippet": "nd is product-dependent and is not independently verified by this repository. For a one-time fee of $15, you get a comprehensive analysis that helps you approach the signing with confidence rather than uncertainty. Building the Habit of Pre-Signing Review The most "
         },
         {
           "key": "quantitative_amount",
@@ -2762,19 +2762,7 @@
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
-          "snippet": "or thousands of dollars. The mathematical argument is simple. If reviewing a contract with AI costs $15 and potentially saves you from a single $500 mistake, the return on investment is over 3,000 percent. Even if you use the service ten times, you are still ahead"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$500 m",
-          "snippet": "gument is simple. If reviewing a contract with AI costs $15 and potentially saves you from a single $500 mistake, the return on investment is over 3,000 percent. Even if you use the service ten times, you are still ahead after one problem avoided. Common Questions A"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "AI Before Signing Privacy-focused document analysis Documents are not used for AI training One-time $15 payment, no subscription Results in minutes, not days AI provides risk analysis, not legal advice Identify hidden fees before committing Important: HiddenFeeAI "
+          "snippet": "AI Before Signing Privacy-focused document analysis Documents are not used for AI training One-time $15 payment, no subscription Product-dependent turnaround AI provides risk analysis, not legal advice Identify hidden fees before committing Important: HiddenFeeAI "
         },
         {
           "key": "quantitative_amount",
@@ -2893,8 +2881,20 @@
         {
           "key": "absolute_or_superlative",
           "severity": "high",
+          "value": "guaranteed",
+          "snippet": "simple. A review purchase may help organize questions, but savings and return on investment are not guaranteed. Even if you use the service ten times, you are still ahead after one problem avoided. Common Questions About AI Contract Review Before Signing People usually "
+        },
+        {
+          "key": "absolute_or_superlative",
+          "severity": "high",
           "value": "all",
           "snippet": "artnership agreements, complex intellectual property licenses, and litigation settlement agreements all involve legal rights that may require attorney review. AI analysis can supplement legal review but should not replace it for these high-stakes documents. If yo"
+        },
+        {
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "guarantee",
+          "snippet": "stions at a lower stated price than some professional services; it does not replace legal advice or guarantee protection. Why People Use HiddenFeeAI Before Signing Privacy-focused document analysis Documents are not used for AI training One-time $15 payment, no subscri"
         },
         {
           "key": "absolute_or_superlative",
@@ -2912,7 +2912,7 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "es, and any other document that requires your commitment. The key to success is consistency. Review every significant document before you sign it. That simple discipline will save you more money over time than almost any other financial practice you can adopt. Don'"
+          "snippet": "es, and any other document that requires your commitment. The key to success is consistency. Review every significant document before you sign it. That discipline may reduce surprises, but no comparative savings claim is asserted here. Don't Sign Until You Know Wha"
         },
         {
           "key": "population_or_scale",
@@ -2930,7 +2930,7 @@
           "key": "population_or_scale",
           "severity": "high",
           "value": "thousands of",
-          "snippet": " of signing a bad contract. A single missed hidden fee or unfavorable term can cost you hundreds or thousands of dollars. The mathematical argument is simple. If reviewing a contract with AI costs $15 and potentially saves you from a single $500 mistake, the return on inv"
+          "snippet": " of signing a bad contract. A single missed hidden fee or unfavorable term can cost you hundreds or thousands of dollars. The mathematical argument is simple. A review purchase may help organize questions, but savings and return on investment are not guaranteed. Even if y"
         }
       ]
     },
@@ -11070,7 +11070,7 @@
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$24,000 ",
-          "snippet": " In A Service Agreement Case Example: Marketing Services Contract A small business owner received a $24,000 annual marketing services agreement. The contract appeared straightforward with a monthly retainer of $2,000. AI analysis revealed five hidden charges buried ac"
+          "snippet": "vice-Agreement Scenario Case Example: Marketing Services Contract A small business owner received a $24,000 annual marketing services agreement. The contract appeared straightforward with a monthly retainer of $2,000. AI analysis revealed five hidden charges buried ac"
         },
         {
           "key": "quantitative_amount",
@@ -11106,61 +11106,31 @@
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$5,280 ",
-          "snippet": "ompliance review\" charge, and automatic 8% annual price escalation with no cap. Total hidden costs: $5,280 per year on a $24,000 contract — a 22% increase. The business owner used the AI report to negotiate removal of all undisclosed fees, saving $5,280 annually. Che"
+          "snippet": "ompliance review\" charge, and automatic 8% annual price escalation with no cap. Total hidden costs: $5,280 per year on a $24,000 contract — a 22% increase. In an illustrative scenario, a reviewer might use identified questions during negotiation; no customer result o"
         },
         {
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$24,000 ",
-          "snippet": "rge, and automatic 8% annual price escalation with no cap. Total hidden costs: $5,280 per year on a $24,000 contract — a 22% increase. The business owner used the AI report to negotiate removal of all undisclosed fees, saving $5,280 annually. Checklist: Hidden Fees To"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$5,280 ",
-          "snippet": "ncrease. The business owner used the AI report to negotiate removal of all undisclosed fees, saving $5,280 annually. Checklist: Hidden Fees To Review In Every Contract Administrative fees, processing charges, and setup costs not tied to specific deliverables Material"
+          "snippet": "rge, and automatic 8% annual price escalation with no cap. Total hidden costs: $5,280 per year on a $24,000 contract — a 22% increase. In an illustrative scenario, a reviewer might use identified questions during negotiation; no customer result or savings amount is as"
         },
         {
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
-          "snippet": "very line item for hidden fees, pricing risks, and negotiation opportunities. One-time analysis for $15 with no subscription required. Your documents are processed securely and deleted after analysis. Analyze My Document With AI — $15 Disclaimer: This article is f"
+          "snippet": "very line item for hidden fees, pricing risks, and negotiation opportunities. One-time analysis for $15 with no subscription required. Current document-handling practices are governed by HiddenFeeAI first-party policies and are not independently verified by this r"
         },
         {
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
-          "snippet": "ed. Your documents are processed securely and deleted after analysis. Analyze My Document With AI — $15 Disclaimer: This article is for educational and informational purposes only. AI document analysis helps identify potential issues but should be combined with pr"
+          "snippet": "party policies and are not independently verified by this repository. Analyze My Document With AI — $15 Disclaimer: This article is for educational and informational purposes only. AI document analysis helps identify potential issues but should be combined with pr"
         },
         {
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
           "snippet": " — AI-Powered Hidden Fee Detection & Financial Document Analysis for Consumers Review Your Contract $15 Analyze My Contract"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "70%",
-          "snippet": " scanning every clause, pricing term, and fee disclosure. Unlike manual review where consumers miss 70% of buried charges, AI reads every line with equal attention, flags suspicious language, and compares pricing against industry benchmarks. HiddenFeeAI uses fore"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "15%",
-          "snippet": "de administrative fees, processing charges, documentation fees, or compliance surcharges that add 5-15% or more to the total cost. AI flags these when they appear without clear justification or exceed typical market ranges. For example, a $500 \"administrative set"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "15%",
-          "snippet": "paring line-item pricing against known benchmarks. Standard material markups in construction run 10-15%, but some contracts show 30-50% markups that AI instantly identifies as red flags. Duplicate And Overlapping Charges AI scans for duplicate line items listed u"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "50%",
-          "snippet": " known benchmarks. Standard material markups in construction run 10-15%, but some contracts show 30-50% markups that AI instantly identifies as red flags. Duplicate And Overlapping Charges AI scans for duplicate line items listed under different names or categori"
         },
         {
           "key": "quantitative_percent",
@@ -11178,25 +11148,19 @@
           "key": "quantitative_percent",
           "severity": "review",
           "value": "8%",
-          "snippet": "ly), a $600 \"quarterly reporting fee,\" a $300 \"advertising compliance review\" charge, and automatic 8% annual price escalation with no cap. Total hidden costs: $5,280 per year on a $24,000 contract — a 22% increase. The business owner used the AI report to negot"
+          "snippet": "ly), a $600 \"quarterly reporting fee,\" a $300 \"advertising compliance review\" charge, and automatic 8% annual price escalation with no cap. Total hidden costs: $5,280 per year on a $24,000 contract — a 22% increase. In an illustrative scenario, a reviewer might "
         },
         {
           "key": "quantitative_percent",
           "severity": "review",
           "value": "22%",
-          "snippet": " annual price escalation with no cap. Total hidden costs: $5,280 per year on a $24,000 contract — a 22% increase. The business owner used the AI report to negotiate removal of all undisclosed fees, saving $5,280 annually. Checklist: Hidden Fees To Review In Every"
+          "snippet": " annual price escalation with no cap. Total hidden costs: $5,280 per year on a $24,000 contract — a 22% increase. In an illustrative scenario, a reviewer might use identified questions during negotiation; no customer result or savings amount is asserted here. Che"
         },
         {
           "key": "quantitative_percent",
           "severity": "review",
           "value": "15%",
           "snippet": "s, processing charges, and setup costs not tied to specific deliverables Material markups exceeding 15% above documented wholesale or market prices Labor rate padding beyond agreed hourly or project rates Duplicate line items listed under different names or in di"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "40%",
-          "snippet": "e negotiation from \"I think this fee is too high\" to \"According to industry benchmarks, this fee is 40% above the standard rate, and here is the supporting data.\" Limitations Of AI Contract Review AI contract review is a powerful tool but has important limitation"
         },
         {
           "key": "absolute_or_superlative",
@@ -11208,85 +11172,31 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "es In A Contract? Quick Answer Yes, AI can find hidden fees in contracts by systematically scanning every clause, pricing term, and fee disclosure. Unlike manual review where consumers miss 70% of buried charges, AI reads every line with equal attention, flags susp"
+          "snippet": "es In A Contract? Quick Answer Yes, AI can find hidden fees in contracts by systematically scanning every clause, pricing term, and fee disclosure. This page does not assert a verified human-review miss rate. Automated review may flag suspicious language and compar"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "term, and fee disclosure. Unlike manual review where consumers miss 70% of buried charges, AI reads every line with equal attention, flags suspicious language, and compares pricing against industry benchmarks. HiddenFeeAI uses forensic document analysis to identify"
+          "snippet": "uses pattern recognition, pricing benchmarking, and clause analysis to flag potential issues across every section of a contract. Administrative And Processing Fees Administrative, processing, documentation, and compliance charges can affect total cost; this page do"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "uses pattern recognition, pricing benchmarking, and clause analysis to flag potential issues across every section of a contract. Administrative And Processing Fees Many contracts include administrative fees, processing charges, documentation fees, or compliance sur"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "ellaneous fees,\" \"general expenses,\" or \"incidentals\" with no dollar limit or explanation. AI flags all undefined fee language as high-risk because these clauses allow unlimited additional charges after signing. Automatic Renewal And Termination Penalties AI iden"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "a Extraction When you upload a contract, the AI uses OCR (Optical Character Recognition) to extract every word from the document, regardless of format. PDF, Word, scanned images, and digital documents are all processed with the same thoroughness. The AI reads every"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": " word from the document, regardless of format. PDF, Word, scanned images, and digital documents are all processed with the same thoroughness. The AI reads every section heading, every fee table, every footnote, and every line of fine print that human reviewers co"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "d, scanned images, and digital documents are all processed with the same thoroughness. The AI reads every section heading, every fee table, every footnote, and every line of fine print that human reviewers consistently overlook. Step 2: Fee Classification And Ident"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "digital documents are all processed with the same thoroughness. The AI reads every section heading, every fee table, every footnote, and every line of fine print that human reviewers consistently overlook. Step 2: Fee Classification And Identification The AI applie"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": " are all processed with the same thoroughness. The AI reads every section heading, every fee table, every footnote, and every line of fine print that human reviewers consistently overlook. Step 2: Fee Classification And Identification The AI applies its proprietary"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "ith the same thoroughness. The AI reads every section heading, every fee table, every footnote, and every line of fine print that human reviewers consistently overlook. Step 2: Fee Classification And Identification The AI applies its proprietary fee classification "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "ication And Identification The AI applies its proprietary fee classification taxonomy to categorize every charge found in the document. Each fee is classified by type (administrative, markup, surcharge, penalty, etc.), by amount, by description clarity, and by posi"
+          "snippet": "uct-dependent. The system may analyze text it can extract, but this repository does not verify that every word, page, footnote, or format is processed with equal thoroughness. Step 2: Fee Classification And Identification A document-analysis system may classify ext"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "Every",
-          "snippet": "s deviate from expected norms, giving consumers concrete data for negotiation. Step 4: Risk Scoring Every fee and clause receives a risk score based on amount, clarity, industry norms, and position in the document. The overall contract receives a risk score that te"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": " a $24,000 contract — a 22% increase. The business owner used the AI report to negotiate removal of all undisclosed fees, saving $5,280 annually. Checklist: Hidden Fees To Review In Every Contract Administrative fees, processing charges, and setup costs not tied "
+          "snippet": "s deviate from expected norms, giving consumers concrete data for negotiation. Step 4: Risk Scoring Every fee and clause receives a risk score based on amount, clarity, industry norms, and position in the document. If a product supplies a risk score, its meaning an"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "Every",
-          "snippet": "otiate removal of all undisclosed fees, saving $5,280 annually. Checklist: Hidden Fees To Review In Every Contract Administrative fees, processing charges, and setup costs not tied to specific deliverables Material markups exceeding 15% above documented wholesale o"
+          "snippet": "tiation; no customer result or savings amount is asserted here. Checklist: Hidden Fees To Review In Every Contract Administrative fees, processing charges, and setup costs not tied to specific deliverables Material markups exceeding 15% above documented wholesale o"
         },
         {
           "key": "absolute_or_superlative",
@@ -11298,13 +11208,13 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "Always",
-          "snippet": " AI document analysis services process documents securely and delete uploaded files after analysis. Always review the service data handling policy before uploading sensitive contracts. Does AI replace a lawyer for contract review? No. AI identifies potential issues "
+          "snippet": "y, retention, and deletion policies; this repository does not independently verify those practices. Always review the service data handling policy before uploading sensitive contracts. Does AI replace a lawyer for contract review? No. AI identifies potential issues "
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "timate, bill, or financial agreement to HiddenFeeAI for comprehensive AI analysis. Our system scans every line item for hidden fees, pricing risks, and negotiation opportunities. One-time analysis for $15 with no subscription required. Your documents are processed "
+          "snippet": "timate, bill, or financial agreement to HiddenFeeAI for comprehensive AI analysis. Our system scans every line item for hidden fees, pricing risks, and negotiation opportunities. One-time analysis for $15 with no subscription required. Current document-handling pra"
         },
         {
           "key": "absolute_or_superlative",
@@ -11316,19 +11226,13 @@
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "OCR",
-          "snippet": "egotiations. Step 1: Document Ingestion And Data Extraction When you upload a contract, the AI uses OCR (Optical Character Recognition) to extract every word from the document, regardless of format. PDF, Word, scanned images, and digital documents are all process"
-        },
-        {
-          "key": "performance_or_outcome",
-          "severity": "high",
-          "value": "OCR",
           "snippet": "es, AI contract review tools process PDF files, scanned documents, Word files, and digital formats. OCR technology extracts text from scanned contracts for full analysis. How accurate is AI at finding hidden fees? AI consistently identifies fee patterns that huma"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "Accuracy",
-          "snippet": "I analysis works best with English-language contracts but can process documents in other languages. Accuracy may vary based on language and document complexity. Is AI contract review confidential? Reputable AI document analysis services process documents securely and "
+          "snippet": "I analysis works best with English-language contracts but can process documents in other languages. Accuracy may vary based on language and document complexity. Is AI contract review confidential? Review each provider's current security, retention, and deletion polici"
         }
       ]
     },
