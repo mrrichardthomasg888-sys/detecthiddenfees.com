@@ -1,0 +1,39 @@
+name: DetectHiddenFees earned mention monitor
+
+on:
+  schedule:
+    - cron: '17 15 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Check approved target pages for public mentions
+        run: node scripts/monitor-earned-mentions.js
+
+      - name: Record confirmed public detections only
+        shell: bash
+        run: |
+          if git diff --quiet -- seo/earned-mention-log.json; then
+            echo "No new public mention or backlink detected."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add seo/earned-mention-log.json
+          git commit -m "Record earned mention detection"
+          git push origin HEAD:main

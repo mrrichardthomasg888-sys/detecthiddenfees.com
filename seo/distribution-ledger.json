@@ -1,0 +1,11 @@
+{
+  "version": "2026-08-08.1",
+  "source_research": "https://detecthiddenfees.com/hidden-fee-database",
+  "status": "approval_required",
+  "records": [
+    { "distribution_id": "D-2026-001", "platform": "LinkedIn", "content": "Evidence Review methodology post", "status": "draft", "published_url": null, "date": null, "impressions": null, "clicks": null, "referrals": null, "conversions": null },
+    { "distribution_id": "D-2026-002", "platform": "YouTube", "content": "Three source-backed hidden-fee checks Short", "status": "draft", "published_url": null, "date": null, "impressions": null, "clicks": null, "referrals": null, "conversions": null },
+    { "distribution_id": "D-2026-003", "platform": "Reddit", "content": "Discussion: difficult-to-understand fees", "status": "draft", "published_url": null, "date": null, "impressions": null, "clicks": null, "referrals": null, "conversions": null },
+    { "distribution_id": "D-2026-004", "platform": "GitHub", "content": "Public dataset documentation", "status": "not_connected", "published_url": null, "date": null, "impressions": null, "clicks": null, "referrals": null, "conversions": null }
+  ]
+}

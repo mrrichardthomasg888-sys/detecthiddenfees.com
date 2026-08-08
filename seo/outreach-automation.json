@@ -1,0 +1,49 @@
+{
+  "version": "2026-08-08.1",
+  "mode": "blocked_at_credential_boundary",
+  "purpose": "Low-volume, individualized editorial outreach and earned-mention monitoring. This configuration contains no secrets and defaults to no sending.",
+  "email": {
+    "provider": "brevo",
+    "api_endpoint": "https://api.brevo.com/v3/smtp/email",
+    "enabled": false,
+    "send_flag": "OUTREACH_SEND_ENABLED=1",
+    "required_secret": "BREVO_API_KEY",
+    "required_sender_env": "OUTREACH_FROM_EMAIL",
+    "required_reply_to_env": "OUTREACH_REPLY_TO",
+    "required_sender_verification": true,
+    "plain_text_only": true,
+    "initial_batch_max": 4,
+    "bcc_allowed": false,
+    "url_shorteners_allowed": false,
+    "follow_up_days": 8,
+    "max_follow_ups": 1
+  },
+  "dns_observed": {
+    "mx_provider": "Cloudflare Email Routing",
+    "spf": "v=spf1 include:_spf.mx.cloudflare.net ~all",
+    "spf_status": "present_not_verified_for_sending_provider",
+    "dmarc": "v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com",
+    "dmarc_status": "present_monitoring_only",
+    "dkim_status": "selector_not_found_in_public_probe",
+    "brevo_domain_code": "present_publicly_but_not_an_api_authorization"
+  },
+  "social": {
+    "linkedin": { "status": "not_connected", "official_connection": "LinkedIn OAuth app with member or organization posting permission" },
+    "youtube": { "status": "not_connected", "official_connection": "YouTube Data API project and OAuth channel authorization" },
+    "reddit": { "status": "not_connected", "official_connection": "Reddit OAuth app and account authorization" },
+    "github": { "status": "not_connected", "official_connection": "GitHub App or fine-grained token with repository content permission" }
+  },
+  "search_console": {
+    "status": "not_connected",
+    "existing_importer": "scripts/import-search-console.js",
+    "required_dimensions": ["query", "page", "date"]
+  },
+  "safety": {
+    "never_send_without_verified_sender": true,
+    "never_send_to_contact_form_automatically": true,
+    "never_send_to_declined_or_suppressed_target": true,
+    "never_send_duplicate_message": true,
+    "never_send_more_than_one_follow_up": true,
+    "store_runtime_state_outside_git": true
+  }
+}
