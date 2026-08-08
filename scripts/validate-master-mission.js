@@ -11,7 +11,7 @@ for (const line of read('_redirects').split(/\r?\n/)) {
   if (match) redirects.add(`/${match[1].replace(/\.html$/i, '')}`);
 }
 const issues = [];
-const stats = { pages: sitemapUrls.length, missingTitle: 0, missingDescription: 0, badCanonicalCount: 0, badH1Count: 0, missingJsonLd: 0, noindex: 0, brokenInternalLinks: 0, internalRedirectLinks: 0, legacyHtmlLinks: 0, staleBreadcrumbReferences: 0 };
+const stats = { pages: sitemapUrls.length, missingTitle: 0, missingDescription: 0, badCanonicalCount: 0, badH1Count: 0, missingJsonLd: 0, noindex: 0, brokenInternalLinks: 0, internalRedirectLinks: 0, legacyHtmlLinks: 0, staleRetiredAliasReferences: 0 };
 const localHref = /(?:href|src)=["'](\/[^"'#?\s>]+)/gi;
 
 for (const url of sitemapUrls) {
@@ -35,13 +35,9 @@ for (const url of sitemapUrls) {
   if (h1Count !== 1) { stats.badH1Count++; issues.push(`${file}: expected one H1, found ${h1Count}`); }
   if (!jsonLdCount) { stats.missingJsonLd++; issues.push(`${file}: missing JSON-LD`); }
   if (isNoindex) { stats.noindex++; issues.push(`${file}: sitemap page is noindex`); }
-  const breadcrumbBlocks = html.match(/<script\b[^>]*type=["']application\/ld\+json["'][^>]*>[\s\S]*?<\/script>/gi) || [];
-  for (const block of breadcrumbBlocks) {
-    if (!/"@type"\s*:\s*"BreadcrumbList"/.test(block)) continue;
-    if (/ai-document-intelligence-center/.test(block) || /AI Document Intelligence Center/.test(block)) {
-      stats.staleBreadcrumbReferences++;
-      issues.push(`${file}: BreadcrumbList references retired AI Document Intelligence Center alias`);
-    }
+  if (/ai-document-intelligence-center/.test(html) || /AI Document Intelligence Center/.test(html)) {
+    stats.staleRetiredAliasReferences++;
+    issues.push(`${file}: references retired AI Document Intelligence Center alias`);
   }
   let match;
   while ((match = localHref.exec(html))) {

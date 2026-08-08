@@ -14,7 +14,8 @@ let changed = 0;
 for (const file of files) {
   const filePath = path.join(root, file);
   const source = fs.readFileSync(filePath, 'utf8');
-  const next = source.replace(
+  if (!source.includes(retiredUrl) && !source.includes(retiredLabel)) continue;
+  const structuredDataNormalized = source.replace(
     /(<script\b[^>]*type=["']application\/ld\+json["'][^>]*>)([\s\S]*?)(<\/script>)/gi,
     (block, open, json, close) => {
       if (!/"@type"\s*:\s*"BreadcrumbList"/.test(json)) return block;
@@ -24,10 +25,14 @@ for (const file of files) {
       return updated === json ? block : `${open}${updated}${close}`;
     }
   );
+  const next = structuredDataNormalized
+    .replaceAll(retiredUrl, canonicalUrl)
+    .replaceAll(retiredLabel, canonicalLabel)
+    .replace(/[ \t]+$/gm, '');
   if (next !== source) {
     fs.writeFileSync(filePath, next, 'utf8');
     changed += 1;
   }
 }
 
-console.log(`Normalized retired BreadcrumbList references on ${changed} pages; skipped redirect source ${[...excludedFiles].join(', ')}.`);
+console.log(`Normalized retired hub references on ${changed} pages; skipped redirect source ${[...excludedFiles].join(', ')}.`);
