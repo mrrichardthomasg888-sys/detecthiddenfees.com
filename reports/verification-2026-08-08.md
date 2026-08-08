@@ -25,6 +25,7 @@
 - A generated CTA-path audit now reads the canonical sitemap and local HTML directly: 238 canonical pages, 752 HiddenFeeAI links inside main content, 117 explicitly annotated main links, 8 pages with an existing internal funnel path, and 9 pages with no direct product or recognized internal funnel path. Performance fields remain explicitly disconnected; the older manual conversion audit is marked historical.
 - The attribution runtime now emits a separate `dhf_funnel_path_click` event for the 14 existing internal analysis/upload links, while outbound HiddenFeeAI links continue to emit `dhf_cta_click`. The events carry sanitized path, landing, referrer, session, action, and placement context only; no document content is handled.
 - Discovery governance now derives `llms.txt` and RSS candidates from indexable self-canonical HTML rather than trusting a possibly stale sitemap input. The validator confirms 238 canonical HTML candidates exactly match the 238 sitemap URLs and rejects future drift; the refreshed RSS contains 178 editorial items with the verified August 8 Research Lab update dates.
+- The static-site dashboard layer now generates `reports/seo-dashboard-current.md` with real structural counts and explicit `DATA SOURCE NOT CONNECTED`, `INTEGRATION REQUIRED`, and `NOT POPULATED` states. Its validator rejects placeholder zero performance metrics; no `/admin/seo` route or credentials were published.
 
 ## Production verification
 
