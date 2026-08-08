@@ -4,11 +4,11 @@
   "status": "candidate_inventory",
   "interpretation": "Matches require source review; this inventory does not label every match as false or unsupported.",
   "page_count": 238,
-  "pages_with_candidates": 234,
+  "pages_with_candidates": 233,
   "candidate_counts": {
-    "quantitative_amount": 1883,
-    "quantitative_percent": 469,
-    "absolute_or_superlative": 1517,
+    "quantitative_amount": 1867,
+    "quantitative_percent": 468,
+    "absolute_or_superlative": 1512,
     "performance_or_outcome": 154,
     "population_or_scale": 152
   },
@@ -13912,143 +13912,6 @@
           "severity": "high",
           "value": "Always",
           "snippet": "ovides informational analysis and is not a substitute for legal, financial, or professional advice. Always consult qualified professionals for significant financial or legal decisions. Related Resources Agreement Analysis Tool Read the complete guide covering hidden"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "is industry, with more examples and detailed analysis. Read Guide → Back to Examples Library Browse all educational examples to learn how hidden fees appear across different document types and industries. All Examples → Knowledge Center Educational articles answe"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "All",
-          "snippet": "ducational examples to learn how hidden fees appear across different document types and industries. All Examples → Knowledge Center Educational articles answering common questions about hidden fees, contract review, and financial document analysis. Visit Knowledg"
-        }
-      ]
-    },
-    {
-      "file": "example-medical-bill.html",
-      "matches": [
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 M",
-          "snippet": "re against your own medical bills to identify potential overcharges. Upload & Analyze My Document — $15 Medical Bill / Hospital Statement Illustrative example Not a real customer document Educational purposes only The Scenario A patient receives a $12,500 hospital "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$12,500 ",
-          "snippet": "ve example Not a real customer document Educational purposes only The Scenario A patient receives a $12,500 hospital bill after a three-day stay for a routine procedure. The bill contains multiple line items that appear questionable upon review. Document Type Medical "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$12,500 ",
-          "snippet": "tionable upon review. Document Type Medical Bill / Hospital Statement Pricing Breakdown Total Bill: $12,500 Room & Board (3 days): $4,800 Surgery / Procedure: $3,900 Medications & Supplies: $1,850 Lab Work & Imaging: $1,200 Facility Fee: $450 Miscellaneous Charges: $3"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$4,800 ",
-          "snippet": "Type Medical Bill / Hospital Statement Pricing Breakdown Total Bill: $12,500 Room & Board (3 days): $4,800 Surgery / Procedure: $3,900 Medications & Supplies: $1,850 Lab Work & Imaging: $1,200 Facility Fee: $450 Miscellaneous Charges: $300 Potential Hidden Fees Ident"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$3,900 M",
-          "snippet": " Statement Pricing Breakdown Total Bill: $12,500 Room & Board (3 days): $4,800 Surgery / Procedure: $3,900 Medications & Supplies: $1,850 Lab Work & Imaging: $1,200 Facility Fee: $450 Miscellaneous Charges: $300 Potential Hidden Fees Identified The following charges i"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$1,850 ",
-          "snippet": "tal Bill: $12,500 Room & Board (3 days): $4,800 Surgery / Procedure: $3,900 Medications & Supplies: $1,850 Lab Work & Imaging: $1,200 Facility Fee: $450 Miscellaneous Charges: $300 Potential Hidden Fees Identified The following charges in this document may be inflate"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$1,200 ",
-          "snippet": "ard (3 days): $4,800 Surgery / Procedure: $3,900 Medications & Supplies: $1,850 Lab Work & Imaging: $1,200 Facility Fee: $450 Miscellaneous Charges: $300 Potential Hidden Fees Identified The following charges in this document may be inflated, unnecessary, or deceptiv"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$450 M",
-          "snippet": "Surgery / Procedure: $3,900 Medications & Supplies: $1,850 Lab Work & Imaging: $1,200 Facility Fee: $450 Miscellaneous Charges: $300 Potential Hidden Fees Identified The following charges in this document may be inflated, unnecessary, or deceptive. Each item include"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$300 ",
-          "snippet": "Medications & Supplies: $1,850 Lab Work & Imaging: $1,200 Facility Fee: $450 Miscellaneous Charges: $300 Potential Hidden Fees Identified The following charges in this document may be inflated, unnecessary, or deceptive. Each item includes the potential overcharge "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$175 ",
-          "snippet": " lab test appears twice with the same date and amount. One should be removed. Potential Overcharge: $175 Facility Fee on Top of Room Charge A $450 facility fee is charged in addition to the daily room rate, which may be double-billing for the same facility use. Pot"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$450 ",
-          "snippet": " and amount. One should be removed. Potential Overcharge: $175 Facility Fee on Top of Room Charge A $450 facility fee is charged in addition to the daily room rate, which may be double-billing for the same facility use. Potential Overcharge: $450 Unbundled Procedur"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$450 ",
-          "snippet": "o the daily room rate, which may be double-billing for the same facility use. Potential Overcharge: $450 Unbundled Procedure Codes The surgery charge includes individual line items for supplies and equipment that are typically bundled into the procedure cost. Poten"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$340 M",
-          "snippet": "or supplies and equipment that are typically bundled into the procedure cost. Potential Overcharge: $340 Medication Markup Medication charges exceed typical retail pharmacy prices by 300-400%. Potential Overcharge: $420 Important: These potential hidden fees are ide"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$420 ",
-          "snippet": " Markup Medication charges exceed typical retail pharmacy prices by 300-400%. Potential Overcharge: $420 Important: These potential hidden fees are identified for illustrative purposes. Actual document analysis results may vary. Always consult qualified professiona"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "is that identifies hidden fees, pricing risks, and negotiation opportunities. Analyze My Document — $15 No subscription. No long-term commitment. Secure analysis. AI Tools AI Financial Advisor AI Contract Review AI Bill Analyzer AI Agreement Analyzer Hidden Fee De"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": " 2026 DetectHiddenFees.com — AI-Powered Hidden Fee Detection for Consumers Review Your Medical Bill $15 Analyze My Medical Bill"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "400%",
-          "snippet": " Overcharge: $340 Medication Markup Medication charges exceed typical retail pharmacy prices by 300-400%. Potential Overcharge: $420 Important: These potential hidden fees are identified for illustrative purposes. Actual document analysis results may vary. Always "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "Always",
-          "snippet": "al hidden fees are identified for illustrative purposes. Actual document analysis results may vary. Always consult qualified professionals for advice specific to your situation. Questions a Consumer Should Ask If you encounter similar charges in your own document, h"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": " ask the provider or service company: Key Questions • Can I get an itemized bill with CPT codes for every charge? • Why does the Complete Blood Count appear twice with the same date? • What does the Facility Fee cover separately from the daily room charge? • Are th"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "Always",
-          "snippet": "ovides informational analysis and is not a substitute for legal, financial, or professional advice. Always consult qualified professionals for significant financial or legal decisions. Related Resources Medical Billing Guide Read the complete guide covering hidden f"
         },
         {
           "key": "absolute_or_superlative",

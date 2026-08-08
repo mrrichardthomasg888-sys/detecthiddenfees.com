@@ -351,6 +351,22 @@ const forbiddenByFile = {
     'Private document processing',
     'Secure document processing'
   ],
+  'example-medical-bill.html': [
+    'This illustrative example shows common medical billing errors',
+    'A patient receives a $12,500 hospital bill',
+    'Potential Hidden Fees Identified',
+    'Potential Overcharge',
+    'may be inflated, unnecessary, or deceptive',
+    'Facility Fee on Top of Room Charge',
+    'Unbundled Procedure Codes',
+    'Medication Markup',
+    '300-400%',
+    '$420',
+    'prioritized list of charges to dispute',
+    'AI-Powered Hidden Fee Detection for Consumers',
+    'Analyze My Medical Bill â€” $15',
+    'Review Your Medical Bill'
+  ],
   'ai-lease-review.html': ['American Bar Association found', 'nearly 60% of consumers', 'cost them thousands of dollars', 'pattern recognition across thousands of contracts', 'accepts most common file types', 'encrypted and secure', 'never stored permanently', 'equal thoroughness', 'deleted promptly after analysis', 'three to five minutes', '$15,000 mistake', 'Real Examples of AI Contract Review Findings', 'anonymized cases from HiddenFeeAI users', 'reads every word with the same level of attention', 'against its training data', 'dramatically reduces your risk', 'accepts PDFs, Word documents, images', '95%+ of known risk patterns', '$200-$500 per hour', 'specifically designed to detect hidden fees'],
   'contract-fee-analysis.html': ['American Bar Association found that nearly 60%', 'cost them thousands of dollars', 'takes about three to five minutes'],
   'ai-agreement-analyzer.html': ['save you hundreds or thousands of dollars', 'AI reads every word so you do not have to'],
