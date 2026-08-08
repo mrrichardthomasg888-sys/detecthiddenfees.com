@@ -3,7 +3,7 @@
 ## Source deployment
 
 - Changes were pushed directly to GitHub `main`.
-- Latest verified commit: `c647fd4` (`Qualify financial and contract risk claims`).
+- Latest verified commit: `822a8cf` (`Qualify contract fee guidance claims`).
 - The pre-existing user-owned change to `calculator-authority.css` remains unstaged and untouched.
 
 ## Local verification
@@ -18,6 +18,6 @@
 
 ## Production verification
 
-After the normal propagation window, the live host verified the three extensionless aliases as HTTP 301 responses to their canonical destinations. The four pages in the latest claim-remediation batch returned HTTP 200, one canonical, and attribution enabled; the targeted unsupported phrases were absent from the served HTML.
+After the normal propagation window, the live host verified the three extensionless aliases as HTTP 301 responses to their canonical destinations. The latest six remediated pages returned HTTP 200, one canonical, and attribution enabled; the targeted unsupported phrases were absent from the served HTML.
 
 The repository contains no deployment workflow that publishes the site from `main`, but the existing hosting connection did publish the pushed GitHub commit after propagation. No host credentials, API keys, or Cloudflare changes were made.
