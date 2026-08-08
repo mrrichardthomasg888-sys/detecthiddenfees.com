@@ -8,7 +8,8 @@ const expected = {
   'hidden-streaming-fees.html': { action: 'subscription_fee_review', text: 'Subscription' },
   'hidden-landscaping-fees.html': { action: 'estimate_review', text: 'Landscaping Estimate' },
   'ai-estimate-review.html': { action: 'estimate_review', text: 'Review My Estimate' },
-  'ai-bill-analyzer.html': { action: 'bill_analysis', text: 'Review My Bill' }
+  'ai-bill-analyzer.html': { action: 'bill_analysis', text: 'Review My Bill' },
+  'ai-financial-analysis.html': { action: 'document_analysis', text: 'Review My Financial Document' }
 };
 const errors = [];
 

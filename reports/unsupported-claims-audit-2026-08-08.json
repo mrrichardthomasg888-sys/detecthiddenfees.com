@@ -6,11 +6,11 @@
   "page_count": 238,
   "pages_with_candidates": 234,
   "candidate_counts": {
-    "quantitative_amount": 2116,
-    "quantitative_percent": 500,
-    "absolute_or_superlative": 1586,
-    "performance_or_outcome": 141,
-    "population_or_scale": 168
+    "quantitative_amount": 2098,
+    "quantitative_percent": 499,
+    "absolute_or_superlative": 1575,
+    "performance_or_outcome": 140,
+    "population_or_scale": 167
   },
   "records": [
     {
@@ -4852,238 +4852,46 @@
       "file": "ai-financial-analysis.html",
       "matches": [
         {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "explores the technology powering financial AI and its practical applications. Analyze My Document — $15 Upload a supported financial document AI detects hidden fees & risks $15 one-time analysis Private document processing Introduction: The AI Revolution in Financ"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ons. Analyze My Document — $15 Upload a supported financial document AI detects hidden fees & risks $15 one-time analysis Private document processing Introduction: The AI Revolution in Financial Analysis Financial analysis has traditionally been the domain of cert"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$295",
-          "snippet": " document. But AI financial analysis understands that a \"processing and administrative surcharge of $295\" in a mortgage disclosure is different from a \"permit fee of $295\" in a contractor estimate. This contextual understanding enables the AI to evaluate whether s"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$295",
-          "snippet": "g and administrative surcharge of $295\" in a mortgage disclosure is different from a \"permit fee of $295\" in a contractor estimate. This contextual understanding enables the AI to evaluate whether specific charges are reasonable or potentially problematic. Modern "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$500 ",
-          "snippet": "scovered fees and pricing against industry standards, geographic norms, and typical market rates. A $500 permit fee might be reasonable in one jurisdiction but excessive in another. The AI factors in these variables to provide contextually relevant analysis. Risk S"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$200",
-          "snippet": "ndependently verified Hidden fee detection rate 30-60% Not independently verified Cost per analysis $200-500 $15 Scalability (multiple documents) Limited Product-dependent Key Applications of AI for Financial Analysis AI for financial analysis serves several disti"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "tly verified Hidden fee detection rate 30-60% Not independently verified Cost per analysis $200-500 $15 Scalability (multiple documents) Limited Product-dependent Key Applications of AI for Financial Analysis AI for financial analysis serves several distinct appli"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$1,500 ",
-          "snippet": "who use AI financial analysis before signing contracts or paying invoices report average savings of $1,500 to $5,000 per document reviewed. Review current pricing before purchase; savings and return on investment depend on the document, decision, and outcome and are "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$5,000 ",
-          "snippet": " financial analysis before signing contracts or paying invoices report average savings of $1,500 to $5,000 per document reviewed. Review current pricing before purchase; savings and return on investment depend on the document, decision, and outcome and are not guaran"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$62,000 k",
-          "snippet": "ganize questions. It is not a reported customer result or savings guarantee. A homeowner received a $62,000 kitchen renovation quote from a general contractor. Before signing, they uploaded the estimate to an AI financial analysis platform. The analysis identified a 28"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$2,200 ",
-          "snippet": "arkup on all materials — nearly double the standard 15 percent contractor markup. It also flagged a $2,200 \"project management fee\" that was not disclosed during the initial consultation and a $1,400 permit fee that exceeded the actual cost by 180 percent. In an illu"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$1,400 ",
-          "snippet": "gged a $2,200 \"project management fee\" that was not disclosed during the initial consultation and a $1,400 permit fee that exceeded the actual cost by 180 percent. In an illustrative scenario, a homeowner might use findings to ask for clarification or negotiate; no s"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "charges Negotiate excessive markups Clarify ambiguous contract terms Analyze My Documents With AI — $15 Industries Transforming With AI Financial Analysis AI for financial analysis is transforming how consumers interact with financial documents across numerous ind"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": " financial analysis cost? Costs vary by platform. HiddenFeeAI offers one-time document analysis for $15 with no subscription required. This compares favorably to traditional professional review costing $200-500 per hour. Are my documents secure during AI analysis?"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$200",
-          "snippet": "5 with no subscription required. This compares favorably to traditional professional review costing $200-500 per hour. Are my documents secure during AI analysis? Reputable AI financial analysis platforms encrypt documents during transmission and storage, do not u"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "zer: Document Intelligence 📚 Hidden Fee Guides: Industry Deep Dives Analyze My Documents With AI — $15 Experience AI-Powered Financial Analysis Today Upload a supported financial document to review potential hidden fees and pricing questions. Findings are informa"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "l, depend on the product and document, and do not guarantee savings. Analyze My Documents With AI — $15 No subscription. No long-term commitment. Secure processing. TOOLS AI Contract Review AI Bill Analyzer AI Document Checker Hidden Fee Detector Upload Document D"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ed professionals when needed. Read our Editorial Policy for details. Review Your Financial Document $15 Analyze My Document"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "60%",
-          "snippet": "endent timing Analysis consistency Variable Not independently verified Hidden fee detection rate 30-60% Not independently verified Cost per analysis $200-500 $15 Scalability (multiple documents) Limited Product-dependent Key Applications of AI for Financial Analy"
-        },
-        {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "Every",
-          "snippet": "umers detect hidden fees, review contracts, analyze invoices, and make smarter financial decisions. Every analysis delivers actionable negotiation leverage — giving you specific questions and talking points to challenge unfair pricing before you pay or sign. This c"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "guaranteed",
-          "snippet": "ize questions about financial documents, but this page does not claim professional equivalence or a guaranteed cost advantage. AI systems may flag potential hidden fees, pricing anomalies, and financial risks; this repository does not publish a verified comparison with "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "s to provide contextually relevant analysis. Risk Scoring Engine. The risk scoring layer aggregates all findings into a comprehensive risk assessment. Each identified issue receives a severity score based on the likelihood that it represents a genuine hidden fee "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "tement Analysis. Bank statements, investment account statements, and retirement account disclosures all contain fee structures, transaction patterns, and pricing information that benefit from AI analysis. The technology identifies recurring charges, unusual trans"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "guaranteed",
-          "snippet": "urchase; savings and return on investment depend on the document, decision, and outcome and are not guaranteed. Time Savings. Manual review of a complex financial document takes 2-4 hours for a knowledgeable reviewer. AI analysis completes the same review in under 60 se"
+          "value": "guarantee",
+          "snippet": "ills, and statements around fees, terms, amounts, and questions that need verification. It does not guarantee accuracy, savings, or a particular outcome. Extract and organize document information Compare related records Surface questions for human review AI is not prof"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "guarantee",
-          "snippet": "ly to show how a reviewer might organize questions. It is not a reported customer result or savings guarantee. A homeowner received a $62,000 kitchen renovation quote from a general contractor. Before signing, they uploaded the estimate to an AI financial analysis plat"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "d the estimate to an AI financial analysis platform. The analysis identified a 28 percent markup on all materials — nearly double the standard 15 percent contractor markup. It also flagged a $2,200 \"project management fee\" that was not disclosed during the initia"
+          "snippet": "lified professional based on the document and issue. Important limits No universal accuracy rate No guarantee of savings No automatic legal finding Review product privacy terms Evidence and Trustworthy AI Sources The NIST AI Risk Management Framework guidance describes"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "ity, extracting relevant information that consumers can act on without needing to become experts in every financial domain. Limited Review Time. Consumers often have limited time to review documents before signing. Contract offers expire, invoice payment deadlines "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "guarantee",
-          "snippet": "eview may help organize document checks, but timing and completeness vary; no speed or thoroughness guarantee is asserted here. Cognitive Bias. Consumers tend to trust service providers, particularly when those providers seem friendly, professional, or come recommended"
+          "snippet": " sensitive document. How accurate is AI financial analysis? There is no universal accuracy rate for every document or use case. Reliability depends on document quality, extraction, language, context, and the consequences of an error. Important findings should be ch"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "tractable language, structure, and pricing in supported documents; it cannot be assumed to identify every fee. A system may flag vague language, unusual pricing, duplicate charges, or fee structures for review; effectiveness depends on documented data, context, and"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "always",
-          "snippet": "percent. Accuracy is lower for unusual documents or creative pricing structures. AI analysis should always be reviewed by the consumer before taking action. Can AI replace human financial analysts? AI complements rather than replaces human financial analysts. AI han"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "ch platform's privacy policy before uploading sensitive documents. Can AI financial analysis detect all hidden fees? AI financial analysis is highly effective at detecting common hidden fee patterns but cannot guarantee detection of every possible fee. Creative p"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "guarantee",
-          "snippet": " fees? AI financial analysis is highly effective at detecting common hidden fee patterns but cannot guarantee detection of every possible fee. Creative pricing structures, uniquely disguised fees, or fees buried in non-standard document formats may evade detection. AI "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "lysis is highly effective at detecting common hidden fee patterns but cannot guarantee detection of every possible fee. Creative pricing structures, uniquely disguised fees, or fees buried in non-standard document formats may evade detection. AI analysis should be "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "guarantee",
-          "snippet": "s and pricing questions. Findings are informational, depend on the product and document, and do not guarantee savings. Analyze My Documents With AI — $15 No subscription. No long-term commitment. Secure processing. TOOLS AI Contract Review AI Bill Analyzer AI Document "
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": "term financial implications of signed agreements. A single overlooked contract clause can result in thousands of dollars in unexpected costs over the life of an agreement. AI contract analysis focuses on several key risk areas. Automatic renewal clauses commit consumers t"
-        },
-        {
-          "key": "performance_or_outcome",
-          "severity": "high",
-          "value": "OCR",
-          "snippet": "on. The foundation layer converts physical documents and scanned images into machine-readable text. OCR quality and extraction completeness vary by document, image quality, layout, and product. No 99-percent benchmark is asserted here. Natural Language Processing"
+          "snippet": "itive records; this page does not promise a particular retention or security outcome. Can AI detect every hidden fee? No. Fees can be omitted from a document, described ambiguously, embedded in another term, or dependent on facts outside the document. AI review is "
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "accuracy",
-          "snippet": "enance, or coverage. The repository does not verify a continuously expanding library or a resulting accuracy improvement. The ML models identify both explicit fees and implicit pricing structures that suggest hidden costs. Comparative Benchmarking. The benchmarking la"
+          "snippet": "statements around fees, terms, amounts, and questions that need verification. It does not guarantee accuracy, savings, or a particular outcome. Extract and organize document information Compare related records Surface questions for human review AI is not professional "
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "accuracy",
-          "snippet": "l analysis? For common fee patterns in standard financial documents, AI financial analysis achieves accuracy rates of 85-95 percent. Accuracy is lower for unusual documents or creative pricing structures. AI analysis should always be reviewed by the consumer before ta"
+          "snippet": "ney, or other qualified professional based on the document and issue. Important limits No universal accuracy rate No guarantee of savings No automatic legal finding Review product privacy terms Evidence and Trustworthy AI Sources The NIST AI Risk Management Framework "
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
-          "value": "Accuracy",
-          "snippet": "ns in standard financial documents, AI financial analysis achieves accuracy rates of 85-95 percent. Accuracy is lower for unusual documents or creative pricing structures. AI analysis should always be reviewed by the consumer before taking action. Can AI replace human"
+          "value": "accuracy",
+          "snippet": "efore submitting a sensitive document. How accurate is AI financial analysis? There is no universal accuracy rate for every document or use case. Reliability depends on document quality, extraction, language, context, and the consequences of an error. Important findin"
         }
       ]
     },
