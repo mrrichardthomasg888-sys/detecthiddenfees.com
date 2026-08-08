@@ -8,9 +8,9 @@
   "candidate_counts": {
     "quantitative_amount": 2199,
     "quantitative_percent": 547,
-    "absolute_or_superlative": 1636,
-    "performance_or_outcome": 154,
-    "population_or_scale": 198
+    "absolute_or_superlative": 1637,
+    "performance_or_outcome": 155,
+    "population_or_scale": 194
   },
   "records": [
     {
@@ -181,13 +181,13 @@
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
-          "snippet": "r estimate for AI-assisted fee detection. Get a detailed analysis in minutes. Analyze My Document — $15 Ready to start negotiating? Upload your bill to HiddenFeeAI and get a detailed analysis of what you should challenge. Know exactly what to say and save money. U"
+          "snippet": "s fit your needs. Turnaround and findings depend on the product and document. Analyze My Document — $15 Ready to start negotiating? Upload your bill to HiddenFeeAI to review potential issues and questions to raise. Findings are informational and do not guarantee s"
         },
         {
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
-          "snippet": "ed analysis of what you should challenge. Know exactly what to say and save money. Upload My Bill — $15 Start Negotiating Your Bills Today Don't pay more than you have to. Let AI analyze your bills and give you the leverage you need. Analyze My Bill → $15 one-time"
+          "snippet": ". Findings are informational and do not guarantee savings or a particular outcome. Upload My Bill — $15 Start Negotiating Your Bills Today Don't pay more than you have to. Let AI analyze your bills and give you the leverage you need. Analyze My Bill → $15 one-time"
         },
         {
           "key": "quantitative_amount",
@@ -205,37 +205,37 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "es, and potentially unfavorable contract language. However, AI has limitations. It may not identify every issue, and it may occasionally flag charges or terms that are legitimate. New fee structures emerge regularly, and the AI may not immediately recognize pattern"
+          "snippet": "sis patterns, not a verified training-corpus size. However, AI has limitations. It may not identify every issue, and it may occasionally flag charges or terms that are legitimate. New fee structures emerge regularly, and the AI may not immediately recognize pattern"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "All",
-          "snippet": "rivacy & AI Security policy explains our data handling practices in detail. Our Editorial Standards All content on DetectHiddenFees.com follows our Editorial Policy , which outlines our fact-checking process, correction procedures, and commitment to accurate info"
+          "snippet": "rent Privacy & AI Security information before uploading sensitive material. Our Editorial Standards All content on DetectHiddenFees.com follows our Editorial Policy , which outlines our fact-checking process, correction procedures, and commitment to accurate info"
         },
         {
-          "key": "population_or_scale",
+          "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "thousands of",
-          "snippet": "ssionals when making financial or legal decisions. AI Accuracy and Limitations Our AI is trained on thousands of documents to recognize common hidden fee patterns, pricing anomalies, and potentially unfavorable contract language. However, AI has limitations. It may not id"
-        },
-        {
-          "key": "performance_or_outcome",
-          "severity": "high",
-          "value": "Accuracy",
-          "snippet": "fy any important findings with qualified professionals when making financial or legal decisions. AI Accuracy and Limitations Our AI is trained on thousands of documents to recognize common hidden fee patterns, pricing anomalies, and potentially unfavorable contract la"
+          "value": "guarantee",
+          "snippet": "iddenFeeAI to review potential issues and questions to raise. Findings are informational and do not guarantee savings or a particular outcome. Upload My Bill — $15 Start Negotiating Your Bills Today Don't pay more than you have to. Let AI analyze your bills and give yo"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "Accuracy",
-          "snippet": "y recognize patterns it has not been trained on. We are transparent about these limitations. Our AI Accuracy & Limitations page provides detailed information about what our AI can and cannot do. Our Approach to Privacy Privacy is fundamental to how we operate. Documen"
+          "snippet": "fy any important findings with qualified professionals when making financial or legal decisions. AI Accuracy and Limitations Public materials do not document a HiddenFeeAI training-data count. This site describes potential analysis patterns, not a verified training-co"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "Accuracy",
-          "snippet": "ons Not rely solely on AI for significant financial or legal decisions For more details, see our AI Accuracy & Limitations and Security Overview pages. Ready to analyze your documents? Upload any bill, contract, invoice, or estimate for AI-assisted fee detection. Get "
+          "snippet": "y recognize patterns it has not been trained on. We are transparent about these limitations. Our AI Accuracy & Limitations page provides detailed information about what our AI can and cannot do. Our Approach to Privacy Privacy is important when reviewing financial doc"
+        },
+        {
+          "key": "performance_or_outcome",
+          "severity": "high",
+          "value": "Accuracy",
+          "snippet": "ons Not rely solely on AI for significant financial or legal decisions For more details, see our AI Accuracy & Limitations and Security Overview pages. Ready to analyze your documents? Upload a bill, contract, invoice, or estimate through HiddenFeeAI if its current pr"
         }
       ]
     },
@@ -442,6 +442,18 @@
         {
           "key": "absolute_or_superlative",
           "severity": "high",
+          "value": "guarantee",
+          "snippet": "ay help identify questions about hidden fees, automatic renewals, and unbalanced terms. It does not guarantee savings, and a careful review cannot make every contract risk avoidable. Many people assume that standard contracts are fair because they look professional and"
+        },
+        {
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "every",
+          "snippet": "tic renewals, and unbalanced terms. It does not guarantee savings, and a careful review cannot make every contract risk avoidable. Many people assume that standard contracts are fair because they look professional and official. Professional appearance has nothing t"
+        },
+        {
+          "key": "absolute_or_superlative",
+          "severity": "high",
           "value": "never",
           "snippet": "er contracts and standard business agreements, AI provides a level of review that most people would never get otherwise. The most expensive contract is the one you sign without reading. Even a quick AI review catches the most common issues that cost consumers money"
         },
@@ -468,12 +480,6 @@
           "severity": "high",
           "value": "Every",
           "snippet": "e interpreted in multiple ways. The handling of changes and modifications is another critical area. Every agreement encounters situations that require adjustments. The question is whether the process for making adjustments is fair and transparent. Agreements that g"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "contract can include provisions that cost you thousands if you do not read them carefully. AI reads every word so you do not have to. Contract review is not about being paranoid. It is about being practical. The vast majority of contracts contain at least some term"
         },
         {
           "key": "absolute_or_superlative",
@@ -576,12 +582,6 @@
           "severity": "high",
           "value": "every",
           "snippet": "te. The combination of speed, consistency, and affordability makes AI analysis a practical tool for every significant agreement you encounter in your personal and professional life. Ready to review your AI agreement analyzer? Upload your document for AI-powered ana"
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": "e agreement. The few minutes it takes to upload a document for AI analysis can save you hundreds or thousands of dollars. Hidden fees, automatic renewals, and unbalanced terms are expensive mistakes that are completely avoidable with proper review before signing. Many peo"
         },
         {
           "key": "population_or_scale",
@@ -836,7 +836,7 @@
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
-          "snippet": "ees, and negotiation opportunities. Get your analysis in minutes and start saving. Upload My Bill — $15 AI Analysis Methodology: How Our Detection System Identifies Hidden Fees Welcome to the most detailed explanation available of how artificial intelligence analy"
+          "snippet": "ees, and negotiation opportunities. Get your analysis in minutes and start saving. Upload My Bill — $15 AI Analysis Methodology: How Our Detection System Identifies Hidden Fees This page provides a high-level description of document-analysis concepts and a review "
         },
         {
           "key": "quantitative_amount",
@@ -872,7 +872,7 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "eAI works, what it looks for, how accurate it is, and how you can use its findings to save money on every document you upload. Understanding the technology behind AI document analysis helps you trust the results and use them more effectively in your negotiations wi"
+          "snippet": "k. It is not a verified implementation specification, accuracy benchmark, or promise of savings for every uploaded document. Understanding the technology behind AI document analysis helps you trust the results and use them more effectively in your negotiations with"
         },
         {
           "key": "absolute_or_superlative",
@@ -890,19 +890,13 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "all",
-          "snippet": "ltiple formats including PDF, Word, image files, and plain text. During this stage, the AI extracts all textual content from the document, identifies the document type, and creates a structured representation that can be analyzed systematically. The AI identifies"
+          "snippet": "-dependent and should be confirmed on HiddenFeeAI before upload. During this stage, the AI extracts all textual content from the document, identifies the document type, and creates a structured representation that can be analyzed systematically. The AI identifies"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "all",
-          "snippet": "documents come in many different formats and organizational structures, and the AI must handle them all consistently to produce reliable results. Stage two is data extraction and categorization. The AI identifies every individual charge, fee, term, and condition "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "tly to produce reliable results. Stage two is data extraction and categorization. The AI identifies every individual charge, fee, term, and condition in the document and categorizes each element by type. Charges are categorized as base costs, taxes, fees, surcharge"
+          "snippet": "documents come in many different formats and organizational structures, and the AI must handle them all consistently to produce reliable results. Stage two is data extraction and categorization. The AI attempts to identify charges, fees, terms, and conditions tha"
         },
         {
           "key": "absolute_or_superlative",
@@ -929,16 +923,10 @@
           "snippet": " important findings require human review and, where appropriate, professional advice. Can AI detect all types of hidden fees? No. Document quality, context, jurisdiction, and unfamiliar fee structures can affect results. The tool should be treated as an aid to re"
         },
         {
-          "key": "population_or_scale",
+          "key": "performance_or_outcome",
           "severity": "high",
-          "value": "thousands of",
-          "snippet": "gotiation scripts. HiddenFeeAI was built specifically for this purpose and has been refined through thousands of real-world analyses. How the AI Analysis Process Works The AI analysis process follows a structured workflow designed to maximize accuracy while minimizing fal"
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": "ise with the billing department or service provider. These recommendations are based on analysis of thousands of successful negotiations and legal challenges to similar issues. They are designed to be practical and immediately actionable, giving users the specific languag"
+          "value": "accuracy",
+          "snippet": "cument-analysis concepts and a review framework. It is not a verified implementation specification, accuracy benchmark, or promise of savings for every uploaded document. Understanding the technology behind AI document analysis helps you trust the results and use them"
         },
         {
           "key": "performance_or_outcome",
