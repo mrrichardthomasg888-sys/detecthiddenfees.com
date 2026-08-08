@@ -893,7 +893,7 @@ This section records the current implementation state so future work can resume 
 - User-directed deployment: push directly to GitHub `main`; do not create a PR and do not deploy through a Cloudflare dashboard.
 - Current working branch during this work: `codex/calculator-native-branding-fix-2026-08-05`.
 - A pre-existing user-owned change to `calculator-authority.css` is intentionally unstaged and must not be included unless the user explicitly asks for it.
-- Latest verified remote `main`: `bf79a28` (`Correct exact GSC URL audit`).
+- Latest verified remote `main`: `9a6159a` (`Strengthen contractor estimate authority page`).
 - Preserve existing URLs, templates, logo, typography, navigation, footer, CSS tokens, and visual design. New work must look native to the existing site.
 
 ### Completed systems and verified results
@@ -917,6 +917,8 @@ This section records the current implementation state so future work can resume 
 - Production verification for `3215db2`: `/seo/evidence-register.json` returns HTTP 200 with `status=collecting` and `records=0`; `/reports/seo-dashboard-current.md` returns HTTP 200 as a public-safe structural status report with no connected performance, customer, document, conversion, or revenue data; `/admin/seo` returns HTTP 404; and `/ai-analysis-hub` returns HTTP 200. This is intentional: the safe status report may be public, while an authenticated dashboard and external data integrations remain absent.
 - Audited the supplied Search Console “Page with redirect” export: 146 rows were checked live; 132 used host-level HTTP 308 `.html` normalization, 13 used explicit HTTP 301 legacy aliases, and one stale route (`/alphabet-links.html`) returned 404. Added matching 301 rules for `/alphabet-links.html` and `/alphabet-links` to the existing `/hidden-fee-dictionary` glossary resource. Production now returns HTTP 301 for both aliases and HTTP 200 for the dictionary target; no sitemap or canonical URL changed.
 - Corrected `reports/gsc-example-url-audit-2026-08-08.md` to describe the exact 40 user-supplied `.html` URLs: 38 first return HTTP 308 normalization and 2 first return explicit HTTP 301; their extensionless canonical destinations return HTTP 200 with self-referencing canonicals. The prior wording incorrectly counted the normalized destinations as direct 200 responses.
+- Strengthened the high-intent `/what-fees-should-i-look-for-in-a-contractor-estimate` page without changing its URL or design: removed unsupported cost ranges, invented bathroom-renovation case-study savings, universal markup/hour benchmarks, and unverified product/database claims; added an answer-first review framework, official FTC and California CSLB source links with jurisdiction caveats, evidence-safe FAQs, product limitations, and a clear illustrative-not-case-study label. Added the page to the repeatable unverified-product-claim gate, which now checks 21 priority pages. RSS description and `dateModified` were refreshed to 2026-08-08.
+- Production verification for `9a6159a`: the page returns HTTP 200 with both official source links, no old 20–40% claim, no invented case study, updated date, canonical URL, and eight visible/schema-aligned FAQ items. Browser checks at mobile and desktop widths reported no horizontal overflow and no console errors or warnings.
 
 ### Current attribution improvement now deployed
 

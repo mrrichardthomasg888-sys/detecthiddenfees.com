@@ -3,7 +3,7 @@
 ## Source deployment
 
 - Changes were pushed directly to GitHub `main`.
-- Latest verified commit: `bf79a28` (`Correct exact GSC URL audit`), following the discovery governance, deployment handoff, canonical opportunity, attribution, contextual CTA, Research Lab, navigation, cache-bust, embed-route, hub, safe dashboard, evidence-governance, and redirect fixes.
+- Latest verified commit: `9a6159a` (`Strengthen contractor estimate authority page`), following the discovery governance, deployment handoff, canonical opportunity, attribution, contextual CTA, Research Lab, navigation, cache-bust, embed-route, hub, safe dashboard, evidence-governance, redirect, and exact GSC audit fixes.
 - The pre-existing user-owned change to `calculator-authority.css` remains unstaged and untouched.
 
 ## Local verification
@@ -49,3 +49,5 @@ After commit `3215db2` propagated, `/seo/evidence-register.json` returned HTTP 2
 After commit `ad534c5` propagated, the exact stale coverage URL `/alphabet-links.html` and its extensionless counterpart `/alphabet-links` returned HTTP 301 to `/hidden-fee-dictionary`; the target returned HTTP 200. This repaired the only 404 found while auditing all 146 rows in the supplied “Page with redirect” export. The other 145 rows are intentional legacy redirects, documented in `reports/gsc-page-with-redirect-audit-2026-08-08.md`.
 
 The exact 40 user-supplied `.html` examples were re-audited and the report was corrected: 38 first return HTTP 308 normalization and 2 first return explicit HTTP 301; all 40 extensionless destinations return HTTP 200 with self-referencing canonicals. This corrected the audit wording without changing any page, sitemap entry, or canonical URL.
+
+The contractor-estimate authority page was verified after commit `9a6159a`. Production returned HTTP 200 and exposed the FTC and California CSLB source links, the updated 2026-08-08 date, eight FAQ items, and the self-canonical URL. The removed unsupported range and invented case-study markers were absent. At the browser’s mobile and desktop test widths, document width matched the viewport content width with no horizontal overflow; console error and warning logs were empty.
