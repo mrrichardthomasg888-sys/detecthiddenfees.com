@@ -3,7 +3,7 @@
 ## Source deployment
 
 - Changes were pushed directly to GitHub `main`.
-- Latest verified commit: `d22b611` (`Qualify contract analysis product claims`).
+- Latest verified commit: `c647fd4` (`Qualify financial and contract risk claims`).
 - The pre-existing user-owned change to `calculator-authority.css` remains unstaged and untouched.
 
 ## Local verification
@@ -18,6 +18,6 @@
 
 ## Production verification
 
-The live host continued to return HTTP 200 for the three extensionless aliases after six checks over approximately 21 seconds. The expected 301 redirects were therefore not observed in production, and the redirect fix is not being represented as live until the host publishes the current GitHub `main` commit.
+After the normal propagation window, the live host verified the three extensionless aliases as HTTP 301 responses to their canonical destinations. The four pages in the latest claim-remediation batch returned HTTP 200, one canonical, and attribution enabled; the targeted unsupported phrases were absent from the served HTML.
 
-The repository contains no deployment workflow that publishes the site from `main`. Production publication requires the existing hosting connection or an authorized deployment action outside this repository. No host credentials, API keys, or Cloudflare changes were made.
+The repository contains no deployment workflow that publishes the site from `main`, but the existing hosting connection did publish the pushed GitHub commit after propagation. No host credentials, API keys, or Cloudflare changes were made.
