@@ -6,11 +6,11 @@
   "page_count": 238,
   "pages_with_candidates": 234,
   "candidate_counts": {
-    "quantitative_amount": 2074,
+    "quantitative_amount": 2044,
     "quantitative_percent": 496,
     "absolute_or_superlative": 1561,
     "performance_or_outcome": 153,
-    "population_or_scale": 165
+    "population_or_scale": 164
   },
   "records": [
     {
@@ -15959,208 +15959,22 @@
       "file": "hidden-bank-overdraft-fees.html",
       "matches": [
         {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": " → Upload bank statements &amp; transaction records AI detects hidden fees &amp; overdraft patterns $15 one-time analysis Private document processing What Are Hidden Bank Overdraft Fees? Hidden bank overdraft fees occur when banks charge unexpected penalties after"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$30 ",
-          "snippet": "il they review their statements closely. The average overdraft fee in the United States ranges from $30 to $40 per transaction, and banks can charge multiple fees in a single day. Over the course of a year, these hidden charges can add up to hundreds or even thous"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$40 ",
-          "snippet": " review their statements closely. The average overdraft fee in the United States ranges from $30 to $40 per transaction, and banks can charge multiple fees in a single day. Over the course of a year, these hidden charges can add up to hundreds or even thousands of"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$30",
-          "snippet": "raft penalties that rapidly increase account costs. Each overdraft transaction can trigger a fee of $30-$40, and multiple transactions in a single day can result in hundreds of dollars in penalties. ATM Surcharge Fees Using out-of-network ATMs can trigger hidden "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$40, ",
-          "snippet": " penalties that rapidly increase account costs. Each overdraft transaction can trigger a fee of $30-$40, and multiple transactions in a single day can result in hundreds of dollars in penalties. ATM Surcharge Fees Using out-of-network ATMs can trigger hidden bankin"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$2 ",
-          "snippet": "twork ATMs can trigger hidden banking surcharges and transaction costs. These fees often range from $2 to $5 per withdrawal, and can add up quickly for frequent ATM users. Monthly Maintenance Charges Checking accounts often include recurring maintenance fees hidd"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$5 ",
-          "snippet": "ATMs can trigger hidden banking surcharges and transaction costs. These fees often range from $2 to $5 per withdrawal, and can add up quickly for frequent ATM users. Monthly Maintenance Charges Checking accounts often include recurring maintenance fees hidden ins"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$5 ",
-          "snippet": "ften include recurring maintenance fees hidden inside lengthy agreements. These fees can range from $5 to $15 per month, costing consumers up to $180 annually for basic account services. Transaction Reordering Practices Some banks process larger transactions firs"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "nclude recurring maintenance fees hidden inside lengthy agreements. These fees can range from $5 to $15 per month, costing consumers up to $180 annually for basic account services. Transaction Reordering Practices Some banks process larger transactions first, incr"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$180 ",
-          "snippet": "n inside lengthy agreements. These fees can range from $5 to $15 per month, costing consumers up to $180 annually for basic account services. Transaction Reordering Practices Some banks process larger transactions first, increasing the likelihood of additional over"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$30 ",
-          "snippet": "ufficient funds, banks may still charge a fee. These non-sufficient funds (NSF) fees can range from $30 to $40 per declined transaction. Paper Statement Fees Some banks charge fees for paper statements, even though account holders may not have requested or authori"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$40 ",
-          "snippet": "nt funds, banks may still charge a fee. These non-sufficient funds (NSF) fees can range from $30 to $40 per declined transaction. Paper Statement Fees Some banks charge fees for paper statements, even though account holders may not have requested or authorized the"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "oser scrutiny, giving you confidence when negotiating with your bank. Get My Banking Fee Analysis — $15 Real-World Examples of Hidden Banking Fees Consider a hypothetical scenario where a consumer reviews their bank statement and discovers the following hidden cha"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$35 ",
-          "snippet": "tement and discovers the following hidden charges over a three-month period: Four overdraft fees at $35 each — $140 Three ATM surcharges for out-of-network withdrawals — $15 Monthly maintenance fees of $12 for three months — $36 Two insufficient funds fees at $35 "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$140 ",
-          "snippet": "discovers the following hidden charges over a three-month period: Four overdraft fees at $35 each — $140 Three ATM surcharges for out-of-network withdrawals — $15 Monthly maintenance fees of $12 for three months — $36 Two insufficient funds fees at $35 each — $70 O"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 M",
-          "snippet": "eriod: Four overdraft fees at $35 each — $140 Three ATM surcharges for out-of-network withdrawals — $15 Monthly maintenance fees of $12 for three months — $36 Two insufficient funds fees at $35 each — $70 One paper statement fee of $3 — $3 The total hidden charges "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$12 ",
-          "snippet": "5 each — $140 Three ATM surcharges for out-of-network withdrawals — $15 Monthly maintenance fees of $12 for three months — $36 Two insufficient funds fees at $35 each — $70 One paper statement fee of $3 — $3 The total hidden charges in this example exceed $260 in "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$36 ",
-          "snippet": " surcharges for out-of-network withdrawals — $15 Monthly maintenance fees of $12 for three months — $36 Two insufficient funds fees at $35 each — $70 One paper statement fee of $3 — $3 The total hidden charges in this example exceed $260 in just three months — ove"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$35 ",
-          "snippet": "drawals — $15 Monthly maintenance fees of $12 for three months — $36 Two insufficient funds fees at $35 each — $70 One paper statement fee of $3 — $3 The total hidden charges in this example exceed $260 in just three months — over $1,000 annually. Without careful "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$70 ",
-          "snippet": "15 Monthly maintenance fees of $12 for three months — $36 Two insufficient funds fees at $35 each — $70 One paper statement fee of $3 — $3 The total hidden charges in this example exceed $260 in just three months — over $1,000 annually. Without careful review, the"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$3 ",
-          "snippet": "$12 for three months — $36 Two insufficient funds fees at $35 each — $70 One paper statement fee of $3 — $3 The total hidden charges in this example exceed $260 in just three months — over $1,000 annually. Without careful review, these fees would likely go unnoti"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$3 ",
-          "snippet": "or three months — $36 Two insufficient funds fees at $35 each — $70 One paper statement fee of $3 — $3 The total hidden charges in this example exceed $260 in just three months — over $1,000 annually. Without careful review, these fees would likely go unnoticed a"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$260 ",
-          "snippet": "t $35 each — $70 One paper statement fee of $3 — $3 The total hidden charges in this example exceed $260 in just three months — over $1,000 annually. Without careful review, these fees would likely go unnoticed and be paid unnecessarily. AI-powered analysis can hel"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$1,000 ",
-          "snippet": "ent fee of $3 — $3 The total hidden charges in this example exceed $260 in just three months — over $1,000 annually. Without careful review, these fees would likely go unnoticed and be paid unnecessarily. AI-powered analysis can help identify these patterns and flag "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "es hidden fees, overdraft patterns, and potential savings opportunities. Upload My Bank Statement — $15 Frequently Asked Questions About Hidden Bank Overdraft Fees What are hidden bank overdraft fees? Hidden bank overdraft fees occur when banks charge unexpected p"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$30 ",
-          "snippet": "le account holders and generate excessive banking profits. The average overdraft fee can range from $30 to $40 per transaction, and banks may charge multiple fees in a single day, creating significant financial hardship for consumers. Can AI detect hidden banking "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$40 ",
-          "snippet": "unt holders and generate excessive banking profits. The average overdraft fee can range from $30 to $40 per transaction, and banks may charge multiple fees in a single day, creating significant financial hardship for consumers. Can AI detect hidden banking charges"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 billion",
-          "snippet": "e billions of dollars annually from overdraft fees. In recent years, U.S. banks have collected over $15 billion in overdraft and insufficient funds fees, with some banks earning more from fees than from credit card interest or other traditional banking services. Related "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "intenance costs, and deceptive banking charges using AI-powered analysis. Analyze My Banking Fees — $15 No subscription. No long-term commitment. Secure analysis. Related: Browse all Hidden Fees Guides for comprehensive fee information. Sources and scope For U.S. "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "n & Legal Artificial Intelligence for Consumers Review Your Financial Document Scan Your Statements $15 Analyze My Document"
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "every",
+          "snippet": "t disclosure, and applicable rules. This guide shows how to review the record without assuming that every charge is unlawful or unexpected. Review a Statement &darr; Explore Banking Fees Transaction-specific rules Account disclosures matter Source-aware review Huma"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "All",
-          "snippet": "s identify potential hidden fees and prepare better questions for banks and financial institutions. All final decisions remain with you. Analyze Banking Fees Before They Add Up Upload banking statements and financial documents to identify hidden overdraft fees, A"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "ze My Banking Fees — $15 No subscription. No long-term commitment. Secure analysis. Related: Browse all Hidden Fees Guides for comprehensive fee information. Sources and scope For U.S. consumer-banking questions, consult the Consumer Financial Protection Bureau o"
+          "value": "always",
+          "snippet": "expects. The statement and account agreement are stronger evidence than a general claim that a bank always reorders transactions. A simple impact calculation To measure the documented cost for a review period, add the posted fee amounts and separate one-time, recurr"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "ction Bureau overdraft-fee guidance and related CFPB circular . These sources do not establish that every overdraft or account fee is improper; account terms, transaction type, and applicable law matter. Sources: Consumer Financial Protection Bureau, consumer guida"
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": "ees in a single day. Over the course of a year, these hidden charges can add up to hundreds or even thousands of dollars in unnecessary costs. Understanding how these fees work — and how to spot them — is essential for anyone who wants to keep more of their money. Common "
+          "snippet": "an overdraft fee. The rule does not apply the same way to checks, recurring electronic payments, or every account service, so check the transaction type and account disclosures. What is the difference between an overdraft fee and an NSF fee? An overdraft commonly r"
         }
       ]
     },
