@@ -1416,6 +1416,19 @@ The master validator baseline is 238 pages with zero missing titles/descriptions
 - Legal blocker: these are general website terms, not a substitute for qualified counsel. Before relying on them as the business's complete binding terms, the site owner should provide or approve the operating entity, jurisdictions, product scope, refund/payment rules, privacy obligations, and limitation language.
 - Next work: audit remaining Search Console pages for unsupported claims and keyword cannibalization, then prioritize internal-link and conversion-path improvements using real Search Console data only.
 
+## Evidence-safe AI contract review page - 2026-08-08
+
+- Code commit `b95a7a2` remediated `ai-contract-review.html`, a central contract-review and conversion page that previously combined unsupported fixed pricing, turnaround, accuracy, benchmark, universal-coverage, risk-score, savings, legal-outcome, privacy, and product-security claims.
+- The page now uses a verification-first workflow: preserve the complete record, define the question, locate source passages, reconcile related records, and escalate to qualified advice when stakes require it. It covers pricing/payment, renewal/cancellation, scope/change terms, and risk allocation without claiming that a flag proves illegality, fraud, unfairness, liability, or savings.
+- The existing URL, logo, header/navigation, footer, typography, colors, responsive template, and commercial conversion path were preserved. Two contextual HiddenFeeAI links remain, annotated `contract_review` at top and end positions, and both direct readers to current first-party product terms before upload.
+- Organization, WebSite, Article, BreadcrumbList, WebPage, and FAQPage JSON-LD remain; eight visible FAQs match eight FAQ schema questions. Product and SoftwareApplication schema are absent. The sticky product bar, `$15` copy, old product footer wording, and unsupported product promises were removed.
+- Guarded idempotent script `scripts/remediate-ai-contract-review-page.js` ran twice. The unverified product-claim gate remains green for 49 priority pages, including the merged exact retired-claim set for this page.
+- The regenerated unsupported-claims inventory remains explicitly a candidate review list: 238 canonical pages, 233 with matches, with matches requiring source review rather than automatically proving a claim is false or unsupported.
+- Full local validation passed: 238 canonical pages; zero master structural/link/indexability/legacy-alias failures; sitemap 238; llms 238; RSS 180 total / 179 editorial; 50 valid redirects; 15 opportunity records without invented performance data; attribution valid on 238 sitemap pages; 28 contextual CTA pages; collecting-only research/evidence registers with zero records; explicit dashboard source statuses; four high-risk claim checks; and 15 calculator checks.
+- Production HTTP reached the new HTML on attempt 9 at `https://detecthiddenfees.com/ai-contract-review?deploy=b95a7a2`. The first fresh browser tabs were stale; after propagation, final live desktop 1280px and mobile 390px checks confirmed the new title, one H1, eight visible/schema-aligned FAQs, two annotated CTAs, direct answer, no retired claims, no sticky bar, no Product/SoftwareApplication schema, and no overflow.
+- Commit `b95a7a2` was pushed directly to GitHub `main`. No PR and no Cloudflare deployment were used. The separate user-owned `calculator-authority.css` modification remains unstaged and untouched.
+- Next work: continue the remaining high-risk candidate audit, then produce an evidence-backed internal-link/cannibalization priority list using connected Search Console data only.
+
 ## Authority roadmap correction - 2026-08-08
 
 - Updated `seo/authority-roadmap.md` so its trust-page inventory reflects the current evidence-safe state of `privacy-and-ai-security.html`, `security-overview.html`, `data-handling-policy.html`, and `terms-of-service.html`.

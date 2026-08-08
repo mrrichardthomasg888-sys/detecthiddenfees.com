@@ -404,6 +404,19 @@ The invoice analyzer guide was verified after commit `eae5423` propagated. A cac
 - Legal review remains required before treating this as a complete binding commercial terms document. The owner must approve entity, jurisdictions, product scope, refund/payment rules, privacy obligations, and limitation language.
 - Next work: continue the Search Console claim audit and then prioritize internal-link/cannibalization and conversion improvements from connected, real Search Console data.
 
+## Evidence-safe AI contract review page - 2026-08-08
+
+- Commit `b95a7a2` remediated `ai-contract-review.html`. Removed unsupported fixed pricing, turnaround, accuracy, benchmark, universal-coverage, risk-score, savings, legal-outcome, privacy, and product-security claims.
+- The page now provides a verification-first workflow covering record preservation, focused questions, source passages, related-record reconciliation, and qualified escalation. It preserves a potential finding as a lead for verification rather than a legal, financial, or savings conclusion.
+- Existing URL, logo, header/navigation, footer, typography, colors, responsive template, and conversion path were preserved. Two HiddenFeeAI CTAs remain with `contract_review` metadata at top/end positions and current-first-party-terms guidance.
+- JSON-LD includes Organization, WebSite, Article, BreadcrumbList, WebPage, and FAQPage. Eight visible FAQs match eight schema questions. Product and SoftwareApplication schema are absent. Sticky product bar, `$15` copy, and retired product promises are absent.
+- Guarded idempotent script `scripts/remediate-ai-contract-review-page.js` ran twice. The unverified product-claim gate remains green for 49 priority pages.
+- The regenerated unsupported-claim report is a candidate inventory, not an automatic verdict: 238 canonical pages, 233 with matches requiring source review.
+- Full local validation passed: 238 canonical pages; zero master structural/link/indexability/legacy-alias failures; discovery assets valid at sitemap 238/canonical 238/llms 238/RSS 180; 50 redirect rules; 15 opportunity records without invented performance data; attribution valid on 238 sitemap pages; 28 contextual CTA pages; collecting-only research/evidence registers; explicit dashboard source statuses; four high-risk claim checks; 15 calculator checks; and clean diffs.
+- Production HTTP propagated on attempt 9 at `https://detecthiddenfees.com/ai-contract-review?deploy=b95a7a2`. The initial browser tabs were stale; after propagation, live desktop 1280px and mobile 390px checks confirmed the corrected title, one H1, eight visible/schema-aligned FAQs, two annotated CTAs, direct answer, no retired claims, no sticky bar, no Product/SoftwareApplication schema, and no overflow.
+- Commit `b95a7a2` was pushed directly to GitHub `main`; the user-owned `calculator-authority.css` change remains unstaged and untouched. No PR or Cloudflare deployment was used.
+- Next work: continue the high-risk candidate audit, then prioritize internal-link/cannibalization improvements from connected Search Console data only.
+
 ## Authority roadmap correction - 2026-08-08
 
 - Updated `seo/authority-roadmap.md` to replace stale trust-page descriptions with the verified evidence-safe state of the privacy, security, data-handling, and terms pages.
