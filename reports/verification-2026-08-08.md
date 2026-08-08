@@ -3,7 +3,7 @@
 ## Source deployment
 
 - Changes were pushed directly to GitHub `main`.
-- Latest verified commits: `85c74d9` (hub claim/source remediation), `13f65dc` (responsive navigation fix), and `fe101d8` (immutable stylesheet cache-bust to `sticky7`).
+- Latest verified commits: `85c74d9` (hub claim/source remediation), `13f65dc` (responsive navigation fix), `fe101d8` (immutable stylesheet cache-bust to `sticky7`), and `6d90402` (non-indexable embed-template route protection).
 - The pre-existing user-owned change to `calculator-authority.css` remains unstaged and untouched.
 
 ## Local verification
@@ -17,11 +17,15 @@
 - The shared stylesheet cache-bust is consistent across 234 HTML files; no `sticky6` references remain and all current references use `sticky7`.
 - All known `.html` redirect aliases now have matching extensionless 301 rules.
 - Search Console import remains explicitly `not_connected` with zero records; no fabricated query, click, position, or revenue data was added.
+- Current discovery alignment is canonical-only: sitemap 238 URLs, `llms.txt` 238 URLs, and RSS 178 editorial items; no non-sitemap or redirect-source URLs are present in those assets.
+- The raw `embed-code-template.html` fragment is excluded from the sitemap and its `.html` redirect and extensionless final route are protected with `X-Robots-Tag: noindex, nofollow, noarchive`; the final route is no-store.
 
 ## Production verification
 
 After propagation, the live host verified the three extensionless aliases as HTTP 301 responses to their canonical destinations. The 40 Search Console example URLs were rechecked: 38 return HTTP 200 with self-referencing canonicals and 2 duplicate aliases return HTTP 301. The updated `hidden-fees-guides` page returns HTTP 200 with the new source/limitations section, source links, updated description, one canonical, one H1, five JSON-LD blocks, and the refreshed date.
 
 Fresh browser checks at 320px, 390px, and 1440px verified no document-level horizontal overflow. At 320px and 390px the shared navigation wraps with `overflow-x: visible` and `flex-wrap: wrap`; at 1440px the desktop layout remains unchanged. Console error/warning logs were empty during the checks.
+
+The live embed-template redirect chain was checked with headers disabled from caching: the `.html` source returns a permanent redirect with noindex, and the extensionless final response also returns noindex/no-follow/no-archive and no-store caching.
 
 The repository contains no deployment workflow that publishes the site from `main`, but the existing hosting connection published the pushed GitHub commits after propagation. No host credentials, API keys, or Cloudflare changes were made.
