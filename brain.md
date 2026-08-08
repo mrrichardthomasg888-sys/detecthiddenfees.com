@@ -943,6 +943,18 @@ This section records the current implementation state so future work can resume 
 - Commit `ca945fc` adds `dhf_funnel_path_click` tracking for existing internal `/analyze-my-bill`, `/analyze-my-document`, and `/upload-*` paths. Fourteen existing internal funnel links are annotated with action/placement metadata; outbound HiddenFeeAI links continue to emit `dhf_cta_click`.
 - The runtime, validator, internal-link annotator, generated CTA audit refresh, attribution contract update, verification report, and this handoff were validated and pushed directly to GitHub `main`. The pre-existing `calculator-authority.css` change remains unstaged and untouched.
 
+### Retired hub alias cleanup — 2026-08-08
+
+- Commit `f1d8c38` corrected stale `AI Document Intelligence Center` BreadcrumbList schema labels and URLs to the canonical `/ai-analysis-hub` resource on 27 affected pages.
+- Commit `a4c152b` completed the cleanup across all canonical HTML pages. It removed the retired hub URL/name from visible breadcrumbs, related links, and JSON-LD while preserving the redirect source `ai-document-intelligence-center.html` itself.
+- The cleanup changed 32 canonical pages. The reusable `scripts/remediate-breadcrumb-aliases.js` script is guarded, idempotent, and skips unaffected files so future runs do not create unrelated whitespace changes.
+- `scripts/validate-master-mission.js` now checks the entire canonical HTML set for stale `ai-document-intelligence-center` or `AI Document Intelligence Center` references. The current 238-page result is zero stale references, zero missing metadata, zero bad canonicals, zero duplicate-H1 failures, zero missing JSON-LD blocks, zero accidental noindex pages, zero broken internal links, zero internal redirect links, and zero legacy `.html` links.
+- Full local validation passed after the cleanup: opportunity engine, unverified-product-claim gate, attribution, contextual CTAs, research data, discovery assets, redirects, evidence register, SEO dashboard, calculator authority, unsupported-claim audit, and `git diff --check`. The pre-existing `calculator-authority.css` change remains unstaged and untouched.
+- The code was pushed directly to GitHub `main`. Latest deployed code commit is `a4c152b`; the prior schema-only pass is `f1d8c38`. No PR and no Cloudflare dashboard deployment were used.
+- Production HTTP verification after propagation checked all 32 changed extensionless URLs with cache-busting requests: all returned HTTP 200 and none contained the retired alias/name. Representative pages were clean on the third propagation check.
+- Browser verification needs to be treated carefully: the in-app browser continued showing a stale old breadcrumb label for `/ai-analysis-hub` even with unique cache-busting query strings, while direct production HTTP checks were clean and browser console logs were empty. Do not record this as a clean browser DOM verification unless a fresh browser session confirms it; investigate cache/snapshot behavior if it persists.
+- Next session should read `reports/verification-2026-08-08.md`, confirm the latest GitHub commit and live propagation, then continue with the next evidence-backed priority. Do not stage `calculator-authority.css` automatically.
+
 ### Validation baseline
 
 The following checks were passing at the end of the 2026-08-08 work session:
