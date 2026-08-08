@@ -89,6 +89,21 @@ const forbiddenByFile = {
     'No subscription',
     'Secure processing'
   ],
+  'terms-of-service.html': [
+    'Terms of Service | DetectHiddenFees',
+    'These terms govern your use of DetectHiddenFees.com and HiddenFeeAI.com',
+    'one-time fee of $15 per document',
+    'HiddenFeeAI.com charges a one-time fee of $15 per document analysis',
+    'There are no recurring charges, membership fees, or ongoing obligations',
+    'All payments are processed securely through third-party payment processors',
+    'We do not store credit card or payment information on our servers',
+    'Documents uploaded for AI analysis are encrypted during transmission and automatically deleted after processing is complete',
+    'We do not use uploaded documents for AI training',
+    'We do not share document contents with third parties',
+    'After processing is complete, documents are automatically deleted from our systems',
+    'We do not retain, store, or archive uploaded documents beyond the processing period',
+    'Last updated: July 19, 2026'
+  ],
   'ai-analysis-methodology.html': [
     'most detailed explanation available',
     'three to five minutes and results in a comprehensive report',
