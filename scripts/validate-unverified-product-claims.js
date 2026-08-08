@@ -4,6 +4,31 @@ const path = require('path');
 const root = path.resolve(__dirname, '..');
 const forbiddenByFile = {
   'about-detect-hidden-fees.html': ['cost Americans billions', 'trained on thousands of documents', 'automatically deleted after processing is complete', 'Know exactly what to say and save money'],
+  'editorial-policy.html': [
+    'Editorial Policy: Our Commitment to Accurate Content',
+    'Everything we publish on DetectHiddenFees must meet rigorous standards',
+    'Every piece of content undergoes a multi-stage review process',
+    'The first review checks for factual accuracy',
+    'The second review checks for clarity and readability',
+    'The third review checks for completeness',
+    'We maintain a comprehensive library of reference materials',
+    'We maintain strict editorial independence from commercial influences',
+    'We do not accept payments, incentives, or consideration from companies',
+    'Our analysis and recommendations are never influenced by commercial relationships',
+    'Our content team operates independently from our product development',
+    'We do not allow advertisers, sponsors, or partners to review content before publication',
+    'We maintain a corrections log that is accessible to readers',
+    'When we identify problematic practices by specific companies, we name them directly',
+    'Start negotiating your bills today.',
+    'Upload any bill or service agreement to HiddenFeeAI',
+    'Get your analysis in minutes and start saving',
+    'Upload My Bill',
+    'Analyze My Bill',
+    'Start Negotiating Your Bills Today',
+    '$15',
+    'No subscription',
+    'Secure processing'
+  ],
   'ai-analysis-methodology.html': [
     'most detailed explanation available',
     'three to five minutes and results in a comprehensive report',

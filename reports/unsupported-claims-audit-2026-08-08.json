@@ -6,10 +6,10 @@
   "page_count": 238,
   "pages_with_candidates": 233,
   "candidate_counts": {
-    "quantitative_amount": 1824,
+    "quantitative_amount": 1820,
     "quantitative_percent": 464,
-    "absolute_or_superlative": 1516,
-    "performance_or_outcome": 154,
+    "absolute_or_superlative": 1510,
+    "performance_or_outcome": 153,
     "population_or_scale": 149
   },
   "records": [
@@ -13044,112 +13044,46 @@
       "file": "editorial-policy.html",
       "matches": [
         {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ion Service Upload any bill AI identifies potential billing issues and charges that may need review $15 one-time No subscription Start negotiating your bills today. Upload any bill or service agreement to HiddenFeeAI. The AI identifies overcharges, hidden fees, an"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ees, and negotiation opportunities. Get your analysis in minutes and start saving. Upload My Bill — $15 Editorial Policy: Our Commitment to Accurate, Trustworthy Content Trust is the foundation of our relationship with users. Everything we publish on DetectHiddenF"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ed analysis of what you should challenge. Know exactly what to say and save money. Upload My Bill — $15 Start Negotiating Your Bills Today Don't pay more than you have to. Let AI analyze your bills and give you the leverage you need. Analyze My Bill → $15 one-time"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "e than you have to. Let AI analyze your bills and give you the leverage you need. Analyze My Bill → $15 one-time · No subscription · Secure processing Source and claim standard Material advertising and product claims should be supported by evidence appropriate to "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "All",
-          "snippet": "ation directly affects the financial decisions our users make. Accuracy and Fact-Checking Standards All content published on DetectHiddenFees is based on verifiable research. Our writers and editors are required to cite specific sources for all claims about indus"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": " is based on verifiable research. Our writers and editors are required to cite specific sources for all claims about industry practices, fee structures, regulatory requirements, and consumer protections. When we reference studies, statistics, or survey data, we l"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "Every",
-          "snippet": " opinions as facts, and we clearly distinguish between established information and expert analysis. Every piece of content undergoes a multi-stage review process before publication. The first review checks for factual accuracy, ensuring that all claims are supporte"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "tage review process before publication. The first review checks for factual accuracy, ensuring that all claims are supported by reliable sources from authoritative institutions. The second review checks for clarity and readability, ensuring that complex topics ar"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "ral audience without specialized knowledge. The third review checks for completeness, ensuring that all relevant aspects of the topic have been covered and that readers have the information they need to take informed action based on what they have learned. We mai"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "All",
-          "snippet": " reports from reputable research organizations, and legal documents from consumer protection cases. All sources are evaluated for credibility and reliability before being used as references. We prioritize primary sources over secondary sources and official docume"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "never",
-          "snippet": "inclusion or exclusion of specific information in our content. Our analysis and recommendations are never influenced by commercial relationships or business partnerships. When we identify problematic practices by specific companies, we name them directly. When we f"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "always",
-          "snippet": "ns in any way. This separation ensures that our content serves the interests of consumers first and always, maintaining the trust that our users place in us. If we make an error in our content, we correct it promptly and transparently. Errors are acknowledged with a"
-        },
-        {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "courage readers to contact us directly if they find errors or omissions in our content, and we take every correction request seriously, investigating and addressing each one. Ready to start negotiating? Upload your bill to HiddenFeeAI and get a detailed analysis of"
+          "snippet": " of editorial practice and a way for readers to evaluate the limits of a page; it is not proof that every historical statement is error-free or that a particular financial, legal, medical, or product outcome will occur. Scope and organizational relationship DetectH"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "guarantee",
-          "snippet": " Disputed claims are marked for review rather than presented as settled fact. A correction does not guarantee a particular legal, financial, or product outcome. TOOLS AI Contract Review AI Bill Analyzer AI Document Checker Hidden Fee Detector Upload Document DOCUMENT A"
+          "snippet": " should be marked for review rather than presented as settled fact. A correction or update does not guarantee a particular legal, financial, medical, or product outcome. Frequently asked questions What is the purpose of this editorial policy? It explains the standards "
+        },
+        {
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "guarantee",
+          "snippet": "s, research data, product references, corrections, and update dates. It is a public standard, not a guarantee that no page will ever contain an error. How does DetectHiddenFees choose sources? We prefer primary sources such as government agencies, regulators, statutes,"
+        },
+        {
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "guarantee",
+          "snippet": ". If evidence is not sufficient, the page should qualify the statement or omit it. Does this policy guarantee that an article is error-free? No. A policy describes the intended standard and review process. Readers should still check the linked source, date, jurisdictio"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "accuracy",
-          "snippet": "relationship with users. Everything we publish on DetectHiddenFees must meet rigorous standards for accuracy, fairness, transparency, and usefulness to consumers. This editorial policy outlines the principles that guide our content creation, the processes we follow to"
-        },
-        {
-          "key": "performance_or_outcome",
-          "severity": "high",
-          "value": "Accuracy",
-          "snippet": "e know that the quality of our information directly affects the financial decisions our users make. Accuracy and Fact-Checking Standards All content published on DetectHiddenFees is based on verifiable research. Our writers and editors are required to cite specific so"
+          "snippet": "harge. Do not manufacture evidence Do not invent quotations, experts, document counts, percentages, accuracy figures, market benchmarks, case studies, savings results, or research findings. If evidence is not sufficient, qualify the statement or leave it out. How clai"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "accuracy",
-          "snippet": "tent undergoes a multi-stage review process before publication. The first review checks for factual accuracy, ensuring that all claims are supported by reliable sources from authoritative institutions. The second review checks for clarity and readability, ensuring tha"
+          "snippet": "e records exist, DetectHiddenFees should not publish a sample size, percentage, prevalence ranking, accuracy metric, or other result merely because it sounds plausible. Traceable records When original research is published, the methodology should explain what was anal"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "accuracy",
-          "snippet": "as been updated. We maintain a corrections log that is accessible to readers who want to verify the accuracy of our content. We encourage readers to contact us directly if they find errors or omissions in our content, and we take every correction request seriously, in"
+          "snippet": "ified appropriately. Does DetectHiddenFees publish unsupported statistics? No. Counts, percentages, accuracy figures, market comparisons, and other objective claims should be traceable to an identified source or an inspectable research record. If evidence is not suffi"
         }
       ]
     },
