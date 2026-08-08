@@ -3,7 +3,7 @@
 ## Source deployment
 
 - Changes were pushed directly to GitHub `main`.
-- Latest verified deployed code commit: `c7f1441` (`Make estimate review evidence based`). Earlier verified page code is `68ddd68`; documentation handoff commits are `95f1fb5`, `a8845b4`, and `6c57ade`. This follows the discovery governance, deployment handoff, canonical opportunity, attribution, contextual CTA, Research Lab, navigation, cache-bust, embed-route, hub, safe dashboard, evidence-governance, redirect, exact GSC audit, and contractor-estimate authority fixes.
+- Latest verified deployed code commit: `d52f5c2` (`Make bill analyzer evidence based`). Earlier verified page code is `c7f1441` and `68ddd68`; documentation handoff commits are `95f1fb5`, `a8845b4`, `6c57ade`, and `6ec3f11`. This follows the discovery governance, deployment handoff, canonical opportunity, attribution, contextual CTA, Research Lab, navigation, cache-bust, embed-route, hub, safe dashboard, evidence-governance, redirect, exact GSC audit, and contractor-estimate authority fixes.
 - The pre-existing user-owned change to `calculator-authority.css` remains unstaged and untouched.
 
 ## Local verification
@@ -14,6 +14,7 @@
 - Research manifest remains collecting-only with zero records and no published statistics.
 - High-risk and prioritized unverified product-claim checks pass for 22 pages, including `hidden-fees-guides.html`, `what-fees-should-i-look-for-in-a-contractor-estimate.html`, and `ai-construction-contract-review.html`; the construction-page remediation script was run twice successfully.
 - High-risk and prioritized unverified product-claim checks pass for 23 pages, including `ai-estimate-review.html`; the estimate-page remediation script was run repeatedly and its JSON-LD replacement remains at exactly four blocks.
+- High-risk and prioritized unverified product-claim checks pass for 24 pages, including `ai-bill-analyzer.html`; the bill-page remediation script was run repeatedly and its JSON-LD replacement remains at exactly four blocks.
 - The unsupported-claim inventory was refreshed after the hub remediation: 2,175 quantitative-amount candidates, 533 percentage candidates, 1,604 absolute/superlative candidates, 144 performance/outcome candidates, and 172 population/scale candidates. These remain review candidates, not findings that every match is unsupported.
 - The shared stylesheet cache-bust is consistent across 234 HTML files; no `sticky6` references remain and all current references use `sticky7`.
 - All known `.html` redirect aliases now have matching extensionless 301 rules.
@@ -56,3 +57,5 @@ The contractor-estimate authority page was verified after commit `9a6159a`. Prod
 The construction-contract review page was verified after commit `68ddd68`. Production returned HTTP 200 with the self-canonical URL, updated `dateModified`, both official source links, ten FAQ schema questions, the evidence-safe hero and CTA, and no removed unsupported claims. Local and live browser checks at 375px and 1440px reported one H1, ten visible FAQs, no horizontal overflow, and empty console error/warning logs. The visible FAQ questions and answers exactly match the FAQPage schema.
 
 The estimate-review page was verified after commit `c7f1441`. Production returned HTTP 200 with the self-canonical URL, updated `dateModified`, both official source links, eight FAQ schema questions, five estimate-review CTA annotations, the updated title/content, and no old bill-analysis or retired breadcrumb claims. A fresh live browser tab at 375px and 1440px reported one H1, no horizontal overflow, and empty console error/warning logs; visible FAQ questions and answers exactly match the FAQPage schema.
+
+The bill-analyzer page was verified after commit `d52f5c2`. Production returned HTTP 200 with the self-canonical URL, updated `dateModified`, four official source links, eight FAQ schema questions, five bill-analysis CTA annotations, the updated title/content, and no old overclaiming or retired breadcrumb claims. A fresh live browser tab at 375px and 1440px reported one H1, no horizontal overflow, and empty console error/warning logs; visible FAQ questions and answers exactly match the FAQPage schema.

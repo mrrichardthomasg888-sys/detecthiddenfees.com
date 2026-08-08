@@ -893,7 +893,7 @@ This section records the current implementation state so future work can resume 
 - User-directed deployment: push directly to GitHub `main`; do not create a PR and do not deploy through a Cloudflare dashboard.
 - Current working branch during this work: `codex/calculator-native-branding-fix-2026-08-05`.
 - A pre-existing user-owned change to `calculator-authority.css` is intentionally unstaged and must not be included unless the user explicitly asks for it.
-- Latest verified deployed code: `c7f1441` (`Make estimate review evidence based`). Earlier verified page code is `68ddd68`; documentation handoff commits are `95f1fb5`, `a8845b4`, and `6c57ade`.
+- Latest verified deployed code: `d52f5c2` (`Make bill analyzer evidence based`). Earlier verified page code is `c7f1441` and `68ddd68`; documentation handoff commits are `95f1fb5`, `a8845b4`, `6c57ade`, and `6ec3f11`.
 - Preserve existing URLs, templates, logo, typography, navigation, footer, CSS tokens, and visual design. New work must look native to the existing site.
 
 ### Completed systems and verified results
@@ -923,6 +923,8 @@ This section records the current implementation state so future work can resume 
 - The construction page has six JSON-LD types, ten visible FAQs with exactly matching FAQPage schema, one H1, a self-canonical URL, and an RSS entry generated from the updated metadata. The remediation script was run twice successfully to confirm repeatable section handling.
 - Strengthened the high-intent `/ai-estimate-review` page without changing its URL or design: removed bill-analysis mismatch, unsupported quote-database, market-pricing, guaranteed-savings, timing, and product-performance claims; replaced the old “fair price” promise with an answer-first review framework; corrected the retired breadcrumb schema URL; added FTC and California CSLB source guidance, eight evidence-safe FAQs, five estimate-review CTA annotations, and current-pricing-before-checkout language. The repeatable remediation tool is stored at `scripts/remediate-ai-estimate-review-page.js` and the unsupported-claim gate now checks 23 priority pages.
 - The estimate page has four JSON-LD types, eight visible FAQs with exactly matching FAQPage schema, one H1, a self-canonical URL, no retired `ai-document-intelligence-center` reference, and an RSS/llms title generated from the updated metadata. The remediation script was run repeatedly successfully, including after schema compaction.
+- Strengthened the high-intent `/ai-bill-analyzer` page without changing its URL or design: removed unsupported universal scanning, error-rate, database, market-comparison, speed, savings, pricing, and refund-adjacent claims; replaced mixed bill-analysis messaging with an answer-first bill-review workflow; added FCC, FTC, and CFPB guidance for phone, credit-card, and medical-bill contexts; added eight evidence-safe FAQs, five bill-analysis CTA annotations, and current-pricing-before-checkout language. The repeatable remediation tool is stored at `scripts/remediate-ai-bill-analyzer-page.js` and the unsupported-claim gate now checks 24 priority pages.
+- The bill page has four JSON-LD types, eight visible FAQs with exactly matching FAQPage schema, one H1, a self-canonical URL, no retired breadcrumb reference, and an RSS/llms title generated from the updated metadata. The remediation script was run repeatedly successfully after schema compaction.
 
 ### Latest verified handoff state
 
@@ -930,6 +932,7 @@ This section records the current implementation state so future work can resume 
 - The exact GSC URL audit, redirect repair, evidence register, safe SEO dashboard, discovery assets, attribution instrumentation, and contractor-estimate content remediation are represented in the commits and reports above. Future sessions should read those reports before repeating work.
 - Commit `68ddd68` contains the construction-contract review page, RSS update, claim-gate entry, and reusable remediation script. It was pushed directly to GitHub `main` and verified after propagation on the live host.
 - Commit `c7f1441` contains the estimate-review page, discovery updates, claim-audit refresh, contextual CTA validator update, and reusable remediation script. It was pushed directly to GitHub `main` and verified after propagation on the live host.
+- Commit `d52f5c2` contains the bill-analyzer page, discovery/audit updates, claim-gate and contextual-CTA validator updates, and reusable remediation script. It was pushed directly to GitHub `main` and verified after propagation on the live host.
 - The working tree at this handoff intentionally contains only the pre-existing user-owned `calculator-authority.css` modification. Do not stage it automatically or associate it with the SEO work.
 
 ### Current attribution improvement now deployed
@@ -959,6 +962,8 @@ The contractor-estimate production check also confirmed the expected live conten
 The construction-contract production check also confirmed HTTP 200, the self-canonical URL, updated `dateModified`, both official source links, ten FAQ schema questions, the new evidence-safe hero and CTA, and the absence of the removed unsupported claims. Browser checks at 375px and 1440px reported no horizontal overflow, one H1, ten visible FAQs, and no console errors or warnings.
 
 The estimate-review production check confirmed HTTP 200, the self-canonical URL, updated `dateModified`, both official source links, eight FAQ schema questions, five estimate-review CTA annotations, and the absence of the old bill-analysis and retired breadcrumb claims. A fresh browser tab at 375px and 1440px reported no horizontal overflow, one H1, no console errors or warnings, and the new title/content in the live DOM.
+
+The bill-analyzer production check confirmed HTTP 200, the self-canonical URL, updated `dateModified`, four official source links, eight FAQ schema questions, five bill-analysis CTA annotations, and the absence of the old overclaiming and retired breadcrumb content. A fresh browser tab at 375px and 1440px reported no horizontal overflow, one H1, no console errors or warnings, and the new title/content in the live DOM.
 
 The master validator baseline is 238 pages with zero missing titles/descriptions, zero bad canonicals, zero bad H1 counts, zero missing JSON-LD blocks, zero accidental noindex pages, zero broken internal links, zero internal redirect links, and zero legacy `.html` links.
 
