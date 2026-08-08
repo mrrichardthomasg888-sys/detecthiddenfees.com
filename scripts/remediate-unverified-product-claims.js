@@ -613,6 +613,80 @@ const exactReplacements = {
       'A: The repository does not verify a 100,000-document training count or a product comparison with general-purpose AI. Compare current documented capabilities and limitations before relying on either tool.'
     ]
   ],
+  'hidden-fee-encyclopedia.html': [
+    [
+      'The most comprehensive hidden fee encyclopedia on the internet. Explore 300+ hidden fees across banking, healthcare, contractor services, auto financing.',
+      'Explore a categorized hidden-fee reference covering banking, healthcare, contractor services, auto financing, and related topics.'
+    ],
+    [
+      'Welcome to the most comprehensive hidden fee encyclopedia on the internet.',
+      'This hidden-fee encyclopedia organizes educational reference material about pricing terms, charges, and document-review questions.'
+    ],
+    [
+      'Here you will find detailed explanations of hundreds of hidden fees across 10 major industries — what they are, why companies charge them, when they are legitimate, when they may be excessive, warning signs, consumer questions to ask, and how AI document analysis can help identify them.',
+      'Here you will find explanations of hidden-fee terms across several consumer topics, including what a charge may mean, questions to ask, and documents to review. Entry counts and category coverage may change.'
+    ],
+    [
+      'Every entry is built on proprietary DetectHiddenFees research and forensic pricing analysis methodology.',
+      'Entries are editorial educational material; this page does not claim that every entry is based on a proprietary research dataset or forensic study.'
+    ],
+    [
+      '300+ fee entries across 10 industries',
+      'Categorized fee reference'
+    ],
+    [
+      '<div class="stat-number">10+</div><div class="stat-label">Years Consumer Data</div>',
+      '<div class="stat-number">—</div><div class="stat-label">Evidence status</div>'
+    ],
+    [
+      'consumers pay over $15 billion annually in overdraft fees alone.',
+      'overdraft fees can create meaningful costs; this page does not assert an annual national total without a cited, reviewable source.'
+    ],
+    [
+      'Healthcare pricing opacity costs consumers billions annually in overcharges and administrative fees buried in hospital statements and medical bills.',
+      'Healthcare billing can involve complex charges and administrative fees; no annual national overcharge total is asserted here without a cited dataset.'
+    ],
+    [
+      'can add thousands of dollars to the price of a vehicle.',
+      'can materially increase the price of a vehicle; the amount depends on the transaction and documentation.'
+    ],
+    [
+      'can add hundreds of dollars monthly to the advertised rent price.',
+      'can materially increase effective rent; the amount depends on the property, lease, and disclosed charges.'
+    ],
+    [
+      'consumers paying an estimated $60+ billion annually in hidden and surprise fees.',
+      'hidden and surprise fees can create meaningful consumer costs; this page does not publish a national total without a cited, reviewable source.'
+    ],
+    [
+      'HiddenFeeAI by DetectHiddenFees uses proprietary forensic pricing intelligence trained on thousands of financial documents to provide comprehensive hidden fee detection across 10 major industry categories.',
+      'HiddenFeeAI may assist with reviewing supported documents for potential hidden fees. The repository does not verify a proprietary training corpus, document count, complete detection, or coverage across 10 categories.'
+    ],
+    [
+      'Based on DetectHiddenFees research and forensic analysis, the industries with the highest prevalence of hidden fees are:',
+      'This encyclopedia covers fee topics in banking and lending, healthcare and medical billing, auto dealerships and financing, contracting and construction, telecommunications, and other consumer areas. No prevalence ranking is asserted without a documented dataset.'
+    ],
+    [
+      'Banking, healthcare, contracting, auto financing, telecommunications, insurance, travel, and rental industries have the highest prevalence of hidden fees. Each industry uses different techniques to obscure charges, from transaction reordering in banking to change-order manipulation in construction.',
+      'Banking, healthcare, contracting, auto financing, telecommunications, insurance, travel, and rental industries are covered as topic areas. This page does not rank their prevalence without a documented dataset.'
+    ],
+    [
+      'The AI identifies vague or deceptive fee descriptions, compares each charge against market benchmarks, flags duplicate line items, detects pricing structures commonly associated with hidden costs, and evaluates contract language for risky clauses.',
+      'AI-assisted review may flag vague fee descriptions, unusual pricing, duplicate line items, and contract language for human review; benchmark sources and product coverage should be confirmed.'
+    ],
+    [
+      'Unlike manual review, AI can process hundreds of line items in seconds and identify patterns that human reviewers consistently miss.',
+      'Automated review may help organize line-item checks, but timing, completeness, and comparison with human review depend on the product and document.'
+    ],
+    [
+      'The Hidden Fee Encyclopedia is the most comprehensive educational resource on pricing manipulation, deceptive billing practices, and hidden charges available on the internet.',
+      'The Hidden Fee Encyclopedia is an educational reference about pricing manipulation, deceptive billing practices, and hidden charges.'
+    ],
+    [
+      'Developed by the DetectHiddenFees Research Team, every entry is built on proprietary forensic pricing analysis methodology and years of consumer document analysis across 10 major industry categories.',
+      'The DetectHiddenFees Research Team maintains this editorial reference. Its entries should not be treated as findings from a verified proprietary dataset or as a substitute for source-specific research.'
+    ]
+  ],
   'can-ai-find-hidden-fees-in-a-contract.html': [
     [
       'Unlike manual review where consumers miss 70% of buried charges, AI reads every line with equal attention, flags suspicious language, and compares pricing against industry benchmarks.',
