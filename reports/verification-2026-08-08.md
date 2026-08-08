@@ -3,7 +3,7 @@
 ## Source deployment
 
 - Changes were pushed directly to GitHub `main`.
-- Latest verified commit: `ad534c5` (`Repair stale alphabet redirect`), following the discovery governance, deployment handoff, canonical opportunity, attribution, contextual CTA, Research Lab, navigation, cache-bust, embed-route, hub, safe dashboard, and evidence-governance fixes.
+- Latest verified commit: `bf79a28` (`Correct exact GSC URL audit`), following the discovery governance, deployment handoff, canonical opportunity, attribution, contextual CTA, Research Lab, navigation, cache-bust, embed-route, hub, safe dashboard, evidence-governance, and redirect fixes.
 - The pre-existing user-owned change to `calculator-authority.css` remains unstaged and untouched.
 
 ## Local verification
@@ -47,3 +47,5 @@ The repository contains no deployment workflow that publishes the site from `mai
 After commit `3215db2` propagated, `/seo/evidence-register.json` returned HTTP 200 with `status=collecting` and zero records. The generated `/reports/seo-dashboard-current.md` returned HTTP 200 as a public-safe structural status report; it contains no Search Console, customer, document, conversion, or revenue data and explicitly reports disconnected integrations. `/admin/seo` returned HTTP 404, while the canonical `/ai-analysis-hub` page returned HTTP 200. This confirms that no unauthenticated connected-data dashboard was exposed.
 
 After commit `ad534c5` propagated, the exact stale coverage URL `/alphabet-links.html` and its extensionless counterpart `/alphabet-links` returned HTTP 301 to `/hidden-fee-dictionary`; the target returned HTTP 200. This repaired the only 404 found while auditing all 146 rows in the supplied “Page with redirect” export. The other 145 rows are intentional legacy redirects, documented in `reports/gsc-page-with-redirect-audit-2026-08-08.md`.
+
+The exact 40 user-supplied `.html` examples were re-audited and the report was corrected: 38 first return HTTP 308 normalization and 2 first return explicit HTTP 301; all 40 extensionless destinations return HTTP 200 with self-referencing canonicals. This corrected the audit wording without changing any page, sitemap entry, or canonical URL.
