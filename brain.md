@@ -883,4 +883,75 @@ These principles supercede any ad-hoc development decisions. If a task conflicts
 
 ---
 
+## HANDOFF / PROGRESS LOG — 2026-08-08
+
+This section records the current implementation state so future work can resume without repeating the audit. Preserve the master mission and the existing DetectHiddenFees design system.
+
+### Deployment and repository rules
+
+- Repository: `https://github.com/mrrichardthomasg888-sys/detecthiddenfees.com.git`
+- User-directed deployment: push directly to GitHub `main`; do not create a PR and do not deploy through a Cloudflare dashboard.
+- Current working branch during this work: `codex/calculator-native-branding-fix-2026-08-05`.
+- A pre-existing user-owned change to `calculator-authority.css` is intentionally unstaged and must not be included unless the user explicitly asks for it.
+- Latest verified remote `main` before the current pending attribution batch: `e9127e3` (`Add reproducible CTA path audit`).
+- Preserve existing URLs, templates, logo, typography, navigation, footer, CSS tokens, and visual design. New work must look native to the existing site.
+
+### Completed systems and verified results
+
+- Added the 2026 design-preservation and advanced SEO/AEO/GEO addendum to this file. It requires exact reuse of the current site design, information gain before page creation, citation engineering, evidence-based research, valid schema only, machine-readable research where appropriate, and no spam or fabricated claims.
+- Audited the supplied Google Search Console examples in `reports/gsc-example-url-audit-2026-08-08.md`: 40 URLs checked; 38 are HTTP 200 with self-canonicals, and 2 are intentional HTTP 301 aliases (`/ai-document-intelligence-center` → `/ai-analysis-hub`; `/before-signing-a-contract` → `/before-signing-contract-checklist`).
+- Hardened `hidden-fees-guides.html` with primary-source guidance and limitations, including FTC/CFPB source links. The unsupported-claim tooling is repeatable and idempotent.
+- Refreshed the unsupported-claim candidate inventory. Current candidates are 2,175 quantitative-amount, 533 percentage, 1,604 absolute/superlative, 144 performance/outcome, and 172 population/scale matches. These are review candidates, not proof that every claim is unsupported.
+- Fixed shared responsive navigation behavior and cache-busted all current stylesheet references from `sticky6` to `sticky7`. At 320px, 390px, and 1440px there is no document-level horizontal overflow; mobile navigation wraps.
+- Protected the embed template route with noindex/no-follow/no-archive and no-store behavior. The redirect chain was verified.
+- Discovery assets are aligned: sitemap 238 canonical URLs, `llms.txt` 238 URLs, RSS 178 editorial items plus its channel/self link. Validators confirm no duplicate canonicals, no internal redirect links, and no legacy `.html` internal links.
+- Built the collecting-only Research Lab foundation. `research-data.json` has zero records, null statistics, and an explicit collecting status; no research numbers are invented. Five public Research Lab pages expose a crawlable research-record summary, limitations, methodology context, and a manifest-aligned August 8, 2026 update date.
+- Added and validated privacy-conscious attribution in `attribution.js`. It records sanitized landing path, original referrer path, UTM values, session ID, current page, and timestamps in browser storage; it never reads or sends document content.
+- Outbound HiddenFeeAI links receive `dhf_landing`, `dhf_referrer`, `dhf_session`, `dhf_source`, and preserved UTM parameters. The handoff contract is documented in `seo/attribution-contract.md`; HiddenFeeAI still needs to implement the downstream receipt and conversion events.
+- Added context-specific CTA metadata to four high-intent pages: `contract_review`, `subscription_fee_review`, and `estimate_review`. Production checks confirmed the labels and metadata at mobile and desktop widths with no overflow or console logs.
+- Added a reproducible CTA-path audit in `scripts/audit-cta-paths.js` with generated JSON/Markdown reports. Current structural baseline: 238 canonical pages, 223 pages with a direct main-content HiddenFeeAI link, 752 direct product links in main content, 117 annotated main links, 8 pages with an existing internal funnel path, and 9 pages with neither a direct product link nor a recognized internal funnel path. The 9 are contact, legal/security, and Research Lab/status pages; do not force commercial CTAs onto them without a clear user-intent reason.
+
+### Current pending attribution improvement
+
+- The current local batch adds `dhf_funnel_path_click` tracking for existing internal `/analyze-my-bill`, `/analyze-my-document`, and `/upload-*` paths. Fourteen existing internal funnel links are annotated with action/placement metadata; outbound HiddenFeeAI links continue to emit `dhf_cta_click`.
+- The pending batch includes the runtime, validator, internal-link annotator, generated CTA audit refresh, attribution contract update, and verification-report update. Run all validators, inspect the diff, explicitly exclude `calculator-authority.css`, then commit and push these intended files to GitHub `main`.
+
+### Validation baseline
+
+The following checks were passing at the end of the 2026-08-08 work session:
+
+```text
+node scripts/validate-attribution.js
+node scripts/validate-contextual-ctas.js
+node scripts/validate-master-mission.js
+node scripts/validate-discovery-assets.js
+node scripts/validate-redirects.js
+node scripts/validate-research-data.js
+node scripts/validate-opportunity-engine.js
+node scripts/validate-unverified-product-claims.js
+node validate-calculator-authority.js
+git diff --check
+```
+
+The master validator baseline is 238 pages with zero missing titles/descriptions, zero bad canonicals, zero bad H1 counts, zero missing JSON-LD blocks, zero accidental noindex pages, zero broken internal links, zero internal redirect links, and zero legacy `.html` links.
+
+### Known blockers and required future work
+
+- Google Search Console performance data is explicitly `not_connected`; do not invent impressions, clicks, CTR, positions, queries, indexing counts, or revenue. Connect a real export/API before producing performance-based quick wins.
+- HiddenFeeAI downstream integration is not available. It must receive and validate attribution, preserve it through upload/analysis/checkout/purchase, and expose privacy-safe events for referral, upload started/completed, analysis completed, checkout started, purchase completed, and revenue.
+- Production hosting is connected to the pushed GitHub repository, but no deployment workflow file was found. After every push, verify the live host by HTTP and browser checks; a local pass is not proof of deployment.
+- Continue auditing unsupported factual claims in batches. Never publish fabricated statistics, document counts, model accuracy, OCR/precision/recall, testimonials, expert identities, or AI-citation claims.
+- Continue incrementally. Do not create hundreds of pages, redesign the site, replace the logo, or force product links onto trust/legal/research-status pages.
+
+### Important reports and contracts
+
+- `reports/gsc-example-url-audit-2026-08-08.md`
+- `reports/cta-path-audit-2026-08-08.md`
+- `reports/unsupported-claims-audit-2026-08-08.json`
+- `reports/verification-2026-08-08.md`
+- `seo/attribution-contract.md`
+- `seo/conversion-audit.md` (historical manual baseline; use the generated CTA audit for current structural counts)
+
+---
+
 > **Final directive:** You are not just writing code. You are building a trusted financial transparency authority. Every decision must serve the mission of helping consumers understand and avoid hidden fees. The goal is to make DetectHiddenFees.com the strongest authority website on the internet for AI financial document analysis.

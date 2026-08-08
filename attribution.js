@@ -132,6 +132,26 @@
     }
   }
 
+  function internalFunnelPath(anchor) {
+    try {
+      var url = new URL(anchor.href, window.location.href);
+      if (url.origin !== window.location.origin) return '';
+      if (/^\/analyze-my-(?:bill|document)$/.test(url.pathname)) return url.pathname;
+      if (/^\/upload-[^/]+$/.test(url.pathname)) return url.pathname;
+      return '';
+    } catch (error) {
+      return '';
+    }
+  }
+
+  function funnelAction(anchor, pathname) {
+    var explicit = clean(anchor.getAttribute('data-cta-action') || '');
+    if (explicit) return explicit;
+    if (pathname === '/analyze-my-bill') return 'bill_analysis';
+    if (pathname === '/analyze-my-document') return 'document_analysis';
+    return 'document_upload';
+  }
+
   function decorate(anchor, attribution) {
     if (!destinationIsHiddenFeeAI(anchor) || anchor.getAttribute('data-no-attribution') === 'true') return;
     try {
@@ -157,14 +177,18 @@
 
   document.addEventListener('click', function (event) {
     var anchor = event.target.closest ? event.target.closest('a[href]') : null;
-    if (!anchor || !destinationIsHiddenFeeAI(anchor)) return;
-    emit('dhf_cta_click', {
+    if (!anchor) return;
+    var isProductLink = destinationIsHiddenFeeAI(anchor);
+    var internalPath = internalFunnelPath(anchor);
+    if (!isProductLink && !internalPath) return;
+    var eventName = isProductLink ? 'dhf_cta_click' : 'dhf_funnel_path_click';
+    emit(eventName, {
       landing_page: attribution.landing_page,
       original_referrer: attribution.original_referrer,
-      destination: DESTINATION_HOST,
+      destination: isProductLink ? DESTINATION_HOST : internalPath,
       cta_position: clean(anchor.getAttribute('data-cta-position') || 'unspecified'),
       cta_variant: clean(anchor.getAttribute('data-cta-variant') || 'unspecified'),
-      cta_action: clean(anchor.getAttribute('data-cta-action') || 'document_analysis'),
+      cta_action: funnelAction(anchor, internalPath),
       link_text: clean(anchor.textContent || '').replace(/\s+/g, ' ')
     });
   }, true);

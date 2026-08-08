@@ -38,11 +38,18 @@ function productLinks(source) {
     });
 }
 
+function localFunnelLinks(source) {
+  return [...source.matchAll(/<a\b[^>]+href=["'](\/[^"']+)["'][^>]*>/gi)]
+    .map(match => match[1])
+    .filter(href => /^\/analyze-my-(?:bill|document)(?:[?#].*)?$|^\/upload-[^?#]+$/i.test(href));
+}
+
 const pageRows = pages.map(page => {
   const source = fs.readFileSync(path.join(root, page.file), 'utf8');
   const main = source.match(/<main\b[\s\S]*?<\/main>/i)?.[0] || '';
   const allLinks = productLinks(source);
   const mainLinks = productLinks(main);
+  const mainLocalFunnelLinks = localFunnelLinks(main);
   const actionCounts = {};
   for (const link of mainLinks) actionCounts[link.action] = (actionCounts[link.action] || 0) + 1;
   return {
@@ -53,6 +60,8 @@ const pageRows = pages.map(page => {
     main_annotated_links: mainLinks.filter(link => link.action !== 'unspecified').length,
     main_unannotated_links: mainLinks.filter(link => link.action === 'unspecified').length,
     has_main_product_link: mainLinks.length > 0,
+    local_funnel_links_in_main: [...new Set(mainLocalFunnelLinks)],
+    has_main_funnel_path: mainLinks.length > 0 || mainLocalFunnelLinks.length > 0,
     has_annotated_hero_product_link: mainLinks.some(link => link.position === 'hero'),
     has_annotated_sticky_product_link: allLinks.some(link => link.position === 'sticky'),
     action_counts: actionCounts,
@@ -79,7 +88,9 @@ const report = {
     pages_with_main_product_link: pageRows.filter(row => row.has_main_product_link).length,
     pages_with_explicit_hero_metadata: pageRows.filter(row => row.has_annotated_hero_product_link).length,
     pages_with_explicit_sticky_metadata: pageRows.filter(row => row.has_annotated_sticky_product_link).length,
-    pages_without_main_product_link: pageRows.filter(row => !row.has_main_product_link).map(row => row.path),
+    pages_without_main_direct_product_link: pageRows.filter(row => !row.has_main_product_link).map(row => row.path),
+    pages_with_internal_funnel_path: pageRows.filter(row => row.local_funnel_links_in_main.length > 0).length,
+    pages_without_main_funnel_path: pageRows.filter(row => !row.has_main_funnel_path).map(row => row.path),
     total_product_links: sum('product_links_total'),
     total_main_product_links: sum('product_links_in_main'),
     annotated_main_links: sum('main_annotated_links'),
@@ -97,7 +108,8 @@ const summaryRows = [
   ['Pages with a main HiddenFeeAI link', report.summary.pages_with_main_product_link],
   ['Pages with explicit hero metadata', report.summary.pages_with_explicit_hero_metadata],
   ['Pages with explicit sticky metadata', report.summary.pages_with_explicit_sticky_metadata],
-  ['Pages without a main product link', report.summary.pages_without_main_product_link.length],
+  ['Pages with an internal funnel path', report.summary.pages_with_internal_funnel_path],
+  ['Pages without a main funnel path', report.summary.pages_without_main_funnel_path.length],
   ['Product links in main content', report.summary.total_main_product_links],
   ['Annotated main links', report.summary.annotated_main_links],
   ['Unannotated main links', report.summary.unannotated_main_links]
@@ -127,9 +139,9 @@ const md = [
   '',
   '## Current structural quick wins',
   '',
-  'These canonical pages have no HiddenFeeAI link inside their main content. This is a structural finding only; it is not a claim about traffic or conversion priority.',
+  'These canonical pages have neither a direct HiddenFeeAI link nor a recognized internal funnel link inside their main content. This is a structural finding only; it is not a claim about traffic or conversion priority.',
   '',
-  ...report.summary.pages_without_main_product_link.map(pagePath => `- ${pagePath}`),
+  ...report.summary.pages_without_main_funnel_path.map(pagePath => `- ${pagePath}`),
   '',
   'The detailed page-level JSON report is generated from `sitemap.xml` and the current local HTML. Null performance values are intentional and must not be interpreted as zero.',
   ''

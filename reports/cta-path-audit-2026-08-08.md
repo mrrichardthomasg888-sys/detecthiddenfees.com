@@ -16,7 +16,8 @@
 | Pages with a main HiddenFeeAI link | 223 |
 | Pages with explicit hero metadata | 4 |
 | Pages with explicit sticky metadata | 4 |
-| Pages without a main product link | 15 |
+| Pages with an internal funnel path | 8 |
+| Pages without a main funnel path | 9 |
 | Product links in main content | 752 |
 | Annotated main links | 117 |
 | Unannotated main links | 635 |
@@ -34,22 +35,16 @@
 
 ## Current structural quick wins
 
-These canonical pages have no HiddenFeeAI link inside their main content. This is a structural finding only; it is not a claim about traffic or conversion priority.
+These canonical pages have neither a direct HiddenFeeAI link nor a recognized internal funnel link inside their main content. This is a structural finding only; it is not a claim about traffic or conversion priority.
 
-- /ai-fee-detector
-- /analyze-my-document
 - /contact
-- /free-hidden-fee-scanner
-- /hidden-fee-analysis-tool
 - /hidden-fee-database
 - /hidden-fee-industry-guide
-- /hidden-fee-scanner
 - /hidden-fee-statistics
 - /privacy-and-ai-security
 - /research-center
 - /research-methodology
 - /security-overview
 - /terms-of-service
-- /upload-bill-for-analysis
 
 The detailed page-level JSON report is generated from `sitemap.xml` and the current local HTML. Null performance values are intentional and must not be interpreted as zero.
