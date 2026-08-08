@@ -3,7 +3,7 @@
 ## Source deployment
 
 - Changes were pushed directly to GitHub `main`.
-- Latest verified commit: `08335ed` (`Refresh deployment handoff commit`), following the canonical opportunity, attribution, contextual CTA, Research Lab, navigation, cache-bust, embed-route, and hub fixes.
+- Latest verified commit: `0d2fd21` (`Govern canonical discovery asset generation`), following the deployment handoff, canonical opportunity, attribution, contextual CTA, Research Lab, navigation, cache-bust, embed-route, and hub fixes.
 - The pre-existing user-owned change to `calculator-authority.css` remains unstaged and untouched.
 
 ## Local verification
