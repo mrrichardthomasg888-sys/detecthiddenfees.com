@@ -3,7 +3,7 @@
 ## Source deployment
 
 - Changes were pushed directly to GitHub `main`.
-- Latest verified commit: `bba535e` (`Qualify financial analysis claims`).
+- Latest verified commit: `ded5c17` (`Make AI transparency claims evidence based`).
 - The pre-existing user-owned change to `calculator-authority.css` remains unstaged and untouched.
 
 ## Local verification
@@ -18,6 +18,6 @@
 
 ## Production verification
 
-After the normal propagation window, the live host verified the three extensionless aliases as HTTP 301 responses to their canonical destinations. The latest seven remediated pages returned HTTP 200, one canonical, and attribution enabled; the targeted unsupported phrases were absent from the served HTML.
+After the normal propagation window, the live host verified the three extensionless aliases as HTTP 301 responses to their canonical destinations. The latest eight remediated pages returned HTTP 200, one canonical, and attribution enabled; the targeted unsupported phrases were absent from the served HTML.
 
 The repository contains no deployment workflow that publishes the site from `main`, but the existing hosting connection did publish the pushed GitHub commit after propagation. No host credentials, API keys, or Cloudflare changes were made.
