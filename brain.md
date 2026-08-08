@@ -893,7 +893,7 @@ This section records the current implementation state so future work can resume 
 - User-directed deployment: push directly to GitHub `main`; do not create a PR and do not deploy through a Cloudflare dashboard.
 - Current working branch during this work: `codex/calculator-native-branding-fix-2026-08-05`.
 - A pre-existing user-owned change to `calculator-authority.css` is intentionally unstaged and must not be included unless the user explicitly asks for it.
-- Latest verified remote `main` before the current pending attribution batch: `e9127e3` (`Add reproducible CTA path audit`).
+- Latest verified remote `main`: `ca945fc` (`Track internal funnel attribution and update handoff`).
 - Preserve existing URLs, templates, logo, typography, navigation, footer, CSS tokens, and visual design. New work must look native to the existing site.
 
 ### Completed systems and verified results
@@ -911,10 +911,10 @@ This section records the current implementation state so future work can resume 
 - Added context-specific CTA metadata to four high-intent pages: `contract_review`, `subscription_fee_review`, and `estimate_review`. Production checks confirmed the labels and metadata at mobile and desktop widths with no overflow or console logs.
 - Added a reproducible CTA-path audit in `scripts/audit-cta-paths.js` with generated JSON/Markdown reports. Current structural baseline: 238 canonical pages, 223 pages with a direct main-content HiddenFeeAI link, 752 direct product links in main content, 117 annotated main links, 8 pages with an existing internal funnel path, and 9 pages with neither a direct product link nor a recognized internal funnel path. The 9 are contact, legal/security, and Research Lab/status pages; do not force commercial CTAs onto them without a clear user-intent reason.
 
-### Current pending attribution improvement
+### Current attribution improvement now deployed
 
-- The current local batch adds `dhf_funnel_path_click` tracking for existing internal `/analyze-my-bill`, `/analyze-my-document`, and `/upload-*` paths. Fourteen existing internal funnel links are annotated with action/placement metadata; outbound HiddenFeeAI links continue to emit `dhf_cta_click`.
-- The pending batch includes the runtime, validator, internal-link annotator, generated CTA audit refresh, attribution contract update, and verification-report update. Run all validators, inspect the diff, explicitly exclude `calculator-authority.css`, then commit and push these intended files to GitHub `main`.
+- Commit `ca945fc` adds `dhf_funnel_path_click` tracking for existing internal `/analyze-my-bill`, `/analyze-my-document`, and `/upload-*` paths. Fourteen existing internal funnel links are annotated with action/placement metadata; outbound HiddenFeeAI links continue to emit `dhf_cta_click`.
+- The runtime, validator, internal-link annotator, generated CTA audit refresh, attribution contract update, verification report, and this handoff were validated and pushed directly to GitHub `main`. The pre-existing `calculator-authority.css` change remains unstaged and untouched.
 
 ### Validation baseline
 

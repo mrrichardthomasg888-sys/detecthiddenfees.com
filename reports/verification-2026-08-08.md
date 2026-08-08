@@ -3,7 +3,7 @@
 ## Source deployment
 
 - Changes were pushed directly to GitHub `main`.
-- Latest verified commits: `f954e56` (contextual CTA attribution metadata), `5b9c66b` (Research Lab citation metadata), `9d25f44` (Research Lab mobile action layout), and `85872c2` (Research Lab hero-action design alignment), alongside the earlier hub, navigation, cache-bust, and embed-route fixes.
+- Latest verified commit: `ca945fc` (`Track internal funnel attribution and update handoff`), following the contextual CTA, Research Lab, navigation, cache-bust, embed-route, and hub fixes.
 - The pre-existing user-owned change to `calculator-authority.css` remains unstaged and untouched.
 
 ## Local verification
@@ -36,5 +36,7 @@ The live embed-template redirect chain was checked with headers disabled from ca
 The five Research Lab status pages return HTTP 200 in production and serve the August 8, 2026 research-record summary. At 390px, the Research Center hero actions are full-width stacked buttons with no document overflow; at 1440px they remain inline in the established blue/purple and glass-button styles. The browser console log was empty during the final check.
 
 The four contextual CTA pages return HTTP 200 in production. Browser checks at 390px and 1440px confirmed the expected action metadata on navigation, hero, content, end, and sticky links, with no horizontal overflow or console logs.
+
+After commit `ca945fc` propagated, six production funnel pages were checked with a cache-busting deployment query. All returned HTTP 200, retained their existing destinations, exposed the new internal action metadata, decorated outbound HiddenFeeAI links with sanitized attribution parameters, and produced no browser error/warning logs. A 390px check on three representative pages confirmed no horizontal overflow and preserved the existing responsive design.
 
 The repository contains no deployment workflow that publishes the site from `main`, but the existing hosting connection published the pushed GitHub commits after propagation. No host credentials, API keys, or Cloudflare changes were made.
