@@ -12,7 +12,7 @@
 
 - [About DetectHiddenFees: AI-Powered Fee Intelligence](https://detecthiddenfees.com/about-detect-hidden-fees) — Canonical page for this topic.
 - [Contact Us](https://detecthiddenfees.com/contact) — Canonical page for this topic.
-- [Data Handling Policy: How We Process Your Documents](https://detecthiddenfees.com/data-handling-policy) — Canonical page for this topic.
+- [Data Handling Policy: What DetectHiddenFees Can Verify](https://detecthiddenfees.com/data-handling-policy) — Canonical page for this topic.
 - [Editorial Policy: Sources, Corrections, and Content Standards](https://detecthiddenfees.com/editorial-policy) — Canonical page for this topic.
 - [Privacy & AI Security: What DetectHiddenFees Can Verify](https://detecthiddenfees.com/privacy-and-ai-security) — Canonical page for this topic.
 - [Security Overview: What DetectHiddenFees Can Verify](https://detecthiddenfees.com/security-overview) — Canonical page for this topic.
