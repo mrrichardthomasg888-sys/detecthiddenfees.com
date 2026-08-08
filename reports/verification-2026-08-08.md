@@ -3,7 +3,7 @@
 ## Source deployment
 
 - Changes were pushed directly to GitHub `main`.
-- Latest verified commit: `fc25cc0` (`Qualify lease review product claims`).
+- Latest verified commits: `85c74d9` (hub claim/source remediation), `13f65dc` (responsive navigation fix), and `fe101d8` (immutable stylesheet cache-bust to `sticky7`).
 - The pre-existing user-owned change to `calculator-authority.css` remains unstaged and untouched.
 
 ## Local verification
@@ -12,12 +12,16 @@
 - Sitemap contains 238 canonical URLs; `llms.txt` contains 238 canonical URLs; RSS contains 178 editorial items.
 - Attribution runtime is present on all 238 canonical pages and does not process document contents.
 - Research manifest remains collecting-only with zero records and no published statistics.
-- High-risk and prioritized unverified product-claim checks pass for six pages.
+- High-risk and prioritized unverified product-claim checks pass for nineteen pages, including `hidden-fees-guides.html`; the reusable remediation script is idempotent on a second run.
+- The unsupported-claim inventory was refreshed after the hub remediation: 2,175 quantitative-amount candidates, 533 percentage candidates, 1,604 absolute/superlative candidates, 144 performance/outcome candidates, and 172 population/scale candidates. These remain review candidates, not findings that every match is unsupported.
+- The shared stylesheet cache-bust is consistent across 234 HTML files; no `sticky6` references remain and all current references use `sticky7`.
 - All known `.html` redirect aliases now have matching extensionless 301 rules.
 - Search Console import remains explicitly `not_connected` with zero records; no fabricated query, click, position, or revenue data was added.
 
 ## Production verification
 
-After the normal propagation window, the live host verified the three extensionless aliases as HTTP 301 responses to their canonical destinations. The latest ten remediated pages returned HTTP 200, one canonical, and attribution enabled; the targeted unsupported phrases were absent from the served HTML. RSS returned 178 editorial items with the updated encyclopedia description.
+After propagation, the live host verified the three extensionless aliases as HTTP 301 responses to their canonical destinations. The 40 Search Console example URLs were rechecked: 38 return HTTP 200 with self-referencing canonicals and 2 duplicate aliases return HTTP 301. The updated `hidden-fees-guides` page returns HTTP 200 with the new source/limitations section, source links, updated description, one canonical, one H1, five JSON-LD blocks, and the refreshed date.
 
-The repository contains no deployment workflow that publishes the site from `main`, but the existing hosting connection did publish the pushed GitHub commit after propagation. No host credentials, API keys, or Cloudflare changes were made.
+Fresh browser checks at 320px, 390px, and 1440px verified no document-level horizontal overflow. At 320px and 390px the shared navigation wraps with `overflow-x: visible` and `flex-wrap: wrap`; at 1440px the desktop layout remains unchanged. Console error/warning logs were empty during the checks.
+
+The repository contains no deployment workflow that publishes the site from `main`, but the existing hosting connection published the pushed GitHub commits after propagation. No host credentials, API keys, or Cloudflare changes were made.
