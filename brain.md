@@ -1660,3 +1660,10 @@ The master validator baseline is 238 pages with zero missing titles/descriptions
 - No email, follow-up, social post, form submission, response, mention, backlink, referral, or conversion is claimed. `calculator-authority.css` remains user-owned, unstaged, and untouched.
 - The remaining credential boundary is unchanged: authenticated sender/provider plus DKIM and reply-mailbox/API for email operations; official OAuth/API connections for social publishing; and private Search Console API or combined query/page/date export for query attribution.
 - Next safe action: stage only the Phase 6B operational files and this memory update, commit, push directly to GitHub `main`, verify the remote commit and production frozen routes, then report exact one-time connection actions. Do not enable sending automatically.
+
+## Phase 6B deployment checkpoint - 2026-08-08
+
+- Operational outreach/distribution commit `ce00dcd45fb35676ec9030d299ce5795fa7042c` was pushed directly to GitHub `main`; no PR and no Cloudflare deployment were used.
+- Production HTTP returned 200 for the homepage, `/research-media-kit`, `/hidden-fee-database`, and all eight frozen Phase 4 routes. The mention monitor and outreach validator passed before deployment; no detections or messages were generated.
+- The engine remains disabled at the credential boundary. No sender, API key, reply mailbox, social OAuth connection, or Search Console API credential was added. `calculator-authority.css` remains the only uncommitted worktree change and is user-owned, untouched, and unstaged.
+- Next safe action: obtain only the required external account authorizations, then run the verifier and approval-safe workflow. Never enable sending or publishing merely because credentials exist; preserve target verification, suppression, low-volume limits, and the eight-page SEO freeze.
