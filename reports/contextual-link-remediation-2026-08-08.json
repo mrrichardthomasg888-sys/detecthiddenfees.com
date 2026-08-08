@@ -10,6 +10,11 @@
       "source": "/hidden-fee-prevention-guide",
       "targets": ["/automatic-renewal-date-calculator"],
       "reason": "Added a semantically matched parent link to the bounded automatic-renewal reminder calculator."
+    },
+    {
+      "source": "/ai-contract-review",
+      "targets": ["/ai-consulting-agreement-review"],
+      "reason": "Added a semantically matched parent link to the evidence-safe consulting-agreement review guide."
     }
   ]
 }

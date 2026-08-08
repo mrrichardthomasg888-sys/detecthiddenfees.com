@@ -19,7 +19,8 @@ const plans = [
     source: '/ai-contract-review',
     heading: 'Find fees in a specific contract',
     targets: [
-      ['/find-hidden-fees-in-contract', 'Find hidden fees in a contract']
+      ['/find-hidden-fees-in-contract', 'Find hidden fees in a contract'],
+      ['/ai-consulting-agreement-review', 'Review a consulting agreement']
     ]
   },
   {
@@ -47,10 +48,18 @@ for (const plan of plans) {
   const eligible = plan.targets.filter(([href]) => !new RegExp(`href=["']${href.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?:["'#?])`, 'i').test(source));
   if (!eligible.length) continue;
   const id = `orphan-context-${plan.source.replace(/[^a-z0-9]+/gi, '-')}`;
-  const block = `<section class="phase2-context-links" aria-labelledby="${id}"><h2 id="${id}">${plan.heading}</h2><ul>${eligible.map(([href, label]) => `<li><a href="${href}">${label}</a></li>`).join('')}</ul></section>`;
-  const close = source.search(/<\/main>/i);
-  if (close < 0) throw new Error(`${plan.file}: missing </main>`);
-  source = source.slice(0, close) + block + source.slice(close);
+  const links = eligible.map(([href, label]) => `<li><a href="${href}">${label}</a></li>`).join('');
+  const existingStart = source.indexOf(`<section class="phase2-context-links" aria-labelledby="${id}"`);
+  if (existingStart >= 0) {
+    const listEnd = source.indexOf('</ul>', existingStart);
+    if (listEnd < 0) throw new Error(`${plan.file}: existing ${id} section is missing </ul>`);
+    source = source.slice(0, listEnd) + links + source.slice(listEnd);
+  } else {
+    const block = `<section class="phase2-context-links" aria-labelledby="${id}"><h2 id="${id}">${plan.heading}</h2><ul>${links}</ul></section>`;
+    const close = source.search(/<\/main>/i);
+    if (close < 0) throw new Error(`${plan.file}: missing </main>`);
+    source = source.slice(0, close) + block + source.slice(close);
+  }
   fs.writeFileSync(file, source);
   changes.push({ source: plan.source, targets: eligible.map(([href]) => href), reason: 'Restored or added a semantically matched parent link for a current orphan page.' });
 }

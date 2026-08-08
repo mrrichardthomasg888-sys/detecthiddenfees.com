@@ -33,7 +33,8 @@ const expected = {
   'ai-construction-contract-review.html': { action: 'contract_review', text: 'Analyze My Construction Contract' },
   'ai-contract-review-vs-chatgpt.html': { action: 'contract_review', text: 'Review My Contract' },
   'find-hidden-fees-in-contract.html': { action: 'contract_review', text: 'Review My Contract' },
-  'free-hidden-fee-scanner.html': { action: 'document_analysis', text: 'Review My Document for Fees' }
+  'free-hidden-fee-scanner.html': { action: 'document_analysis', text: 'Review My Document for Fees' },
+  'ai-consulting-agreement-review.html': { action: 'contract_review', text: 'Review My Consulting Agreement' }
 };
 const errors = [];
 

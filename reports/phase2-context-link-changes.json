@@ -65,5 +65,26 @@
       "/find-hidden-fees-in-contract"
     ],
     "reason": "Restored or added a semantically matched parent link for a current orphan page."
+  },
+  {
+    "source": "/ai-contract-review",
+    "targets": [
+      "/ai-consulting-agreement-review"
+    ],
+    "reason": "Restored or added a semantically matched parent link for a current orphan page."
+  },
+  {
+    "source": "/hidden-fee-detector",
+    "targets": [
+      "/free-hidden-fee-scanner"
+    ],
+    "reason": "Restored or added a semantically matched parent link for a current orphan page."
+  },
+  {
+    "source": "/hidden-fee-prevention-guide",
+    "targets": [
+      "/automatic-renewal-date-calculator"
+    ],
+    "reason": "Restored or added a semantically matched parent link for a current orphan page."
   }
 ]

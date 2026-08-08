@@ -7,10 +7,10 @@ This report compares the read-only Phase 2 baseline with the local Phase 2 navig
 | Metric | Before | After | Change |
 |---|---:|---:|---:|
 | Canonical nodes | 225 | 238 | +13 |
-| Distinct directed edges | 7689 | 9161 | +1472 |
-| Link occurrences | 10072 | 10820 | +748 |
-| Orphan pages | 11 | 1 | -10 |
-| Pages with exactly one inbound link | 61 | 68 | +7 |
+| Distinct directed edges | 7689 | 9164 | +1475 |
+| Link occurrences | 10072 | 10826 | +754 |
+| Orphan pages | 11 | 0 | -11 |
+| Pages with exactly one inbound link | 61 | 69 | +8 |
 | Excessive sitewide targets flagged | 24 | 28 | +4 |
 
 The raw link-occurrence total is not expected to fall because the approved global navigation adds consistent access to six topical destinations and the product CTA. Footer deduplication removed 1,473 duplicate same-destination anchors within individual footers; the remaining sitewide repetition is documented for later template-level review.
@@ -31,11 +31,11 @@ Pages no longer orphaned after targeted contextual links:
 - `/what-should-i-check-before-signing-a-contract`
 
 Remaining orphan pages:
-- `/ai-consulting-agreement-review`
+- None
 
 ## Targeted contextual links added
 
-The following 8 parent pages received 19 contextual links. The links were limited to semantically related child pages that were orphaned or had only one inbound link in the baseline.
+The following 11 parent pages received 22 contextual links. The links were limited to semantically related child pages that were orphaned or had only one inbound link in the baseline.
 
 - `/ai-contract-review` → `/before-signing-a-contract`, `/what-should-i-check-before-signing-a-contract`, `/ai-contract-review-before-signing`
 - `/ai-contract-review-software` → `/contract-review-ai-software`
@@ -45,6 +45,9 @@ The following 8 parent pages received 19 contextual links. The links were limite
 - `/ai-bill-analyzer` → `/ai-bill-analysis-vs-manual-review`, `/ai-bill-analyzer-vs-chatgpt`
 - `/hidden-fee-industry-guide` → `/hidden-auto-fees`, `/hidden-insurance-fees`, `/hidden-utility-fees`
 - `/ai-contract-review` → `/find-hidden-fees-in-contract`
+- `/ai-contract-review` → `/ai-consulting-agreement-review`
+- `/hidden-fee-detector` → `/free-hidden-fee-scanner`
+- `/hidden-fee-prevention-guide` → `/automatic-renewal-date-calculator`
 
 ## Pages still underlinked
 
@@ -52,6 +55,7 @@ These pages have exactly one inbound link in the after graph. They should be rev
 - `/ai-bill-analysis-vs-manual-review`
 - `/ai-bill-analyzer-vs-chatgpt`
 - `/ai-bill-negotiation`
+- `/ai-consulting-agreement-review`
 - `/ai-contract-review-before-signing`
 - `/ai-contractor-agreement-review`
 - `/ai-document-reviewer`
@@ -123,13 +127,13 @@ These pages have exactly one inbound link in the after graph. They should be rev
 - `/ai-contract-review` — 685 link occurrences
 - `/` — 461 link occurrences
 - `/ai-analysis-hub` — 432 link occurrences
-- `/hidden-fee-encyclopedia` — 297 link occurrences
+- `/hidden-fee-encyclopedia` — 298 link occurrences
 - `/research-center` — 288 link occurrences
 - `/ai-bill-analyzer` — 271 link occurrences
+- `/hidden-fee-detector` — 254 link occurrences
 - `/ai-analysis-methodology` — 253 link occurrences
-- `/hidden-fee-detector` — 253 link occurrences
 - `/consumer-negotiation-resource-center` — 252 link occurrences
-- `/contact` — 245 link occurrences
+- `/contact` — 246 link occurrences
 - `/about-detect-hidden-fees` — 235 link occurrences
 - `/resource-library` — 233 link occurrences
 - `/privacy-and-ai-security` — 230 link occurrences
@@ -142,13 +146,13 @@ These pages have exactly one inbound link in the after graph. They should be rev
 - `/hidden-fee-examples` — 193 link occurrences
 - `/ai-agreement-analyzer` — 188 link occurrences
 - `/bill-negotiation-service` — 187 link occurrences
-- `/contract-red-flags` — 184 link occurrences
+- `/contract-red-flags` — 185 link occurrences
 - `/ai-document-scanner` — 181 link occurrences
 - `/hidden-fee-prevention-guide` — 179 link occurrences
 - `/analyze-my-document` — 178 link occurrences
 - `/data-handling-policy` — 172 link occurrences
 - `/hidden-fee-industry-guide` — 172 link occurrences
-- `/before-signing-contract-checklist` — 163 link occurrences
+- `/before-signing-contract-checklist` — 164 link occurrences
 - `/ai-document-review-tool` — 154 link occurrences
 
 ## Sitewide repetition observations

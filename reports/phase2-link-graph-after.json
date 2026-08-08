@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-08T13:50:39.469476+00:00",
+  "generatedAt": "2026-08-08T13:57:21.958875+00:00",
   "label": "after",
   "nodeCount": 238,
-  "edgeCount": 9161,
-  "totalLinkOccurrences": 10820,
+  "edgeCount": 9164,
+  "totalLinkOccurrences": 10826,
   "nodes": [
     {
       "url": "/",
@@ -77,8 +77,8 @@
     },
     {
       "url": "/ai-consulting-agreement-review",
-      "inbound": 0,
-      "outbound": 40
+      "inbound": 1,
+      "outbound": 45
     },
     {
       "url": "/ai-contract-analysis",
@@ -98,7 +98,7 @@
     {
       "url": "/ai-contract-review",
       "inbound": 685,
-      "outbound": 42
+      "outbound": 43
     },
     {
       "url": "/ai-contract-review-before-signing",
@@ -352,7 +352,7 @@
     },
     {
       "url": "/before-signing-contract-checklist",
-      "inbound": 163,
+      "inbound": 164,
       "outbound": 39
     },
     {
@@ -472,7 +472,7 @@
     },
     {
       "url": "/contact",
-      "inbound": 245,
+      "inbound": 246,
       "outbound": 46
     },
     {
@@ -507,7 +507,7 @@
     },
     {
       "url": "/contract-red-flags",
-      "inbound": 184,
+      "inbound": 185,
       "outbound": 33
     },
     {
@@ -752,7 +752,7 @@
     },
     {
       "url": "/hidden-fee-detector",
-      "inbound": 253,
+      "inbound": 254,
       "outbound": 39
     },
     {
@@ -762,7 +762,7 @@
     },
     {
       "url": "/hidden-fee-encyclopedia",
-      "inbound": 297,
+      "inbound": 298,
       "outbound": 80
     },
     {
@@ -4449,12 +4449,22 @@
     },
     {
       "source": "/ai-consulting-agreement-review",
+      "target": "/before-signing-contract-checklist",
+      "count": 1
+    },
+    {
+      "source": "/ai-consulting-agreement-review",
       "target": "/consumer-negotiation-resource-center",
       "count": 1
     },
     {
       "source": "/ai-consulting-agreement-review",
       "target": "/contact",
+      "count": 2
+    },
+    {
+      "source": "/ai-consulting-agreement-review",
+      "target": "/contract-red-flags",
       "count": 1
     },
     {
@@ -4480,12 +4490,12 @@
     {
       "source": "/ai-consulting-agreement-review",
       "target": "/hidden-fee-detector",
-      "count": 1
+      "count": 2
     },
     {
       "source": "/ai-consulting-agreement-review",
       "target": "/hidden-fee-encyclopedia",
-      "count": 1
+      "count": 2
     },
     {
       "source": "/ai-consulting-agreement-review",
@@ -5135,6 +5145,11 @@
     {
       "source": "/ai-contract-review",
       "target": "/ai-bill-analyzer",
+      "count": 1
+    },
+    {
+      "source": "/ai-contract-review",
+      "target": "/ai-consulting-agreement-review",
       "count": 1
     },
     {
@@ -47003,13 +47018,12 @@
       "count": 1
     }
   ],
-  "orphans": [
-    "/ai-consulting-agreement-review"
-  ],
+  "orphans": [],
   "one_inbound": [
     "/ai-bill-analysis-vs-manual-review",
     "/ai-bill-analyzer-vs-chatgpt",
     "/ai-bill-negotiation",
+    "/ai-consulting-agreement-review",
     "/ai-contract-review-before-signing",
     "/ai-contractor-agreement-review",
     "/ai-document-reviewer",
@@ -47091,7 +47105,7 @@
     ],
     [
       "/hidden-fee-encyclopedia",
-      296
+      297
     ],
     [
       "/research-center",
@@ -47102,11 +47116,11 @@
       271
     ],
     [
-      "/ai-analysis-methodology",
-      253
+      "/hidden-fee-detector",
+      254
     ],
     [
-      "/hidden-fee-detector",
+      "/ai-analysis-methodology",
       253
     ],
     [
@@ -47115,7 +47129,7 @@
     ],
     [
       "/contact",
-      245
+      246
     ],
     [
       "/about-detect-hidden-fees",
@@ -47167,7 +47181,7 @@
     ],
     [
       "/contract-red-flags",
-      184
+      185
     ],
     [
       "/ai-document-scanner",
@@ -47205,7 +47219,7 @@
     ],
     [
       "/hidden-fee-encyclopedia",
-      297
+      298
     ],
     [
       "/research-center",
@@ -47216,11 +47230,11 @@
       271
     ],
     [
-      "/ai-analysis-methodology",
-      253
+      "/hidden-fee-detector",
+      254
     ],
     [
-      "/hidden-fee-detector",
+      "/ai-analysis-methodology",
       253
     ],
     [
@@ -47229,7 +47243,7 @@
     ],
     [
       "/contact",
-      245
+      246
     ],
     [
       "/about-detect-hidden-fees",
@@ -47281,7 +47295,7 @@
     ],
     [
       "/contract-red-flags",
-      184
+      185
     ],
     [
       "/ai-document-scanner",
@@ -47305,7 +47319,7 @@
     ],
     [
       "/before-signing-contract-checklist",
-      163
+      164
     ],
     [
       "/ai-document-review-tool",

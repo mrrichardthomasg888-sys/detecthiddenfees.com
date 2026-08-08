@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T13:50:37.505796+00:00",
+  "generatedAt": "2026-08-08T13:57:20.009192+00:00",
   "pageCount": 238,
   "pages": [
     {
@@ -1449,33 +1449,89 @@
       "url": "https://detecthiddenfees.com/ai-consulting-agreement-review",
       "slug": "ai-consulting-agreement-review",
       "file": "ai-consulting-agreement-review.html",
-      "title": "AI Consulting Agreement Review: Protect Your Consulting Practice | DetectHiddenFees",
-      "meta_description": "Review consulting agreements with AI analysis. Identify scope limitations, payment terms, IP rights, and hidden fees in consulting contracts.",
-      "h1": "AI Consulting Agreement Review: Protect Your Consulting Practice",
+      "title": "AI Consulting Agreement Review: What to Check Before Signing | DetectHiddenFees",
+      "meta_description": "A verification-first guide to reviewing consulting agreements for scope, payment, expenses, IP, confidentiality, classification questions, renewal, termination, and fee language.",
+      "h1": "AI Consulting Agreement Review: What to Check Before Signing",
       "headings": [
         {
           "level": 1,
-          "text": "AI Consulting Agreement Review: Protect Your Consulting Practice"
-        },
-        {
-          "level": 3,
-          "text": "Essential Resources"
+          "text": "AI Consulting Agreement Review: What to Check Before Signing"
         },
         {
           "level": 2,
-          "text": "Ready to analyze your document?"
-        },
-        {
-          "level": 3,
-          "text": "How AI AI Consulting Agreement Review Works"
-        },
-        {
-          "level": 3,
-          "text": "Related Resources"
+          "text": "Direct answer: what should a consulting agreement review cover?"
         },
         {
           "level": 2,
-          "text": "Frequently Asked Questions"
+          "text": "Consulting agreement review checklist"
+        },
+        {
+          "level": 3,
+          "text": "Scope and acceptance"
+        },
+        {
+          "level": 3,
+          "text": "Fees, payment, and expenses"
+        },
+        {
+          "level": 3,
+          "text": "Changes and records"
+        },
+        {
+          "level": 3,
+          "text": "IP, confidentiality, and data"
+        },
+        {
+          "level": 3,
+          "text": "Classification and risk allocation"
+        },
+        {
+          "level": 3,
+          "text": "Renewal and termination"
+        },
+        {
+          "level": 2,
+          "text": "Verification-first workflow"
+        },
+        {
+          "level": 2,
+          "text": "Official source context and limitations"
+        },
+        {
+          "level": 2,
+          "text": "Frequently asked questions"
+        },
+        {
+          "level": 3,
+          "text": "What can AI-assisted consulting agreement review help with?"
+        },
+        {
+          "level": 3,
+          "text": "Which clauses should a consultant review?"
+        },
+        {
+          "level": 3,
+          "text": "Can this page determine whether someone is an employee or independent contractor?"
+        },
+        {
+          "level": 3,
+          "text": "Can AI tell me whether a consulting fee is fair?"
+        },
+        {
+          "level": 3,
+          "text": "What records should I preserve before reviewing an agreement?"
+        },
+        {
+          "level": 3,
+          "text": "What should I confirm before uploading a consulting agreement?"
+        },
+        {
+          "level": 2,
+          "text": "Need help organizing the agreement?"
+        },
+        {
+          "level": 2,
+          "text": "Continue learning"
         },
         {
           "level": 2,
@@ -1483,11 +1539,11 @@
         }
       ],
       "page_type": "editorial_guide",
-      "primary_topic": "contract_review",
+      "primary_topic": "contract_clauses_risk",
       "secondary_topics": [
-        "contract_clauses_risk",
-        "hidden_fee_detection",
-        "bill_document_analysis"
+        "contract_review",
+        "bill_document_analysis",
+        "consumer_trust"
       ],
       "silo_id": "ai_contract_review",
       "silo": "AI Contract Review",
@@ -1497,19 +1553,22 @@
       "schema_types": [
         "Article",
         "BreadcrumbList",
-        "FAQPage"
+        "FAQPage",
+        "Organization",
+        "WebPage",
+        "WebSite"
       ],
-      "approx_visible_word_count": 898,
-      "outbound_internal_link_count": 40,
-      "outbound_external_link_count": 17,
+      "approx_visible_word_count": 1088,
+      "outbound_internal_link_count": 45,
+      "outbound_external_link_count": 7,
       "links_hiddenfeeai": true,
       "conversion_target": "https://hiddenfeeai.com",
       "content_class": "editorial",
       "canonical": "https://detecthiddenfees.com/ai-consulting-agreement-review",
       "has_unique_reason_to_exist": true,
       "overlap_flag": false,
-      "content_excerpt": "AI Consulting Agreement Review: Protect Your Consulting Practice | DetectHiddenFees Hidden Fees Contract Review Bills & Documents Negotiation Research Resources Analyze a Document Skip to main content Home / AI Contract Review / AI Consulting Agreement Review: Protect Your Consul",
-      "inbound_internal_link_count": 0,
+      "content_excerpt": "AI Consulting Agreement Review: What to Check Before Signing | DetectHiddenFees Hidden Fees Contract Review Bills & Documents Negotiation Research Resources Analyze a Document Skip to main content Home / AI Contract Review / AI Consulting Agreement Review: What to Check Before Si",
+      "inbound_internal_link_count": 1,
       "parent_topic": "/ai-contract-review",
       "existing_breadcrumb_parent": "/ai-contract-review"
     },
@@ -2431,8 +2490,8 @@
         "WebPage",
         "WebSite"
       ],
-      "approx_visible_word_count": 1105,
-      "outbound_internal_link_count": 44,
+      "approx_visible_word_count": 1109,
+      "outbound_internal_link_count": 45,
       "outbound_external_link_count": 4,
       "links_hiddenfeeai": true,
       "conversion_target": "https://hiddenfeeai.com",
@@ -6680,7 +6739,7 @@
       "has_unique_reason_to_exist": true,
       "overlap_flag": false,
       "content_excerpt": "Before Signing a Contract: The Complete 30-Point Pre-Signing Checklist | DetectHiddenFees Skip to main content Detect HiddenFees Hidden Fees Contract Review Bills & Documents Negotiation Research Resources Analyze a Document Home / AI Contract Review Software / Before Signing a C",
-      "inbound_internal_link_count": 164,
+      "inbound_internal_link_count": 165,
       "parent_topic": "/ai-contract-review-software",
       "existing_breadcrumb_parent": "/ai-contract-review"
     },
@@ -8928,7 +8987,7 @@
       "has_unique_reason_to_exist": true,
       "overlap_flag": false,
       "content_excerpt": "Contact Us | DetectHiddenFees Skip to main content Detect HiddenFees Hidden Fees Contract Review Bills & Documents Negotiation Research Resources Analyze a Document Home / About DetectHiddenFees / Contact Us Contact Us Have questions about hidden fees, AI document analysis, or ou",
-      "inbound_internal_link_count": 246,
+      "inbound_internal_link_count": 247,
       "parent_topic": "/about-detect-hidden-fees",
       "existing_breadcrumb_parent": "/about-detect-hidden-fees"
     },
@@ -9544,7 +9603,7 @@
       "has_unique_reason_to_exist": true,
       "overlap_flag": false,
       "content_excerpt": "Contract Red Flags: Warning Signs in Every Agreement | DetectHiddenFees Skip to main content Detect HiddenFees Hidden Fees Contract Review Bills & Documents Negotiation Research Resources Analyze a Document Home / Contract Terms Glossary / Contract Red Flags: Warning Signs to Wat",
-      "inbound_internal_link_count": 185,
+      "inbound_internal_link_count": 186,
       "parent_topic": "/contract-terms-glossary",
       "existing_breadcrumb_parent": "/contract-terms-glossary"
     },
@@ -15301,7 +15360,7 @@
       "has_unique_reason_to_exist": true,
       "overlap_flag": true,
       "content_excerpt": "Hidden Fee Detector: How AI-Assisted Document Review Works | DetectHiddenFees Skip to main content Detect HiddenFees Hidden Fees Contract Review Bills & Documents Negotiation Research Resources Analyze a Document Home / Hidden Fee Detector: How AI-Assisted Document Review Works H",
-      "inbound_internal_link_count": 254,
+      "inbound_internal_link_count": 255,
       "parent_topic": null,
       "existing_breadcrumb_parent": "/"
     },
@@ -15516,7 +15575,7 @@
       "has_unique_reason_to_exist": true,
       "overlap_flag": true,
       "content_excerpt": "Hidden Fee Encyclopedia: Terms, Charges, and Review Questions | DetectHiddenFees Skip to main content Detect HiddenFees Hidden Fees Contract Review Bills & Documents Negotiation Research Resources Analyze a Document Home / Hidden Fee Encyclopedia: Terms, Charges, and Review Quest",
-      "inbound_internal_link_count": 299,
+      "inbound_internal_link_count": 300,
       "parent_topic": null,
       "existing_breadcrumb_parent": "/"
     },

@@ -707,6 +707,28 @@ const forbiddenByFile = {
     'price":"0',
     'AI-powered analysis'
   ],
+  'ai-consulting-agreement-review.html': [
+    'AI-powered analysis',
+    'Results in minutes',
+    '$15 one-time payment',
+    'Upload & Analyze',
+    'Upload My Document',
+    'One-time payment',
+    'No subscription',
+    'Encrypted & secure',
+    'automatically deleted after processing',
+    'does not use uploaded documents for AI training',
+    'patterns from thousands of similar documents',
+    'reads and structures your document',
+    'identifies every potential issue',
+    'prioritizing issues by their potential financial impact',
+    'misclassification risks',
+    'whether the agreement terms suggest employee rather than contractor status',
+    'unfair termination provisions',
+    'beyond what is standard for your type of work',
+    'Upload My Document — $15',
+    'SoftwareApplication'
+  ],
   'ai-estimate-review.html': [
     'Analyze My Bill',
     'Upload My Bill',
