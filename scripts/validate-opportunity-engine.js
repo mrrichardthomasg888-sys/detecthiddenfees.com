@@ -15,6 +15,16 @@ const validStages = new Set(['awareness', 'consideration', 'action']);
 const validRelevance = new Set(['low', 'medium', 'high']);
 const errors = [];
 const seen = new Set();
+const redirectSources = new Set();
+const redirectsFile = path.join(ROOT, '_redirects');
+if (fs.existsSync(redirectsFile)) {
+  for (const line of fs.readFileSync(redirectsFile, 'utf8').split(/\r?\n/)) {
+    const parts = line.trim().split(/\s+/);
+    if (parts.length >= 3 && /^30[1278]$/.test(parts[2])) {
+      redirectSources.add(parts[0].replace(/\.html$/i, '').replace(/\/$/, '') || '/');
+    }
+  }
+}
 
 for (const [index, row] of data.opportunities.entries()) {
   for (const key of required) if (!(key in row)) errors.push(`row ${index + 1}: missing ${key}`);
@@ -28,9 +38,11 @@ for (const [index, row] of data.opportunities.entries()) {
   for (const key of ['impressions', 'clicks', 'ctr', 'position']) {
     if (row.gsc[key] !== null) errors.push(`row ${index + 1}: ${key} must remain null until a source is connected`);
   }
-  for (const url of [row.existing_target_url, row.recommended_url]) {
+  const linkedUrls = [row.existing_target_url, row.recommended_url, ...(row.internal_link_opportunities || [])];
+  for (const url of linkedUrls) {
     if (url && !url.startsWith('/')) errors.push(`row ${index + 1}: local URL must start with /`);
     if (url && url.endsWith('.html')) errors.push(`row ${index + 1}: use extensionless canonical URL ${url}`);
+    if (url && redirectSources.has(url)) errors.push(`row ${index + 1}: redirect-source URL is not a canonical opportunity link ${url}`);
     if (url && url !== '/' && !fs.existsSync(path.join(ROOT, `${url.slice(1)}.html`))) errors.push(`row ${index + 1}: local URL not found ${url}`);
   }
 }

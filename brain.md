@@ -893,7 +893,7 @@ This section records the current implementation state so future work can resume 
 - User-directed deployment: push directly to GitHub `main`; do not create a PR and do not deploy through a Cloudflare dashboard.
 - Current working branch during this work: `codex/calculator-native-branding-fix-2026-08-05`.
 - A pre-existing user-owned change to `calculator-authority.css` is intentionally unstaged and must not be included unless the user explicitly asks for it.
-- Latest verified remote `main`: `ca945fc` (`Track internal funnel attribution and update handoff`).
+- Latest verified remote `main`: `dbd99d8` (`Record production attribution verification`).
 - Preserve existing URLs, templates, logo, typography, navigation, footer, CSS tokens, and visual design. New work must look native to the existing site.
 
 ### Completed systems and verified results
@@ -910,6 +910,7 @@ This section records the current implementation state so future work can resume 
 - Outbound HiddenFeeAI links receive `dhf_landing`, `dhf_referrer`, `dhf_session`, `dhf_source`, and preserved UTM parameters. The handoff contract is documented in `seo/attribution-contract.md`; HiddenFeeAI still needs to implement the downstream receipt and conversion events.
 - Added context-specific CTA metadata to four high-intent pages: `contract_review`, `subscription_fee_review`, and `estimate_review`. Production checks confirmed the labels and metadata at mobile and desktop widths with no overflow or console logs.
 - Added a reproducible CTA-path audit in `scripts/audit-cta-paths.js` with generated JSON/Markdown reports. Current structural baseline: 238 canonical pages, 223 pages with a direct main-content HiddenFeeAI link, 752 direct product links in main content, 117 annotated main links, 8 pages with an existing internal funnel path, and 9 pages with neither a direct product link nor a recognized internal funnel path. The 9 are contact, legal/security, and Research Lab/status pages; do not force commercial CTAs onto them without a clear user-intent reason.
+- Hardened `seo/opportunity-engine.json` so its seeded internal-link recommendations use canonical URLs, including `/ai-analysis-hub` instead of the retired `/ai-document-intelligence-center` alias. `scripts/validate-opportunity-engine.js` now rejects redirect-source URLs in target or internal-link fields while preserving the explicit null/not-connected Search Console performance fields.
 
 ### Current attribution improvement now deployed
 
