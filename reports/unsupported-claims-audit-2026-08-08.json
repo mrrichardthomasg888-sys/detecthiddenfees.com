@@ -6,11 +6,11 @@
   "page_count": 238,
   "pages_with_candidates": 234,
   "candidate_counts": {
-    "quantitative_amount": 2198,
+    "quantitative_amount": 2196,
     "quantitative_percent": 547,
-    "absolute_or_superlative": 1635,
+    "absolute_or_superlative": 1626,
     "performance_or_outcome": 155,
-    "population_or_scale": 192
+    "population_or_scale": 187
   },
   "records": [
     {
@@ -4335,7 +4335,7 @@
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
-          "snippet": "mines the document structure and adjusts its analysis framework accordingly. How much does it cost? $15 per document. One-time payment with no subscription. Is my data safe? Yes. Documents are encrypted during transmission and automatically deleted after processin"
+          "snippet": "mines the document structure and adjusts its analysis framework accordingly. How much does it cost? $15 per document. One-time payment with no subscription. Is my data safe? Yes. Current encryption and retention practices are governed by HiddenFeeAI first-party po"
         },
         {
           "key": "quantitative_amount",
@@ -4382,24 +4382,6 @@
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "every",
-          "snippet": "e written in language that is intentionally difficult to parse. AI analysis changes this by reading every word, comparing every clause against known patterns, and flagging anything that deserves your attention. The result is a clear, actionable report that tells yo"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "that is intentionally difficult to parse. AI analysis changes this by reading every word, comparing every clause against known patterns, and flagging anything that deserves your attention. The result is a clear, actionable report that tells you exactly what you nee"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "he agreement. These provisions are buried in dense legal paragraphs that most people skip. AI reads every word and flags unbalanced liability language. Scope of work descriptions are another frequent source of disputes. Vague language like 'comprehensive services' "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
           "value": "never",
           "snippet": "c. When the other party delivers less than you expected, you have no recourse because the scope was never defined. AI identifies vague scope language and recommends specific questions to clarify exactly what is included. Payment terms deserve careful scrutiny befor"
         },
@@ -4430,6 +4412,12 @@
         {
           "key": "absolute_or_superlative",
           "severity": "high",
+          "value": "guarantee",
+          "snippet": "ating the agreement. Uploading a document for analysis may help identify questions, but it does not guarantee savings or a particular financial outcome. Hidden fees, automatic renewals, and unbalanced terms are expensive mistakes that are completely avoidable with prop"
+        },
+        {
+          "key": "absolute_or_superlative",
+          "severity": "high",
           "value": "never",
           "snippet": "er contracts and standard business agreements, AI provides a level of review that most people would never get otherwise. The most expensive contract is the one you sign without reading. Even a quick AI review catches the most common issues that cost consumers money"
         },
@@ -4449,13 +4437,7 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "Every",
-          "snippet": "ent. AI helps you distinguish between standard provisions and unusual terms that deserve attention. Every dollar spent on contract review before signing is an investment in protecting yourself from future costs. A single hidden fee identified before signing can sav"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "contract can include provisions that cost you thousands if you do not read them carefully. AI reads every word so you do not have to. Contract review is not about being paranoid. It is about being practical. The vast majority of contracts contain at least some term"
+          "snippet": "ent. AI helps you distinguish between standard provisions and unusual terms that deserve attention. Every dollar spent on contract review before signing is an investment in protecting yourself from future costs. A hidden fee identified before signing may help infor"
         },
         {
           "key": "absolute_or_superlative",
@@ -4486,12 +4468,6 @@
           "severity": "high",
           "value": "every",
           "snippet": "discover these problems only after signing. AI-powered analysis makes thorough review practical for every document. Combining AI analysis with your own judgment creates an efficient review process that catches issues before you commit. Hidden fees appear in many ty"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "nauthorized charges. Bills can include services you did not receive. AI detects these issues across all document types you upload. Instead of calling something a fee, the contract might call it a surcharge, adjustment, recovery charge, or processing cost. AI iden"
         },
         {
           "key": "absolute_or_superlative",
@@ -4538,26 +4514,14 @@
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "every",
-          "snippet": "rything to one platform. The analysis is comprehensive regardless of document type. The AI examines every element of your document, comparing findings against known patterns from thousands of similar documents. Documents You Can Review Contracts of all types can be"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
           "value": "all",
-          "snippet": "s against known patterns from thousands of similar documents. Documents You Can Review Contracts of all types can be analyzed. Service agreements, contractor contracts, purchase agreements, lease agreements, subscription terms, and financing documents are all sup"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "r contracts, purchase agreements, lease agreements, subscription terms, and financing documents are all supported. Invoices can be checked for hidden charges, pricing errors, duplicate line items, and unauthorized fees. The AI compares invoice line items against "
+          "snippet": "does not verify a dataset size or complete document coverage. Documents You Can Review Contracts of all types can be analyzed. Supported document types are product-dependent; confirm current support before uploading. Invoices can be checked for hidden charges, pr"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "All",
-          "snippet": "elps you make better decisions about your overall financial relationships. Privacy and Security for All Document Types Documents are encrypted during transmission and automatically deleted after processing. HiddenFeeAI does not use uploaded documents for AI train"
+          "snippet": "elps you make better decisions about your overall financial relationships. Privacy and Security for All Document Types Current encryption and retention practices are governed by HiddenFeeAI first-party policies and are not independently verified by this repositor"
         },
         {
           "key": "absolute_or_superlative",
@@ -4596,22 +4560,10 @@
           "snippet": "matic might include reduced coverage at the same price. When you use the same document reviewer for all your documents, you develop familiarity with the analysis format. You learn what to look for and which findings matter most for your situation. This familiarit"
         },
         {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": "e agreement. The few minutes it takes to upload a document for AI analysis can save you hundreds or thousands of dollars. Hidden fees, automatic renewals, and unbalanced terms are expensive mistakes that are completely avoidable with proper review before signing. Many peo"
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": "ype. The AI examines every element of your document, comparing findings against known patterns from thousands of similar documents. Documents You Can Review Contracts of all types can be analyzed. Service agreements, contractor contracts, purchase agreements, lease agreem"
-        },
-        {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "precision",
-          "snippet": "s. The language of contracts is deliberately complex. This complexity serves a purpose beyond legal precision. It makes it harder for non-experts to understand what they are agreeing to. AI translates this complexity into plain language explanations. Most contract disp"
+          "snippet": "e. The language of contracts is deliberately complex. This complexity serves a purpose beyond legal precision. It makes it harder for non-experts to understand what they are agreeing to. AI translates this complexity into plain language explanations. Most contract disp"
         },
         {
           "key": "performance_or_outcome",
@@ -7271,19 +7223,13 @@
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
-          "snippet": "erables, and unfavorable terms that standard proposal language often conceals. Review My Proposal — $15 See How AI Contract Review Works Additional Considerations for proposal review Additional Considerations for proposal review Confidentiality provisions protect "
+          "snippet": "ms for human review; results depend on extracted content and product coverage. Review My Proposal — $15 See How AI Contract Review Works Additional Considerations for proposal review Additional Considerations for proposal review Confidentiality provisions protect "
         },
         {
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
           "snippet": "ancial consequences if something is wrong. AI contract analysis is not a luxury for the wealthy. At $15 per document, it is accessible to anyone who wants to protect themselves from hidden fees and unfavorable terms. Compare that cost to the potential savings from"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "o achieve the promised results. An AI proposal review identifies these risks before you commit. For $15 per analysis, AI proposal review is one of the most cost-effective business decisions you can make. Compare that cost to the potential cost of accepting a propo"
         },
         {
           "key": "quantitative_amount",
@@ -7296,12 +7242,6 @@
           "severity": "review",
           "value": "$5,000",
           "snippet": "als above a certain value threshold. For some businesses, that threshold is $500. For others, it is $5,000. The specific threshold matters less than the consistency of applying the rule. The second element of a review practice is using the same review criteria for e"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "cumulative effect of hundreds of well-reviewed proposals is a significant competitive advantage. At $15 per analysis, the cost of building this practice is minimal compared to the potential savings. A single avoided bad deal can pay for hundreds of analyses. For m"
         },
         {
           "key": "quantitative_amount",
@@ -7337,7 +7277,7 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "Never",
-          "snippet": " Proposal Review: Never Accept a Bad Business Proposal Again AI PROPOSAL REVIEW AI Proposal Review: Never Accept a Bad Business Proposal Again Business proposals look professional. That does not mean they are fair. An AI proposal review reads between the lines, ide"
+          "snippet": " Proposal Review: Never Accept a Bad Business Proposal Again AI PROPOSAL REVIEW AI Proposal Review: Never Accept a Bad Business Proposal Again Business proposals look professional. That does not mean they are fair. An AI proposal review may flag potential hidden fe"
         },
         {
           "key": "absolute_or_superlative",
@@ -7366,6 +7306,12 @@
         {
           "key": "absolute_or_superlative",
           "severity": "high",
+          "value": "guarantee",
+          "snippet": "ating the agreement. Uploading a document for analysis may help identify questions, but it does not guarantee savings or a particular financial outcome. Hidden fees, automatic renewals, and unbalanced terms are expensive mistakes that are completely avoidable with prop"
+        },
+        {
+          "key": "absolute_or_superlative",
+          "severity": "high",
           "value": "never",
           "snippet": "er contracts and standard business agreements, AI provides a level of review that most people would never get otherwise. The most expensive contract is the one you sign without reading. Even a quick AI review catches the most common issues that cost consumers money"
         },
@@ -7385,13 +7331,7 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "Every",
-          "snippet": "ent. AI helps you distinguish between standard provisions and unusual terms that deserve attention. Every dollar spent on contract review before signing is an investment in protecting yourself from future costs. A single hidden fee identified before signing can sav"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "contract can include provisions that cost you thousands if you do not read them carefully. AI reads every word so you do not have to. Additional Considerations for proposal review When evaluating AI proposal review, most people focus on the obvious elements: price,"
+          "snippet": "ent. AI helps you distinguish between standard provisions and unusual terms that deserve attention. Every dollar spent on contract review before signing is an investment in protecting yourself from future costs. A hidden fee identified before signing may help infor"
         },
         {
           "key": "absolute_or_superlative",
@@ -7433,13 +7373,13 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "h works for contracts, agreements, proposals, quotes, and estimates. The key is consistency. Review every significant document before signing. That habit will save you more money than almost any other financial practice. Understanding the documents you sign is esse"
+          "snippet": "h works for contracts, agreements, proposals, quotes, and estimates. The key is consistency. Review every significant document before signing. That habit may help reduce surprises, but no savings ranking is asserted here. Understanding the documents you sign is ess"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "Every",
-          "snippet": "ractice. Understanding the documents you sign is essential for protecting your financial interests. Every agreement creates binding obligations that affect your rights and responsibilities. Taking time to review before committing ensures you know exactly what you a"
+          "snippet": "ed here. Understanding the documents you sign is essential for protecting your financial interests. Every agreement creates binding obligations that affect your rights and responsibilities. Taking time to review before committing ensures you know exactly what you a"
         },
         {
           "key": "absolute_or_superlative",
@@ -7492,18 +7432,6 @@
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "every",
-          "snippet": "d the AI begins its analysis immediately. Step two is the AI analysis. The HiddenFeeAI engine reads every page of your proposal, extracting pricing information, scope descriptions, terms and conditions, assumptions, exclusions, timelines, and guarantees. Each eleme"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "always",
-          "snippet": "tes. For complex proposals with hundreds of pages, the analysis may take slightly longer, but it is always measured in minutes rather than hours. After reviewing the report, you can decide how to proceed. Some findings may lead you to negotiate specific terms. Other"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
           "value": "all",
           "snippet": "e cases, the findings may be significant enough that you decide not to proceed with the proposal at all. The analysis report is yours to keep. You can reference it during negotiations, share it with colleagues or advisors, and use it as a benchmark for evaluating"
         },
@@ -7511,7 +7439,7 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "all",
-          "snippet": "rief description of what is included, and basic terms like validity period. HiddenFeeAI can analyze all three document types. The analysis adapts to the document structure, focusing on the elements that matter most for each type. For proposals, the AI focuses on "
+          "snippet": "description of what is included, and basic terms like validity period. Whether HiddenFeeAI supports all three document types should be confirmed in current first-party materials. The analysis adapts to the document structure, focusing on the elements that matter "
         },
         {
           "key": "absolute_or_superlative",
@@ -7532,22 +7460,16 @@
           "snippet": "terns signal risk. HiddenFeeAI supports this consistency by applying the same analysis framework to every proposal. The AI does not get tired, distracted, or impressed by professional formatting. It evaluates each proposal against the same standards, giving you a r"
         },
         {
-          "key": "population_or_scale",
+          "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "thousands of",
-          "snippet": "e agreement. The few minutes it takes to upload a document for AI analysis can save you hundreds or thousands of dollars. Hidden fees, automatic renewals, and unbalanced terms are expensive mistakes that are completely avoidable with proper review before signing. Many peo"
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": "f? AI reads the entire document systematically, comparing language against known risk patterns from thousands of similar proposals. Humans often miss subtle pricing language or buried terms that AI catches consistently. How much does AI proposal review cost? HiddenFeeAI o"
+          "value": "guaranteed",
+          "snippet": "titive advantage. Review current pricing and weigh it against the proposal context; savings are not guaranteed. A single avoided bad deal can pay for hundreds of analyses. Return on investment depends on the proposal, business context, and outcome; no comparative rankin"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "precision",
-          "snippet": "s. The language of contracts is deliberately complex. This complexity serves a purpose beyond legal precision. It makes it harder for non-experts to understand what they are agreeing to. AI translates this complexity into plain language explanations. Most contract disp"
+          "snippet": "e. The language of contracts is deliberately complex. This complexity serves a purpose beyond legal precision. It makes it harder for non-experts to understand what they are agreeing to. AI translates this complexity into plain language explanations. Most contract disp"
         }
       ]
     },
@@ -8414,7 +8336,7 @@
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
-          "snippet": "item, identifying hidden fees, unexpected charges, and billing errors. Analyze My Statement &mdash; $15 Every contract contains dozens of provisions that affect your legal and financial position. Most people sign without understanding half of what they are agreein"
+          "snippet": "unexpected charges, and billing errors; findings require verification. Analyze My Statement &mdash; $15 Every contract contains dozens of provisions that affect your legal and financial position. Most people sign without understanding half of what they are agreein"
         },
         {
           "key": "quantitative_amount",
@@ -8486,7 +8408,7 @@
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
-          "snippet": "ts, investment account statements, loan statements, medical bills, and more. How much does it cost? $15 per statement. One-time payment with no subscription. Is my financial data safe? Yes. Statements are encrypted during transmission and automatically deleted aft"
+          "snippet": "ts, investment account statements, loan statements, medical bills, and more. How much does it cost? $15 per statement. One-time payment with no subscription. Is my financial data safe? Yes. Current statement-handling, encryption, and retention practices are govern"
         },
         {
           "key": "quantitative_amount",
@@ -8497,14 +8419,8 @@
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "every",
-          "snippet": "d account summaries contain fees and charges that are easy to miss. Our AI statement analyzer scans every line item, identifying hidden fees, unexpected charges, and billing errors. Analyze My Statement &mdash; $15 Every contract contains dozens of provisions that "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
           "value": "Every",
-          "snippet": ", identifying hidden fees, unexpected charges, and billing errors. Analyze My Statement &mdash; $15 Every contract contains dozens of provisions that affect your legal and financial position. Most people sign without understanding half of what they are agreeing to."
+          "snippet": "pected charges, and billing errors; findings require verification. Analyze My Statement &mdash; $15 Every contract contains dozens of provisions that affect your legal and financial position. Most people sign without understanding half of what they are agreeing to."
         },
         {
           "key": "absolute_or_superlative",
@@ -8557,6 +8473,12 @@
         {
           "key": "absolute_or_superlative",
           "severity": "high",
+          "value": "guarantee",
+          "snippet": "ating the agreement. Uploading a document for analysis may help identify questions, but it does not guarantee savings or a particular financial outcome. Hidden fees, automatic renewals, and unbalanced terms are expensive mistakes that are completely avoidable with prop"
+        },
+        {
+          "key": "absolute_or_superlative",
+          "severity": "high",
           "value": "never",
           "snippet": "er contracts and standard business agreements, AI provides a level of review that most people would never get otherwise. The most expensive contract is the one you sign without reading. Even a quick AI review catches the most common issues that cost consumers money"
         },
@@ -8576,13 +8498,7 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "Every",
-          "snippet": "ent. AI helps you distinguish between standard provisions and unusual terms that deserve attention. Every dollar spent on contract review before signing is an investment in protecting yourself from future costs. A single hidden fee identified before signing can sav"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "contract can include provisions that cost you thousands if you do not read them carefully. AI reads every word so you do not have to. Contract review is not about being paranoid. It is about being practical. The vast majority of contracts contain at least some term"
+          "snippet": "ent. AI helps you distinguish between standard provisions and unusual terms that deserve attention. Every dollar spent on contract review before signing is an investment in protecting yourself from future costs. A hidden fee identified before signing may help infor"
         },
         {
           "key": "absolute_or_superlative",
@@ -8653,12 +8569,6 @@
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "every",
-          "snippet": "atements are dense documents filled with numbers and abbreviations. The AI statement analyzer reads every line item, comparing each charge against expected patterns. Hidden fees on bank statements appear under many names: monthly maintenance fees, account service c"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
           "value": "all",
           "snippet": " fees for services you did not use, and subscriptions you cancelled but are still being charged for all appear on statements regularly. Types of Statements You Can Analyze Bank account statements can be analyzed for monthly maintenance fees, transaction fees, ove"
         },
@@ -8684,7 +8594,7 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "y these fees because they do not realize they exist or do not know how to avoid them. AI identifies every fee on your statement and explains whether it is avoidable. Credit card statements are another common source of hidden costs. Interest charges that are calcula"
+          "snippet": "oid them. AI-assisted review may flag fees and explain possible questions; it cannot determine that every fee is avoidable. Credit card statements are another common source of hidden costs. Interest charges that are calculated incorrectly, late payment fees that we"
         },
         {
           "key": "absolute_or_superlative",
@@ -8696,19 +8606,13 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "all",
-          "snippet": "ments are encrypted during transmission and automatically deleted after processing. Can the AI find all billing errors? The AI identifies patterns that indicate potential errors. Always verify findings before taking action. TOOLS AI Contract Review AI Bill Analyz"
+          "snippet": "enFeeAI first-party policies and are not independently verified by this repository. Can the AI find all billing errors? The AI identifies patterns that indicate potential errors. Always verify findings before taking action. TOOLS AI Contract Review AI Bill Analyz"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "Always",
-          "snippet": "ing. Can the AI find all billing errors? The AI identifies patterns that indicate potential errors. Always verify findings before taking action. TOOLS AI Contract Review AI Bill Analyzer AI Document Checker Hidden Fee Detector Upload Document DOCUMENT ANALYSIS RESOU"
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": "e agreement. The few minutes it takes to upload a document for AI analysis can save you hundreds or thousands of dollars. Hidden fees, automatic renewals, and unbalanced terms are expensive mistakes that are completely avoidable with proper review before signing. Many peo"
+          "snippet": "ory. Can the AI find all billing errors? The AI identifies patterns that indicate potential errors. Always verify findings before taking action. TOOLS AI Contract Review AI Bill Analyzer AI Document Checker Hidden Fee Detector Upload Document DOCUMENT ANALYSIS RESOU"
         },
         {
           "key": "population_or_scale",
@@ -8720,13 +8624,13 @@
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "precision",
-          "snippet": "s. The language of contracts is deliberately complex. This complexity serves a purpose beyond legal precision. It makes it harder for non-experts to understand what they are agreeing to. AI translates this complexity into plain language explanations. Most contract disp"
+          "snippet": "e. The language of contracts is deliberately complex. This complexity serves a purpose beyond legal precision. It makes it harder for non-experts to understand what they are agreeing to. AI translates this complexity into plain language explanations. Most contract disp"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "accuracy",
-          "snippet": "arges, and other investment-related costs. Loan statements can be analyzed for interest calculation accuracy and prepayment penalty language. Why Statement Analysis Matters Financial errors on statements cost consumers billions of dollars each year. Medical bills cont"
+          "snippet": "arges, and other investment-related costs. Loan statements can be analyzed for interest calculation accuracy and prepayment penalty language. Why Statement Analysis Matters Statement errors can create meaningful costs; this page does not assert a dollar total without "
         }
       ]
     },

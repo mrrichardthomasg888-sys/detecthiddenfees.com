@@ -3,6 +3,25 @@ const path = require('path');
 
 const root = path.resolve(__dirname, '..');
 
+const sharedUnverifiedClaimPairs = [
+  [
+    'AI reads every word so you do not have to.',
+    'AI analyzes extractable document content, subject to document quality and product limitations.'
+  ],
+  [
+    'The few minutes it takes to upload a document for AI analysis can save you hundreds or thousands of dollars.',
+    'Uploading a document for analysis may help identify questions, but it does not guarantee savings or a particular financial outcome.'
+  ],
+  [
+    'A single hidden fee identified before signing can save more than the cost of hundreds of AI analyses.',
+    'A hidden fee identified before signing may help inform a decision, but savings depend on the document, negotiation, and outcome.'
+  ],
+  [
+    'AI review before signing dramatically reduces the risk of future disputes by ensuring both parties understand what the contract actually says.',
+    'AI review before signing may help surface questions, but it cannot ensure that both parties understand a contract or prevent future disputes.'
+  ]
+];
+
 const exactReplacements = {
   'about-detect-hidden-fees.html': [
     [
@@ -126,6 +145,111 @@ const exactReplacements = {
     [
       'Short documents (1-10 pages) can be analyzed in under 2 minutes. Longer documents (50+ pages) may take 5-10 minutes.',
       'Document length, quality, and product conditions can affect turnaround; these page-count benchmarks are not independently verified here.'
+    ]
+  ],
+  'ai-document-reviewer.html': [
+    ...sharedUnverifiedClaimPairs,
+    [
+      'AI analysis changes this by reading every word, comparing every clause against known patterns, and flagging anything that deserves your attention.',
+      'AI-assisted review can analyze extractable text and flag patterns for attention; document quality and product coverage affect results.'
+    ],
+    [
+      'AI reads every word and flags unbalanced liability language.',
+      'AI-assisted review may flag unbalanced liability language in content it can extract.'
+    ],
+    [
+      'AI detects these issues across all document types you upload.',
+      'AI-assisted review may flag these issues in supported documents; confirm current file support and coverage with HiddenFeeAI.'
+    ],
+    [
+      'The AI examines every element of your document, comparing findings against known patterns from thousands of similar documents.',
+      'The reviewer may compare extractable content with configured patterns; this repository does not verify a dataset size or complete document coverage.'
+    ],
+    [
+      'Documents are encrypted during transmission and automatically deleted after processing.',
+      'Current encryption and retention practices are governed by HiddenFeeAI first-party policies and are not independently verified by this repository.'
+    ],
+    [
+      'Service agreements, contractor contracts, purchase agreements, lease agreements, subscription terms, and financing documents are all supported.',
+      'Supported document types are product-dependent; confirm current support before uploading.'
+    ]
+  ],
+  'ai-statement-analyzer.html': [
+    ...sharedUnverifiedClaimPairs,
+    [
+      'Our AI statement analyzer scans every line item, identifying hidden fees, unexpected charges, and billing errors.',
+      'An AI statement analyzer may review line items for potential hidden fees, unexpected charges, and billing errors; findings require verification.'
+    ],
+    [
+      'AI identifies every fee on your statement and explains whether it is avoidable.',
+      'AI-assisted review may flag fees and explain possible questions; it cannot determine that every fee is avoidable.'
+    ],
+    [
+      'Financial errors on statements cost consumers billions of dollars each year.',
+      'Statement errors can create meaningful costs; this page does not assert a dollar total without a documented, reviewable dataset.'
+    ],
+    [
+      'The AI statement analyzer reads every line item, comparing each charge against expected patterns.',
+      'A statement analyzer may compare extractable line items with configured patterns; review results against the original statement.'
+    ],
+    [
+      'Statements are encrypted during transmission and automatically deleted after processing.',
+      'Current statement-handling, encryption, and retention practices are governed by HiddenFeeAI first-party policies and are not independently verified by this repository.'
+    ]
+  ],
+  'ai-proposal-review.html': [
+    ...sharedUnverifiedClaimPairs,
+    [
+      'An AI proposal review reads between the lines, identifying hidden fees, inflated pricing, vague deliverables, and unfavorable terms that standard proposal language often conceals.',
+      'An AI proposal review may flag potential hidden fees, pricing anomalies, vague deliverables, and terms for human review; results depend on extracted content and product coverage.'
+    ],
+    [
+      'That habit will save you more money than almost any other financial practice.',
+      'That habit may help reduce surprises, but no savings ranking is asserted here.'
+    ],
+    [
+      'An AI proposal review reads the entire document systematically.',
+      'A proposal review system may analyze extractable document content; completeness depends on document quality and product behavior.'
+    ],
+    [
+      'AI reads the entire document systematically, comparing language against known risk patterns from thousands of similar proposals. Humans often miss subtle pricing language or buried terms that AI catches consistently.',
+      'A proposal review system may compare extractable language with configured patterns; this repository does not verify a proposal dataset size or claim that automated review consistently catches what humans miss.'
+    ],
+    [
+      'The AI completes the same analysis in minutes, freeing you to focus on the strategic decisions rather than the detailed review work.',
+      'Turnaround and report contents are product-dependent; this repository does not verify a minutes-based benchmark.'
+    ],
+    [
+      'For $15 per analysis, AI proposal review is one of the most cost-effective business decisions you can make.',
+      'Check current HiddenFeeAI pricing before purchase; cost-effectiveness depends on the proposal and business context.'
+    ],
+    [
+      'The platform accepts proposals in PDF format, which is the most common format for business proposals.',
+      'Supported proposal formats are product-dependent; confirm current requirements before upload.'
+    ],
+    [
+      'The HiddenFeeAI engine reads every page of your proposal, extracting pricing information, scope descriptions, terms and conditions, assumptions, exclusions, timelines, and guarantees.',
+      'HiddenFeeAI may analyze extractable proposal content, including pricing, scope, terms, assumptions, exclusions, timelines, and guarantees; coverage depends on the product and document.'
+    ],
+    [
+      'The analysis typically completes within minutes.',
+      'Analysis timing is product-dependent and not independently verified here.'
+    ],
+    [
+      'For complex proposals with hundreds of pages, the analysis may take slightly longer, but it is always measured in minutes rather than hours.',
+      'Longer or complex proposals may affect timing; no universal minutes-based benchmark is asserted here.'
+    ],
+    [
+      'HiddenFeeAI can analyze all three document types.',
+      'Whether HiddenFeeAI supports all three document types should be confirmed in current first-party materials.'
+    ],
+    [
+      'For most businesses, the return on investment from AI proposal review is among the highest available from any business tool or service.',
+      'Return on investment depends on the proposal, business context, and outcome; no comparative ranking is asserted here.'
+    ],
+    [
+      'At $15 per analysis, the cost of building this practice is minimal compared to the potential savings.',
+      'Review current pricing and weigh it against the proposal context; savings are not guaranteed.'
     ]
   ],
   'contract-fee-analysis.html': [
