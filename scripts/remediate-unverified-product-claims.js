@@ -461,6 +461,96 @@ const exactReplacements = {
       'That discipline may reduce surprises, but no comparative savings claim is asserted here.'
     ]
   ],
+  'ai-financial-analysis.html': [
+    [
+      'AI for financial analysis has fundamentally changed this landscape.',
+      'AI-assisted financial document analysis is an evolving approach; its usefulness depends on the product, document, and review context.'
+    ],
+    [
+      'By applying advanced artificial intelligence technologies to financial documents, consumers can now access professional-grade financial analysis at a fraction of the traditional cost.',
+      'AI tools may offer a lower-cost way to organize questions about financial documents, but this page does not claim professional equivalence or a guaranteed cost advantage.'
+    ],
+    [
+      'The technology has matured to the point where AI systems can identify hidden fees, pricing manipulation, and financial risks with accuracy that rivals or exceeds human reviewers in many common scenarios.',
+      'AI systems may flag potential hidden fees, pricing anomalies, and financial risks; this repository does not publish a verified comparison with human reviewers.'
+    ],
+    [
+      'Machine learning models trained on thousands of documents enable pattern recognition for common fee structures.',
+      'The public repository does not document a HiddenFeeAI training-data count. Pattern coverage depends on the current product implementation and document context.'
+    ],
+    [
+      'Modern OCR technology achieves accuracy rates above 99 percent for standard documents, handling complex layouts including tables, footnotes, headers, and fine print that often contains critical fee information.',
+      'OCR quality and extraction completeness vary by document, image quality, layout, and product. No 99-percent benchmark is asserted here.'
+    ],
+    [
+      'The ML layer compares the analyzed document against libraries of known fee patterns collected from thousands of previously analyzed financial documents.',
+      'A financial-analysis system may compare extractable content with configured patterns; this repository does not verify library size, provenance, or coverage.'
+    ],
+    [
+      'These libraries continuously expand as the system processes more documents, improving accuracy over time.',
+      'The repository does not verify a continuously expanding library or a resulting accuracy improvement.'
+    ],
+    [
+      '30-60 seconds',
+      'Product-dependent timing'
+    ],
+    [
+      'Perfect',
+      'Not independently verified'
+    ],
+    [
+      '85-95%',
+      'Not independently verified'
+    ],
+    [
+      'Unlimited',
+      'Product-dependent'
+    ],
+    [
+      'The one-time $15 cost of analysis represents an exceptional return on investment when compared to the potential savings identified.',
+      'Review current pricing before purchase; savings and return on investment depend on the document, decision, and outcome and are not guaranteed.'
+    ],
+    [
+      'This precision dramatically improves negotiation results.',
+      'Specific findings may help structure negotiation questions, but negotiation results depend on the document, counterparty, and circumstances.'
+    ],
+    [
+      'Hidden fees and pricing manipulation cost consumers billions annually.',
+      'Hidden fees and pricing manipulation can create meaningful costs; no annual national total is asserted here without a documented dataset.'
+    ],
+    [
+      '<h3>Real-World Example: AI Analysis Saves Homeowner $5,800</h3>',
+      '<h3>Illustrative Scenario (Not a Verified Case Study)</h3><p>The following example is fictional and is included only to show how a reviewer might organize questions. It is not a reported customer result or savings guarantee.</p>'
+    ],
+    [
+      'The homeowner used these findings to negotiate, ultimately reducing the total project cost by $5,800 while keeping the same scope of work.',
+      'In an illustrative scenario, a homeowner might use findings to ask for clarification or negotiate; no specific savings amount or outcome is asserted here.'
+    ],
+    [
+      'This capability applies across all document types and industries.',
+      'Potential use cases vary by document, industry, product support, and available comparison data; no universal coverage is asserted here.'
+    ],
+    [
+      'AI financial analysis provides rapid review that fits within these time constraints, ensuring consumers never have to choose between speed and thoroughness.',
+      'AI-assisted review may help organize document checks, but timing and completeness vary; no speed or thoroughness guarantee is asserted here.'
+    ],
+    [
+      'It analyzes the language, structure, and pricing of any financial document to identify fees that typical consumers would miss.',
+      'A financial-analysis system may review extractable language, structure, and pricing in supported documents; it cannot be assumed to identify every fee.'
+    ],
+    [
+      'The system is particularly effective at detecting vague language patterns that often indicate hidden costs, pricing that exceeds industry benchmarks, duplicate charges, and fee structures that deviate from standard practice.',
+      'A system may flag vague language, unusual pricing, duplicate charges, or fee structures for review; effectiveness depends on documented data, context, and product behavior.'
+    ],
+    [
+      'Upload any financial document and discover what AI can find. HiddenFeeAI provides comprehensive analysis to identify hidden fees, pricing risks, and savings opportunities in your contracts, invoices, and financial statements.',
+      'Upload a supported financial document to review potential hidden fees and pricing questions. Findings are informational, depend on the product and document, and do not guarantee savings.'
+    ],
+    [
+      'Upload any financial document',
+      'Upload a supported financial document'
+    ]
+  ],
   'can-ai-find-hidden-fees-in-a-contract.html': [
     [
       'Unlike manual review where consumers miss 70% of buried charges, AI reads every line with equal attention, flags suspicious language, and compares pricing against industry benchmarks.',
