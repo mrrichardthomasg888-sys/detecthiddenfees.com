@@ -6,10 +6,10 @@
   "page_count": 238,
   "pages_with_candidates": 233,
   "candidate_counts": {
-    "quantitative_amount": 1820,
+    "quantitative_amount": 1814,
     "quantitative_percent": 464,
-    "absolute_or_superlative": 1512,
-    "performance_or_outcome": 154,
+    "absolute_or_superlative": 1521,
+    "performance_or_outcome": 153,
     "population_or_scale": 149
   },
   "records": [
@@ -12602,46 +12602,52 @@
       "file": "data-handling-policy.html",
       "matches": [
         {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ion Service Upload any bill AI identifies potential billing issues and charges that may need review $15 one-time No subscription Start negotiating your bills today. Upload any bill or service agreement to HiddenFeeAI. The AI identifies overcharges, hidden fees, an"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ees, and negotiation opportunities. Get your analysis in minutes and start saving. Upload My Bill — $15 Data Handling Policy: How We Process Your Documents We believe in complete transparency about how your documents are handled when you use HiddenFeeAI. This data"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ed analysis of what you should challenge. Know exactly what to say and save money. Upload My Bill — $15 Start Negotiating Your Bills Today Don't pay more than you have to. Let AI analyze your bills and give you the leverage you need. Analyze My Bill → $15 one-time"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "e than you have to. Let AI analyze your bills and give you the leverage you need. Analyze My Bill → $15 one-time · No subscription · Secure processing TOOLS AI Contract Review AI Bill Analyzer AI Document Checker Hidden Fee Detector Upload Document DOCUMENT ANALYS"
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "every",
+          "snippet": " as evidence that a particular technical control exists, is configured a particular way, applies to every account or document, or covers every vendor, backup, report, log, or processing path. What this page does not promise Storage and security This page does not a"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "y about how your documents are handled when you use HiddenFeeAI. This data handling policy explains every stage of the document processing lifecycle, from the moment you upload a document to its permanent deletion from our systems. Our commitment is to handle your "
+          "snippet": "cal control exists, is configured a particular way, applies to every account or document, or covers every vendor, backup, report, log, or processing path. What this page does not promise Storage and security This page does not assert a particular encryption version"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "never",
-          "snippet": " there is no mechanism to recover a document after deletion. Document usage is strictly limited. We never use uploaded documents for AI training or model improvement. We never share document contents with third parties. Your documents remain confidential and are no"
+          "value": "every",
+          "snippet": "cessing. Human and vendor access This page does not promise that no person can access content, that every access is logged, or that no vendor, processor, integration, or legal process can receive data. Questions to confirm before uploading a sensitive document Use "
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "never",
-          "snippet": "usage is strictly limited. We never use uploaded documents for AI training or model improvement. We never share document contents with third parties. Your documents remain confidential and are not used for any purpose other than generating your analysis report. Rea"
+          "value": "guarantee",
+          "snippet": "irst-party product support or policy materials. DetectHiddenFees editorial content cannot change or guarantee those product terms. Frequently asked questions What does this data handling page verify? It describes the limits of DetectHiddenFees.com public document-handl"
+        },
+        {
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "guarantee",
+          "snippet": "n, training-use, access, backup, or third-party-processing practices of HiddenFeeAI. Does this page guarantee how uploaded documents are stored? No. It does not guarantee a particular encryption version, hosting configuration, storage location, access-control design, a"
+        },
+        {
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "guarantee",
+          "snippet": "actices of HiddenFeeAI. Does this page guarantee how uploaded documents are stored? No. It does not guarantee a particular encryption version, hosting configuration, storage location, access-control design, audit program, certification, or vendor arrangement. Confirm c"
+        },
+        {
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "every",
+          "snippet": "ess document data? This page does not promise that access is limited to an automated system or that every access is logged. Ask how operational, support, security, legal, and vendor access is handled. How can I report an inaccurate policy statement? Use the Contact"
+        },
+        {
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "guarantee",
+          "snippet": ". It is not a privacy contract, security certification, legal opinion, financial recommendation, or guarantee of HiddenFeeAI product behavior. Related resources Privacy and AI Security Security Overview Editorial Policy AI Analysis Methodology Contact HiddenFeeAI produ"
         }
       ]
     },
@@ -23484,26 +23490,44 @@
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "never",
-          "snippet": "ty Overview This page explains how DetectHiddenFees protects your documents. We encrypt everything, never train AI on your data, and automatically delete documents after analysis. Encryption All data is encrypted using TLS 1.2+ in transit and AES-256 at rest — the "
+          "value": "every",
+          "snippet": "ot be read as evidence that a product control exists, is configured a particular way, or applies to every account, document, vendor, backup, or processing path. This page therefore does not promise a specific transport or storage encryption version, hosting arrange"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "All",
-          "snippet": "rything, never train AI on your data, and automatically delete documents after analysis. Encryption All data is encrypted using TLS 1.2+ in transit and AES-256 at rest — the same standards banks use. No AI Training Your documents are never used to train or improv"
+          "value": "guarantee",
+          "snippet": "urrent first-party support or policy materials. DetectHiddenFees editorial content cannot change or guarantee those product terms. Frequently asked questions What does this security overview verify? It describes the limits of DetectHiddenFees.com public security statem"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "never",
-          "snippet": "2+ in transit and AES-256 at rest — the same standards banks use. No AI Training Your documents are never used to train or improve our AI models. Each analysis is a one-time, secure processing event. Automatic Deletion Documents are deleted from our systems shortly"
+          "value": "guarantee",
+          "snippet": "n, training-use, access, backup, or third-party-processing practices of HiddenFeeAI. Does this page guarantee encryption or a security certification? No. This page does not guarantee a particular encryption version, hosting configuration, access-control design, audit p"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "never",
-          "snippet": " your uploaded documents. Access is restricted to automated processing only. Third-Party Sharing We never share, sell, or license your documents to third parties. Your data stays yours. For complete details, read our Data Handling Policy , Privacy Policy , or Terms"
+          "value": "guarantee",
+          "snippet": "iddenFeeAI. Does this page guarantee encryption or a security certification? No. This page does not guarantee a particular encryption version, hosting configuration, access-control design, audit program, penetration test, certification, or compliance status. Confirm cu"
+        },
+        {
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "guarantee",
+          "snippet": "e status. Confirm current product documentation before uploading sensitive material. Does this page guarantee that documents are deleted? No. It does not promise a deletion deadline, backup behavior, recovery process, result-retention period, or account-history policy."
+        },
+        {
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "every",
+          "snippet": "uploaded document? This page does not promise that access is limited to an automated system or that every access is logged. Ask the product how operational, support, legal, security, and vendor access is handled. Where should I report an inaccurate security stateme"
+        },
+        {
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "guarantee",
+          "snippet": ". It is not a security certification, privacy contract, legal opinion, financial recommendation, or guarantee of HiddenFeeAI product behavior. Related resources Privacy and AI Security · Editorial Policy · AI Analysis Methodology · Contact · HiddenFeeAI product &copy; "
         }
       ]
     },
@@ -23716,58 +23740,46 @@
       "file": "terms-of-service.html",
       "matches": [
         {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": " related topics. HiddenFeeAI.com offers AI-powered document analysis services for a one-time fee of $15 per document. The AI analysis provided through HiddenFeeAI.com is an informational tool that identifies patterns, potential issues, and observations in uploaded"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "r professional consultation. 3. Service Fees and Payments HiddenFeeAI.com charges a one-time fee of $15 per document analysis. This is a non-subscription, pay-per-use service. There are no recurring charges, membership fees, or ongoing obligations. All payments ar"
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "guarantee",
+          "snippet": "ty terms, privacy materials, pricing, and support information; this website page does not create or guarantee those product terms. 1. Accepting these terms By accessing or using DetectHiddenFees.com, you agree to use the site lawfully and responsibly. If you do not agr"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "all",
-          "snippet": "ou do not agree to these Terms, you may not access or use the Site or Service. These Terms apply to all visitors, users, and customers of DetectHiddenFees.com and HiddenFeeAI.com, including any individuals or entities that upload documents for AI analysis. 2. Des"
+          "value": "every",
+          "snippet": "construction, or other professional advice. We do not promise that content is complete, current for every jurisdiction, or suitable for a particular decision. Verify important facts against the original document and applicable primary sources, and seek qualified ad"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "All",
-          "snippet": "tion, pay-per-use service. There are no recurring charges, membership fees, or ongoing obligations. All payments are processed securely through third-party payment processors. We do not store credit card or payment information on our servers. Fees are non-refunda"
+          "value": "every",
+          "snippet": "esources. A link is provided for context or convenience and does not mean DetectHiddenFees endorses every statement, product, service, or current policy on the linked page. Check the linked source directly. 7. Availability and changes We may update, correct, move, "
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "All",
-          "snippet": "content Not use the Service to harass, abuse, or harm any person or entity 5. Intellectual Property All content on DetectHiddenFees.com, including text, graphics, logos, images, and software, is the property of DetectHiddenFees or its content suppliers and is pro"
+          "value": "every",
+          "snippet": "and links. We do not promise uninterrupted availability, a particular publication schedule, or that every historical page will remain unchanged. The date shown on a page indicates when that page was last reviewed or updated, not a guarantee that every external sour"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "guarantee",
-          "snippet": " HiddenFeeAI.com provide their services \"as is\" without any warranty, express or implied. We do not guarantee: That the AI analysis will identify all potential issues or hidden fees in a document That following analysis recommendations will result in savings or specifi"
+          "snippet": "in unchanged. The date shown on a page indicates when that page was last reviewed or updated, not a guarantee that every external source or product term remains current. 8. Disclaimers and responsibility To the extent permitted by applicable law, use of the site is at "
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "all",
-          "snippet": "\" without any warranty, express or implied. We do not guarantee: That the AI analysis will identify all potential issues or hidden fees in a document That following analysis recommendations will result in savings or specific outcomes That the Service will be unin"
+          "value": "every",
+          "snippet": "he date shown on a page indicates when that page was last reviewed or updated, not a guarantee that every external source or product term remains current. 8. Disclaimers and responsibility To the extent permitted by applicable law, use of the site is at your own ju"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "all",
-          "snippet": "ified professionals before making financial or legal decisions. 9. User Content and Data You retain all ownership rights to documents you upload for analysis. By submitting a document, you grant us a limited license to process the document solely for the purpose "
-        },
-        {
-          "key": "performance_or_outcome",
-          "severity": "high",
-          "value": "accuracy",
-          "snippet": "ill result in savings or specific outcomes That the Service will be uninterrupted or error-free The accuracy, completeness, or reliability of any analysis results In no event shall DetectHiddenFees, its operators, or affiliates be liable for any indirect, incidental, "
+          "value": "guarantee",
+          "snippet": "tted by applicable law, use of the site is at your own judgment and risk. DetectHiddenFees does not guarantee that an AI-assisted workflow, article, example, calculator, or research status will produce a particular legal, financial, negotiation, medical, business, or o"
         }
       ]
     },
