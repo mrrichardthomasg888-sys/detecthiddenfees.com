@@ -8,8 +8,8 @@
   "candidate_counts": {
     "quantitative_amount": 1820,
     "quantitative_percent": 464,
-    "absolute_or_superlative": 1510,
-    "performance_or_outcome": 153,
+    "absolute_or_superlative": 1512,
+    "performance_or_outcome": 154,
     "population_or_scale": 149
   },
   "records": [
@@ -23131,20 +23131,38 @@
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "never",
-          "snippet": "oad — the same standard used by banks and financial institutions. No AI Training Your documents are never used to train or improve AI models. Each analysis is a one-time, private processing event. No document content is retained for model improvement. Automatic Del"
+          "value": "every",
+          "snippet": "rms. Human access or outcomes This page does not promise that no person can access a document, that every access is logged, or that an analysis will be private, accurate, complete, lawful, or useful for a particular outcome. Questions to confirm before uploading a "
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "never",
-          "snippet": ". Analysis results are kept for up to 30 days, then also scheduled for deletion. No Data Sharing We never share, sell, or license your documents to third parties. No advertisers, no data brokers, no external services. Your data stays yours. Access Controls No emplo"
+          "value": "guarantee",
+          "snippet": "urrent first-party support or policy materials. DetectHiddenFees editorial content cannot change or guarantee those product terms. For legal, financial, medical, employment, or other high-consequence decisions, verify the original document and consult an appropriately "
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "All",
-          "snippet": "ctor can view your uploaded documents. Access is limited to the automated processing pipeline only. All access is logged and audited. Your Rights You can request deletion of your analysis results before the 30-day retention period ends by contacting us . For comp"
+          "value": "guarantee",
+          "snippet": "e HiddenFeeAI product. It is not a substitute for current first-party product terms. Does this page guarantee encryption, deletion, or no AI training? No. This page does not independently verify or guarantee current HiddenFeeAI encryption, retention, deletion, training"
+        },
+        {
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "guarantee",
+          "snippet": "e guarantee encryption, deletion, or no AI training? No. This page does not independently verify or guarantee current HiddenFeeAI encryption, retention, deletion, training-use, access, backup, or third-party-processing practices. Confirm those terms from current first-"
+        },
+        {
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "guarantee",
+          "snippet": ". It is not a privacy contract, security certification, legal opinion, financial recommendation, or guarantee of HiddenFeeAI product behavior. Related resources About DetectHiddenFees Editorial Policy AI Analysis Methodology AI Accuracy and Limitations Contact HiddenFe"
+        },
+        {
+          "key": "performance_or_outcome",
+          "severity": "high",
+          "value": "Accuracy",
+          "snippet": "duct behavior. Related resources About DetectHiddenFees Editorial Policy AI Analysis Methodology AI Accuracy and Limitations Contact HiddenFeeAI product TOOLS AI Contract Review AI Bill Analyzer AI Document Checker Hidden Fee Detector Upload Document DOCUMENT ANALYSIS"
         }
       ]
     },

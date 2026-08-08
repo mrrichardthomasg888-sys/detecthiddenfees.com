@@ -29,6 +29,28 @@ const forbiddenByFile = {
     'No subscription',
     'Secure processing'
   ],
+  'privacy-and-ai-security.html': [
+    'Privacy and Data Handling | DetectHiddenFees',
+    'Documents are encrypted using TLS 1.2+',
+    'the same standard used by banks and financial institutions',
+    'Your documents are never used to train or improve AI models',
+    'one-time, private processing event',
+    'No document content is retained for model improvement',
+    'scheduled for deletion from our systems after analysis completes',
+    'Analysis results are kept for up to 30 days',
+    'We never share, sell, or license your documents to third parties',
+    'No advertisers, no data brokers, no external services',
+    'No employee or contractor can view your uploaded documents',
+    'Access is limited to the automated processing pipeline only',
+    'All access is logged and audited',
+    'retention period ends',
+    '<h2>Encrypted Transmission</h2>',
+    '<h2>No AI Training</h2>',
+    '<h2>Automatic Deletion</h2>',
+    '<h2>No Data Sharing</h2>',
+    '<h2>Access Controls</h2>',
+    '<h2>Your Rights</h2>'
+  ],
   'ai-analysis-methodology.html': [
     'most detailed explanation available',
     'three to five minutes and results in a comprehensive report',
