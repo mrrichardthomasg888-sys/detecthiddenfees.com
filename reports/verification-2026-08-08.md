@@ -3,7 +3,7 @@
 ## Source deployment
 
 - Changes were pushed directly to GitHub `main`.
-- Latest verified commit: `95f1fb5` (`Record construction review production verification`); the deployed page/code change is `68ddd68` (`Make construction contract review evidence based`), following the discovery governance, deployment handoff, canonical opportunity, attribution, contextual CTA, Research Lab, navigation, cache-bust, embed-route, hub, safe dashboard, evidence-governance, redirect, exact GSC audit, and contractor-estimate authority fixes.
+- Latest verified deployed code commit: `68ddd68` (`Make construction contract review evidence based`). Documentation handoff commits are `95f1fb5` and `a8845b4`. This follows the discovery governance, deployment handoff, canonical opportunity, attribution, contextual CTA, Research Lab, navigation, cache-bust, embed-route, hub, safe dashboard, evidence-governance, redirect, exact GSC audit, and contractor-estimate authority fixes.
 - The pre-existing user-owned change to `calculator-authority.css` remains unstaged and untouched.
 
 ## Local verification
