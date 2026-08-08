@@ -528,6 +528,10 @@ The invoice analyzer guide was verified after commit `eae5423` propagated. A cac
 - Local validation passed across the master structure/link/indexability checks, discovery assets, redirects, attribution, contextual CTAs, research manifest/data, opportunity engine, dashboard source-state rules, evidence and claim gates, calculator checks, Search Console template, outreach pipeline, JavaScript syntax, public-data privacy checks, and `git diff --check`. The pre-existing user-owned `calculator-authority.css` remains unstaged and untouched.
 - Deployment is pending final staging/commit/push. Next safe action: stage only the verified Phase 3 files, append the matching `brain.md` handoff, commit, push directly to GitHub `main`, then verify the remote commit and production HTTP for the five research routes plus JSON/CSV assets.
 
+## Phase 3 deployment checkpoint - 2026-08-08
+
+Code commit `7cfbeb0` records the verified Phase 3 evidence review. It is committed locally and awaiting direct push to GitHub `main`; production routes have not yet been rechecked against this commit.
+
 ## Phase 2 real traffic, research, and authority infrastructure - 2026-08-08
 
 - No production page or design was changed. Phase 1 URLs, templates, branding, calculator-authority.css ownership, public Research Lab collecting-only status, and direct GitHub `main` deployment rules were preserved.
