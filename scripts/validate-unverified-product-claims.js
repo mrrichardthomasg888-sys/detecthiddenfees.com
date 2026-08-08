@@ -59,6 +59,28 @@ const forbiddenByFile = {
     'most home improvement trades',
     'Our system scans every line item',
     'processed securely and deleted after analysis'
+  ],
+  'ai-construction-contract-review.html': [
+    '78%',
+    '15-20%',
+    '85-90%',
+    '$2K-$10K',
+    '10%+ to your final cost',
+    '3-5 minutes',
+    'thousands of construction contracts',
+    'regional construction cost databases',
+    'same clause types unique',
+    'Real Examples of AI Construction Contract Review',
+    'Example 1',
+    '$3,000+ potential savings',
+    '$6,000 saved',
+    '$650 removed',
+    'Typical savings',
+    '$500-$3,000',
+    '50%+ upfront',
+    '100% of price increases',
+    '15% maximum markup',
+    'industry experience indicates'
   ]
 };
 const issues = [];
