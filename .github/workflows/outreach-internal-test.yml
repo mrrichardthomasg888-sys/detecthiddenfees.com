@@ -1,9 +1,6 @@
 name: DetectHiddenFees internal email authentication test
 
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
 
 permissions:
@@ -11,7 +8,6 @@ permissions:
 
 jobs:
   internal-test:
-    if: github.event_name == 'workflow_dispatch' || github.event.head_commit.message == 'Run internal Brevo test'
     runs-on: ubuntu-latest
     steps:
       - name: Check out main

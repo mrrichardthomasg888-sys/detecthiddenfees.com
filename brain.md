@@ -1687,3 +1687,10 @@ The master validator baseline is 238 pages with zero missing titles/descriptions
 - GitHub’s public workflow page confirmed the internal test workflow exists but this environment is not signed in to GitHub, so manual dispatch is unavailable.
 - Added a temporary push trigger gated to the exact commit message `Run internal Brevo test`; it will run only the one internal test on that push and remains unable to invoke external outreach. It will be removed after the result is checked.
 - Next safe action: push the one-time trigger, inspect the GitHub Actions result without exposing `BREVO_API_KEY`, then remove the temporary push trigger and preserve a manual-only test workflow.
+
+## Phase 6C internal test result - 2026-08-08
+
+- GitHub Actions run `31284252650` completed successfully on commit `89a239e`. The job used `BREVO_API_KEY` from GitHub Actions Secrets and the script only reports success after Brevo returns an accepted response; the key was not printed or logged.
+- The test used From and Reply-To `support@detecthiddenfees.com` and sent only to the internal support routing address. No external outreach was attempted.
+- Delivery into Gmail and an actual reply-through-Cloudflare test are not observable from the current unsigned Gmail session. Automated Gmail monitoring remains blocked.
+- Removed the temporary push trigger; `.github/workflows/outreach-internal-test.yml` is manual-dispatch only again. Next safe action: preserve the internal test result, keep external outreach disabled until delivery/reply confirmation, and do not change Cloudflare DNS or MX.
