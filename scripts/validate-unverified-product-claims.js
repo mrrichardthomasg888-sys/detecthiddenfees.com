@@ -693,6 +693,20 @@ const forbiddenByFile = {
     'No subscription',
     'Secure processing'
   ],
+  'free-hidden-fee-scanner.html': [
+    'Free AI-powered hidden fee scanner',
+    'Upload your bill, invoice, or contract and get instant detection',
+    'completely free',
+    'Instant Results',
+    'Get results in under 30 seconds',
+    'Users save an average of $300+ per scan',
+    'Save Money',
+    'Our AI processes everything',
+    'Start Free Scan',
+    'SoftwareApplication',
+    'price":"0',
+    'AI-powered analysis'
+  ],
   'ai-estimate-review.html': [
     'Analyze My Bill',
     'Upload My Bill',

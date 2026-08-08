@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T13:40:07.342329+00:00",
+  "generatedAt": "2026-08-08T13:50:37.502491+00:00",
   "candidateCount": 120,
   "explicitGroups": {
     "ai_contract_review": [
@@ -1789,34 +1789,6 @@
     {
       "group": "automated_similarity",
       "pages": [
-        "/free-hidden-fee-scanner",
-        "/hidden-fee-scanner"
-      ],
-      "current_intents": {
-        "/free-hidden-fee-scanner": "transactional_tool",
-        "/hidden-fee-scanner": "transactional_tool"
-      },
-      "page_types": {
-        "/free-hidden-fee-scanner": "tool_or_service",
-        "/hidden-fee-scanner": "tool_or_service"
-      },
-      "silo": "hidden_fee_detection",
-      "similarity_score": 0.668,
-      "title_similarity": 0.954,
-      "token_overlap": 0.545,
-      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
-      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
-      "confidence": "Medium confidence",
-      "risk": "High",
-      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
-      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
-      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
-      "approval_required": true,
-      "potential_overlap": true
-    },
-    {
-      "group": "automated_similarity",
-      "pages": [
         "/analyze-contract-online",
         "/upload-contract-for-review"
       ],
@@ -3400,6 +3372,34 @@
       "similarity_score": 0.589,
       "title_similarity": 0.479,
       "token_overlap": 0.636,
+      "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
+      "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
+      "confidence": "Medium confidence",
+      "risk": "High",
+      "internal_linking_implication": "Link the narrower page to its pillar and sibling pages using intent-specific anchors; avoid reciprocal exact-match blocks.",
+      "redirect_implication": "Approval required before any redirect, canonical, noindex, merge, or deletion.",
+      "content_to_preserve": "Unique examples, methodology, limitations, FAQs, templates, and conversion context on both pages.",
+      "approval_required": true,
+      "potential_overlap": true
+    },
+    {
+      "group": "automated_similarity",
+      "pages": [
+        "/contract-fee-checker",
+        "/upload-contract-for-review"
+      ],
+      "current_intents": {
+        "/contract-fee-checker": "transactional_tool",
+        "/upload-contract-for-review": "transactional_tool"
+      },
+      "page_types": {
+        "/contract-fee-checker": "tool_or_service",
+        "/upload-contract-for-review": "tool_or_service"
+      },
+      "silo": "ai_contract_review",
+      "similarity_score": 0.589,
+      "title_similarity": 0.643,
+      "token_overlap": 0.565,
       "user_value_difference": "Not yet demonstrated by the current title, headings, and page purpose.",
       "recommended_action": "Do not change automatically; approval required for any merge, redirect, canonical reassignment, or noindex. First preserve unique evidence and compare performance.",
       "confidence": "Medium confidence",

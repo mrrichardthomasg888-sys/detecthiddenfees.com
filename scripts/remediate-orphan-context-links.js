@@ -21,6 +21,22 @@ const plans = [
     targets: [
       ['/find-hidden-fees-in-contract', 'Find hidden fees in a contract']
     ]
+  },
+  {
+    file: 'hidden-fee-detector.html',
+    source: '/hidden-fee-detector',
+    heading: 'Free review checklist',
+    targets: [
+      ['/free-hidden-fee-scanner', 'Free hidden-fee review checklist']
+    ]
+  },
+  {
+    file: 'hidden-fee-prevention-guide.html',
+    source: '/hidden-fee-prevention-guide',
+    heading: 'Plan around renewal terms',
+    targets: [
+      ['/automatic-renewal-date-calculator', 'Automatic renewal date calculator']
+    ]
   }
 ];
 

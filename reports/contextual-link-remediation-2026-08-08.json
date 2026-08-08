@@ -1,4 +1,15 @@
 {
-  "generatedAt": "2026-08-08T13:40:02.459Z",
-  "changes": []
+  "generatedAt": "2026-08-08",
+  "changes": [
+    {
+      "source": "/hidden-fee-detector",
+      "targets": ["/free-hidden-fee-scanner"],
+      "reason": "Added a semantically matched parent link to the evidence-safe free hidden-fee review checklist."
+    },
+    {
+      "source": "/hidden-fee-prevention-guide",
+      "targets": ["/automatic-renewal-date-calculator"],
+      "reason": "Added a semantically matched parent link to the bounded automatic-renewal reminder calculator."
+    }
+  ]
 }

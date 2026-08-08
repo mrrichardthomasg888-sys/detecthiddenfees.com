@@ -7,10 +7,10 @@ This report compares the read-only Phase 2 baseline with the local Phase 2 navig
 | Metric | Before | After | Change |
 |---|---:|---:|---:|
 | Canonical nodes | 225 | 238 | +13 |
-| Distinct directed edges | 7689 | 9160 | +1471 |
-| Link occurrences | 10072 | 10813 | +741 |
-| Orphan pages | 11 | 3 | -8 |
-| Pages with exactly one inbound link | 61 | 66 | +5 |
+| Distinct directed edges | 7689 | 9161 | +1472 |
+| Link occurrences | 10072 | 10820 | +748 |
+| Orphan pages | 11 | 1 | -10 |
+| Pages with exactly one inbound link | 61 | 68 | +7 |
 | Excessive sitewide targets flagged | 24 | 28 | +4 |
 
 The raw link-occurrence total is not expected to fall because the approved global navigation adds consistent access to six topical destinations and the product CTA. Footer deduplication removed 1,473 duplicate same-destination anchors within individual footers; the remaining sitewide repetition is documented for later template-level review.
@@ -32,8 +32,6 @@ Pages no longer orphaned after targeted contextual links:
 
 Remaining orphan pages:
 - `/ai-consulting-agreement-review`
-- `/automatic-renewal-date-calculator`
-- `/free-hidden-fee-scanner`
 
 ## Targeted contextual links added
 
@@ -68,6 +66,7 @@ These pages have exactly one inbound link in the after graph. They should be rev
 - `/analyze-contract-online`
 - `/analyze-my-contract`
 - `/analyze-my-estimate`
+- `/automatic-renewal-date-calculator`
 - `/best-ai-bill-analyzer-tools`
 - `/best-ai-contract-analysis-tools`
 - `/best-hidden-fee-detector-tools`
@@ -84,6 +83,7 @@ These pages have exactly one inbound link in the after graph. They should be rev
 - `/example-internet-service-agreement`
 - `/example-medical-bill`
 - `/find-hidden-fees-in-contract`
+- `/free-hidden-fee-scanner`
 - `/hidden-auto-fees`
 - `/hidden-fee-analysis-tool`
 - `/hidden-fee-reports`
@@ -124,22 +124,22 @@ These pages have exactly one inbound link in the after graph. They should be rev
 - `/` — 461 link occurrences
 - `/ai-analysis-hub` — 432 link occurrences
 - `/hidden-fee-encyclopedia` — 297 link occurrences
-- `/research-center` — 287 link occurrences
+- `/research-center` — 288 link occurrences
 - `/ai-bill-analyzer` — 271 link occurrences
 - `/ai-analysis-methodology` — 253 link occurrences
+- `/hidden-fee-detector` — 253 link occurrences
 - `/consumer-negotiation-resource-center` — 252 link occurrences
-- `/hidden-fee-detector` — 251 link occurrences
-- `/contact` — 244 link occurrences
+- `/contact` — 245 link occurrences
 - `/about-detect-hidden-fees` — 235 link occurrences
 - `/resource-library` — 233 link occurrences
 - `/privacy-and-ai-security` — 230 link occurrences
 - `/ai-financial-advisor` — 225 link occurrences
-- `/hidden-fees-guides` — 219 link occurrences
+- `/hidden-fees-guides` — 220 link occurrences
 - `/editorial-policy` — 216 link occurrences
 - `/terms-of-service` — 206 link occurrences
 - `/contract-terms-glossary` — 203 link occurrences
 - `/ai-document-checker` — 196 link occurrences
-- `/hidden-fee-examples` — 191 link occurrences
+- `/hidden-fee-examples` — 193 link occurrences
 - `/ai-agreement-analyzer` — 188 link occurrences
 - `/bill-negotiation-service` — 187 link occurrences
 - `/contract-red-flags` — 184 link occurrences

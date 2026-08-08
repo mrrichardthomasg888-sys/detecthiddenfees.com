@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-08T13:40:08.978999+00:00",
+  "generatedAt": "2026-08-08T13:50:39.469476+00:00",
   "label": "after",
   "nodeCount": 238,
-  "edgeCount": 9160,
-  "totalLinkOccurrences": 10813,
+  "edgeCount": 9161,
+  "totalLinkOccurrences": 10820,
   "nodes": [
     {
       "url": "/",
@@ -297,7 +297,7 @@
     },
     {
       "url": "/analyze-my-bill",
-      "inbound": 12,
+      "inbound": 10,
       "outbound": 48
     },
     {
@@ -347,7 +347,7 @@
     },
     {
       "url": "/automatic-renewal-date-calculator",
-      "inbound": 0,
+      "inbound": 1,
       "outbound": 4
     },
     {
@@ -472,7 +472,7 @@
     },
     {
       "url": "/contact",
-      "inbound": 244,
+      "inbound": 245,
       "outbound": 46
     },
     {
@@ -662,8 +662,8 @@
     },
     {
       "url": "/free-hidden-fee-scanner",
-      "inbound": 0,
-      "outbound": 49
+      "inbound": 1,
+      "outbound": 54
     },
     {
       "url": "/gap-insurance-cost-analysis",
@@ -752,8 +752,8 @@
     },
     {
       "url": "/hidden-fee-detector",
-      "inbound": 251,
-      "outbound": 38
+      "inbound": 253,
+      "outbound": 39
     },
     {
       "url": "/hidden-fee-dictionary",
@@ -767,7 +767,7 @@
     },
     {
       "url": "/hidden-fee-examples",
-      "inbound": 191,
+      "inbound": 193,
       "outbound": 40
     },
     {
@@ -783,7 +783,7 @@
     {
       "url": "/hidden-fee-prevention-guide",
       "inbound": 179,
-      "outbound": 55
+      "outbound": 56
     },
     {
       "url": "/hidden-fee-reports",
@@ -817,7 +817,7 @@
     },
     {
       "url": "/hidden-fees-guides",
-      "inbound": 219,
+      "inbound": 220,
       "outbound": 56
     },
     {
@@ -1097,7 +1097,7 @@
     },
     {
       "url": "/research-center",
-      "inbound": 287,
+      "inbound": 288,
       "outbound": 42
     },
     {
@@ -26969,11 +26969,6 @@
     },
     {
       "source": "/free-hidden-fee-scanner",
-      "target": "/analyze-my-bill",
-      "count": 2
-    },
-    {
-      "source": "/free-hidden-fee-scanner",
       "target": "/analyze-my-document",
       "count": 1
     },
@@ -27015,7 +27010,7 @@
     {
       "source": "/free-hidden-fee-scanner",
       "target": "/contact",
-      "count": 1
+      "count": 2
     },
     {
       "source": "/free-hidden-fee-scanner",
@@ -27050,7 +27045,7 @@
     {
       "source": "/free-hidden-fee-scanner",
       "target": "/hidden-fee-detector",
-      "count": 2
+      "count": 4
     },
     {
       "source": "/free-hidden-fee-scanner",
@@ -27060,7 +27055,7 @@
     {
       "source": "/free-hidden-fee-scanner",
       "target": "/hidden-fee-examples",
-      "count": 1
+      "count": 3
     },
     {
       "source": "/free-hidden-fee-scanner",
@@ -27075,7 +27070,7 @@
     {
       "source": "/free-hidden-fee-scanner",
       "target": "/hidden-fees-guides",
-      "count": 1
+      "count": 2
     },
     {
       "source": "/free-hidden-fee-scanner",
@@ -27100,7 +27095,7 @@
     {
       "source": "/free-hidden-fee-scanner",
       "target": "/research-center",
-      "count": 1
+      "count": 2
     },
     {
       "source": "/free-hidden-fee-scanner",
@@ -30529,6 +30524,11 @@
     },
     {
       "source": "/hidden-fee-detector",
+      "target": "/free-hidden-fee-scanner",
+      "count": 1
+    },
+    {
+      "source": "/hidden-fee-detector",
       "target": "/hidden-bank-overdraft-fees",
       "count": 1
     },
@@ -31790,6 +31790,11 @@
     {
       "source": "/hidden-fee-prevention-guide",
       "target": "/analyze-my-document",
+      "count": 1
+    },
+    {
+      "source": "/hidden-fee-prevention-guide",
+      "target": "/automatic-renewal-date-calculator",
       "count": 1
     },
     {
@@ -46999,9 +47004,7 @@
     }
   ],
   "orphans": [
-    "/ai-consulting-agreement-review",
-    "/automatic-renewal-date-calculator",
-    "/free-hidden-fee-scanner"
+    "/ai-consulting-agreement-review"
   ],
   "one_inbound": [
     "/ai-bill-analysis-vs-manual-review",
@@ -47021,6 +47024,7 @@
     "/analyze-contract-online",
     "/analyze-my-contract",
     "/analyze-my-estimate",
+    "/automatic-renewal-date-calculator",
     "/best-ai-bill-analyzer-tools",
     "/best-ai-contract-analysis-tools",
     "/best-hidden-fee-detector-tools",
@@ -47037,6 +47041,7 @@
     "/example-internet-service-agreement",
     "/example-medical-bill",
     "/find-hidden-fees-in-contract",
+    "/free-hidden-fee-scanner",
     "/hidden-auto-fees",
     "/hidden-fee-analysis-tool",
     "/hidden-fee-reports",
@@ -47090,7 +47095,7 @@
     ],
     [
       "/research-center",
-      287
+      288
     ],
     [
       "/ai-bill-analyzer",
@@ -47101,16 +47106,16 @@
       253
     ],
     [
+      "/hidden-fee-detector",
+      253
+    ],
+    [
       "/consumer-negotiation-resource-center",
       252
     ],
     [
-      "/hidden-fee-detector",
-      251
-    ],
-    [
       "/contact",
-      244
+      245
     ],
     [
       "/about-detect-hidden-fees",
@@ -47130,7 +47135,7 @@
     ],
     [
       "/hidden-fees-guides",
-      219
+      220
     ],
     [
       "/editorial-policy",
@@ -47150,7 +47155,7 @@
     ],
     [
       "/hidden-fee-examples",
-      191
+      193
     ],
     [
       "/ai-agreement-analyzer",
@@ -47204,7 +47209,7 @@
     ],
     [
       "/research-center",
-      287
+      288
     ],
     [
       "/ai-bill-analyzer",
@@ -47215,16 +47220,16 @@
       253
     ],
     [
+      "/hidden-fee-detector",
+      253
+    ],
+    [
       "/consumer-negotiation-resource-center",
       252
     ],
     [
-      "/hidden-fee-detector",
-      251
-    ],
-    [
       "/contact",
-      244
+      245
     ],
     [
       "/about-detect-hidden-fees",
@@ -47244,7 +47249,7 @@
     ],
     [
       "/hidden-fees-guides",
-      219
+      220
     ],
     [
       "/editorial-policy",
@@ -47264,7 +47269,7 @@
     ],
     [
       "/hidden-fee-examples",
-      191
+      193
     ],
     [
       "/ai-agreement-analyzer",

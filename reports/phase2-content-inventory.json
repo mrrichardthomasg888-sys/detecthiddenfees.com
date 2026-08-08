@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T13:40:07.345714+00:00",
+  "generatedAt": "2026-08-08T13:50:37.505796+00:00",
   "pageCount": 238,
   "pages": [
     {
@@ -5748,7 +5748,7 @@
       "has_unique_reason_to_exist": true,
       "overlap_flag": false,
       "content_excerpt": "Analyze My Bill: Find Hidden Charges With AI | DetectHiddenFees Skip to main content Detect HiddenFees Hidden Fees Contract Review Bills & Documents Negotiation Research Resources Analyze a Document Home / AI Bill Analyzer / Analyze My Bill: Stop Overpaying With AI Analysis ANALY",
-      "inbound_internal_link_count": 12,
+      "inbound_internal_link_count": 10,
       "parent_topic": "/ai-bill-analyzer",
       "existing_breadcrumb_parent": "/ai-bill-analyzer"
     },
@@ -6606,7 +6606,7 @@
       "has_unique_reason_to_exist": true,
       "overlap_flag": false,
       "content_excerpt": "Automatic Renewal Date Calculator | DetectHiddenFees Skip to main content DetectHiddenFees Home / Automatic Renewal Date Calculator Automatic Renewal Date Calculator Enter a renewal date and the number of days of notice you want to allow for review. The result is a planning remin",
-      "inbound_internal_link_count": 0,
+      "inbound_internal_link_count": 1,
       "parent_topic": "/ai-contract-review",
       "existing_breadcrumb_parent": null
     },
@@ -8928,7 +8928,7 @@
       "has_unique_reason_to_exist": true,
       "overlap_flag": false,
       "content_excerpt": "Contact Us | DetectHiddenFees Skip to main content Detect HiddenFees Hidden Fees Contract Review Bills & Documents Negotiation Research Resources Analyze a Document Home / About DetectHiddenFees / Contact Us Contact Us Have questions about hidden fees, AI document analysis, or ou",
-      "inbound_internal_link_count": 245,
+      "inbound_internal_link_count": 246,
       "parent_topic": "/about-detect-hidden-fees",
       "existing_breadcrumb_parent": "/about-detect-hidden-fees"
     },
@@ -13181,33 +13181,81 @@
       "url": "https://detecthiddenfees.com/free-hidden-fee-scanner",
       "slug": "free-hidden-fee-scanner",
       "file": "free-hidden-fee-scanner.html",
-      "title": "Free Hidden Fee Scanner for Bills and Contracts | DetectHiddenFees",
-      "meta_description": "Free AI-powered hidden fee scanner. Upload your bill, invoice, or contract and get instant detection of hidden fees, markups, and overcharges.",
-      "h1": "Free Hidden Fee Scanner",
+      "title": "Free Hidden Fee Scanner: A Source-Aware Review Checklist | DetectHiddenFees",
+      "meta_description": "Use this free checklist to review bills, invoices, contracts, and account records for fee language, recurring charges, and mismatched totals. It is not a promise of automatic detection or savings.",
+      "h1": "Free Hidden Fee Scanner: A Source-Aware Review Checklist",
       "headings": [
         {
           "level": 1,
-          "text": "Free Hidden Fee Scanner"
-        },
-        {
-          "level": 3,
-          "text": "📄 Scan Any Document"
-        },
-        {
-          "level": 3,
-          "text": "🔍 Instant Results"
-        },
-        {
-          "level": 3,
-          "text": "💰 Save Money"
+          "text": "Free Hidden Fee Scanner: A Source-Aware Review Checklist"
         },
         {
           "level": 2,
-          "text": "What Our Scanner Detects"
+          "text": "Direct answer: what does this free scanner resource do?"
         },
         {
           "level": 2,
-          "text": "Ready to Find Hidden Fees?"
+          "text": "Free checklist: review the record in four passes"
+        },
+        {
+          "level": 3,
+          "text": "1. Identify the record"
+        },
+        {
+          "level": 3,
+          "text": "2. List every amount"
+        },
+        {
+          "level": 3,
+          "text": "3. Reconcile the source"
+        },
+        {
+          "level": 3,
+          "text": "4. Preserve the question"
+        },
+        {
+          "level": 2,
+          "text": "Fee patterns worth checking"
+        },
+        {
+          "level": 2,
+          "text": "Official source context and limitations"
+        },
+        {
+          "level": 2,
+          "text": "Frequently asked questions"
+        },
+        {
+          "level": 3,
+          "text": "Is this a free automated hidden-fee scanner?"
+        },
+        {
+          "level": 3,
+          "text": "What should I check on a bill or invoice?"
+        },
+        {
+          "level": 3,
+          "text": "What should I check in a contract?"
+        },
+        {
+          "level": 3,
+          "text": "Can a separate or unexpected charge prove an overcharge?"
+        },
+        {
+          "level": 3,
+          "text": "Can AI find every hidden fee?"
+        },
+        {
+          "level": 3,
+          "text": "What should I confirm before uploading a document?"
+        },
+        {
+          "level": 2,
+          "text": "Need help organizing a document review?"
+        },
+        {
+          "level": 2,
+          "text": "Continue learning"
         },
         {
           "level": 2,
@@ -13218,8 +13266,8 @@
       "primary_topic": "hidden_fee_detection",
       "secondary_topics": [
         "consumer_negotiation",
-        "bill_document_analysis",
-        "consumer_trust"
+        "contract_clauses_risk",
+        "bill_document_analysis"
       ],
       "silo_id": "hidden_fee_detection",
       "silo": "Hidden Fee Detection",
@@ -13227,22 +13275,24 @@
       "primary_search_intent": "transactional_tool",
       "funnel_stage": "conversion",
       "schema_types": [
+        "Article",
         "BreadcrumbList",
+        "FAQPage",
         "Organization",
-        "SoftwareApplication",
-        "WebPage"
+        "WebPage",
+        "WebSite"
       ],
-      "approx_visible_word_count": 384,
-      "outbound_internal_link_count": 49,
-      "outbound_external_link_count": 3,
+      "approx_visible_word_count": 951,
+      "outbound_internal_link_count": 54,
+      "outbound_external_link_count": 6,
       "links_hiddenfeeai": true,
       "conversion_target": "https://hiddenfeeai.com",
       "content_class": "commercial",
       "canonical": "https://detecthiddenfees.com/free-hidden-fee-scanner",
       "has_unique_reason_to_exist": true,
       "overlap_flag": false,
-      "content_excerpt": "Free Hidden Fee Scanner for Bills and Contracts | DetectHiddenFees Skip to main content Detect HiddenFees Hidden Fees Contract Review Bills & Documents Negotiation Research Resources Analyze a Document Home / Hidden Fee Detector / Free Hidden Fee Scanner Free Hidden Fee Scanner U",
-      "inbound_internal_link_count": 0,
+      "content_excerpt": "Free Hidden Fee Scanner: A Source-Aware Review Checklist | DetectHiddenFees Skip to main content Detect HiddenFees Hidden Fees Contract Review Bills & Documents Negotiation Research Resources Analyze a Document Home / Hidden Fee Detector / Free Hidden Fee Scanner: A Source-Aware ",
+      "inbound_internal_link_count": 1,
       "parent_topic": "/hidden-fee-detector",
       "existing_breadcrumb_parent": "/hidden-fee-detector"
     },
@@ -15216,6 +15266,10 @@
         },
         {
           "level": 2,
+          "text": "Free review checklist"
+        },
+        {
+          "level": 2,
           "text": "Related next steps"
         }
       ],
@@ -15237,8 +15291,8 @@
         "FAQPage",
         "WebPage"
       ],
-      "approx_visible_word_count": 1012,
-      "outbound_internal_link_count": 39,
+      "approx_visible_word_count": 1019,
+      "outbound_internal_link_count": 40,
       "outbound_external_link_count": 6,
       "links_hiddenfeeai": true,
       "conversion_target": "https://hiddenfeeai.com",
@@ -15247,7 +15301,7 @@
       "has_unique_reason_to_exist": true,
       "overlap_flag": true,
       "content_excerpt": "Hidden Fee Detector: How AI-Assisted Document Review Works | DetectHiddenFees Skip to main content Detect HiddenFees Hidden Fees Contract Review Bills & Documents Negotiation Research Resources Analyze a Document Home / Hidden Fee Detector: How AI-Assisted Document Review Works H",
-      "inbound_internal_link_count": 252,
+      "inbound_internal_link_count": 254,
       "parent_topic": null,
       "existing_breadcrumb_parent": "/"
     },
@@ -15577,7 +15631,7 @@
       "has_unique_reason_to_exist": true,
       "overlap_flag": false,
       "content_excerpt": "Hidden Fee Examples: Illustrative Document Review Walkthroughs | DetectHiddenFees Skip to main content Detect HiddenFees Hidden Fees Contract Review Bills & Documents Negotiation Research Resources Analyze a Document Home / Hidden Fee Encyclopedia / Hidden Fee Examples: Illustrat",
-      "inbound_internal_link_count": 192,
+      "inbound_internal_link_count": 194,
       "parent_topic": "/hidden-fee-examples",
       "existing_breadcrumb_parent": "/hidden-fee-encyclopedia"
     },
@@ -15898,6 +15952,10 @@
         },
         {
           "level": 2,
+          "text": "Plan around renewal terms"
+        },
+        {
+          "level": 2,
           "text": "Related Resources"
         }
       ],
@@ -15919,8 +15977,8 @@
         "FAQPage",
         "WebPage"
       ],
-      "approx_visible_word_count": 1260,
-      "outbound_internal_link_count": 56,
+      "approx_visible_word_count": 1268,
+      "outbound_internal_link_count": 57,
       "outbound_external_link_count": 9,
       "links_hiddenfeeai": true,
       "conversion_target": "https://hiddenfeeai.com",
@@ -16441,7 +16499,7 @@
       "has_unique_reason_to_exist": true,
       "overlap_flag": false,
       "content_excerpt": "Hidden Fee Guides: How to Review Charges by Document Type | DetectHiddenFees Skip to main content Detect HiddenFees Hidden Fees Contract Review Bills & Documents Negotiation Research Resources Analyze a Document Home / Hidden Fee Encyclopedia / Hidden Fee Guides: How to Review Ch",
-      "inbound_internal_link_count": 220,
+      "inbound_internal_link_count": 221,
       "parent_topic": "/hidden-fee-encyclopedia",
       "existing_breadcrumb_parent": "/hidden-fee-encyclopedia"
     },
@@ -22072,7 +22130,7 @@
       "has_unique_reason_to_exist": true,
       "overlap_flag": true,
       "content_excerpt": "DetectHiddenFees Research Center: Methods, Sources, and Data Status Skip to main content Detect HiddenFees Hidden Fees Contract Review Bills & Documents Negotiation Research Resources Analyze a Document Home / Research Center DETECTHIDDENFEES RESEARCH CENTER Research Center: Evid",
-      "inbound_internal_link_count": 289,
+      "inbound_internal_link_count": 290,
       "parent_topic": null,
       "existing_breadcrumb_parent": "/"
     },
