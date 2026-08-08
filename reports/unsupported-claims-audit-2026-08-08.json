@@ -6,11 +6,11 @@
   "page_count": 238,
   "pages_with_candidates": 233,
   "candidate_counts": {
-    "quantitative_amount": 1846,
+    "quantitative_amount": 1841,
     "quantitative_percent": 465,
-    "absolute_or_superlative": 1511,
+    "absolute_or_superlative": 1510,
     "performance_or_outcome": 154,
-    "population_or_scale": 152
+    "population_or_scale": 150
   },
   "records": [
     {
@@ -13033,82 +13033,34 @@
       "file": "early-termination-fees.html",
       "matches": [
         {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ments. Use AI to detect and negotiate termination penalties. AI-powered analysis Results in minutes $15 one-time payment Encrypted & secure Upload & Analyze &mdash; $15 How to Review a Contract Essential Resources AI Contract Review AI Contract Review Tool AI Cont"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "owered analysis Results in minutes $15 one-time payment Encrypted & secure Upload & Analyze &mdash; $15 How to Review a Contract Essential Resources AI Contract Review AI Contract Review Tool AI Contract Analysis AI Document Analysis Hidden Fee Detector Early term"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "d negotiation opportunities. One-time payment, no subscription required. Upload My Document &mdash; $15 One-time payment &middot; No subscription &middot; Encrypted & secure How AI Early Termination Fees Works The AI analysis process for early termination fees: av"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15",
-          "snippet": "ousands of similar documents. How much does AI document analysis cost? Each document analysis costs $15. There is no subscription or recurring fee. You pay per document with no long-term commitment. What types of documents can AI analyze? Contracts, agreements, i"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "hidden costs &#8595; Document Intelligence Center — complete document analysis Review Your Document $15 Analyze My Document"
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "every",
+          "snippet": "enewal notice, invoices, payment history, cancellation request, and any written response. 2. Locate every related clause Search for term, renewal, cancellation, termination, default, remedies, notice, payment, equipment, return, and dispute language. Read incorpora"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "y termination fees: avoid costly exit penalties follows a thorough methodology designed to identify every potential issue in your document. First, the AI reads and structures your document, identifying all provisions, clauses, and terms. It uses natural language pr"
+          "snippet": "exists. That guidance is specific to the described communications context, not a universal rule for every contract. The FTC subscription-cancellation guidance recommends following the stated cancellation process and keeping records of the request. The FTC Cooling-O"
+        },
+        {
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "every",
+          "snippet": " specific cancellation right in certain covered sales; it does not create a general right to cancel every contract. For certain consumer leases, the CFPB Regulation M disclosure rule addresses disclosure of early-termination conditions and the method for determinin"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "all",
-          "snippet": "ery potential issue in your document. First, the AI reads and structures your document, identifying all provisions, clauses, and terms. It uses natural language processing to understand the meaning and context of each section. Next, the AI compares your document "
+          "snippet": "ness are legal questions that depend on the agreement, facts, and jurisdiction. Can a contract make all remaining payments due immediately? Some agreements contain acceleration language, but whether it applies and what amount is owed depends on the exact clause, "
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "all",
-          "snippet": "rovides clear explanations and specific recommendations for each issue. The final report summarizes all findings in an easy-to-understand format, prioritizing issues by their potential financial impact and urgency. Related Resources AI Contract Review AI Contract"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "Always",
-          "snippet": "itute for professional legal review. For complex legal matters, please consult a licensed attorney. Always review AI analysis results with your own judgment and, where appropriate, seek independent legal counsel before signing any agreement. Frequently Asked Questio"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "cts, agreements, invoices, bills, estimates, quotes, lease agreements, and financial statements can all be analyzed for hidden fees and risks. Is my document data secure? Yes. All documents are encrypted during transmission and automatically deleted after process"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "All",
-          "snippet": "inancial statements can all be analyzed for hidden fees and risks. Is my document data secure? Yes. All documents are encrypted during transmission and automatically deleted after processing. HiddenFeeAI does not use uploaded documents for AI training. Can AI ana"
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": " the meaning and context of each section. Next, the AI compares your document against patterns from thousands of similar documents. This comparative analysis identifies provisions that deviate from industry norms and flag terms that deserve attention. Each finding is cate"
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": "vorable terms, pricing errors, and other risks. The AI compares your document against patterns from thousands of similar documents. How much does AI document analysis cost? Each document analysis costs $15. There is no subscription or recurring fee. You pay per document w"
+          "value": "guarantee",
+          "snippet": "rating method can be changed. Get any agreement in the final written contract; negotiation is not a guarantee of acceptance. Do subscriptions and service contracts have early termination fees? They may. Review the initial term, renewal, cancellation channel, notice dea"
         }
       ]
     },

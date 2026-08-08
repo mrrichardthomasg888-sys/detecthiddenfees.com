@@ -411,6 +411,24 @@ const forbiddenByFile = {
     'No selling documents',
     'Secure analysis'
   ],
+  'early-termination-fees.html': [
+    'Results in minutes',
+    '$15 one-time payment',
+    'Encrypted & secure',
+    'Upload & Analyze — $15',
+    'One-time payment · No subscription · Encrypted & secure',
+    'calculates the potential cost of exiting the agreement early',
+    'specific language to request for reducing or eliminating early termination penalties',
+    'reads and structures your document',
+    'thousands of similar documents',
+    'deviate from industry norms',
+    'severity (critical, high, medium, low)',
+    'prioritizing issues by their potential financial impact',
+    'Each document analysis costs $15',
+    'There is no subscription or recurring fee',
+    'encrypted during transmission and automatically deleted after processing',
+    'does not use uploaded documents for AI training'
+  ],
   'what-fees-should-i-look-for-in-a-contractor-estimate.html': [
     'inflate costs by 20-40%',
     'increase the final bill by 20-40%',

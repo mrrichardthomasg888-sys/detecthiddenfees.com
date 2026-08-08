@@ -228,7 +228,7 @@
 - [Dealer Fee Negotiation Guide: Scripts, Math, and Leverage That Work](https://detecthiddenfees.com/dealer-fee-negotiation-guide) — Canonical page for this topic.
 - [Dealer Markup Explained: How a Rate Becomes More Expensive at the Dealership](https://detecthiddenfees.com/dealer-markup-explained) — Canonical page for this topic.
 - [Duplicate Medical Billing Charges: How to Review a Bill](https://detecthiddenfees.com/duplicate-medical-billing-charges) — Canonical page for this topic.
-- [Early Termination Fees: Avoid Costly Exit Penalties](https://detecthiddenfees.com/early-termination-fees) — Canonical page for this topic.
+- [Early Termination Fees: How to Read Cancellation and Exit Clauses](https://detecthiddenfees.com/early-termination-fees) — Canonical page for this topic.
 - [Estimate vs Quote: The Critical Difference That Could Cost You Thousands](https://detecthiddenfees.com/estimate-vs-quote) — Canonical page for this topic.
 - [Extended Warranty Hidden Costs: Coverage, Exclusions, and Pricing Traps](https://detecthiddenfees.com/extended-warranty-hidden-costs) — Canonical page for this topic.
 - [Financial Analysis Software: Top AI-Powered Platforms](https://detecthiddenfees.com/financial-analysis-software) — Canonical page for this topic.
