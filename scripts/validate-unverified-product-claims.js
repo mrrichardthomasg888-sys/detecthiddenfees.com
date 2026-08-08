@@ -37,6 +37,28 @@ const forbiddenByFile = {
     'Temporary processing',
     'No selling documents',
     'Secure analysis'
+  ],
+  'what-fees-should-i-look-for-in-a-contractor-estimate.html': [
+    'inflate costs by 20-40%',
+    'increase the final bill by 20-40%',
+    'markups of 30-50%',
+    'standard is 10-15%',
+    '200 labor hours',
+    '140 hours',
+    '$4,500 in hidden costs',
+    'permit that costs $250',
+    'appear as $750',
+    'Real-World Example',
+    'Case Example: $18,000',
+    'Total identified overcharges',
+    'same analytical capability that professional construction estimators use',
+    'industry-standard pricing databases',
+    'average home renovation costing $15,000-$50,000',
+    'pays for itself many times over',
+    'at least three estimates for any project over $5,000',
+    'most home improvement trades',
+    'Our system scans every line item',
+    'processed securely and deleted after analysis'
   ]
 };
 const issues = [];
@@ -48,4 +70,4 @@ if (issues.length) {
   console.error(issues.join('\n'));
   process.exit(1);
 }
-console.log('Unverified product-claim remediation checks passed for nineteen priority pages.');
+console.log(`Unverified product-claim remediation checks passed for ${Object.keys(forbiddenByFile).length} priority pages.`);
