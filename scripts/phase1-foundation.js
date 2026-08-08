@@ -235,7 +235,7 @@ for (const slug of canonicalSlugs) {
   html = setMeta(html, 'name', 'twitter:title', title);
   html = setMeta(html, 'name', 'twitter:description', description);
   html = setMeta(html, 'name', 'twitter:image', config.site.image);
-  if (!/<link\b[^>]+href=["']\/phase1-foundation\.css(?:\?[^"']*)?["']/i.test(html)) html = html.replace(/<\/head>/i, '<link rel="stylesheet" href="/phase1-foundation.css?v=sticky6" />\n</head>');
+  if (!/<link\b[^>]+href=["']\/phase1-foundation\.css(?:\?[^"']*)?["']/i.test(html)) html = html.replace(/<\/head>/i, '<link rel="stylesheet" href="/phase1-foundation.css?v=sticky7" />\n</head>');
   if (!/<a\b[^>]+class=["'][^"']*phase1-skip-link/i.test(html)) html = html.replace(/(<body\b[^>]*>)/i, `$1<a class="phase1-skip-link" href="#main-content">Skip to main content</a>`);
   html = html.replace(/<nav\b(?![^>]*aria-label=)/i, '<nav aria-label="Primary navigation"');
   html = html.replace(/<div class="footer-column"><strong>COMPANY<a /g, '<div class="footer-column"><strong>COMPANY</strong><a ');
