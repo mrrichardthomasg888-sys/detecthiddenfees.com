@@ -4,6 +4,8 @@
 **Scope:** repository, generated discovery assets, redirects, metadata, structured data, internal links, claims, conversion instrumentation, deployment configuration, and representative production responses.  
 **Status:** Audit complete; implementation sequencing follows this report.
 
+> **Current-state correction (verified after this historical baseline):** The repository now has 238 indexable self-canonical HTML candidates, exactly matching the 238 sitemap URLs. Current validators report zero duplicate/mismatched canonicals, zero redirect-source URLs in `sitemap.xml`, `llms.txt`, or RSS, and canonical discovery assets of sitemap=238, `llms.txt`=238, RSS=179 extracted canonical links (178 editorial items plus the channel/self link). The earlier conflicting counts and findings below are retained as the original audit baseline; use `reports/verification-2026-08-08.md` and the current validators for present state. Latest deployed `main` is `08335ed`.
+
 ## Executive summary
 
 DetectHiddenFees.com is a large static HTML authority/content site with an established topical architecture, extensionless canonical URLs, a sitemap, RSS, `llms.txt`, robots policy, redirect rules, GitHub workflows, research-methodology templates, and a substantial internal-link graph.

@@ -28,6 +28,7 @@ const readRedirectSources = () => {
 const canonicalFrom = (html) => first(html, /<link\b[^>]*\brel=["']canonical["'][^>]*\bhref=["']([^"']+)/i);
 const pageTitle = (html) => stripTags(first(html, /<title\b[^>]*>([\s\S]*?)<\/title>/i)).replace(/\s*\|\s*DetectHiddenFees\s*$/i, '').trim();
 const pageDescription = (html) => first(html, /<meta\b[^>]*\bname=["']description["'][^>]*\bcontent=["']([^"']*)/i);
+const robotsContent = (html) => first(html, /<meta\b[^>]*\bname=["']robots["'][^>]*\bcontent=["']([^"']*)/i);
 const schemaTypes = (html) => [...html.matchAll(/<script\b[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)].flatMap((match) => {
   try {
     const data = JSON.parse(match[1]);
@@ -63,14 +64,15 @@ const categoryFor = (slug) => {
 };
 
 const redirectSources = readRedirectSources();
-const sitemapUrls = [...fs.readFileSync(sitemapFile, 'utf8').matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1].trim());
-const pages = sitemapUrls.map((url) => {
-  const slug = slugFromUrl(url);
-  const file = htmlForSlug(slug);
-  if (!fs.existsSync(file)) throw new Error(`Sitemap URL has no local HTML file: ${url}`);
-  const html = fs.readFileSync(file, 'utf8');
-  if (redirectSources.has(slug)) throw new Error(`Redirect source is present in sitemap: ${url}`);
-  if (canonicalFrom(html) !== url) throw new Error(`Sitemap URL does not match page canonical: ${url}`);
+const canonicalHtmlFiles = fs.readdirSync(ROOT).filter((file) => file.endsWith('.html'));
+const pages = canonicalHtmlFiles.map((file) => {
+  const slug = file === 'index.html' ? 'index' : file.replace(/\.html$/i, '');
+  const url = `${SITE}/${slug === 'index' ? '' : slug}`;
+  const html = fs.readFileSync(path.join(ROOT, file), 'utf8');
+  const canonical = canonicalFrom(html);
+  const expected = `${SITE}/${slug === 'index' ? '' : slug}`;
+  const robots = robotsContent(html);
+  if (canonical !== expected || redirectSources.has(slug) || /\bnoindex\b/i.test(robots)) return null;
   return {
     slug,
     url,
@@ -81,7 +83,14 @@ const pages = sitemapUrls.map((url) => {
     datePublished: dateFromSchema(html, 'datePublished'),
     dateModified: dateFromSchema(html, 'dateModified')
   };
-});
+}).filter(Boolean);
+
+if (!pages.length) throw new Error('No indexable self-canonical HTML pages were found.');
+
+const sitemapUrls = [...fs.readFileSync(sitemapFile, 'utf8').matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1].trim());
+const sitemapSet = new Set(sitemapUrls);
+for (const page of pages) if (!sitemapSet.has(page.url)) throw new Error(`Indexable HTML page is missing from sitemap: ${page.url}`);
+for (const url of sitemapSet) if (!pages.some((page) => page.url === url)) throw new Error(`Sitemap URL is not backed by indexable self-canonical HTML: ${url}`);
 
 const grouped = {};
 for (const page of pages) {
@@ -119,4 +128,4 @@ for (const page of editorial.sort((a, b) => (b.dateModified || b.datePublished |
 rss += '</channel></rss>\n';
 fs.writeFileSync(path.join(ROOT, 'rss.xml'), rss, 'utf8');
 
-console.log(`Built canonical discovery assets from ${pages.length} sitemap URLs; RSS contains ${editorial.length} editorial items.`);
+console.log(`Built canonical discovery assets from ${pages.length} indexable self-canonical HTML pages; RSS contains ${editorial.length} editorial items.`);

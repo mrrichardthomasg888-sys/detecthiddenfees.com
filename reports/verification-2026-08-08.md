@@ -3,7 +3,7 @@
 ## Source deployment
 
 - Changes were pushed directly to GitHub `main`.
-- Latest verified commit: `ca945fc` (`Track internal funnel attribution and update handoff`), following the contextual CTA, Research Lab, navigation, cache-bust, embed-route, and hub fixes.
+- Latest verified commit: `08335ed` (`Refresh deployment handoff commit`), following the canonical opportunity, attribution, contextual CTA, Research Lab, navigation, cache-bust, embed-route, and hub fixes.
 - The pre-existing user-owned change to `calculator-authority.css` remains unstaged and untouched.
 
 ## Local verification
@@ -24,6 +24,7 @@
 - Four existing high-intent pages now use context-specific CTA labels and explicit attribution actions: `contract_review`, `subscription_fee_review`, and `estimate_review`. The repeatable annotator and validator preserve the existing URLs and do not change HiddenFeeAI behavior.
 - A generated CTA-path audit now reads the canonical sitemap and local HTML directly: 238 canonical pages, 752 HiddenFeeAI links inside main content, 117 explicitly annotated main links, 8 pages with an existing internal funnel path, and 9 pages with no direct product or recognized internal funnel path. Performance fields remain explicitly disconnected; the older manual conversion audit is marked historical.
 - The attribution runtime now emits a separate `dhf_funnel_path_click` event for the 14 existing internal analysis/upload links, while outbound HiddenFeeAI links continue to emit `dhf_cta_click`. The events carry sanitized path, landing, referrer, session, action, and placement context only; no document content is handled.
+- Discovery governance now derives `llms.txt` and RSS candidates from indexable self-canonical HTML rather than trusting a possibly stale sitemap input. The validator confirms 238 canonical HTML candidates exactly match the 238 sitemap URLs and rejects future drift; the refreshed RSS contains 178 editorial items with the verified August 8 Research Lab update dates.
 
 ## Production verification
 

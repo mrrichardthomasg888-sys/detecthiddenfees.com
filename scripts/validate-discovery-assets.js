@@ -28,6 +28,20 @@ for (const url of sitemap) {
   }
 }
 
+const canonicalCandidates = new Set();
+for (const file of fs.readdirSync(ROOT).filter((name) => name.endsWith('.html'))) {
+  const html = read(file);
+  const slug = file === 'index.html' ? '' : file.replace(/\.html$/i, '');
+  const expected = `${SITE}/${slug}`;
+  const canonical = (html.match(/<link\b[^>]*\brel=["']canonical["'][^>]*\bhref=["']([^"']+)/i) || [])[1] || '';
+  const robots = (html.match(/<meta\b[^>]*\bname=["']robots["'][^>]*\bcontent=["']([^"']+)/i) || [])[1] || '';
+  if (normalize(canonical) === normalize(expected) && !/\bnoindex\b/i.test(robots) && !redirects.has(normalize(expected))) {
+    canonicalCandidates.add(normalize(expected));
+  }
+}
+for (const url of canonicalCandidates) if (!sitemapSet.has(url)) errors.push(`indexable self-canonical HTML missing from sitemap: ${url}`);
+for (const url of sitemapSet) if (!canonicalCandidates.has(url)) errors.push(`sitemap URL is not backed by an indexable self-canonical HTML page: ${url}`);
+
 const llms = [...new Set(extract(read('llms.txt'), /(https:\/\/detecthiddenfees\.com[^\s)]+)/g))];
 const rss = [...new Set(extract(read('rss.xml'), /<link>(https:\/\/detecthiddenfees\.com[^<]+)<\/link>/g))];
 for (const [name, urls] of [['llms.txt', llms], ['rss.xml', rss]]) {
@@ -49,4 +63,4 @@ if (errors.length) {
   console.error(errors.join('\n'));
   process.exit(1);
 }
-console.log(`Discovery assets valid: sitemap=${sitemap.length}, llms=${llms.length}, rss=${rss.length}.`);
+console.log(`Discovery assets valid: sitemap=${sitemap.length}, canonical HTML candidates=${canonicalCandidates.size}, llms=${llms.length}, rss=${rss.length}.`);
