@@ -3,7 +3,7 @@
 ## Source deployment
 
 - Changes were pushed directly to GitHub `main`.
-- Latest verified commits: `85c74d9` (hub claim/source remediation), `13f65dc` (responsive navigation fix), `fe101d8` (immutable stylesheet cache-bust to `sticky7`), and `6d90402` (non-indexable embed-template route protection).
+- Latest verified commits: `5b9c66b` (Research Lab citation metadata), `9d25f44` (Research Lab mobile action layout), and `85872c2` (Research Lab hero-action design alignment), alongside the earlier hub, navigation, cache-bust, and embed-route fixes.
 - The pre-existing user-owned change to `calculator-authority.css` remains unstaged and untouched.
 
 ## Local verification
@@ -29,5 +29,7 @@ After propagation, the live host verified the three extensionless aliases as HTT
 Fresh browser checks at 320px, 390px, and 1440px verified no document-level horizontal overflow. At 320px and 390px the shared navigation wraps with `overflow-x: visible` and `flex-wrap: wrap`; at 1440px the desktop layout remains unchanged. Console error/warning logs were empty during the checks.
 
 The live embed-template redirect chain was checked with headers disabled from caching: the `.html` source returns a permanent redirect with noindex, and the extensionless final response also returns noindex/no-follow/no-archive and no-store caching.
+
+The five Research Lab status pages return HTTP 200 in production and serve the August 8, 2026 research-record summary. At 390px, the Research Center hero actions are full-width stacked buttons with no document overflow; at 1440px they remain inline in the established blue/purple and glass-button styles. The browser console log was empty during the final check.
 
 The repository contains no deployment workflow that publishes the site from `main`, but the existing hosting connection published the pushed GitHub commits after propagation. No host credentials, API keys, or Cloudflare changes were made.
