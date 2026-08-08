@@ -1,3 +1,8 @@
+# Retired fragment route: preserve the old alphabet index as the closest
+# complete, crawlable glossary resource.
+/alphabet-links.html /hidden-fee-dictionary 301
+/alphabet-links /hidden-fee-dictionary 301
+
 /free-vs-paid-contract-review.html /free-ai-contract-review-vs-paid-review 301
 /scan-my-invoice.html /analyze-my-invoice 301
 /contract-risk-score.html /ai-contract-risk-score 301
