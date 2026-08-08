@@ -52,6 +52,82 @@ const exactReplacements = {
       'These recommendations are educational prompts for questions to consider; no count of successful negotiations or legal challenges is published here.'
     ]
   ],
+  'ai-contract-analysis.html': [
+    [
+      '<div class="lbl">Risk Pattern Detection</div>',
+      '<div class="lbl">Risk Pattern Review</div>'
+    ],
+    [
+      '<div class="lbl">Minutes to Full Report</div>',
+      '<div class="lbl">Product-dependent turnaround</div>'
+    ],
+    [
+      '<div class="lbl">Risk Categories</div>',
+      '<div class="lbl">Common risk categories</div>'
+    ],
+    [
+      'Each line item is compared against industry averages, regional benchmarks, and historical data from similar contracts.',
+      'Where comparison data is available, pricing context can be reviewed against stated benchmarks; this repository does not verify a universal benchmark dataset.'
+    ],
+    [
+      'The AI has been trained on thousands of contracts, learning patterns associated with both fair and unfair terms.',
+      'The public repository does not document a HiddenFeeAI training-data count. Any pattern coverage depends on the current product implementation and document context.'
+    ],
+    [
+      'The report is delivered within minutes of uploading your document.',
+      'Report timing and contents are product-dependent and are not independently verified by this repository.'
+    ],
+    [
+      'The $15 investment provides protection that would otherwise cost hundreds of dollars in legal fees.',
+      'A document-analysis purchase may help organize review questions, but it does not replace legal advice or guarantee protection or savings.'
+    ]
+  ],
+  'ai-contract-review.html': [
+    [
+      'Scans every clause, every page',
+      'Reviews extracted document content'
+    ],
+    [
+      'Results in 3-5 minutes',
+      'Product-dependent turnaround'
+    ],
+    [
+      'Each clause is compared against a database of thousands of contract types to determine if it matches standard language or deviates in ways that could disadvantage the signer.',
+      'A document-analysis system may compare extracted clauses with configured patterns; this repository does not verify the size or contents of any such database.'
+    ],
+    [
+      'AI benchmarks these against industry averages and flags fees 2-10x the market norm.',
+      'Potentially unusual fees can be flagged for review; any benchmark comparison depends on documented source data and context.'
+    ],
+    [
+      'AI reads every page with equal attention.',
+      'Automated review can help surface items, but extraction and interpretation depend on the document.'
+    ],
+    [
+      'The entire process takes 3-5 minutes compared to hours for manual review.',
+      'Turnaround is product-dependent and has not been independently verified by this repository; manual and professional review times vary.'
+    ],
+    [
+      'is specifically trained to detect hidden fees',
+      'A document-analysis system may be configured to review potential hidden fees'
+    ],
+    [
+      'It catches fee types across industries',
+      'Coverage across industries is product-dependent and is not independently verified here'
+    ],
+    [
+      'Files are not used for AI training, not sold to third parties, and are deleted promptly after analysis.',
+      'Current training-use, sharing, retention, and deletion practices are governed by HiddenFeeAI\'s first-party policies and are not independently verified by this repository.'
+    ],
+    [
+      'Most AI contract reviews are completed within 3-5 minutes from upload to final report.',
+      'Analysis timing varies by product and document; no verified turnaround benchmark is asserted here.'
+    ],
+    [
+      'Short documents (1-10 pages) can be analyzed in under 2 minutes. Longer documents (50+ pages) may take 5-10 minutes.',
+      'Document length, quality, and product conditions can affect turnaround; these page-count benchmarks are not independently verified here.'
+    ]
+  ],
   'contract-fee-analysis.html': [
     [
       'The financial impact is substantial. A study by the American Bar Association found that nearly 60% of consumers who sign contracts without legal review later discover terms they didn’t understand or agree with. In many cases, those terms cost them thousands of dollars. HiddenFeeAI was built specifically to address this problem. By combining pattern recognition across thousands of contracts with plain-English reporting, the platform turns complex legal language into clear, actionable insights.',

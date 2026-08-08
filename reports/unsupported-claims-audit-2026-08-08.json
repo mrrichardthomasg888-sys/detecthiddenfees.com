@@ -6,11 +6,11 @@
   "page_count": 238,
   "pages_with_candidates": 234,
   "candidate_counts": {
-    "quantitative_amount": 2199,
+    "quantitative_amount": 2198,
     "quantitative_percent": 547,
-    "absolute_or_superlative": 1637,
+    "absolute_or_superlative": 1635,
     "performance_or_outcome": 155,
-    "population_or_scale": 194
+    "population_or_scale": 192
   },
   "records": [
     {
@@ -1943,7 +1943,7 @@
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
-          "snippet": " → Compare Analysis Tools 95% Risk Pattern Detection 3-5 Minutes to Full Report 15+ Risk Categories $15 One-Time Analysis What makes HiddenFeeAI contract analysis different? Most contract review tools just highlight keywords. HiddenFeeAI performs deep structural a"
+          "snippet": " Analysis Tools 95% Risk Pattern Review 3-5 Product-dependent turnaround 15+ Common risk categories $15 One-Time Analysis What makes HiddenFeeAI contract analysis different? Most contract review tools just highlight keywords. HiddenFeeAI performs deep structural a"
         },
         {
           "key": "quantitative_amount",
@@ -1955,13 +1955,13 @@
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$200 ",
-          "snippet": "rages, regional benchmarks, and historical data from similar contracts. If a contractor is charging $200 per hour for labor in a market where the going rate is $85, the AI flags it. If a dealership is adding a documentation fee that’s three times the state average,"
+          "snippet": "chmarks; this repository does not verify a universal benchmark dataset. If a contractor is charging $200 per hour for labor in a market where the going rate is $85, the AI flags it. If a dealership is adding a documentation fee that’s three times the state average,"
         },
         {
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$85, ",
-          "snippet": " contracts. If a contractor is charging $200 per hour for labor in a market where the going rate is $85, the AI flags it. If a dealership is adding a documentation fee that’s three times the state average, the AI catches it. This pricing DNA analysis is one of the "
+          "snippet": "rk dataset. If a contractor is charging $200 per hour for labor in a market where the going rate is $85, the AI flags it. If a dealership is adding a documentation fee that’s three times the state average, the AI catches it. This pricing DNA analysis is one of the "
         },
         {
           "key": "quantitative_amount",
@@ -2069,19 +2069,13 @@
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
-          "snippet": " service contracts, and anyone who wants to understand what they’re signing before they commit. The $15 investment provides protection that would otherwise cost hundreds of dollars in legal fees. Upload your contract and get a complete AI analysis. HiddenFeeAI ana"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
           "snippet": "lear, actionable report. Know exactly what’s in your agreement before you sign. Get Your Analysis — $15 Frequently Asked Questions What does AI contract analysis include? AI contract analysis includes pricing structure evaluation, clause risk assessment, hidden fe"
         },
         {
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
-          "snippet": "legal review. How much does AI contract analysis cost? HiddenFeeAI provides a complete analysis for $15 per document. There are no subscriptions or recurring fees. The report is delivered within minutes of uploading your document. What types of contracts can be an"
+          "snippet": "legal review. How much does AI contract analysis cost? HiddenFeeAI provides a complete analysis for $15 per document. There are no subscriptions or recurring fees. Report timing and contents are product-dependent and are not independently verified by this reposito"
         },
         {
           "key": "quantitative_amount",
@@ -2105,7 +2099,7 @@
           "key": "quantitative_percent",
           "severity": "review",
           "value": "95%",
-          "snippet": "that shows you exactly what's hiding in your contract. Analyze My Contract → Compare Analysis Tools 95% Risk Pattern Detection 3-5 Minutes to Full Report 15+ Risk Categories $15 One-Time Analysis What makes HiddenFeeAI contract analysis different? Most contract r"
+          "snippet": "that shows you exactly what's hiding in your contract. Analyze My Contract → Compare Analysis Tools 95% Risk Pattern Review 3-5 Product-dependent turnaround 15+ Common risk categories $15 One-Time Analysis What makes HiddenFeeAI contract analysis different? Most "
         },
         {
           "key": "quantitative_percent",
@@ -2177,7 +2171,7 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "ecific types of risk that human reviewers commonly miss. 1. Pricing Structure Analysis. The AI maps every dollar in your contract. It identifies base costs, markups, fees, surcharges, and contingencies. Each line item is compared against industry averages, regional"
+          "snippet": "ecific types of risk that human reviewers commonly miss. 1. Pricing Structure Analysis. The AI maps every dollar in your contract. It identifies base costs, markups, fees, surcharges, and contingencies. Where comparison data is available, pricing context can be rev"
         },
         {
           "key": "absolute_or_superlative",
@@ -2218,20 +2212,20 @@
         {
           "key": "absolute_or_superlative",
           "severity": "high",
+          "value": "guarantee",
+          "snippet": "ument-analysis purchase may help organize review questions, but it does not replace legal advice or guarantee protection or savings. Upload your contract and get a complete AI analysis. HiddenFeeAI analyzes every dimension of your contract and delivers a clear, actiona"
+        },
+        {
+          "key": "absolute_or_superlative",
+          "severity": "high",
           "value": "every",
-          "snippet": "of dollars in legal fees. Upload your contract and get a complete AI analysis. HiddenFeeAI analyzes every dimension of your contract and delivers a clear, actionable report. Know exactly what’s in your agreement before you sign. Get Your Analysis — $15 Frequently A"
+          "snippet": "ee protection or savings. Upload your contract and get a complete AI analysis. HiddenFeeAI analyzes every dimension of your contract and delivers a clear, actionable report. Know exactly what’s in your agreement before you sign. Get Your Analysis — $15 Frequently A"
         },
         {
           "key": "population_or_scale",
           "severity": "high",
           "value": "thousands of",
           "snippet": "s if material costs change. These gaps are common in residential construction contracts and can add thousands of dollars to a project. Change Order Markup Hiding. Change orders are a primary source of cost overruns in construction projects. Many contracts bury the change-"
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": "assification assigns each clause and provision to a known risk category. The AI has been trained on thousands of contracts, learning patterns associated with both fair and unfair terms. It can identify language that’s unusually aggressive, terms that are missing entirely,"
         },
         {
           "key": "performance_or_outcome",
@@ -3466,13 +3460,13 @@
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
-          "snippet": "tract With AI → See How It Works Scans every clause, every page Detects hidden fees & pricing traps $15 one-time analysis Results in 3-5 minutes $15 Cost per review — affordable one-time analysis Minutes From upload to complete analysis report Multiple Contract ty"
+          "snippet": "t With AI → See How It Works Reviews extracted document content Detects hidden fees & pricing traps $15 one-time analysis Product-dependent turnaround $15 Cost per review — affordable one-time analysis Minutes From upload to complete analysis report Multiple Contr"
         },
         {
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$15 ",
-          "snippet": "clause, every page Detects hidden fees & pricing traps $15 one-time analysis Results in 3-5 minutes $15 Cost per review — affordable one-time analysis Minutes From upload to complete analysis report Multiple Contract types analyzed including construction, service,"
+          "snippet": "ment content Detects hidden fees & pricing traps $15 one-time analysis Product-dependent turnaround $15 Cost per review — affordable one-time analysis Minutes From upload to complete analysis report Multiple Contract types analyzed including construction, service,"
         },
         {
           "key": "quantitative_amount",
@@ -3490,13 +3484,13 @@
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$799 ",
-          "snippet": "ific service. AI benchmarks these against industry averages and flags fees 2-10x the market norm. A $799 dealership doc fee where $200 is standard? Flagged. 🔄 Automatic Renewal Clauses Contracts that renew unless you cancel within a specific window — often 30-90 d"
+          "snippet": "an be flagged for review; any benchmark comparison depends on documented source data and context. A $799 dealership doc fee where $200 is standard? Flagged. 🔄 Automatic Renewal Clauses Contracts that renew unless you cancel within a specific window — often 30-90 d"
         },
         {
           "key": "quantitative_amount",
           "severity": "review",
           "value": "$200 ",
-          "snippet": "ese against industry averages and flags fees 2-10x the market norm. A $799 dealership doc fee where $200 is standard? Flagged. 🔄 Automatic Renewal Clauses Contracts that renew unless you cancel within a specific window — often 30-90 days before renewal. AI identif"
+          "snippet": "benchmark comparison depends on documented source data and context. A $799 dealership doc fee where $200 is standard? Flagged. 🔄 Automatic Renewal Clauses Contracts that renew unless you cancel within a specific window — often 30-90 days before renewal. AI identif"
         },
         {
           "key": "quantitative_amount",
@@ -3682,18 +3676,6 @@
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "formed decisions before agreeing to a contract. Review My Contract With AI → See How It Works Scans every clause, every page Detects hidden fees & pricing traps $15 one-time analysis Results in 3-5 minutes $15 Cost per review — affordable one-time analysis Minutes "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "ns before agreeing to a contract. Review My Contract With AI → See How It Works Scans every clause, every page Detects hidden fees & pricing traps $15 one-time analysis Results in 3-5 minutes $15 Cost per review — affordable one-time analysis Minutes From upload to"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
           "snippet": "ewers would need hours to replicate. Step 1 Document Extraction and OCR The AI begins by extracting every word from your document. If it's a PDF, the AI uses optical character recognition (OCR) to read scanned text. If it's a Word document, it parses the native tex"
         },
         {
@@ -3737,12 +3719,6 @@
           "severity": "high",
           "value": "every",
           "snippet": "dard), duplicate line items, and pricing that shifts cost categories to avoid scrutiny. AI compares every charge against regional benchmarks. Illustrative Examples of AI Contract Review These scenarios are educational illustrations of issues a document review may s"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "od-faith email cancellation wouldn't count. Potential cost identified for review Takeaway: AI reads every page with equal attention. A human reading the same contract would likely skim past page 7 — the auto-renewal trap capitalizes on exactly that behavior. Exampl"
         },
         {
           "key": "absolute_or_superlative",
@@ -3791,12 +3767,6 @@
           "severity": "high",
           "value": "Always",
           "snippet": "oses only. It does not constitute legal advice, nor does it create an attorney-client relationship. Always consult a qualified attorney for legal decisions, especially those involving significant financial stakes or complex legal matters. DetectHiddenFees uses Hidde"
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": "warranty language, change-order procedures, and more. Each clause is compared against a database of thousands of contract types to determine if it matches standard language or deviates in ways that could disadvantage the signer. Step 3 Pattern Detection and Risk Scoring T"
         },
         {
           "key": "performance_or_outcome",

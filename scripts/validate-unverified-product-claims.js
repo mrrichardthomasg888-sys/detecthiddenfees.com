@@ -5,6 +5,8 @@ const root = path.resolve(__dirname, '..');
 const forbiddenByFile = {
   'about-detect-hidden-fees.html': ['cost Americans billions', 'trained on thousands of documents', 'automatically deleted after processing is complete', 'Know exactly what to say and save money'],
   'ai-analysis-methodology.html': ['most detailed explanation available', 'three to five minutes and results in a comprehensive report', 'refined through thousands of real-world analyses', 'successful negotiations and legal challenges'],
+  'ai-contract-analysis.html': ['95% Risk Pattern Detection', '3-5 Minutes to Full Report', 'trained on thousands of contracts', 'report is delivered within minutes', 'protection that would otherwise cost hundreds'],
+  'ai-contract-review.html': ['Scans every clause, every page', 'Results in 3-5 minutes', 'database of thousands of contract types', 'flags fees 2-10x the market norm', 'AI reads every page with equal attention', 'entire process takes 3-5 minutes', 'specifically trained to detect hidden fees', 'deleted promptly after analysis', 'completed within 3-5 minutes', 'under 2 minutes', 'may take 5-10 minutes'],
   'contract-fee-analysis.html': ['American Bar Association found that nearly 60%', 'cost them thousands of dollars', 'takes about three to five minutes'],
   'ai-agreement-analyzer.html': ['save you hundreds or thousands of dollars', 'AI reads every word so you do not have to']
 };
@@ -17,4 +19,4 @@ if (issues.length) {
   console.error(issues.join('\n'));
   process.exit(1);
 }
-console.log('Unverified product-claim remediation checks passed for four priority pages.');
+console.log('Unverified product-claim remediation checks passed for six priority pages.');
