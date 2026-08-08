@@ -551,6 +551,68 @@ const exactReplacements = {
       'Upload a supported financial document'
     ]
   ],
+  'ai-transparency-report.html': [
+    [
+      'This report details our AI model, training data, accuracy metrics, limitations, privacy protections, and commitment to responsible AI usage.',
+      'This report separates repository-verifiable information from product claims that require current first-party implementation, policy, or test evidence.'
+    ],
+    [
+      'DetectHiddenFees operates an AI-powered document analysis platform that helps consumers identify hidden fees, pricing risks, and negotiation opportunities in contracts, invoices, estimates, bills, receipts, and service agreements.',
+      'DetectHiddenFees describes AI-assisted document analysis as a way to review potential hidden fees, pricing risks, and negotiation questions across supported documents. Actual product behavior and coverage require current first-party verification.'
+    ],
+    [
+      'Our AI analyzes uploaded documents to: (1) Identify pricing structures and fee line items, (2) Flag vague or suspicious fee descriptions, (3) Compare charges against industry benchmarks, (4) Highlight contract clauses that may impose additional costs, (5) Generate risk scores across multiple dimensions, (6) Provide specific questions to ask and items to challenge during negotiation.',
+      'The site describes potential analysis areas including pricing structures, fee language, benchmark context, contract clauses, and review questions. The repository does not verify that every listed function is available or complete in the product.'
+    ],
+    [
+      'Our AI does NOT: (1) Provide legal advice or legal opinions, (2) Make binding determinations about contract enforceability, (3) Guarantee that all hidden fees are identified, (4) Store or retain uploaded documents beyond the analysis window, (5) Share document data with third parties, (6) Use uploaded documents for AI training purposes.',
+      'The repository can state that the service is not legal advice and should not be treated as a complete detector. Storage, retention, sharing, and training-use practices must be confirmed in current HiddenFeeAI first-party policies.'
+    ],
+    [
+      'Our document analysis platform uses a proprietary ensemble of natural language processing models specifically fine-tuned for financial document analysis. The system combines transformer-based language models for understanding document context with specialized classification models trained specifically on fee patterns, pricing language, and deceptive billing practices. The models are hosted on secure infrastructure and are not accessible to external parties.</p><p>We do not use general-purpose AI models like ChatGPT or GPT-4 for document analysis. Our models are purpose-built and specifically trained for the narrow domain of hidden fee detection, which provides more accurate and consistent results for this specific use case.',
+      'The repository does not contain HiddenFeeAI runtime, model-provider, hosting, access-control, or model-comparison evidence. Model architecture, training, security, and performance claims should be confirmed through current first-party documentation or documented testing.'
+    ],
+    [
+      'The AI models are trained on a curated dataset of over 100,000 documents including: (1) Anonymized contracts and agreements across industries, (2) Invoices and billing statements, (3) Estimates and quotes from home service providers, (4) Medical billing documents, (5) Financial services agreements and disclosures, (6) Automotive purchase and financing documents, and (7) Subscription service terms and conditions. Documents are labeled by fee type, risk level, and industry category by trained analysts. Training data is continuously updated to reflect new fee patterns and pricing practices.',
+      'No training-dataset count, composition, labeling workflow, or update schedule is verified in this repository. This page should not be used as evidence for a training-corpus size or coverage claim.'
+    ],
+    [
+      'Our AI achieves approximately 87% precision and 92% recall for identifying known hidden fee patterns in structured documents. Accuracy varies by document type and complexity. Simple invoices and bills achieve the highest accuracy (90%+), while complex multi-party contracts and medical billing documents have lower accuracy (78-85%). The system is tested quarterly against a held-out validation set of 5,000 documents. Results are published internally and used to refine model performance.',
+      'No precision, recall, document-count, or validation-set benchmark is published here because the repository does not contain a reproducible test protocol, dataset, model version, or results package. Accuracy should be treated as unverified until documented evidence is supplied.'
+    ],
+    [
+      'We are committed to ensuring our AI does not produce biased outcomes. Our training data intentionally includes documents from diverse geographic regions, income levels, and service providers. We regularly audit model outputs for demographic bias and have found no evidence of systematic bias in our analysis. However, because hidden fee patterns vary by region and industry, the AI may be more accurate for fee types common in the training data. We continue to expand our training data to improve coverage.',
+      'The repository does not contain a bias-audit protocol, demographic evaluation dataset, or evidence supporting a no-systematic-bias finding. Regional and industry coverage should be treated as an open verification question.'
+    ],
+    [
+      'AI analysis in our platform is supplemented by human oversight. Trained analysts review a random sample of AI analyses weekly to verify quality and identify areas for improvement. Additionally, user feedback on analysis accuracy is collected and used to refine model performance. For users who require additional human review, we recommend consulting with a qualified professional.',
+      'The repository does not verify a weekly analyst-review process or a user-feedback measurement program. Users should treat outputs as potential issues for review and consult qualified professionals when needed.'
+    ],
+    [
+      'Privacy is foundational to our AI operations. All documents are encrypted in transit (TLS 1.3) and at rest (AES-256). Documents are automatically deleted after analysis completion. No document content is used for AI training. No document data is shared with third parties. Our systems are designed to prevent unauthorized access and comply with applicable data protection regulations. See our <a href="/privacy-and-ai-security" style="color:#3b82f6;">Privacy & AI Security page</a> for detailed information.',
+      'Current encryption, retention, training-use, sharing, access-control, and regulatory-compliance practices are governed by HiddenFeeAI first-party policies. This repository does not independently verify implementation details; review the current <a href="/privacy-and-ai-security" style="color:#3b82f6;">Privacy & AI Security page</a> before uploading sensitive material.'
+    ],
+    [
+      'Our AI models are continuously improved through: (1) Quarterly retraining on updated datasets, (2) User feedback integration, (3) New fee pattern detection and model updates, (4) Regular accuracy benchmarking, (5) External security and privacy audits. We publish significant updates to this transparency report annually or when major model changes occur.',
+      'The repository does not verify a quarterly retraining schedule, feedback pipeline, benchmark cadence, audit program, or publication schedule. Future updates should identify their evidence, model version, and methodology.'
+    ],
+    [
+      'A: The model is updated quarterly with new training data. Significant updates are published in this transparency report.',
+      'A: The repository does not verify a model-update schedule. Consult current first-party documentation for product change information.'
+    ],
+    [
+      'A: The AI is highly accurate for identifying known fee patterns (87% precision), but it is not perfect. Always review AI findings critically and consult professionals for important decisions.',
+      'A: No verified accuracy percentage is asserted here. Review findings critically and consult professionals for important decisions.'
+    ],
+    [
+      'A: Documents are automatically deleted after analysis is complete. No documents are used for AI training. See our <a href="/data-handling-policy" style="color:#3b82f6;">Data Handling Policy</a> for details.',
+      'A: Document retention and training-use practices must be confirmed in current HiddenFeeAI first-party policies. See the <a href="/data-handling-policy" style="color:#3b82f6;">Data Handling Policy</a> information before uploading.'
+    ],
+    [
+      'A: Our AI is purpose-built for hidden fee detection, trained on 100,000+ financial documents. General-purpose AI like ChatGPT is not optimized for this specific task.',
+      'A: The repository does not verify a 100,000-document training count or a product comparison with general-purpose AI. Compare current documented capabilities and limitations before relying on either tool.'
+    ]
+  ],
   'can-ai-find-hidden-fees-in-a-contract.html': [
     [
       'Unlike manual review where consumers miss 70% of buried charges, AI reads every line with equal attention, flags suspicious language, and compares pricing against industry benchmarks.',

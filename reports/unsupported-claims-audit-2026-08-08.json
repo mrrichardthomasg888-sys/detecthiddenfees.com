@@ -7,9 +7,9 @@
   "pages_with_candidates": 234,
   "candidate_counts": {
     "quantitative_amount": 2188,
-    "quantitative_percent": 541,
-    "absolute_or_superlative": 1608,
-    "performance_or_outcome": 149,
+    "quantitative_percent": 536,
+    "absolute_or_superlative": 1605,
+    "performance_or_outcome": 144,
     "population_or_scale": 178
   },
   "records": [
@@ -8560,52 +8560,16 @@
       "file": "ai-transparency-report.html",
       "matches": [
         {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "87%",
-          "snippet": "w fee patterns and pricing practices. 5. Accuracy Metrics and Testing Our AI achieves approximately 87% precision and 92% recall for identifying known hidden fee patterns in structured documents. Accuracy varies by document type and complexity. Simple invoices an"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "92%",
-          "snippet": " pricing practices. 5. Accuracy Metrics and Testing Our AI achieves approximately 87% precision and 92% recall for identifying known hidden fee patterns in structured documents. Accuracy varies by document type and complexity. Simple invoices and bills achieve th"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "90%",
-          "snippet": "acy varies by document type and complexity. Simple invoices and bills achieve the highest accuracy (90%+), while complex multi-party contracts and medical billing documents have lower accuracy (78-85%). The system is tested quarterly against a held-out validation"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "85%",
-          "snippet": "y (90%+), while complex multi-party contracts and medical billing documents have lower accuracy (78-85%). The system is tested quarterly against a held-out validation set of 5,000 documents. Results are published internally and used to refine model performance. P"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "87%",
-          "snippet": "t. Q: Can I trust the AI analysis? A: The AI is highly accurate for identifying known fee patterns (87% precision), but it is not perfect. Always review AI findings critically and consult professionals for important decisions. Q: What happens to my document after"
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "every",
+          "snippet": "m product claims that require current first-party implementation, policy, or test evidence. We want every user to understand exactly what our AI can and cannot do. See What Your Document Analysis Will Flag Upload a contract, bill, invoice, or financing document to "
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "accuracy metrics, limitations, privacy protections, and commitment to responsible AI usage. We want every user to understand exactly what our AI can and cannot do. See What Your Document Analysis Will Flag Upload a contract, bill, invoice, or financing document to "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "Guarantee",
-          "snippet": " legal advice or legal opinions, (2) Make binding determinations about contract enforceability, (3) Guarantee that all hidden fees are identified, (4) Store or retain uploaded documents beyond the analysis window, (5) Share document data with third parties, (6) Use upl"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "r legal opinions, (2) Make binding determinations about contract enforceability, (3) Guarantee that all hidden fees are identified, (4) Store or retain uploaded documents beyond the analysis window, (5) Share document data with third parties, (6) Use uploaded doc"
+          "snippet": "age, benchmark context, contract clauses, and review questions. The repository does not verify that every listed function is available or complete in the product. What the AI Does NOT Do The repository can state that the service is not legal advice and should not b"
         },
         {
           "key": "absolute_or_superlative",
@@ -8616,26 +8580,8 @@
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "All",
-          "snippet": "with a qualified professional. 9. Privacy Protections Privacy is foundational to our AI operations. All documents are encrypted in transit (TLS 1.3) and at rest (AES-256). Documents are automatically deleted after analysis completion. No document content is used "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
           "value": "guarantee",
-          "snippet": "Providing feedback on analysis accuracy to help us improve, (5) Understanding that no AI system can guarantee complete fee detection. 11. Continuous Improvement Our AI models are continuously improved through: (1) Quarterly retraining on updated datasets, (2) User feed"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "Always",
-          "snippet": "he AI is highly accurate for identifying known fee patterns (87% precision), but it is not perfect. Always review AI findings critically and consult professionals for important decisions. Q: What happens to my document after analysis? A: Documents are automatically "
-        },
-        {
-          "key": "performance_or_outcome",
-          "severity": "high",
-          "value": "accuracy",
-          "snippet": "about how our AI document analysis platform works. This report details our AI model, training data, accuracy metrics, limitations, privacy protections, and commitment to responsible AI usage. We want every user to understand exactly what our AI can and cannot do. See "
+          "snippet": "Providing feedback on analysis accuracy to help us improve, (5) Understanding that no AI system can guarantee complete fee detection. 11. Continuous Improvement The repository does not verify a quarterly retraining schedule, feedback pipeline, benchmark cadence, audit "
         },
         {
           "key": "performance_or_outcome",
@@ -8647,37 +8593,25 @@
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "Accuracy",
-          "snippet": "alysts. Training data is continuously updated to reflect new fee patterns and pricing practices. 5. Accuracy Metrics and Testing Our AI achieves approximately 87% precision and 92% recall for identifying known hidden fee patterns in structured documents. Accuracy vari"
+          "snippet": "pository. This page should not be used as evidence for a training-corpus size or coverage claim. 5. Accuracy Metrics and Testing No precision, recall, document-count, or validation-set benchmark is published here because the repository does not contain a reproducible "
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "precision",
-          "snippet": "e patterns and pricing practices. 5. Accuracy Metrics and Testing Our AI achieves approximately 87% precision and 92% recall for identifying known hidden fee patterns in structured documents. Accuracy varies by document type and complexity. Simple invoices and bills ac"
+          "snippet": "e used as evidence for a training-corpus size or coverage claim. 5. Accuracy Metrics and Testing No precision, recall, document-count, or validation-set benchmark is published here because the repository does not contain a reproducible test protocol, dataset, model ver"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "recall",
-          "snippet": "cing practices. 5. Accuracy Metrics and Testing Our AI achieves approximately 87% precision and 92% recall for identifying known hidden fee patterns in structured documents. Accuracy varies by document type and complexity. Simple invoices and bills achieve the highe"
+          "snippet": "vidence for a training-corpus size or coverage claim. 5. Accuracy Metrics and Testing No precision, recall, document-count, or validation-set benchmark is published here because the repository does not contain a reproducible test protocol, dataset, model version, or"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "Accuracy",
-          "snippet": "ely 87% precision and 92% recall for identifying known hidden fee patterns in structured documents. Accuracy varies by document type and complexity. Simple invoices and bills achieve the highest accuracy (90%+), while complex multi-party contracts and medical billing "
-        },
-        {
-          "key": "performance_or_outcome",
-          "severity": "high",
-          "value": "accuracy",
-          "snippet": "nts. Accuracy varies by document type and complexity. Simple invoices and bills achieve the highest accuracy (90%+), while complex multi-party contracts and medical billing documents have lower accuracy (78-85%). The system is tested quarterly against a held-out valid"
-        },
-        {
-          "key": "performance_or_outcome",
-          "severity": "high",
-          "value": "accuracy",
-          "snippet": "ghest accuracy (90%+), while complex multi-party contracts and medical billing documents have lower accuracy (78-85%). The system is tested quarterly against a held-out validation set of 5,000 documents. Results are published internally and used to refine model perfor"
+          "snippet": "pository does not contain a reproducible test protocol, dataset, model version, or results package. Accuracy should be treated as unverified until documented evidence is supplied. Put Your Own Document Through the Same Questions HiddenFeeAI can surface unclear fees, u"
         },
         {
           "key": "performance_or_outcome",
@@ -8689,25 +8623,13 @@
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "accuracy",
-          "snippet": "eekly to verify quality and identify areas for improvement. Additionally, user feedback on analysis accuracy is collected and used to refine model performance. For users who require additional human review, we recommend consulting with a qualified professional. 9. Pri"
+          "snippet": "(3) Not relying solely on AI analysis for legal interpretations, (4) Providing feedback on analysis accuracy to help us improve, (5) Understanding that no AI system can guarantee complete fee detection. 11. Continuous Improvement The repository does not verify a quart"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "accuracy",
-          "snippet": "(3) Not relying solely on AI analysis for legal interpretations, (4) Providing feedback on analysis accuracy to help us improve, (5) Understanding that no AI system can guarantee complete fee detection. 11. Continuous Improvement Our AI models are continuously improve"
-        },
-        {
-          "key": "performance_or_outcome",
-          "severity": "high",
-          "value": "accuracy",
-          "snippet": "tasets, (2) User feedback integration, (3) New fee pattern detection and model updates, (4) Regular accuracy benchmarking, (5) External security and privacy audits. We publish significant updates to this transparency report annually or when major model changes occur. "
-        },
-        {
-          "key": "performance_or_outcome",
-          "severity": "high",
-          "value": "precision",
-          "snippet": ": Can I trust the AI analysis? A: The AI is highly accurate for identifying known fee patterns (87% precision), but it is not perfect. Always review AI findings critically and consult professionals for important decisions. Q: What happens to my document after analysis?"
+          "snippet": "-party documentation for product change information. Q: Can I trust the AI analysis? A: No verified accuracy percentage is asserted here. Review findings critically and consult professionals for important decisions. Q: What happens to my document after analysis? A: Do"
         }
       ]
     },
