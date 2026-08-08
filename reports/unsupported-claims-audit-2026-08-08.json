@@ -6,11 +6,11 @@
   "page_count": 238,
   "pages_with_candidates": 234,
   "candidate_counts": {
-    "quantitative_amount": 2044,
-    "quantitative_percent": 496,
-    "absolute_or_superlative": 1561,
+    "quantitative_amount": 2021,
+    "quantitative_percent": 491,
+    "absolute_or_superlative": 1557,
     "performance_or_outcome": 153,
-    "population_or_scale": 164
+    "population_or_scale": 162
   },
   "records": [
     {
@@ -17192,226 +17192,22 @@
       "file": "hidden-dealership-financing-fees.html",
       "matches": [
         {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ng Documents → Upload financing agreements &amp; contracts AI detects hidden fees &amp; APR markups $15 one-time analysis Private document processing What Are Hidden Dealership Financing Fees? Hidden dealership financing fees are undisclosed or inflated charges ad"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$500 ",
-          "snippet": "processing fees are frequently inflated well beyond actual paperwork costs. Doc fees can range from $500 to $800 or more, with the actual cost to the dealer being a fraction of that amount. Extended Warranties Warranty products are commonly bundled into financing c"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$800 ",
-          "snippet": "ng fees are frequently inflated well beyond actual paperwork costs. Doc fees can range from $500 to $800 or more, with the actual cost to the dealer being a fraction of that amount. Extended Warranties Warranty products are commonly bundled into financing contracts"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$200 ",
-          "snippet": "ves etching the vehicle identification number onto windows to deter theft. Dealerships often charge $200 to $500 for a service that costs less than $20 and provides minimal practical benefit. Paint &amp; Fabric Protection Dealerships frequently sell paint sealant, "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$500 ",
-          "snippet": "ing the vehicle identification number onto windows to deter theft. Dealerships often charge $200 to $500 for a service that costs less than $20 and provides minimal practical benefit. Paint &amp; Fabric Protection Dealerships frequently sell paint sealant, fabric p"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$20 ",
-          "snippet": "to windows to deter theft. Dealerships often charge $200 to $500 for a service that costs less than $20 and provides minimal practical benefit. Paint &amp; Fabric Protection Dealerships frequently sell paint sealant, fabric protection, and rust-proofing as necessa"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "utiny, giving you confidence when negotiating with the finance manager. Get My Financing Analysis — $15 Real-World Example: How Hidden Fees Add Up Consider a hypothetical scenario where a buyer finances a $30,000 vehicle. The dealership offers an 8% APR, but the b"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$30,000 ",
-          "snippet": "eal-World Example: How Hidden Fees Add Up Consider a hypothetical scenario where a buyer finances a $30,000 vehicle. The dealership offers an 8% APR, but the buyer qualifies for a 6% rate through their bank. Over a 60-month loan, the 2% markup adds over $1,600 to the "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$1,600 ",
-          "snippet": "the buyer qualifies for a 6% rate through their bank. Over a 60-month loan, the 2% markup adds over $1,600 to the total cost. In addition to the APR markup, the finance manager adds: An extended warranty priced at $3,000 (worth $1,200) GAP insurance at $1,500 (availa"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$3,000 ",
-          "snippet": "total cost. In addition to the APR markup, the finance manager adds: An extended warranty priced at $3,000 (worth $1,200) GAP insurance at $1,500 (available for $600) A documentation fee of $600 (actual cost ~$100) VIN etching for $300 (worth $20) The total hidden ch"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$1,200",
-          "snippet": " addition to the APR markup, the finance manager adds: An extended warranty priced at $3,000 (worth $1,200) GAP insurance at $1,500 (available for $600) A documentation fee of $600 (actual cost ~$100) VIN etching for $300 (worth $20) The total hidden charges in this"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$1,500 ",
-          "snippet": "up, the finance manager adds: An extended warranty priced at $3,000 (worth $1,200) GAP insurance at $1,500 (available for $600) A documentation fee of $600 (actual cost ~$100) VIN etching for $300 (worth $20) The total hidden charges in this example exceed $6,000 — a"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$600",
-          "snippet": "r adds: An extended warranty priced at $3,000 (worth $1,200) GAP insurance at $1,500 (available for $600) A documentation fee of $600 (actual cost ~$100) VIN etching for $300 (worth $20) The total hidden charges in this example exceed $6,000 — a massive increase o"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$600 ",
-          "snippet": "priced at $3,000 (worth $1,200) GAP insurance at $1,500 (available for $600) A documentation fee of $600 (actual cost ~$100) VIN etching for $300 (worth $20) The total hidden charges in this example exceed $6,000 — a massive increase on a $30,000 purchase. Without "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$100",
-          "snippet": "orth $1,200) GAP insurance at $1,500 (available for $600) A documentation fee of $600 (actual cost ~$100) VIN etching for $300 (worth $20) The total hidden charges in this example exceed $6,000 — a massive increase on a $30,000 purchase. Without careful review, th"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$300 ",
-          "snippet": "ance at $1,500 (available for $600) A documentation fee of $600 (actual cost ~$100) VIN etching for $300 (worth $20) The total hidden charges in this example exceed $6,000 — a massive increase on a $30,000 purchase. Without careful review, these fees would likely g"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$20",
-          "snippet": "00 (available for $600) A documentation fee of $600 (actual cost ~$100) VIN etching for $300 (worth $20) The total hidden charges in this example exceed $6,000 — a massive increase on a $30,000 purchase. Without careful review, these fees would likely go unnotice"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$6,000 ",
-          "snippet": "actual cost ~$100) VIN etching for $300 (worth $20) The total hidden charges in this example exceed $6,000 — a massive increase on a $30,000 purchase. Without careful review, these fees would likely go unnoticed and be paid over the life of the loan, costing even mor"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$30,000 ",
-          "snippet": "r $300 (worth $20) The total hidden charges in this example exceed $6,000 — a massive increase on a $30,000 purchase. Without careful review, these fees would likely go unnoticed and be paid over the life of the loan, costing even more with interest. AI-powered analys"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "erms, identifies hidden fees, APR markups, and unnecessary add-ons. Upload My Financing Agreement — $15 Frequently Asked Questions About Dealership Financing Fees What are hidden dealership financing fees? Hidden dealership financing fees are undisclosed or inflat"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$500 ",
-          "snippet": "ees are administrative charges for processing paperwork. They are often inflated and can range from $500 to $800. While some states regulate these fees, they are often negotiable. Shoppers should challenge these fees and ask for them to be reduced or waived. How ca"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$800",
-          "snippet": "administrative charges for processing paperwork. They are often inflated and can range from $500 to $800. While some states regulate these fees, they are often negotiable. Shoppers should challenge these fees and ask for them to be reduced or waived. How can AI he"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "s, APR markups, and unnecessary add-ons using AI-powered analysis. Analyze My Financing Agreement — $15 No subscription. No long-term commitment. Secure analysis. AI Tools AI Financial Advisor Legal Artificial Intelligence AI Contract Review AI Agreement Analyzer "
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "50%",
-          "snippet": "into financing contracts without clear cost explanations. Dealers often mark up these warranties by 50% to 100%, adding substantial cost to the loan. GAP Insurance Add-ons Guaranteed Asset Protection products are often overpriced compared to third-party alternati"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "100%",
-          "snippet": "nancing contracts without clear cost explanations. Dealers often mark up these warranties by 50% to 100%, adding substantial cost to the loan. GAP Insurance Add-ons Guaranteed Asset Protection products are often overpriced compared to third-party alternatives. Whi"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "8%",
-          "snippet": "Consider a hypothetical scenario where a buyer finances a $30,000 vehicle. The dealership offers an 8% APR, but the buyer qualifies for a 6% rate through their bank. Over a 60-month loan, the 2% markup adds over $1,600 to the total cost. In addition to the APR m"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "6%",
-          "snippet": " a buyer finances a $30,000 vehicle. The dealership offers an 8% APR, but the buyer qualifies for a 6% rate through their bank. Over a 60-month loan, the 2% markup adds over $1,600 to the total cost. In addition to the APR markup, the finance manager adds: An ex"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "2%",
-          "snippet": "fers an 8% APR, but the buyer qualifies for a 6% rate through their bank. Over a 60-month loan, the 2% markup adds over $1,600 to the total cost. In addition to the APR markup, the finance manager adds: An extended warranty priced at $3,000 (worth $1,200) GAP in"
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "every",
+          "snippet": "uman verification required Direct answer: what should buyers check for hidden financing fees? Check every amount and term that changes what you pay: the out-the-door price, APR, loan term, amount financed, finance charge, total of payments, documentation or process"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "Guaranteed",
-          "snippet": "mark up these warranties by 50% to 100%, adding substantial cost to the loan. GAP Insurance Add-ons Guaranteed Asset Protection products are often overpriced compared to third-party alternatives. While GAP insurance can be useful, dealerships frequently charge double or"
+          "value": "every",
+          "snippet": "ealership financing review 1. Get the written offer Request the buyer’s order, financing offer, and every disclosure before signing. Keep the version that shows the prices and products you actually discussed. 2. Establish a comparison point Shop a bank, credit unio"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "Always",
-          "snippet": "yments instead of total loan cost, buyers may miss hidden financing charges added to the agreement. Always ask for the total out-the-door price and financing breakdown. How to Detect Hidden Dealership Financing Fees Dealership financing contracts are intentionally c"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "2. Ask for the base APR and compare it to your pre-approved rate 3. Request a full itemized list of all add-ons and fees 4. Identify any optional products (warranties, GAP, protection plans) 5. Question the necessity and cost of each add-on 6. Calculate the total"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": " Auto Financing Checklist Secure bank pre-approval Compare APR rates Request itemized fees Question all add-ons Calculate total loan cost Check for doc fee inflation Verify warranty pricing Review GAP insurance cost Look for VIN etching charges Confirm no prepaym"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "Guaranteed",
-          "snippet": "dollars to the total loan cost over its lifetime. What is GAP insurance, and is it overpriced? GAP (Guaranteed Asset Protection) insurance covers the difference between what you owe on your car and what it's worth if it's totaled or stolen. While useful, dealerships oft"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "Always",
-          "snippet": " a dealership gives you a baseline interest rate. This prevents the dealer from marking up the APR. Always compare the dealer's offer against your pre-approved rate to ensure you're getting the best deal. Related Hidden Fee Investigations Hidden Bank Overdraft Fees "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "All",
-          "snippet": "ce. The analysis helps identify potential hidden fees and prepare better questions for dealerships. All final decisions remain with you. Analyze Auto Financing Before You Sign Upload financing agreements and dealership paperwork to identify hidden fees, APR marku"
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": "s and retain the difference as additional profit. This practice, known as \"dealer reserve,\" can add thousands of dollars to the total cost of your loan over its lifetime. Documentation Fees Administrative processing fees are frequently inflated well beyond actual paperwor"
-        },
-        {
-          "key": "population_or_scale",
-          "severity": "high",
-          "value": "thousands of",
-          "snippet": "erest rate but can legally mark up the rate to increase their profit. This 'dealer reserve' can add thousands of dollars to the total loan cost over its lifetime. What is GAP insurance, and is it overpriced? GAP (Guaranteed Asset Protection) insurance covers the differenc"
+          "value": "every",
+          "snippet": "mount available, and conditions so the dealer offer can be compared on the same terms. 3. Reconcile every line Match the vehicle price, fees, taxes, down payment, trade-in, payoff, add-ons, APR, term, amount financed, finance charge, and total of payments across th"
         }
       ]
     },
