@@ -6,10 +6,10 @@
   "page_count": 238,
   "pages_with_candidates": 233,
   "candidate_counts": {
-    "quantitative_amount": 1814,
-    "quantitative_percent": 464,
-    "absolute_or_superlative": 1521,
-    "performance_or_outcome": 153,
+    "quantitative_amount": 1777,
+    "quantitative_percent": 457,
+    "absolute_or_superlative": 1479,
+    "performance_or_outcome": 148,
     "population_or_scale": 149
   },
   "records": [
@@ -2989,340 +2989,46 @@
       "file": "ai-contract-review.html",
       "matches": [
         {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "t With AI → See How It Works Reviews extracted document content Detects hidden fees & pricing traps $15 one-time analysis Product-dependent turnaround $15 Cost per review — affordable one-time analysis Minutes From upload to complete analysis report Multiple Contr"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ment content Detects hidden fees & pricing traps $15 one-time analysis Product-dependent turnaround $15 Cost per review — affordable one-time analysis Minutes From upload to complete analysis report Multiple Contract types analyzed including construction, service,"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$165",
-          "snippet": " It benchmarks every cost against industry averages and regional norms. If a contractor is charging $165/hour for labor in a market where $85 is standard, the AI flags it. If a dealership marked up your APR by 2.5 points, the AI shows you exactly how much that cos"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$85 ",
-          "snippet": "stry averages and regional norms. If a contractor is charging $165/hour for labor in a market where $85 is standard, the AI flags it. If a dealership marked up your APR by 2.5 points, the AI shows you exactly how much that costs over the loan term. Step 5 Report G"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$799 ",
-          "snippet": "an be flagged for review; any benchmark comparison depends on documented source data and context. A $799 dealership doc fee where $200 is standard? Flagged. 🔄 Automatic Renewal Clauses Contracts that renew unless you cancel within a specific window — often 30-90 d"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$200 ",
-          "snippet": "benchmark comparison depends on documented source data and context. A $799 dealership doc fee where $200 is standard? Flagged. 🔄 Automatic Renewal Clauses Contracts that renew unless you cancel within a specific window — often 30-90 days before renewal. AI identif"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$100 ",
-          "snippet": "ervice contract with a lawn care company. The contract seemed straightforward — monthly payments of $100 for weekly service. What the AI found: Buried on page 7, in a section titled \"General Provisions,\" was an auto-renewal clause that renewed the contract annually"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$1,200 ",
-          "snippet": "e. What it meant: If the homeowner missed the 90-day window, they'd be locked in for another year — $1,200 — even if they found a better deal or no longer needed the service. The certified mail requirement meant even a good-faith email cancellation wouldn't count. Po"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$150 ",
-          "snippet": " Costs Scenario: A consumer in Arizona signed a storage unit rental agreement. The monthly rate was $150 — reasonable for the unit size and location. What the AI found: The fee schedule included an automatic 10% annual price escalation clause with no upper limit. T"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$150",
-          "snippet": "escalation clause with no upper limit. The AI calculated the five-year cost projection: year one at $150/month, year two at $165/month, year three at $181.50/month, year four at $199.65/month, year five at $219.62/month. What it meant: The consumer would pay nearl"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$165",
-          "snippet": "o upper limit. The AI calculated the five-year cost projection: year one at $150/month, year two at $165/month, year three at $181.50/month, year four at $199.65/month, year five at $219.62/month. What it meant: The consumer would pay nearly $2,000 more over five "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$181.50",
-          "snippet": "ulated the five-year cost projection: year one at $150/month, year two at $165/month, year three at $181.50/month, year four at $199.65/month, year five at $219.62/month. What it meant: The consumer would pay nearly $2,000 more over five years compared to fixed-rate "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$199.65",
-          "snippet": "ojection: year one at $150/month, year two at $165/month, year three at $181.50/month, year four at $199.65/month, year five at $219.62/month. What it meant: The consumer would pay nearly $2,000 more over five years compared to fixed-rate pricing. With no cap on the "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$219.62",
-          "snippet": "onth, year two at $165/month, year three at $181.50/month, year four at $199.65/month, year five at $219.62/month. What it meant: The consumer would pay nearly $2,000 more over five years compared to fixed-rate pricing. With no cap on the escalation, costs would keep"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$2,000 m",
-          "snippet": "ear four at $199.65/month, year five at $219.62/month. What it meant: The consumer would pay nearly $2,000 more over five years compared to fixed-rate pricing. With no cap on the escalation, costs would keep climbing indefinitely. Potential escalation cost illustrated"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "tract complexity and your budget. Factor AI Contract Review Lawyer Review Manual (Self) Review Cost $15 per review $500-$2,000+ per contract Free (your time) Time 3-5 minutes 1-3 days 2-4 hours Hidden fee detection ✓ High for standard fee patterns ✓ High for all c"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$500",
-          "snippet": "y and your budget. Factor AI Contract Review Lawyer Review Manual (Self) Review Cost $15 per review $500-$2,000+ per contract Free (your time) Time 3-5 minutes 1-3 days 2-4 hours Hidden fee detection ✓ High for standard fee patterns ✓ High for all contract types ✗"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$2,000",
-          "snippet": " your budget. Factor AI Contract Review Lawyer Review Manual (Self) Review Cost $15 per review $500-$2,000+ per contract Free (your time) Time 3-5 minutes 1-3 days 2-4 hours Hidden fee detection ✓ High for standard fee patterns ✓ High for all contract types ✗ Varies"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$50K",
-          "snippet": "port Action items included Full representation Self-advocacy only Best for Everyday contracts under $50K Complex deals over $50K Simple, short agreements AI Contract Review Limitations AI is a powerful tool for contract analysis, but it has important limitations. "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$50K",
-          "snippet": "ed Full representation Self-advocacy only Best for Everyday contracts under $50K Complex deals over $50K Simple, short agreements AI Contract Review Limitations AI is a powerful tool for contract analysis, but it has important limitations. Understanding these help"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15",
-          "snippet": ", when appropriate, legal guidance. How much does AI contract review cost? AI contract review costs $15-$50 per analysis depending on the platform. This compares to $200-$500 per hour for a traditional attorney or $500-$2,000+ for a full contract review. HiddenFe"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$50 ",
-          "snippet": "en appropriate, legal guidance. How much does AI contract review cost? AI contract review costs $15-$50 per analysis depending on the platform. This compares to $200-$500 per hour for a traditional attorney or $500-$2,000+ for a full contract review. HiddenFeeAI o"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$200",
-          "snippet": "iew cost? AI contract review costs $15-$50 per analysis depending on the platform. This compares to $200-$500 per hour for a traditional attorney or $500-$2,000+ for a full contract review. HiddenFeeAI offers one-time analysis for $15 with no subscription. Is AI c"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$500 ",
-          "snippet": "ost? AI contract review costs $15-$50 per analysis depending on the platform. This compares to $200-$500 per hour for a traditional attorney or $500-$2,000+ for a full contract review. HiddenFeeAI offers one-time analysis for $15 with no subscription. Is AI contrac"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$500",
-          "snippet": "alysis depending on the platform. This compares to $200-$500 per hour for a traditional attorney or $500-$2,000+ for a full contract review. HiddenFeeAI offers one-time analysis for $15 with no subscription. Is AI contract review better than ChatGPT? Specialized A"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$2,000",
-          "snippet": "s depending on the platform. This compares to $200-$500 per hour for a traditional attorney or $500-$2,000+ for a full contract review. HiddenFeeAI offers one-time analysis for $15 with no subscription. Is AI contract review better than ChatGPT? Specialized AI contr"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ional attorney or $500-$2,000+ for a full contract review. HiddenFeeAI offers one-time analysis for $15 with no subscription. Is AI contract review better than ChatGPT? Specialized AI contract review tools outperform ChatGPT because they are trained specifically o"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "tions you need to ask before you commit. Results in minutes, not days. Review My Contract With AI → $15 one-time analysis · No subscription · Secure processing Important: AI contract review is a tool for information and analysis purposes only. It does not constitu"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": " AI-Powered Hidden Fee Detection & Legal Artificial Intelligence for Consumers Review Your Contract $15 Analyze My Contract"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "50%",
-          "snippet": "📊 Pricing Manipulation APR markups on financing, inflated labor rates, excessive material markups (50%+ when 10-15% is standard), duplicate line items, and pricing that shifts cost categories to avoid scrutiny. AI compares every charge against regional benchmark"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "15%",
-          "snippet": "nipulation APR markups on financing, inflated labor rates, excessive material markups (50%+ when 10-15% is standard), duplicate line items, and pricing that shifts cost categories to avoid scrutiny. AI compares every charge against regional benchmarks. Illustrati"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "10%",
-          "snippet": "easonable for the unit size and location. What the AI found: The fee schedule included an automatic 10% annual price escalation clause with no upper limit. The AI calculated the five-year cost projection: year one at $150/month, year two at $165/month, year three"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "10%",
-          "snippet": "ated Takeaway: AI projects future costs from escalation clauses that humans see as insignificant. A 10% annual increase seems small — until you see the five-year total. AI Contract Review vs Lawyer vs Manual Review Understanding the differences helps you choose t"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "20%",
-          "snippet": "ves money while maintaining protection. A lawyer reviewing a pre-analyzed contract can focus on the 20% of clauses that carry 80% of the risk — reducing their time from 4+ hours to under an hour and cutting your legal bill by 70-80%. Read our full AI vs lawyer co"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "80%",
-          "snippet": "g protection. A lawyer reviewing a pre-analyzed contract can focus on the 20% of clauses that carry 80% of the risk — reducing their time from 4+ hours to under an hour and cutting your legal bill by 70-80%. Read our full AI vs lawyer comparison → Frequently Aske"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "80%",
-          "snippet": " of the risk — reducing their time from 4+ hours to under an hour and cutting your legal bill by 70-80%. Read our full AI vs lawyer comparison → Frequently Asked Questions About AI Contract Review What is AI contract review? AI contract review uses machine learni"
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "every",
+          "snippet": "ms, cancellation conditions, and follow-up questions. Use the output as a starting point and verify every material finding against the original agreement. Last updated: August 8, 2026 Review My Contract Read AI Limitations Source passages matter Human verification "
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "ewers would need hours to replicate. Step 1 Document Extraction and OCR The AI begins by extracting every word from your document. If it's a PDF, the AI uses optical character recognition (OCR) to read scanned text. If it's a Word document, it parses the native tex"
+          "snippet": "dden, unlawful, excessive, fraudulent, recoverable, or likely to produce savings. Locate and verify every material finding in the agreement and related records. A verification-first review workflow 1. Preserve the complete record Keep the signed or proposed agreeme"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "Every",
-          "snippet": " contracts of any length — from a one-page service estimate to a fifty-page construction agreement. Every word is captured, including fine print, footnotes, and signature pages that human readers often skip. Step 2 Clause-by-Clause Analysis Once extracted, the AI i"
+          "snippet": "ncellation, payment, scope, change orders, and related clauses when the original text is available. Every material finding should be checked against the agreement and related records. Can AI contract review determine whether a clause is legal? No. AI-assisted revie"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "ders often skip. Step 2 Clause-by-Clause Analysis Once extracted, the AI identifies and categorizes every clause in the document: payment terms, liability provisions, indemnification, dispute resolution, termination conditions, warranty language, change-order proce"
+          "snippet": "rements, consult applicable authoritative sources, and record what remains uncertain. Can AI review every type of contract equally well? No. Results depend on document quality, layout, language, definitions, attachments, transaction context, jurisdiction, system co"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "lated markups, above-market labor rates, duplicate charges, and pricing manipulation. It benchmarks every cost against industry averages and regional norms. If a contractor is charging $165/hour for labor in a market where $85 is standard, the AI flags it. If a dea"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "Every",
-          "snippet": "y. Medium-risk items (yellow) flag terms worth negotiating. Low-risk items are noted for awareness. Every finding includes a plain-English explanation, the specific language from your contract, and a concrete action item — what to ask, what to counter, and what mar"
+          "snippet": "urisdiction, system configuration, and the task being asked. Do not generalize one review result to every contract type. Does an unflagged contract contain no hidden fee? No. A missed issue is possible, and a clean-looking result is not proof that every fee, obliga"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "t-standard looks like. Types of Contracts AI Can Review AI contract analysis works across virtually every contract type. The detection patterns adapt to each industry's standard practices, hidden fee structures, and common risk clauses. 🏗️ Construction Constructio"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "n with unfavorable terms, waiver of jury trial, power of attorney grants, and provisions that shift all risk to you. AI assigns each a risk score of 1-10 with plain-English explanations. 📝 Unexpected Obligations Clauses requiring specific insurance, indemnifying"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "dard), duplicate line items, and pricing that shifts cost categories to avoid scrutiny. AI compares every charge against regional benchmarks. Illustrative Examples of AI Contract Review These scenarios are educational illustrations of issues a document review may s"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "ime 3-5 minutes 1-3 days 2-4 hours Hidden fee detection ✓ High for standard fee patterns ✓ High for all contract types ✗ Varies by experience and contract complexity Risk clause detection ✓ High for standard patterns ✓ High for all patterns ✗ Low for complex clau"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "by experience and contract complexity Risk clause detection ✓ High for standard patterns ✓ High for all patterns ✗ Low for complex clauses Jurisdiction expertise ✗ Limited ✓ Full ✗ None Negotiation support Action items included Full representation Self-advocacy o"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "t of your personal situation, your local jurisdiction's laws, or the specific legal implications of every clause. For matters involving litigation risk, regulatory compliance, or significant financial exposure, consult a licensed attorney. 🌐 Jurisdictional Nuance "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "al agreements for hidden fees, risky clauses, pricing manipulation, and unfavorable terms. It reads every word of a contract, compares clauses against databases of known risk patterns, and produces a plain-English report with specific action items. How does AI revi"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "rvices. Upload your contract to HiddenFeeAI and get a complete fee detection report in minutes. See all hidden fee questions → 📝 Can AI review an agreement before signing? Absolutely. AI contract review can analyze any agreement before you sign, identifying hidd"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "most comprehensive",
-          "snippet": "minutes and produces a plain-English report with specific findings and recommended actions. For the most comprehensive set of contract review questions , see our complete resource. Upload your contract → ⚠️ What contract terms should I be concerned about? AI identifies several "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "work language. Each clause is scored by risk level. Our AI document analysis questions guide covers all the key terms to watch for. Contract Risk Analysis → Related Topics Explore more resources to protect yourself from hidden fees and unfair contract terms. AI C"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "Always",
-          "snippet": "oses only. It does not constitute legal advice, nor does it create an attorney-client relationship. Always consult a qualified attorney for legal decisions, especially those involving significant financial stakes or complex legal matters. DetectHiddenFees uses Hidde"
-        },
-        {
-          "key": "performance_or_outcome",
-          "severity": "high",
-          "value": "OCR",
-          "snippet": "ayer of analysis that human reviewers would need hours to replicate. Step 1 Document Extraction and OCR The AI begins by extracting every word from your document. If it's a PDF, the AI uses optical character recognition (OCR) to read scanned text. If it's a Word "
-        },
-        {
-          "key": "performance_or_outcome",
-          "severity": "high",
-          "value": "OCR",
-          "snippet": "extracting every word from your document. If it's a PDF, the AI uses optical character recognition (OCR) to read scanned text. If it's a Word document, it parses the native text. The system handles contracts of any length — from a one-page service estimate to a f"
+          "snippet": "contain no hidden fee? No. A missed issue is possible, and a clean-looking result is not proof that every fee, obligation, exception, or unfavorable term was found. Review the original agreement and related records. What should I do with a serious contract concern?"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
           "value": "Accuracy",
-          "snippet": "andard hidden fee patterns, unusual pricing, and common risky clauses in well-structured contracts. Accuracy depends on document quality, contract complexity, and the specific fee patterns involved. For standard contracts with clear pricing language, AI detection is g"
-        },
-        {
-          "key": "performance_or_outcome",
-          "severity": "high",
-          "value": "accuracy",
-          "snippet": "I detection is generally reliable. For unusually structured contracts or creatively disguised fees, accuracy may vary. Results should be reviewed with professional judgment and, when appropriate, legal guidance. How much does AI contract review cost? AI contract revie"
+          "snippet": "t resources Before Signing a Contract Checklist Contract Red Flags AI Contract Review vs ChatGPT AI Accuracy and Limitations AI Analysis Methodology Contact Related next steps Analyze a contract with AI Compare free and paid contract review AI Tools AI Financial Advis"
         }
       ]
     },
@@ -3690,286 +3396,34 @@
       "file": "ai-document-reviewer.html",
       "matches": [
         {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "em all, scanning for hidden fees, pricing errors, and unfavorable terms. Review My Document &mdash; $15 Every contract contains dozens of provisions that affect your legal and financial position. Most people sign without understanding half of what they are agreein"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$5 m",
-          "snippet": " account maintenance costs. The amounts may seem small individually, but they compound over time. A $5 monthly fee that you did not know about costs $60 per year. Over a five-year contract, that is $300 for nothing. AI catches these fees regardless of what name th"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$60 ",
-          "snippet": "small individually, but they compound over time. A $5 monthly fee that you did not know about costs $60 per year. Over a five-year contract, that is $300 for nothing. AI catches these fees regardless of what name the contract uses. Automatic renewal clauses are su"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$300 ",
-          "snippet": "A $5 monthly fee that you did not know about costs $60 per year. Over a five-year contract, that is $300 for nothing. AI catches these fees regardless of what name the contract uses. Automatic renewal clauses are surprisingly common and surprisingly expensive. A cl"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "ancial consequences if something is wrong. AI contract analysis is not a luxury for the wealthy. At $15 per document, it is accessible to anyone who wants to protect themselves from hidden fees and unfavorable terms. Compare that cost to the potential savings from"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": " of potential hidden fees, pricing risks, and negotiation opportunities. Upload My Document &mdash; $15 One-time payment &middot; No subscription Frequently Asked Questions What types of documents can AI review? Contracts, invoices, bills, estimates, lease agreeme"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "mines the document structure and adjusts its analysis framework accordingly. How much does it cost? $15 per document. One-time payment with no subscription. Is my data safe? Yes. Current encryption and retention practices are governed by HiddenFeeAI first-party po"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "find hidden costs &#8595; Document Intelligence Center — complete document analysis Try HiddenFeeAI $15 Analyze My Document"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "All",
-          "snippet": "AI Document Reviewer: One Tool for All Your Document Analysis | DetectHiddenFees Skip to main content Detect HiddenFees Hidden Fees Contract Review Bills &amp; Documents Negotiation Research Resourc"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "All",
-          "snippet": "n Research Resources Analyze a Document Home / AI Analysis Hub / AI Document Reviewer: One Tool for All Your Document Analysis AI DOCUMENT REVIEWER AI Document Reviewer: One Tool for All Your Document Analysis Contracts, invoices, bills, estimates, leases, and ag"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "All",
-          "snippet": "er: One Tool for All Your Document Analysis AI DOCUMENT REVIEWER AI Document Reviewer: One Tool for All Your Document Analysis Contracts, invoices, bills, estimates, leases, and agreements all contain language that can cost you money. The AI document reviewer han"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "e Tool for All Your Document Analysis Contracts, invoices, bills, estimates, leases, and agreements all contain language that can cost you money. The AI document reviewer handles them all, scanning for hidden fees, pricing errors, and unfavorable terms. Review My"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": " and agreements all contain language that can cost you money. The AI document reviewer handles them all, scanning for hidden fees, pricing errors, and unfavorable terms. Review My Document &mdash; $15 Every contract contains dozens of provisions that affect your "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "Every",
-          "snippet": "ll, scanning for hidden fees, pricing errors, and unfavorable terms. Review My Document &mdash; $15 Every contract contains dozens of provisions that affect your legal and financial position. Most people sign without understanding half of what they are agreeing to."
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "never",
-          "snippet": "c. When the other party delivers less than you expected, you have no recourse because the scope was never defined. AI identifies vague scope language and recommends specific questions to clarify exactly what is included. Payment terms deserve careful scrutiny befor"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "never",
-          "snippet": "t your consent. Contracts that allow unrestricted assignment can leave you dealing with a party you never agreed to work with. AI identifies assignment language that should be restricted. Waiver of jury trial provisions require you to give up your constitutional ri"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": " you from relying on verbal promises made during negotiations. AI flags these clauses so you ensure all important promises are in writing. Severability provisions determine whether the rest of the contract remains valid if one part is found unenforceable. Without"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "Every",
-          "snippet": "s the work. Document review before signing is one of the smartest financial habits you can develop. Every agreement you sign has terms that can cost you if you do not understand them. AI makes thorough review fast and affordable for every document. Contracts are de"
-        },
-        {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "s that can cost you if you do not understand them. AI makes thorough review fast and affordable for every document. Contracts are designed by people who understand legal language and know how to structure terms in their favor. You do not need to be an expert to pro"
+          "snippet": "ls, estimates, statements, leases, and other records. Use the output as a starting point and verify every material finding against the original document and related evidence. Last updated: August 8, 2026 Review My Document Read AI Limitations Document type matters "
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "guarantee",
-          "snippet": "ating the agreement. Uploading a document for analysis may help identify questions, but it does not guarantee savings or a particular financial outcome. Hidden fees, automatic renewals, and unbalanced terms are expensive mistakes that are completely avoidable with prop"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "never",
-          "snippet": "er contracts and standard business agreements, AI provides a level of review that most people would never get otherwise. The most expensive contract is the one you sign without reading. Even a quick AI review catches the most common issues that cost consumers money"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "Every",
-          "snippet": "h fine print manually. Contract review is not about distrust. It is about informed decision making. Every party to a contract should understand what they are agreeing to. AI helps make that understanding accessible to everyone regardless of their legal knowledge. H"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "always",
-          "snippet": "nding accessible to everyone regardless of their legal knowledge. Hidden costs in contracts are not always called fees. They appear as markups, adjustments, escalations, surcharges, and recovery charges. AI catches these regardless of terminology because it focuses "
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "Every",
-          "snippet": "ent. AI helps you distinguish between standard provisions and unusual terms that deserve attention. Every dollar spent on contract review before signing is an investment in protecting yourself from future costs. A hidden fee identified before signing may help infor"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "Every",
-          "snippet": " terms that deserve attention. AI helps you focus on the terms that matter most for your situation. Every document you sign creates a legal relationship with the other party. Understanding the terms of that relationship before entering into it is simply common sens"
+          "snippet": " Limitations Document type matters Source verification required Product terms may change No outcome guarantee Direct answer: what can an AI document reviewer verify? It can help organize questions about extractable text, fee language, recurring charges, totals, renewal"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "lationship before entering into it is simply common sense. AI makes this common sense practical for every document you encounter. Document review examines any type of document for issues that could cost you money. This applies to contracts, invoices, bills, estimat"
+          "snippet": "charge is hidden, unlawful, excessive, fraudulent, recoverable, or likely to produce savings. Check every material finding against the original record. Use the workflow by document type Contracts and agreements Check payment triggers, recurring charges, renewal and"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
           "value": "every",
-          "snippet": "s, invoices, bills, estimates, and financial statements. AI makes this review fast and thorough for every document type. Most people do not realize how much power a signed contract has until they need to get out of one. This is why reviewing documents before signin"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "Every",
-          "snippet": "me to review documents before signing is one of the most valuable financial habits you can develop. Every agreement you sign creates obligations that can affect you for months or years. Hidden fees, automatic renewal clauses, vague scope language, and unfavorable p"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "discover these problems only after signing. AI-powered analysis makes thorough review practical for every document. Combining AI analysis with your own judgment creates an efficient review process that catches issues before you commit. Hidden fees appear in many ty"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "ong. A well-balanced contract shares risk fairly between the parties. An unbalanced contract pushes all the risk onto you. AI identifies which provisions are balanced and which are tilted against your interests. Scope of work language is critical in service agree"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "Every",
-          "snippet": "iew before signing is one of the most valuable habits you can develop for protecting your finances. Every agreement creates obligations that affect you for months or years. Hidden fees, automatic renewals, vague language, and unfair terms are common. AI analysis ma"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "matic renewals, vague language, and unfair terms are common. AI analysis makes review practical for every document. Combining AI with your own judgment catches issues before you commit. This approach works for contracts, proposals, statements, and any document requ"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "ts, proposals, statements, and any document requiring your approval. The key is consistency. Review every document before signing. That habit saves more money than almost any other financial practice. Understanding the documents you sign is essential for protecting"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "Every",
-          "snippet": "ractice. Understanding the documents you sign is essential for protecting your financial interests. Every agreement creates binding obligations that affect your rights and responsibilities. Taking time to review before committing ensures you know exactly what you a"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "Every",
-          "snippet": "gning. Understanding documents before signing is essential for protecting your financial interests. Every agreement creates binding obligations that affect your rights. Taking time to review before committing helps you avoid unexpected costs or unfavorable terms th"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "ation and duplicate charges. This adaptability makes the AI document reviewer a single solution for all your document analysis needs. Instead of using different tools for different document types, you upload everything to one platform. The analysis is comprehensi"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "does not verify a dataset size or complete document coverage. Documents You Can Review Contracts of all types can be analyzed. Supported document types are product-dependent; confirm current support before uploading. Invoices can be checked for hidden charges, pr"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "All",
-          "snippet": "elps you make better decisions about your overall financial relationships. Privacy and Security for All Document Types Current encryption and retention practices are governed by HiddenFeeAI first-party policies and are not independently verified by this repositor"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "nts for AI training. Your document contents remain confidential. This privacy protection applies to all document types equally. The same security standards apply whether you upload a sensitive contract or a detailed medical bill. An AI document reviewer handles m"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": ". Financial statements receive fee and error detection. This versatility makes it a single tool for all your document review needs. The consistency of AI analysis is one of its greatest advantages. A human reviewer may be more thorough on some documents than othe"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "l, attention span, or familiarity with the subject matter. AI applies the same level of scrutiny to every document, every time, regardless of length, complexity, or subject matter. Document review is most effective when it becomes a regular habit rather than an occ"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "n, or familiarity with the subject matter. AI applies the same level of scrutiny to every document, every time, regardless of length, complexity, or subject matter. Document review is most effective when it becomes a regular habit rather than an occasional exercise"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "every",
-          "snippet": "iew is most effective when it becomes a regular habit rather than an occasional exercise. Reviewing every significant document before you sign or pay creates a pattern of informed decision-making that protects your financial interests over the long term. The afford"
-        },
-        {
-          "key": "absolute_or_superlative",
-          "severity": "high",
-          "value": "all",
-          "snippet": "matic might include reduced coverage at the same price. When you use the same document reviewer for all your documents, you develop familiarity with the analysis format. You learn what to look for and which findings matter most for your situation. This familiarit"
+          "snippet": " Material findings still require source verification. Can one review workflow work equally well for every document? No. Contracts, invoices, bills, estimates, statements, leases, and subscriptions use different structures and evidence. Document quality, context, sy"
         },
         {
           "key": "performance_or_outcome",
           "severity": "high",
-          "value": "precision",
-          "snippet": "e. The language of contracts is deliberately complex. This complexity serves a purpose beyond legal precision. It makes it harder for non-experts to understand what they are agreeing to. AI translates this complexity into plain language explanations. Most contract disp"
-        },
-        {
-          "key": "performance_or_outcome",
-          "severity": "high",
-          "value": "accuracy",
-          "snippet": ". For contracts, it focuses on clause language and legal terms. For invoices, it focuses on pricing accuracy and hidden charges. For bills, it focuses on rate verification and duplicate charges. This adaptability makes the AI document reviewer a single solution for al"
-        },
-        {
-          "key": "performance_or_outcome",
-          "severity": "high",
-          "value": "accuracy",
-          "snippet": "voices can be analyzed for errors and overcharges. Estimates and quotes can be reviewed for pricing accuracy, missing items, and inflated charges. Lease agreements can be checked for unfavorable terms, hidden fees, escalation clauses, and maintenance responsibility la"
+          "value": "Accuracy",
+          "snippet": "exploring document resources AI Document Checker AI Document Review Tool AI Analysis Methodology AI Accuracy and Limitations Hidden Fee Detector Contact TOOLS AI Contract Review AI Bill Analyzer AI Document Checker Hidden Fee Detector Upload Document DOCUMENT ANALYSIS"
         }
       ]
     },
