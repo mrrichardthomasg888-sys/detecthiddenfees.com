@@ -893,7 +893,7 @@ This section records the current implementation state so future work can resume 
 - User-directed deployment: push directly to GitHub `main`; do not create a PR and do not deploy through a Cloudflare dashboard.
 - Current working branch during this work: `codex/calculator-native-branding-fix-2026-08-05`.
 - A pre-existing user-owned change to `calculator-authority.css` is intentionally unstaged and must not be included unless the user explicitly asks for it.
-- Latest verified remote `main`: `dbd99d8` (`Record production attribution verification`).
+- Latest verified remote `main`: `0306f1a` (`Keep opportunity links canonical`).
 - Preserve existing URLs, templates, logo, typography, navigation, footer, CSS tokens, and visual design. New work must look native to the existing site.
 
 ### Completed systems and verified results
