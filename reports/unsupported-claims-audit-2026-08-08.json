@@ -6,9 +6,9 @@
   "page_count": 238,
   "pages_with_candidates": 234,
   "candidate_counts": {
-    "quantitative_amount": 1974,
-    "quantitative_percent": 479,
-    "absolute_or_superlative": 1544,
+    "quantitative_amount": 1955,
+    "quantitative_percent": 476,
+    "absolute_or_superlative": 1546,
     "performance_or_outcome": 152,
     "population_or_scale": 161
   },
@@ -13891,160 +13891,40 @@
       "file": "example-hvac-estimate.html",
       "matches": [
         {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "s. Compare against your own proposals to identify potential markups. Upload & Analyze My Document — $15 HVAC Estimate / Proposal Illustrative example Not a real customer document Educational purposes only The Scenario A homeowner receives a $8,450 quote for a new "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$8,450 ",
-          "snippet": " example Not a real customer document Educational purposes only The Scenario A homeowner receives a $8,450 quote for a new furnace installation. The estimate appears straightforward but contains several hidden markups that increase the total cost by over $1,200. Docu"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$1,200",
-          "snippet": "te appears straightforward but contains several hidden markups that increase the total cost by over $1,200. Document Type HVAC Estimate / Proposal Pricing Breakdown Total Quote: $8,450 Base Furnace Unit: $4,200 Labor & Installation: $2,800 Permits & Inspections: $45"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$8,450 B",
-          "snippet": "he total cost by over $1,200. Document Type HVAC Estimate / Proposal Pricing Breakdown Total Quote: $8,450 Base Furnace Unit: $4,200 Labor & Installation: $2,800 Permits & Inspections: $450 Materials & Supplies: $350 Miscellaneous Fees: $650 Potential Hidden Fees Iden"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$4,200 ",
-          "snippet": "00. Document Type HVAC Estimate / Proposal Pricing Breakdown Total Quote: $8,450 Base Furnace Unit: $4,200 Labor & Installation: $2,800 Permits & Inspections: $450 Materials & Supplies: $350 Miscellaneous Fees: $650 Potential Hidden Fees Identified The following char"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$2,800 ",
-          "snippet": "te / Proposal Pricing Breakdown Total Quote: $8,450 Base Furnace Unit: $4,200 Labor & Installation: $2,800 Permits & Inspections: $450 Materials & Supplies: $350 Miscellaneous Fees: $650 Potential Hidden Fees Identified The following charges in this document may be i"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$450 M",
-          "snippet": "n Total Quote: $8,450 Base Furnace Unit: $4,200 Labor & Installation: $2,800 Permits & Inspections: $450 Materials & Supplies: $350 Miscellaneous Fees: $650 Potential Hidden Fees Identified The following charges in this document may be inflated, unnecessary, or dece"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$350 M",
-          "snippet": "Furnace Unit: $4,200 Labor & Installation: $2,800 Permits & Inspections: $450 Materials & Supplies: $350 Miscellaneous Fees: $650 Potential Hidden Fees Identified The following charges in this document may be inflated, unnecessary, or deceptive. Each item includes t"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$650 ",
-          "snippet": "r & Installation: $2,800 Permits & Inspections: $450 Materials & Supplies: $350 Miscellaneous Fees: $650 Potential Hidden Fees Identified The following charges in this document may be inflated, unnecessary, or deceptive. Each item includes the potential overcharge "
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$525 ",
-          "snippet": "ale price. While some markup is standard, 35% exceeds typical 15-20% margins. Potential Overcharge: $525 Permit Fee Padding The actual permit cost in most jurisdictions is $150-200, but the estimate shows $450. Potential Overcharge: $250 Administrative / Dispatch F"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$150",
-          "snippet": "gins. Potential Overcharge: $525 Permit Fee Padding The actual permit cost in most jurisdictions is $150-200, but the estimate shows $450. Potential Overcharge: $250 Administrative / Dispatch Fee A $150 \"administrative fee\" is included with no clear explanation of"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$450",
-          "snippet": "Permit Fee Padding The actual permit cost in most jurisdictions is $150-200, but the estimate shows $450. Potential Overcharge: $250 Administrative / Dispatch Fee A $150 \"administrative fee\" is included with no clear explanation of what service it covers. Potentia"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$250 ",
-          "snippet": "l permit cost in most jurisdictions is $150-200, but the estimate shows $450. Potential Overcharge: $250 Administrative / Dispatch Fee A $150 \"administrative fee\" is included with no clear explanation of what service it covers. Potential Overcharge: $150 Miscellane"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$150 ",
-          "snippet": "s $150-200, but the estimate shows $450. Potential Overcharge: $250 Administrative / Dispatch Fee A $150 \"administrative fee\" is included with no clear explanation of what service it covers. Potential Overcharge: $150 Miscellaneous Category Bloat The $650 \"Miscella"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$150 M",
-          "snippet": "trative fee\" is included with no clear explanation of what service it covers. Potential Overcharge: $150 Miscellaneous Category Bloat The $650 \"Miscellaneous\" line item is not itemized. This is a red flag for hidden markups. Potential Overcharge: $325 Important: The"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$650 ",
-          "snippet": " explanation of what service it covers. Potential Overcharge: $150 Miscellaneous Category Bloat The $650 \"Miscellaneous\" line item is not itemized. This is a red flag for hidden markups. Potential Overcharge: $325 Important: These potential hidden fees are identifi"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$325 ",
-          "snippet": "cellaneous\" line item is not itemized. This is a red flag for hidden markups. Potential Overcharge: $325 Important: These potential hidden fees are identified for illustrative purposes. Actual document analysis results may vary. Always consult qualified professiona"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "is that identifies hidden fees, pricing risks, and negotiation opportunities. Analyze My Document — $15 No subscription. No long-term commitment. Secure analysis. AI Tools AI Financial Advisor AI Contract Review AI Bill Analyzer AI Agreement Analyzer Hidden Fee De"
-        },
-        {
-          "key": "quantitative_amount",
-          "severity": "review",
-          "value": "$15 ",
-          "snippet": "opy; 2026 DetectHiddenFees.com — AI-Powered Hidden Fee Detection for Consumers Review Your Estimate $15 Analyze My Estimate"
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "35%",
-          "snippet": "es the potential overcharge amount. Material Upcharge on Furnace Unit The furnace unit is marked up 35% above wholesale price. While some markup is standard, 35% exceeds typical 15-20% margins. Potential Overcharge: $525 Permit Fee Padding The actual permit cost "
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "35%",
-          "snippet": "urnace Unit The furnace unit is marked up 35% above wholesale price. While some markup is standard, 35% exceeds typical 15-20% margins. Potential Overcharge: $525 Permit Fee Padding The actual permit cost in most jurisdictions is $150-200, but the estimate shows "
-        },
-        {
-          "key": "quantitative_percent",
-          "severity": "review",
-          "value": "20%",
-          "snippet": " unit is marked up 35% above wholesale price. While some markup is standard, 35% exceeds typical 15-20% margins. Potential Overcharge: $525 Permit Fee Padding The actual permit cost in most jurisdictions is $150-200, but the estimate shows $450. Potential Overcha"
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "every",
+          "snippet": "er Human verification required Direct answer: what does this example teach? It shows how to compare every line in an HVAC proposal with the written scope, local requirements, and the promised total. It does not establish that a charge is hidden, excessive, deceptiv"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "Always",
-          "snippet": "al hidden fees are identified for illustrative purposes. Actual document analysis results may vary. Always consult qualified professionals for advice specific to your situation. Questions a Consumer Should Ask If you encounter similar charges in your own document, h"
+          "value": "every",
+          "snippet": "gnostic or dispatch charges, taxes, financing, service plans, and optional products. Total: whether every line reconciles to the written total and payment schedule. Questions to ask about a real estimate A line item can be worth questioning without proving that it "
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "Always",
-          "snippet": "ovides informational analysis and is not a substitute for legal, financial, or professional advice. Always consult qualified professionals for significant financial or legal decisions. Related Resources HVAC Fee Guide Read the complete guide covering hidden fees in "
+          "value": "every",
+          "snippet": "rmits, and optional products? How to review an HVAC proposal 1. Preserve the complete proposal Keep every page, attachment, equipment schedule, warranty, financing document, change-order provision, and message that affects the scope or price. 2. Separate required, "
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "all",
-          "snippet": "is industry, with more examples and detailed analysis. Read Guide → Back to Examples Library Browse all educational examples to learn how hidden fees appear across different document types and industries. All Examples → Knowledge Center Educational articles answe"
+          "value": "guarantee",
+          "snippet": "ent text, but it cannot inspect workmanship, verify a local permit charge, determine fair value, or guarantee a project outcome from the document alone. Frequently asked questions Is this HVAC estimate a real customer document? No. It is a fictional educational scenari"
         },
         {
           "key": "absolute_or_superlative",
           "severity": "high",
-          "value": "All",
-          "snippet": "ducational examples to learn how hidden fees appear across different document types and industries. All Examples → Knowledge Center Educational articles answering common questions about hidden fees, contract review, and financial document analysis. Visit Knowledg"
+          "value": "every",
+          "snippet": "or inspections, materials, delivery or disposal, taxes, warranties or service plans, financing, and every other charge included in the total. Can an estimate alone prove that a fee is excessive? No. A quote can identify an amount or vague description to question, b"
+        },
+        {
+          "key": "absolute_or_superlative",
+          "severity": "high",
+          "value": "guarantee",
+          "snippet": "and flag missing or inconsistent terms, but it cannot inspect the equipment, verify workmanship, or guarantee performance from the document alone. What should I do before signing an HVAC proposal? Get the scope and total in writing, compare more than one written estima"
         }
       ]
     },

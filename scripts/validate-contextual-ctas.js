@@ -15,7 +15,8 @@ const expected = {
   'hidden-bank-overdraft-fees.html': { action: 'bank_statement_review', text: 'Review My Bank Statement' },
   'hidden-dealership-financing-fees.html': { action: 'auto_financing_review', text: 'Review My Financing Agreement' },
   'ai-financial-advisor.html': { action: 'document_analysis', text: 'Review My Financial Document' },
-  'example-auto-financing.html': { action: 'auto_financing_review', text: 'Review My Financing Agreement' }
+  'example-auto-financing.html': { action: 'auto_financing_review', text: 'Review My Financing Agreement' },
+  'example-hvac-estimate.html': { action: 'estimate_review', text: 'Review My HVAC Estimate' }
 };
 const errors = [];
 
