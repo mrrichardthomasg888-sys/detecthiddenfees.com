@@ -1,0 +1,31 @@
+# Private SEO dashboard data contract
+
+The dashboard must be private and authenticated before it displays Search Console, referral, upload, checkout, purchase, or revenue data. This repository is a static public site, so it does not publish an `/admin/seo` page or expose credentials in client-side JavaScript.
+
+## Required source states
+
+Every dashboard card must show one of:
+
+- `CONNECTED`: live or imported data with a source timestamp.
+- `DATA SOURCE NOT CONNECTED`: no API/export is available.
+- `STALE`: a source exists but is outside the reporting freshness window.
+
+Null is not zero. No placeholder impressions, clicks, rankings, conversions, or revenue may be rendered as real data.
+
+## Data sources
+
+| Area | Required connection | Current state |
+| --- | --- | --- |
+| Search performance | Google Search Console API or private CSV export | DATA SOURCE NOT CONNECTED |
+| Index coverage | Search Console API/export | DATA SOURCE NOT CONNECTED |
+| CTA events | Analytics property receiving `dhf_cta_click` | DATA SOURCE NOT CONNECTED |
+| HiddenFeeAI referrals | HiddenFeeAI event contract | INTEGRATION REQUIRED |
+| Uploads and analyses | HiddenFeeAI server-side events | INTEGRATION REQUIRED |
+| Checkout and revenue | HiddenFeeAI/processor server-side events | INTEGRATION REQUIRED |
+| Backlinks and mentions | Reviewed outreach/link dataset | NOT POPULATED |
+
+## Privacy boundary
+
+Search queries, referrers, and campaign values are attribution data, not customer-document data. Document contents, filenames, extracted text, analysis results, payment details, and personal identifiers must never be sent to the public-site analytics layer or placed in this repository.
+
+The import utility in `scripts/import-search-console.js` writes a connected export only to a caller-selected private path. The opportunity inventory remains unchanged until a human reviews the imported period and source.

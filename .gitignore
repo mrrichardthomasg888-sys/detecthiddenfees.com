@@ -4,3 +4,5 @@ package.json
 response.txt  
 __pycache__/
 *.py[cod]
+private/
+seo/search-console-data.json

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://detecthiddenfees.com/schemas/search-console-import.json",
+  "title": "DetectHiddenFees Search Console Import",
+  "type": "object",
+  "required": ["source_status", "imported_at", "records"],
+  "properties": {
+    "source_status": { "enum": ["not_connected", "connected"] },
+    "imported_at": { "type": ["string", "null"], "format": "date-time" },
+    "period": { "type": ["string", "null"] },
+    "source_file": { "type": ["string", "null"] },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["query", "page", "clicks", "impressions", "ctr", "position"],
+        "properties": {
+          "query": { "type": "string", "minLength": 1 },
+          "page": { "type": "string", "pattern": "^https://detecthiddenfees\\.com/" },
+          "clicks": { "type": "number", "minimum": 0 },
+          "impressions": { "type": "number", "minimum": 0 },
+          "ctr": { "type": "number", "minimum": 0, "maximum": 1 },
+          "position": { "type": "number", "minimum": 0 }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
