@@ -1579,3 +1579,8 @@ The master validator baseline is 238 pages with zero missing titles/descriptions
 - Credential boundary: to connect real GSC data, provide either a private Search Console CSV export outside the repository or an approved Google Cloud/Search Console API credential through a secure secret store. Never commit credentials or connected query/page rows. No production site page or design was changed in this Phase 2 slice.
 - Phase 2 deployment: commit `b712234` (`Build Phase 2 traffic and authority infrastructure`) was pushed directly to GitHub `main`; remote `refs/heads/main` verified at `b712234719e681970b5a4f38fb56e533834e3fcc`. Production HTTP returned 200 for the root, all five Research Lab routes, `sitemap.xml`, `llms.txt`, and `rss.xml`; Research Lab pages still expose canonical tags and `research-data.json`.
 - Next session: import a real private GSC export, validate and score it, review the five pending source records, verify or reject them individually, expand the research sample only from legitimate public documents, and create a linkable research asset only after the publication gate is satisfied.
+
+## Standing handoff rule - 2026-08-08
+
+- After every meaningful repository update, append a concise entry to `brain.md` before completing the task. Record the date, files or systems changed, validation performed, deployment/commit status, blockers or credentials still needed, and the next safe action.
+- Keep this memory update separate from user-owned changes. In particular, never stage or overwrite the unstaged `calculator-authority.css` modification unless the user explicitly authorizes calculator work.
