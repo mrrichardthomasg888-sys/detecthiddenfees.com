@@ -37,6 +37,8 @@ The runtime emits `dhf_cta_click` through a DOM event and, when configured by th
 
 HiddenFeeAI should create its own events for `hiddenfeeai_referral_received`, `upload_started`, `upload_completed`, `analysis_completed`, `checkout_started`, `purchase_completed`, and `revenue_recorded`, joining to the handoff only through its validated attribution context.
 
+Recommended page-specific `data-cta-action` values are `contract_review`, `subscription_fee_review`, `estimate_review`, and `document_analysis`. These values describe the visitor intent represented by the source-page CTA; they do not assert HiddenFeeAI capabilities or a completed downstream conversion. Existing unannotated links remain backward-compatible with the `document_analysis` default.
+
 ## Required integration checks
 
 Before enabling end-to-end reporting, HiddenFeeAI must:

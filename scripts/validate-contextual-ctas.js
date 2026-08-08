@@ -1,0 +1,30 @@
+const fs = require('fs');
+const path = require('path');
+
+const root = path.resolve(__dirname, '..');
+const expected = {
+  'arbitration-clauses-explained.html': { action: 'contract_review', text: 'Review My Contract' },
+  'indemnification-clauses-explained.html': { action: 'contract_review', text: 'Review My Contract' },
+  'hidden-streaming-fees.html': { action: 'subscription_fee_review', text: 'Subscription' },
+  'hidden-landscaping-fees.html': { action: 'estimate_review', text: 'Landscaping Estimate' }
+};
+const errors = [];
+
+for (const [filename, rule] of Object.entries(expected)) {
+  const source = fs.readFileSync(path.join(root, filename), 'utf8');
+  const links = [...source.matchAll(/<a\b[^>]+href=["']https:\/\/hiddenfeeai\.com[^"']*["'][^>]*>([\s\S]*?)<\/a>/gi)];
+  if (!links.length) errors.push(`${filename}: no HiddenFeeAI links found`);
+  for (const match of links) {
+    const tag = match[0];
+    if (!tag.includes(`data-cta-action="${rule.action}"`)) errors.push(`${filename}: link missing ${rule.action}`);
+    if (!/data-cta-position=|data-cta-variant=/i.test(tag)) errors.push(`${filename}: link missing position or variant metadata`);
+  }
+  const visibleText = source.replace(/<[^>]+>/g, ' ');
+  if (!visibleText.includes(rule.text)) errors.push(`${filename}: contextual CTA text missing: ${rule.text}`);
+}
+
+if (errors.length) {
+  console.error(errors.join('\n'));
+  process.exit(1);
+}
+console.log(`Validated contextual CTA metadata on ${Object.keys(expected).length} pages.`);
