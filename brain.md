@@ -955,6 +955,18 @@ This section records the current implementation state so future work can resume 
 - Browser verification needs to be treated carefully: the in-app browser continued showing a stale old breadcrumb label for `/ai-analysis-hub` even with unique cache-busting query strings, while direct production HTTP checks were clean and browser console logs were empty. Do not record this as a clean browser DOM verification unless a fresh browser session confirms it; investigate cache/snapshot behavior if it persists.
 - Next session should read `reports/verification-2026-08-08.md`, confirm the latest GitHub commit and live propagation, then continue with the next evidence-backed priority. Do not stage `calculator-authority.css` automatically.
 
+### Evidence-based document-analysis tools guide — 2026-08-08
+
+- Commit `451525c` remediated `ai-document-analysis-tools.html`, which had drifted into bill-specific sales copy and included unsupported accuracy, speed, universal-format, savings, and protection claims. The page was also incorrectly labeled with `SoftwareApplication` JSON-LD even though it is an educational guide.
+- The page now gives an answer-first explanation of how to compare AI document-analysis tools across contracts, bills, invoices, and estimates. It clearly separates tool capabilities from human-review responsibilities and links to the official [NIST AI Risk Management Framework](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10) as guidance, not certification.
+- The rewrite preserves the existing DetectHiddenFees design, logo, URLs, navigation, and HiddenFeeAI destination. It adds three contextual `document_analysis` CTA annotations, corrects the stale hub label to `AI Analysis Hub`, and adds related links to the canonical contract, bill, and hidden-fee resources.
+- The invalid `SoftwareApplication` block was removed; Article, BreadcrumbList, and WebPage JSON-LD remain. Metadata, visible update date, and RSS description were refreshed to match the guide.
+- The reusable `scripts/remediate-ai-document-analysis-tools.js` script is guarded and idempotent. The product-claim gate now covers 25 priority pages, and contextual CTA validation covers 8 pages.
+- Full local validation passed: 238 canonical pages, zero master-validator issues, discovery assets aligned at sitemap 238 / `llms.txt` 238 / RSS 179 total with 178 editorial items, collecting-only research with zero records, disconnected dashboard with no fake metrics, calculator authority still passing, unsupported-claim audit completed, and `git diff --check` clean.
+- Local and production browser checks at desktop and mobile widths found no horizontal overflow, one H1, three correctly annotated document-analysis CTAs, the NIST source, no old bill CTA, no stale hub label, no `SoftwareApplication` schema, and empty console logs. Production HTTP propagation was clean on cache-busting attempt 5.
+- Latest deployed code is `451525c`, pushed directly to GitHub `main`. The pre-existing `calculator-authority.css` change remains unstaged and untouched. No PR and no Cloudflare dashboard deployment were used.
+- Next session should read this section and `reports/verification-2026-08-08.md`, confirm the latest GitHub/live state, and continue with the next evidence-backed content batch. Do not stage `calculator-authority.css` automatically.
+
 ### Validation baseline
 
 The following checks were passing at the end of the 2026-08-08 work session:
