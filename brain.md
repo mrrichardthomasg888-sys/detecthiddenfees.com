@@ -6,6 +6,20 @@
 
 ---
 
+## Owner-approved YouTube Short upload - 2026-08-09
+
+- The owner-provided source video `promo_1080x1920.MP4` was preserved unchanged. A local copy was renamed to `hidden-dealership-financing-fees.mp4` for upload.
+- Validation passed before upload: playable MP4, 1080x1920, 24 fps, 10 seconds, video track present, and audio track present.
+- Only this owner-approved video was uploaded through the existing official YouTube Data API OAuth connection. No Luna/ViralMint test video was uploaded.
+- Published video ID: `ujN4bGP6vps`; public URL: `https://www.youtube.com/shorts/ujN4bGP6vps`.
+- Title: `Hidden Dealership Financing Fees: Check These Before You Sign`.
+- Target keyword: `hidden dealership financing fees`.
+- Description URL: `https://detecthiddenfees.com/hidden-dealership-financing-fees`.
+- YouTube confirmed `privacyStatus: public`; publish timestamp: `2026-08-09T23:36:22.805Z` UTC. The public Shorts URL returned HTTP 200 after upload.
+- The temporary upload branch/workflow was used only to access the existing GitHub Actions secrets securely; no OAuth token values were recorded. The main branch contains documentation only, not the upload workflow or video binary.
+- HiddenFeeAI remains production-frozen. DetectHiddenFees production pages, the eight Phase 4 pages, and `calculator-authority.css` were untouched.
+- Exact continuation point: measure views, engagement, and DetectHiddenFees traffic from this Short before changing the creative or uploading another owner-approved video.
+
 ## Traffic and sales mode quick-win cycle - 2026-08-09
 
 - This current operating section supersedes older planning entries below wherever they conflict, especially older video-production, YouTube-publication, or “await authorization” notes.
