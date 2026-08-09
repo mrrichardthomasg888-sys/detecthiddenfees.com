@@ -24,7 +24,7 @@ Use `scripts/import-research-records.js` to append records to a private collecti
 
 ## Current candidate sources
 
-The private collection currently contains 25 verified records that support the separately published Evidence Review. Collection remains open, but new sources are not public findings until they pass the review gate. Phase 7 added five additional FTC, CFPB, and CMS source candidates as `pending`; they are source candidates, not findings or statistics. No new candidate has been promoted to the public dataset.
+The private collection currently contains 30 verified records: 25 records support the separately published Evidence Review and five records were verified during the 2026-08-09 Phase 7 operational review. Collection remains open, but newly verified sources are not public findings until a separate publication review approves the sample, methodology, limitations, and reproducible evidence. The five newly verified records are not yet promoted to the public dataset.
 
 ## Publication gate
 

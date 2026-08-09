@@ -332,7 +332,7 @@
       "industry": "subscriptions",
       "document_type": "consumer_article",
       "date_collected": "2026-08-08",
-      "source_date": null,
+      "source_date": "2025-05-12",
       "fee_terminology": "free trial; auto-renewal; negative option; cancellation; shipping fee",
       "fee_category": "subscription_renewal_and_cancellation",
       "fee_amount": null,
@@ -737,8 +737,8 @@
       "organization": "Federal Trade Commission",
       "industry": "consumer protection",
       "document_type": "regulatory guidance",
-      "date_collected": "2026-08-08",
-      "source_date": null,
+      "date_collected": "2026-08-09",
+      "source_date": "2025-05-12",
       "fee_terminology": "unfair or deceptive fees; mandatory fees",
       "fee_category": "fee_disclosure_faq",
       "fee_amount": null,
@@ -747,11 +747,16 @@
       "contract_clause": null,
       "cancellation_requirements": null,
       "renewal_terms": null,
-      "evidence": "Candidate evidence to verify: the FTC FAQ explains the scope and application of the agency's fee-disclosure rule. No finding is published from this candidate until the source is reviewed.",
-      "evidence_reference": null,
-      "verification_status": "pending",
-      "verification": null,
-      "notes": "Official primary-source candidate only; verify the live page, title, date, and exact supported statements before publication. Do not infer prevalence or market-wide conclusions."
+      "evidence": "The FTC FAQ states that its rule, effective May 12, 2025, covers live-event tickets and short-term lodging and requires covered sellers to disclose known mandatory charges in the upfront total price. It also explains that government charges, shipping, and optional ancillary charges may be disclosed later subject to the rule's requirements.",
+      "evidence_reference": "FAQ introduction and sections on covered businesses, basic requirements, and fees excluded from the upfront total price",
+      "verification_status": "verified",
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-09",
+        "method": "Opened the canonical HTTPS page and confirmed the title, FTC publisher, May 2025 page date, the rule's May 12, 2025 effective date, covered industries, and the evidence statement.",
+        "source_http_status": 200
+      },
+      "notes": "The FAQ is FTC staff guidance for the specified rule and covered industries; it is not a general rule for every fee or industry and does not establish prevalence."
     },
     {
       "record_id": "R-2026-027",
@@ -761,8 +766,8 @@
       "organization": "Consumer Financial Protection Bureau",
       "industry": "debt collection",
       "document_type": "regulatory guidance",
-      "date_collected": "2026-08-08",
-      "source_date": null,
+      "date_collected": "2026-08-09",
+      "source_date": "2023-04-04",
       "fee_terminology": "pay-to-pay fee; convenience fee",
       "fee_category": "pay_to_pay_fee",
       "fee_amount": null,
@@ -771,11 +776,16 @@
       "contract_clause": "underlying debt agreement authorization",
       "cancellation_requirements": null,
       "renewal_terms": null,
-      "evidence": "Candidate evidence to verify: the CFPB advisory opinion addresses when debt collectors may collect pay-to-pay fees. No finding is published from this candidate until the source is reviewed.",
-      "evidence_reference": null,
-      "verification_status": "pending",
-      "verification": null,
-      "notes": "Official primary-source candidate only; verify the live page, date, scope, and exact supported statements before publication. Do not generalize the opinion to every fee or industry."
+      "evidence": "The CFPB advisory opinion states that the Fair Debt Collection Practices Act and Regulation F prohibit debt collectors from charging pay-to-pay or convenience fees for a payment method unless the underlying agreement expressly authorizes the fee or applicable law affirmatively permits it.",
+      "evidence_reference": "Advisory opinion summary and page last-modified metadata",
+      "verification_status": "verified",
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-09",
+        "method": "Opened the canonical HTTPS page and confirmed the title, CFPB publisher, April 4, 2023 last-modified date, scope, and evidence statement.",
+        "source_http_status": 200
+      },
+      "notes": "The opinion is specific to debt collectors and the cited federal law; it does not establish a universal rule for all businesses or fees."
     },
     {
       "record_id": "R-2026-028",
@@ -785,8 +795,8 @@
       "organization": "Consumer Financial Protection Bureau",
       "industry": "consumer finance",
       "document_type": "consumer guidance",
-      "date_collected": "2026-08-08",
-      "source_date": null,
+      "date_collected": "2026-08-09",
+      "source_date": "2022-06-29",
       "fee_terminology": "convenience fee; pay-to-pay fee",
       "fee_category": "convenience_fee_consumer_guidance",
       "fee_amount": null,
@@ -795,11 +805,16 @@
       "contract_clause": null,
       "cancellation_requirements": null,
       "renewal_terms": null,
-      "evidence": "Candidate evidence to verify: the CFPB consumer guidance defines or explains convenience and pay-to-pay fees. No finding is published from this candidate until the source is reviewed.",
-      "evidence_reference": null,
-      "verification_status": "pending",
-      "verification": null,
-      "notes": "Official primary-source candidate only; verify the live page, date, and exact wording before publication. Do not infer legality or prevalence beyond the source's scope."
+      "evidence": "The CFPB consumer guidance defines a pay-to-pay or convenience fee as a charge for using a particular payment channel, such as phone or online payment. For debt collectors, it states that the fee is lawful only when agreed to when the debt was taken out or specifically allowed by applicable law.",
+      "evidence_reference": "Consumer Q&A definition, debt-collector section, and page last-reviewed metadata",
+      "verification_status": "verified",
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-09",
+        "method": "Opened the canonical HTTPS page and confirmed the title, CFPB publisher, June 29, 2022 review date, scope, and evidence statement.",
+        "source_http_status": 200
+      },
+      "notes": "The guidance is consumer information focused on debt-collector convenience fees; its dollar-range example is not used as a market statistic and its legal rule is not generalized beyond the stated context."
     },
     {
       "record_id": "R-2026-029",
@@ -809,8 +824,8 @@
       "organization": "Centers for Medicare & Medicaid Services",
       "industry": "medical billing",
       "document_type": "consumer guidance",
-      "date_collected": "2026-08-08",
-      "source_date": null,
+      "date_collected": "2026-08-09",
+      "source_date": "2025-05-19",
       "fee_terminology": "medical bill dispute; billing error",
       "fee_category": "medical_bill_dispute",
       "fee_amount": null,
@@ -819,11 +834,16 @@
       "contract_clause": null,
       "cancellation_requirements": null,
       "renewal_terms": null,
-      "evidence": "Candidate evidence to verify: CMS provides steps or options for disputing a medical bill. No finding is published from this candidate until the source is reviewed.",
-      "evidence_reference": null,
-      "verification_status": "pending",
-      "verification": null,
-      "notes": "Official primary-source candidate only; verify the live page, date, and exact dispute guidance before publication. Do not convert guidance into a claim about billing-error frequency."
+      "evidence": "CMS explains a patient-provider dispute resolution process for certain uninsured or self-pay patients whose provider charged at least $400 more than a good faith estimate. The page lists eligibility conditions, required documents, a $25 administrative fee, and protections during the dispute process.",
+      "evidence_reference": "Dispute-a-medical-bill sections on eligibility, what to expect, required materials, administrative fee, and page last-modified metadata",
+      "verification_status": "verified",
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-09",
+        "method": "Opened the canonical HTTPS page and confirmed the title, CMS publisher, May 19, 2025 last-modified date, eligibility conditions, and evidence statement.",
+        "source_http_status": 200
+      },
+      "notes": "This is a specific federal dispute pathway with eligibility limits; it is not evidence that medical bills generally contain errors or that every patient qualifies."
     },
     {
       "record_id": "R-2026-030",
@@ -833,8 +853,8 @@
       "organization": "Centers for Medicare & Medicaid Services",
       "industry": "medical billing",
       "document_type": "consumer rights guidance",
-      "date_collected": "2026-08-08",
-      "source_date": null,
+      "date_collected": "2026-08-09",
+      "source_date": "2025-04-30",
       "fee_terminology": "medical bill rights; patient billing protections",
       "fee_category": "medical_bill_rights",
       "fee_amount": null,
@@ -843,11 +863,16 @@
       "contract_clause": null,
       "cancellation_requirements": null,
       "renewal_terms": null,
-      "evidence": "Candidate evidence to verify: CMS publishes a medical-billing rights resource for consumers. No finding is published from this candidate until the source is reviewed.",
-      "evidence_reference": null,
-      "verification_status": "pending",
-      "verification": null,
-      "notes": "Official primary-source candidate only; verify the live page, date, and exact supported rights before publication. Do not infer universal coverage or outcomes."
+      "evidence": "CMS describes its Medical Bill Rights resource as helping people understand and act on rights under the No Surprises Act, including pages and tools for navigating billing issues. The CMS project page states that the resource uses plain-language, bilingual, responsive content and identifies its April 30, 2025 update.",
+      "evidence_reference": "Medical Bill Rights project description, scope, and page last-modified metadata",
+      "verification_status": "verified",
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-09",
+        "method": "Opened the canonical HTTPS page and confirmed the title, CMS publisher, April 30, 2025 last-modified date, resource scope, and evidence statement.",
+        "source_http_status": 200
+      },
+      "notes": "This source describes CMS's public resource and its scope; it does not establish consumer outcomes or universal protection beyond the applicable No Surprises Act context."
     }
   ],
   "import_summary": {
