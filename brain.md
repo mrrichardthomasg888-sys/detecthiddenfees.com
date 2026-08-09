@@ -1814,7 +1814,7 @@ The master validator baseline is 238 pages with zero missing titles/descriptions
 - Payment integrity remains separate from marketing: never mark an audit paid from a browser return alone; retain authoritative Stripe confirmation, webhook signature validation, and duplicate-payment protection.
 - Future DetectHiddenFees work must remain on the DetectHiddenFees repository unless the owner explicitly authorizes a separate HiddenFeeAI product change.
 - Cleanup commit `ac39639489d6749c9e4cd0ef2fe001a49a4626d2` is deployed to HiddenFeeAI production. Worker version `e7b7a13d-0b34-4dc5-bc8a-265f2a65d6bf`; Pages deployment `f61fefb5.hiddenfeeai.pages.dev`; live health is passing (`status=ok`, `store=kv`).
-- Cleanup verification passed: client build/tests, scanner tests, upload integration tests, Worker dry-run, production homepage HTTP 200, and unsigned webhook rejection. No real-money Stripe purchase was run. Exact safe continuation point: return to DetectHiddenFees traffic acquisition only.
+- Cleanup verification passed: client build/tests, scanner tests, upload integration tests, premium-report regression, PDF layout regression, Worker dry-run, production homepage HTTP 200, and unsigned webhook rejection. No real-money Stripe purchase was run. Exact safe continuation point: return to DetectHiddenFees traffic acquisition only.
 
 ## Phase 8B HiddenFeeAI attribution and verified revenue handoff - 2026-08-09 (SUPERSEDED; DO NOT REBUILD)
 
