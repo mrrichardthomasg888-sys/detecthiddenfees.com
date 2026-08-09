@@ -6,7 +6,6 @@ on:
     paths:
       - 'business-reply-worker/**'
       - 'scripts/deploy-business-reply-infrastructure.js'
-      - 'scripts/test-business-reply-system.js'
       - 'scripts/process-business-reply-events.js'
       - 'seo/outreach-automation.json'
       - '.github/workflows/deploy-business-reply.yml'
