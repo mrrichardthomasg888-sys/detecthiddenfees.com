@@ -4,6 +4,12 @@
 > **Version:** 1.0
 > **Purpose:** Audit every page for Generative Engine Optimization (Google AI Overviews) and Answer Engine Optimization (ChatGPT, Gemini, Claude, Perplexity, Bing AI) readiness.
 
+## Phase 7 citation-readiness checkpoint — 2026-08-08
+
+The current research/discovery layer passes its machine-readable asset checks: 239 canonical sitemap URLs, 239 `llms.txt` URLs, 181 RSS URLs, and valid research-data, collection, outreach, and discovery validators. The public Evidence Review and Research Media Kit visibly identify the publisher, sample limitations, source links, methodology, update information, and the distinction between source fact, DetectHiddenFees observation, calculation, interpretation, and limitation. The Hidden Fee Database exposes the public JSON and CSV and uses Dataset, WebPage, Organization, and breadcrumb markup appropriate to the visible content.
+
+No AI system citation, backlink, or earned mention is claimed by this audit. The remaining opportunities are recorded rather than applied to the frozen Phase 4 experiment: improve selected lower-tier pages only when Search Console or evidence justifies it, keep FAQ/schema additions tied to visible content, and consider whether a future media-kit schema change is valid without misrepresenting the media kit as the dataset.
+
 ---
 
 ## AUDIT CRITERIA

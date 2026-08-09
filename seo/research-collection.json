@@ -1,7 +1,7 @@
 {
   "status": "collecting",
   "publication_status": "not_published",
-  "last_updated": "2026-08-08",
+  "last_updated": "2026-08-09",
   "purpose": "Private review queue for legitimate public source material. This file is not the public Hidden Fee Index and must not be used to publish market-wide findings without verification and methodology review.",
   "records": [
     {
@@ -25,7 +25,12 @@
       "evidence": "The FTC consumer guidance states that covered live-event ticket and short-term-lodging sellers must include known required fees in the upfront price and disclose certain additional charges before asking for final payment.",
       "evidence_reference": "Article paragraphs describing the Rule’s covered sellers, upfront required fees, and later-disclosed taxes or shipping",
       "verification_status": "verified",
-      "verification": { "reviewer": "Codex direct-source review", "reviewed_at": "2026-08-08", "method": "Opened the canonical HTTPS page and confirmed the title, FTC publisher, publication metadata, and evidence statement.", "source_http_status": 200 },
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-08",
+        "method": "Opened the canonical HTTPS page and confirmed the title, FTC publisher, publication metadata, and evidence statement.",
+        "source_http_status": 200
+      },
       "notes": "Issue-specific consumer guidance for covered tickets and short-term lodging; it does not establish a general rule for every industry or a prevalence statistic."
     },
     {
@@ -49,7 +54,12 @@
       "evidence": "The CFPB resource describes its junk-fee initiative and identifies surprise depositor fees, surprise overdraft fees, and related banking-fee policy and research topics.",
       "evidence_reference": "Junk fees page headings and sections on hidden costs, surprise depositor fees, and surprise overdraft fees",
       "verification_status": "verified",
-      "verification": { "reviewer": "Codex direct-source review", "reviewed_at": "2026-08-08", "method": "Opened the canonical HTTPS page and confirmed the title, CFPB publisher, last-modified date, and evidence statement.", "source_http_status": 200 },
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-08",
+        "method": "Opened the canonical HTTPS page and confirmed the title, CFPB publisher, last-modified date, and evidence statement.",
+        "source_http_status": 200
+      },
       "notes": "A CFPB policy/resource hub rather than a representative sample; it supports terminology and source context, not a DetectHiddenFees prevalence estimate."
     },
     {
@@ -73,7 +83,12 @@
       "evidence": "CMS recommends requesting a detailed bill, comparing the patient share with the explanation of benefits, comparing the bill with medical records, and checking for duplicate services or mismatched billing codes.",
       "evidence_reference": "Guide action steps for a detailed bill, explanation of benefits, medical records, duplicate billing, and billing codes",
       "verification_status": "verified",
-      "verification": { "reviewer": "Codex direct-source review", "reviewed_at": "2026-08-08", "method": "Opened the canonical HTTPS page and confirmed the title, CMS publisher, last-modified date, and evidence statement.", "source_http_status": 200 },
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-08",
+        "method": "Opened the canonical HTTPS page and confirmed the title, CMS publisher, last-modified date, and evidence statement.",
+        "source_http_status": 200
+      },
       "notes": "Consumer review guidance; it does not establish an error rate or determine whether a particular bill is legally valid."
     },
     {
@@ -97,7 +112,12 @@
       "evidence": "The CFPB explains that a dealership F&I department handles financing, contracts, paperwork, and optional add-on products; it also states that add-ons are not required to secure dealer financing and may be cancellable later depending on the circumstances.",
       "evidence_reference": "Answer paragraphs defining F&I work, optional add-ons, loan amount effects, and possible cancellation rights",
       "verification_status": "verified",
-      "verification": { "reviewer": "Codex direct-source review", "reviewed_at": "2026-08-08", "method": "Opened the canonical HTTPS page and confirmed the title, CFPB publisher, last-modified date, and evidence statement.", "source_http_status": 200 },
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-08",
+        "method": "Opened the canonical HTTPS page and confirmed the title, CFPB publisher, last-modified date, and evidence statement.",
+        "source_http_status": 200
+      },
       "notes": "General consumer guidance; cancellation rights are product- and jurisdiction-dependent and are not determined by this record."
     },
     {
@@ -121,7 +141,12 @@
       "evidence": "The CFPB lists possible dealer or loan charges including preparation, origination, document, delivery, and market-adjustment fees, and distinguishes those from taxes, title, and registration fees set by government.",
       "evidence_reference": "Sections on optional add-on products, additional vehicle or loan fees, and non-negotiable government fees",
       "verification_status": "verified",
-      "verification": { "reviewer": "Codex direct-source review", "reviewed_at": "2026-08-08", "method": "Opened the canonical HTTPS page and confirmed the title, CFPB publisher, last-modified date, and evidence statement.", "source_http_status": 200 },
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-08",
+        "method": "Opened the canonical HTTPS page and confirmed the title, CFPB publisher, last-modified date, and evidence statement.",
+        "source_http_status": 200
+      },
       "notes": "Consumer negotiation guidance; it lists examples but does not support a claim about fee frequency, legality, or typical amount."
     },
     {
@@ -145,7 +170,12 @@
       "evidence": "The CFPB distinguishes one-time debit-card and ATM overdraft rules from checks and recurring electronic payments, and notes that checks or recurring payments may lead to overdraft, NSF, or returned-item fees.",
       "evidence_reference": "Answer paragraphs on opt-in overdraft protection and check or recurring-payment fees",
       "verification_status": "verified",
-      "verification": { "reviewer": "Codex direct-source review", "reviewed_at": "2026-08-08", "method": "Opened canonical HTTPS page; confirmed title, CFPB publisher, last-modified date, and evidence statement.", "source_http_status": 200 },
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-08",
+        "method": "Opened canonical HTTPS page; confirmed title, CFPB publisher, last-modified date, and evidence statement.",
+        "source_http_status": 200
+      },
       "notes": "Rules and account terms can vary; the record is not a legal determination for an individual account."
     },
     {
@@ -169,7 +199,12 @@
       "evidence": "The CFPB says consumers can avoid debit-card overdraft fees by declining or cancelling coverage and describes linked savings or overdraft-line alternatives that may also involve fees or interest.",
       "evidence_reference": "Answer paragraphs on declining coverage, linked savings, overdraft lines, and alerts",
       "verification_status": "verified",
-      "verification": { "reviewer": "Codex direct-source review", "reviewed_at": "2026-08-08", "method": "Opened canonical HTTPS page; confirmed title, CFPB publisher, last-modified date, and evidence statement.", "source_http_status": 200 },
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-08",
+        "method": "Opened canonical HTTPS page; confirmed title, CFPB publisher, last-modified date, and evidence statement.",
+        "source_http_status": 200
+      },
       "notes": "The page describes options and possible charges; it does not compare bank-specific pricing."
     },
     {
@@ -193,7 +228,12 @@
       "evidence": "The CFPB says banks and credit unions may charge monthly maintenance or service fees, must disclose the fee and ways to avoid it, and must notify customers in writing when fee amounts or types change.",
       "evidence_reference": "Answer paragraphs on permitted maintenance fees, opening disclosures, and written change notices",
       "verification_status": "verified",
-      "verification": { "reviewer": "Codex direct-source review", "reviewed_at": "2026-08-08", "method": "Opened canonical HTTPS page; confirmed title, CFPB publisher, last-modified date, and evidence statement.", "source_http_status": 200 },
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-08",
+        "method": "Opened canonical HTTPS page; confirmed title, CFPB publisher, last-modified date, and evidence statement.",
+        "source_http_status": 200
+      },
       "notes": "General account-fee guidance; amounts and waiver requirements are account-specific."
     },
     {
@@ -217,7 +257,12 @@
       "evidence": "The CFPB explains that an account described as free or no cost cannot have certain monthly or transaction fees, while the account may still have disclosed fees such as ATM, overdraft, bounced-check, stop-payment, dormant-account, or check-printing fees.",
       "evidence_reference": "Answer paragraphs defining free or no-cost accounts and listed possible fees",
       "verification_status": "verified",
-      "verification": { "reviewer": "Codex direct-source review", "reviewed_at": "2026-08-08", "method": "Opened canonical HTTPS page; confirmed title, CFPB publisher, last-modified date, and evidence statement.", "source_http_status": 200 },
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-08",
+        "method": "Opened canonical HTTPS page; confirmed title, CFPB publisher, last-modified date, and evidence statement.",
+        "source_http_status": 200
+      },
       "notes": "This is a general explanation, not a determination that any particular account disclosure was misleading."
     },
     {
@@ -241,7 +286,12 @@
       "evidence": "The CFPB explains that an unsuccessful payday-loan repayment attempt may lead to lender late or returned-payment fees and bank or credit-union NSF or overdraft fees, depending on state law and the loan agreement.",
       "evidence_reference": "Answer paragraphs on payment history, repayment attempts, state law, and loan agreements",
       "verification_status": "verified",
-      "verification": { "reviewer": "Codex direct-source review", "reviewed_at": "2026-08-08", "method": "Opened canonical HTTPS page; confirmed title, CFPB publisher, last-modified date, and evidence statement.", "source_http_status": 200 },
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-08",
+        "method": "Opened canonical HTTPS page; confirmed title, CFPB publisher, last-modified date, and evidence statement.",
+        "source_http_status": 200
+      },
       "notes": "The page expressly limits the discussion by state law and the loan agreement; no universal fee rule is inferred."
     },
     {
@@ -265,7 +315,12 @@
       "evidence": "The CFPB explains that automatic payments authorize a company to withdraw money on a recurring basis, that variable payments require advance notice in specified circumstances, and that insufficient funds can lead to overdraft or NSF fees.",
       "evidence_reference": "Answer sections on recurring authorizations, differing payment amounts, fees, and reviewing authorization terms",
       "verification_status": "verified",
-      "verification": { "reviewer": "Codex direct-source review", "reviewed_at": "2026-08-08", "method": "Opened canonical HTTPS page; confirmed title, CFPB publisher, last-modified date, and evidence statement.", "source_http_status": 200 },
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-08",
+        "method": "Opened canonical HTTPS page; confirmed title, CFPB publisher, last-modified date, and evidence statement.",
+        "source_http_status": 200
+      },
       "notes": "General payment-authorization guidance; specific notice and cancellation rights can depend on the agreement and applicable law."
     },
     {
@@ -289,7 +344,12 @@
       "evidence": "The FTC explains that free trials can convert to paid subscriptions, auto-renewals can produce unexpected charges, negative-option plans bill unless the consumer cancels, and consumers should review trial and cancellation terms.",
       "evidence_reference": "Article sections on free trials, auto-renewals, negative options, pre-checked boxes, and cancellation",
       "verification_status": "verified",
-      "verification": { "reviewer": "Codex direct-source review", "reviewed_at": "2026-08-08", "method": "Opened canonical HTTPS page; confirmed title, FTC publisher, live content, and evidence statement.", "source_http_status": 200 },
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-08",
+        "method": "Opened canonical HTTPS page; confirmed title, FTC publisher, live content, and evidence statement.",
+        "source_http_status": 200
+      },
       "notes": "General consumer guidance; it does not establish that every subscription uses an unfair or unlawful term."
     },
     {
@@ -313,7 +373,12 @@
       "evidence": "The FTC recommends multiple written estimates, a contract identifying work, materials, dates, and price, completion of blank spaces, and caution about large upfront payments and contractor financing.",
       "evidence_reference": "Article sections on estimates, contract contents, cancellation language, deposits, and financing",
       "verification_status": "verified",
-      "verification": { "reviewer": "Codex direct-source review", "reviewed_at": "2026-08-08", "method": "Opened canonical HTTPS page; confirmed title, FTC publisher, live content, and evidence statement.", "source_http_status": 200 },
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-08",
+        "method": "Opened canonical HTTPS page; confirmed title, FTC publisher, live content, and evidence statement.",
+        "source_http_status": 200
+      },
       "notes": "Contract requirements and cancellation rules vary by state and transaction setting; this is not legal advice."
     },
     {
@@ -337,7 +402,12 @@
       "evidence": "The FTC describes allegations that dealerships charged buyers for unwanted or misrepresented add-ons and advises buyers to compare the written sales and financing agreements with what they agreed to.",
       "evidence_reference": "Consumer alert paragraphs on alleged add-ons, electronic signing, written copies, and total cost",
       "verification_status": "verified",
-      "verification": { "reviewer": "Codex direct-source review", "reviewed_at": "2026-08-08", "method": "Opened canonical HTTPS page; confirmed title, FTC publisher, publication date, and evidence statement.", "source_http_status": 200 },
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-08",
+        "method": "Opened canonical HTTPS page; confirmed title, FTC publisher, publication date, and evidence statement.",
+        "source_http_status": 200
+      },
       "notes": "The source describes allegations and enforcement context; it is not evidence that all dealers or add-ons are improper."
     },
     {
@@ -361,7 +431,12 @@
       "evidence": "The FTC alert reports allegations involving certification fees, add-on products, and government fees that buyers said they did not want, did not know about, or were misled into buying.",
       "evidence_reference": "Alert summary and consumer advice sections describing the alleged conduct and contract review steps",
       "verification_status": "verified",
-      "verification": { "reviewer": "Codex direct-source review", "reviewed_at": "2026-08-08", "method": "Opened canonical HTTPS page; confirmed title, agencies, publication date, and evidence statement.", "source_http_status": 200 },
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-08",
+        "method": "Opened canonical HTTPS page; confirmed title, agencies, publication date, and evidence statement.",
+        "source_http_status": 200
+      },
       "notes": "This record preserves the source’s allegation/enforcement framing and must not be generalized to all dealers."
     },
     {
@@ -385,7 +460,12 @@
       "evidence": "The CFPB advises calling the card company and sending a written billing-error notice within 60 calendar days after the charge appeared, while keeping copies of the dispute records.",
       "evidence_reference": "Answer paragraphs on the credit card agreement, written billing-error notice, and response timing",
       "verification_status": "verified",
-      "verification": { "reviewer": "Codex direct-source review", "reviewed_at": "2026-08-08", "method": "Opened canonical HTTPS page; confirmed title, CFPB publisher, last-modified date, and evidence statement.", "source_http_status": 200 },
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-08",
+        "method": "Opened canonical HTTPS page; confirmed title, CFPB publisher, last-modified date, and evidence statement.",
+        "source_http_status": 200
+      },
       "notes": "General billing-dispute guidance; consumers should follow the applicable agreement and law for their account."
     },
     {
@@ -409,7 +489,12 @@
       "evidence": "The CFPB’s five-step guide recommends reviewing statements for unfamiliar add-ons or fee-based products, sending written notice within 60 days, paying undisputed charges, and checking whether the mistake was corrected.",
       "evidence_reference": "Five-step credit-card bill review and dispute procedure",
       "verification_status": "verified",
-      "verification": { "reviewer": "Codex direct-source review", "reviewed_at": "2026-08-08", "method": "Opened canonical HTTPS page; confirmed title, CFPB publisher, last-modified date, and evidence statement.", "source_http_status": 200 },
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-08",
+        "method": "Opened canonical HTTPS page; confirmed title, CFPB publisher, last-modified date, and evidence statement.",
+        "source_http_status": 200
+      },
       "notes": "Procedure-focused guidance; it does not determine whether a specific fee is erroneous."
     },
     {
@@ -433,7 +518,12 @@
       "evidence": "The CFPB says a credit card company generally cannot charge a fee for making a payment, but may charge for an expedited payment requiring customer-service assistance; it says a voice-response-only payment cannot incur that fee.",
       "evidence_reference": "Answer paragraphs distinguishing ordinary payments, expedited assistance, and voice-response systems",
       "verification_status": "verified",
-      "verification": { "reviewer": "Codex direct-source review", "reviewed_at": "2026-08-08", "method": "Opened canonical HTTPS page; confirmed title, CFPB publisher, last-modified date, and evidence statement.", "source_http_status": 200 },
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-08",
+        "method": "Opened canonical HTTPS page; confirmed title, CFPB publisher, last-modified date, and evidence statement.",
+        "source_http_status": 200
+      },
       "notes": "The answer is general guidance and should be read with the current card agreement and applicable law."
     },
     {
@@ -457,7 +547,12 @@
       "evidence": "CMS explains that an explanation of benefits is not a bill, shows provider and allowed charges, records what the insurer paid, and identifies the patient balance; it says a provider bill should not be higher than the patient balance.",
       "evidence_reference": "EOB sections on total charges, provider charges, allowed charges, insurer payment, and patient balance",
       "verification_status": "verified",
-      "verification": { "reviewer": "Codex direct-source review", "reviewed_at": "2026-08-08", "method": "Opened canonical HTTPS page; confirmed title, CMS publisher, last-modified date, and evidence statement.", "source_http_status": 200 },
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-08",
+        "method": "Opened canonical HTTPS page; confirmed title, CMS publisher, last-modified date, and evidence statement.",
+        "source_http_status": 200
+      },
       "notes": "The guide describes how to read an EOB; it is not a determination of coverage or a particular bill’s correctness."
     },
     {
@@ -481,7 +576,12 @@
       "evidence": "CMS explains federal protections for certain unexpected out-of-network emergency and facility-related charges and directs consumers to compare bills, explanations of benefits, and cost-sharing information.",
       "evidence_reference": "Medical Bill Rights sections on surprise billing, insurance, and comparing the bill with the EOB",
       "verification_status": "verified",
-      "verification": { "reviewer": "Codex direct-source review", "reviewed_at": "2026-08-08", "method": "Opened canonical HTTPS page; confirmed title, CMS publisher, live content, and evidence statement.", "source_http_status": 200 },
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-08",
+        "method": "Opened canonical HTTPS page; confirmed title, CMS publisher, live content, and evidence statement.",
+        "source_http_status": 200
+      },
       "notes": "Protections depend on coverage, service, provider, facility, and circumstances; this record is not legal advice."
     },
     {
@@ -505,7 +605,12 @@
       "evidence": "The CFPB defines a surprise medical bill as an unexpected bill, explains out-of-network and balance-billing concepts, and describes protections and dispute routes under the No Surprises Act.",
       "evidence_reference": "Answer sections defining surprise medical bills, balance billing, protections, and disputes",
       "verification_status": "verified",
-      "verification": { "reviewer": "Codex direct-source review", "reviewed_at": "2026-08-08", "method": "Opened canonical HTTPS page; confirmed title, CFPB publisher, last-modified date, and evidence statement.", "source_http_status": 200 },
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-08",
+        "method": "Opened canonical HTTPS page; confirmed title, CFPB publisher, last-modified date, and evidence statement.",
+        "source_http_status": 200
+      },
       "notes": "The source describes federal protections and exceptions; application depends on insurance status and the service circumstances."
     },
     {
@@ -529,7 +634,12 @@
       "evidence": "The CFPB warns that medical credit cards and payment plans can involve deferred interest, late fees, administrative fees, or processing fees and advises consumers to review when interest and fees apply.",
       "evidence_reference": "Answer sections on payment schedules, additional fees, deferred interest, and financial assistance",
       "verification_status": "verified",
-      "verification": { "reviewer": "Codex direct-source review", "reviewed_at": "2026-08-08", "method": "Opened canonical HTTPS page; confirmed title, CFPB publisher, last-reviewed date, and evidence statement.", "source_http_status": 200 },
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-08",
+        "method": "Opened canonical HTTPS page; confirmed title, CFPB publisher, last-reviewed date, and evidence statement.",
+        "source_http_status": 200
+      },
       "notes": "The page describes risks and questions to ask; it does not compare a particular provider’s terms or decide affordability."
     },
     {
@@ -553,7 +663,12 @@
       "evidence": "The CFPB advises reviewing specialty consumer reports for medical-history information and disputing errors, while noting that some reporting agencies may charge a fee for a report.",
       "evidence_reference": "Answer sections on reviewing medical payment history, report access, and disputing errors",
       "verification_status": "verified",
-      "verification": { "reviewer": "Codex direct-source review", "reviewed_at": "2026-08-08", "method": "Opened canonical HTTPS page; confirmed title, CFPB publisher, last-modified date, and evidence statement.", "source_http_status": 200 },
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-08",
+        "method": "Opened canonical HTTPS page; confirmed title, CFPB publisher, last-modified date, and evidence statement.",
+        "source_http_status": 200
+      },
       "notes": "The page concerns reporting and records, not the correctness of a provider’s underlying bill."
     },
     {
@@ -577,7 +692,12 @@
       "evidence": "The FTC advises consumers who receive unordered products or charges after a free trial to keep order and billing records, review total cost and policies, and contact the card issuer about billing errors or disputes.",
       "evidence_reference": "Article sections on free trials, tracking purchases, records, and billing disputes",
       "verification_status": "verified",
-      "verification": { "reviewer": "Codex direct-source review", "reviewed_at": "2026-08-08", "method": "Opened canonical HTTPS page; confirmed title, FTC publisher, live content, and evidence statement.", "source_http_status": 200 },
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-08",
+        "method": "Opened canonical HTTPS page; confirmed title, FTC publisher, live content, and evidence statement.",
+        "source_http_status": 200
+      },
       "notes": "Consumer guidance for unwanted billing and products; it does not establish that a particular seller violated a law."
     },
     {
@@ -601,8 +721,137 @@
       "evidence": "The CFPB explains that a consumer should first ask the seller for a refund or reversal and may then ask the card company about disputing the charge or using a chargeback when appropriate.",
       "evidence_reference": "Answer sections on contacting the seller, refunds, chargebacks, and billing errors",
       "verification_status": "verified",
-      "verification": { "reviewer": "Codex direct-source review", "reviewed_at": "2026-08-08", "method": "Opened canonical HTTPS page; confirmed title, CFPB publisher, last-modified date, and evidence statement.", "source_http_status": 200 },
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-08",
+        "method": "Opened canonical HTTPS page; confirmed title, CFPB publisher, last-modified date, and evidence statement.",
+        "source_http_status": 200
+      },
       "notes": "The page describes possible dispute routes; it does not guarantee a refund or decide the merits of a specific transaction."
+    },
+    {
+      "record_id": "R-2026-026",
+      "source": "The Rule on Unfair or Deceptive Fees: Frequently Asked Questions",
+      "source_url": "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
+      "source_type": "official FAQ",
+      "organization": "Federal Trade Commission",
+      "industry": "consumer protection",
+      "document_type": "regulatory guidance",
+      "date_collected": "2026-08-08",
+      "source_date": null,
+      "fee_terminology": "unfair or deceptive fees; mandatory fees",
+      "fee_category": "fee_disclosure_faq",
+      "fee_amount": null,
+      "currency": null,
+      "recurring_status": "not_stated",
+      "contract_clause": null,
+      "cancellation_requirements": null,
+      "renewal_terms": null,
+      "evidence": "Candidate evidence to verify: the FTC FAQ explains the scope and application of the agency's fee-disclosure rule. No finding is published from this candidate until the source is reviewed.",
+      "evidence_reference": null,
+      "verification_status": "pending",
+      "verification": null,
+      "notes": "Official primary-source candidate only; verify the live page, title, date, and exact supported statements before publication. Do not infer prevalence or market-wide conclusions."
+    },
+    {
+      "record_id": "R-2026-027",
+      "source": "Advisory Opinion on Debt Collectors' Collection of Pay-to-Pay Fees",
+      "source_url": "https://www.consumerfinance.gov/rules-policy/final-rules/advisory-opinion-on-debt-collectors-collection-of-pay-to-pay-fees/",
+      "source_type": "advisory opinion",
+      "organization": "Consumer Financial Protection Bureau",
+      "industry": "debt collection",
+      "document_type": "regulatory guidance",
+      "date_collected": "2026-08-08",
+      "source_date": null,
+      "fee_terminology": "pay-to-pay fee; convenience fee",
+      "fee_category": "pay_to_pay_fee",
+      "fee_amount": null,
+      "currency": null,
+      "recurring_status": "not_stated",
+      "contract_clause": "underlying debt agreement authorization",
+      "cancellation_requirements": null,
+      "renewal_terms": null,
+      "evidence": "Candidate evidence to verify: the CFPB advisory opinion addresses when debt collectors may collect pay-to-pay fees. No finding is published from this candidate until the source is reviewed.",
+      "evidence_reference": null,
+      "verification_status": "pending",
+      "verification": null,
+      "notes": "Official primary-source candidate only; verify the live page, date, scope, and exact supported statements before publication. Do not generalize the opinion to every fee or industry."
+    },
+    {
+      "record_id": "R-2026-028",
+      "source": "What is a convenience fee or pay-to-pay fee?",
+      "source_url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-convenience-fee-or-pay-to-pay-fee-en-2126/",
+      "source_type": "consumer Q&A",
+      "organization": "Consumer Financial Protection Bureau",
+      "industry": "consumer finance",
+      "document_type": "consumer guidance",
+      "date_collected": "2026-08-08",
+      "source_date": null,
+      "fee_terminology": "convenience fee; pay-to-pay fee",
+      "fee_category": "convenience_fee_consumer_guidance",
+      "fee_amount": null,
+      "currency": null,
+      "recurring_status": "not_stated",
+      "contract_clause": null,
+      "cancellation_requirements": null,
+      "renewal_terms": null,
+      "evidence": "Candidate evidence to verify: the CFPB consumer guidance defines or explains convenience and pay-to-pay fees. No finding is published from this candidate until the source is reviewed.",
+      "evidence_reference": null,
+      "verification_status": "pending",
+      "verification": null,
+      "notes": "Official primary-source candidate only; verify the live page, date, and exact wording before publication. Do not infer legality or prevalence beyond the source's scope."
+    },
+    {
+      "record_id": "R-2026-029",
+      "source": "Dispute a medical bill",
+      "source_url": "https://www.cms.gov/medical-bill-rights/help/dispute-a-bill",
+      "source_type": "official consumer guide",
+      "organization": "Centers for Medicare & Medicaid Services",
+      "industry": "medical billing",
+      "document_type": "consumer guidance",
+      "date_collected": "2026-08-08",
+      "source_date": null,
+      "fee_terminology": "medical bill dispute; billing error",
+      "fee_category": "medical_bill_dispute",
+      "fee_amount": null,
+      "currency": null,
+      "recurring_status": "not_stated",
+      "contract_clause": null,
+      "cancellation_requirements": null,
+      "renewal_terms": null,
+      "evidence": "Candidate evidence to verify: CMS provides steps or options for disputing a medical bill. No finding is published from this candidate until the source is reviewed.",
+      "evidence_reference": null,
+      "verification_status": "pending",
+      "verification": null,
+      "notes": "Official primary-source candidate only; verify the live page, date, and exact dispute guidance before publication. Do not convert guidance into a claim about billing-error frequency."
+    },
+    {
+      "record_id": "R-2026-030",
+      "source": "Medical Bill Rights",
+      "source_url": "https://www.cms.gov/digital-service/medical-bill-rights",
+      "source_type": "official consumer resource",
+      "organization": "Centers for Medicare & Medicaid Services",
+      "industry": "medical billing",
+      "document_type": "consumer rights guidance",
+      "date_collected": "2026-08-08",
+      "source_date": null,
+      "fee_terminology": "medical bill rights; patient billing protections",
+      "fee_category": "medical_bill_rights",
+      "fee_amount": null,
+      "currency": null,
+      "recurring_status": "not_stated",
+      "contract_clause": null,
+      "cancellation_requirements": null,
+      "renewal_terms": null,
+      "evidence": "Candidate evidence to verify: CMS publishes a medical-billing rights resource for consumers. No finding is published from this candidate until the source is reviewed.",
+      "evidence_reference": null,
+      "verification_status": "pending",
+      "verification": null,
+      "notes": "Official primary-source candidate only; verify the live page, date, and exact supported rights before publication. Do not infer universal coverage or outcomes."
     }
-  ]
+  ],
+  "import_summary": {
+    "imported": 5,
+    "skipped_duplicates": 0
+  }
 }
