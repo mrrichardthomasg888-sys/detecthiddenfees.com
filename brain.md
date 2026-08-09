@@ -1797,6 +1797,15 @@ The master validator baseline is 238 pages with zero missing titles/descriptions
 - Validation passed for attribution, research collection/data, outreach pipeline/automation, discovery assets, JSON parsing, JavaScript syntax, and `git diff --check`. `calculator-authority.css` remains untouched, user-owned, and unstaged.
 - Exact continuation point: preserve the global attribution improvement and all existing outreach/research infrastructure; continue scheduled Batch 1 reply, follow-up, and mention monitors; do not send Batch 2 or publish the 30-day queue; reverify follow-up eligibility on or after 2026-08-17 UTC; obtain a comparable Search Console export around 2026-08-20; and require HiddenFeeAI integration before any paid-acquisition test or revenue claim.
 
+## Phase 8B production handoff - 2026-08-09 UTC
+
+- HiddenFeeAI attribution/revenue integration was committed and pushed to `mrrichardthomasg888-sys/hiddenfeeai` `main` as `b41efde`; DetectHiddenFees handoff/spec/brain updates were committed and pushed to `main` as `103d0f6`.
+- HiddenFeeAI Worker deployment passed at `https://hiddenfeeai-worker.mr-richardthomasg888.workers.dev`, version `a6f21304-d48a-4254-95df-4d9b13a3d5c7`. Matching client deployment to Cloudflare Pages project `hiddenfeeai` completed at `https://c42a33e3.hiddenfeeai.pages.dev`; the production site returned HTTP 200.
+- Live Worker verification passed: `/api/health` returned `status=ok` and `store=kv`; a synthetic document-free `hiddenfeeai_arrival` event was accepted and its duplicate was recognized idempotently. The exact synthetic KV event was deleted afterward and is not counted as customer data.
+- HiddenFeeAI production measurement is now operational for future real events: first-party attribution, `dhf_cta_id`/`dhf_cta_type` persistence, upload/analysis/checkout events, Stripe-signed server-side purchase confirmation, verified revenue fields, and deterministic webhook idempotency. No real-money test purchase was made and no historical revenue is claimed.
+- Production checkout remains `TEST_MODE_SKIP_PAYMENT=false`. The remaining measurement action is a controlled Stripe test-mode checkout/webhook or the first real customer event, followed by approved operational querying of the token-protected event export. No personal Gmail access, secret values, document data, pricing changes, or Phase 4 page changes were introduced.
+- Exact safe continuation point: preserve the deployed HiddenFeeAI integration, continue Batch 1/reply/follow-up/mention monitoring, keep Batch 2 unsent, keep the eight Phase 4 pages frozen, compare Search Console around 2026-08-20, and do not declare traffic/revenue improvements until real post-deployment event or Search Console data exists.
+
 ## Phase 8B HiddenFeeAI attribution and verified revenue handoff - 2026-08-09
 
 - HiddenFeeAI production repository confirmed as `mrrichardthomasg888-sys/hiddenfeeai`, branch `main`; its production architecture is Cloudflare Pages frontend plus Cloudflare Worker backend with the existing `ANALYSIS_KV` namespace and Stripe Checkout. Work was isolated from unrelated local product changes.
