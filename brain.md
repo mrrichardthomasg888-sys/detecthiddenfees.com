@@ -1845,3 +1845,11 @@ The master validator baseline is 238 pages with zero missing titles/descriptions
 - No YouTube videos have been published yet. The first controlled batch remains exactly three Shorts: dealer out-the-door price, construction change orders, and duplicate medical charges. Publish separately through the official API and record actual video URLs and platform metrics.
 - HiddenFeeAI remains production-frozen. Personal Gmail access remains NONE. Phase 4 SEO pages remain frozen, and `calculator-authority.css` remains untouched.
 - Exact next continuation point: create/validate the three vertical video assets, publish only the first three through the authorized official YouTube connection, then record real views/likes/comments/subscriber changes and DetectHiddenFees referral results before selecting the next batch.
+
+## YouTube creative-quality hold - 2026-08-09
+
+- The first static FFmpeg Batch 1 assets were rejected for visual quality and must not be published. The attempted workflow run `31302634775` completed with no YouTube video IDs recorded; no public Shorts were published.
+- Permanent rule: **NO PUBLIC SOCIAL-MEDIA CONTENT MAY BE PUBLISHED UNTIL THE VIDEO QUALITY STANDARD IS APPROVED.** The YouTube workflow now requires the exact visual-approval gate `VISUAL_APPROVED_BATCH_1`; do not trigger it before owner approval.
+- The official YouTube OAuth/upload system remains connected and unchanged. Personal Gmail access remains NONE, HiddenFeeAI remains production-frozen, Phase 4 SEO pages remain frozen, and `calculator-authority.css` remains untouched.
+- One new local-only dealer out-the-door-price prototype was rendered for visual approval at 1080x1920, 25 seconds, with frame animation, a car/deal worksheet concept, animated fee rows, warning/checklist states, captions, narration, and a large DetectHiddenFees.com CTA. It is not published and is not yet approved for scaling.
+- Exact continuation point: show the local prototype and contact sheet to the owner, wait for explicit visual approval or requested changes, and create no additional Shorts or public uploads until that decision.

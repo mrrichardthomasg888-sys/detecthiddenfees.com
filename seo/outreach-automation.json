@@ -44,7 +44,7 @@
   },
   "social": {
     "linkedin": { "status": "not_connected", "official_connection": "LinkedIn OAuth app with member or organization posting permission" },
-    "youtube": { "status": "authorized_connected", "official_connection": "YouTube Data API v3 OAuth channel authorization", "scope": "https://www.googleapis.com/auth/youtube.upload", "secret_names": ["YOUTUBE_CLIENT_SECRET_JSON", "YOUTUBE_REFRESH_TOKEN"], "published_videos": 0, "initial_batch_size": 3 },
+    "youtube": { "status": "authorized_connected_quality_hold", "official_connection": "YouTube Data API v3 OAuth channel authorization", "scope": "https://www.googleapis.com/auth/youtube.upload", "secret_names": ["YOUTUBE_CLIENT_SECRET_JSON", "YOUTUBE_REFRESH_TOKEN"], "published_videos": 0, "initial_batch_size": 3, "public_publish_gate": "VISUAL_APPROVED_BATCH_1" },
     "reddit": { "status": "not_connected", "official_connection": "Reddit OAuth app and account authorization" },
     "github": { "status": "not_connected", "official_connection": "GitHub App or fine-grained token with repository content permission" }
   },

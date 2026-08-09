@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       confirm:
-        description: "Type PUBLISH_BATCH_1 to publish the three approved Shorts"
+        description: "Type VISUAL_APPROVED_BATCH_1 only after visual-quality approval"
         required: true
         type: string
 
@@ -17,7 +17,7 @@ concurrency:
 
 jobs:
   publish:
-    if: github.event.inputs.confirm == 'PUBLISH_BATCH_1'
+    if: github.event.inputs.confirm == 'VISUAL_APPROVED_BATCH_1'
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
