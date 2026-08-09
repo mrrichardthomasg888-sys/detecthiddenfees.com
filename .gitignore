@@ -5,4 +5,5 @@ response.txt
 __pycache__/
 *.py[cod]
 private/
+business-reply-worker/wrangler.ci.toml
 seo/search-console-data.json

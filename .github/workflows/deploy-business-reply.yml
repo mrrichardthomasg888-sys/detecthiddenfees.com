@@ -51,8 +51,7 @@ jobs:
       - name: Generate deployment-only Wrangler configuration
         env:
           NAMESPACE_ID: ${{ steps.prepare.outputs.namespace_id }}
-        run: |
-          node -e "require('fs').writeFileSync('business-reply-worker/wrangler.ci.toml', ['name = \\\"detecthiddenfees-business-reply\\\"','main = \\\"src/index.js\\\"','compatibility_date = \\\"2026-08-08\\\"','compatibility_flags = [\\\"nodejs_compat\\\"]','','[[kv_namespaces]]','binding = \\\"REPLY_EVENT_QUEUE\\\"','id = \\\"' + process.env.NAMESPACE_ID + '\\\"',''].join('\\n'))"
+        run: node scripts/write-business-reply-wrangler-config.js
 
       - name: Deploy the email Worker
         working-directory: business-reply-worker
