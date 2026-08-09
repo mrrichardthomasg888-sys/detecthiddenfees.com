@@ -18,7 +18,8 @@
 - Validation passed after the edit: all five pages have one H1, a canonical URL, no detected encoding artifact, sensible title/description lengths, and `git diff --check` passes. No Phase 4 page, `calculator-authority.css`, HiddenFeeAI repository, Brevo, Cloudflare, outreach infrastructure, or video asset was changed.
 - Business results are not yet measurable from this cycle: no new Google clicks, visitors, referrals, mentions, backlinks, leads, sales, or revenue are claimed. The edit is a clean snippet experiment awaiting a comparable Search Console export.
 - Batch 1 remains CarEdge, Edmunds, Procore, and NerdWallet `SENT`, with no recorded replies, bounces, declines, follow-ups, mentions, or backlinks. Batch 2 remains unsent. Personal Gmail access remains NONE. HiddenFeeAI remains production-frozen.
-- Exact continuation point: deploy and measure this five-page snippet test; keep the eight Phase 4 pages frozen; continue Batch 1 monitoring and the 2026-08-17 UTC one-follow-up gate; keep Batch 2 unsent; do not launch the proposed $75 Google Ads test without owner approval and trustworthy downstream measurement; provide the owner three manual-video briefs per day rather than producing videos.
+- Deployed through GitHub main in commit `13da157`. After propagation, all five live URLs returned HTTP 200 and served the new title/description values. The first check before propagation showed the previous values, so no premature production claim was made.
+- Exact continuation point: measure this five-page snippet test with the next comparable Search Console export; keep the eight Phase 4 pages frozen; continue Batch 1 monitoring and the 2026-08-17 UTC one-follow-up gate; keep Batch 2 unsent; do not launch the proposed $75 Google Ads test without owner approval and trustworthy downstream measurement; provide the owner three manual-video briefs per day rather than producing videos.
 
 ## PROJECT IDENTITY
 
