@@ -1,0 +1,53 @@
+name: Publish DetectHiddenFees YouTube Batch 1
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: "Type PUBLISH_BATCH_1 to publish the three approved Shorts"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: youtube-batch-1
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.event.inputs.confirm == 'PUBLISH_BATCH_1'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install YouTube API client
+        run: npm install --no-save --no-package-lock googleapis
+
+      - name: Publish approved Shorts through YouTube API
+        id: upload
+        continue-on-error: true
+        env:
+          YOUTUBE_CLIENT_SECRET_JSON: ${{ secrets.YOUTUBE_CLIENT_SECRET_JSON }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+        run: node scripts/upload-youtube-batch-1.mjs
+
+      - name: Commit status-only publication ledger
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add social/youtube/batch-1/results.json
+          git diff --cached --quiet || git commit -m "Record YouTube Batch 1 publication status"
+          git push
+
+      - name: Fail if any upload failed
+        if: steps.upload.outcome != 'success'
+        run: exit 1
