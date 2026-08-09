@@ -24,7 +24,7 @@ Use `scripts/import-research-records.js` to append records to a private collecti
 
 ## Current candidate sources
 
-The private collection currently contains 30 verified records: 25 records support the separately published Evidence Review and five records were verified during the 2026-08-09 Phase 7 operational review. Collection remains open, but newly verified sources are not public findings until a separate publication review approves the sample, methodology, limitations, and reproducible evidence. The five newly verified records are not yet promoted to the public dataset.
+The private collection currently contains 33 verified records: 25 records support the separately published Evidence Review and eight additional records were verified during the 2026-08-09 Phase 7 operational reviews. Collection remains open, but newly verified sources are not public findings until a separate publication review approves the sample, methodology, limitations, and reproducible evidence. The eight newly verified records are not yet promoted to the public dataset.
 
 ## Publication gate
 

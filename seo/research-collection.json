@@ -873,10 +873,97 @@
         "source_http_status": 200
       },
       "notes": "This source describes CMS's public resource and its scope; it does not establish consumer outcomes or universal protection beyond the applicable No Surprises Act context."
+    },
+    {
+      "record_id": "R-2026-031",
+      "source": "Consumer Financial Protection Circular 2022-06: Unanticipated overdraft fee assessment practices",
+      "source_url": "https://www.consumerfinance.gov/compliance/circulars/consumer-financial-protection-circular-2022-06-unanticipated-overdraft-fee-assessment-practices/",
+      "source_type": "official regulatory circular",
+      "organization": "Consumer Financial Protection Bureau",
+      "industry": "banking",
+      "document_type": "regulatory guidance",
+      "date_collected": "2026-08-09",
+      "source_date": "2024-08-21",
+      "fee_terminology": "unanticipated overdraft fee; authorize positive settle negative; APSN",
+      "fee_category": "unanticipated_overdraft_fee",
+      "fee_amount": null,
+      "currency": null,
+      "recurring_status": "not_stated",
+      "contract_clause": null,
+      "cancellation_requirements": null,
+      "renewal_terms": null,
+      "evidence": "The CFPB circular states that overdraft-fee practices must comply with specified consumer-finance laws and that fees consumers would not reasonably anticipate may be unfair. It identifies authorize-positive-settle-negative processing as one example of a potentially unanticipated practice.",
+      "evidence_reference": "Circular response, background, analysis, examples, and page last-modified metadata",
+      "verification_status": "verified",
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-09",
+        "method": "Opened the canonical HTTPS page and confirmed the title, CFPB publisher, circular scope, page last-modified date, and evidence statement.",
+        "source_http_status": 200
+      },
+      "notes": "The circular discusses potentially unfair practices under specific legal standards; it is not a prevalence study and does not mean every overdraft fee is unlawful."
+    },
+    {
+      "record_id": "R-2026-032",
+      "source": "What can I do if my bank charged me a fee for overdrawing my account?",
+      "source_url": "https://www.consumerfinance.gov/ask-cfpb/what-can-i-do-if-my-bank-charged-me-a-fee-for-overdrawing-my-account-en-1037/",
+      "source_type": "official consumer Q&A",
+      "organization": "Consumer Financial Protection Bureau",
+      "industry": "banking",
+      "document_type": "consumer guidance",
+      "date_collected": "2026-08-09",
+      "source_date": "2025-01-02",
+      "fee_terminology": "overdraft fee; NSF fee; returned-item fee",
+      "fee_category": "overdraft_opt_in_and_returned_item_fee",
+      "fee_amount": null,
+      "currency": null,
+      "recurring_status": "recurring electronic payments may be treated differently",
+      "contract_clause": null,
+      "cancellation_requirements": null,
+      "renewal_terms": null,
+      "evidence": "The CFPB consumer guidance explains that one-time debit-card and ATM overdraft fees generally require opt-in, while checks and recurring electronic payments may be treated differently. It also distinguishes possible NSF and returned-item fees and explains how a consumer can change an overdraft-protection election.",
+      "evidence_reference": "Consumer Q&A explanation of transaction types, opt-in, NSF/returned-item fees, and page last-modified metadata",
+      "verification_status": "verified",
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-09",
+        "method": "Opened the canonical HTTPS page and confirmed the title, CFPB publisher, January 2, 2025 last-modified date, transaction distinctions, and evidence statement.",
+        "source_http_status": 200
+      },
+      "notes": "The guidance is consumer information and depends on transaction type and applicable rules; it does not establish a universal fee outcome for every account."
+    },
+    {
+      "record_id": "R-2026-033",
+      "source": "What is a good faith estimate?",
+      "source_url": "https://www.cms.gov/medical-bill-rights/help/guides/good-faith-estimate",
+      "source_type": "official consumer guide",
+      "organization": "Centers for Medicare & Medicaid Services",
+      "industry": "medical billing",
+      "document_type": "consumer rights guidance",
+      "date_collected": "2026-08-09",
+      "source_date": "2024-11-05",
+      "fee_terminology": "good faith estimate; itemized expected charges; facilities fee",
+      "fee_category": "good_faith_estimate",
+      "fee_amount": null,
+      "currency": null,
+      "recurring_status": "not_stated",
+      "contract_clause": null,
+      "cancellation_requirements": null,
+      "renewal_terms": null,
+      "evidence": "CMS explains that people generally need a good faith estimate when they are not using health insurance and request an estimate or schedule care at least three business days in advance. The guide says estimates should itemize expected charges and may not include separately scheduled services, other providers, or unanticipated items.",
+      "evidence_reference": "Good-faith-estimate sections on eligibility, included charges, exclusions, timing, and page last-modified metadata",
+      "verification_status": "verified",
+      "verification": {
+        "reviewer": "Codex direct-source review",
+        "reviewed_at": "2026-08-09",
+        "method": "Opened the canonical HTTPS page and confirmed the title, CMS publisher, November 5, 2024 last-modified date, guidance scope, and evidence statement.",
+        "source_http_status": 200
+      },
+      "notes": "This is specific guidance for good faith estimates and does not imply that every medical bill must include every related provider or service."
     }
   ],
   "import_summary": {
-    "imported": 5,
+    "imported": 3,
     "skipped_duplicates": 0
   }
 }

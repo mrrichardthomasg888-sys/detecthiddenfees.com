@@ -6,6 +6,22 @@
 
 ---
 
+## Phase 7 evidence-backed asset scoring — 2026-08-09
+
+This is a prioritization record, not a page-generation plan. Scores are qualitative evidence-availability and usefulness judgments; no search-volume estimates are invented. Existing public pages should be extended only after publication review confirms that the additional verified records improve information gain.
+
+| Candidate asset | Search value | AI citation | Journalist citation | Originality | User value | HiddenFeeAI relevance | Evidence available | Decision |
+|---|---:|---:|---:|---:|---:|---:|---:|---|
+| Fee Disclosure Taxonomy & Source Map | 5 | 5 | 5 | 4 | 5 | 4 | 5 | **Recommend first**; extend `/hidden-fee-database` or its linked research layer, not a duplicate page |
+| Medical Estimate vs. Final-Bill Review Checklist | 4 | 4 | 4 | 3 | 5 | 5 | 5 | Strong second; use CMS evidence and existing medical-billing resources |
+| Overdraft Processing & Fee Review Reference | 4 | 4 | 4 | 4 | 4 | 4 | 5 | Strong third; distinguish source rules from bank-specific terms |
+| Dealer Fee Classification Reference | 4 | 4 | 4 | 4 | 4 | 4 | 4 | Viable after more automotive source review |
+| Construction Estimate & Change-Order Checklist | 4 | 4 | 4 | 4 | 5 | 5 | 3 | Hold until more verified primary construction evidence exists |
+
+The strongest immediate information-gain opportunity is a taxonomy that maps fee terminology to source-backed categories, disclosure context, recurring status, and document locations. It is compatible with the current JSON/CSV research model and would help readers, journalists, and HiddenFeeAI users interpret documents without claiming that the reviewed sample represents the market. No new public URL is created in this phase.
+
+---
+
 ## 1. EXECUTIVE SUMMARY
 
 DetectHiddenFees has strong foundations: premium design, solid schema, growing content library, clean codebase. However, several systemic issues prevent it from becoming a true reference-quality resource. The highest-impact improvements fall into four categories:
