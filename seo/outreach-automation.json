@@ -1,11 +1,12 @@
 {
   "version": "2026-08-08.1",
-  "mode": "blocked_at_credential_boundary",
-  "purpose": "Low-volume, individualized editorial outreach and earned-mention monitoring. This configuration contains no secrets and defaults to no sending.",
+  "mode": "authorized_initial_campaign",
+  "purpose": "Low-volume, individualized editorial outreach and earned-mention monitoring. The initial four-recipient campaign is authorized; safety limits remain enforced.",
   "email": {
     "provider": "brevo",
     "api_endpoint": "https://api.brevo.com/v3/smtp/email",
-    "enabled": false,
+    "enabled": true,
+    "activation_state": "authorized_initial_campaign",
     "send_flag": "OUTREACH_SEND_ENABLED=1",
     "required_secret": "BREVO_API_KEY",
     "required_sender_env": "OUTREACH_FROM_EMAIL",

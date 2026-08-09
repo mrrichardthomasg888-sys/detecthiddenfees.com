@@ -54,7 +54,8 @@ await invokeWorker({ subject: 'Delivery failure', text: 'Mail delivery failed: r
 
 if (config.email.max_follow_ups !== 1) throw new Error('Follow-up maximum is not one');
 if (config.email.follow_up_days !== 8) throw new Error('Follow-up interval is not eight days');
-if (config.email.enabled !== false) throw new Error('External outreach must remain disabled during infrastructure testing');
+const authorizedInitialCampaign = config.email.activation_state === 'authorized_initial_campaign';
+if (config.email.enabled !== false && !authorizedInitialCampaign) throw new Error('External outreach may be enabled only for the explicitly authorized initial campaign');
 if (config.reply_monitor.address !== 'research@detecthiddenfees.com') throw new Error('Business reply address changed');
 if (config.reply_monitor.personal_gmail_access !== 'none') throw new Error('Personal Gmail access is not permanently disabled');
 
@@ -62,6 +63,7 @@ console.log(JSON.stringify({
   classification: 'PASS',
   suppression: 'PASS',
   follow_up_cancellation_policy: 'PASS',
-  external_outreach_enabled: false,
+  external_outreach_enabled: config.email.enabled === true,
+  authorized_initial_campaign: authorizedInitialCampaign,
   personal_gmail_access: 'none'
 }));

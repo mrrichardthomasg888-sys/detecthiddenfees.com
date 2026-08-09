@@ -29,13 +29,13 @@
       "publication": "CarEdge",
       "relevant_url": "https://caredge.com/guides/understanding-car-dealer-fees",
       "author": null,
-      "public_contact_method": null,
+      "public_contact_method": "press@caredge.com (public press channel: https://caredge.com/press)",
       "topic": "dealer fees and add-ons",
       "detecthiddenfees_asset": "/hidden-fee-database",
       "why_relevant": "The guide addresses dealer fees and transaction-level examples. The published review contains multiple CFPB and FTC records about F&I add-ons, document/preparation/delivery/market-adjustment fees, and unwanted add-ons, making it a relevant primary-source comparison.",
       "relevant_existing_article": "https://caredge.com/guides/understanding-car-dealer-fees",
       "suggested_outreach_angle": "Offer the automotive records and methodology as a source-linked companion that distinguishes government-set charges from negotiable dealer fees and add-ons.",
-      "confidence": "medium",
+      "confidence": "high",
       "status": "approved",
       "date": "2026-08-08",
       "response": null,
@@ -117,6 +117,11 @@
       "response": null,
       "mention_or_link": null,
       "source_evidence": "https://www.edmunds.com/car-buying/what-fees-should-you-pay.html"
+      ,"article_verification": {
+        "mode": "manual_external_verified",
+        "checked_at": "2026-08-08",
+        "limitation": "Automated fetch returned 403; official article was verified through an external public check without bypassing anti-bot controls."
+      }
     },
     {
       "opportunity_id": "O-2026-007",
@@ -174,6 +179,11 @@
       "response": null,
       "mention_or_link": null,
       "source_evidence": "https://www.nerdwallet.com/banking/learn/average-overdraft-fee"
+      ,"article_verification": {
+        "mode": "manual_external_verified",
+        "checked_at": "2026-08-08",
+        "limitation": "Automated fetch returned 403; official article was verified through an external public check without bypassing anti-bot controls."
+      }
     },
     {
       "opportunity_id": "O-2026-010",

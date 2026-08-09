@@ -13,6 +13,17 @@
       "reason": "The verified public channel is a communications contact form, not an authenticated email endpoint; the system will not submit forms automatically."
     },
     {
+      "opportunity_id": "O-2026-002",
+      "channel": "email",
+      "recipient": "press@caredge.com",
+      "subject": "CFPB source records for your dealer-fee guide",
+      "body": "Hello CarEdge press team,\n\nYour guide on dealership fees explains how taxes, title/registration, document fees, and dealer add-ons affect the out-the-door price.\n\nDetectHiddenFees organized 25 verified public-source records, including CFPB and FTC material on preparation, document, delivery, market-adjustment, and optional add-on charges. It is a curated source review, not a market-wide fee study, and it does not replace CarEdge's own dealer-quote data.\n\nThe methodology and downloadable records are here:\nhttps://detecthiddenfees.com/research-media-kit\n\nPlease use it only if it adds useful source context for readers reviewing dealer paperwork. No coverage or link is expected.\n\nBest,\nDetectHiddenFees Research Team",
+      "sendable_by_automation": true,
+      "reason": "Public press address verified on CarEdge's official press page.",
+      "follow_up_subject": "Following up: CFPB source records for your dealer-fee guide",
+      "follow_up_body": "Hello CarEdge press team,\n\nI wanted to follow up once on my note about the DetectHiddenFees Evidence Review. It is a curated public-source sample, not a market-wide fee study, and the methodology plus downloads are here:\nhttps://detecthiddenfees.com/research-media-kit\n\nIf it is not useful for your current coverage, no response is needed.\n\nBest,\nDetectHiddenFees Research Team"
+    },
+    {
       "opportunity_id": "O-2026-006",
       "channel": "email",
       "recipient": "pr@edmunds.com",

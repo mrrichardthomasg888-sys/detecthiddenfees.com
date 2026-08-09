@@ -1,6 +1,10 @@
 name: DetectHiddenFees controlled initial outreach
 
 on:
+  push:
+    paths:
+      - 'seo/outreach-automation.json'
+      - '.github/workflows/outreach-initial-campaign.yml'
   schedule:
     - cron: '41 15 * * *'
   workflow_dispatch:
@@ -14,6 +18,7 @@ concurrency:
 
 jobs:
   send-initial-campaign:
+    if: github.event_name != 'push' || github.event.head_commit.message == 'Activate authorized initial outreach campaign'
     runs-on: ubuntu-latest
     steps:
       - name: Check out main
@@ -24,7 +29,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
 
       - name: Check outreach activation gate
         id: gate

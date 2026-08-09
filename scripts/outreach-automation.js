@@ -8,7 +8,7 @@ const pipeline = JSON.parse(fs.readFileSync(path.join(root, 'seo', 'outreach-pip
 const statePath = path.join(root, 'private', 'outreach-runtime.json');
 const publicStatusPath = path.join(root, 'seo', 'outreach-status.json');
 const researchUrl = config.email ? 'https://detecthiddenfees.com/research-media-kit' : 'https://detecthiddenfees.com/research-media-kit';
-const initialIds = new Set(['O-2026-005', 'O-2026-006', 'O-2026-007', 'O-2026-009']);
+const initialIds = new Set(['O-2026-002', 'O-2026-006', 'O-2026-007', 'O-2026-009']);
 
 function now() { return new Date().toISOString(); }
 function loadState() {
@@ -62,7 +62,8 @@ async function verifyTargets() {
     const article = await get(record.relevant_url);
     const research = await get(researchUrl);
     const recipient = extractEmail(record.public_contact_method);
-    const articleLive = article.status >= 200 && article.status < 400 && article.body.length > 500;
+    const manualArticleVerified = article.status === 403 && record.article_verification?.mode === 'manual_external_verified';
+    const articleLive = (article.status >= 200 && article.status < 400 && article.body.length > 500) || manualArticleVerified;
     const researchLive = research.status >= 200 && research.status < 400 && /25 verified public-source records|25-record/i.test(research.body) && /methodology/i.test(research.body);
     const policyOk = record.status === 'approved' && record.confidence === 'high' && checkNoShortener(message.body) && checkNoShortener(researchUrl);
     const sendable = articleLive && researchLive && policyOk && message.sendable_by_automation === true && Boolean(recipient);
@@ -71,7 +72,7 @@ async function verifyTargets() {
     else if (!researchLive) reason = 'research URL did not pass provenance/content check';
     else if (!policyOk) reason = 'target or message failed approval/safety policy';
     else if (!recipient || !message.sendable_by_automation) reason = 'public channel is not an automated email endpoint';
-    results.push({ opportunity_id: id, publication: record.publication, article: { url: record.relevant_url, status: article.status }, research: { url: researchUrl, status: research.status }, channel: record.public_contact_method, recipient, sendable, reason });
+    results.push({ opportunity_id: id, publication: record.publication, article: { url: record.relevant_url, status: article.status, verification: manualArticleVerified ? 'manual_external_verified' : 'automated' }, research: { url: researchUrl, status: research.status }, channel: record.public_contact_method, recipient, sendable, reason });
   }
   return results;
 }

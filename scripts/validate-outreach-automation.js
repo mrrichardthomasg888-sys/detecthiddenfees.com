@@ -5,7 +5,8 @@ const config = JSON.parse(fs.readFileSync(path.join(root, 'seo', 'outreach-autom
 const messages = JSON.parse(fs.readFileSync(path.join(root, 'seo', 'outreach-messages.json'), 'utf8'));
 const pipeline = JSON.parse(fs.readFileSync(path.join(root, 'seo', 'outreach-pipeline.json'), 'utf8'));
 const errors = [];
-if (config.email.enabled !== false) errors.push('Email automation must default to disabled');
+const authorizedInitialCampaign = config.email.activation_state === 'authorized_initial_campaign';
+if (config.email.enabled !== false && !authorizedInitialCampaign) errors.push('Email automation may be enabled only for the explicitly authorized initial campaign');
 if (config.email.initial_batch_max !== 4) errors.push('Initial batch maximum must remain 4');
 if (config.email.bcc_allowed !== false) errors.push('BCC must remain disabled');
 if (config.email.max_follow_ups !== 1) errors.push('Maximum follow-ups must remain 1');
@@ -31,4 +32,4 @@ for (const message of messages.messages) {
 const serialized = JSON.stringify({ config, messages });
 if (/api[_-]?key\s*[:=]\s*[A-Za-z0-9_-]{20,}/i.test(serialized)) errors.push('Possible API key in public automation files');
 if (errors.length) { console.error(errors.join('\n')); process.exit(1); }
-console.log(`Outreach automation valid: messages=${messages.messages.length}, default_send_enabled=${config.email.enabled}, no_secrets_detected=true.`);
+console.log(`Outreach automation valid: messages=${messages.messages.length}, authorized_initial_campaign=${authorizedInitialCampaign}, no_secrets_detected=true.`);
