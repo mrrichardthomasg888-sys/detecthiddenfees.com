@@ -1,0 +1,73 @@
+{
+  "batch": "youtube-batch-1",
+  "updated_at": "2026-08-09T08:04:31.366Z",
+  "videos": [
+    {
+      "file": "dealer-out-the-door-price.mp4",
+      "topic": "Dealer out-the-door price",
+      "title": "Dealer Out-the-Door Price: 4 Numbers to Check",
+      "description": "The monthly payment is not the total. Check the vehicle price, government charges, dealer-added fees, and optional products before signing. Educational information only.\n\nMore: https://detecthiddenfees.com/car-dealer-fees",
+      "hashtags": [
+        "#CarBuying",
+        "#DealerFees",
+        "#ConsumerTips"
+      ],
+      "tags": [
+        "dealer fees",
+        "out the door price",
+        "car buying",
+        "car dealer fees",
+        "hidden fees"
+      ],
+      "target_url": "https://detecthiddenfees.com/car-dealer-fees",
+      "cta": "Check the car-buying fee guide at DetectHiddenFees.com",
+      "keyword": "dealer out the door price",
+      "status": "FAILED",
+      "error": "YouTube upload failed; see the protected workflow result."
+    },
+    {
+      "file": "construction-change-orders.mp4",
+      "topic": "Construction change orders",
+      "title": "Construction Change Orders: Check These 5 Details",
+      "description": "Before approving a construction change order, check the scope, price, materials, schedule impact, and approval record. Keep the signed change with the original quote. Educational information only.\n\nMore: https://detecthiddenfees.com/change-order-fees",
+      "hashtags": [
+        "#Construction",
+        "#ChangeOrders",
+        "#ContractTips"
+      ],
+      "tags": [
+        "construction change orders",
+        "change order fees",
+        "construction contract",
+        "contract tips",
+        "hidden fees"
+      ],
+      "target_url": "https://detecthiddenfees.com/change-order-fees",
+      "cta": "Review change-order questions at DetectHiddenFees.com",
+      "keyword": "construction change orders",
+      "status": "PENDING"
+    },
+    {
+      "file": "duplicate-medical-charges.mp4",
+      "topic": "Duplicate medical charges",
+      "title": "Duplicate Medical Charges: Compare Your Bill and EOB",
+      "description": "Before paying, compare the itemized medical bill with your insurance explanation of benefits when available. Repeated services, dates, or amounts are questions to verify—not a judgment about medical necessity. Educational information only.\n\nMore: https://detecthiddenfees.com/duplicate-medical-billing-charges",
+      "hashtags": [
+        "#MedicalBills",
+        "#BillingCheck",
+        "#ConsumerTips"
+      ],
+      "tags": [
+        "duplicate medical charges",
+        "medical bill review",
+        "itemized medical bill",
+        "explanation of benefits",
+        "billing errors"
+      ],
+      "target_url": "https://detecthiddenfees.com/duplicate-medical-billing-charges",
+      "cta": "Organize a medical-bill review at DetectHiddenFees.com",
+      "keyword": "duplicate medical charges",
+      "status": "PENDING"
+    }
+  ]
+}
