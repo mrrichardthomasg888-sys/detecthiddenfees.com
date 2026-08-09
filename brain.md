@@ -21,6 +21,16 @@
 - Deployed through GitHub main in commit `13da157`. After propagation, all five live URLs returned HTTP 200 and served the new title/description values. The first check before propagation showed the previous values, so no premature production claim was made.
 - Exact continuation point: measure this five-page snippet test with the next comparable Search Console export; keep the eight Phase 4 pages frozen; continue Batch 1 monitoring and the 2026-08-17 UTC one-follow-up gate; keep Batch 2 unsent; do not launch the proposed $75 Google Ads test without owner approval and trustworthy downstream measurement; provide the owner three manual-video briefs per day rather than producing videos.
 
+## Distribution and customer-acquisition execution checkpoint - 2026-08-09
+
+- No additional SEO pages were changed. The five-page metadata experiment remains the only current SEO intervention and is awaiting measurement.
+- Batch 2 was reviewed against the existing pipeline and four candidates were selected for the next controlled email batch: Car and Driver (`O-2026-012`), Bankrate (`O-2026-013`), J.D. Power (`O-2026-015`), and Trimble Viewpoint (`O-2026-018`). Their current articles and public editorial/press channels were rechecked on 2026-08-09. No messages were sent because `seo/outreach-automation.json` authorizes only the initial four-recipient campaign; Batch 2 requires a separate owner authorization.
+- Partnership candidates prepared but not contacted: AFCPE and NEFE for financial education, plus NCCER for construction education. Proposed value is a source-linked checklist or educational resource, not a backlink request, endorsement, payment promise, or affiliate claim. No partnership outreach was sent.
+- Real community opportunities were identified for value-first participation after account authorization and rule review: an `r/askcarsales` dealer-fee discussion, an `r/personalfinance` medical-bill-error discussion, an `r/Construction` change-order discussion, and an `r/smallbusiness` surprise-fee discussion. Nothing was posted, no account was created, and no link was dropped.
+- Legitimate listing candidates identified for later owner-authorized submission: ToolList.ai, ToolDirectory.ai, and Product Hunt. No listing was submitted; reciprocal-link and paid/low-quality directory options were rejected.
+- No new people were reached during this cycle because no authorized community account, approved finished video, or Batch 2/partnership send authorization was available. Real referral visitors, Google clicks after the metadata deployment, product clicks, replies, mentions, backlinks, and sales remain unknown/not measured.
+- Exact next continuation point: obtain one owner authorization to send up to four individualized Batch 2 emails, while keeping community posting, partnership outreach, listings, paid ads, and YouTube publication paused until their respective permissions/content approvals exist. HiddenFeeAI remains frozen, Phase 4 remains frozen, personal Gmail remains NONE, and calculator-authority.css remains untouched.
+
 ## PROJECT IDENTITY
 
 **Brand:** DetectHiddenFees.com
