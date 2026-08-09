@@ -10,7 +10,7 @@ const missing = files.filter(file => !fs.readFileSync(path.join(root, file), 'ut
 const runtime = fs.readFileSync(path.join(root, 'attribution.js'), 'utf8');
 const issues = [];
 if (missing.length) issues.push(`missing runtime on ${missing.length} sitemap pages`);
-for (const required of ['dhf_landing', 'dhf_referrer', 'dhf_session', 'dhf_cta_click', 'dhf_funnel_path_click', 'data-no-attribution', 'internalFunnelPath']) {
+for (const required of ['dhf_landing', 'dhf_referrer', 'dhf_session', 'dhf_cta_id', 'dhf_landing_view', 'dhf_cta_click', 'dhf_funnel_path_click', 'cta_id', 'cta_type', 'data-no-attribution', 'internalFunnelPath']) {
   if (!runtime.includes(required)) issues.push(`runtime missing ${required}`);
 }
 if (runtime.includes('document.body') || runtime.includes('FileReader') || runtime.includes('localStorage.setItem(STORAGE_KEY, document')) {

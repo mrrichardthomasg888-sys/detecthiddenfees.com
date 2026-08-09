@@ -25,7 +25,7 @@ Measure the path from a DetectHiddenFees landing page to a HiddenFeeAI referral,
 
 ## Handoff fields
 
-The existing DetectHiddenFees runtime may pass `dhf_landing`, `dhf_referrer`, `dhf_session`, `dhf_source`, and `utm_*` values. HiddenFeeAI must treat every value as untrusted, length-limit it, validate allowed paths/hosts, and discard malformed values.
+The existing DetectHiddenFees runtime may pass `dhf_landing`, `dhf_referrer`, `dhf_session`, `dhf_source`, `dhf_cta_id`, and `utm_*` values. HiddenFeeAI must treat every value as untrusted, length-limit it, validate allowed paths/hosts, and discard malformed values. `dhf_cta_id` is a page/action/position label for attribution analysis, not an identity token.
 
 Recommended addition: HiddenFeeAI should issue a short-lived, opaque `dhf_handoff_id` after validating the incoming context. If a signed handoff is used, signing must happen server-side and the signature must not contain document data. The opaque ID is the join key for downstream events; it is not an identity token.
 

@@ -152,15 +152,39 @@
     return 'document_upload';
   }
 
+  function ctaPosition(anchor) {
+    var explicit = clean(anchor.getAttribute('data-cta-position') || '');
+    if (explicit) return explicit;
+    var className = String(anchor.className || '').toLowerCase();
+    if (className.indexOf('sticky') !== -1) return 'sticky';
+    if (anchor.closest && anchor.closest('.hero')) return 'top';
+    if (anchor.closest && anchor.closest('.cta-block')) return 'end';
+    if (anchor.closest && anchor.closest('header, nav')) return 'nav';
+    return 'middle';
+  }
+
+  function ctaType(anchor, isProductLink) {
+    var explicit = clean(anchor.getAttribute('data-cta-type') || '');
+    return explicit || (isProductLink ? 'hiddenfeeai_referral' : 'internal_funnel');
+  }
+
+  function ctaId(anchor, pathname) {
+    var explicit = clean(anchor.getAttribute('data-cta-id') || '');
+    if (explicit) return explicit;
+    return clean(currentPage() + ':' + funnelAction(anchor, pathname) + ':' + ctaPosition(anchor));
+  }
+
   function decorate(anchor, attribution) {
     if (!destinationIsHiddenFeeAI(anchor) || anchor.getAttribute('data-no-attribution') === 'true') return;
     try {
       var url = new URL(anchor.href, window.location.href);
       var params = url.searchParams;
+      var pathname = internalFunnelPath(anchor);
       params.set('dhf_landing', clean(attribution.landing_page));
       params.set('dhf_referrer', clean(attribution.original_referrer));
       params.set('dhf_session', clean(attribution.session_id));
       params.set('dhf_source', 'detecthiddenfees');
+      params.set('dhf_cta_id', ctaId(anchor, pathname));
       Object.keys(attribution.utm || {}).forEach(function (key) {
         if (!params.has(key)) params.set(key, cleanParam(attribution.utm[key]));
       });
@@ -171,6 +195,12 @@
   }
 
   var attribution = buildAttribution();
+  emit('dhf_landing_view', {
+    landing_page: attribution.landing_page,
+    original_referrer: attribution.original_referrer,
+    utm: attribution.utm,
+    current_page: attribution.current_page
+  });
   document.querySelectorAll('a[href]').forEach(function (anchor) {
     decorate(anchor, attribution);
   });
@@ -186,7 +216,9 @@
       landing_page: attribution.landing_page,
       original_referrer: attribution.original_referrer,
       destination: isProductLink ? DESTINATION_HOST : internalPath,
-      cta_position: clean(anchor.getAttribute('data-cta-position') || 'unspecified'),
+      cta_id: ctaId(anchor, internalPath),
+      cta_type: ctaType(anchor, isProductLink),
+      cta_position: ctaPosition(anchor),
       cta_variant: clean(anchor.getAttribute('data-cta-variant') || 'unspecified'),
       cta_action: funnelAction(anchor, internalPath),
       link_text: clean(anchor.textContent || '').replace(/\s+/g, ' ')
