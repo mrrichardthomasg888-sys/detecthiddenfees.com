@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - 'codex/viralmint-pexels-eval-*'
+      - main
   workflow_dispatch:
 
 permissions:
