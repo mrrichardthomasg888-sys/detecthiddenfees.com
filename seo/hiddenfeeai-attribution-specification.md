@@ -1,6 +1,6 @@
 # HiddenFeeAI cross-domain attribution specification
 
-Status: implementation-ready specification; DetectHiddenFees runtime is preserved; HiddenFeeAI changes are not included in this repository.
+Status: DetectHiddenFees handoff implemented; HiddenFeeAI production integration implemented in its separate repository on 2026-08-09.
 
 ## Objective
 
@@ -12,7 +12,7 @@ Measure the path from a DetectHiddenFees landing page to a HiddenFeeAI referral,
 | --- | --- | --- |
 | `dhf_landing_view` | `event_id`, `event_time`, `session_id`, `landing_path`, sanitized `referrer_origin`, UTM fields, consent state | DetectHiddenFees |
 | `dhf_cta_click` | all landing context, `cta_id`, `cta_type`, `cta_action`, `cta_position`, `cta_variant`, destination host/path | DetectHiddenFees |
-| `hiddenfeeai_referral_received` | new event ID, validated handoff ID/context, entry route, received timestamp | HiddenFeeAI |
+| `hiddenfeeai_arrival` | new event ID, validated handoff context, entry route, received timestamp | HiddenFeeAI |
 | `upload_started` | handoff ID/context, upload flow ID, document category selected by user if non-sensitive | HiddenFeeAI |
 | `upload_completed` | handoff ID/context, upload flow ID, opaque document ID, file type/size bucket only if needed | HiddenFeeAI |
 | `analysis_completed` | handoff ID/context, opaque analysis ID, product outcome status, duration bucket if needed | HiddenFeeAI |
@@ -25,7 +25,7 @@ Measure the path from a DetectHiddenFees landing page to a HiddenFeeAI referral,
 
 ## Handoff fields
 
-The existing DetectHiddenFees runtime may pass `dhf_landing`, `dhf_referrer`, `dhf_session`, `dhf_source`, `dhf_cta_id`, and `utm_*` values. HiddenFeeAI must treat every value as untrusted, length-limit it, validate allowed paths/hosts, and discard malformed values. `dhf_cta_id` is a page/action/position label for attribution analysis, not an identity token.
+The existing DetectHiddenFees runtime passes `dhf_landing`, `dhf_referrer`, `dhf_session`, `dhf_source`, `dhf_cta_id`, `dhf_cta_type`, and `utm_*` values. HiddenFeeAI treats every value as untrusted, length-limits it, validates allowed paths/hosts, and discards malformed values. `dhf_cta_id` is a page/action/position label for attribution analysis, not an identity token.
 
 Recommended addition: HiddenFeeAI should issue a short-lived, opaque `dhf_handoff_id` after validating the incoming context. If a signed handoff is used, signing must happen server-side and the signature must not contain document data. The opaque ID is the join key for downstream events; it is not an identity token.
 

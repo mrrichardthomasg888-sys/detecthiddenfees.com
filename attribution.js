@@ -185,6 +185,7 @@
       params.set('dhf_session', clean(attribution.session_id));
       params.set('dhf_source', 'detecthiddenfees');
       params.set('dhf_cta_id', ctaId(anchor, pathname));
+      params.set('dhf_cta_type', ctaType(anchor, true));
       Object.keys(attribution.utm || {}).forEach(function (key) {
         if (!params.has(key)) params.set(key, cleanParam(attribution.utm[key]));
       });
