@@ -33,6 +33,10 @@ jobs:
         with:
           node-version: 20
 
+      - name: Install Worker dependency
+        working-directory: business-reply-worker
+        run: npm install --no-package-lock --ignore-scripts
+
       - name: Verify business-only reply safety gates
         run: node scripts/test-business-reply-system.js
 
@@ -43,10 +47,6 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_ZONE_ID: ${{ secrets.CLOUDFLARE_ZONE_ID }}
         run: node scripts/deploy-business-reply-infrastructure.js prepare
-
-      - name: Install Worker dependency
-        working-directory: business-reply-worker
-        run: npm install --no-package-lock --ignore-scripts
 
       - name: Generate deployment-only Wrangler configuration
         env:
