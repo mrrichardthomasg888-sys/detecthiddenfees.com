@@ -1806,7 +1806,17 @@ The master validator baseline is 238 pages with zero missing titles/descriptions
 - Production checkout remains `TEST_MODE_SKIP_PAYMENT=false`. The remaining measurement action is a controlled Stripe test-mode checkout/webhook or the first real customer event, followed by approved operational querying of the token-protected event export. No personal Gmail access, secret values, document data, pricing changes, or Phase 4 page changes were introduced.
 - Exact safe continuation point: preserve the deployed HiddenFeeAI integration, continue Batch 1/reply/follow-up/mention monitoring, keep Batch 2 unsent, keep the eight Phase 4 pages frozen, compare Search Console around 2026-08-20, and do not declare traffic/revenue improvements until real post-deployment event or Search Console data exists.
 
-## Phase 8B HiddenFeeAI attribution and verified revenue handoff - 2026-08-09
+## HiddenFeeAI production-critical freeze - 2026-08-09
+
+- This section supersedes the earlier Phase 8B attribution handoff below. That earlier integration was removed and must not be treated as active.
+- HiddenFeeAI is a production-critical paid application. SEO, traffic, marketing, attribution, or outreach automation must not modify HiddenFeeAI without explicit owner approval.
+- The Phase 8B attribution experiment was removed from HiddenFeeAI. Preserve the product’s existing upload, document processing, Gemini, detection, report, PDF, mobile, pricing, and design behavior.
+- Payment integrity remains separate from marketing: never mark an audit paid from a browser return alone; retain authoritative Stripe confirmation, webhook signature validation, and duplicate-payment protection.
+- Future DetectHiddenFees work must remain on the DetectHiddenFees repository unless the owner explicitly authorizes a separate HiddenFeeAI product change.
+- Cleanup commit `ac39639489d6749c9e4cd0ef2fe001a49a4626d2` is deployed to HiddenFeeAI production. Worker version `e7b7a13d-0b34-4dc5-bc8a-265f2a65d6bf`; Pages deployment `f61fefb5.hiddenfeeai.pages.dev`; live health is passing (`status=ok`, `store=kv`).
+- Cleanup verification passed: client build/tests, scanner tests, upload integration tests, Worker dry-run, production homepage HTTP 200, and unsigned webhook rejection. No real-money Stripe purchase was run. Exact safe continuation point: return to DetectHiddenFees traffic acquisition only.
+
+## Phase 8B HiddenFeeAI attribution and verified revenue handoff - 2026-08-09 (SUPERSEDED; DO NOT REBUILD)
 
 - HiddenFeeAI production repository confirmed as `mrrichardthomasg888-sys/hiddenfeeai`, branch `main`; its production architecture is Cloudflare Pages frontend plus Cloudflare Worker backend with the existing `ANALYSIS_KV` namespace and Stripe Checkout. Work was isolated from unrelated local product changes.
 - DetectHiddenFees now passes `dhf_landing`, `dhf_referrer`, `dhf_session`, `dhf_source`, `dhf_cta_id`, `dhf_cta_type`, and existing `utm_*` context to HiddenFeeAI. `dhf_cta_id` remains preserved as the opaque page/action/position label. No document contents, filenames, OCR text, analysis results, or payment-card data are included.
