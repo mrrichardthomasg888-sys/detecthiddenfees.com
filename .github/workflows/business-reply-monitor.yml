@@ -1,12 +1,6 @@
 name: DetectHiddenFees business-only reply monitor
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/business-reply-monitor.yml'
-      - 'scripts/process-business-reply-events.js'
-      - 'seo/outreach-status.json'
   schedule:
     - cron: '*/15 * * * *'
   workflow_dispatch:
