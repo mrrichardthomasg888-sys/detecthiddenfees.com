@@ -22,11 +22,12 @@
     "max_follow_ups": 1
   },
   "reply_monitor": {
-    "status": "blocked_until_cloudflare_worker_authorization",
+    "status": "deployed_pending_live_inbound_test",
     "address": "research@detecthiddenfees.com",
     "service": "Cloudflare Email Worker + KV queue + GitHub Actions poller",
     "personal_gmail_access": "none",
-    "required_secure_values": ["CLOUDFLARE_API_TOKEN", "CLOUDFLARE_ACCOUNT_ID", "REPLY_EVENT_NAMESPACE_ID"],
+    "required_secure_values": ["CLOUDFLARE_API_TOKEN", "CLOUDFLARE_ACCOUNT_ID", "CLOUDFLARE_ZONE_ID"],
+    "namespace_title": "detecthiddenfees-business-reply",
     "human_review_for_substantive_replies": true,
     "store_email_bodies": false
   },

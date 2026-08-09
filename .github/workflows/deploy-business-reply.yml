@@ -1,0 +1,93 @@
+name: Deploy DetectHiddenFees business reply Worker
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'business-reply-worker/**'
+      - 'scripts/deploy-business-reply-infrastructure.js'
+      - 'scripts/test-business-reply-system.js'
+      - 'scripts/process-business-reply-events.js'
+      - 'seo/outreach-automation.json'
+      - '.github/workflows/deploy-business-reply.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: detecthiddenfees-business-reply-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Verify business-only reply safety gates
+        run: node scripts/test-business-reply-system.js
+
+      - name: Create or reuse the isolated KV namespace
+        id: prepare
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_ZONE_ID: ${{ secrets.CLOUDFLARE_ZONE_ID }}
+        run: node scripts/deploy-business-reply-infrastructure.js prepare
+
+      - name: Install Worker dependency
+        working-directory: business-reply-worker
+        run: npm install --no-package-lock --ignore-scripts
+
+      - name: Generate deployment-only Wrangler configuration
+        env:
+          NAMESPACE_ID: ${{ steps.prepare.outputs.namespace_id }}
+        run: |
+          node -e "require('fs').writeFileSync('business-reply-worker/wrangler.ci.toml', ['name = \\\"detecthiddenfees-business-reply\\\"','main = \\\"src/index.js\\\"','compatibility_date = \\\"2026-08-08\\\"','compatibility_flags = [\\\"nodejs_compat\\\"]','','[[kv_namespaces]]','binding = \\\"REPLY_EVENT_QUEUE\\\"','id = \\\"' + process.env.NAMESPACE_ID + '\\\"',''].join('\\n'))"
+
+      - name: Deploy the email Worker
+        working-directory: business-reply-worker
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx --yes wrangler@latest deploy --config wrangler.ci.toml
+
+      - name: Create or verify only the research@ Worker route
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_ZONE_ID: ${{ secrets.CLOUDFLARE_ZONE_ID }}
+        run: node scripts/deploy-business-reply-infrastructure.js activate
+
+      - name: Send one internal research@ inbound-path test
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          OUTREACH_SEND_ENABLED: '1'
+          OUTREACH_TEST_ENABLED: '1'
+          OUTREACH_TEST_RECIPIENT: research@detecthiddenfees.com
+          OUTREACH_FROM_EMAIL: support@detecthiddenfees.com
+          OUTREACH_REPLY_TO: research@detecthiddenfees.com
+        run: node scripts/outreach-automation.js test
+
+      - name: Poll and process the internal inbound event
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          REPLY_EVENT_NAMESPACE_TITLE: detecthiddenfees-business-reply
+        run: |
+          sleep 15
+          result="$(node scripts/process-business-reply-events.js)"
+          echo "$result"
+          node -e "const result = JSON.parse(process.argv[1]); if (result.processed < 1) process.exit(1);" "$result"
+
+      - name: Confirm external outreach remains disabled
+        run: node scripts/test-business-reply-system.js

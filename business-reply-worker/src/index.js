@@ -89,3 +89,5 @@ export default {
     await env.REPLY_EVENT_QUEUE.put(`event:${eventId}`, JSON.stringify(event), { expirationTtl: EVENT_TTL_SECONDS });
   }
 };
+
+export { classify, suppresses, normalizeEmail };

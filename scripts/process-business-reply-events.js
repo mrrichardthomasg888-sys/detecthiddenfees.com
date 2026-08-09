@@ -5,12 +5,14 @@ const root = path.resolve(__dirname, '..');
 const statusPath = path.join(root, 'seo', 'outreach-status.json');
 const pipeline = JSON.parse(fs.readFileSync(path.join(root, 'seo', 'outreach-pipeline.json'), 'utf8'));
 const messages = JSON.parse(fs.readFileSync(path.join(root, 'seo', 'outreach-messages.json'), 'utf8'));
-const required = ['CLOUDFLARE_API_TOKEN', 'CLOUDFLARE_ACCOUNT_ID', 'REPLY_EVENT_NAMESPACE_ID'];
+const required = ['CLOUDFLARE_API_TOKEN', 'CLOUDFLARE_ACCOUNT_ID'];
 
 for (const name of required) if (!process.env[name]) throw new Error(`Missing secure connection value: ${name}`);
 
-const apiBase = `https://api.cloudflare.com/client/v4/accounts/${encodeURIComponent(process.env.CLOUDFLARE_ACCOUNT_ID)}/storage/kv/namespaces/${encodeURIComponent(process.env.REPLY_EVENT_NAMESPACE_ID)}`;
+const apiRoot = `https://api.cloudflare.com/client/v4/accounts/${encodeURIComponent(process.env.CLOUDFLARE_ACCOUNT_ID)}`;
 const headers = { authorization: `Bearer ${process.env.CLOUDFLARE_API_TOKEN}`, 'content-type': 'application/json' };
+const namespaceTitle = process.env.REPLY_EVENT_NAMESPACE_TITLE || 'detecthiddenfees-business-reply';
+let apiBase;
 
 function loadStatus() {
   try { return JSON.parse(fs.readFileSync(statusPath, 'utf8')); }
@@ -46,7 +48,17 @@ async function cf(pathname, options = {}) {
   if (!response.ok) throw new Error(`Cloudflare KV request failed: HTTP ${response.status}`);
   try { return JSON.parse(body); } catch { return null; }
 }
+async function resolveNamespace() {
+  if (process.env.REPLY_EVENT_NAMESPACE_ID) return process.env.REPLY_EVENT_NAMESPACE_ID;
+  const response = await fetch(`${apiRoot}/storage/kv/namespaces?per_page=1000`, { headers });
+  const body = await response.json();
+  if (!response.ok || body?.success === false) throw new Error(`Cloudflare namespace lookup failed: HTTP ${response.status}`);
+  const namespace = (body.result || []).find(item => item.title === namespaceTitle);
+  if (!namespace?.id) throw new Error(`Cloudflare KV namespace not found: ${namespaceTitle}`);
+  return namespace.id;
+}
 async function main() {
+  apiBase = `${apiRoot}/storage/kv/namespaces/${encodeURIComponent(await resolveNamespace())}`;
   const listed = await cf('/keys?prefix=event%3A&limit=100');
   const keys = Array.isArray(listed?.result) ? listed.result.map(item => item.name).filter(Boolean) : [];
   const status = loadStatus();
