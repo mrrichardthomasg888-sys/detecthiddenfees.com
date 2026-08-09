@@ -1,5 +1,38 @@
 {
   "version": "2026-08-08.1",
   "privacy": "status-only; no inbound email bodies, personal mailbox data, or sender addresses are stored in the repository",
-  "records": {}
+  "records": {
+    "O-2026-002": {
+      "opportunity_id": "O-2026-002",
+      "status": "SENT",
+      "sent_at": "2026-08-09T02:05:08.705Z",
+      "follow_up_count": 0,
+      "follow_up_cancelled": false,
+      "suppressed": false
+    },
+    "O-2026-006": {
+      "opportunity_id": "O-2026-006",
+      "status": "SENT",
+      "sent_at": "2026-08-09T02:05:10.071Z",
+      "follow_up_count": 0,
+      "follow_up_cancelled": false,
+      "suppressed": false
+    },
+    "O-2026-007": {
+      "opportunity_id": "O-2026-007",
+      "status": "SENT",
+      "sent_at": "2026-08-09T02:05:11.427Z",
+      "follow_up_count": 0,
+      "follow_up_cancelled": false,
+      "suppressed": false
+    },
+    "O-2026-009": {
+      "opportunity_id": "O-2026-009",
+      "status": "SENT",
+      "sent_at": "2026-08-09T02:05:12.785Z",
+      "follow_up_count": 0,
+      "follow_up_cancelled": false,
+      "suppressed": false
+    }
+  }
 }
