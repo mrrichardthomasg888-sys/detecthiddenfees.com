@@ -6,6 +6,20 @@
 
 ---
 
+## Traffic and sales mode quick-win cycle - 2026-08-09
+
+- This current operating section supersedes older planning entries below wherever they conflict, especially older video-production, YouTube-publication, or “await authorization” notes.
+- Video production is no longer part of Luna's responsibilities. The owner will create social videos manually. Luna may provide topic briefs and may publish owner-approved finished videos through the existing authorized YouTube workflow, but must not generate/render video or work on ViralMint, FFmpeg, or video-production infrastructure.
+- Used the real 2026-08-08 Search Console export and preserved the aggregate-only limitation: it contains separate page and query tables, not query + page + date rows. No query-to-page ownership, search-volume estimate, cannibalization claim, or fabricated traffic result was added.
+- Implemented a narrow, non-frozen snippet test on five existing opportunity pages: `/duplicate-medical-billing-charges`, `/hidden-subscription-fees`, `/what-questions-should-i-ask-before-signing-a-contract`, `/hidden-fee-statistics`, and `/hidden-dealership-financing-fees`. Each received an intent-aligned title and meta description; matching Open Graph/Twitter fields and the relevant JSON-LD headline/description were updated where present. URLs, canonicals, H1s, primary content, design, and product behavior were not changed.
+- Updated only those five sitemap entries' `lastmod` values to `2026-08-09` so the crawl signal matches the metadata edit; the sitemap still contains only canonical URLs.
+- The existing `hidden-fees-guides.html` and knowledge/encyclopedia hubs already provide contextual links to the priority medical, subscription, contract, statistics, and dealership resources. No sitewide link block or exact-match anchor expansion was added.
+- Intent/source context used for the medical and subscription opportunities remains first-party: CMS bill-error guidance (`https://www.cms.gov/medical-bill-rights/help/guides/bill-errors`) and FTC auto-renewal guidance (`https://consumer.ftc.gov/articles/getting-and-out-free-trials-auto-renewals-and-negative-option-subscriptions`). These sources support review questions and disclosure context, not prevalence claims.
+- Validation passed after the edit: all five pages have one H1, a canonical URL, no detected encoding artifact, sensible title/description lengths, and `git diff --check` passes. No Phase 4 page, `calculator-authority.css`, HiddenFeeAI repository, Brevo, Cloudflare, outreach infrastructure, or video asset was changed.
+- Business results are not yet measurable from this cycle: no new Google clicks, visitors, referrals, mentions, backlinks, leads, sales, or revenue are claimed. The edit is a clean snippet experiment awaiting a comparable Search Console export.
+- Batch 1 remains CarEdge, Edmunds, Procore, and NerdWallet `SENT`, with no recorded replies, bounces, declines, follow-ups, mentions, or backlinks. Batch 2 remains unsent. Personal Gmail access remains NONE. HiddenFeeAI remains production-frozen.
+- Exact continuation point: deploy and measure this five-page snippet test; keep the eight Phase 4 pages frozen; continue Batch 1 monitoring and the 2026-08-17 UTC one-follow-up gate; keep Batch 2 unsent; do not launch the proposed $75 Google Ads test without owner approval and trustworthy downstream measurement; provide the owner three manual-video briefs per day rather than producing videos.
+
 ## PROJECT IDENTITY
 
 **Brand:** DetectHiddenFees.com
