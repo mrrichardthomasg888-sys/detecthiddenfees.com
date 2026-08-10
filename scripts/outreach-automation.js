@@ -9,6 +9,7 @@ const statePath = path.join(root, 'private', 'outreach-runtime.json');
 const publicStatusPath = path.join(root, 'seo', 'outreach-status.json');
 const researchUrl = config.email ? 'https://detecthiddenfees.com/research-media-kit' : 'https://detecthiddenfees.com/research-media-kit';
 const initialIds = new Set(['O-2026-002', 'O-2026-006', 'O-2026-007', 'O-2026-009']);
+const activeSendIds = new Set(config.email.authorized_opportunity_ids || initialIds);
 
 function now() { return new Date().toISOString(); }
 function loadState() {
@@ -52,7 +53,7 @@ function resultSummary(result) {
 }
 async function verifyTargets() {
   const results = [];
-  for (const id of initialIds) {
+  for (const id of activeSendIds) {
     const record = recordFor(id);
     const message = messageFor(id);
     if (!record || !message) {

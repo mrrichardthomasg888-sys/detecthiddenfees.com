@@ -55,6 +55,50 @@
       "reason": "Public press address verified on NerdWallet's official press page.",
       "follow_up_subject": "Following up: CFPB source map for overdraft-fee terminology",
       "follow_up_body": "Hello NerdWallet press team,\n\nI wanted to follow up once on my note about the public CFPB source map covering overdraft, NSF, returned-item, maintenance, and account-disclosure terminology. It does not replace provider pricing or claim an average.\n\nThe methodology and downloadable records are here:\nhttps://detecthiddenfees.com/research-media-kit\n\nIf it is not useful for your current coverage, no response is needed.\n\nBest,\nDetectHiddenFees Research Team"
+    },
+    {
+      "opportunity_id": "O-2026-012",
+      "channel": "email",
+      "recipient": "editors@caranddriver.com",
+      "subject": "A source map for your dealer-fee paperwork guide",
+      "body": "Hello Car and Driver editors,\n\nI’m reaching out because Elizabeth Rivelli’s guide on dealer fees helps readers separate taxes and registration from document, preparation, and optional add-on charges.\n\nDetectHiddenFees reviewed 25 verified public-source records, including CFPB and FTC material relevant to dealer paperwork and out-the-door costs. It is a curated source review, not a market-wide fee study or a replacement for Car and Driver’s reporting.\n\nThe methodology and downloadable JSON/CSV are here:\nhttps://detecthiddenfees.com/research-media-kit\n\nPlease use it only if the source map is useful to readers reviewing a vehicle deal. No coverage or link is expected.\n\nBest,\nDetectHiddenFees Research Team",
+      "sendable_by_automation": true,
+      "reason": "Public editorial address verified on Car and Driver’s official contact page.",
+      "follow_up_subject": "Following up: source map for your dealer-fee paperwork guide",
+      "follow_up_body": "Hello Car and Driver editors,\n\nI wanted to follow up once on the DetectHiddenFees source map for readers reviewing dealer fees and out-the-door paperwork. It is a curated public-source review, not a market-wide fee study; methodology and downloads are here:\nhttps://detecthiddenfees.com/research-media-kit\n\nIf it is not useful for current coverage, no response is needed.\n\nBest,\nDetectHiddenFees Research Team"
+    },
+    {
+      "opportunity_id": "O-2026-013",
+      "channel": "email",
+      "recipient": "julie.guacci@bankrate.com",
+      "subject": "CFPB source context for Bankrate’s junk-fee guide",
+      "body": "Hello Julie,\n\nI’m reaching out because Karen Bennett’s Bankrate guide explains how junk fees can appear across everyday financial products and points readers to CFPB guidance.\n\nDetectHiddenFees organized 25 verified public-source records, including CFPB material on overdraft, returned-item, account-maintenance, and payment-fee terminology. The review is a bounded source map, not a replacement for Bankrate’s provider data and not a claim about average fees.\n\nThe methodology and downloadable records are here:\nhttps://detecthiddenfees.com/research-media-kit\n\nPlease use it only if the source map adds useful context for readers checking account terms. No coverage or link is expected.\n\nBest,\nDetectHiddenFees Research Team",
+      "sendable_by_automation": true,
+      "reason": "Public Bankrate PR address verified in Bankrate’s official press materials.",
+      "follow_up_subject": "Following up: CFPB source context for Bankrate’s junk-fee guide",
+      "follow_up_body": "Hello Julie,\n\nI wanted to follow up once on the DetectHiddenFees CFPB source map for readers checking bank-fee terminology. It is a bounded public-source review, not an average or market-wide fee study:\nhttps://detecthiddenfees.com/research-media-kit\n\nIf it is not useful for current coverage, no response is needed.\n\nBest,\nDetectHiddenFees Research Team"
+    },
+    {
+      "opportunity_id": "O-2026-015",
+      "channel": "email",
+      "recipient": "media.relations@jdpa.com",
+      "subject": "Source-linked context for your dealer-document-fee guide",
+      "body": "Hello J.D. Power media relations,\n\nI’m reaching out because Dustin Hawley’s guide explains dealer document fees, state differences, and why buyers should examine total vehicle cost.\n\nDetectHiddenFees reviewed 25 verified public-source records, including CFPB material distinguishing document, preparation, delivery, market-adjustment, and optional add-on charges. It is a curated source review, not a study of typical amounts or dealer-fee prevalence.\n\nThe methodology and downloadable JSON/CSV are here:\nhttps://detecthiddenfees.com/research-media-kit\n\nPlease use it only if this source context helps readers compare documentary fees with taxes, title, registration, and optional products. No coverage or link is expected.\n\nBest,\nDetectHiddenFees Research Team",
+      "sendable_by_automation": true,
+      "reason": "Public J.D. Power corporate media address verified in an official 2026 press release; referenced article is live.",
+      "follow_up_subject": "Following up: source-linked context for your dealer-document-fee guide",
+      "follow_up_body": "Hello J.D. Power media relations,\n\nI wanted to follow up once on the DetectHiddenFees source map for readers comparing dealer document fees with other vehicle charges. It is a curated public-source review, not a typical-amount or prevalence study:\nhttps://detecthiddenfees.com/research-media-kit\n\nIf it is not useful for current coverage, no response is needed.\n\nBest,\nDetectHiddenFees Research Team"
+    },
+    {
+      "opportunity_id": "O-2026-018",
+      "channel": "email",
+      "recipient": "pr@trimble.com",
+      "subject": "Public-source companion for Trimble’s change-order guide",
+      "body": "Hello Trimble PR team,\n\nI’m reaching out because Trimble Viewpoint’s change-order guide explains how scope, price, schedule, documentation, and approvals should be handled when project work changes.\n\nDetectHiddenFees reviewed 25 verified public-source records, including official home-services guidance on written estimates, contracts, materials, dates, prices, and added charges. It is a curated source review, not a construction prevalence study.\n\nThe methodology and downloadable JSON/CSV are here:\nhttps://detecthiddenfees.com/research-media-kit\n\nPlease use it only if this source record adds useful consumer or home-services context. No coverage or link is expected.\n\nBest,\nDetectHiddenFees Research Team",
+      "sendable_by_automation": true,
+      "reason": "Public Trimble media address verified on Trimble’s official media-contacts page; referenced article is live at the current redirected URL.",
+      "follow_up_subject": "Following up: public-source companion for Trimble’s change-order guide",
+      "follow_up_body": "Hello Trimble PR team,\n\nI wanted to follow up once on the DetectHiddenFees public-source companion for readers reviewing estimates, contracts, and change documentation. It is a curated review, not a construction prevalence study:\nhttps://detecthiddenfees.com/research-media-kit\n\nIf it is not useful for current coverage, no response is needed.\n\nBest,\nDetectHiddenFees Research Team"
     }
   ]
 }
