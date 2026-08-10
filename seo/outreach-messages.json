@@ -5,12 +5,14 @@
   "messages": [
     {
       "opportunity_id": "O-2026-005",
-      "channel": "public communications contact form",
-      "recipient": null,
+      "channel": "email",
+      "recipient": "emily.akpan@consumer.org",
       "subject": "Public-source fee records for your car-buying fee guide",
       "body": "Hello Consumer Reports communications team,\n\nI’m reaching out because Jon Linkov’s guide helps readers distinguish legitimate car-buying charges from dealer add-ons.\n\nDetectHiddenFees reviewed 25 verified public-source records, including CFPB guidance on preparation, document, delivery, market-adjustment, and optional F&I charges. The review is a curated sample, not a market-wide fee study.\n\nThe report, methodology, JSON, and CSV are available here:\nhttps://detecthiddenfees.com/research-media-kit\n\nPlease consider it only if this source map is useful for readers reviewing vehicle paperwork. No link or coverage is expected.\n\nBest,\nDetectHiddenFees Research Team",
-      "sendable_by_automation": false,
-      "reason": "The verified public channel is a communications contact form, not an authenticated email endpoint; the system will not submit forms automatically."
+      "sendable_by_automation": true,
+      "reason": "Official Consumer Reports media page publicly lists this communications contact.",
+      "follow_up_subject": "Following up: public-source fee records for your car-buying fee guide",
+      "follow_up_body": "Hello Emily,\n\nI wanted to follow up once on the DetectHiddenFees source map for readers reviewing car-buying fees and dealer add-ons. It is a curated public-source review, not a market-wide fee study:\nhttps://detecthiddenfees.com/research-media-kit\n\nIf it is not useful for current coverage, no response is needed.\n\nBest,\nDetectHiddenFees Research Team"
     },
     {
       "opportunity_id": "O-2026-002",
@@ -99,6 +101,39 @@
       "reason": "Public Trimble media address verified on Trimble’s official media-contacts page; referenced article is live at the current redirected URL.",
       "follow_up_subject": "Following up: public-source companion for Trimble’s change-order guide",
       "follow_up_body": "Hello Trimble PR team,\n\nI wanted to follow up once on the DetectHiddenFees public-source companion for readers reviewing estimates, contracts, and change documentation. It is a curated review, not a construction prevalence study:\nhttps://detecthiddenfees.com/research-media-kit\n\nIf it is not useful for current coverage, no response is needed.\n\nBest,\nDetectHiddenFees Research Team"
+    },
+    {
+      "opportunity_id": "O-2026-014",
+      "channel": "email",
+      "recipient": "lisa.aloisio@coxautoinc.com",
+      "subject": "Source map for Kelley Blue Book's dealer-pricing guidance",
+      "body": "Hello Lisa,\n\nI’m reaching out because Kelley Blue Book’s dealer-pricing guidance helps explain how advertised prices, non-tax fees, and dealer-installed options should be disclosed.\n\nDetectHiddenFees organized 25 verified public-source records, including CFPB material distinguishing government charges from dealer fees and optional products. It is a curated source review, not a legal compliance conclusion or market-wide fee study.\n\nThe methodology and downloadable records are here:\nhttps://detecthiddenfees.com/research-media-kit\n\nPlease use it only if this source map adds useful consumer context for readers comparing an advertised price with the out-the-door amount. No coverage or link is expected.\n\nBest,\nDetectHiddenFees Research Team",
+      "sendable_by_automation": true,
+      "reason": "Official Kelley Blue Book MediaRoom publicly lists this public-relations contact.",
+      "follow_up_subject": "Following up: source map for Kelley Blue Book's dealer-pricing guidance",
+      "follow_up_body": "Hello Lisa,\n\nI wanted to follow up once on the DetectHiddenFees source map for readers comparing advertised vehicle prices with disclosed charges. It is a curated public-source review, not a legal compliance conclusion or market-wide fee study:\nhttps://detecthiddenfees.com/research-media-kit\n\nIf it is not useful for current coverage, no response is needed.\n\nBest,\nDetectHiddenFees Research Team"
+    },
+    {
+      "opportunity_id": "O-2026-017",
+      "channel": "email",
+      "recipient": "media@ap.org",
+      "subject": "FTC source map for all-in consumer pricing coverage",
+      "body": "Attention: Media Relations,\n\nI’m reaching out because AP’s coverage of ticket-fee disclosure gives readers useful context on all-in consumer pricing and the FTC’s fee-transparency rule.\n\nDetectHiddenFees organized the relevant FTC FAQ and related public-source material within a 25-record Evidence Review. It is a source map with explicit limitations, not a replacement for AP reporting and not a claim about market-wide fee prevalence.\n\nThe methodology and downloadable records are here:\nhttps://detecthiddenfees.com/research-media-kit\n\nPlease use it only if the primary-source links help with future consumer-fee coverage. No coverage or link is expected.\n\nBest,\nDetectHiddenFees Research Team",
+      "sendable_by_automation": true,
+      "reason": "The official AP Media Center publicly directs interview requests to media@ap.org.",
+      "follow_up_subject": "Following up: FTC source map for all-in consumer pricing coverage",
+      "follow_up_body": "Attention: Media Relations,\n\nI wanted to follow up once on the DetectHiddenFees FTC source map for consumer-fee coverage. It is a bounded public-source review, not a market-wide fee study:\nhttps://detecthiddenfees.com/research-media-kit\n\nIf it is not useful for current coverage, no response is needed.\n\nBest,\nDetectHiddenFees Research Team"
+    },
+    {
+      "opportunity_id": "O-2026-021",
+      "channel": "email",
+      "recipient": "content@levelset.com",
+      "subject": "Public-source companion for Levelset's change-order guide",
+      "body": "Hello Levelset editorial team,\n\nYour change-order resource explains how project changes can affect scope, price, and payment risk.\n\nDetectHiddenFees reviewed 25 verified public-source records, including official home-services guidance on written estimates, contracts, materials, dates, prices, and added charges. It is a curated source review, not a construction prevalence study or legal advice.\n\nThe methodology and downloadable JSON/CSV are here:\nhttps://detecthiddenfees.com/research-media-kit\n\nPlease consider it only if the source record adds useful context for homeowners or contractors reviewing change documentation. No coverage or link is expected.\n\nBest,\nDetectHiddenFees Research Team",
+      "sendable_by_automation": true,
+      "reason": "Official Levelset guest-contributor guidelines publicly list content@levelset.com for editorial pitches.",
+      "follow_up_subject": "Following up: public-source companion for Levelset's change-order guide",
+      "follow_up_body": "Hello Levelset editorial team,\n\nI wanted to follow up once on the DetectHiddenFees public-source companion for readers reviewing estimates, contracts, and change documentation. It is a curated review, not a construction prevalence study:\nhttps://detecthiddenfees.com/research-media-kit\n\nIf it is not useful for current coverage, no response is needed.\n\nBest,\nDetectHiddenFees Research Team"
     }
   ]
 }
