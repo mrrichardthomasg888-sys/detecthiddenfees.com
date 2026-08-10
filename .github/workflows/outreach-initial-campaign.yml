@@ -1,6 +1,9 @@
 name: DetectHiddenFees controlled initial outreach
 
 on:
+  push:
+    paths:
+      - '.github/workflows/outreach-initial-campaign.yml'
   schedule:
     - cron: '41 15 * * *'
   workflow_dispatch:
@@ -14,6 +17,7 @@ concurrency:
 
 jobs:
   send-initial-campaign:
+    if: github.event_name != 'push' || github.event.head_commit.message == 'Dispatch Batch 3'
     runs-on: ubuntu-latest
     steps:
       - name: Check out main
