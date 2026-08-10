@@ -20,6 +20,19 @@
 - HiddenFeeAI remains production-frozen. DetectHiddenFees production pages, the eight Phase 4 pages, and `calculator-authority.css` were untouched.
 - Exact continuation point: measure views, engagement, and DetectHiddenFees traffic from this Short before changing the creative or uploading another owner-approved video.
 
+## Google winner conversion-page update - 2026-08-09
+
+- Winning query: `what questions to ask before signing contract`.
+- Winning URL: `https://detecthiddenfees.com/what-questions-should-i-ask-before-signing-a-contract`.
+- Latest Search Console baseline from the owner-provided 2026-08-09 ZIP: 2 clicks, 7 impressions, 28.57% CTR, average position 8.86.
+- The export has separate aggregate query and page tables, not query + page + date rows. The query and page totals align, but row-level ownership is not claimed. Device totals are aggregate only: Desktop 2 clicks / 106 impressions / position 41.46; Mobile 0 clicks / 38 impressions / position 21.16.
+- Rollback checkpoint before conversion-page work: commit `c07a74b622852f4a081fd5b088484042788104bd` (`Record contract query winner baseline`).
+- Surgical conversion work on the existing URL: preserved the existing title, URL, canonical, H1, core article, FAQ content, and visual system; refreshed the visible direct answer; added a top HiddenFeeAI CTA; added a 15-question expandable contract checklist; added a mid-page upload/review CTA; added ten red-flag explanations; added six document-specific internal resource links; refreshed the bottom CTA and restrained sticky CTA; set the page `dateModified` to 2026-08-09.
+- HiddenFeeAI code and repository were not modified. No Phase 4 page, `calculator-authority.css`, or production design system was modified.
+- No new page was created. No query-level success claim has been made. The current page's contextual links point to existing automotive, construction, service-agreement, subscription, lease, and vendor-contract resources; no mass exact-match linking was added.
+- Measurement checkpoints for this page/query: 24 hours 2026-08-10; 3 days 2026-08-12; 7 days 2026-08-16; 14 days 2026-08-23; 28 days 2026-09-06. Compare clicks, impressions, CTR, average position, related queries, landing-page traffic, and HiddenFeeAI referral activity only from real data.
+- Exact continuation point: finish focused QA, commit and push the DetectHiddenFees-only conversion update, verify the live URL returns HTTP 200 with the new sections, then wait for the next comparable Search Console export. Keep HiddenFeeAI frozen and do not create a second page for this intent.
+
 ## Traffic and sales mode quick-win cycle - 2026-08-09
 
 - This current operating section supersedes older planning entries below wherever they conflict, especially older video-production, YouTube-publication, or “await authorization” notes.
