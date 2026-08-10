@@ -33,6 +33,38 @@
       "follow_up_count": 0,
       "follow_up_cancelled": false,
       "suppressed": false
+    },
+    "O-2026-012": {
+      "opportunity_id": "O-2026-012",
+      "status": "SENT",
+      "sent_at": "2026-08-10T02:57:20.846Z",
+      "follow_up_count": 0,
+      "follow_up_cancelled": false,
+      "suppressed": false
+    },
+    "O-2026-013": {
+      "opportunity_id": "O-2026-013",
+      "status": "SENT",
+      "sent_at": "2026-08-10T02:57:22.297Z",
+      "follow_up_count": 0,
+      "follow_up_cancelled": false,
+      "suppressed": false
+    },
+    "O-2026-015": {
+      "opportunity_id": "O-2026-015",
+      "status": "SENT",
+      "sent_at": "2026-08-10T02:57:23.752Z",
+      "follow_up_count": 0,
+      "follow_up_cancelled": false,
+      "suppressed": false
+    },
+    "O-2026-018": {
+      "opportunity_id": "O-2026-018",
+      "status": "SENT",
+      "sent_at": "2026-08-10T02:57:25.195Z",
+      "follow_up_count": 0,
+      "follow_up_cancelled": false,
+      "suppressed": false
     }
   }
 }
