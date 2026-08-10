@@ -1,5 +1,14 @@
 # 🧠 DetectHiddenFees — Permanent Source of Truth
 
+## Batch 3 controlled outreach - 2026-08-10 UTC
+
+- Owner authorization was received for up to five new messages. Three high-confidence, previously uncontacted targets passed live article, research-URL, public-contact, duplicate, and suppression checks: Consumer Reports (`O-2026-005`), Kelley Blue Book (`O-2026-014`), and The Associated Press (`O-2026-017`).
+- Individualized plain-text messages were sent through the existing Brevo business sender at 2026-08-10T05:37:26Z, 2026-08-10T05:37:27Z, and 2026-08-10T05:37:29Z. Brevo/workflow acceptance is recorded in `seo/outreach-status.json`; delivery, replies, bounces, suppressions, mentions, backlinks, and referral traffic are not inferred.
+- A fourth prepared construction target, Levelset (`O-2026-021`), has an official editorial email route but remains medium confidence and was not sent under the high-confidence gate. No fifth target met the same verified email standard without using a form or a non-editorial address.
+- Earliest Batch 3 follow-up eligibility is 2026-08-18 UTC, only after a fresh no-reply/no-bounce/no-suppression/mention check. Maximum remains one follow-up; any human reply cancels it.
+- Product Hunt is a possible later channel, not an automatic publication route: the official guidance requires an eligible personal account and owner-led public launch approval. Instagram and Facebook publishing remain not connected; no passwords, private messages, or personal Gmail were accessed.
+- Exact continuation point: monitor the three Batch 3 business replies and bounces, keep Batch 1 and Batch 2 monitoring active, do not send another outreach message before the next eligibility review, and keep HiddenFeeAI, the protected Google winner, Phase 4 pages, and `calculator-authority.css` frozen.
+
 > **MANDATORY: Read this file before every major task.**
 > Every AI agent working on this project MUST read this file before making any changes.
 > This file supercedes all other documentation. When in doubt, defer to this file.
