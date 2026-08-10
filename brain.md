@@ -1,5 +1,15 @@
 # 🧠 DetectHiddenFees — Permanent Source of Truth
 
+## BEFORE YOU SIGN FUNNEL — ACTIVE — 2026-08-10
+
+- Protected Google winner: `https://detecthiddenfees.com/what-questions-should-i-ask-before-signing-a-contract`. Baseline remains 2 clicks and 7 impressions from the observed period; its URL, canonical, title, meta description, H1, core informational content, checklist, schema types, and indexability were not changed in this funnel work.
+- The winner’s conversion layer now routes the top, mid, related-resource, end, and sticky contract-review CTAs to `https://hiddenfeeai.com/before-you-sign`, using the copy bridge from general checklist guidance to a personalized review of the visitor’s actual contract. No new DetectHiddenFees page was created and no protected SEO content was rewritten.
+- HiddenFeeAI product landing: `https://hiddenfeeai.com/before-you-sign`. It is an isolated presentation/entry route that reuses the existing `/#upload` uploader and existing $15 one-time analysis/payment/report flow. HiddenFeeAI core behavior remains frozen.
+- Production commits: DetectHiddenFees pre-change `2d70dd59f3c23536ad873e73d51ceed5e975bebe`, deployed funnel code `55d6856`; HiddenFeeAI pre-change `599d615f2c696bf991866fceb12e89ac0f76f3f5`, deployed funnel code `2fde673`. The deployed HiddenFeeAI Pages production deployment was `46ac5a72-2a69-47b2-8870-867850200596`.
+- Safety boundary: no HiddenFeeAI Gemini, OCR/parsing, document processing, detection, report/PDF generation, Stripe/webhook/idempotency, pricing, upload, checkout, authentication, Worker/KV, or global design behavior was changed. No real-money purchase, database/KV migration, secret change, or personal Gmail access occurred.
+- Verification passed: live DetectHiddenFees article HTTP 200 with five new funnel CTA destinations; HiddenFeeAI homepage, `/before-you-sign`, sitemap, and Worker health HTTP 200; client build; client tests 35/35; upload integration 6/6; scanner 18/18; premium-report and PDF-layout regressions; 390px browser QA with one H1, no horizontal overflow, no console errors, and working CTA controls.
+- Exact continuation point: measure real CTA/product conversion from this funnel using existing authorized measurement only. Keep the protected winner frozen, keep Phase 4 pages and `calculator-authority.css` frozen, and do not modify HiddenFeeAI core behavior without explicit owner approval. Personal Gmail access remains NONE; secrets are not recorded here.
+
 ## Batch 3 controlled outreach - 2026-08-10 UTC
 
 - Owner authorization was received for up to five new messages. Three high-confidence, previously uncontacted targets passed live article, research-URL, public-contact, duplicate, and suppression checks: Consumer Reports (`O-2026-005`), Kelley Blue Book (`O-2026-014`), and The Associated Press (`O-2026-017`).
