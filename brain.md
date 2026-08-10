@@ -39,7 +39,7 @@
 - Hybrid restoration preserves the conversion layer from `f350638` while restoring the removed checklist meaning and matching-resource coverage within the same page. The 15 expandable questions now retain the prior checklist's fee schedule, quoted-price, price-cap, taxes/permits, minimum-commitment, liability/privacy, breach/remedy, and business-continuity considerations without adding a duplicate checklist.
 - The prior early-termination resource link `/early-termination-fees` was restored alongside the existing vehicle, construction, service, subscription, lease, and vendor resources. URL, title, meta description, H1, canonical, indexability, schema types, Phase 4 pages, calculator-authority.css, and HiddenFeeAI remain unchanged.
 - QA passed before deployment: 15 expandable questions, top/middle/end CTAs, red flags, valid JSON-LD, HTTP/local structure checks, responsive widths 320/375/390/414/430 with no horizontal overflow, and zero captured console errors. No new page was created.
-- Exact continuation point: commit and push this hybrid restoration, verify the live URL and restored early-termination link, then freeze this page from further content changes while measuring the same Search Console query/page at the existing checkpoints.
+- Hybrid restoration deployed in commit `5f15d10` (`Restore protected contract winner content`) and pushed to GitHub `main`. Live verification returned HTTP 200 and confirmed the restored checklist coverage, `/early-termination-fees` link, preserved top/middle/end CTAs, canonical, title, and H1. Exact continuation point: freeze this page from further content changes while measuring the same Search Console query/page at the existing checkpoints.
 
 ## Traffic and sales mode quick-win cycle - 2026-08-09
 
