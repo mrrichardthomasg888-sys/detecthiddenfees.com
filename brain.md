@@ -31,7 +31,15 @@
 - HiddenFeeAI code and repository were not modified. No Phase 4 page, `calculator-authority.css`, or production design system was modified.
 - No new page was created. No query-level success claim has been made. The current page's contextual links point to existing automotive, construction, service-agreement, subscription, lease, and vendor-contract resources; no mass exact-match linking was added.
 - Measurement checkpoints for this page/query: 24 hours 2026-08-10; 3 days 2026-08-12; 7 days 2026-08-16; 14 days 2026-08-23; 28 days 2026-09-06. Compare clicks, impressions, CTR, average position, related queries, landing-page traffic, and HiddenFeeAI referral activity only from real data.
-- Exact continuation point: finish focused QA, commit and push the DetectHiddenFees-only conversion update, verify the live URL returns HTTP 200 with the new sections, then wait for the next comparable Search Console export. Keep HiddenFeeAI frozen and do not create a second page for this intent.
+- Deployment completed in commit `f350638` (`Turn contract question winner into conversion page`) and pushed to GitHub `main`. Live verification on 2026-08-09 returned HTTP 200 and confirmed the checklist, red-flag section, top/middle/end CTAs, and HiddenFeeAI destination are present. Mobile QA passed at 320, 375, 390, 414, and 430px with no horizontal overflow. Exact continuation point: wait for the next comparable Search Console export and measure the preserved query/page at the scheduled checkpoints. Keep HiddenFeeAI frozen and do not create a second page for this intent.
+
+## Protected Google winner — hybrid restoration - 2026-08-09
+
+- Protected URL: `https://detecthiddenfees.com/what-questions-should-i-ask-before-signing-a-contract`; query: `what questions to ask before signing contract`; preserved baseline: 2 clicks, 7 impressions, 28.57% CTR, average position 8.86.
+- Hybrid restoration preserves the conversion layer from `f350638` while restoring the removed checklist meaning and matching-resource coverage within the same page. The 15 expandable questions now retain the prior checklist's fee schedule, quoted-price, price-cap, taxes/permits, minimum-commitment, liability/privacy, breach/remedy, and business-continuity considerations without adding a duplicate checklist.
+- The prior early-termination resource link `/early-termination-fees` was restored alongside the existing vehicle, construction, service, subscription, lease, and vendor resources. URL, title, meta description, H1, canonical, indexability, schema types, Phase 4 pages, calculator-authority.css, and HiddenFeeAI remain unchanged.
+- QA passed before deployment: 15 expandable questions, top/middle/end CTAs, red flags, valid JSON-LD, HTTP/local structure checks, responsive widths 320/375/390/414/430 with no horizontal overflow, and zero captured console errors. No new page was created.
+- Exact continuation point: commit and push this hybrid restoration, verify the live URL and restored early-termination link, then freeze this page from further content changes while measuring the same Search Console query/page at the existing checkpoints.
 
 ## Traffic and sales mode quick-win cycle - 2026-08-09
 
