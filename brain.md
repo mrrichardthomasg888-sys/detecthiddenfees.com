@@ -9,6 +9,14 @@
 - The existing `/before-signing-contract-checklist` is the canonical linkable authority asset for this intent. No duplicate supporting page is justified from this export; the winner, `/before-you-sign`, and frozen production systems remain unchanged.
 - Measurement caution: compare the next 24-hour, 7-day, and 28-day exports using the same aggregate caveat. Do not claim conversions or query-level page ownership from this file alone.
 
+## Protected winner competitor-gap improvement — 2026-08-12
+
+- Recovery point before this work: branch `codex/recovery-before-signing-competitor-20260812` at commit `eb28e1d21da4f5b62f65d466130bc30138e42864`. Existing uncommitted owner edits to the protected winner were preserved.
+- Competitor reviewed: Pierce & Kwok's practical contract-question guide. Useful differentiators were question-by-question "watch for" guidance, concrete examples, a compact recap, clear final advice, and visible legal-publisher identity. DetectHiddenFees does not imitate its wording or claim legal credentials.
+- Additive changes to the protected winner: quick scan checklist, free printable checklist link, phrase/watch-out section, six original contract-type examples, compact question/what-to-find/why-it-matters table, and get-important-answers-in-writing section. Existing title, description, H1, canonical, 15-question content, substantive article, schema meaning, and CTA destination were preserved. `dateModified` was updated to 2026-08-12.
+- New free companion: `assets/before-you-sign-15-question-contract-checklist.pdf`. It includes the 15 questions, notes fields, important dates, phrases to review, written-answer prompts, and the existing `$15` Before-You-Sign destination. It is not a paid product.
+- No new HTML page, no HiddenFeeAI change, no protected winner URL change, and no additional outreach was executed. Existing contextual/nav authority links were preserved; no mass internal-link insertion was made.
+
 ## Batch 3 controlled outreach - 2026-08-10 UTC
 
 - Owner authorization was received for up to five new messages. Three high-confidence, previously uncontacted targets passed live article, research-URL, public-contact, duplicate, and suppression checks: Consumer Reports (`O-2026-005`), Kelley Blue Book (`O-2026-014`), and The Associated Press (`O-2026-017`).
