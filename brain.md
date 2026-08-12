@@ -1,5 +1,14 @@
 # 🧠 DetectHiddenFees — Permanent Source of Truth
 
+## Fresh Search Console winner snapshot — owner export 2026-08-11
+
+- The newest owner-provided export is `detecthiddenfees.com-Performance-on-Search-2026-08-11-2.zip`.
+- Aggregate totals: 30 query rows / 68 query-table impressions / 3 query-table clicks; 58 page rows / 181 page-table impressions / 4 page-table clicks; Devices: 174 impressions / 4 clicks. The export does not include query+page rows, so exact query-to-URL ownership is not inferred beyond the separately confirmed winner.
+- Protected winner remains `https://detecthiddenfees.com/what-questions-should-i-ask-before-signing-a-contract` for `what questions to ask before signing contract`: 3 clicks, 9 impressions, 33.33% CTR, average position 8.33 in the supplied aggregate snapshot.
+- Fresh adjacent customer-intent signals include `ai construction contract review` (5 impressions, position 16.8), `are there any hidden fees i might miss before signing?` (1 impression, position 8), and `how can we automatically flag contract risks and non-standard language before agreements get signed?` (1 impression, position 14). Page-level opportunities include `/ai-construction-contract-review` (12 impressions, position 18.25), `/before-signing-contract-checklist` (1 impression, position 8), `/mandatory-vs-optional-fees` (6 impressions, position 5.33), `/car-buying-checklist-before-signing` (6 impressions, position 12), `/duplicate-medical-billing-charges` (10 impressions, position 15.2), and `/contract-red-flag-checker` (2 impressions, position 11).
+- The existing `/before-signing-contract-checklist` is the canonical linkable authority asset for this intent. No duplicate supporting page is justified from this export; the winner, `/before-you-sign`, and frozen production systems remain unchanged.
+- Measurement caution: compare the next 24-hour, 7-day, and 28-day exports using the same aggregate caveat. Do not claim conversions or query-level page ownership from this file alone.
+
 ## Batch 3 controlled outreach - 2026-08-10 UTC
 
 - Owner authorization was received for up to five new messages. Three high-confidence, previously uncontacted targets passed live article, research-URL, public-contact, duplicate, and suppression checks: Consumer Reports (`O-2026-005`), Kelley Blue Book (`O-2026-014`), and The Associated Press (`O-2026-017`).
