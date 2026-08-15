@@ -15,7 +15,9 @@ concurrency:
 
 jobs:
   growth-cycle:
-    runs-on: ubuntu-latest
+    # GitHub-hosted fallback remains active until the one-time desktop
+    # registration is complete and the repository variable is enabled.
+    runs-on: ${{ vars.DHF_SELF_HOSTED_READY == 'true' && 'dhf-growth' || 'ubuntu-latest' }}
     timeout-minutes: 15
     steps:
       - name: Check out main
@@ -42,18 +44,22 @@ jobs:
           GROWTH_LOOP_EXTERNAL_SEND: '0'
         run: node scripts/run-growth-loop.js --once
 
+      - name: Record local heartbeat
+        if: always()
+        run: node scripts/write-growth-heartbeat.js workflow ${{ job.status }}
+
       - name: Validate loop, safeguards, and private state
         run: node scripts/validate-growth-loop.js
 
       - name: Add daily digest to the run summary
         if: always()
-        shell: bash
+        shell: pwsh
         run: |
-          if [ -f private/growth-engine/daily-digest.md ]; then
-            cat private/growth-engine/daily-digest.md >> "$GITHUB_STEP_SUMMARY"
+          if (Test-Path private/growth-engine/daily-digest.md) {
+            Get-Content private/growth-engine/daily-digest.md | Add-Content $env:GITHUB_STEP_SUMMARY
           else
-            echo "Growth digest was not produced." >> "$GITHUB_STEP_SUMMARY"
-          fi
+            "Growth digest was not produced." | Add-Content $env:GITHUB_STEP_SUMMARY
+          }
 
       - name: Store daily digest
         if: always()

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "targets": [
+    { "name": "DetectHiddenFees winner", "url": "https://detecthiddenfees.com/what-questions-should-i-ask-before-signing-a-contract" },
+    { "name": "HiddenFeeAI homepage", "url": "https://hiddenfeeai.com/" },
+    { "name": "HiddenFeeAI Before You Sign", "url": "https://hiddenfeeai.com/before-you-sign" }
+  ],
+  "storage_state": "private/browser-state/storage-state.json",
+  "policy": {
+    "default_mode": "verify_only",
+    "allow_submissions": false,
+    "captcha_bypass": false,
+    "payment": false,
+    "auth_state_in_git": false
+  }
+}
