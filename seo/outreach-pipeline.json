@@ -651,6 +651,26 @@
       "mention_or_link": null,
       "source_evidence": "https://www.rakenapp.com/contact",
       "automation_note": "Qualified for manual editorial/resource review; not added to the automated send queue this session."
+    },
+    {
+      "opportunity_id": "O-2026-034",
+      "domain": "allthingsai.work",
+      "publication": "AllThingsAI.work",
+      "relevant_url": "https://allthingsai.work/directory/submit/",
+      "author": "AllThingsAI editorial team",
+      "public_contact_method": "Official free-listing route: email info@allthingsai.work with a directory submission; route is published at https://allthingsai.work/directory/submit/.",
+      "topic": "AI tools and SaaS directory discovery",
+      "detecthiddenfees_asset": "https://hiddenfeeai.com/before-you-sign",
+      "why_relevant": "AllThingsAI.work publishes a maintained AI/SaaS directory and accepts free listings after checking that the tool, URL, pricing, and category are accurate. HiddenFeeAI is a working AI document-review product with a clear legal/compliance use case and a truthful $15 one-time price.",
+      "relevant_existing_article": "https://allthingsai.work/directory/submit/",
+      "suggested_outreach_angle": "Manual editorial submission only: provide the product URL, legal/compliance category, one-time pricing, and concise description; do not request a featured placement or send through the automated prospect workflow.",
+      "confidence": "high",
+      "status": "research",
+      "date": "2026-08-15",
+      "response": null,
+      "mention_or_link": null,
+      "source_evidence": "https://allthingsai.work/directory/submit/",
+      "automation_note": "Verified free editorial submission route; email submission requires manual review and was not sent this session."
     }
   ]
 }
