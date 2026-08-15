@@ -26,6 +26,11 @@ jobs:
         with:
           node-version: 22
 
+      - name: Validate approved queue and safety gates without sending
+        run: |
+          node scripts/validate-outreach-automation.js
+          node scripts/outreach-automation.js dry-run
+
       - name: Check outreach activation gate
         id: gate
         shell: bash
@@ -36,7 +41,7 @@ jobs:
             echo "enabled=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Send no more than five verified initial messages
+      - name: Send no more than four verified initial messages
         if: steps.gate.outputs.enabled == 'true'
         env:
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}

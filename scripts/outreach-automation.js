@@ -125,6 +125,30 @@ async function send() {
   savePublicStatus(publicStatus);
   print({ mode: 'low_volume_separate_sends', results });
 }
+async function dryRun() {
+  const checks = await verifyTargets();
+  const ready = checks.filter(item => item.sendable);
+  const state = loadState();
+  const publicStatus = loadPublicStatus();
+  const eligible = [];
+  const skipped = [];
+  for (const check of ready) {
+    const previous = state.records[check.opportunity_id] || {};
+    const recorded = publicStatus.records[check.opportunity_id] || {};
+    if (previous.sent_at || previous.suppressed || recorded.sent_at || recorded.suppressed) {
+      skipped.push({ opportunity_id: check.opportunity_id, status: 'suppressed_or_already_sent' });
+      continue;
+    }
+    eligible.push({ opportunity_id: check.opportunity_id, publication: check.publication, status: 'eligible' });
+  }
+  print({
+    mode: 'dry_run_no_email',
+    configured_daily_cap: config.email.initial_batch_max,
+    eligible_count: eligible.length,
+    will_send: eligible.slice(0, config.email.initial_batch_max),
+    skipped
+  });
+}
 async function internalTest() {
   const missing = requireSendCredentials({ external: false }).filter(item => item !== 'OUTREACH_SEND_ENABLED=1');
   if (process.env.OUTREACH_TEST_ENABLED !== '1') missing.push('OUTREACH_TEST_ENABLED=1');
@@ -202,11 +226,12 @@ async function main() {
   const command = process.argv[2] || 'status';
   if (command === 'verify') print((await verifyTargets()).map(resultSummary));
   else if (command === 'preview') print({ sender_required: ['OUTREACH_FROM_EMAIL', 'OUTREACH_REPLY_TO'], research_url: researchUrl, targets: messages.messages.map(message => ({ opportunity_id: message.opportunity_id, subject: message.subject, sendable_by_automation: message.sendable_by_automation, recipient: extractEmail(recordFor(message.opportunity_id)?.public_contact_method), reason: message.reason })) });
+  else if (command === 'dry-run') await dryRun();
   else if (command === 'send') await send();
   else if (command === 'test') await internalTest();
   else if (command === 'monitor') await monitor();
   else if (command === 'follow-up') await followUp();
   else if (command === 'status') print({ mode: config.mode, email_provider: config.email.provider, send_enabled: config.email.enabled, dns: config.dns_observed, social: config.social, search_console: config.search_console, runtime_state: fs.existsSync(statePath) ? 'present_private' : 'not_created' });
-  else { console.error('Usage: node scripts/outreach-automation.js <status|verify|preview|test|send|monitor|follow-up>'); process.exitCode = 1; }
+  else { console.error('Usage: node scripts/outreach-automation.js <status|verify|preview|dry-run|test|send|monitor|follow-up>'); process.exitCode = 1; }
 }
 main().catch(error => { console.error(`OUTREACH AUTOMATION ERROR: ${error.message}`); process.exitCode = 1; });

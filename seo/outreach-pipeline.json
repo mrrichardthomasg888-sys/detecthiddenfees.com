@@ -551,6 +551,46 @@
       "response": null,
       "mention_or_link": null,
       "source_evidence": "https://www.signwell.com/partner-with-signwell/"
+    },
+    {
+      "opportunity_id": "O-2026-029",
+      "domain": "paymentsdive.com",
+      "publication": "Payments Dive",
+      "relevant_url": "https://www.paymentsdive.com/news/why-pricey-credit-cards-may-soon-cost-more/825609/",
+      "author": "Justin Bachman",
+      "public_contact_method": "Official author contact page: https://www.paymentsdive.com/editors/jbachman/",
+      "topic": "consumer payment surcharges and card-related fees",
+      "detecthiddenfees_asset": "/convenience-fee-calculator",
+      "why_relevant": "Payments Dive recently covered how card-network settlement changes could shift swipe-fee costs toward consumers. The existing convenience-fee calculator gives readers a practical way to estimate a surcharge before paying, without making a legal or regulatory claim.",
+      "relevant_existing_article": "https://www.paymentsdive.com/news/why-pricey-credit-cards-may-soon-cost-more/825609/",
+      "suggested_outreach_angle": "Offer the free convenience-fee calculator as a consumer-facing companion for readers comparing surcharge scenarios; pitch through the reporter's official public contact route and do not request guaranteed coverage.",
+      "confidence": "high",
+      "status": "research",
+      "date": "2026-08-15",
+      "response": null,
+      "mention_or_link": null,
+      "source_evidence": "https://www.paymentsdive.com/editors/jbachman/",
+      "automation_note": "Qualified for manual editorial review; not added to the automated send queue this session."
+    },
+    {
+      "opportunity_id": "O-2026-030",
+      "domain": "cbsnews.com",
+      "publication": "CBS News Philadelphia",
+      "relevant_url": "https://www.cbsnews.com/philadelphia/news/junk-fees-philadelphia-consumer-news/",
+      "author": "Joshua Sidorowicz",
+      "public_contact_method": "Official CBS Philadelphia newsroom/contact route: https://www.cbsnews.com/philadelphia/contact/ and https://www.cbsnews.com/philadelphia/news-tip/",
+      "topic": "consumer junk fees and price transparency",
+      "detecthiddenfees_asset": "/convenience-fee-calculator",
+      "why_relevant": "CBS Philadelphia recently reported on consumer concern about extra online transaction charges and the need for clear fee disclosure. The existing calculator could give readers a practical, non-legal way to estimate a fee before completing a payment.",
+      "relevant_existing_article": "https://www.cbsnews.com/philadelphia/news/junk-fees-philadelphia-consumer-news/",
+      "suggested_outreach_angle": "Use the station's official news-tip/editorial route to offer the calculator as a free reader tool related to its junk-fee coverage; no private contact data, no guaranteed placement request, and no product-first pitch.",
+      "confidence": "high",
+      "status": "research",
+      "date": "2026-08-15",
+      "response": null,
+      "mention_or_link": null,
+      "source_evidence": "https://www.cbsnews.com/philadelphia/contact/",
+      "automation_note": "Qualified for manual editorial review; not added to the automated send queue this session."
     }
   ]
 }
