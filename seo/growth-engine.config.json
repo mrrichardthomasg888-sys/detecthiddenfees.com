@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "state_path": "private/growth-engine/state.json",
+  "privacy": {
+    "state_is_private": true,
+    "never_store_document_content": true,
+    "never_store_filenames": true,
+    "never_store_payment_data": true,
+    "public_repository_policy": "Only schemas, scoring rules, and prompt IDs may be committed. Connected query, analytics, outreach outcome, and revenue state stays under private/."
+  },
+  "protected_urls": [
+    "https://detecthiddenfees.com/what-questions-should-i-ask-before-signing-a-contract",
+    "https://hiddenfeeai.com/before-you-sign"
+  ],
+  "frozen_urls": [
+    "https://detecthiddenfees.com/ai-bill-analyzer"
+  ],
+  "known_query_page_mappings": {
+    "what questions to ask before signing contract": "https://detecthiddenfees.com/what-questions-should-i-ask-before-signing-a-contract"
+  },
+  "scoring": {
+    "weights": {
+      "traffic_potential": 0.15,
+      "purchase_intent": 0.25,
+      "current_position": 0.2,
+      "ctr_opportunity": 0.15,
+      "authority_gap": 0.1,
+      "conversion_potential": 0.15
+    },
+    "thresholds": {
+      "meaningful_impressions": 10,
+      "healthy_ctr": 0.1,
+      "materially_weak_ctr": 0.05,
+      "strong_position_max": 10,
+      "near_page_one_max": 20,
+      "upper_opportunity_max": 30
+    },
+    "commercial_terms": [
+      "review", "analyze", "check", "scanner", "scan", "upload", "tool", "calculator", "fees", "invoice", "contract", "before signing", "dealer", "construction", "bill"
+    ]
+  },
+  "distribution_queue": [
+    { "name": "ToolWise", "status": "pending", "route": "existing submission", "asset": "free checklist / relevant tool" },
+    { "name": "AppDirectory.org", "status": "pending", "route": "existing submission", "asset": "HiddenFeeAI / document analysis" },
+    { "name": "The Next AI", "status": "pending", "route": "existing submission", "asset": "HiddenFeeAI / document analysis" },
+    { "name": "public.tools", "status": "pending", "route": "existing submission", "asset": "free calculators / checklist" }
+  ],
+  "ai_prompt_file": "seo/ai-visibility-prompts.json"
+}

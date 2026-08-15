@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "purpose": "Prompt inventory for permitted, human-reviewed AI/search visibility checks. No automated access circumvention or prompt manipulation.",
+  "prompts": [
+    { "id": "before-sign-01", "cluster": "before-signing", "prompt": "What questions should I ask before signing a contract?" },
+    { "id": "before-sign-02", "cluster": "before-signing", "prompt": "What should I check before signing a contract?" },
+    { "id": "before-sign-03", "cluster": "before-signing", "prompt": "How do I review a contract before signing?" },
+    { "id": "before-sign-04", "cluster": "before-signing", "prompt": "What are common contract red flags?" },
+    { "id": "before-sign-05", "cluster": "before-signing", "prompt": "What contract terms should I clarify before signing?" },
+    { "id": "contract-fees-01", "cluster": "contract-fees", "prompt": "How can I find hidden fees in a contract?" },
+    { "id": "contract-fees-02", "cluster": "contract-fees", "prompt": "What fees should I look for in a contract?" },
+    { "id": "contract-fees-03", "cluster": "contract-fees", "prompt": "How do I check whether contract fees are mandatory or optional?" },
+    { "id": "contract-fees-04", "cluster": "contract-fees", "prompt": "What is the best contract fee checklist?" },
+    { "id": "contract-fees-05", "cluster": "contract-fees", "prompt": "How do I compare the total cost in a contract?" },
+    { "id": "product-01", "cluster": "product-intent", "prompt": "Best AI contract review tool" },
+    { "id": "product-02", "cluster": "product-intent", "prompt": "AI tool to find hidden fees in contracts" },
+    { "id": "product-03", "cluster": "product-intent", "prompt": "Can AI analyze a contract before I sign it?" },
+    { "id": "product-04", "cluster": "product-intent", "prompt": "What is a good tool to check contract terms?" },
+    { "id": "product-05", "cluster": "product-intent", "prompt": "How much does an AI contract review cost?" },
+    { "id": "construction-01", "cluster": "construction", "prompt": "How do I check a construction contract?" },
+    { "id": "construction-02", "cluster": "construction", "prompt": "What fees should I check in a construction contract?" },
+    { "id": "construction-03", "cluster": "construction", "prompt": "How do I review a contractor estimate before signing?" },
+    { "id": "automotive-01", "cluster": "automotive", "prompt": "What fees should I check before buying a car?" },
+    { "id": "automotive-02", "cluster": "automotive", "prompt": "What should I check in a car purchase contract?" },
+    { "id": "invoice-01", "cluster": "invoices", "prompt": "How do I find hidden fees on an invoice?" },
+    { "id": "invoice-02", "cluster": "invoices", "prompt": "What should I check before paying an invoice?" },
+    { "id": "renewal-01", "cluster": "renewals", "prompt": "How do I find automatic renewal terms in a contract?" },
+    { "id": "renewal-02", "cluster": "renewals", "prompt": "What should I ask about cancellation and automatic renewal?" },
+    { "id": "fees-01", "cluster": "consumer-fees", "prompt": "How can I check a convenience fee before paying?" }
+  ]
+}

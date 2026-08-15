@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://detecthiddenfees.com/private-schemas/growth-engine-state.json",
+  "title": "DetectHiddenFees Growth Engine Private State",
+  "type": "object",
+  "required": ["version", "generated_at", "gsc", "ga4", "authority", "distribution", "ai_visibility", "experiments", "opportunities"],
+  "properties": {
+    "version": { "type": "string" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "gsc": { "type": "object" },
+    "ga4": { "type": "object" },
+    "authority": { "type": "array" },
+    "distribution": { "type": "array" },
+    "ai_visibility": { "type": "object" },
+    "experiments": { "type": "array" },
+    "opportunities": { "type": "array" }
+  },
+  "additionalProperties": true
+}
