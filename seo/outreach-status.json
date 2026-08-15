@@ -89,6 +89,22 @@
       "follow_up_count": 0,
       "follow_up_cancelled": false,
       "suppressed": false
+    },
+    "O-2026-024": {
+      "opportunity_id": "O-2026-024",
+      "status": "SENT",
+      "sent_at": "2026-08-15T15:55:40.523Z",
+      "follow_up_count": 0,
+      "follow_up_cancelled": false,
+      "suppressed": false
+    },
+    "O-2026-025": {
+      "opportunity_id": "O-2026-025",
+      "status": "SENT",
+      "sent_at": "2026-08-15T15:55:41.975Z",
+      "follow_up_count": 0,
+      "follow_up_cancelled": false,
+      "suppressed": false
     }
   }
 }
