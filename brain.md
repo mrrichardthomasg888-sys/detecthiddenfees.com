@@ -2013,6 +2013,16 @@ The master validator baseline is 238 pages with zero missing titles/descriptions
 - Current scoreboard remains: 2 Google clicks, 0 verified sales, 0 verified customers, 8 outreach recipients, 0 earned backlinks, and 0 recorded replies. These are observed values only; no CTA or product-funnel count is inferred.
 - Exact continuation point: let this single CTR test deploy and accumulate data; the next direct acquisition action requiring owner input is publication of an owner-approved finished Short through the existing YouTube workflow. Do not start another SEO batch or analytics project in the meantime.
 
+## Customer acquisition sprint — 2026-08-14
+
+- Fresh owner Search Console export: `detecthiddenfees.com-Performance-on-Search-2026-08-14-2.zip`. Query table: 27 rows, 2 clicks, 52 impressions. Page table: 42 rows, 2 clicks, 120 impressions. These are separate aggregate dimensions and are not added together.
+- Protected winner remains unchanged and frozen: `/what-questions-should-i-ask-before-signing-a-contract`; query `what questions to ask before signing contract`: 2 clicks, 2 impressions, 100% CTR, average position 9.0 in this small sample.
+- Four evidence-backed contextual links were added from existing non-frozen pages to the protected winner: `/ai-invoice-analyzer` (5 impressions, position 5.2), `/ai-estimate-review` (1, position 3), `/ai-lease-review` (1, position 2), and `/hidden-hvac-contractor-fees` (3, position 10.33). No winner, Before-You-Sign, Phase 4 page, or calculator-authority.css change was made.
+- No new page was created. Existing `/before-signing-contract-checklist` remains the free authority asset and existing discovery files remain unchanged.
+- External outreach and free submissions: 0 executed. Batch 3 follow-up/new-send gates remain closed until the existing 2026-08-18 UTC eligibility review; no new account, form submission, or directory listing was created.
+- Measurement remains blocked for centrally verified HiddenFeeAI arrivals, uploads/scans, checkouts, purchases, and revenue because no authorized central receiver is configured; no product or analytics infrastructure was changed.
+- Seven owner video briefs were prepared from existing search opportunities only; no video was created or uploaded.
+
 ## Multi-channel acquisition execution - 2026-08-09
 
 - Executed three additional, reversible, non-frozen Search Console quick wins: `/convenience-fee-calculator` now uses a surcharge-before-payment title/description; `/ai-contract-resource-center` now states its fee, payment-term, renewal, cancellation, and pre-signing resource coverage; `/hidden-dealership-financing-fees` now leads with the exact hidden-dealership-financing-fees/check-before-signing intent. Canonicals, robots, URLs, H1s, calculator behavior, structured-data types, and `calculator-authority.css` were preserved.
