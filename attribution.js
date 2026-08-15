@@ -4,7 +4,27 @@
   var STORAGE_KEY = 'dhf_attribution_v1';
   var SESSION_KEY = 'dhf_session_v1';
   var DESTINATION_HOST = 'hiddenfeeai.com';
+  var GA4_MEASUREMENT_ID = 'G-KDGZ83RRHL';
   var MAX_VALUE_LENGTH = 160;
+
+  function installGA4() {
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+    window.gtag('js', new Date());
+    window.gtag('config', GA4_MEASUREMENT_ID, {
+      send_page_view: false,
+      allow_google_signals: false,
+      allow_ad_personalization_signals: false,
+      linker: { domains: ['detecthiddenfees.com', 'hiddenfeeai.com'] }
+    });
+    if (!document.querySelector('script[data-dhf-ga4="' + GA4_MEASUREMENT_ID + '"]')) {
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA4_MEASUREMENT_ID;
+      script.setAttribute('data-dhf-ga4', GA4_MEASUREMENT_ID);
+      document.head.appendChild(script);
+    }
+  }
 
   function clean(value) {
     return String(value || '')
@@ -115,12 +135,27 @@
       original_referrer: detail.original_referrer,
       session_id: detail.session_id
     }, detail);
+    var analyticsDetail = {
+      page_path: eventDetail.page_path,
+      dhf_source: 'detecthiddenfees',
+      dhf_landing: eventDetail.landing_page,
+      dhf_session: eventDetail.session_id,
+      dhf_cta_id: eventDetail.cta_id,
+      dhf_cta_type: eventDetail.cta_type,
+      destination: eventDetail.destination,
+      cta_position: eventDetail.cta_position,
+      cta_variant: eventDetail.cta_variant,
+      cta_action: eventDetail.cta_action
+    };
     window.dispatchEvent(new CustomEvent('dhf:' + name, { detail: eventDetail }));
     if (typeof window.gtag === 'function') {
-      window.gtag('event', name, eventDetail);
+      if (name === 'dhf_landing_view') {
+        window.gtag('event', 'page_view', Object.assign({ page_title: clean(document.title) }, analyticsDetail));
+      }
+      window.gtag('event', name, analyticsDetail);
     }
     if (Array.isArray(window.dataLayer)) {
-      window.dataLayer.push(eventDetail);
+      window.dataLayer.push(analyticsDetail);
     }
   }
 
@@ -195,6 +230,7 @@
     }
   }
 
+  installGA4();
   var attribution = buildAttribution();
   emit('dhf_landing_view', {
     landing_page: attribution.landing_page,
