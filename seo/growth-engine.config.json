@@ -1,6 +1,7 @@
 {
   "version": "1.0.0",
   "state_path": "private/growth-engine/state.json",
+  "sentinel_inventory_path": "private/growth-engine/sentinel-channel-inventory.json",
   "privacy": {
     "state_is_private": true,
     "never_store_document_content": true,

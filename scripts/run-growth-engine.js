@@ -6,6 +6,7 @@ const root = path.resolve(__dirname, '..');
 const configPath = path.join(root, 'seo', 'growth-engine.config.json');
 const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
 const statePath = path.join(root, config.state_path);
+const sentinelPath = path.join(root, config.sentinel_inventory_path || 'private/growth-engine/sentinel-channel-inventory.json');
 const privateDir = path.dirname(statePath);
 const now = () => new Date().toISOString();
 const number = (value, fallback = null) => {
@@ -18,6 +19,7 @@ const writeJson = (file, value) => {
   fs.mkdirSync(path.dirname(file), { recursive: true });
   fs.writeFileSync(file, JSON.stringify(value, null, 2) + '\n', 'utf8');
 };
+const loadSentinel = () => fs.existsSync(sentinelPath) ? readJson(sentinelPath) : null;
 
 function usage() {
   console.error('Usage: node scripts/run-growth-engine.js <run queries.csv pages.csv ga4.json|score|validate>');
@@ -210,6 +212,7 @@ function buildState(queryFile, pageFile, ga4File, previous) {
       records: allRows
     },
     ga4: { ...ga4, privacy_note: 'No document contents, filenames, findings, payment data, or PII.' },
+    sentinel: loadSentinel(),
     authority: loadAuthority(),
     distribution: config.distribution_queue,
     ai_visibility: { source_status: 'not_run', prompt_count: prompts.length, prompts, citation_overlap_domains: [] },
