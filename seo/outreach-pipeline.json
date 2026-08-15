@@ -418,6 +418,25 @@
       "response": null,
       "mention_or_link": null,
       "source_evidence": "https://www.levelset.com/change-order/"
+    },
+    {
+      "opportunity_id": "O-2026-022",
+      "domain": "mcsmag.com",
+      "publication": "Modern Contractor Solutions",
+      "relevant_url": "https://mcsmag.com/negotiating-change-provisions-change-orders-and-change-directives/",
+      "author": "Modern Contractor Solutions editorial team",
+      "public_contact_method": "matt@mcsmag.com (official editorial submission route: https://mcsmag.com/editorial/)",
+      "topic": "construction contract change provisions, scope, cost, schedule, and documentation",
+      "detecthiddenfees_asset": "/research-media-kit",
+      "why_relevant": "The article explains how construction contracts allocate change procedures, notice timing, documentation, cost, and schedule risk. The Evidence Review adds a public-source companion on written estimates, contract scope, dates, prices, and added charges for readers reviewing construction paperwork.",
+      "relevant_existing_article": "https://mcsmag.com/negotiating-change-provisions-change-orders-and-change-directives/",
+      "suggested_outreach_angle": "Offer the public-source record and methodology as an educational companion for contractors and project decision-makers reviewing change provisions; disclose that it is a bounded source review, not a construction prevalence study.",
+      "confidence": "high",
+      "status": "approved",
+      "date": "2026-08-14",
+      "response": null,
+      "mention_or_link": null,
+      "source_evidence": "https://mcsmag.com/editorial/"
     }
   ]
 }

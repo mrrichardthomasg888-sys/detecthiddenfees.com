@@ -17,7 +17,7 @@
     "required_sender_verification": true,
     "plain_text_only": true,
     "initial_batch_max": 5,
-    "authorized_opportunity_ids": ["O-2026-005", "O-2026-014", "O-2026-017"],
+    "authorized_opportunity_ids": ["O-2026-005", "O-2026-014", "O-2026-017", "O-2026-022"],
     "bcc_allowed": false,
     "url_shorteners_allowed": false,
     "follow_up_days": 8,
