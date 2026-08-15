@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://detecthiddenfees.com/private-schemas/growth-loop-state.json",
+  "title": "DetectHiddenFees Autonomous Growth Loop State",
+  "type": "object",
+  "required": ["version", "generated_at", "growth_loop", "opportunities"],
+  "properties": {
+    "version": { "type": "string" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "growth_loop": {
+      "type": "object",
+      "required": ["last_run_at", "workers", "outreach", "placements", "distribution", "owner_action_queue"],
+      "properties": {
+        "last_run_at": { "type": "string", "format": "date-time" },
+        "workers": { "type": "object" },
+        "outreach": { "type": "object" },
+        "placements": { "type": "array" },
+        "distribution": { "type": "object" },
+        "owner_action_queue": { "type": "array" }
+      }
+    },
+    "opportunities": { "type": "array" }
+  },
+  "additionalProperties": true
+}

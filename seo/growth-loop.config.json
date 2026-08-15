@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "state_path": "private/growth-engine/state.json",
+  "digest_json_path": "private/growth-engine/daily-digest.json",
+  "digest_markdown_path": "private/growth-engine/daily-digest.md",
+  "cache_key_prefix": "dhf-growth-state-",
+  "schedule_utc": ["17 2,8,14,20 * * *"],
+  "outreach": {
+    "send_owner": "existing-controlled-outreach-workflow",
+    "daily_new_recipient_cap": 4,
+    "follow_up_maximum": 1,
+    "growth_loop_sends_email": false,
+    "safety": [
+      "suppression",
+      "duplicate protection",
+      "bounce suppression",
+      "unsubscribe suppression",
+      "follow-up eligibility",
+      "sender reputation limits"
+    ]
+  },
+  "placement_monitor": {
+    "minimum_interval_hours": 24,
+    "pending": [
+      { "name": "ToolWise", "status": "pending", "public_url": null },
+      { "name": "AppDirectory.org", "status": "pending", "public_url": null },
+      { "name": "The Next AI", "status": "pending", "public_url": null },
+      { "name": "public.tools", "status": "pending", "public_url": null },
+      { "name": "ListAi.cc", "status": "pending", "public_url": null },
+      { "name": "DataDrivenAEC", "status": "pending", "public_url": null }
+    ]
+  },
+  "distribution": {
+    "automatic_submission_policy": "free-explicit-route-no-captcha-no-login-no-payment-no-owner-judgment",
+    "known_queue_from_existing_config": true
+  },
+  "ai_visibility": {
+    "prompt_file": "seo/ai-visibility-prompts.json",
+    "observation_policy": "publicly observable surfaces only; no access-control bypass"
+  },
+  "privacy": {
+    "state_is_private_runner_cache": true,
+    "never_store_document_content": true,
+    "never_store_uploaded_filenames": true,
+    "never_store_payment_card_data": true,
+    "never_store_pii": true,
+    "logs_contain_counts_and_statuses_only": true
+  }
+}

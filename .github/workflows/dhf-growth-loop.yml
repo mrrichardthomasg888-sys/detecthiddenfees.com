@@ -1,0 +1,65 @@
+name: DHF Growth Loop
+
+on:
+  schedule:
+    - cron: '17 2,8,14,20 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: dhf-growth-loop
+  cancel-in-progress: false
+
+jobs:
+  growth-cycle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Restore private growth state
+        uses: actions/cache@v4
+        with:
+          path: private/growth-engine
+          key: dhf-growth-state-${{ github.run_id }}
+          restore-keys: |
+            dhf-growth-state-
+
+      - name: Run one guarded growth cycle
+        env:
+          GROWTH_LOOP_RUN_ID: ${{ github.run_id }}
+          GROWTH_LOOP_EXTERNAL_SEND: '0'
+        run: node scripts/run-growth-loop.js --once
+
+      - name: Validate loop, safeguards, and private state
+        run: node scripts/validate-growth-loop.js
+
+      - name: Add daily digest to the run summary
+        if: always()
+        shell: bash
+        run: |
+          if [ -f private/growth-engine/daily-digest.md ]; then
+            cat private/growth-engine/daily-digest.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "Growth digest was not produced." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Store daily digest
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dhf-growth-digest-${{ github.run_id }}
+          path: private/growth-engine/daily-digest.md
+          if-no-files-found: warn
+          retention-days: 30
