@@ -671,6 +671,46 @@
       "mention_or_link": null,
       "source_evidence": "https://allthingsai.work/directory/submit/",
       "automation_note": "Verified free editorial submission route; email submission requires manual review and was not sent this session."
+    },
+    {
+      "opportunity_id": "O-2026-035",
+      "domain": "miter.com",
+      "publication": "Miter",
+      "relevant_url": "https://www.miter.com/resources/what-is-a-change-order-in-construction/",
+      "author": "Anuraag Yachamaneni",
+      "public_contact_method": "Public press route: press@miter.com listed on https://www.miter.com/about/; official partner route is also available from the site.",
+      "topic": "construction change orders, scope, cost, schedule, and written approval",
+      "detecthiddenfees_asset": "/ai-construction-contract-review",
+      "why_relevant": "Miter's current guide explains how change orders alter scope, contract value, schedule, and payment exposure, and why written approval matters before changed work begins. The existing construction-contract resource adds a document-review companion for checking scope, change-order, and fee language before agreeing.",
+      "relevant_existing_article": "https://www.miter.com/resources/what-is-a-change-order-in-construction/",
+      "suggested_outreach_angle": "Offer the construction-contract resource as a practical companion for subcontractors comparing a change order with the underlying agreement; use the public press route only for an editorial/resource lead and avoid a generic backlink request.",
+      "confidence": "high",
+      "status": "research",
+      "date": "2026-08-15",
+      "response": null,
+      "mention_or_link": null,
+      "source_evidence": "https://www.miter.com/about/",
+      "automation_note": "Qualified for manual editorial review; not added to the automated send queue this session."
+    },
+    {
+      "opportunity_id": "O-2026-036",
+      "domain": "authorsguild.org",
+      "publication": "The Authors Guild",
+      "relevant_url": "https://authorsguild.org/resource/publishing-scam-alerts/",
+      "author": "Authors Guild editorial team",
+      "public_contact_method": "Official staff/editorial route: staff@authorsguild.org and https://authorsguild.org/contact/.",
+      "topic": "publishing-contract red flags, upfront fees, and scam warnings",
+      "detecthiddenfees_asset": "/before-signing-contract-checklist",
+      "why_relevant": "The Authors Guild's current scam-alert resource discusses upfront fees, suspicious contract offers, and verification steps for writers. The free before-signing checklist adds a broader printable review of total cost, cancellation, renewal, deadlines, and terms to clarify in writing.",
+      "relevant_existing_article": "https://authorsguild.org/resource/publishing-scam-alerts/",
+      "suggested_outreach_angle": "Offer the free checklist as a complementary general contract-reading resource for authors who need a practical first pass before seeking qualified legal or industry advice; do not position it as legal advice or a replacement for Guild services.",
+      "confidence": "high",
+      "status": "research",
+      "date": "2026-08-15",
+      "response": null,
+      "mention_or_link": null,
+      "source_evidence": "https://authorsguild.org/contact/",
+      "automation_note": "Qualified for manual editorial review; not added to the automated send queue this session."
     }
   ]
 }
