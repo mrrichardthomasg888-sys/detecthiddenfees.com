@@ -711,6 +711,46 @@
       "mention_or_link": null,
       "source_evidence": "https://authorsguild.org/contact/",
       "automation_note": "Qualified for manual editorial review; not added to the automated send queue this session."
+    },
+    {
+      "opportunity_id": "O-2026-037",
+      "domain": "clarkmeyers.com",
+      "publication": "Clark Meyers PC",
+      "relevant_url": "https://clarkmeyers.com/contract-review/",
+      "author": "Lee Clark; reviewed by Conor Meyers",
+      "public_contact_method": "Official firm contact/strategy-call route: https://clarkmeyers.com/",
+      "topic": "business contract review, risk allocation, obligations, and red flags",
+      "detecthiddenfees_asset": "/before-signing-contract-checklist",
+      "why_relevant": "Clark Meyers publishes a current contract-review checklist covering risk allocation, obligations, signature authority, auto-renewal, escalating fees, and termination. The free checklist can complement that business-law guide with a short printable consumer-facing pass for fees, renewal, cancellation, deadlines, and terms to clarify.",
+      "relevant_existing_article": "https://clarkmeyers.com/contract-review/",
+      "suggested_outreach_angle": "Use the official firm contact route for a manual resource suggestion only; offer the free checklist as a plain-language companion and explicitly state it is not a substitute for legal advice or the firm's services.",
+      "confidence": "high",
+      "status": "research",
+      "date": "2026-08-15",
+      "response": null,
+      "mention_or_link": null,
+      "source_evidence": "https://clarkmeyers.com/",
+      "automation_note": "Qualified for manual editorial/resource review; contact form route is not eligible for automated sending."
+    },
+    {
+      "opportunity_id": "O-2026-038",
+      "domain": "signallawyers.ca",
+      "publication": "Signal Lawyers",
+      "relevant_url": "https://www.signallawyers.ca/resources",
+      "author": "Signal Lawyers editorial team",
+      "public_contact_method": "Public company contact route: hello@signallawyers.ca listed at https://www.signallawyers.ca/terms; resources page: https://www.signallawyers.ca/resources.",
+      "topic": "small-business contract redlines, termination, indemnity, IP, and payment terms",
+      "detecthiddenfees_asset": "/before-signing-contract-checklist",
+      "why_relevant": "Signal Lawyers maintains a current free resource library for Ontario small businesses, including a pre-signing SaaS supply-agreement checklist covering indemnity, liability, termination, IP, payment, and confidentiality. The free DetectHiddenFees checklist adds a concise fee, renewal, cancellation, deadline, and total-cost scan.",
+      "relevant_existing_article": "https://www.signallawyers.ca/resources",
+      "suggested_outreach_angle": "Offer the printable checklist as a complementary first-pass tool for small-business readers before they seek jurisdiction-specific legal advice; do not ask for a reciprocal link or imply endorsement.",
+      "confidence": "high",
+      "status": "research",
+      "date": "2026-08-15",
+      "response": null,
+      "mention_or_link": null,
+      "source_evidence": "https://www.signallawyers.ca/terms",
+      "automation_note": "Qualified for manual editorial review; not added to the automated send queue this session."
     }
   ]
 }
