@@ -8,6 +8,7 @@ const engineConfig = readJson(path.join(root, 'seo', 'growth-engine.config.json'
 const statePath = path.join(root, config.state_path);
 const digestJsonPath = path.join(root, config.digest_json_path);
 const digestMarkdownPath = path.join(root, config.digest_markdown_path);
+const actionQueue = require('./growth-action-queue');
 
 function readJson(file, fallback = null) {
   try { return JSON.parse(fs.readFileSync(file, 'utf8')); }
@@ -63,6 +64,32 @@ function loadState() {
 }
 
 function maybeIngestSearchConsole(state) {
+  const snapshotFile = process.env.GSC_SNAPSHOT_JSON || path.join(root, 'private', 'growth-engine', 'current-gsc-snapshot.json');
+  const snapshot = readJson(snapshotFile, null);
+  if (snapshot?.source_status && snapshot?.current_totals && Array.isArray(snapshot.opportunities)) {
+    state.gsc = {
+      ...(state.gsc || {}),
+      source_status: snapshot.source_status,
+      source_files: [path.basename(snapshotFile)],
+      current_totals: snapshot.current_totals,
+      snapshot_captured_at: snapshot.captured_at || null,
+      manual_opportunities: snapshot.opportunities,
+      last_checked_at: now()
+    };
+    state.opportunities = snapshot.opportunities.map(item => ({
+      id: `snapshot:${String(item.query || item.page || '').toLowerCase()}`,
+      query: item.query || null,
+      page: item.page || null,
+      source: 'owner_provided_24h_snapshot',
+      evidence: { clicks: Number(item.clicks || 0), impressions: Number(item.impressions || 0), ctr: Number(item.ctr || 0), position: Number(item.position || 100), granularity: item.granularity || 'snapshot' },
+      growth_priority_score: Number(item.growth_priority_score || 0),
+      decision: item.decision || 'authority_distribution_only',
+      recommended_action: item.recommended_action || 'Create a qualified authority/distribution action; preserve the ranking page.',
+      protected_asset: /what-questions-should-i-ask-before-signing-a-contract/.test(item.page || '')
+    })).sort((a, b) => b.growth_priority_score - a.growth_priority_score || b.evidence.impressions - a.evidence.impressions);
+    writeJson(statePath, state);
+    return { status: 'PASS_FRESH_SNAPSHOT', source: 'owner_provided_24h_snapshot', records: snapshot.opportunities.length, impressions: snapshot.current_totals.query_impressions };
+  }
   const queryFile = process.env.GSC_QUERY_CSV;
   const pageFile = process.env.GSC_PAGE_CSV;
   const ga4File = process.env.GSC_GA4_JSON || path.join(root, 'private', 'growth-engine', 'current-ga4.json');
@@ -81,17 +108,27 @@ function maybeIngestSearchConsole(state) {
 }
 
 function runOutreachWorker() {
-  const result = safeRun([path.join(root, 'scripts', 'outreach-automation.js'), 'dry-run']);
+  const directSendAuthorized = process.env.OUTREACH_SEND_ENABLED === '1'
+    && process.env.GROWTH_LOOP_EXTERNAL_SEND === '1'
+    && Boolean(process.env.BREVO_API_KEY);
+  const command = directSendAuthorized
+    ? [path.join(root, 'scripts', 'execute-growth-actions.js'), '--outreach']
+    : [path.join(root, 'scripts', 'outreach-automation.js'), 'dry-run'];
+  const result = safeRun(command);
   const output = parseJsonOutput(result.stdout) || {};
   const eligible = Array.isArray(output.will_send) ? output.will_send.map(item => item.opportunity_id).filter(Boolean) : [];
+  const sent = Array.isArray(output.results) ? output.results.filter(item => item.status === 'sent').map(item => item.opportunity_id).filter(Boolean) : [];
+  const blocked = !directSendAuthorized && process.env.GROWTH_LOOP_EXTERNAL_SEND === '1';
   return {
     status: result.status,
-    mode: 'delegated_to_existing_controlled_outreach_workflow',
-    email_sent_by_growth_loop: 0,
+    mode: directSendAuthorized ? 'existing_controlled_outreach_workflow_send' : 'delegated_to_existing_controlled_outreach_workflow',
+    email_sent_by_growth_loop: sent.length,
+    sent_recipient_ids: sent,
     eligible_recipient_ids: eligible,
     daily_new_recipient_cap: config.outreach.daily_new_recipient_cap,
     follow_up_maximum: config.outreach.follow_up_maximum,
     safeguards: config.outreach.safety,
+    blocked_by_send_gate: blocked,
     error: cleanError(result)
   };
 }
@@ -191,9 +228,12 @@ function runGa4Worker(state) {
   const ga4Path = process.env.GA4_STATE_JSON || path.join(root, 'private', 'growth-engine', 'current-ga4.json');
   const ga4 = readJson(ga4Path, state.ga4 || { events: {}, revenue: 0 });
   const events = ga4?.events || {};
+  const observedAt = ga4?.observed_at ? Date.parse(ga4.observed_at) : NaN;
+  const fresh = Boolean(ga4?.source_status && Number.isFinite(observedAt) && Date.now() - observedAt <= 36 * 3600000);
   return {
-    status: ga4?.source_status ? 'PASS' : 'WAITING_FOR_AUTHORIZED_READ',
+    status: fresh ? 'PASS_FRESH' : 'STALE_OR_MISSING_AUTHORIZED_READ',
     source_status: ga4?.source_status || 'not_available_in_runner',
+    fresh,
     users: Number(ga4?.users || 0),
     events: {
       landing_page_view: Number(events.landing_page_view || 0),
@@ -206,6 +246,19 @@ function runGa4Worker(state) {
     },
     revenue: Number(ga4?.revenue || 0),
     privacy: 'counts_only_non_sensitive'
+  };
+}
+
+function runActionQueueWorker(state, outreach) {
+  const queue = actionQueue.buildAndPersist(state, outreach);
+  const executable = (queue.actions || []).filter(item => item.STATUS === 'READY' && !item.OWNER_REQUIRED).slice(0, config.executor.max_actions_per_cycle);
+  return {
+    status: 'PASS',
+    queue_path: config.action_queue_path,
+    summary: actionQueue.summarize(queue),
+    executable_now: executable.map(item => item.ACTION_ID),
+    external_actions_executed: [],
+    note: executable.length ? 'Ready actions are persisted for their safeguarded executor route.' : 'No unattended-safe external executor was eligible in this cycle.'
   };
 }
 
@@ -229,7 +282,7 @@ function updateState(state, workers, previousPlacements) {
     workers,
     outreach: {
       eligible_recipient_ids: outreach.eligible_recipient_ids,
-      emails_sent: 0,
+      emails_sent: outreach.email_sent_by_growth_loop || 0,
       emails_delivered: 0,
       bounces: 0,
       replies: 0,
@@ -252,7 +305,8 @@ function updateState(state, workers, previousPlacements) {
     internal_operations: {
       search_snapshot: workers.search,
       scoring: workers.authority,
-      ai_visibility: workers.ai_visibility
+      ai_visibility: workers.ai_visibility,
+      action_queue: workers.action_queue
     }
   };
   state.execution = {
@@ -330,7 +384,7 @@ function renderDigest(state) {
     traffic,
     funnel,
     authority: { live_placements: external.live_placements, backlinks: external.backlinks, ai_visibility_changes: loop.internal_operations.ai_visibility.observations_added },
-    pipeline: { eligible_recipients: loop.outreach.eligible_recipient_ids.length, pending_reviews: placements.filter(item => item.status === 'pending').length, highest_priority_opportunity: loop.internal_operations.scoring.ranked_actions?.[0] || null },
+    pipeline: { eligible_recipients: loop.outreach.eligible_recipient_ids.length, pending_reviews: placements.filter(item => item.status === 'pending').length, highest_priority_opportunity: loop.internal_operations.scoring.ranked_actions?.[0] || null, action_queue: loop.internal_operations.action_queue.summary },
     owner_action_queue: loop.owner_action_queue,
     alerts: {
       first_sale: funnel.purchases > 0,
@@ -366,6 +420,7 @@ function renderDigest(state) {
     `- Eligible recipients: ${digest.pipeline.eligible_recipients}`,
     `- Pending reviews: ${digest.pipeline.pending_reviews}`,
     `- Highest priority: ${digest.pipeline.highest_priority_opportunity?.id || 'none'}`,
+    `- Action queue: ${digest.pipeline.action_queue?.size || 0} total / ${digest.pipeline.action_queue?.ready || 0} ready`,
     '',
     '## Owner action',
     ...(digest.owner_action_queue.length ? digest.owner_action_queue.map(item => `- ${item.action}: ${item.reason}`) : ['- None']),
@@ -396,6 +451,7 @@ function main() {
   workers.authority = runAuthorityWorker(refreshedState);
   workers.ai_visibility = runAiVisibilityWorker(refreshedState);
   workers.ga4 = runGa4Worker(refreshedState);
+  workers.action_queue = runActionQueueWorker(refreshedState, workers.outreach);
   const finalState = updateState(refreshedState, workers, previousPlacements);
   validateState(finalState);
   writeJson(statePath, finalState);

@@ -1,6 +1,7 @@
 {
   "version": "1.0.0",
   "state_path": "private/growth-engine/state.json",
+  "action_queue_path": "private/growth-engine/growth-action-queue.json",
   "digest_json_path": "private/growth-engine/daily-digest.json",
   "digest_markdown_path": "private/growth-engine/daily-digest.md",
   "cache_key_prefix": "dhf-growth-state-",
@@ -33,6 +34,12 @@
   "distribution": {
     "automatic_submission_policy": "free-explicit-route-no-captcha-no-login-no-payment-no-owner-judgment",
     "known_queue_from_existing_config": true
+  },
+  "executor": {
+    "max_actions_per_cycle": 4,
+    "allowed_action_types": ["OUTREACH_HANDOFF", "EDITORIAL_PITCH", "AUTHORITY_DISTRIBUTION", "DISTRIBUTION_SUBMISSION"],
+    "direct_email_from_growth_loop": false,
+    "direct_submission_from_growth_loop": false
   },
   "ai_visibility": {
     "prompt_file": "seo/ai-visibility-prompts.json",

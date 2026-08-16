@@ -41,7 +41,11 @@ jobs:
       - name: Run one guarded growth cycle
         env:
           GROWTH_LOOP_RUN_ID: ${{ github.run_id }}
-          GROWTH_LOOP_EXTERNAL_SEND: '0'
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          OUTREACH_SEND_ENABLED: '1'
+          GROWTH_LOOP_EXTERNAL_SEND: '1'
+          OUTREACH_FROM_EMAIL: support@detecthiddenfees.com
+          OUTREACH_REPLY_TO: research@detecthiddenfees.com
         run: node scripts/run-growth-loop.js --once
 
       - name: Record local heartbeat
@@ -56,9 +60,9 @@ jobs:
         shell: pwsh
         run: |
           if (Test-Path private/growth-engine/daily-digest.md) {
-            Get-Content private/growth-engine/daily-digest.md | Add-Content $env:GITHUB_STEP_SUMMARY
-          else
-            "Growth digest was not produced." | Add-Content $env:GITHUB_STEP_SUMMARY
+            Get-Content private/growth-engine/daily-digest.md | Add-Content -Path $env:GITHUB_STEP_SUMMARY
+          } else {
+            "Growth digest was not produced." | Add-Content -Path $env:GITHUB_STEP_SUMMARY
           }
 
       - name: Store daily digest

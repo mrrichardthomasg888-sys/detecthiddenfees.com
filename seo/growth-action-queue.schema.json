@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://detecthiddenfees.com/private-schemas/growth-action-queue.json",
+  "title": "DHF Growth Engine V2 Action Queue",
+  "type": "object",
+  "required": ["version", "generated_at", "actions", "summary"],
+  "properties": {
+    "version": { "type": "string" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "actions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["ACTION_ID", "ACTION_TYPE", "TARGET", "SOURCE", "PRIORITY", "STATUS", "ATTEMPTS", "OWNER_REQUIRED"],
+        "properties": {
+          "ACTION_ID": { "type": "string" },
+          "ACTION_TYPE": { "type": "string" },
+          "TARGET": { "type": "string" },
+          "TARGET_URL": { "type": ["string", "null"] },
+          "ASSET": { "type": ["string", "null"] },
+          "SOURCE": { "type": "string" },
+          "PRIORITY": { "type": "number", "minimum": 0, "maximum": 100 },
+          "STATUS": { "enum": ["DISCOVERED", "QUALIFIED", "READY", "EXECUTING", "WAITING", "SUCCEEDED", "FAILED", "REJECTED"] },
+          "ATTEMPTS": { "type": "integer", "minimum": 0 },
+          "OWNER_REQUIRED": { "type": "boolean" }
+        },
+        "additionalProperties": true
+      }
+    },
+    "summary": { "type": "object" }
+  },
+  "additionalProperties": true
+}

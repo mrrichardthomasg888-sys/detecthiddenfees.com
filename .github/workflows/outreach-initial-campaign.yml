@@ -46,9 +46,10 @@ jobs:
         env:
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
           OUTREACH_SEND_ENABLED: '1'
+          GROWTH_LOOP_EXTERNAL_SEND: '1'
           OUTREACH_FROM_EMAIL: support@detecthiddenfees.com
           OUTREACH_REPLY_TO: research@detecthiddenfees.com
-        run: node scripts/outreach-automation.js send
+        run: node scripts/execute-growth-actions.js --outreach
 
       - name: Commit status-only send changes
         if: steps.gate.outputs.enabled == 'true'

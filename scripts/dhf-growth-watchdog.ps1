@@ -4,6 +4,7 @@ $StateDir = Join-Path $Root 'private\growth-engine'
 $LogDir = Join-Path $StateDir 'watchdog-logs'
 $Report = Join-Path $StateDir 'watchdog-last.json'
 $RestartState = Join-Path $StateDir 'watchdog-restarts.json'
+$RequireRunner = $env:DHF_SELF_HOSTED_REQUIRED -eq '1'
 $Log = Join-Path $LogDir (Get-Date -Format 'yyyy-MM-dd')
 New-Item -ItemType Directory -Force -Path $StateDir,$LogDir | Out-Null
 
@@ -35,7 +36,7 @@ if ($runner.Count -gt 0 -and @($runner | Where-Object Status -ne 'Running').Coun
     $restart = 'rate_limited'; Write-Event 'Runner restart suppressed after two attempts in one hour.'
   }
 } elseif ($runner.Count -eq 0) {
-  $restart = 'runner_not_installed'
+  $restart = if ($RequireRunner) { 'runner_not_installed' } else { 'runner_not_required' }
 }
 
 $payload = [ordered]@{
@@ -48,4 +49,6 @@ $payload = [ordered]@{
   protected_assets_modified = $false
 }
 $payload | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath $Report -Encoding utf8
-Write-Event ("runner=$($runner.Count) heartbeat=$heartbeatFresh network=$network disk=$diskHealthy action=$restart")
+if ($RequireRunner -or $runner.Count -gt 0 -or $restart -ne 'runner_not_required') {
+  Write-Event ("runner=$($runner.Count) heartbeat=$heartbeatFresh network=$network disk=$diskHealthy action=$restart")
+}
