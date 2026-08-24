@@ -92,19 +92,21 @@
     },
     "O-2026-024": {
       "opportunity_id": "O-2026-024",
-      "status": "SENT",
+      "status": "FOLLOW_UP_SENT",
       "sent_at": "2026-08-15T15:55:40.523Z",
-      "follow_up_count": 0,
+      "follow_up_count": 1,
       "follow_up_cancelled": false,
-      "suppressed": false
+      "suppressed": false,
+      "follow_up_sent_at": "2026-08-24T15:59:15.765Z"
     },
     "O-2026-025": {
       "opportunity_id": "O-2026-025",
-      "status": "SENT",
+      "status": "FOLLOW_UP_SENT",
       "sent_at": "2026-08-15T15:55:41.975Z",
-      "follow_up_count": 0,
+      "follow_up_count": 1,
       "follow_up_cancelled": false,
-      "suppressed": false
+      "suppressed": false,
+      "follow_up_sent_at": "2026-08-24T15:59:17.150Z"
     }
   }
 }
